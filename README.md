@@ -7,7 +7,7 @@
 </p>
 
 # neo.mjs covid-dashboard
-A multithreading Dashboard showing countries affected by COVID 19.
+A multithreading Dashboard showing countries affected by COVID-19.
 
 Switch the Main tabs (Table, Gallery & Helix). When selecting a country inside the top-left SelectField, this will update
 the route, triggering a selection update on the active view. Selecting an item inside the active view will adjust the
@@ -28,20 +28,20 @@ This is a perfect performance demo for the webworkers driven UI framework <a hre
 6. <a href="#attribution">Attribution</a>
 
 ## Online Versions
-You can find the Online Versions <a href="https://neomjs.github.io/pages/">here on GitHub Pages</a> (COVID-19 Gallery).
+You can find the Online Versions <a href="https://neomjs.github.io/pages/">here on GitHub Pages</a> (COVID-19 Dashboard App).
 
-## Preview Image
+## Preview Images
 <img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covid_gallery.png">
 
 ## Getting Started
 1. Clone this repo to your system to get the project files
    ```sh
-   git clone https://github.com/neomjs/covid19.git
+   git clone https://github.com/neomjs/covid-dashboard.git
    ```
 
 2. Open the checked out top level folder inside your terminal
    ```sh
-   cd covid19
+   cd covid-dashboard
    ```
 
 3. Install the required node modules & run all relevant build scripts at once
@@ -57,10 +57,10 @@ You can find the Online Versions <a href="https://neomjs.github.io/pages/">here 
 Since this app shell was created using:
 > npx neo-app
 
-we do get documentation views for our app source code out of the box:
-> localhost/covid19/docs/index.html
+We do get documentation views for our app source code out of the box:
+> http://localhost:8080/docs/
 
-<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covid_docs.png">
+<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/docs.png">
    
 ## Multithreading
 In case you want to take a closer look at the workers setup, take a look into the Chrome dev tools Sources:
