@@ -1,5 +1,9 @@
-import {default as Component}    from '../../../node_modules/neo.mjs/src/component/Base.mjs';
+import GalleryContainer          from './GalleryContainer.mjs';
+import HeaderContainer           from './HeaderContainer.mjs';
+import HelixContainer            from './HelixContainer.mjs';
+import MainContainerController   from './MainContainerController.mjs';
 import {default as TabContainer} from '../../../node_modules/neo.mjs/src/tab/Container.mjs';
+import TableContainer            from './country/TableContainer.mjs';
 import Viewport                  from '../../../node_modules/neo.mjs/src/container/Viewport.mjs';
 
 /**
@@ -8,39 +12,68 @@ import Viewport                  from '../../../node_modules/neo.mjs/src/contain
  */
 class MainContainer extends Viewport {
     static getConfig() {return {
+        /**
+         * @member {String} className='Covid.view.MainContainer'
+         * @private
+         */
         className: 'Covid.view.MainContainer',
-        ntype    : 'main-container',
-
+        /**
+         * @member {Boolean} autoMount=true
+         */
         autoMount: true,
-        layout   : {ntype: 'fit'},
+        /**
+         * @member {Array} cls=['covid-viewport', 'neo-viewport']
+         */
+        cls: ['covid-viewport', 'neo-viewport'],
+        /**
+         * @member {Neo.controller.Component} controller=MainContainerController
+         */
+        controller: MainContainerController,
+        /**
+         * @member {Object} layout={ntype: 'vbox', align: 'stretch'}
+         */
+        layout: {ntype: 'vbox', align: 'stretch'}
+    }}
 
-        items: [{
-            module: TabContainer,
-            height: 300,
-            width : 500,
-            style : {flex: 'none', margin: '20px'},
+    /**
+     *
+     * @param {Object} config
+     */
+    constructor(config) {
+        super(config);
 
-            itemDefaults: {
-                module: Component,
-                cls   : ['neo-examples-tab-component'],
-                style : {padding: '20px'},
-            },
+        this.items = [HeaderContainer, {
+            module     : TabContainer,
+            activeIndex: this.controller.getTabIndex(Neo.config.hash),
+            flex       : 1,
+            reference  : 'tab-container',
+            style      : {margin: '10px'},
 
             items: [{
+                module         : TableContainer,
+                reference      : 'table',
                 tabButtonConfig: {
-                    iconCls: 'fa fa-home',
-                    text   : 'Tab 1'
-                },
-                vdom: {innerHTML: 'Welcome to your new Neo App.'}
+                    iconCls: 'fa fa-table',
+                    route  : 'mainview=table',
+                    text   : 'Table'
+                }
             }, {
+                module         : GalleryContainer,
                 tabButtonConfig: {
-                    iconCls: 'fa fa-play-circle',
-                    text   : 'Tab 2'
-                },
-                vdom: {innerHTML: 'Have fun creating something awesome!'}
+                    iconCls: 'fa fa-images',
+                    route  : 'mainview=gallery',
+                    text   : 'Gallery'
+                }
+            }, {
+                module         : HelixContainer,
+                tabButtonConfig: {
+                    iconCls: 'fa fa-dna',
+                    route  : 'mainview=helix',
+                    text   : 'Helix'
+                }
             }]
-        }]
-    }}
+        }];
+    }
 }
 
 Neo.applyClassConfig(MainContainer);
