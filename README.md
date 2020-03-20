@@ -21,8 +21,8 @@ This is a perfect performance demo for the webworkers driven UI framework <a hre
 
 ## Content
 1. <a href="#online-versions">Online Versions</a>
-2. <a href="#preview-image">Demo Video</a>
-3. <a href="#preview-image">Preview Images</a>
+2. <a href="#demo-video">Demo Video</a>
+3. <a href="#preview-images">Preview Images</a>
 4. <a href="#getting-started">Getting Started</a>
 5. <a href="#docs-app">Docs App</a>
 6. <a href="#multithreading">Multithreading</a>
