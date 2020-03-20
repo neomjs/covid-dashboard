@@ -89,6 +89,17 @@
     {
         "className": null,
         "collapsed": false,
+        "id": 189,
+        "isLeaf": false,
+        "name": "country",
+        "path": ".view",
+        "parentId": 188,
+        "singleton": false,
+        "srcPath": null
+    },
+    {
+        "className": null,
+        "collapsed": false,
         "id": 33,
         "isLeaf": false,
         "name": "data",
@@ -232,6 +243,17 @@
     {
         "className": null,
         "collapsed": false,
+        "id": 184,
+        "isLeaf": false,
+        "name": "model",
+        "path": "",
+        "parentId": 183,
+        "singleton": false,
+        "srcPath": null
+    },
+    {
+        "className": null,
+        "collapsed": false,
         "id": 112,
         "isLeaf": false,
         "name": "selection",
@@ -248,6 +270,17 @@
         "path": "",
         "parentId": null,
         "singleton": false
+    },
+    {
+        "className": null,
+        "collapsed": false,
+        "id": 186,
+        "isLeaf": false,
+        "name": "store",
+        "path": "",
+        "parentId": 183,
+        "singleton": false,
+        "srcPath": null
     },
     {
         "className": null,
@@ -340,7 +373,7 @@
     {
         "className": null,
         "collapsed": false,
-        "id": 184,
+        "id": 188,
         "isLeaf": false,
         "name": "view",
         "path": "",
@@ -822,6 +855,28 @@
         "srcPath": "node_modules/neo.mjs/src/form/field/trigger/CopyToClipboard.mjs"
     },
     {
+        "className": "Covid.store.Countries",
+        "collapsed": false,
+        "id": 187,
+        "isLeaf": true,
+        "name": "Countries",
+        "path": ".store",
+        "parentId": 186,
+        "singleton": false,
+        "srcPath": "/Shared/github/covid-dashboard/apps/covid/store/Countries.mjs"
+    },
+    {
+        "className": "Covid.model.Country",
+        "collapsed": false,
+        "id": 185,
+        "isLeaf": true,
+        "name": "Country",
+        "path": ".model",
+        "parentId": 184,
+        "singleton": false,
+        "srcPath": "/Shared/github/covid-dashboard/apps/covid/model/Country.mjs"
+    },
+    {
         "className": null,
         "collapsed": true,
         "id": 183,
@@ -1108,6 +1163,39 @@
         "srcPath": "node_modules/neo.mjs/src/component/Gallery.mjs"
     },
     {
+        "className": "Covid.view.country.Gallery",
+        "collapsed": false,
+        "id": 190,
+        "isLeaf": true,
+        "name": "Gallery",
+        "path": ".view.country",
+        "parentId": 189,
+        "singleton": false,
+        "srcPath": "/Shared/github/covid-dashboard/apps/covid/view/country/Gallery.mjs"
+    },
+    {
+        "className": "Covid.view.GalleryContainer",
+        "collapsed": false,
+        "id": 193,
+        "isLeaf": true,
+        "name": "GalleryContainer",
+        "path": ".view",
+        "parentId": 188,
+        "singleton": false,
+        "srcPath": "/Shared/github/covid-dashboard/apps/covid/view/GalleryContainer.mjs"
+    },
+    {
+        "className": "Covid.view.GalleryContainerController",
+        "collapsed": false,
+        "id": 194,
+        "isLeaf": true,
+        "name": "GalleryContainerController",
+        "path": ".view",
+        "parentId": 188,
+        "singleton": false,
+        "srcPath": "/Shared/github/covid-dashboard/apps/covid/view/GalleryContainerController.mjs"
+    },
+    {
         "className": "Neo.selection.GalleryModel",
         "collapsed": false,
         "id": 115,
@@ -1185,6 +1273,17 @@
         "srcPath": "/Shared/github/covid-dashboard/docs/app/view/HeaderContainer.mjs"
     },
     {
+        "className": "Covid.view.HeaderContainer",
+        "collapsed": false,
+        "id": 195,
+        "isLeaf": true,
+        "name": "HeaderContainer",
+        "path": ".view",
+        "parentId": 188,
+        "singleton": false,
+        "srcPath": "/Shared/github/covid-dashboard/apps/covid/view/HeaderContainer.mjs"
+    },
+    {
         "className": "Neo.tab.HeaderToolbar",
         "collapsed": false,
         "id": 129,
@@ -1205,6 +1304,39 @@
         "parentId": 7,
         "singleton": false,
         "srcPath": "node_modules/neo.mjs/src/component/Helix.mjs"
+    },
+    {
+        "className": "Covid.view.country.Helix",
+        "collapsed": false,
+        "id": 191,
+        "isLeaf": true,
+        "name": "Helix",
+        "path": ".view.country",
+        "parentId": 189,
+        "singleton": false,
+        "srcPath": "/Shared/github/covid-dashboard/apps/covid/view/country/Helix.mjs"
+    },
+    {
+        "className": "Covid.view.HelixContainer",
+        "collapsed": false,
+        "id": 196,
+        "isLeaf": true,
+        "name": "HelixContainer",
+        "path": ".view",
+        "parentId": 188,
+        "singleton": false,
+        "srcPath": "/Shared/github/covid-dashboard/apps/covid/view/HelixContainer.mjs"
+    },
+    {
+        "className": "Covid.view.HelixContainerController",
+        "collapsed": false,
+        "id": 197,
+        "isLeaf": true,
+        "name": "HelixContainerController",
+        "path": ".view",
+        "parentId": 188,
+        "singleton": false,
+        "srcPath": "/Shared/github/covid-dashboard/apps/covid/view/HelixContainerController.mjs"
     },
     {
         "className": "Neo.selection.HelixModel",
@@ -1374,11 +1506,11 @@
     {
         "className": "Covid.view.MainContainer",
         "collapsed": false,
-        "id": 185,
+        "id": 198,
         "isLeaf": true,
         "name": "MainContainer",
         "path": ".view",
-        "parentId": 184,
+        "parentId": 188,
         "singleton": false,
         "srcPath": "/Shared/github/covid-dashboard/apps/covid/view/MainContainer.mjs"
     },
@@ -1403,6 +1535,17 @@
         "parentId": 167,
         "singleton": false,
         "srcPath": "/Shared/github/covid-dashboard/docs/app/view/MainContainerController.mjs"
+    },
+    {
+        "className": "Covid.view.MainContainerController",
+        "collapsed": false,
+        "id": 199,
+        "isLeaf": true,
+        "name": "MainContainerController",
+        "path": ".view",
+        "parentId": 188,
+        "singleton": false,
+        "srcPath": "/Shared/github/covid-dashboard/apps/covid/view/MainContainerController.mjs"
     },
     {
         "className": "Neo.worker.Manager",
@@ -1788,6 +1931,17 @@
         "parentId": 96,
         "singleton": true,
         "srcPath": "node_modules/neo.mjs/src/main/mixins/Stylesheet.mjs"
+    },
+    {
+        "className": "Covid.view.country.TableContainer",
+        "collapsed": false,
+        "id": 192,
+        "isLeaf": true,
+        "name": "TableContainer",
+        "path": ".view.country",
+        "parentId": 189,
+        "singleton": false,
+        "srcPath": "/Shared/github/covid-dashboard/apps/covid/view/country/TableContainer.mjs"
     },
     {
         "className": "Neo.form.field.Text",

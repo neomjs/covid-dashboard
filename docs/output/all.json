@@ -79167,10 +79167,2518 @@
         "neoClassName": "Docs.app.view.TutorialsTreeList"
     },
     {
+        "comment": "/**\n * @class Covid.model.Country\n * @extends Neo.data.Model\n */",
+        "meta": {
+            "filename": "Country.mjs",
+            "lineno": 3,
+            "columnno": 0,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/model",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "Country",
+        "augments": [
+            "Neo.data.Model"
+        ],
+        "memberof": "Covid.model",
+        "longname": "Covid.model.Country",
+        "scope": "static",
+        "$longname": "Covid.model.Country",
+        "$kind": "class",
+        "id": 2153,
+        "neoClassName": "Covid.model.Country"
+    },
+    {
+        "comment": "/**\n * @class Covid.store.Countries\n * @extends Neo.data.Store\n */",
+        "meta": {
+            "filename": "Countries.mjs",
+            "lineno": 4,
+            "columnno": 0,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/store",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "Countries",
+        "augments": [
+            "Neo.data.Store"
+        ],
+        "memberof": "Covid.store",
+        "longname": "Covid.store.Countries",
+        "scope": "static",
+        "$longname": "Covid.store.Countries",
+        "$kind": "class",
+        "id": 2154,
+        "neoClassName": "Covid.store.Countries"
+    },
+    {
+        "comment": "/**\n * @class Covid.view.country.Gallery\n * @extends Neo.component.Gallery\n */",
+        "meta": {
+            "filename": "Gallery.mjs",
+            "lineno": 4,
+            "columnno": 0,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "Gallery",
+        "augments": [
+            "Neo.component.Gallery"
+        ],
+        "memberof": "Covid.view.country",
+        "longname": "Covid.view.country.Gallery",
+        "scope": "static",
+        "$longname": "Covid.view.country.Gallery",
+        "$kind": "class",
+        "id": 2155,
+        "neoClassName": "Covid.view.country.Gallery"
+    },
+    {
+        "comment": "/**\n         * @member {String} className='Covid.view.Gallery'\n         * @private\n         */",
+        "meta": {
+            "filename": "Gallery.mjs",
+            "lineno": 14,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "className",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'Covid.view.Gallery'",
+        "access": "private",
+        "longname": "className",
+        "scope": "global",
+        "$longname": "className",
+        "$kind": "property",
+        "id": 2156,
+        "neoClassName": "Covid.view.country.Gallery"
+    },
+    {
+        "comment": "/**\n         * @member {String[]} cls=['covid-country-gallery', 'neo-gallery', 'page', 'view']\n         */",
+        "meta": {
+            "filename": "Gallery.mjs",
+            "lineno": 18,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "cls",
+        "type": {
+            "names": [
+                "Array.<String>"
+            ]
+        },
+        "defaultvalue": "['covid-country-gallery', 'neo-gallery', 'page', 'view']",
+        "description": "'neo-gallery', 'page', 'view']",
+        "longname": "cls",
+        "scope": "global",
+        "$longname": "cls",
+        "$kind": "property",
+        "id": 2157,
+        "neoClassName": "Covid.view.country.Gallery"
+    },
+    {
+        "comment": "/**\n         * The image height of the gallery\n         * @member {Number} imageHeight=240\n         */",
+        "meta": {
+            "filename": "Gallery.mjs",
+            "lineno": 23,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "description": "The image height of the gallery",
+        "kind": "member",
+        "name": "imageHeight",
+        "type": {
+            "names": [
+                "Number"
+            ]
+        },
+        "defaultvalue": 240,
+        "longname": "imageHeight",
+        "scope": "global",
+        "$longname": "imageHeight",
+        "$kind": "property",
+        "id": 2158,
+        "neoClassName": "Covid.view.country.Gallery"
+    },
+    {
+        "comment": "/**\n         * The image width of the gallery\n         * @member {Number} imageWidth=320\n         */",
+        "meta": {
+            "filename": "Gallery.mjs",
+            "lineno": 28,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "description": "The image width of the gallery",
+        "kind": "member",
+        "name": "imageWidth",
+        "type": {
+            "names": [
+                "Number"
+            ]
+        },
+        "defaultvalue": 320,
+        "longname": "imageWidth",
+        "scope": "global",
+        "$longname": "imageWidth",
+        "$kind": "property",
+        "id": 2159,
+        "neoClassName": "Covid.view.country.Gallery"
+    },
+    {
+        "comment": "/**\n         * @member {Object} itemTpl_\n         */",
+        "meta": {
+            "filename": "Gallery.mjs",
+            "lineno": 32,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "itemTpl_",
+        "type": {
+            "names": [
+                "Object"
+            ]
+        },
+        "longname": "itemTpl_",
+        "scope": "global",
+        "$longname": "itemTpl_",
+        "$kind": "property",
+        "id": 2160,
+        "neoClassName": "Covid.view.country.Gallery"
+    },
+    {
+        "comment": "/**\n         * The unique record field containing the id.\n         * @member {String} keyProperty='id'\n         */",
+        "meta": {
+            "filename": "Gallery.mjs",
+            "lineno": 90,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "description": "The unique record field containing the id.",
+        "kind": "member",
+        "name": "keyProperty",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'id'",
+        "longname": "keyProperty",
+        "scope": "global",
+        "$longname": "keyProperty",
+        "$kind": "property",
+        "id": 2161,
+        "neoClassName": "Covid.view.country.Gallery"
+    },
+    {
+        "comment": "/**\n         * True to select the item inside the middle of the store items on mount\n         * @member {Boolean} selectOnMount=false\n         */",
+        "meta": {
+            "filename": "Gallery.mjs",
+            "lineno": 95,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "description": "True to select the item inside the middle of the store items on mount",
+        "kind": "member",
+        "name": "selectOnMount",
+        "type": {
+            "names": [
+                "Boolean"
+            ]
+        },
+        "defaultvalue": false,
+        "longname": "selectOnMount",
+        "scope": "global",
+        "$longname": "selectOnMount",
+        "$kind": "property",
+        "id": 2162,
+        "neoClassName": "Covid.view.country.Gallery"
+    },
+    {
+        "comment": "/**\n         * @member {Neo.data.Store} store=CountryStore\n         */",
+        "meta": {
+            "filename": "Gallery.mjs",
+            "lineno": 99,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "store",
+        "type": {
+            "names": [
+                "Neo.data.Store"
+            ]
+        },
+        "defaultvalue": "CountryStore",
+        "longname": "store",
+        "scope": "global",
+        "$longname": "store",
+        "$kind": "property",
+        "id": 2163,
+        "neoClassName": "Covid.view.country.Gallery"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} config\n     */",
+        "meta": {
+            "range": [
+                3806,
+                4137
+            ],
+            "filename": "Gallery.mjs",
+            "lineno": 106,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {
+                "id": "astnode100071192",
+                "name": "CountryGallery",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "config"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "config"
+            }
+        ],
+        "name": "CountryGallery",
+        "longname": "CountryGallery",
+        "kind": "class",
+        "scope": "global",
+        "$longname": "CountryGallery",
+        "$kind": "constructor",
+        "id": 2164,
+        "neoClassName": "Covid.view.country.Gallery"
+    },
+    {
+        "comment": "/**\n     * Override this method to get different item-markups\n     * @param {Object} vdomItem\n     * @param {Object} record\n     * @param {Number} index\n     * @returns {Object} vdomItem\n     */",
+        "meta": {
+            "range": [
+                4342,
+                5216
+            ],
+            "filename": "Gallery.mjs",
+            "lineno": 124,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {
+                "id": "astnode100071227",
+                "name": "CountryGallery#createItem",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "vdomItem",
+                    "record",
+                    "index"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Override this method to get different item-markups",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "vdomItem"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "record"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "index"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "vdomItem"
+            }
+        ],
+        "name": "createItem",
+        "longname": "CountryGallery#createItem",
+        "kind": "function",
+        "memberof": "CountryGallery",
+        "scope": "instance",
+        "$longname": "CountryGallery#createItem",
+        "$kind": "method",
+        "id": 2165,
+        "neoClassName": "Covid.view.country.Gallery"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {String} vnodeId\n     * @returns {String} itemId\n     */",
+        "meta": {
+            "range": [
+                5308,
+                5373
+            ],
+            "filename": "Gallery.mjs",
+            "lineno": 155,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {
+                "id": "astnode100071446",
+                "name": "CountryGallery#getItemId",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "vnodeId"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "vnodeId"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "itemId"
+            }
+        ],
+        "name": "getItemId",
+        "longname": "CountryGallery#getItemId",
+        "kind": "function",
+        "memberof": "CountryGallery",
+        "scope": "instance",
+        "$longname": "CountryGallery#getItemId",
+        "$kind": "method",
+        "id": 2166,
+        "neoClassName": "Covid.view.country.Gallery"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Array} items\n     */",
+        "meta": {
+            "range": [
+                5430,
+                5653
+            ],
+            "filename": "Gallery.mjs",
+            "lineno": 163,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {
+                "id": "astnode100071459",
+                "name": "CountryGallery#onStoreLoad",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "items"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Array"
+                    ]
+                },
+                "name": "items"
+            }
+        ],
+        "name": "onStoreLoad",
+        "longname": "CountryGallery#onStoreLoad",
+        "kind": "function",
+        "memberof": "CountryGallery",
+        "scope": "instance",
+        "$longname": "CountryGallery#onStoreLoad",
+        "$kind": "method",
+        "id": 2167,
+        "neoClassName": "Covid.view.country.Gallery"
+    },
+    {
+        "comment": "/**\n * @class Covid.view.country.Helix\n * @extends Neo.component.Helix\n */",
+        "meta": {
+            "filename": "Helix.mjs",
+            "lineno": 4,
+            "columnno": 0,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "Helix",
+        "augments": [
+            "Neo.component.Helix"
+        ],
+        "memberof": "Covid.view.country",
+        "longname": "Covid.view.country.Helix",
+        "scope": "static",
+        "$longname": "Covid.view.country.Helix",
+        "$kind": "class",
+        "id": 2168,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n         * @member {String} className='Covid.view.country.Helix'\n         * @private\n         */",
+        "meta": {
+            "filename": "Helix.mjs",
+            "lineno": 14,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "className",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'Covid.view.country.Helix'",
+        "access": "private",
+        "longname": "className",
+        "scope": "global",
+        "$longname": "className",
+        "$kind": "property",
+        "id": 2169,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n         * @member {String[]} cls=['covid-country-helix', 'neo-helix']\n         */",
+        "meta": {
+            "filename": "Helix.mjs",
+            "lineno": 18,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "cls",
+        "type": {
+            "names": [
+                "Array.<String>"
+            ]
+        },
+        "defaultvalue": "['covid-country-helix', 'neo-helix']",
+        "description": "'neo-helix']",
+        "longname": "cls",
+        "scope": "global",
+        "$longname": "cls",
+        "$kind": "property",
+        "id": 2170,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n         * The vertical delta between each helix item (increasing this value will create a spiral)\n         * @member {Number} deltaY=1.2\n         */",
+        "meta": {
+            "filename": "Helix.mjs",
+            "lineno": 23,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "description": "The vertical delta between each helix item (increasing this value will create a spiral)",
+        "kind": "member",
+        "name": "deltaY",
+        "type": {
+            "names": [
+                "Number"
+            ]
+        },
+        "defaultvalue": 1.2,
+        "longname": "deltaY",
+        "scope": "global",
+        "$longname": "deltaY",
+        "$kind": "property",
+        "id": 2171,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n         * @member {Object} itemTpl_\n         */",
+        "meta": {
+            "filename": "Helix.mjs",
+            "lineno": 27,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "itemTpl_",
+        "type": {
+            "names": [
+                "Object"
+            ]
+        },
+        "longname": "itemTpl_",
+        "scope": "global",
+        "$longname": "itemTpl_",
+        "$kind": "property",
+        "id": 2172,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n         * The unique record field containing the id.\n         * @member {String} keyProperty='id'\n         */",
+        "meta": {
+            "filename": "Helix.mjs",
+            "lineno": 86,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "description": "The unique record field containing the id.",
+        "kind": "member",
+        "name": "keyProperty",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'id'",
+        "longname": "keyProperty",
+        "scope": "global",
+        "$longname": "keyProperty",
+        "$kind": "property",
+        "id": 2173,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n         * The radius of the Helix in px\n         * @member {Number} radius=2500\n         */",
+        "meta": {
+            "filename": "Helix.mjs",
+            "lineno": 91,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "description": "The radius of the Helix in px",
+        "kind": "member",
+        "name": "radius",
+        "type": {
+            "names": [
+                "Number"
+            ]
+        },
+        "defaultvalue": 2500,
+        "longname": "radius",
+        "scope": "global",
+        "$longname": "radius",
+        "$kind": "property",
+        "id": 2174,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n         * The rotationAngle of the Helix in degrees\n         * @member {Number} rotationAngle=720\n         */",
+        "meta": {
+            "filename": "Helix.mjs",
+            "lineno": 96,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "description": "The rotationAngle of the Helix in degrees",
+        "kind": "member",
+        "name": "rotationAngle",
+        "type": {
+            "names": [
+                "Number"
+            ]
+        },
+        "defaultvalue": 720,
+        "longname": "rotationAngle",
+        "scope": "global",
+        "$longname": "rotationAngle",
+        "$kind": "property",
+        "id": 2175,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n         * True displays the first & last name record fields below an expanded item\n         * @member {Boolean} showCloneInfo=false\n         */",
+        "meta": {
+            "filename": "Helix.mjs",
+            "lineno": 101,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "description": "True displays the first & last name record fields below an expanded item",
+        "kind": "member",
+        "name": "showCloneInfo",
+        "type": {
+            "names": [
+                "Boolean"
+            ]
+        },
+        "defaultvalue": false,
+        "longname": "showCloneInfo",
+        "scope": "global",
+        "$longname": "showCloneInfo",
+        "$kind": "property",
+        "id": 2176,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n         * @member {Neo.data.Store} store=CountryStore\n         */",
+        "meta": {
+            "filename": "Helix.mjs",
+            "lineno": 105,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "store",
+        "type": {
+            "names": [
+                "Neo.data.Store"
+            ]
+        },
+        "defaultvalue": "CountryStore",
+        "longname": "store",
+        "scope": "global",
+        "$longname": "store",
+        "$kind": "property",
+        "id": 2177,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n         * The translateX value gets included into each helix item\n         * @member {Number} translateY=500\n         */",
+        "meta": {
+            "filename": "Helix.mjs",
+            "lineno": 110,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "description": "The translateX value gets included into each helix item",
+        "kind": "member",
+        "name": "translateY",
+        "type": {
+            "names": [
+                "Number"
+            ]
+        },
+        "defaultvalue": 500,
+        "longname": "translateY",
+        "scope": "global",
+        "$longname": "translateY",
+        "$kind": "property",
+        "id": 2178,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n         * The translateX value gets included into each helix item\n         * @member {Number} translateZ_=-2300\n         */",
+        "meta": {
+            "filename": "Helix.mjs",
+            "lineno": 115,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "description": "The translateX value gets included into each helix item",
+        "kind": "member",
+        "name": "translateZ_",
+        "type": {
+            "names": [
+                "Number"
+            ]
+        },
+        "defaultvalue": -2300,
+        "longname": "translateZ_",
+        "scope": "global",
+        "$longname": "translateZ_",
+        "$kind": "property",
+        "id": 2179,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} config\n     */",
+        "meta": {
+            "range": [
+                4272,
+                4603
+            ],
+            "filename": "Helix.mjs",
+            "lineno": 122,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {
+                "id": "astnode100071706",
+                "name": "CountryHelix",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "config"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "config"
+            }
+        ],
+        "name": "CountryHelix",
+        "longname": "CountryHelix",
+        "kind": "class",
+        "scope": "global",
+        "$longname": "CountryHelix",
+        "$kind": "constructor",
+        "id": 2180,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} vdomItem\n     * @param {Object} record\n     * @param {Number} index\n     * @returns {Object} vdomItem\n     */",
+        "meta": {
+            "range": [
+                4757,
+                5447
+            ],
+            "filename": "Helix.mjs",
+            "lineno": 140,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {
+                "id": "astnode100071741",
+                "name": "CountryHelix#createItem",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "vdomItem",
+                    "record",
+                    "index"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "vdomItem"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "record"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "index"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "description": "vdomItem"
+            }
+        ],
+        "name": "createItem",
+        "longname": "CountryHelix#createItem",
+        "kind": "function",
+        "memberof": "CountryHelix",
+        "scope": "instance",
+        "$longname": "CountryHelix#createItem",
+        "$kind": "method",
+        "id": 2181,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n     *\n     * @returns {String}\n     */",
+        "meta": {
+            "range": [
+                5500,
+                5824
+            ],
+            "filename": "Helix.mjs",
+            "lineno": 164,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {
+                "id": "astnode100071918",
+                "name": "CountryHelix#getCloneTransform",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                }
+            }
+        ],
+        "name": "getCloneTransform",
+        "longname": "CountryHelix#getCloneTransform",
+        "kind": "function",
+        "memberof": "CountryHelix",
+        "scope": "instance",
+        "params": [],
+        "$longname": "CountryHelix#getCloneTransform",
+        "$kind": "method",
+        "id": 2182,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {String} vnodeId\n     * @returns {String}\n     */",
+        "meta": {
+            "range": [
+                5909,
+                5974
+            ],
+            "filename": "Helix.mjs",
+            "lineno": 178,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {
+                "id": "astnode100071967",
+                "name": "CountryHelix#getItemId",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "vnodeId"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "vnodeId"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                }
+            }
+        ],
+        "name": "getItemId",
+        "longname": "CountryHelix#getItemId",
+        "kind": "function",
+        "memberof": "CountryHelix",
+        "scope": "instance",
+        "$longname": "CountryHelix#getItemId",
+        "$kind": "method",
+        "id": 2183,
+        "neoClassName": "Covid.view.country.Helix"
+    },
+    {
+        "comment": "/**\n * @class Covid.view.country.TableContainer\n * @extends Neo.table.Container\n */",
+        "meta": {
+            "filename": "TableContainer.mjs",
+            "lineno": 4,
+            "columnno": 0,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "TableContainer",
+        "augments": [
+            "Neo.table.Container"
+        ],
+        "memberof": "Covid.view.country",
+        "longname": "Covid.view.country.TableContainer",
+        "scope": "static",
+        "$longname": "Covid.view.country.TableContainer",
+        "$kind": "class",
+        "id": 2184,
+        "neoClassName": "Covid.view.country.TableContainer"
+    },
+    {
+        "comment": "/**\n         * @member {String} className='Covid.view.country.TableContainer'\n         * @private\n         */",
+        "meta": {
+            "filename": "TableContainer.mjs",
+            "lineno": 14,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "className",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'Covid.view.country.TableContainer'",
+        "access": "private",
+        "longname": "className",
+        "scope": "global",
+        "$longname": "className",
+        "$kind": "property",
+        "id": 2185,
+        "neoClassName": "Covid.view.country.TableContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Array} cls=['covid-country-table', 'neo-table-container']\n         */",
+        "meta": {
+            "filename": "TableContainer.mjs",
+            "lineno": 18,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "cls",
+        "type": {
+            "names": [
+                "Array"
+            ]
+        },
+        "defaultvalue": "['covid-country-table', 'neo-table-container']",
+        "description": "'neo-table-container']",
+        "longname": "cls",
+        "scope": "global",
+        "$longname": "cls",
+        "$kind": "property",
+        "id": 2186,
+        "neoClassName": "Covid.view.country.TableContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Boolean} createRandomData=false\n         */",
+        "meta": {
+            "filename": "TableContainer.mjs",
+            "lineno": 22,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "createRandomData",
+        "type": {
+            "names": [
+                "Boolean"
+            ]
+        },
+        "defaultvalue": false,
+        "longname": "createRandomData",
+        "scope": "global",
+        "$longname": "createRandomData",
+        "$kind": "property",
+        "id": 2187,
+        "neoClassName": "Covid.view.country.TableContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Neo.data.Store} store=CountryStore\n         */",
+        "meta": {
+            "filename": "TableContainer.mjs",
+            "lineno": 26,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "store",
+        "type": {
+            "names": [
+                "Neo.data.Store"
+            ]
+        },
+        "defaultvalue": "CountryStore",
+        "longname": "store",
+        "scope": "global",
+        "$longname": "store",
+        "$kind": "property",
+        "id": 2188,
+        "neoClassName": "Covid.view.country.TableContainer"
+    },
+    {
+        "comment": "",
+        "meta": {
+            "range": [
+                2643,
+                2798
+            ],
+            "filename": "TableContainer.mjs",
+            "lineno": 80,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view/country",
+            "code": {
+                "id": "astnode100072134",
+                "name": "TableContainer",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "config"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "undocumented": true,
+        "name": "TableContainer",
+        "longname": "TableContainer",
+        "kind": "class",
+        "scope": "global",
+        "params": [],
+        "$longname": "TableContainer",
+        "$kind": "constructor",
+        "id": 2189,
+        "neoClassName": "Covid.view.country.TableContainer"
+    },
+    {
+        "comment": "/**\n * @class Covid.view.GalleryContainer\n * @extends Neo.container.Base\n */",
+        "meta": {
+            "filename": "GalleryContainer.mjs",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "GalleryContainer",
+        "augments": [
+            "Neo.container.Base"
+        ],
+        "memberof": "Covid.view",
+        "longname": "Covid.view.GalleryContainer",
+        "scope": "static",
+        "$longname": "Covid.view.GalleryContainer",
+        "$kind": "class",
+        "id": 2190,
+        "neoClassName": "Covid.view.GalleryContainer"
+    },
+    {
+        "comment": "/**\n         * @member {String} className='Covid.view.GalleryContainer'\n         * @private\n         */",
+        "meta": {
+            "filename": "GalleryContainer.mjs",
+            "lineno": 18,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "className",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'Covid.view.GalleryContainer'",
+        "access": "private",
+        "longname": "className",
+        "scope": "global",
+        "$longname": "className",
+        "$kind": "property",
+        "id": 2191,
+        "neoClassName": "Covid.view.GalleryContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Boolean} autoMount=true\n         */",
+        "meta": {
+            "filename": "GalleryContainer.mjs",
+            "lineno": 22,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "autoMount",
+        "type": {
+            "names": [
+                "Boolean"
+            ]
+        },
+        "defaultvalue": true,
+        "longname": "autoMount",
+        "scope": "global",
+        "$longname": "autoMount",
+        "$kind": "property",
+        "id": 2192,
+        "neoClassName": "Covid.view.GalleryContainer"
+    },
+    {
+        "comment": "/**\n         * @member {String[]} cls=['neo-gallery-maincontainer', 'neo-viewport']\n         */",
+        "meta": {
+            "filename": "GalleryContainer.mjs",
+            "lineno": 26,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "cls",
+        "type": {
+            "names": [
+                "Array.<String>"
+            ]
+        },
+        "defaultvalue": "['neo-gallery-maincontainer', 'neo-viewport']",
+        "description": "'neo-viewport']",
+        "longname": "cls",
+        "scope": "global",
+        "$longname": "cls",
+        "$kind": "property",
+        "id": 2193,
+        "neoClassName": "Covid.view.GalleryContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Neo.controller.Component|null} controller=GalleryContainerController\n         */",
+        "meta": {
+            "filename": "GalleryContainer.mjs",
+            "lineno": 30,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "controller",
+        "type": {
+            "names": [
+                "Neo.controller.Component",
+                "null"
+            ]
+        },
+        "defaultvalue": "GalleryContainerController",
+        "longname": "controller",
+        "scope": "global",
+        "$longname": "controller",
+        "$kind": "property",
+        "id": 2194,
+        "neoClassName": "Covid.view.GalleryContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Neo.component.Gallery|null} gallery=null\n         */",
+        "meta": {
+            "filename": "GalleryContainer.mjs",
+            "lineno": 34,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "gallery",
+        "type": {
+            "names": [
+                "Neo.component.Gallery",
+                "null"
+            ]
+        },
+        "defaultvalue": null,
+        "longname": "gallery",
+        "scope": "global",
+        "$longname": "gallery",
+        "$kind": "property",
+        "id": 2195,
+        "neoClassName": "Covid.view.GalleryContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Object|null} galleryConfig=null\n         */",
+        "meta": {
+            "filename": "GalleryContainer.mjs",
+            "lineno": 38,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "galleryConfig",
+        "type": {
+            "names": [
+                "Object",
+                "null"
+            ]
+        },
+        "defaultvalue": null,
+        "longname": "galleryConfig",
+        "scope": "global",
+        "$longname": "galleryConfig",
+        "$kind": "property",
+        "id": 2196,
+        "neoClassName": "Covid.view.GalleryContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Object|null} layout={ntype: 'hbox', align: 'stretch'}\n         */",
+        "meta": {
+            "filename": "GalleryContainer.mjs",
+            "lineno": 42,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "layout",
+        "type": {
+            "names": [
+                "Object",
+                "null"
+            ]
+        },
+        "defaultvalue": "{ntype: 'hbox', align: 'stretch'}",
+        "description": "'hbox', align: 'stretch'}",
+        "longname": "layout",
+        "scope": "global",
+        "$longname": "layout",
+        "$kind": "property",
+        "id": 2197,
+        "neoClassName": "Covid.view.GalleryContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Object[]|null} items\n         */",
+        "meta": {
+            "filename": "GalleryContainer.mjs",
+            "lineno": 46,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "items",
+        "type": {
+            "names": [
+                "Array.<Object>",
+                "null"
+            ]
+        },
+        "longname": "items",
+        "scope": "global",
+        "$longname": "items",
+        "$kind": "property",
+        "id": 2198,
+        "neoClassName": "Covid.view.GalleryContainer"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} config\n     */",
+        "meta": {
+            "range": [
+                7477,
+                7749
+            ],
+            "filename": "GalleryContainer.mjs",
+            "lineno": 209,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100072550",
+                "name": "GalleryContainer",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "config"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "config"
+            }
+        ],
+        "name": "GalleryContainer",
+        "longname": "GalleryContainer",
+        "kind": "class",
+        "scope": "global",
+        "$longname": "GalleryContainer",
+        "$kind": "constructor",
+        "id": 2199,
+        "neoClassName": "Covid.view.GalleryContainer"
+    },
+    {
+        "comment": "/**\n     *\n     */",
+        "meta": {
+            "range": [
+                7778,
+                7863
+            ],
+            "filename": "GalleryContainer.mjs",
+            "lineno": 226,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100072597",
+                "name": "GalleryContainer#destroy",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "args"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "name": "destroy",
+        "longname": "GalleryContainer#destroy",
+        "kind": "function",
+        "memberof": "GalleryContainer",
+        "scope": "instance",
+        "params": [],
+        "$longname": "GalleryContainer#destroy",
+        "$kind": "method",
+        "id": 2200,
+        "neoClassName": "Covid.view.GalleryContainer"
+    },
+    {
+        "comment": "/**\n * @class Covid.view.GalleryContainerController\n * @extends Neo.controller.Component\n */",
+        "meta": {
+            "filename": "GalleryContainerController.mjs",
+            "lineno": 3,
+            "columnno": 0,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "GalleryContainerController",
+        "augments": [
+            "Neo.controller.Component"
+        ],
+        "memberof": "Covid.view",
+        "longname": "Covid.view.GalleryContainerController",
+        "scope": "static",
+        "$longname": "Covid.view.GalleryContainerController",
+        "$kind": "class",
+        "id": 2201,
+        "neoClassName": "Covid.view.GalleryContainerController"
+    },
+    {
+        "comment": "/**\n         * @member {String} className='Covid.view.GalleryContainerController'\n         * @private\n         */",
+        "meta": {
+            "filename": "GalleryContainerController.mjs",
+            "lineno": 13,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "className",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'Covid.view.GalleryContainerController'",
+        "access": "private",
+        "longname": "className",
+        "scope": "global",
+        "$longname": "className",
+        "$kind": "property",
+        "id": 2202,
+        "neoClassName": "Covid.view.GalleryContainerController"
+    },
+    {
+        "comment": "/**\n         * @member {Neo.component.Gallery|null} gallery_=null\n         * @private\n         */",
+        "meta": {
+            "filename": "GalleryContainerController.mjs",
+            "lineno": 18,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "gallery_",
+        "type": {
+            "names": [
+                "Neo.component.Gallery",
+                "null"
+            ]
+        },
+        "defaultvalue": null,
+        "access": "private",
+        "longname": "gallery_",
+        "scope": "global",
+        "$longname": "gallery_",
+        "$kind": "property",
+        "id": 2203,
+        "neoClassName": "Covid.view.GalleryContainerController"
+    },
+    {
+        "comment": "/**\n     * Triggered when accessing the gallery config\n     * @param {Neo.component.Gallery|null} value\n     * @private\n     */",
+        "meta": {
+            "range": [
+                752,
+                904
+            ],
+            "filename": "GalleryContainerController.mjs",
+            "lineno": 26,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100072646",
+                "name": "GalleryContainerController#beforeGetGallery",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "value"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Triggered when accessing the gallery config",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Neo.component.Gallery",
+                        "null"
+                    ]
+                },
+                "name": "value"
+            }
+        ],
+        "access": "private",
+        "name": "beforeGetGallery",
+        "longname": "GalleryContainerController#beforeGetGallery",
+        "kind": "function",
+        "memberof": "GalleryContainerController",
+        "scope": "instance",
+        "$longname": "GalleryContainerController#beforeGetGallery",
+        "$kind": "method",
+        "id": 2204,
+        "neoClassName": "Covid.view.GalleryContainerController"
+    },
+    {
+        "comment": "/**\n     * {Object} data\n     */",
+        "meta": {
+            "range": [
+                947,
+                1178
+            ],
+            "filename": "GalleryContainerController.mjs",
+            "lineno": 37,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100072669",
+                "name": "GalleryContainerController#onCollapseButtonClick",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "{Object} data",
+        "name": "onCollapseButtonClick",
+        "longname": "GalleryContainerController#onCollapseButtonClick",
+        "kind": "function",
+        "memberof": "GalleryContainerController",
+        "scope": "instance",
+        "params": [],
+        "$longname": "GalleryContainerController#onCollapseButtonClick",
+        "$kind": "method",
+        "id": 2205,
+        "neoClassName": "Covid.view.GalleryContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} data\n     */",
+        "meta": {
+            "range": [
+                1235,
+                1487
+            ],
+            "filename": "GalleryContainerController.mjs",
+            "lineno": 50,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100072709",
+                "name": "GalleryContainerController#onOrderButtonClick",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "data"
+            }
+        ],
+        "name": "onOrderButtonClick",
+        "longname": "GalleryContainerController#onOrderButtonClick",
+        "kind": "function",
+        "memberof": "GalleryContainerController",
+        "scope": "instance",
+        "$longname": "GalleryContainerController#onOrderButtonClick",
+        "$kind": "method",
+        "id": 2206,
+        "neoClassName": "Covid.view.GalleryContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} data\n     */",
+        "meta": {
+            "range": [
+                1544,
+                1629
+            ],
+            "filename": "GalleryContainerController.mjs",
+            "lineno": 63,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100072745",
+                "name": "GalleryContainerController#onRangefieldChange",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "data"
+            }
+        ],
+        "name": "onRangefieldChange",
+        "longname": "GalleryContainerController#onRangefieldChange",
+        "kind": "function",
+        "memberof": "GalleryContainerController",
+        "scope": "instance",
+        "$longname": "GalleryContainerController#onRangefieldChange",
+        "$kind": "method",
+        "id": 2207,
+        "neoClassName": "Covid.view.GalleryContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {String} id\n     */",
+        "meta": {
+            "range": [
+                1684,
+                1965
+            ],
+            "filename": "GalleryContainerController.mjs",
+            "lineno": 71,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100072764",
+                "name": "GalleryContainerController#onRangefieldMounted",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "id"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "name": "onRangefieldMounted",
+        "longname": "GalleryContainerController#onRangefieldMounted",
+        "kind": "function",
+        "memberof": "GalleryContainerController",
+        "scope": "instance",
+        "$longname": "GalleryContainerController#onRangefieldMounted",
+        "$kind": "method",
+        "id": 2208,
+        "neoClassName": "Covid.view.GalleryContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} data\n     */",
+        "meta": {
+            "range": [
+                2022,
+                2180
+            ],
+            "filename": "GalleryContainerController.mjs",
+            "lineno": 84,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100072820",
+                "name": "GalleryContainerController#onSortButtonClick",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "data"
+            }
+        ],
+        "name": "onSortButtonClick",
+        "longname": "GalleryContainerController#onSortButtonClick",
+        "kind": "function",
+        "memberof": "GalleryContainerController",
+        "scope": "instance",
+        "$longname": "GalleryContainerController#onSortButtonClick",
+        "$kind": "method",
+        "id": 2209,
+        "neoClassName": "Covid.view.GalleryContainerController"
+    },
+    {
+        "comment": "/**\n * @class Covid.view.HeaderContainer\n * @extends Neo.container.Base\n */",
+        "meta": {
+            "filename": "HeaderContainer.mjs",
+            "lineno": 5,
+            "columnno": 0,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "HeaderContainer",
+        "augments": [
+            "Neo.container.Base"
+        ],
+        "memberof": "Covid.view",
+        "longname": "Covid.view.HeaderContainer",
+        "scope": "static",
+        "$longname": "Covid.view.HeaderContainer",
+        "$kind": "class",
+        "id": 2210,
+        "neoClassName": "Covid.view.HeaderContainer"
+    },
+    {
+        "comment": "/**\n         * @member {String} className='Covid.view.HeaderContainer'\n         * @private\n         */",
+        "meta": {
+            "filename": "HeaderContainer.mjs",
+            "lineno": 15,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "className",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'Covid.view.HeaderContainer'",
+        "access": "private",
+        "longname": "className",
+        "scope": "global",
+        "$longname": "className",
+        "$kind": "property",
+        "id": 2211,
+        "neoClassName": "Covid.view.HeaderContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Number} height=70\n         */",
+        "meta": {
+            "filename": "HeaderContainer.mjs",
+            "lineno": 19,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "height",
+        "type": {
+            "names": [
+                "Number"
+            ]
+        },
+        "defaultvalue": 70,
+        "longname": "height",
+        "scope": "global",
+        "$longname": "height",
+        "$kind": "property",
+        "id": 2212,
+        "neoClassName": "Covid.view.HeaderContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Object} layout={ntype: 'hbox', align: 'stretch'}\n         */",
+        "meta": {
+            "filename": "HeaderContainer.mjs",
+            "lineno": 23,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "layout",
+        "type": {
+            "names": [
+                "Object"
+            ]
+        },
+        "defaultvalue": "{ntype: 'hbox', align: 'stretch'}",
+        "description": "'hbox', align: 'stretch'}",
+        "longname": "layout",
+        "scope": "global",
+        "$longname": "layout",
+        "$kind": "property",
+        "id": 2213,
+        "neoClassName": "Covid.view.HeaderContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Object} itemDefaults\n         */",
+        "meta": {
+            "filename": "HeaderContainer.mjs",
+            "lineno": 27,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "itemDefaults",
+        "type": {
+            "names": [
+                "Object"
+            ]
+        },
+        "longname": "itemDefaults",
+        "scope": "global",
+        "$longname": "itemDefaults",
+        "$kind": "property",
+        "id": 2214,
+        "neoClassName": "Covid.view.HeaderContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Array} items\n         */",
+        "meta": {
+            "filename": "HeaderContainer.mjs",
+            "lineno": 33,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "items",
+        "type": {
+            "names": [
+                "Array"
+            ]
+        },
+        "longname": "items",
+        "scope": "global",
+        "$longname": "items",
+        "$kind": "property",
+        "id": 2215,
+        "neoClassName": "Covid.view.HeaderContainer"
+    },
+    {
+        "comment": "/**\n * @class Covid.view.HelixContainer\n * @extends Neo.container.Base\n */",
+        "meta": {
+            "filename": "HelixContainer.mjs",
+            "lineno": 8,
+            "columnno": 0,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "HelixContainer",
+        "augments": [
+            "Neo.container.Base"
+        ],
+        "memberof": "Covid.view",
+        "longname": "Covid.view.HelixContainer",
+        "scope": "static",
+        "$longname": "Covid.view.HelixContainer",
+        "$kind": "class",
+        "id": 2216,
+        "neoClassName": "Covid.view.HelixContainer"
+    },
+    {
+        "comment": "/**\n         * @member {String} className='Covid.view.HelixContainer'\n         * @private\n         */",
+        "meta": {
+            "filename": "HelixContainer.mjs",
+            "lineno": 18,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "className",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'Covid.view.HelixContainer'",
+        "access": "private",
+        "longname": "className",
+        "scope": "global",
+        "$longname": "className",
+        "$kind": "property",
+        "id": 2217,
+        "neoClassName": "Covid.view.HelixContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Boolean} autoMount=true\n         */",
+        "meta": {
+            "filename": "HelixContainer.mjs",
+            "lineno": 22,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "autoMount",
+        "type": {
+            "names": [
+                "Boolean"
+            ]
+        },
+        "defaultvalue": true,
+        "longname": "autoMount",
+        "scope": "global",
+        "$longname": "autoMount",
+        "$kind": "property",
+        "id": 2218,
+        "neoClassName": "Covid.view.HelixContainer"
+    },
+    {
+        "comment": "/**\n         * @member {String[]} cls=['neo-helix-maincontainer', 'neo-viewport']\n         */",
+        "meta": {
+            "filename": "HelixContainer.mjs",
+            "lineno": 26,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "cls",
+        "type": {
+            "names": [
+                "Array.<String>"
+            ]
+        },
+        "defaultvalue": "['neo-helix-maincontainer', 'neo-viewport']",
+        "description": "'neo-viewport']",
+        "longname": "cls",
+        "scope": "global",
+        "$longname": "cls",
+        "$kind": "property",
+        "id": 2219,
+        "neoClassName": "Covid.view.HelixContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Neo.controller.Component|null} controller=HelixContainerController\n         */",
+        "meta": {
+            "filename": "HelixContainer.mjs",
+            "lineno": 30,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "controller",
+        "type": {
+            "names": [
+                "Neo.controller.Component",
+                "null"
+            ]
+        },
+        "defaultvalue": "HelixContainerController",
+        "longname": "controller",
+        "scope": "global",
+        "$longname": "controller",
+        "$kind": "property",
+        "id": 2220,
+        "neoClassName": "Covid.view.HelixContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Neo.component.Helix|null} helix=null\n         */",
+        "meta": {
+            "filename": "HelixContainer.mjs",
+            "lineno": 34,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "helix",
+        "type": {
+            "names": [
+                "Neo.component.Helix",
+                "null"
+            ]
+        },
+        "defaultvalue": null,
+        "longname": "helix",
+        "scope": "global",
+        "$longname": "helix",
+        "$kind": "property",
+        "id": 2221,
+        "neoClassName": "Covid.view.HelixContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Object|null} helixConfig=null\n         */",
+        "meta": {
+            "filename": "HelixContainer.mjs",
+            "lineno": 38,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "helixConfig",
+        "type": {
+            "names": [
+                "Object",
+                "null"
+            ]
+        },
+        "defaultvalue": null,
+        "longname": "helixConfig",
+        "scope": "global",
+        "$longname": "helixConfig",
+        "$kind": "property",
+        "id": 2222,
+        "neoClassName": "Covid.view.HelixContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Object|null} layout={ntype: 'hbox', align: 'stretch'}\n         */",
+        "meta": {
+            "filename": "HelixContainer.mjs",
+            "lineno": 42,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "layout",
+        "type": {
+            "names": [
+                "Object",
+                "null"
+            ]
+        },
+        "defaultvalue": "{ntype: 'hbox', align: 'stretch'}",
+        "description": "'hbox', align: 'stretch'}",
+        "longname": "layout",
+        "scope": "global",
+        "$longname": "layout",
+        "$kind": "property",
+        "id": 2223,
+        "neoClassName": "Covid.view.HelixContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Object[]|null} items\n         */",
+        "meta": {
+            "filename": "HelixContainer.mjs",
+            "lineno": 46,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "items",
+        "type": {
+            "names": [
+                "Array.<Object>",
+                "null"
+            ]
+        },
+        "longname": "items",
+        "scope": "global",
+        "$longname": "items",
+        "$kind": "property",
+        "id": 2224,
+        "neoClassName": "Covid.view.HelixContainer"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} config\n     */",
+        "meta": {
+            "range": [
+                9189,
+                9451
+            ],
+            "filename": "HelixContainer.mjs",
+            "lineno": 255,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100073575",
+                "name": "HelixContainer",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "config"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "config"
+            }
+        ],
+        "name": "HelixContainer",
+        "longname": "HelixContainer",
+        "kind": "class",
+        "scope": "global",
+        "$longname": "HelixContainer",
+        "$kind": "constructor",
+        "id": 2225,
+        "neoClassName": "Covid.view.HelixContainer"
+    },
+    {
+        "comment": "/**\n * @class Covid.view.HelixContainerController\n * @extends Neo.controller.Component\n */",
+        "meta": {
+            "filename": "HelixContainerController.mjs",
+            "lineno": 3,
+            "columnno": 0,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "HelixContainerController",
+        "augments": [
+            "Neo.controller.Component"
+        ],
+        "memberof": "Covid.view",
+        "longname": "Covid.view.HelixContainerController",
+        "scope": "static",
+        "$longname": "Covid.view.HelixContainerController",
+        "$kind": "class",
+        "id": 2226,
+        "neoClassName": "Covid.view.HelixContainerController"
+    },
+    {
+        "comment": "/**\n         * @member {String} className='Covid.view.HelixContainerController'\n         * @private\n         */",
+        "meta": {
+            "filename": "HelixContainerController.mjs",
+            "lineno": 13,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "className",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'Covid.view.HelixContainerController'",
+        "access": "private",
+        "longname": "className",
+        "scope": "global",
+        "$longname": "className",
+        "$kind": "property",
+        "id": 2227,
+        "neoClassName": "Covid.view.HelixContainerController"
+    },
+    {
+        "comment": "/**\n         * @member {Neo.component.Helix|null} helix_=null\n         * @private\n         */",
+        "meta": {
+            "filename": "HelixContainerController.mjs",
+            "lineno": 18,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "helix_",
+        "type": {
+            "names": [
+                "Neo.component.Helix",
+                "null"
+            ]
+        },
+        "defaultvalue": null,
+        "access": "private",
+        "longname": "helix_",
+        "scope": "global",
+        "$longname": "helix_",
+        "$kind": "property",
+        "id": 2228,
+        "neoClassName": "Covid.view.HelixContainerController"
+    },
+    {
+        "comment": "/**\n     * Triggered when accessing the helix config\n     * @param {Neo.component.Helix|null} value\n     * @private\n     */",
+        "meta": {
+            "range": [
+                734,
+                880
+            ],
+            "filename": "HelixContainerController.mjs",
+            "lineno": 26,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100073652",
+                "name": "HelixContainerController#beforeGetHelix",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "value"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "Triggered when accessing the helix config",
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Neo.component.Helix",
+                        "null"
+                    ]
+                },
+                "name": "value"
+            }
+        ],
+        "access": "private",
+        "name": "beforeGetHelix",
+        "longname": "HelixContainerController#beforeGetHelix",
+        "kind": "function",
+        "memberof": "HelixContainerController",
+        "scope": "instance",
+        "$longname": "HelixContainerController#beforeGetHelix",
+        "$kind": "method",
+        "id": 2229,
+        "neoClassName": "Covid.view.HelixContainerController"
+    },
+    {
+        "comment": "/**\n     * {Object} data\n     */",
+        "meta": {
+            "range": [
+                923,
+                1154
+            ],
+            "filename": "HelixContainerController.mjs",
+            "lineno": 37,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100073675",
+                "name": "HelixContainerController#onCollapseButtonClick",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "{Object} data",
+        "name": "onCollapseButtonClick",
+        "longname": "HelixContainerController#onCollapseButtonClick",
+        "kind": "function",
+        "memberof": "HelixContainerController",
+        "scope": "instance",
+        "params": [],
+        "$longname": "HelixContainerController#onCollapseButtonClick",
+        "$kind": "method",
+        "id": 2230,
+        "neoClassName": "Covid.view.HelixContainerController"
+    },
+    {
+        "comment": "/**\n     * {Object} data\n     */",
+        "meta": {
+            "range": [
+                1197,
+                1283
+            ],
+            "filename": "HelixContainerController.mjs",
+            "lineno": 49,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100073715",
+                "name": "HelixContainerController#onFlipItemsButtonClick",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "{Object} data",
+        "name": "onFlipItemsButtonClick",
+        "longname": "HelixContainerController#onFlipItemsButtonClick",
+        "kind": "function",
+        "memberof": "HelixContainerController",
+        "scope": "instance",
+        "params": [],
+        "$longname": "HelixContainerController#onFlipItemsButtonClick",
+        "$kind": "method",
+        "id": 2231,
+        "neoClassName": "Covid.view.HelixContainerController"
+    },
+    {
+        "comment": "/**\n     * {Object} data\n     */",
+        "meta": {
+            "range": [
+                1326,
+                1675
+            ],
+            "filename": "HelixContainerController.mjs",
+            "lineno": 56,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100073733",
+                "name": "HelixContainerController#onFollowSelectionButtonClick",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "description": "{Object} data",
+        "name": "onFollowSelectionButtonClick",
+        "longname": "HelixContainerController#onFollowSelectionButtonClick",
+        "kind": "function",
+        "memberof": "HelixContainerController",
+        "scope": "instance",
+        "params": [],
+        "$longname": "HelixContainerController#onFollowSelectionButtonClick",
+        "$kind": "method",
+        "id": 2232,
+        "neoClassName": "Covid.view.HelixContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} data\n     */",
+        "meta": {
+            "range": [
+                1732,
+                1954
+            ],
+            "filename": "HelixContainerController.mjs",
+            "lineno": 72,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100073780",
+                "name": "HelixContainerController#onRangefieldChange",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "data"
+            }
+        ],
+        "name": "onRangefieldChange",
+        "longname": "HelixContainerController#onRangefieldChange",
+        "kind": "function",
+        "memberof": "HelixContainerController",
+        "scope": "instance",
+        "$longname": "HelixContainerController#onRangefieldChange",
+        "$kind": "method",
+        "id": 2233,
+        "neoClassName": "Covid.view.HelixContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {String} id\n     */",
+        "meta": {
+            "range": [
+                2009,
+                2266
+            ],
+            "filename": "HelixContainerController.mjs",
+            "lineno": 86,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100073819",
+                "name": "HelixContainerController#onRangefieldMounted",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "id"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "id"
+            }
+        ],
+        "name": "onRangefieldMounted",
+        "longname": "HelixContainerController#onRangefieldMounted",
+        "kind": "function",
+        "memberof": "HelixContainerController",
+        "scope": "instance",
+        "$longname": "HelixContainerController#onRangefieldMounted",
+        "$kind": "method",
+        "id": 2234,
+        "neoClassName": "Covid.view.HelixContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} data\n     */",
+        "meta": {
+            "range": [
+                2323,
+                2479
+            ],
+            "filename": "HelixContainerController.mjs",
+            "lineno": 99,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100073869",
+                "name": "HelixContainerController#onSortButtonClick",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "data"
+            }
+        ],
+        "name": "onSortButtonClick",
+        "longname": "HelixContainerController#onSortButtonClick",
+        "kind": "function",
+        "memberof": "HelixContainerController",
+        "scope": "instance",
+        "$longname": "HelixContainerController#onSortButtonClick",
+        "$kind": "method",
+        "id": 2235,
+        "neoClassName": "Covid.view.HelixContainerController"
+    },
+    {
         "comment": "/**\n * @class Covid.view.MainContainer\n * @extends Neo.container.Viewport\n */",
         "meta": {
             "filename": "MainContainer.mjs",
-            "lineno": 5,
+            "lineno": 9,
             "columnno": 0,
             "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
             "code": {}
@@ -79185,7 +81693,968 @@
         "scope": "static",
         "$longname": "Covid.view.MainContainer",
         "$kind": "class",
-        "id": 2153,
+        "id": 2236,
         "neoClassName": "Covid.view.MainContainer"
+    },
+    {
+        "comment": "/**\n         * @member {String} className='Covid.view.MainContainer'\n         * @private\n         */",
+        "meta": {
+            "filename": "MainContainer.mjs",
+            "lineno": 19,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "className",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'Covid.view.MainContainer'",
+        "access": "private",
+        "longname": "className",
+        "scope": "global",
+        "$longname": "className",
+        "$kind": "property",
+        "id": 2237,
+        "neoClassName": "Covid.view.MainContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Boolean} autoMount=true\n         */",
+        "meta": {
+            "filename": "MainContainer.mjs",
+            "lineno": 23,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "autoMount",
+        "type": {
+            "names": [
+                "Boolean"
+            ]
+        },
+        "defaultvalue": true,
+        "longname": "autoMount",
+        "scope": "global",
+        "$longname": "autoMount",
+        "$kind": "property",
+        "id": 2238,
+        "neoClassName": "Covid.view.MainContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Array} cls=['covid-viewport', 'neo-viewport']\n         */",
+        "meta": {
+            "filename": "MainContainer.mjs",
+            "lineno": 27,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "cls",
+        "type": {
+            "names": [
+                "Array"
+            ]
+        },
+        "defaultvalue": "['covid-viewport', 'neo-viewport']",
+        "description": "'neo-viewport']",
+        "longname": "cls",
+        "scope": "global",
+        "$longname": "cls",
+        "$kind": "property",
+        "id": 2239,
+        "neoClassName": "Covid.view.MainContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Neo.controller.Component} controller=MainContainerController\n         */",
+        "meta": {
+            "filename": "MainContainer.mjs",
+            "lineno": 31,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "controller",
+        "type": {
+            "names": [
+                "Neo.controller.Component"
+            ]
+        },
+        "defaultvalue": "MainContainerController",
+        "longname": "controller",
+        "scope": "global",
+        "$longname": "controller",
+        "$kind": "property",
+        "id": 2240,
+        "neoClassName": "Covid.view.MainContainer"
+    },
+    {
+        "comment": "/**\n         * @member {Object} layout={ntype: 'vbox', align: 'stretch'}\n         */",
+        "meta": {
+            "filename": "MainContainer.mjs",
+            "lineno": 35,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "layout",
+        "type": {
+            "names": [
+                "Object"
+            ]
+        },
+        "defaultvalue": "{ntype: 'vbox', align: 'stretch'}",
+        "description": "'vbox', align: 'stretch'}",
+        "longname": "layout",
+        "scope": "global",
+        "$longname": "layout",
+        "$kind": "property",
+        "id": 2241,
+        "neoClassName": "Covid.view.MainContainer"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} config\n     */",
+        "meta": {
+            "range": [
+                1418,
+                2554
+            ],
+            "filename": "MainContainer.mjs",
+            "lineno": 42,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100073959",
+                "name": "MainContainer",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "config"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "config"
+            }
+        ],
+        "name": "MainContainer",
+        "longname": "MainContainer",
+        "kind": "class",
+        "scope": "global",
+        "$longname": "MainContainer",
+        "$kind": "constructor",
+        "id": 2242,
+        "neoClassName": "Covid.view.MainContainer"
+    },
+    {
+        "comment": "/**\n * @class Covid.view.MainContainerController\n * @extends Neo.controller.Component\n */",
+        "meta": {
+            "filename": "MainContainerController.mjs",
+            "lineno": 4,
+            "columnno": 0,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "class",
+        "name": "MainContainerController",
+        "augments": [
+            "Neo.controller.Component"
+        ],
+        "memberof": "Covid.view",
+        "longname": "Covid.view.MainContainerController",
+        "scope": "static",
+        "$longname": "Covid.view.MainContainerController",
+        "$kind": "class",
+        "id": 2243,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n         * A regex to replace blank chars\n         * @member {RegExp} flagRegEx=/ /gi\n         * @private\n         * @static\n         */",
+        "meta": {
+            "filename": "MainContainerController.mjs",
+            "lineno": 16,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "description": "A regex to replace blank chars",
+        "kind": "member",
+        "name": "flagRegEx",
+        "type": {
+            "names": [
+                "RegExp"
+            ]
+        },
+        "defaultvalue": "/",
+        "access": "private",
+        "scope": "static",
+        "longname": "flagRegEx",
+        "$longname": "flagRegEx",
+        "$kind": "property",
+        "id": 2244,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n         * @member {String} className='Covid.view.MainContainerController'\n         * @private\n         */",
+        "meta": {
+            "filename": "MainContainerController.mjs",
+            "lineno": 24,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "className",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'Covid.view.MainContainerController'",
+        "access": "private",
+        "longname": "className",
+        "scope": "global",
+        "$longname": "className",
+        "$kind": "property",
+        "id": 2245,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n         * @member {String} ntype='maincontainer-controller'\n         * @private\n         */",
+        "meta": {
+            "filename": "MainContainerController.mjs",
+            "lineno": 29,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "ntype",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'maincontainer-controller'",
+        "access": "private",
+        "longname": "ntype",
+        "scope": "global",
+        "$longname": "ntype",
+        "$kind": "property",
+        "id": 2246,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n         * @member {Number} activeMainTabIndex=0\n         */",
+        "meta": {
+            "filename": "MainContainerController.mjs",
+            "lineno": 33,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "activeMainTabIndex",
+        "type": {
+            "names": [
+                "Number"
+            ]
+        },
+        "defaultvalue": 0,
+        "longname": "activeMainTabIndex",
+        "scope": "global",
+        "$longname": "activeMainTabIndex",
+        "$kind": "property",
+        "id": 2247,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n         * @member {String} apiUrl='https://corona.lmao.ninja/countries'\n         */",
+        "meta": {
+            "filename": "MainContainerController.mjs",
+            "lineno": 37,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "apiUrl",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'https://corona.lmao.ninja/countries'",
+        "longname": "apiUrl",
+        "scope": "global",
+        "$longname": "apiUrl",
+        "$kind": "property",
+        "id": 2248,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n         * @member {String} apiSummaryUrl='https://corona.lmao.ninja/all'\n         */",
+        "meta": {
+            "filename": "MainContainerController.mjs",
+            "lineno": 41,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "apiSummaryUrl",
+        "type": {
+            "names": [
+                "String"
+            ]
+        },
+        "defaultvalue": "'https://corona.lmao.ninja/all'",
+        "longname": "apiSummaryUrl",
+        "scope": "global",
+        "$longname": "apiSummaryUrl",
+        "$kind": "property",
+        "id": 2249,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n         * @member {Object[]|null} data=null\n         */",
+        "meta": {
+            "filename": "MainContainerController.mjs",
+            "lineno": 45,
+            "columnno": 8,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {}
+        },
+        "kind": "member",
+        "name": "data",
+        "type": {
+            "names": [
+                "Array.<Object>",
+                "null"
+            ]
+        },
+        "defaultvalue": null,
+        "longname": "data",
+        "scope": "global",
+        "$longname": "data",
+        "$kind": "property",
+        "id": 2250,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     */",
+        "meta": {
+            "range": [
+                1466,
+                1658
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 51,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100074085",
+                "name": "MainContainerController#onConstructed",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "name": "onConstructed",
+        "longname": "MainContainerController#onConstructed",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "params": [],
+        "$longname": "MainContainerController#onConstructed",
+        "$kind": "method",
+        "id": 2251,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object[]} data\n     */",
+        "meta": {
+            "range": [
+                1717,
+                2217
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 66,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100074120",
+                "name": "MainContainerController#addStoreItems",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Array.<Object>"
+                    ]
+                },
+                "name": "data"
+            }
+        ],
+        "name": "addStoreItems",
+        "longname": "MainContainerController#addStoreItems",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "$longname": "MainContainerController#addStoreItems",
+        "$kind": "method",
+        "id": 2252,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} data\n     * @param {Number} data.cases\n     * @param {Number} data.deaths\n     * @param {Number} data.recovered\n     */",
+        "meta": {
+            "range": [
+                2381,
+                2693
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 93,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100074196",
+                "name": "MainContainerController#applySummaryData",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "data"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "data.cases"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "data.deaths"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "data.recovered"
+            }
+        ],
+        "name": "applySummaryData",
+        "longname": "MainContainerController#applySummaryData",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "$longname": "MainContainerController#applySummaryData",
+        "$kind": "method",
+        "id": 2253,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {String} name\n     * @return {String} url\n     */",
+        "meta": {
+            "range": [
+                2778,
+                4699
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 109,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100074268",
+                "name": "MainContainerController#getCountryFlagUrl",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "name"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "name"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "description": "url"
+            }
+        ],
+        "name": "getCountryFlagUrl",
+        "longname": "MainContainerController#getCountryFlagUrl",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "$longname": "MainContainerController#getCountryFlagUrl",
+        "$kind": "method",
+        "id": 2254,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} hashObject\n     * @param {String} hashObject.mainview\n     * @return {Number}\n     */",
+        "meta": {
+            "range": [
+                4829,
+                5121
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 154,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100074361",
+                "name": "MainContainerController#getTabIndex",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "hashObject"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "hashObject"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "hashObject.mainview"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                }
+            }
+        ],
+        "name": "getTabIndex",
+        "longname": "MainContainerController#getTabIndex",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "$longname": "MainContainerController#getTabIndex",
+        "$kind": "method",
+        "id": 2255,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Number} tabIndex\n     * @return {Neo.component.Base}\n     */",
+        "meta": {
+            "range": [
+                5218,
+                5592
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 174,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100074387",
+                "name": "MainContainerController#getView",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "tabIndex"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Number"
+                    ]
+                },
+                "name": "tabIndex"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Neo.component.Base"
+                    ]
+                }
+            }
+        ],
+        "name": "getView",
+        "longname": "MainContainerController#getView",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "$longname": "MainContainerController#getView",
+        "$kind": "method",
+        "id": 2256,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     */",
+        "meta": {
+            "range": [
+                5621,
+                5861
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 195,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100074424",
+                "name": "MainContainerController#loadData",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "name": "loadData",
+        "longname": "MainContainerController#loadData",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "params": [],
+        "$longname": "MainContainerController#loadData",
+        "$kind": "method",
+        "id": 2257,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     */",
+        "meta": {
+            "range": [
+                5890,
+                6154
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 207,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100074472",
+                "name": "MainContainerController#loadSummaryData",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "name": "loadSummaryData",
+        "longname": "MainContainerController#loadSummaryData",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "params": [],
+        "$longname": "MainContainerController#loadSummaryData",
+        "$kind": "method",
+        "id": 2258,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @param {String} hashString\n     */",
+        "meta": {
+            "range": [
+                6391,
+                8317
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 228,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100074537",
+                "name": "MainContainerController#onHashChange",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "value",
+                    "oldValue",
+                    "hashString"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "value"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "oldValue"
+            },
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "hashString"
+            }
+        ],
+        "name": "onHashChange",
+        "longname": "MainContainerController#onHashChange",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "$longname": "MainContainerController#onHashChange",
+        "$kind": "method",
+        "id": 2259,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     */",
+        "meta": {
+            "range": [
+                8346,
+                8787
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 280,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100074769",
+                "name": "MainContainerController#onMainViewMounted",
+                "type": "MethodDefinition",
+                "paramnames": []
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "name": "onMainViewMounted",
+        "longname": "MainContainerController#onMainViewMounted",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "params": [],
+        "$longname": "MainContainerController#onMainViewMounted",
+        "$kind": "method",
+        "id": 2260,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     * @param {Object} data\n     */",
+        "meta": {
+            "range": [
+                8837,
+                8953
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 297,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100074835",
+                "name": "MainContainerController#onReloadDataButtonClick",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "data"
+            }
+        ],
+        "name": "onReloadDataButtonClick",
+        "longname": "MainContainerController#onReloadDataButtonClick",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "$longname": "MainContainerController#onReloadDataButtonClick",
+        "$kind": "method",
+        "id": 2261,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     * @param {Object} data\n     */",
+        "meta": {
+            "range": [
+                9003,
+                10306
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 307,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100074854",
+                "name": "MainContainerController#onSwitchThemeButtonClick",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "data"
+            }
+        ],
+        "name": "onSwitchThemeButtonClick",
+        "longname": "MainContainerController#onSwitchThemeButtonClick",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "$longname": "MainContainerController#onSwitchThemeButtonClick",
+        "$kind": "method",
+        "id": 2262,
+        "neoClassName": "Covid.view.MainContainerController"
+    },
+    {
+        "comment": "/**\n     *\n     * @param {Object} data\n     * @param {Object} data.record\n     */",
+        "meta": {
+            "range": [
+                10398,
+                10512
+            ],
+            "filename": "MainContainerController.mjs",
+            "lineno": 356,
+            "columnno": 4,
+            "path": "/Users/Shared/github/covid-dashboard/apps/covid/view",
+            "code": {
+                "id": "astnode100075013",
+                "name": "MainContainerController#updateCountryField",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "data"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "data"
+            },
+            {
+                "type": {
+                    "names": [
+                        "Object"
+                    ]
+                },
+                "name": "data.record"
+            }
+        ],
+        "name": "updateCountryField",
+        "longname": "MainContainerController#updateCountryField",
+        "kind": "function",
+        "memberof": "MainContainerController",
+        "scope": "instance",
+        "$longname": "MainContainerController#updateCountryField",
+        "$kind": "method",
+        "id": 2263,
+        "neoClassName": "Covid.view.MainContainerController"
     }
 ]
