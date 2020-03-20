@@ -1,6 +1,7 @@
 {
-    "name": "covid",
-    "version": "0.1.0",
+    "name": "covid19-dashboard",
+    "version": "1.0.0",
+    "description": "Dashboard App displaying numbers by country about COVID-19",
     "scripts": {
         "server-start": "webpack-dev-server --open",
         "build-all": "node ./node_modules/neo.mjs/buildScripts/buildAll.js",
@@ -21,8 +22,29 @@
         "prod-theme-light-no-css4": "webpack --config ./node_modules/neo.mjs/buildScripts/webpack/production/webpack.scss.config.js --env.json_file=theme.light.noCss4.json",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
+    "keywords": [
+        "cvid-19",
+        "cvid19",
+        "javascript",
+        "frontend",
+        "framework",
+        "webworker",
+        "ecmascript",
+        "css",
+        "json"
+    ],
+    "author": "Tobias Uhlig",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/neomjs/covid-dashboard/issues"
+    },
+    "homepage": "https://neomjs.github.io/pages/",
     "dependencies": {
         "neo.mjs": "^1.0.53",
         "sass": "^1.24.0"
+    },
+    "funding": {
+        "type": "GitHub Sponsors",
+        "url": "https://github.com/sponsors/tobiu"
     }
 }
