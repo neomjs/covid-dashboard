@@ -1,15 +1,21 @@
 <p align="center">
-  <a href="https://npmcharts.com/compare/covid19-gallery?minimal=true"><img src="https://img.shields.io/npm/dm/covid19-gallery.svg" alt="Downloads"></a>
-  <a href="https://www.npmjs.com/package/covid19-gallery"><img src="https://img.shields.io/npm/v/covid19-gallery.svg" alt="Version"></a>
-  <a href="https://www.npmjs.com/package/covid19-gallery"><img src="https://img.shields.io/npm/l/covid19-gallery.svg" alt="License"></a>
+  <a href="https://npmcharts.com/compare/covid19-dashboard?minimal=true"><img src="https://img.shields.io/npm/dm/covid19-dashboard.svg" alt="Downloads"></a>
+  <a href="https://www.npmjs.com/package/covid19-dashboard"><img src="https://img.shields.io/npm/v/covid19-dashboard.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/covid19-dashboard"><img src="https://img.shields.io/npm/l/covid19-dashboard.svg" alt="License"></a>
   <a href="https://discord.gg/6p8paPq"><img src="https://img.shields.io/discord/656620537514164249?label=discord%20chat" alt="Chat"></a>
   <a href="./CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-green.svg" alt="PRs Welcome"></a>
 </p>
 
-# neo.mjs covid19
-A multi-threaded Gallery showing countries affected by COVID 19.
+# neo.mjs covid-dashboard
+A multithreading Dashboard showing countries affected by COVID 19.
 
-You can configure and sort the gallery with the controls on the right side, resulting in a firework of CSS3 transitions.
+Switch the Main tabs (Table, Gallery & Helix). When selecting a country inside the top-left SelectField, this will update
+the route, triggering a selection update on the active view. Selecting an item inside the active view will adjust the
+route as well, updating the SelectField as well. Switching tabs will adjust the current selection.
+
+The App supports the dark & light themes.
+
+You can configure and sort the gallery & helix with the controls on the right side, resulting in a firework of CSS3 transitions.
 
 This is a perfect performance demo for the webworkers driven UI framework <a href="https://github.com/neomjs/neo">neo.mjs</a>.
 
