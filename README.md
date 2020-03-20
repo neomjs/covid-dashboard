@@ -21,14 +21,18 @@ This is a perfect performance demo for the webworkers driven UI framework <a hre
 
 ## Content
 1. <a href="#online-versions">Online Versions</a>
-2. <a href="#preview-image">Preview Image</a>
-3. <a href="#getting-started">Getting Started</a>
-4. <a href="#docs-app">Docs App</a>
-5. <a href="#multithreading">Multithreading</a>
-6. <a href="#attribution">Attribution</a>
+2. <a href="#preview-image">Demo Video</a>
+3. <a href="#preview-image">Preview Images</a>
+4. <a href="#getting-started">Getting Started</a>
+5. <a href="#docs-app">Docs App</a>
+6. <a href="#multithreading">Multithreading</a>
+7. <a href="#attribution">Attribution</a>
 
 ## Online Versions
 You can find the Online Versions <a href="https://neomjs.github.io/pages/">here on GitHub Pages</a> (COVID-19 Dashboard App).
+
+## Demo Video
+https://www.youtube.com/watch?v=BhSZS6_UlO4
 
 ## Preview Images
 <img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/table.png">
