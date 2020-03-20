@@ -1,0 +1,2694 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * @class Neo.component.Helix\n * @extends Neo.component.Base\n */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 11,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "kind": "class",
+            "name": "Helix",
+            "augments": [
+                "Neo.component.Base"
+            ],
+            "memberof": "Neo.component",
+            "longname": "Neo.component.Helix",
+            "scope": "static",
+            "$longname": "Neo.component.Helix",
+            "$kind": "class",
+            "id": 400,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Neo.component.Helix'\n         * @private\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 21,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Neo.component.Helix'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 401,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * @member {String} ntype='helix'\n         * @private\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 26,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "ntype",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'helix'",
+            "access": "private",
+            "longname": "ntype",
+            "scope": "global",
+            "$longname": "ntype",
+            "$kind": "property",
+            "id": 402,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The background color of the helix container\n         * @member {String} backgroundColor_='#000000'\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 31,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The background color of the helix container",
+            "kind": "member",
+            "name": "backgroundColor_",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'#000000'",
+            "longname": "backgroundColor_",
+            "scope": "global",
+            "$longname": "backgroundColor_",
+            "$kind": "property",
+            "id": 403,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The background image of the helix container\n         * @member {String} backgroundImage_=''\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 36,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The background image of the helix container",
+            "kind": "member",
+            "name": "backgroundImage_",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "''",
+            "longname": "backgroundImage_",
+            "scope": "global",
+            "$longname": "backgroundImage_",
+            "$kind": "property",
+            "id": 404,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The ids of expanded items will get stored here\n         * @member {Array} clonedItems=[]\n         * @private\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 42,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The ids of expanded items will get stored here",
+            "kind": "member",
+            "name": "clonedItems",
+            "type": {
+                "names": [
+                    "Array"
+                ]
+            },
+            "defaultvalue": "[]",
+            "access": "private",
+            "longname": "clonedItems",
+            "scope": "global",
+            "$longname": "clonedItems",
+            "$kind": "property",
+            "id": 405,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * @member {String[]} cls=['neo-helix']\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 46,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "cls",
+            "type": {
+                "names": [
+                    "Array.<String>"
+                ]
+            },
+            "defaultvalue": "['neo-helix']",
+            "longname": "cls",
+            "scope": "global",
+            "$longname": "cls",
+            "$kind": "property",
+            "id": 406,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The vertical delta between each helix item (increasing this value will create a spiral)\n         * @member {Number} deltaY_=1.5\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 51,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The vertical delta between each helix item (increasing this value will create a spiral)",
+            "kind": "member",
+            "name": "deltaY_",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 1.5,
+            "longname": "deltaY_",
+            "scope": "global",
+            "$longname": "deltaY_",
+            "$kind": "property",
+            "id": 407,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * Multiselections will reduce the opacity and set this flag to true\n         * @member {Boolean} dimmed_=false\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 56,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Multiselections will reduce the opacity and set this flag to true",
+            "kind": "member",
+            "name": "dimmed_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "longname": "dimmed_",
+            "scope": "global",
+            "$longname": "dimmed_",
+            "$kind": "property",
+            "id": 408,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * Multiselections will reduce the opacity and set this flag to true\n         * @member {Number} dimmedMaxOpacity_=0.3\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 61,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Multiselections will reduce the opacity and set this flag to true",
+            "kind": "member",
+            "name": "dimmedMaxOpacity_",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 0.3,
+            "longname": "dimmedMaxOpacity_",
+            "scope": "global",
+            "$longname": "dimmedMaxOpacity_",
+            "$kind": "property",
+            "id": 409,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * Multiselections will reduce the opacity and set this flag to true\n         * @member {Number} dimmedMinOpacity_=0.2\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 66,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Multiselections will reduce the opacity and set this flag to true",
+            "kind": "member",
+            "name": "dimmedMinOpacity_",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 0.2,
+            "longname": "dimmedMinOpacity_",
+            "scope": "global",
+            "$longname": "dimmedMinOpacity_",
+            "$kind": "property",
+            "id": 410,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * Flip images by 180° for a not mirrored inner view\n         * @member {Boolean} flipped_=false\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 72,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Flip images by 180° for a not mirrored inner view",
+            "kind": "member",
+            "name": "flipped_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "longname": "flipped_",
+            "scope": "global",
+            "$longname": "flipped_",
+            "$kind": "property",
+            "id": 411,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * True to rotate the helix when using keynav, so that the selected items stays in front\n         * @member {Boolean} followSelection_=false\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 77,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "True to rotate the helix when using keynav, so that the selected items stays in front",
+            "kind": "member",
+            "name": "followSelection_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "longname": "followSelection_",
+            "scope": "global",
+            "$longname": "followSelection_",
+            "$kind": "property",
+            "id": 412,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The record field containing the image data.\n         * Nested fields are supported (e.g. author.image)\n         * @member {String} imageField='image'\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 83,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The record field containing the image data.<br />Nested fields are supported (e.g. author.image)",
+            "kind": "member",
+            "name": "imageField",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'image'",
+            "longname": "imageField",
+            "scope": "global",
+            "$longname": "imageField",
+            "$kind": "property",
+            "id": 413,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The path to the images folder\n         * Will get set inside the ctor to avoid issues inside the webpack builds\n         * @member {String|null} imageSource=Neo.config.resourcesPath + 'examples/'\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 89,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The path to the images folder<br />Will get set inside the ctor to avoid issues inside the webpack builds",
+            "kind": "member",
+            "name": "imageSource",
+            "type": {
+                "names": [
+                    "String",
+                    "null"
+                ]
+            },
+            "defaultvalue": "Neo.config.resourcesPath",
+            "longname": "imageSource",
+            "scope": "global",
+            "$longname": "imageSource",
+            "$kind": "property",
+            "id": 414,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * Amount of items per row (circle) -> 360° / 10 = 36\n         * @member {Number} itemAngle_=8\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 94,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Amount of items per row (circle) -> 360° / 10 = 36",
+            "kind": "member",
+            "name": "itemAngle_",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 8,
+            "longname": "itemAngle_",
+            "scope": "global",
+            "$longname": "itemAngle_",
+            "$kind": "property",
+            "id": 415,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * @member {Object} itemTpl_\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 98,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "itemTpl_",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "longname": "itemTpl_",
+            "scope": "global",
+            "$longname": "itemTpl_",
+            "$kind": "property",
+            "id": 416,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The unique record field containing the id.\n         * @member {String} keyProperty='id'\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 111,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The unique record field containing the id.",
+            "kind": "member",
+            "name": "keyProperty",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'id'",
+            "longname": "keyProperty",
+            "scope": "global",
+            "$longname": "keyProperty",
+            "$kind": "property",
+            "id": 417,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * Additional used keys for the selection model\n         * @member {Object} keys\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 116,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Additional used keys for the selection model",
+            "kind": "member",
+            "name": "keys",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "longname": "keys",
+            "scope": "global",
+            "$longname": "keys",
+            "$kind": "property",
+            "id": 418,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * We store one instance of the matrix here to avoid creating new ones on each refresh operation\n         * @member {Neo.util.Matrix|null} matrix=null\n         * @private\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 125,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "We store one instance of the matrix here to avoid creating new ones on each refresh operation",
+            "kind": "member",
+            "name": "matrix",
+            "type": {
+                "names": [
+                    "Neo.util.Matrix",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "access": "private",
+            "longname": "matrix",
+            "scope": "global",
+            "$longname": "matrix",
+            "$kind": "property",
+            "id": 419,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The max amount of store items to show\n         * @member {Number} maxItems_=300\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 130,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The max amount of store items to show",
+            "kind": "member",
+            "name": "maxItems_",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 300,
+            "longname": "maxItems_",
+            "scope": "global",
+            "$longname": "maxItems_",
+            "$kind": "property",
+            "id": 420,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The max opacity for items inside the foreground\n         * @member {Number} maxOpacity_=0.8\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 135,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The max opacity for items inside the foreground",
+            "kind": "member",
+            "name": "maxOpacity_",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 0.8,
+            "longname": "maxOpacity_",
+            "scope": "global",
+            "$longname": "maxOpacity_",
+            "$kind": "property",
+            "id": 421,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The max opacity for items inside the background\n         * @member {Number} minOpacity_=0.3\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 140,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The max opacity for items inside the background",
+            "kind": "member",
+            "name": "minOpacity_",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 0.3,
+            "longname": "minOpacity_",
+            "scope": "global",
+            "$longname": "minOpacity_",
+            "$kind": "property",
+            "id": 422,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The zooming factor which replaces the default wheelDelta.\n         * @member {Number} mouseWheelDeltaX=5\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 145,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The zooming factor which replaces the default wheelDelta.",
+            "kind": "member",
+            "name": "mouseWheelDeltaX",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 5,
+            "longname": "mouseWheelDeltaX",
+            "scope": "global",
+            "$longname": "mouseWheelDeltaX",
+            "$kind": "property",
+            "id": 423,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The zooming factor which replaces the default wheelDelta.\n         * @member {Number} mouseWheelDeltaY=50\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 150,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The zooming factor which replaces the default wheelDelta.",
+            "kind": "member",
+            "name": "mouseWheelDeltaY",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 50,
+            "longname": "mouseWheelDeltaY",
+            "scope": "global",
+            "$longname": "mouseWheelDeltaY",
+            "$kind": "property",
+            "id": 424,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * Specifies whether the mouse wheel should change the translateZ value for zooming\n         * @member {Boolean} mouseWheelEnabled_=true\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 155,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Specifies whether the mouse wheel should change the translateZ value for zooming",
+            "kind": "member",
+            "name": "mouseWheelEnabled_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "longname": "mouseWheelEnabled_",
+            "scope": "global",
+            "$longname": "mouseWheelEnabled_",
+            "$kind": "property",
+            "id": 425,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The DOM element offsetHeight of the top level div.\n         * Gets fetched after the helix got mounted.\n         * @member {Boolean} mouseWheelEnabled=true\n         * @private\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 162,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The DOM element offsetHeight of the top level div.<br />Gets fetched after the helix got mounted.",
+            "kind": "member",
+            "name": "mouseWheelEnabled",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "access": "private",
+            "longname": "mouseWheelEnabled",
+            "scope": "global",
+            "$longname": "mouseWheelEnabled",
+            "$kind": "property",
+            "id": 426,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The DOM element offsetWidth of the top level div.\n         * Gets fetched after the helix got mounted.\n         * @member {Boolean} mouseWheelEnabled=true\n         * @private\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 169,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The DOM element offsetWidth of the top level div.<br />Gets fetched after the helix got mounted.",
+            "kind": "member",
+            "name": "mouseWheelEnabled",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "access": "private",
+            "longname": "mouseWheelEnabled",
+            "scope": "global",
+            "$longname": "mouseWheelEnabled",
+            "$kind": "property",
+            "id": 427,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The perspective of the Helix view in px\n         * @member {Number} perspective_=800\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 174,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The perspective of the Helix view in px",
+            "kind": "member",
+            "name": "perspective_",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 800,
+            "longname": "perspective_",
+            "scope": "global",
+            "$longname": "perspective_",
+            "$kind": "property",
+            "id": 428,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The radius of the Helix in px\n         * @member {Number} radius_=1500\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 179,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The radius of the Helix in px",
+            "kind": "member",
+            "name": "radius_",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 1500,
+            "longname": "radius_",
+            "scope": "global",
+            "$longname": "radius_",
+            "$kind": "property",
+            "id": 429,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The rotationAngle of the Helix in degrees\n         * @member {Number} rotationAngle_=780\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 184,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The rotationAngle of the Helix in degrees",
+            "kind": "member",
+            "name": "rotationAngle_",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 780,
+            "longname": "rotationAngle_",
+            "scope": "global",
+            "$longname": "rotationAngle_",
+            "$kind": "property",
+            "id": 430,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * We store one instance of the rotation matrix here to avoid creating new ones on each refresh operation\n         * @member {Neo.util.Matrix|null} rotationMatrix=null\n         * @private\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 190,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "We store one instance of the rotation matrix here to avoid creating new ones on each refresh operation",
+            "kind": "member",
+            "name": "rotationMatrix",
+            "type": {
+                "names": [
+                    "Neo.util.Matrix",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "access": "private",
+            "longname": "rotationMatrix",
+            "scope": "global",
+            "$longname": "rotationMatrix",
+            "$kind": "property",
+            "id": 431,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * True displays the first & last name record fields below an expanded item\n         * @member {Boolean} showCloneInfo=true\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 195,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "True displays the first & last name record fields below an expanded item",
+            "kind": "member",
+            "name": "showCloneInfo",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "longname": "showCloneInfo",
+            "scope": "global",
+            "$longname": "showCloneInfo",
+            "$kind": "property",
+            "id": 432,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The name of the CSS rule for selected items\n         * @member {String} selectedItemCls='neo-selected'\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 200,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The name of the CSS rule for selected items",
+            "kind": "member",
+            "name": "selectedItemCls",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'neo-selected'",
+            "longname": "selectedItemCls",
+            "scope": "global",
+            "$longname": "selectedItemCls",
+            "$kind": "property",
+            "id": 433,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * uses the selection.HelixModel by default\n         * @member {Neo.selection.HelixModel|null} selectionModel_=null\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 205,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "uses the selection.HelixModel by default",
+            "kind": "member",
+            "name": "selectionModel_",
+            "type": {
+                "names": [
+                    "Neo.selection.HelixModel",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "selectionModel_",
+            "scope": "global",
+            "$longname": "selectionModel_",
+            "$kind": "property",
+            "id": 434,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The store instance or class containing the data for the gallery items\n         * @member {Neo.data.Store|null} store_=null\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 210,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The store instance or class containing the data for the gallery items",
+            "kind": "member",
+            "name": "store_",
+            "type": {
+                "names": [
+                    "Neo.data.Store",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "store_",
+            "scope": "global",
+            "$longname": "store_",
+            "$kind": "property",
+            "id": 435,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The setTimeout() ids for calls which can get cancelled\n         * @member {Array} transitionTimeouts=[]\n         * @private\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 216,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The setTimeout() ids for calls which can get cancelled",
+            "kind": "member",
+            "name": "transitionTimeouts",
+            "type": {
+                "names": [
+                    "Array"
+                ]
+            },
+            "defaultvalue": "[]",
+            "access": "private",
+            "longname": "transitionTimeouts",
+            "scope": "global",
+            "$longname": "transitionTimeouts",
+            "$kind": "property",
+            "id": 436,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The translateX gets included into each helix item\n         * @member {Number} translateX_=400\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 221,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The translateX gets included into each helix item",
+            "kind": "member",
+            "name": "translateX_",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 400,
+            "longname": "translateX_",
+            "scope": "global",
+            "$longname": "translateX_",
+            "$kind": "property",
+            "id": 437,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The translateX value gets included into each helix item\n         * @member {Number} translateY_=-350\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 226,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The translateX value gets included into each helix item",
+            "kind": "member",
+            "name": "translateY_",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": -350,
+            "longname": "translateY_",
+            "scope": "global",
+            "$longname": "translateY_",
+            "$kind": "property",
+            "id": 438,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The translateX value gets included into each helix item\n         * @member {Number} translateZ_=-5000\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 231,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The translateX value gets included into each helix item",
+            "kind": "member",
+            "name": "translateZ_",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": -5000,
+            "longname": "translateZ_",
+            "scope": "global",
+            "$longname": "translateZ_",
+            "$kind": "property",
+            "id": 439,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * The url for the store to load the data\n         * @member {String} url_='../resources/examples/data/ai_contacts.json'\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 236,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The url for the store to load the data",
+            "kind": "member",
+            "name": "url_",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'../resources/examples/data/ai_contacts.json'",
+            "longname": "url_",
+            "scope": "global",
+            "$longname": "url_",
+            "$kind": "property",
+            "id": 440,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n         * @member {Object} _vdom\n         */",
+            "meta": {
+                "filename": "Helix.mjs",
+                "lineno": 240,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "_vdom",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "longname": "_vdom",
+            "scope": "global",
+            "$longname": "_vdom",
+            "$kind": "property",
+            "id": 441,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} config\n     */",
+            "meta": {
+                "range": [
+                    8531,
+                    9001
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 262,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100015358",
+                    "name": "Helix",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "config"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config"
+                }
+            ],
+            "name": "Helix",
+            "longname": "Helix",
+            "kind": "class",
+            "scope": "global",
+            "$longname": "Helix",
+            "$kind": "constructor",
+            "id": 442,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    9030,
+                    9332
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 286,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100015428",
+                    "name": "Helix#onConstructed",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "onConstructed",
+            "longname": "Helix#onConstructed",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Helix#onConstructed",
+            "$kind": "method",
+            "id": 443,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * Triggered after the flipped config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    9487,
+                    9582
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 307,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100015468",
+                    "name": "Helix#afterSetFlipped",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the flipped config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetFlipped",
+            "longname": "Helix#afterSetFlipped",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#afterSetFlipped",
+            "$kind": "method",
+            "id": 444,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * Triggered after the maxItem config got changed\n     * @param {Number} value\n     * @param {Number} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    9735,
+                    10017
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 317,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100015483",
+                    "name": "Helix#afterSetMaxItems",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the maxItem config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetMaxItems",
+            "longname": "Helix#afterSetMaxItems",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#afterSetMaxItems",
+            "$kind": "method",
+            "id": 445,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * Triggered after the mounted config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    10172,
+                    10328
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 335,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100015521",
+                    "name": "Helix#afterSetMounted",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the mounted config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetMounted",
+            "longname": "Helix#afterSetMounted",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#afterSetMounted",
+            "$kind": "method",
+            "id": 446,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * Triggered after the perspective config got changed\n     * @param {Number} value\n     * @param {Number} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    10485,
+                    10921
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 349,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100015542",
+                    "name": "Helix#afterSetPerspective",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the perspective config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetPerspective",
+            "longname": "Helix#afterSetPerspective",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#afterSetPerspective",
+            "$kind": "method",
+            "id": 447,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * Triggered after the selectionModel config got changed\n     * @param {Neo.selection.Model} value\n     * @param {Neo.selection.Model} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    11107,
+                    11227
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 373,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100015587",
+                    "name": "Helix#afterSetSelectionModel",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the selectionModel config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.selection.Model"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Neo.selection.Model"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetSelectionModel",
+            "longname": "Helix#afterSetSelectionModel",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#afterSetSelectionModel",
+            "$kind": "method",
+            "id": 448,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * Triggered after the url config got changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    11376,
+                    11531
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 385,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100015604",
+                    "name": "Helix#afterSetUrl",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the url config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetUrl",
+            "longname": "Helix#afterSetUrl",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#afterSetUrl",
+            "$kind": "method",
+            "id": 449,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     * @param callback\n     * @param animationTime\n     * @param callbackParam\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    11655,
+                    13017
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 401,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100015629",
+                    "name": "Helix#applyItemTransitions",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "callback",
+                        "animationTime",
+                        "callbackParam"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "name": "callback"
+                },
+                {
+                    "name": "animationTime"
+                },
+                {
+                    "name": "callbackParam"
+                }
+            ],
+            "access": "private",
+            "name": "applyItemTransitions",
+            "longname": "Helix#applyItemTransitions",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#applyItemTransitions",
+            "$kind": "method",
+            "id": 450,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     * @returns {Object}\n     */",
+            "meta": {
+                "range": [
+                    13071,
+                    13144
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 449,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100015767",
+                    "name": "Helix#beforeGetItemTpl",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    }
+                }
+            ],
+            "name": "beforeGetItemTpl",
+            "longname": "Helix#beforeGetItemTpl",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Helix#beforeGetItemTpl",
+            "$kind": "method",
+            "id": 451,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * Triggered before the selectionModel config gets changed.\n     * @param {Neo.selection.Model} value\n     * @param {Neo.selection.Model} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    13333,
+                    13664
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 459,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100015780",
+                    "name": "Helix#beforeSetSelectionModel",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the selectionModel config gets changed.",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.selection.Model"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Neo.selection.Model"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "beforeSetSelectionModel",
+            "longname": "Helix#beforeSetSelectionModel",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#beforeSetSelectionModel",
+            "$kind": "method",
+            "id": 452,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * Triggered before the store config gets changed.\n     * @param {Neo.data.Store|null} value\n     * @param {Neo.data.Store|null} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    13844,
+                    14523
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 478,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100015810",
+                    "name": "Helix#beforeSetStore",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the store config gets changed.",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.data.Store",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Neo.data.Store",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "beforeSetStore",
+            "longname": "Helix#beforeSetStore",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#beforeSetStore",
+            "$kind": "method",
+            "id": 453,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * Calculate an opacity gradient based on the item rotation angle\n     * @param {Object} item\n     * @returns {Number}\n     */",
+            "meta": {
+                "range": [
+                    14668,
+                    15460
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 510,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100015868",
+                    "name": "Helix#calculateOpacity",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "item"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Calculate an opacity gradient based on the item rotation angle",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "item"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    }
+                }
+            ],
+            "name": "calculateOpacity",
+            "longname": "Helix#calculateOpacity",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#calculateOpacity",
+            "$kind": "method",
+            "id": 454,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * Override this method to get different item-markups\n     * @param {Object} vdomItem\n     * @param {Object} record\n     * @param {Number} index\n     * @returns {Object} vdomItem\n     */",
+            "meta": {
+                "range": [
+                    15665,
+                    15989
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 546,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100015962",
+                    "name": "Helix#createItem",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "vdomItem",
+                        "record",
+                        "index"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Override this method to get different item-markups",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "vdomItem"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "record"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "index"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "description": "vdomItem"
+                }
+            ],
+            "name": "createItem",
+            "longname": "Helix#createItem",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#createItem",
+            "$kind": "method",
+            "id": 455,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * @param {Number} [startIndex] the start index for creating items,\n     * e.g. increasing maxItems only needs to create the new ones\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    16165,
+                    18196
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 562,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100016031",
+                    "name": "Helix#createItems",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "startIndex"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "optional": true,
+                    "description": "the start index for creating items,<br />e.g. increasing maxItems only needs to create the new ones",
+                    "name": "startIndex"
+                }
+            ],
+            "access": "private",
+            "name": "createItems",
+            "longname": "Helix#createItems",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#createItems",
+            "$kind": "method",
+            "id": 456,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    18234,
+                    19477
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 630,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100016354",
+                    "name": "Helix#destroyClones",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "access": "private",
+            "name": "destroyClones",
+            "longname": "Helix#destroyClones",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Helix#destroyClones",
+            "$kind": "method",
+            "id": 457,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Number} [startIndex]\n     * @param {Number} [amountItems]\n     */",
+            "meta": {
+                "range": [
+                    19579,
+                    19792
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 679,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100016496",
+                    "name": "Helix#destroyItems",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "startIndex",
+                        "amountItems"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "optional": true,
+                    "name": "startIndex"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "optional": true,
+                    "name": "amountItems"
+                }
+            ],
+            "name": "destroyItems",
+            "longname": "Helix#destroyItems",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#destroyItems",
+            "$kind": "method",
+            "id": 458,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * Moves a clone of an item to the top left corner\n     * @param {String} itemId\n     */",
+            "meta": {
+                "range": [
+                    19899,
+                    21607
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 691,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100016538",
+                    "name": "Helix#expandItem",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "itemId"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Moves a clone of an item to the top left corner",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "itemId"
+                }
+            ],
+            "name": "expandItem",
+            "longname": "Helix#expandItem",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#expandItem",
+            "$kind": "method",
+            "id": 459,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     * @returns {String}\n     */",
+            "meta": {
+                "range": [
+                    21661,
+                    21985
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 747,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100016755",
+                    "name": "Helix#getCloneTransform",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    }
+                }
+            ],
+            "name": "getCloneTransform",
+            "longname": "Helix#getCloneTransform",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Helix#getCloneTransform",
+            "$kind": "method",
+            "id": 460,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {String} vnodeId\n     * @returns {Number}\n     */",
+            "meta": {
+                "range": [
+                    22070,
+                    22145
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 761,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100016804",
+                    "name": "Helix#getItemId",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "vnodeId"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "vnodeId"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    }
+                }
+            ],
+            "name": "getItemId",
+            "longname": "Helix#getItemId",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#getItemId",
+            "$kind": "method",
+            "id": 461,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * Returns the vdom node containing the helix items\n     * @returns {Object} vdom\n     */",
+            "meta": {
+                "range": [
+                    22253,
+                    22313
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 769,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100016819",
+                    "name": "Helix#getItemsRoot",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Returns the vdom node containing the helix items",
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "description": "vdom"
+                }
+            ],
+            "name": "getItemsRoot",
+            "longname": "Helix#getItemsRoot",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Helix#getItemsRoot",
+            "$kind": "method",
+            "id": 462,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Number|String} id\n     * @returns {String}\n     */",
+            "meta": {
+                "range": [
+                    22400,
+                    22462
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 778,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100016835",
+                    "name": "Helix#getItemVnodeId",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "id"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String"
+                        ]
+                    },
+                    "name": "id"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    }
+                }
+            ],
+            "name": "getItemVnodeId",
+            "longname": "Helix#getItemVnodeId",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#getItemVnodeId",
+            "$kind": "method",
+            "id": 463,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * @param {Number} [delay=100]\n     */",
+            "meta": {
+                "range": [
+                    22519,
+                    23043
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 785,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100016848",
+                    "name": "Helix#getOffsetValues",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "delay"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": 100,
+                    "name": "delay"
+                }
+            ],
+            "name": "getOffsetValues",
+            "longname": "Helix#getOffsetValues",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#getOffsetValues",
+            "$kind": "method",
+            "id": 464,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    23072,
+                    23526
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 806,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100016910",
+                    "name": "Helix#loadData",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "loadData",
+            "longname": "Helix#loadData",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Helix#loadData",
+            "$kind": "method",
+            "id": 465,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {String} itemId\n     */",
+            "meta": {
+                "range": [
+                    23585,
+                    23724
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 826,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100016986",
+                    "name": "Helix#moveToSelectedItem",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "itemId"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "itemId"
+                }
+            ],
+            "name": "moveToSelectedItem",
+            "longname": "Helix#moveToSelectedItem",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#moveToSelectedItem",
+            "$kind": "method",
+            "id": 466,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     */",
+            "meta": {
+                "range": [
+                    23781,
+                    23881
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 835,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100017013",
+                    "name": "Helix#onClick",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "name": "onClick",
+            "longname": "Helix#onClick",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#onClick",
+            "$kind": "method",
+            "id": 467,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     */",
+            "meta": {
+                "range": [
+                    23938,
+                    24081
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 843,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100017034",
+                    "name": "Helix#onKeyDownEnter",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "name": "onKeyDownEnter",
+            "longname": "Helix#onKeyDownEnter",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#onKeyDownEnter",
+            "$kind": "method",
+            "id": 468,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     */",
+            "meta": {
+                "range": [
+                    24138,
+                    24267
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 855,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100017058",
+                    "name": "Helix#onKeyDownSpace",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "name": "onKeyDownSpace",
+            "longname": "Helix#onKeyDownSpace",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#onKeyDownSpace",
+            "$kind": "method",
+            "id": 469,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     */",
+            "meta": {
+                "range": [
+                    24324,
+                    24942
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 863,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100017081",
+                    "name": "Helix#onMouseWheel",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "name": "onMouseWheel",
+            "longname": "Helix#onMouseWheel",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#onMouseWheel",
+            "$kind": "method",
+            "id": 470,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {String[]} value\n     * @param {String[]} oldValue\n     */",
+            "meta": {
+                "range": [
+                    25036,
+                    25242
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 887,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100017162",
+                    "name": "Helix#onSelectionChange",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array.<String>"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array.<String>"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "name": "onSelectionChange",
+            "longname": "Helix#onSelectionChange",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#onSelectionChange",
+            "$kind": "method",
+            "id": 471,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    25280,
+                    25430
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 898,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100017195",
+                    "name": "Helix#onSort",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "access": "private",
+            "name": "onSort",
+            "longname": "Helix#onSort",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Helix#onSort",
+            "$kind": "method",
+            "id": 472,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Array} items\n     */",
+            "meta": {
+                "range": [
+                    25487,
+                    25595
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 910,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100017219",
+                    "name": "Helix#onStoreLoad",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "items"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "items"
+                }
+            ],
+            "name": "onStoreLoad",
+            "longname": "Helix#onStoreLoad",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "$longname": "Helix#onStoreLoad",
+            "$kind": "method",
+            "id": 473,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    25633,
+                    28290
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 918,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100017238",
+                    "name": "Helix#refresh",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "access": "private",
+            "name": "refresh",
+            "longname": "Helix#refresh",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Helix#refresh",
+            "$kind": "method",
+            "id": 474,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    28328,
+                    28420
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 1007,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100017612",
+                    "name": "Helix#refreshIfMounted",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "access": "private",
+            "name": "refreshIfMounted",
+            "longname": "Helix#refreshIfMounted",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Helix#refreshIfMounted",
+            "$kind": "method",
+            "id": 475,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    28449,
+                    29104
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 1016,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100017626",
+                    "name": "Helix#sortItems",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "sortItems",
+            "longname": "Helix#sortItems",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Helix#sortItems",
+            "$kind": "method",
+            "id": 476,
+            "neoClassName": "Neo.component.Helix"
+        },
+        {
+            "comment": "/**\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    29142,
+                    30667
+                ],
+                "filename": "Helix.mjs",
+                "lineno": 1043,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100017728",
+                    "name": "Helix#updateCloneTranslate",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "access": "private",
+            "name": "updateCloneTranslate",
+            "longname": "Helix#updateCloneTranslate",
+            "kind": "function",
+            "memberof": "Helix",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Helix#updateCloneTranslate",
+            "$kind": "method",
+            "id": 477,
+            "neoClassName": "Neo.component.Helix"
+        }
+    ]
+}

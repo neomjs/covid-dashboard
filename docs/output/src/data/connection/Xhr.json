@@ -1,0 +1,621 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * @class Neo.data.connection.Xhr\n * @extends Neo.core.Base\n */",
+            "meta": {
+                "filename": "Xhr.mjs",
+                "lineno": 3,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
+                "code": {}
+            },
+            "kind": "class",
+            "name": "Xhr",
+            "augments": [
+                "Neo.core.Base"
+            ],
+            "memberof": "Neo.data.connection",
+            "longname": "Neo.data.connection.Xhr",
+            "scope": "static",
+            "$longname": "Neo.data.connection.Xhr",
+            "$kind": "class",
+            "id": 642,
+            "neoClassName": "Neo.data.connection.Xhr"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Neo.data.connection.Xhr'\n         * @private\n         */",
+            "meta": {
+                "filename": "Xhr.mjs",
+                "lineno": 13,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Neo.data.connection.Xhr'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 643,
+            "neoClassName": "Neo.data.connection.Xhr"
+        },
+        {
+            "comment": "/**\n         * @member {String} ntype='xhr'\n         * @private\n         */",
+            "meta": {
+                "filename": "Xhr.mjs",
+                "lineno": 18,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "ntype",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'xhr'",
+            "access": "private",
+            "longname": "ntype",
+            "scope": "global",
+            "$longname": "ntype",
+            "$kind": "property",
+            "id": 644,
+            "neoClassName": "Neo.data.connection.Xhr"
+        },
+        {
+            "comment": "/**\n         * @member {Function} callback=null\n         */",
+            "meta": {
+                "filename": "Xhr.mjs",
+                "lineno": 22,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "callback",
+            "type": {
+                "names": [
+                    "function"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "callback",
+            "scope": "global",
+            "$longname": "callback",
+            "$kind": "property",
+            "id": 645,
+            "neoClassName": "Neo.data.connection.Xhr"
+        },
+        {
+            "comment": "/**\n         * @member {Object} requests={}\n         */",
+            "meta": {
+                "filename": "Xhr.mjs",
+                "lineno": 26,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "requests",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": "{}",
+            "longname": "requests",
+            "scope": "global",
+            "$longname": "requests",
+            "$kind": "property",
+            "id": 646,
+            "neoClassName": "Neo.data.connection.Xhr"
+        },
+        {
+            "comment": "/**\n         * @member {Object} scope=null\n         */",
+            "meta": {
+                "filename": "Xhr.mjs",
+                "lineno": 30,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "scope",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "scope",
+            "scope": "global",
+            "$longname": "scope",
+            "$kind": "property",
+            "id": 647,
+            "neoClassName": "Neo.data.connection.Xhr"
+        },
+        {
+            "comment": "/**\n         * @member {Number} timeout=5000\n         */",
+            "meta": {
+                "filename": "Xhr.mjs",
+                "lineno": 34,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "timeout",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 5000,
+            "longname": "timeout",
+            "scope": "global",
+            "$longname": "timeout",
+            "$kind": "property",
+            "id": 648,
+            "neoClassName": "Neo.data.connection.Xhr"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} opts\n     * @param {Function} opts.callback\n     * @param {Object} opts.data\n     * @param {Object} opts.headers\n     * @param {Boolean} opts.insideNeo true for calls with relative URLs inside the framework scope\n     * @param {String} opts.method DELETE, GET, POST, PUT\n     * @param {Object} opts.params\n     * @param {String} opts.responseType\n     * @param {Object} opts.scope\n     * @param {String} opts.url\n     * @returns {XMLHttpRequest}\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    1307,
+                    2946
+                ],
+                "filename": "Xhr.mjs",
+                "lineno": 52,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
+                "code": {
+                    "id": "astnode100023307",
+                    "name": "Xhr#request",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "opts"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "opts"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "function"
+                        ]
+                    },
+                    "name": "opts.callback"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "opts.data"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "opts.headers"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "description": "true for calls with relative URLs inside the framework scope",
+                    "name": "opts.insideNeo"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "description": "DELETE, GET, POST, PUT",
+                    "name": "opts.method"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "opts.params"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "opts.responseType"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "opts.scope"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "opts.url"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "XMLHttpRequest"
+                        ]
+                    }
+                }
+            ],
+            "access": "private",
+            "name": "request",
+            "longname": "Xhr#request",
+            "kind": "function",
+            "memberof": "Xhr",
+            "scope": "instance",
+            "$longname": "Xhr#request",
+            "$kind": "method",
+            "id": 649,
+            "neoClassName": "Neo.data.connection.Xhr"
+        },
+        {
+            "comment": "/**\n     *\n     * @param form\n     * @param {Object} opts\n     * @returns {XMLHttpRequest}\n     */",
+            "meta": {
+                "range": [
+                    3055,
+                    3159
+                ],
+                "filename": "Xhr.mjs",
+                "lineno": 106,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
+                "code": {
+                    "id": "astnode100023570",
+                    "name": "Xhr#sendForm",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "form",
+                        "opts"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "name": "form"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "opts"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "XMLHttpRequest"
+                        ]
+                    }
+                }
+            ],
+            "name": "sendForm",
+            "longname": "Xhr#sendForm",
+            "kind": "function",
+            "memberof": "Xhr",
+            "scope": "instance",
+            "$longname": "Xhr#sendForm",
+            "$kind": "method",
+            "id": 650,
+            "neoClassName": "Neo.data.connection.Xhr"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} e\n     */",
+            "meta": {
+                "range": [
+                    3213,
+                    3594
+                ],
+                "filename": "Xhr.mjs",
+                "lineno": 116,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
+                "code": {
+                    "id": "astnode100023590",
+                    "name": "Xhr#onLoad",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "e"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "e"
+                }
+            ],
+            "name": "onLoad",
+            "longname": "Xhr#onLoad",
+            "kind": "function",
+            "memberof": "Xhr",
+            "scope": "instance",
+            "$longname": "Xhr#onLoad",
+            "$kind": "method",
+            "id": 651,
+            "neoClassName": "Neo.data.connection.Xhr"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} e\n     */",
+            "meta": {
+                "range": [
+                    3648,
+                    4031
+                ],
+                "filename": "Xhr.mjs",
+                "lineno": 135,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
+                "code": {
+                    "id": "astnode100023662",
+                    "name": "Xhr#onError",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "e"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "e"
+                }
+            ],
+            "name": "onError",
+            "longname": "Xhr#onError",
+            "kind": "function",
+            "memberof": "Xhr",
+            "scope": "instance",
+            "$longname": "Xhr#onError",
+            "$kind": "method",
+            "id": 652,
+            "neoClassName": "Neo.data.connection.Xhr"
+        },
+        {
+            "comment": "/**\n     * We cannot clone event objects across messaging\n     * @param {Object} e\n     */",
+            "meta": {
+                "range": [
+                    4132,
+                    4435
+                ],
+                "filename": "Xhr.mjs",
+                "lineno": 154,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
+                "code": {
+                    "id": "astnode100023734",
+                    "name": "Xhr#getResponse",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "e"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "We cannot clone event objects across messaging",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "e"
+                }
+            ],
+            "name": "getResponse",
+            "longname": "Xhr#getResponse",
+            "kind": "function",
+            "memberof": "Xhr",
+            "scope": "instance",
+            "$longname": "Xhr#getResponse",
+            "$kind": "method",
+            "id": 653,
+            "neoClassName": "Neo.data.connection.Xhr"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    4464,
+                    4485
+                ],
+                "filename": "Xhr.mjs",
+                "lineno": 169,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
+                "code": {
+                    "id": "astnode100023768",
+                    "name": "Xhr#onProgress",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "onProgress",
+            "longname": "Xhr#onProgress",
+            "kind": "function",
+            "memberof": "Xhr",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Xhr#onProgress",
+            "$kind": "method",
+            "id": 654,
+            "neoClassName": "Neo.data.connection.Xhr"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} opts\n     * @returns {Promise<any>}\n     */",
+            "meta": {
+                "range": [
+                    4573,
+                    4929
+                ],
+                "filename": "Xhr.mjs",
+                "lineno": 178,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
+                "code": {
+                    "id": "astnode100023772",
+                    "name": "Xhr#promiseRequest",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "opts"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "opts"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Promise.<any>"
+                        ]
+                    }
+                }
+            ],
+            "name": "promiseRequest",
+            "longname": "Xhr#promiseRequest",
+            "kind": "function",
+            "memberof": "Xhr",
+            "scope": "instance",
+            "$longname": "Xhr#promiseRequest",
+            "$kind": "method",
+            "id": 655,
+            "neoClassName": "Neo.data.connection.Xhr"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} opts\n     * @returns {Promise<any>}\n     */",
+            "meta": {
+                "range": [
+                    5017,
+                    5782
+                ],
+                "filename": "Xhr.mjs",
+                "lineno": 198,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
+                "code": {
+                    "id": "astnode100023815",
+                    "name": "Xhr#promiseJson",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "opts"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "opts"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Promise.<any>"
+                        ]
+                    }
+                }
+            ],
+            "name": "promiseJson",
+            "longname": "Xhr#promiseJson",
+            "kind": "function",
+            "memberof": "Xhr",
+            "scope": "instance",
+            "$longname": "Xhr#promiseJson",
+            "$kind": "method",
+            "id": 656,
+            "neoClassName": "Neo.data.connection.Xhr"
+        }
+    ]
+}

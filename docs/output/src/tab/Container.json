@@ -1,0 +1,1340 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * @class Neo.tab.Container\n * @extends Neo.container.Base\n */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 7,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "kind": "class",
+            "name": "Container",
+            "augments": [
+                "Neo.container.Base"
+            ],
+            "memberof": "Neo.tab",
+            "longname": "Neo.tab.Container",
+            "scope": "static",
+            "$longname": "Neo.tab.Container",
+            "$kind": "class",
+            "id": 1641,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * Valid values for tabBarPosition\n         * @member {String[]} tabBarPositions=['top', 'right', 'bottom', 'left']\n         * @private\n         * @static\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 19,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "description": "Valid values for tabBarPosition",
+            "kind": "member",
+            "name": "tabBarPositions",
+            "type": {
+                "names": [
+                    "Array.<String>"
+                ]
+            },
+            "defaultvalue": "['top', 'right', 'bottom', 'left']",
+            "access": "private",
+            "scope": "static",
+            "longname": "tabBarPositions",
+            "$longname": "tabBarPositions",
+            "$kind": "property",
+            "id": 1642,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Neo.tab.Container'\n         * @private\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 27,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Neo.tab.Container'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 1643,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * @member {String} ntype='tab-container'\n         * @private\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 32,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "ntype",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'tab-container'",
+            "access": "private",
+            "longname": "ntype",
+            "scope": "global",
+            "$longname": "ntype",
+            "$kind": "property",
+            "id": 1644,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * @member {Number} activeIndex_=0\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 36,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "activeIndex_",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 0,
+            "longname": "activeIndex_",
+            "scope": "global",
+            "$longname": "activeIndex_",
+            "$kind": "property",
+            "id": 1645,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * True will activate a tab which gets dynamically inserted / added after the TabContainer is mounted\n         * @member {Boolean} activateInsertedTabs=false\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 41,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "description": "True will activate a tab which gets dynamically inserted / added after the TabContainer is mounted",
+            "kind": "member",
+            "name": "activateInsertedTabs",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "longname": "activateInsertedTabs",
+            "scope": "global",
+            "$longname": "activateInsertedTabs",
+            "$kind": "property",
+            "id": 1646,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * @member {String} baseCls='neo-tab-container'\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 45,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "baseCls",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'neo-tab-container'",
+            "longname": "baseCls",
+            "scope": "global",
+            "$longname": "baseCls",
+            "$kind": "property",
+            "id": 1647,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * @member {String|null} [cardContainerId]=null\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 49,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "cardContainerId",
+            "type": {
+                "names": [
+                    "String",
+                    "null"
+                ]
+            },
+            "optional": true,
+            "longname": "cardContainerId",
+            "scope": "global",
+            "$longname": "cardContainerId",
+            "$kind": "property",
+            "id": 1648,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * adds baseCls + '-plain' is case plain is set to true\n         * @member {Array} cls=['neo-tab-container'],\n         * @private\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 55,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "description": "adds baseCls + '-plain' is case plain is set to true",
+            "kind": "member",
+            "name": "cls",
+            "type": {
+                "names": [
+                    "Array"
+                ]
+            },
+            "defaultvalue": "['neo-tab-container'],",
+            "access": "private",
+            "longname": "cls",
+            "scope": "global",
+            "$longname": "cls",
+            "$kind": "property",
+            "id": 1649,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * Default configs for the tab.Strip\n         * @member {Object|null} [contentContainerDefaults]=null\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 60,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "description": "Default configs for the tab.Strip",
+            "kind": "member",
+            "name": "contentContainerDefaults",
+            "type": {
+                "names": [
+                    "Object",
+                    "null"
+                ]
+            },
+            "optional": true,
+            "longname": "contentContainerDefaults",
+            "scope": "global",
+            "$longname": "contentContainerDefaults",
+            "$kind": "property",
+            "id": 1650,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * Default configs for the tab.HeaderToolbar\n         * @member {Object|null} [headerToolbarDefaults]=null\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 65,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "description": "Default configs for the tab.HeaderToolbar",
+            "kind": "member",
+            "name": "headerToolbarDefaults",
+            "type": {
+                "names": [
+                    "Object",
+                    "null"
+                ]
+            },
+            "optional": true,
+            "longname": "headerToolbarDefaults",
+            "scope": "global",
+            "$longname": "headerToolbarDefaults",
+            "$kind": "property",
+            "id": 1651,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * True to not apply a background effect to the tab header container\n         * @member {Boolean} plain_=true\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 70,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "description": "True to not apply a background effect to the tab header container",
+            "kind": "member",
+            "name": "plain_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "longname": "plain_",
+            "scope": "global",
+            "$longname": "plain_",
+            "$kind": "property",
+            "id": 1652,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * @member {String|null} tabBarId=null\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 74,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "tabBarId",
+            "type": {
+                "names": [
+                    "String",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "tabBarId",
+            "scope": "global",
+            "$longname": "tabBarId",
+            "$kind": "property",
+            "id": 1653,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * Default configs for the tab.Strip\n         * @member {Object|null} [tabStripDefaults]=null\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 79,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "description": "Default configs for the tab.Strip",
+            "kind": "member",
+            "name": "tabStripDefaults",
+            "type": {
+                "names": [
+                    "Object",
+                    "null"
+                ]
+            },
+            "optional": true,
+            "longname": "tabStripDefaults",
+            "scope": "global",
+            "$longname": "tabStripDefaults",
+            "$kind": "property",
+            "id": 1654,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * @member {String|null} [tabStripId]=null\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 83,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "tabStripId",
+            "type": {
+                "names": [
+                    "String",
+                    "null"
+                ]
+            },
+            "optional": true,
+            "longname": "tabStripId",
+            "scope": "global",
+            "$longname": "tabStripId",
+            "$kind": "property",
+            "id": 1655,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * The position of the tab header toolbar.\n         * Valid values are top, right, bottom, left.\n         * @member {String} tabBarPosition_='top'\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 89,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "description": "The position of the tab header toolbar.<br />Valid values are top, right, bottom, left.",
+            "kind": "member",
+            "name": "tabBarPosition_",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'top'",
+            "longname": "tabBarPosition_",
+            "scope": "global",
+            "$longname": "tabBarPosition_",
+            "$kind": "property",
+            "id": 1656,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n         * @member {Boolean} useActiveTabIndicator_=true\n         */",
+            "meta": {
+                "filename": "Container.mjs",
+                "lineno": 93,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "useActiveTabIndicator_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "longname": "useActiveTabIndicator_",
+            "scope": "global",
+            "$longname": "useActiveTabIndicator_",
+            "$kind": "property",
+            "id": 1657,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    2982,
+                    3100
+                ],
+                "filename": "Container.mjs",
+                "lineno": 99,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053234",
+                    "name": "Container#onConstructed",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "onConstructed",
+            "longname": "Container#onConstructed",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Container#onConstructed",
+            "$kind": "method",
+            "id": 1658,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     * Adds one or multiple tabs at the end of the header\n     * @param {Object|Array} item\n     * @returns {Neo.component.Base|Neo.component.Base[]}\n     */",
+            "meta": {
+                "range": [
+                    3272,
+                    3354
+                ],
+                "filename": "Container.mjs",
+                "lineno": 109,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053252",
+                    "name": "Container#add",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "item"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Adds one or multiple tabs at the end of the header",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object",
+                            "Array"
+                        ]
+                    },
+                    "name": "item"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.component.Base",
+                            "Array.<Neo.component.Base>"
+                        ]
+                    }
+                }
+            ],
+            "name": "add",
+            "longname": "Container#add",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "$longname": "Container#add",
+            "$kind": "method",
+            "id": 1659,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     * Triggered after the activeIndex config got changed\n     * @param {Number} value\n     * @param {Number} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    3511,
+                    3925
+                ],
+                "filename": "Container.mjs",
+                "lineno": 119,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053271",
+                    "name": "Container#afterSetActiveIndex",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the activeIndex config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetActiveIndex",
+            "longname": "Container#afterSetActiveIndex",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "$longname": "Container#afterSetActiveIndex",
+            "$kind": "method",
+            "id": 1660,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     * Triggered after the plain config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    4078,
+                    4310
+                ],
+                "filename": "Container.mjs",
+                "lineno": 141,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053324",
+                    "name": "Container#afterSetPlain",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the plain config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetPlain",
+            "longname": "Container#afterSetPlain",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "$longname": "Container#afterSetPlain",
+            "$kind": "method",
+            "id": 1661,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     * Triggered after the tabBarPosition config got changed\n     * @param {String} value 'top', 'right', 'bottom', 'left'\n     * @param {String} oldValue 'top', 'right', 'bottom', 'left'\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    4536,
+                    5080
+                ],
+                "filename": "Container.mjs",
+                "lineno": 156,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053364",
+                    "name": "Container#afterSetTabBarPosition",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the tabBarPosition config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "description": "'top', 'right', 'bottom', 'left'",
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "description": "'top', 'right', 'bottom', 'left'",
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetTabBarPosition",
+            "longname": "Container#afterSetTabBarPosition",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "$longname": "Container#afterSetTabBarPosition",
+            "$kind": "method",
+            "id": 1662,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     * Triggered after the useActiveTabIndicator config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    5249,
+                    5476
+                ],
+                "filename": "Container.mjs",
+                "lineno": 182,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053450",
+                    "name": "Container#afterSetUseActiveTabIndicator",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the useActiveTabIndicator config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetUseActiveTabIndicator",
+            "longname": "Container#afterSetUseActiveTabIndicator",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "$longname": "Container#afterSetUseActiveTabIndicator",
+            "$kind": "method",
+            "id": 1663,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     * Triggered before the tabBarPosition config gets changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     * @returns {String} value\n     */",
+            "meta": {
+                "range": [
+                    5669,
+                    5792
+                ],
+                "filename": "Container.mjs",
+                "lineno": 196,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053481",
+                    "name": "Container#beforeSetTabBarPosition",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the tabBarPosition config gets changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "description": "value"
+                }
+            ],
+            "name": "beforeSetTabBarPosition",
+            "longname": "Container#beforeSetTabBarPosition",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "$longname": "Container#beforeSetTabBarPosition",
+            "$kind": "method",
+            "id": 1664,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     *\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    5837,
+                    7948
+                ],
+                "filename": "Container.mjs",
+                "lineno": 204,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053495",
+                    "name": "Container#createItems",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "access": "private",
+            "name": "createItems",
+            "longname": "Container#createItems",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Container#createItems",
+            "$kind": "method",
+            "id": 1665,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     * Returns a card by a given index\n     * @param {Number} index\n     * @return {Neo.component.Base|null}\n     */",
+            "meta": {
+                "range": [
+                    8079,
+                    8190
+                ],
+                "filename": "Container.mjs",
+                "lineno": 264,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053717",
+                    "name": "Container#getCard",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "index"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Returns a card by a given index",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "index"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.component.Base",
+                            "null"
+                        ]
+                    }
+                }
+            ],
+            "name": "getCard",
+            "longname": "Container#getCard",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "$longname": "Container#getCard",
+            "$kind": "method",
+            "id": 1666,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     * @returns {Neo.container.Base}\n     */",
+            "meta": {
+                "range": [
+                    8249,
+                    8330
+                ],
+                "filename": "Container.mjs",
+                "lineno": 273,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053737",
+                    "name": "Container#getCardContainer",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.container.Base"
+                        ]
+                    }
+                }
+            ],
+            "name": "getCardContainer",
+            "longname": "Container#getCardContainer",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Container#getCardContainer",
+            "$kind": "method",
+            "id": 1667,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     * Returns the amount of items inside the tab header toolbar\n     * @returns {Number}\n     */",
+            "meta": {
+                "range": [
+                    8442,
+                    8506
+                ],
+                "filename": "Container.mjs",
+                "lineno": 281,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053749",
+                    "name": "Container#getCount",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Returns the amount of items inside the tab header toolbar",
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    }
+                }
+            ],
+            "name": "getCount",
+            "longname": "Container#getCount",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Container#getCount",
+            "$kind": "method",
+            "id": 1668,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     *\n     * @returns {Object} layoutConfig\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    8589,
+                    9724
+                ],
+                "filename": "Container.mjs",
+                "lineno": 290,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053762",
+                    "name": "Container#getLayoutConfig",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "description": "layoutConfig"
+                }
+            ],
+            "access": "private",
+            "name": "getLayoutConfig",
+            "longname": "Container#getLayoutConfig",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Container#getLayoutConfig",
+            "$kind": "method",
+            "id": 1669,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     * @returns {Neo.container.Toolbar}\n     */",
+            "meta": {
+                "range": [
+                    9786,
+                    9853
+                ],
+                "filename": "Container.mjs",
+                "lineno": 333,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053835",
+                    "name": "Container#getTabBar",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.container.Toolbar"
+                        ]
+                    }
+                }
+            ],
+            "name": "getTabBar",
+            "longname": "Container#getTabBar",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Container#getTabBar",
+            "$kind": "method",
+            "id": 1670,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} config\n     * @param {Number} index\n     * @returns {Object} The merged config\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    10000,
+                    10604
+                ],
+                "filename": "Container.mjs",
+                "lineno": 344,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053847",
+                    "name": "Container#getTabButtonConfig",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "config",
+                        "index"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "index"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "description": "The merged config"
+                }
+            ],
+            "access": "private",
+            "name": "getTabButtonConfig",
+            "longname": "Container#getTabButtonConfig",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "$longname": "Container#getTabButtonConfig",
+            "$kind": "method",
+            "id": 1671,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     * @returns {Neo.tab.Strip}\n     */",
+            "meta": {
+                "range": [
+                    10658,
+                    10729
+                ],
+                "filename": "Container.mjs",
+                "lineno": 368,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053904",
+                    "name": "Container#getTabStrip",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.tab.Strip"
+                        ]
+                    }
+                }
+            ],
+            "name": "getTabStrip",
+            "longname": "Container#getTabStrip",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Container#getTabStrip",
+            "$kind": "method",
+            "id": 1672,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     * Inserts an item or array of items at a specific index\n     * @param {Number} index\n     * @param {Object|Object[]} item\n     * @returns {Neo.component.Base|Neo.component.Base[]}\n     */",
+            "meta": {
+                "range": [
+                    10936,
+                    12911
+                ],
+                "filename": "Container.mjs",
+                "lineno": 378,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100053916",
+                    "name": "Container#insert",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "index",
+                        "item"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Inserts an item or array of items at a specific index",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "index"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object",
+                            "Array.<Object>"
+                        ]
+                    },
+                    "name": "item"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.component.Base",
+                            "Array.<Neo.component.Base>"
+                        ]
+                    }
+                }
+            ],
+            "name": "insert",
+            "longname": "Container#insert",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "$longname": "Container#insert",
+            "$kind": "method",
+            "id": 1673,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     * Gets triggered once a dynamically added tabheader button gets mounted\n     * in case activateInsertedTabs is set to true\n     * @param {String} buttonId\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    13109,
+                    13861
+                ],
+                "filename": "Container.mjs",
+                "lineno": 448,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100054163",
+                    "name": "Container#onTabButtonMounted",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "buttonId"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Gets triggered once a dynamically added tabheader button gets mounted<br />in case activateInsertedTabs is set to true",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "buttonId"
+                }
+            ],
+            "access": "private",
+            "name": "onTabButtonMounted",
+            "longname": "Container#onTabButtonMounted",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "$longname": "Container#onTabButtonMounted",
+            "$kind": "method",
+            "id": 1674,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Number} index\n     */",
+            "meta": {
+                "range": [
+                    13919,
+                    14619
+                ],
+                "filename": "Container.mjs",
+                "lineno": 481,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100054264",
+                    "name": "Container#removeAt",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "index"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "index"
+                }
+            ],
+            "name": "removeAt",
+            "longname": "Container#removeAt",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "$longname": "Container#removeAt",
+            "$kind": "method",
+            "id": 1675,
+            "neoClassName": "Neo.tab.Container"
+        },
+        {
+            "comment": "/**\n     *\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    14664,
+                    14961
+                ],
+                "filename": "Container.mjs",
+                "lineno": 510,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
+                "code": {
+                    "id": "astnode100054361",
+                    "name": "Container#updateTabButtons",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "access": "private",
+            "name": "updateTabButtons",
+            "longname": "Container#updateTabButtons",
+            "kind": "function",
+            "memberof": "Container",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Container#updateTabButtons",
+            "$kind": "method",
+            "id": 1676,
+            "neoClassName": "Neo.tab.Container"
+        }
+    ]
+}

@@ -1,0 +1,632 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * @class Neo.util.Array\n * @extends Neo.core.Base\n */",
+            "meta": {
+                "filename": "Array.mjs",
+                "lineno": 3,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {}
+            },
+            "kind": "class",
+            "name": "Array",
+            "augments": [
+                "Neo.core.Base"
+            ],
+            "memberof": "Neo.util",
+            "longname": "Neo.util.Array",
+            "scope": "static",
+            "$longname": "Neo.util.Array",
+            "$kind": "class",
+            "id": 1821,
+            "neoClassName": "Neo.util.Array"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Neo.util.Array'\n         * @private\n         */",
+            "meta": {
+                "filename": "Array.mjs",
+                "lineno": 13,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Neo.util.Array'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 1822,
+            "neoClassName": "Neo.util.Array"
+        },
+        {
+            "comment": "/**\n     * Adds an item or Array of items to an array in case it does not already exist.\n     * Only primitive items will get found as duplicates\n     * @param {Array} arr\n     * @param {*} items\n     */",
+            "meta": {
+                "range": [
+                    515,
+                    751
+                ],
+                "filename": "Array.mjs",
+                "lineno": 22,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100057885",
+                    "name": "NeoArray.add",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "arr",
+                        "items"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Adds an item or Array of items to an array in case it does not already exist.<br />Only primitive items will get found as duplicates",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "arr"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "*"
+                        ]
+                    },
+                    "name": "items"
+                }
+            ],
+            "name": "add",
+            "longname": "NeoArray.add",
+            "kind": "function",
+            "memberof": "NeoArray",
+            "scope": "static",
+            "$longname": "NeoArray.add",
+            "$kind": "method",
+            "id": 1823,
+            "neoClassName": "Neo.util.Array"
+        },
+        {
+            "comment": "/**\n     * Returns an array of items which are present in array1, but not in array2\n     * @param {Array} array1=[]\n     * @param {Array} array2=[]\n     * @returns {Array}\n     */",
+            "meta": {
+                "range": [
+                    941,
+                    1050
+                ],
+                "filename": "Array.mjs",
+                "lineno": 40,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100057926",
+                    "name": "NeoArray.difference",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "array1",
+                        "array2"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Returns an array of items which are present in array1, but not in array2",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "defaultvalue": "[",
+                    "name": "array1"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "defaultvalue": "[",
+                    "name": "array2"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    }
+                }
+            ],
+            "name": "difference",
+            "longname": "NeoArray.difference",
+            "kind": "function",
+            "memberof": "NeoArray",
+            "scope": "static",
+            "$longname": "NeoArray.difference",
+            "$kind": "method",
+            "id": 1824,
+            "neoClassName": "Neo.util.Array"
+        },
+        {
+            "comment": "/**\n     * Checks if the index of item is > -1\n     * @param {Array} arr\n     * @param {*} item\n     */",
+            "meta": {
+                "range": [
+                    1164,
+                    1232
+                ],
+                "filename": "Array.mjs",
+                "lineno": 49,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100057949",
+                    "name": "NeoArray.hasItem",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "arr",
+                        "item"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Checks if the index of item is > -1",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "arr"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "*"
+                        ]
+                    },
+                    "name": "item"
+                }
+            ],
+            "name": "hasItem",
+            "longname": "NeoArray.hasItem",
+            "kind": "function",
+            "memberof": "NeoArray",
+            "scope": "static",
+            "$longname": "NeoArray.hasItem",
+            "$kind": "method",
+            "id": 1825,
+            "neoClassName": "Neo.util.Array"
+        },
+        {
+            "comment": "/**\n     * Returns an array of items which are present in array1 and array2\n     * Only supports primitive items\n     * @param {Array} array1=[]\n     * @param {Array} array2=[]\n     * @returns {Array}\n     */",
+            "meta": {
+                "range": [
+                    1451,
+                    1561
+                ],
+                "filename": "Array.mjs",
+                "lineno": 60,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100057961",
+                    "name": "NeoArray.intersection",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "array1",
+                        "array2"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Returns an array of items which are present in array1 and array2<br />Only supports primitive items",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "defaultvalue": "[",
+                    "name": "array1"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "defaultvalue": "[",
+                    "name": "array2"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    }
+                }
+            ],
+            "name": "intersection",
+            "longname": "NeoArray.intersection",
+            "kind": "function",
+            "memberof": "NeoArray",
+            "scope": "static",
+            "$longname": "NeoArray.intersection",
+            "$kind": "method",
+            "id": 1826,
+            "neoClassName": "Neo.util.Array"
+        },
+        {
+            "comment": "/**\n     * Returns true if all items of array1 are present in array 2\n     * Supports Arrays containing Objects, not Arrays containing Arrays\n     * @param {Array} array1=[]\n     * @param {Array} array2=[]\n     * @returns {Boolean}\n     */",
+            "meta": {
+                "range": [
+                    1811,
+                    2650
+                ],
+                "filename": "Array.mjs",
+                "lineno": 71,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100057983",
+                    "name": "NeoArray.isEqual",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "array1",
+                        "array2"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Returns true if all items of array1 are present in array 2<br />Supports Arrays containing Objects, not Arrays containing Arrays",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "defaultvalue": "[",
+                    "name": "array1"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "defaultvalue": "[",
+                    "name": "array2"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    }
+                }
+            ],
+            "name": "isEqual",
+            "longname": "NeoArray.isEqual",
+            "kind": "function",
+            "memberof": "NeoArray",
+            "scope": "static",
+            "$longname": "NeoArray.isEqual",
+            "$kind": "method",
+            "id": 1827,
+            "neoClassName": "Neo.util.Array"
+        },
+        {
+            "comment": "/**\n     * Moves an item inside arr from fromIndex to toIndex\n     * @param {Array} arr\n     * @param {Number} fromIndex\n     * @param {Number} toIndex\n     */",
+            "meta": {
+                "range": [
+                    2820,
+                    3107
+                ],
+                "filename": "Array.mjs",
+                "lineno": 110,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100058099",
+                    "name": "NeoArray.move",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "arr",
+                        "fromIndex",
+                        "toIndex"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Moves an item inside arr from fromIndex to toIndex",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "arr"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "fromIndex"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "toIndex"
+                }
+            ],
+            "name": "move",
+            "longname": "NeoArray.move",
+            "kind": "function",
+            "memberof": "NeoArray",
+            "scope": "static",
+            "$longname": "NeoArray.move",
+            "$kind": "method",
+            "id": 1828,
+            "neoClassName": "Neo.util.Array"
+        },
+        {
+            "comment": "/**\n     * Removes an item or array of items from an array. Only primitive items will get found\n     * @param {Array} arr\n     * @param {*} items\n     */",
+            "meta": {
+                "range": [
+                    3271,
+                    3567
+                ],
+                "filename": "Array.mjs",
+                "lineno": 128,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100058145",
+                    "name": "NeoArray.remove",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "arr",
+                        "items"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Removes an item or array of items from an array. Only primitive items will get found",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "arr"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "*"
+                        ]
+                    },
+                    "name": "items"
+                }
+            ],
+            "name": "remove",
+            "longname": "NeoArray.remove",
+            "kind": "function",
+            "memberof": "NeoArray",
+            "scope": "static",
+            "$longname": "NeoArray.remove",
+            "$kind": "method",
+            "id": 1829,
+            "neoClassName": "Neo.util.Array"
+        },
+        {
+            "comment": "/**\n     * Removes an item from an array in case it does  exist, otherwise adds it\n     * @param {Array} arr\n     * @param {*} item\n     */",
+            "meta": {
+                "range": [
+                    3717,
+                    3884
+                ],
+                "filename": "Array.mjs",
+                "lineno": 149,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100058196",
+                    "name": "NeoArray.toggle",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "arr",
+                        "item"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Removes an item from an array in case it does  exist, otherwise adds it",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "arr"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "*"
+                        ]
+                    },
+                    "name": "item"
+                }
+            ],
+            "name": "toggle",
+            "longname": "NeoArray.toggle",
+            "kind": "function",
+            "memberof": "NeoArray",
+            "scope": "static",
+            "$longname": "NeoArray.toggle",
+            "$kind": "method",
+            "id": 1830,
+            "neoClassName": "Neo.util.Array"
+        },
+        {
+            "comment": "/**\n     * Returns an array of items which are present in array1 and array2\n     * Only supports primitive items\n     * @param {Array} array1\n     * @param {Array} array2\n     * @returns {Array}\n     */",
+            "meta": {
+                "range": [
+                    4097,
+                    4491
+                ],
+                "filename": "Array.mjs",
+                "lineno": 164,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100058225",
+                    "name": "NeoArray.union",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "array1",
+                        "array2"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Returns an array of items which are present in array1 and array2<br />Only supports primitive items",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "array1"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "array2"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    }
+                }
+            ],
+            "name": "union",
+            "longname": "NeoArray.union",
+            "kind": "function",
+            "memberof": "NeoArray",
+            "scope": "static",
+            "$longname": "NeoArray.union",
+            "$kind": "method",
+            "id": 1831,
+            "neoClassName": "Neo.util.Array"
+        },
+        {
+            "comment": "/**\n     * Adds an item or Array of items to an array in case it does not already exist.\n     * Only primitive items will get found as duplicates\n     * @param {Array} arr\n     * @param {*} items\n     */",
+            "meta": {
+                "range": [
+                    4705,
+                    4948
+                ],
+                "filename": "Array.mjs",
+                "lineno": 189,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100058282",
+                    "name": "NeoArray.unshift",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "arr",
+                        "items"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Adds an item or Array of items to an array in case it does not already exist.<br />Only primitive items will get found as duplicates",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "arr"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "*"
+                        ]
+                    },
+                    "name": "items"
+                }
+            ],
+            "name": "unshift",
+            "longname": "NeoArray.unshift",
+            "kind": "function",
+            "memberof": "NeoArray",
+            "scope": "static",
+            "$longname": "NeoArray.unshift",
+            "$kind": "method",
+            "id": 1832,
+            "neoClassName": "Neo.util.Array"
+        }
+    ]
+}

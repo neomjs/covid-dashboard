@@ -1,0 +1,772 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * @class Neo.manager.DomEvent\n * @extends Neo.core.Base\n * @singleton\n */",
+            "meta": {
+                "filename": "DomEvent.mjs",
+                "lineno": 30,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
+                "code": {}
+            },
+            "kind": "class",
+            "name": "DomEvent",
+            "augments": [
+                "Neo.core.Base"
+            ],
+            "tags": [
+                {
+                    "originalTitle": "singleton",
+                    "title": "singleton",
+                    "text": ""
+                }
+            ],
+            "memberof": "Neo.manager",
+            "longname": "Neo.manager.DomEvent",
+            "scope": "static",
+            "$longname": "Neo.manager.DomEvent",
+            "$kind": "class",
+            "id": 1415,
+            "neoClassName": "Neo.manager.DomEvent"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Neo.manager.DomEvent'\n         * @private\n         */",
+            "meta": {
+                "filename": "DomEvent.mjs",
+                "lineno": 41,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Neo.manager.DomEvent'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 1416,
+            "neoClassName": "Neo.manager.DomEvent"
+        },
+        {
+            "comment": "/**\n         * @member {String} ntype='dom-event-manager'\n         * @private\n         */",
+            "meta": {
+                "filename": "DomEvent.mjs",
+                "lineno": 46,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "ntype",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'dom-event-manager'",
+            "access": "private",
+            "longname": "ntype",
+            "scope": "global",
+            "$longname": "ntype",
+            "$kind": "property",
+            "id": 1417,
+            "neoClassName": "Neo.manager.DomEvent"
+        },
+        {
+            "comment": "/**\n         * @member {Object} listeners={}\n         * @private\n         */",
+            "meta": {
+                "filename": "DomEvent.mjs",
+                "lineno": 51,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "listeners",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": "{}",
+            "access": "private",
+            "longname": "listeners",
+            "scope": "global",
+            "$longname": "listeners",
+            "$kind": "property",
+            "id": 1418,
+            "neoClassName": "Neo.manager.DomEvent"
+        },
+        {
+            "comment": "/**\n         * @member {Object} map={}\n         * @private\n         */",
+            "meta": {
+                "filename": "DomEvent.mjs",
+                "lineno": 56,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "map",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": "{}",
+            "access": "private",
+            "longname": "map",
+            "scope": "global",
+            "$longname": "map",
+            "$kind": "property",
+            "id": 1419,
+            "neoClassName": "Neo.manager.DomEvent"
+        },
+        {
+            "comment": "/**\n         * @member {Boolean} singleton=true\n         * @private\n         */",
+            "meta": {
+                "filename": "DomEvent.mjs",
+                "lineno": 61,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "singleton",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "access": "private",
+            "longname": "singleton",
+            "scope": "global",
+            "$longname": "singleton",
+            "$kind": "property",
+            "id": 1420,
+            "neoClassName": "Neo.manager.DomEvent"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} event\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    1482,
+                    4706
+                ],
+                "filename": "DomEvent.mjs",
+                "lineno": 69,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
+                "code": {
+                    "id": "astnode100043365",
+                    "name": "DomEvent#fire",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "event"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "event"
+                }
+            ],
+            "access": "private",
+            "name": "fire",
+            "longname": "DomEvent#fire",
+            "kind": "function",
+            "memberof": "DomEvent",
+            "scope": "instance",
+            "$longname": "DomEvent#fire",
+            "$kind": "method",
+            "id": 1421,
+            "neoClassName": "Neo.manager.DomEvent"
+        },
+        {
+            "comment": "/**\n     *\n     * @param config\n     * @param scope\n     * @returns {Object}\n     */",
+            "meta": {
+                "range": [
+                    4801,
+                    5117
+                ],
+                "filename": "DomEvent.mjs",
+                "lineno": 155,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
+                "code": {
+                    "id": "astnode100043653",
+                    "name": "DomEvent#generateListenerConfig",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "config",
+                        "scope"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "name": "config"
+                },
+                {
+                    "name": "scope"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    }
+                }
+            ],
+            "name": "generateListenerConfig",
+            "longname": "DomEvent#generateListenerConfig",
+            "kind": "function",
+            "memberof": "DomEvent",
+            "scope": "instance",
+            "$longname": "DomEvent#generateListenerConfig",
+            "$kind": "method",
+            "id": 1422,
+            "neoClassName": "Neo.manager.DomEvent"
+        },
+        {
+            "comment": "/**\n     * @param {Object} config\n     * @param {String} config.delegate\n     * @param {String} config.eventName\n     * @param {String} config.id\n     * @param {Object} config.opts\n     * @param {Object} config.scope\n     * @param {String} config.vnodeId\n     * @returns {Object}\n     */",
+            "meta": {
+                "range": [
+                    5727,
+                    6005
+                ],
+                "filename": "DomEvent.mjs",
+                "lineno": 190,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
+                "code": {
+                    "id": "astnode100043731",
+                    "name": "DomEvent#getListener",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "config"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "config.delegate"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "config.eventName"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "config.id"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config.opts"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config.scope"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "config.vnodeId"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    }
+                }
+            ],
+            "name": "getListener",
+            "longname": "DomEvent#getListener",
+            "kind": "function",
+            "memberof": "DomEvent",
+            "scope": "instance",
+            "$longname": "DomEvent#getListener",
+            "$kind": "method",
+            "id": 1423,
+            "neoClassName": "Neo.manager.DomEvent"
+        },
+        {
+            "comment": "/**\n     * Mounts local domEvent listeners for a given component\n     * @param {Neo.component.Base} component\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    6149,
+                    7233
+                ],
+                "filename": "DomEvent.mjs",
+                "lineno": 208,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
+                "code": {
+                    "id": "astnode100043774",
+                    "name": "DomEvent#mountDomListeners",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "component"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Mounts local domEvent listeners for a given component",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.component.Base"
+                        ]
+                    },
+                    "name": "component"
+                }
+            ],
+            "access": "private",
+            "name": "mountDomListeners",
+            "longname": "DomEvent#mountDomListeners",
+            "kind": "function",
+            "memberof": "DomEvent",
+            "scope": "instance",
+            "$longname": "DomEvent#mountDomListeners",
+            "$kind": "method",
+            "id": 1424,
+            "neoClassName": "Neo.manager.DomEvent"
+        },
+        {
+            "comment": "/**\n     * @param {Object} config\n     * @param {String} config.delegate\n     * @param {String} config.eventName\n     * @param {String} config.id\n     * @param {Boolean} config.local\n     * @param {Number} config.opts\n     * @param {Number} config.originalConfig\n     * @param {Number} config.priority\n     * @param {Object} config.scope\n     * @param {String} config.vnodeId\n     * @returns {Boolean} true if the listener got registered successfully (false in case it was already there)\n     */",
+            "meta": {
+                "range": [
+                    7739,
+                    9964
+                ],
+                "filename": "DomEvent.mjs",
+                "lineno": 254,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
+                "code": {
+                    "id": "astnode100043896",
+                    "name": "DomEvent#register",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "config"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "config.delegate"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "config.eventName"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "config.id"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "config.local"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "config.opts"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "config.originalConfig"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "config.priority"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config.scope"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "config.vnodeId"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "description": "true if the listener got registered successfully (false in case it was already there)"
+                }
+            ],
+            "name": "register",
+            "longname": "DomEvent#register",
+            "kind": "function",
+            "memberof": "DomEvent",
+            "scope": "instance",
+            "$longname": "DomEvent#register",
+            "$kind": "method",
+            "id": 1425,
+            "neoClassName": "Neo.manager.DomEvent"
+        },
+        {
+            "comment": "/**\n     * @param {Object} config\n     * @param {String} config.eventName\n     * @param {String} config.id\n     * @param {Object} config.opts\n     * @param {Object} config.scope\n     * @param {String} config.vnodeId\n     * @param {Object} scope\n     * @returns {Boolean} true in case the listener did exist and got removed\n     */",
+            "meta": {
+                "range": [
+                    10305,
+                    10600
+                ],
+                "filename": "DomEvent.mjs",
+                "lineno": 334,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
+                "code": {
+                    "id": "astnode100044174",
+                    "name": "DomEvent#unregister",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "config",
+                        "scope"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "config.eventName"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "config.id"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config.opts"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config.scope"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "config.vnodeId"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "scope"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "description": "true in case the listener did exist and got removed"
+                }
+            ],
+            "name": "unregister",
+            "longname": "DomEvent#unregister",
+            "kind": "function",
+            "memberof": "DomEvent",
+            "scope": "instance",
+            "$longname": "DomEvent#unregister",
+            "$kind": "method",
+            "id": 1426,
+            "neoClassName": "Neo.manager.DomEvent"
+        },
+        {
+            "comment": "/**\n     * Intended for Neo.controller.Component to replace listener placeholders provided as a string\n     * @param {Object} config\n     * @param {String} config.componentId\n     * @param {Function} config.eventHandlerMethod\n     * @param {String} config.eventHandlerName\n     * @param {String} config.eventName\n     * @param {Neo.core.Base} config.scope\n     */",
+            "meta": {
+                "range": [
+                    13036,
+                    13631
+                ],
+                "filename": "DomEvent.mjs",
+                "lineno": 404,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
+                "code": {
+                    "id": "astnode100044414",
+                    "name": "DomEvent#updateListenerPlaceholder",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "config"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Intended for Neo.controller.Component to replace listener placeholders provided as a string",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "config.componentId"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "function"
+                        ]
+                    },
+                    "name": "config.eventHandlerMethod"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "config.eventHandlerName"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "config.eventName"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Neo.core.Base"
+                        ]
+                    },
+                    "name": "config.scope"
+                }
+            ],
+            "name": "updateListenerPlaceholder",
+            "longname": "DomEvent#updateListenerPlaceholder",
+            "kind": "function",
+            "memberof": "DomEvent",
+            "scope": "instance",
+            "$longname": "DomEvent#updateListenerPlaceholder",
+            "$kind": "method",
+            "id": 1427,
+            "neoClassName": "Neo.manager.DomEvent"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} listener\n     * @param {Array} path\n     * @returns {Boolean|String} true in case the delegation string matches the event path\n     */",
+            "meta": {
+                "range": [
+                    13810,
+                    15003
+                ],
+                "filename": "DomEvent.mjs",
+                "lineno": 429,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
+                "code": {
+                    "id": "astnode100044492",
+                    "name": "DomEvent#verifyDelegationPath",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "listener",
+                        "path"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "listener"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "path"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean",
+                            "String"
+                        ]
+                    },
+                    "description": "true in case the delegation string matches the event path"
+                }
+            ],
+            "name": "verifyDelegationPath",
+            "longname": "DomEvent#verifyDelegationPath",
+            "kind": "function",
+            "memberof": "DomEvent",
+            "scope": "instance",
+            "$longname": "DomEvent#verifyDelegationPath",
+            "$kind": "method",
+            "id": 1428,
+            "neoClassName": "Neo.manager.DomEvent"
+        }
+    ]
+}

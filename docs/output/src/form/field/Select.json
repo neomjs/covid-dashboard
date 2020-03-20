@@ -1,0 +1,1489 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * Provides a drop down list to select one or multiple items\n * @class Neo.form.field.Select\n * @extends Neo.form.field.Picker\n */",
+            "meta": {
+                "filename": "Select.mjs",
+                "lineno": 6,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "description": "Provides a drop down list to select one or multiple items",
+            "kind": "class",
+            "name": "Select",
+            "augments": [
+                "Neo.form.field.Picker"
+            ],
+            "memberof": "Neo.form.field",
+            "longname": "Neo.form.field.Select",
+            "scope": "static",
+            "$longname": "Neo.form.field.Select",
+            "$kind": "class",
+            "id": 892,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Neo.form.field.Select'\n         * @private\n         */",
+            "meta": {
+                "filename": "Select.mjs",
+                "lineno": 17,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Neo.form.field.Select'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 893,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n         * @member {String} ntype='selectfield'\n         * @private\n         */",
+            "meta": {
+                "filename": "Select.mjs",
+                "lineno": 22,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "ntype",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'selectfield'",
+            "access": "private",
+            "longname": "ntype",
+            "scope": "global",
+            "$longname": "ntype",
+            "$kind": "property",
+            "id": 894,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n         * @member {Array} cls=['neo-selectfield', 'neo-pickerfield', 'neo-textfield']\n         */",
+            "meta": {
+                "filename": "Select.mjs",
+                "lineno": 26,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "cls",
+            "type": {
+                "names": [
+                    "Array"
+                ]
+            },
+            "defaultvalue": "['neo-selectfield', 'neo-pickerfield', 'neo-textfield']",
+            "description": "'neo-pickerfield', 'neo-textfield']",
+            "longname": "cls",
+            "scope": "global",
+            "$longname": "cls",
+            "$kind": "property",
+            "id": 895,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n         * @member {String} displayField='name'\n         */",
+            "meta": {
+                "filename": "Select.mjs",
+                "lineno": 30,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "displayField",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'name'",
+            "longname": "displayField",
+            "scope": "global",
+            "$longname": "displayField",
+            "$kind": "property",
+            "id": 896,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n         * @member {String|Number|null} hintRecordId=null\n         */",
+            "meta": {
+                "filename": "Select.mjs",
+                "lineno": 34,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "hintRecordId",
+            "type": {
+                "names": [
+                    "String",
+                    "Number",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "hintRecordId",
+            "scope": "global",
+            "$longname": "hintRecordId",
+            "$kind": "property",
+            "id": 897,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n         * Additional used keys for the selection model\n         * @member {Object} keys\n         */",
+            "meta": {
+                "filename": "Select.mjs",
+                "lineno": 39,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "description": "Additional used keys for the selection model",
+            "kind": "member",
+            "name": "keys",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "longname": "keys",
+            "scope": "global",
+            "$longname": "keys",
+            "$kind": "property",
+            "id": 898,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n         * @member {String|null} lastManualInput=null\n         * @private\n         */",
+            "meta": {
+                "filename": "Select.mjs",
+                "lineno": 50,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "lastManualInput",
+            "type": {
+                "names": [
+                    "String",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "access": "private",
+            "longname": "lastManualInput",
+            "scope": "global",
+            "$longname": "lastManualInput",
+            "$kind": "property",
+            "id": 899,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n         * @member {Neo.list.Base} list=null\n         * @private\n         */",
+            "meta": {
+                "filename": "Select.mjs",
+                "lineno": 55,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "list",
+            "type": {
+                "names": [
+                    "Neo.list.Base"
+                ]
+            },
+            "defaultvalue": null,
+            "access": "private",
+            "longname": "list",
+            "scope": "global",
+            "$longname": "list",
+            "$kind": "property",
+            "id": 900,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n         * @member {Object|null} listConfig=null\n         */",
+            "meta": {
+                "filename": "Select.mjs",
+                "lineno": 59,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "listConfig",
+            "type": {
+                "names": [
+                    "Object",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "listConfig",
+            "scope": "global",
+            "$longname": "listConfig",
+            "$kind": "property",
+            "id": 901,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n         * The height of the picker container. Defaults to px.\n         * @member {Number|null} pickerHeight=null\n         */",
+            "meta": {
+                "filename": "Select.mjs",
+                "lineno": 64,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "description": "The height of the picker container. Defaults to px.",
+            "kind": "member",
+            "name": "pickerHeight",
+            "type": {
+                "names": [
+                    "Number",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "pickerHeight",
+            "scope": "global",
+            "$longname": "pickerHeight",
+            "$kind": "property",
+            "id": 902,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n         * @member {Neo.data.Store|null} store_=null\n         */",
+            "meta": {
+                "filename": "Select.mjs",
+                "lineno": 68,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "store_",
+            "type": {
+                "names": [
+                    "Neo.data.Store",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "store_",
+            "scope": "global",
+            "$longname": "store_",
+            "$kind": "property",
+            "id": 903,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n         * Display the first matching result while typing\n         * @member {Boolean} typeAhead_=true\n         */",
+            "meta": {
+                "filename": "Select.mjs",
+                "lineno": 73,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "description": "Display the first matching result while typing",
+            "kind": "member",
+            "name": "typeAhead_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "longname": "typeAhead_",
+            "scope": "global",
+            "$longname": "typeAhead_",
+            "$kind": "property",
+            "id": 904,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     * @param config\n     */",
+            "meta": {
+                "range": [
+                    2266,
+                    3214
+                ],
+                "filename": "Select.mjs",
+                "lineno": 80,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028279",
+                    "name": "Select",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "config"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "name": "config"
+                }
+            ],
+            "name": "Select",
+            "longname": "Select",
+            "kind": "class",
+            "scope": "global",
+            "$longname": "Select",
+            "$kind": "constructor",
+            "id": 905,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     * Triggered after the store config got changed\n     * @param {Neo.data.Store} value\n     * @param {Neo.data.Store} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    3381,
+                    3804
+                ],
+                "filename": "Select.mjs",
+                "lineno": 119,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028393",
+                    "name": "Select#afterSetStore",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the store config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.data.Store"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Neo.data.Store"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetStore",
+            "longname": "Select#afterSetStore",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#afterSetStore",
+            "$kind": "method",
+            "id": 906,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     * Triggered after the typeAhead config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    3961,
+                    4078
+                ],
+                "filename": "Select.mjs",
+                "lineno": 143,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028440",
+                    "name": "Select#afterSetTypeAhead",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the typeAhead config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetTypeAhead",
+            "longname": "Select#afterSetTypeAhead",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#afterSetTypeAhead",
+            "$kind": "method",
+            "id": 907,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     * Triggered after the value config got changed\n     * @param {String|null} value\n     * @param {String|null} oldValue\n     * @param {Boolean} [preventFilter=false]\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    4285,
+                    4463
+                ],
+                "filename": "Select.mjs",
+                "lineno": 156,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028456",
+                    "name": "Select#afterSetValue",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue",
+                        "preventFilter"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the value config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": false,
+                    "name": "preventFilter"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetValue",
+            "longname": "Select#afterSetValue",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#afterSetValue",
+            "$kind": "method",
+            "id": 908,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     * Triggered before the store config gets changed.\n     * @param {Object|Neo.data.Store|null} value\n     * @param {Neo.data.Store} oldValue\n     * @returns {Neo.data.Store}\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    4678,
+                    4841
+                ],
+                "filename": "Select.mjs",
+                "lineno": 171,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028481",
+                    "name": "Select#beforeSetStore",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the store config gets changed.",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object",
+                            "Neo.data.Store",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Neo.data.Store"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.data.Store"
+                        ]
+                    }
+                }
+            ],
+            "access": "private",
+            "name": "beforeSetStore",
+            "longname": "Select#beforeSetStore",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#beforeSetStore",
+            "$kind": "method",
+            "id": 909,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     * @returns {Neo.list.Base}\n     */",
+            "meta": {
+                "range": [
+                    4902,
+                    4959
+                ],
+                "filename": "Select.mjs",
+                "lineno": 183,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028501",
+                    "name": "Select#createPickerComponent",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.list.Base"
+                        ]
+                    }
+                }
+            ],
+            "name": "createPickerComponent",
+            "longname": "Select#createPickerComponent",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Select#createPickerComponent",
+            "$kind": "method",
+            "id": 910,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Function} [callback]\n     */",
+            "meta": {
+                "range": [
+                    5024,
+                    5360
+                ],
+                "filename": "Select.mjs",
+                "lineno": 191,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028509",
+                    "name": "Select#focusInputEl",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "callback"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "function"
+                        ]
+                    },
+                    "optional": true,
+                    "name": "callback"
+                }
+            ],
+            "name": "focusInputEl",
+            "longname": "Select#focusInputEl",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#focusInputEl",
+            "$kind": "method",
+            "id": 911,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     * @return {Object}\n     */",
+            "meta": {
+                "range": [
+                    5413,
+                    5542
+                ],
+                "filename": "Select.mjs",
+                "lineno": 210,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028564",
+                    "name": "Select#getInputHintEl",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    }
+                }
+            ],
+            "name": "getInputHintEl",
+            "longname": "Select#getInputHintEl",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Select#getInputHintEl",
+            "$kind": "method",
+            "id": 912,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     * @return {String}\n     */",
+            "meta": {
+                "range": [
+                    5595,
+                    5659
+                ],
+                "filename": "Select.mjs",
+                "lineno": 219,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028588",
+                    "name": "Select#getInputHintId",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    }
+                }
+            ],
+            "name": "getInputHintId",
+            "longname": "Select#getInputHintId",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Select#getInputHintId",
+            "$kind": "method",
+            "id": 913,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     * @param {Object} data\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    5725,
+                    5789
+                ],
+                "filename": "Select.mjs",
+                "lineno": 227,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028598",
+                    "name": "Select#onContainerKeyDownEnter",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "access": "private",
+            "name": "onContainerKeyDownEnter",
+            "longname": "Select#onContainerKeyDownEnter",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#onContainerKeyDownEnter",
+            "$kind": "method",
+            "id": 914,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     * @param {Object} data\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    5855,
+                    5937
+                ],
+                "filename": "Select.mjs",
+                "lineno": 235,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028608",
+                    "name": "Select#onContainerKeyDownEscape",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "access": "private",
+            "name": "onContainerKeyDownEscape",
+            "longname": "Select#onContainerKeyDownEscape",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#onContainerKeyDownEscape",
+            "$kind": "method",
+            "id": 915,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     * @param {Object} data\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    6003,
+                    6118
+                ],
+                "filename": "Select.mjs",
+                "lineno": 243,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028621",
+                    "name": "Select#onInputValueChange",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "access": "private",
+            "name": "onInputValueChange",
+            "longname": "Select#onInputValueChange",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#onInputValueChange",
+            "$kind": "method",
+            "id": 916,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    6191,
+                    6253
+                ],
+                "filename": "Select.mjs",
+                "lineno": 253,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028640",
+                    "name": "Select#onKeyDownDown",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "access": "private",
+            "name": "onKeyDownDown",
+            "longname": "Select#onKeyDownDown",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#onKeyDownDown",
+            "$kind": "method",
+            "id": 917,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    6326,
+                    6581
+                ],
+                "filename": "Select.mjs",
+                "lineno": 262,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028651",
+                    "name": "Select#onKeyDownEnter",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "access": "private",
+            "name": "onKeyDownEnter",
+            "longname": "Select#onKeyDownEnter",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#onKeyDownEnter",
+            "$kind": "method",
+            "id": 918,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    6654,
+                    6818
+                ],
+                "filename": "Select.mjs",
+                "lineno": 278,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028686",
+                    "name": "Select#onKeyDownRight",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "access": "private",
+            "name": "onKeyDownRight",
+            "longname": "Select#onKeyDownRight",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#onKeyDownRight",
+            "$kind": "method",
+            "id": 919,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    6891,
+                    7141
+                ],
+                "filename": "Select.mjs",
+                "lineno": 291,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028718",
+                    "name": "Select#onKeyDownUp",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "access": "private",
+            "name": "onKeyDownUp",
+            "longname": "Select#onKeyDownUp",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#onKeyDownUp",
+            "$kind": "method",
+            "id": 920,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     * List items got created or updated\n     * Since the list & inputHint update would run in parallel => before getting the new vnode back\n     * this could cause invalid states, so we delay updateTypeAheadValue() until the list is done.\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    7419,
+                    7615
+                ],
+                "filename": "Select.mjs",
+                "lineno": 308,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028753",
+                    "name": "Select#onListCreateItems",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "List items got created or updated<br />Since the list & inputHint update would run in parallel => before getting the new vnode back<br />this could cause invalid states, so we delay updateTypeAheadValue() until the list is done.",
+            "access": "private",
+            "name": "onListCreateItems",
+            "longname": "Select#onListCreateItems",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Select#onListCreateItems",
+            "$kind": "method",
+            "id": 921,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} record\n     */",
+            "meta": {
+                "range": [
+                    7674,
+                    8164
+                ],
+                "filename": "Select.mjs",
+                "lineno": 322,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028782",
+                    "name": "Select#onListItemClick",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "record"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "record"
+                }
+            ],
+            "name": "onListItemClick",
+            "longname": "Select#onListItemClick",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#onListItemClick",
+            "$kind": "method",
+            "id": 922,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} record\n     */",
+            "meta": {
+                "range": [
+                    8223,
+                    8295
+                ],
+                "filename": "Select.mjs",
+                "lineno": 343,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028850",
+                    "name": "Select#onListItemNavigate",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "record"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "record"
+                }
+            ],
+            "name": "onListItemNavigate",
+            "longname": "Select#onListItemNavigate",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#onListItemNavigate",
+            "$kind": "method",
+            "id": 923,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    8324,
+                    8385
+                ],
+                "filename": "Select.mjs",
+                "lineno": 350,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028861",
+                    "name": "Select#selectFirstListItem",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "selectFirstListItem",
+            "longname": "Select#selectFirstListItem",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Select#selectFirstListItem",
+            "$kind": "method",
+            "id": 924,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    8414,
+                    8497
+                ],
+                "filename": "Select.mjs",
+                "lineno": 357,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028871",
+                    "name": "Select#selectLastListItem",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "selectLastListItem",
+            "longname": "Select#selectLastListItem",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Select#selectLastListItem",
+            "$kind": "method",
+            "id": 925,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     * @param {Number} index\n     */",
+            "meta": {
+                "range": [
+                    8548,
+                    8690
+                ],
+                "filename": "Select.mjs",
+                "lineno": 364,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028888",
+                    "name": "Select#selectListItem",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "index"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "index"
+                }
+            ],
+            "name": "selectListItem",
+            "longname": "Select#selectListItem",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#selectListItem",
+            "$kind": "method",
+            "id": 926,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Boolean} [silent=false]\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    8774,
+                    9635
+                ],
+                "filename": "Select.mjs",
+                "lineno": 376,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100028917",
+                    "name": "Select#updateTypeAhead",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "silent"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": false,
+                    "name": "silent"
+                }
+            ],
+            "access": "private",
+            "name": "updateTypeAhead",
+            "longname": "Select#updateTypeAhead",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#updateTypeAhead",
+            "$kind": "method",
+            "id": 927,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {String|null} [value]\n     * @param {Boolean} [silent=false]\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    9755,
+                    10855
+                ],
+                "filename": "Select.mjs",
+                "lineno": 407,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100029016",
+                    "name": "Select#updateTypeAheadValue",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "silent"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "optional": true,
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": false,
+                    "name": "silent"
+                }
+            ],
+            "access": "private",
+            "name": "updateTypeAheadValue",
+            "longname": "Select#updateTypeAheadValue",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "$longname": "Select#updateTypeAheadValue",
+            "$kind": "method",
+            "id": 928,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n     *\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    10900,
+                    11346
+                ],
+                "filename": "Select.mjs",
+                "lineno": 450,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {
+                    "id": "astnode100029177",
+                    "name": "Select#updateValue",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "access": "private",
+            "name": "updateValue",
+            "longname": "Select#updateValue",
+            "kind": "function",
+            "memberof": "Select",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Select#updateValue",
+            "$kind": "method",
+            "id": 929,
+            "neoClassName": "Neo.form.field.Select"
+        },
+        {
+            "comment": "/**\n * The select event fires when a list item gets selected\n * @event select\n * @param {Object} record\n * @param {value} record[store.keyProperty]\n * @returns {Object}\n */",
+            "meta": {
+                "filename": "Select.mjs",
+                "lineno": 471,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
+                "code": {}
+            },
+            "description": "The select event fires when a list item gets selected",
+            "kind": "event",
+            "name": "select",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "record"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "value"
+                        ]
+                    },
+                    "name": "record[store.keyProperty"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    }
+                }
+            ],
+            "longname": "event:select",
+            "scope": "global",
+            "$longname": "event:select",
+            "$kind": "event",
+            "id": 930,
+            "neoClassName": "Neo.form.field.Select"
+        }
+    ]
+}

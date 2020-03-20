@@ -1,0 +1,841 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * The worker manager lives inside the main thread and creates the App, Data & VDom worker.\n * Also responsible for sending messages from the main thread to the different workers.\n * @class Neo.worker.Manager\n * @extends Neo.core.Base\n * @singleton\n */",
+            "meta": {
+                "filename": "Manager.mjs",
+                "lineno": 8,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {}
+            },
+            "description": "The worker manager lives inside the main thread and creates the App, Data & VDom worker.<br />Also responsible for sending messages from the main thread to the different workers.",
+            "kind": "class",
+            "name": "Manager",
+            "augments": [
+                "Neo.core.Base"
+            ],
+            "tags": [
+                {
+                    "originalTitle": "singleton",
+                    "title": "singleton",
+                    "text": ""
+                }
+            ],
+            "memberof": "Neo.worker",
+            "longname": "Neo.worker.Manager",
+            "scope": "static",
+            "$longname": "Neo.worker.Manager",
+            "$kind": "class",
+            "id": 1976,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Neo.worker.Manager'\n         * @private\n         */",
+            "meta": {
+                "filename": "Manager.mjs",
+                "lineno": 21,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Neo.worker.Manager'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 1977,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n         * @member {String} ntype='worker-manager'\n         * @private\n         */",
+            "meta": {
+                "filename": "Manager.mjs",
+                "lineno": 26,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "ntype",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'worker-manager'",
+            "access": "private",
+            "longname": "ntype",
+            "scope": "global",
+            "$longname": "ntype",
+            "$kind": "property",
+            "id": 1978,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n         * @member {boolean} singleton=true\n         * @private\n         */",
+            "meta": {
+                "filename": "Manager.mjs",
+                "lineno": 31,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "singleton",
+            "type": {
+                "names": [
+                    "boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "access": "private",
+            "longname": "singleton",
+            "scope": "global",
+            "$longname": "singleton",
+            "$kind": "property",
+            "id": 1979,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n         * The base path for the worker file URLs, can e.g. get set inside the index.html.\n         * @member {String|null} basePath=Neo.config.workerBasePath || 'worker/'\n         * @private\n         */",
+            "meta": {
+                "filename": "Manager.mjs",
+                "lineno": 37,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {}
+            },
+            "description": "The base path for the worker file URLs, can e.g. get set inside the index.html.",
+            "kind": "member",
+            "name": "basePath",
+            "type": {
+                "names": [
+                    "String",
+                    "null"
+                ]
+            },
+            "defaultvalue": "Neo.config.workerBasePath",
+            "access": "private",
+            "longname": "basePath",
+            "scope": "global",
+            "$longname": "basePath",
+            "$kind": "property",
+            "id": 1980,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n         * @member {String[]|Neo.core.Base[]|null} mixins=[Observable, RemoteMethodAccess]\n         */",
+            "meta": {
+                "filename": "Manager.mjs",
+                "lineno": 41,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "mixins",
+            "type": {
+                "names": [
+                    "Array.<String>",
+                    "Array.<Neo.core.Base>",
+                    "null"
+                ]
+            },
+            "defaultvalue": "[Observable, RemoteMethodAccess]",
+            "description": "RemoteMethodAccess]",
+            "longname": "mixins",
+            "scope": "global",
+            "$longname": "mixins",
+            "$kind": "property",
+            "id": 1981,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n         * True in case the current browser supports window.SharedWorker.\n         * @member {Boolean} sharedWorkersEnabled=false\n         * @private\n         */",
+            "meta": {
+                "filename": "Manager.mjs",
+                "lineno": 47,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {}
+            },
+            "description": "True in case the current browser supports window.SharedWorker.",
+            "kind": "member",
+            "name": "sharedWorkersEnabled",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "access": "private",
+            "longname": "sharedWorkersEnabled",
+            "scope": "global",
+            "$longname": "sharedWorkersEnabled",
+            "$kind": "property",
+            "id": 1982,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n         * Internal flag to stop the worker communication in case their creation fails\n         * @member {Boolean} stopCommunication=false\n         * @private\n         */",
+            "meta": {
+                "filename": "Manager.mjs",
+                "lineno": 53,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {}
+            },
+            "description": "Internal flag to stop the worker communication in case their creation fails",
+            "kind": "member",
+            "name": "stopCommunication",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "access": "private",
+            "longname": "stopCommunication",
+            "scope": "global",
+            "$longname": "stopCommunication",
+            "$kind": "property",
+            "id": 1983,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n         * True in case the current browser supports window.Worker.\n         * The neo.mjs framework is not able to run without web workers.\n         * @member {Boolean} sharedWorkersEnabled=false\n         * @private\n         */",
+            "meta": {
+                "filename": "Manager.mjs",
+                "lineno": 60,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {}
+            },
+            "description": "True in case the current browser supports window.Worker.<br />The neo.mjs framework is not able to run without web workers.",
+            "kind": "member",
+            "name": "sharedWorkersEnabled",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "access": "private",
+            "longname": "sharedWorkersEnabled",
+            "scope": "global",
+            "$longname": "sharedWorkersEnabled",
+            "$kind": "property",
+            "id": 1984,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n         * Contains the fileNames for the App, Data & Vdom workers\n         * @member {Object} workers\n         * @private\n         */",
+            "meta": {
+                "filename": "Manager.mjs",
+                "lineno": 66,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {}
+            },
+            "description": "Contains the fileNames for the App, Data & Vdom workers",
+            "kind": "member",
+            "name": "workers",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "access": "private",
+            "longname": "workers",
+            "scope": "global",
+            "$longname": "workers",
+            "$kind": "property",
+            "id": 1985,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} config\n     */",
+            "meta": {
+                "range": [
+                    2778,
+                    3958
+                ],
+                "filename": "Manager.mjs",
+                "lineno": 83,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {
+                    "id": "astnode100064669",
+                    "name": "Manager",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "config"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config"
+                }
+            ],
+            "name": "Manager",
+            "longname": "Manager",
+            "kind": "class",
+            "scope": "global",
+            "$longname": "Manager",
+            "$kind": "constructor",
+            "id": 1986,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    3987,
+                    4298
+                ],
+                "filename": "Manager.mjs",
+                "lineno": 114,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {
+                    "id": "astnode100064788",
+                    "name": "Manager#detectFeatures",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "detectFeatures",
+            "longname": "Manager#detectFeatures",
+            "kind": "function",
+            "memberof": "Manager",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Manager#detectFeatures",
+            "$kind": "method",
+            "id": 1987,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {String|Worker} name\n     * @returns {Worker}\n     */",
+            "meta": {
+                "range": [
+                    4387,
+                    4484
+                ],
+                "filename": "Manager.mjs",
+                "lineno": 133,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {
+                    "id": "astnode100064823",
+                    "name": "Manager#getWorker",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "name"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String",
+                            "Worker"
+                        ]
+                    },
+                    "name": "name"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Worker"
+                        ]
+                    }
+                }
+            ],
+            "name": "getWorker",
+            "longname": "Manager#getWorker",
+            "kind": "function",
+            "memberof": "Manager",
+            "scope": "instance",
+            "$longname": "Manager#getWorker",
+            "$kind": "method",
+            "id": 1988,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n     * Creates a web worker using the passed options as well as adding error & message event listeners.\n     * @param {Object} opts\n     * @returns {Worker}\n     */",
+            "meta": {
+                "range": [
+                    4663,
+                    5207
+                ],
+                "filename": "Manager.mjs",
+                "lineno": 142,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {
+                    "id": "astnode100064841",
+                    "name": "Manager#createWorker",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "opts"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Creates a web worker using the passed options as well as adding error & message event listeners.",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "opts"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Worker"
+                        ]
+                    }
+                }
+            ],
+            "name": "createWorker",
+            "longname": "Manager#createWorker",
+            "kind": "function",
+            "memberof": "Manager",
+            "scope": "instance",
+            "$longname": "Manager#createWorker",
+            "$kind": "method",
+            "id": 1989,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n     * Calls createWorker for each worker inside the this.workers config.\n     */",
+            "meta": {
+                "range": [
+                    5303,
+                    6083
+                ],
+                "filename": "Manager.mjs",
+                "lineno": 158,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {
+                    "id": "astnode100064909",
+                    "name": "Manager#createWorkers",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Calls createWorker for each worker inside the this.workers config.",
+            "name": "createWorkers",
+            "longname": "Manager#createWorkers",
+            "kind": "function",
+            "memberof": "Manager",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Manager#createWorkers",
+            "$kind": "method",
+            "id": 1990,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n     * Handler method for worker error events\n     * @param {Object} e\n     */",
+            "meta": {
+                "range": [
+                    6176,
+                    6372
+                ],
+                "filename": "Manager.mjs",
+                "lineno": 190,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {
+                    "id": "astnode100065011",
+                    "name": "Manager#onWorkerError",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "e"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Handler method for worker error events",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "e"
+                }
+            ],
+            "name": "onWorkerError",
+            "longname": "Manager#onWorkerError",
+            "kind": "function",
+            "memberof": "Manager",
+            "scope": "instance",
+            "$longname": "Manager#onWorkerError",
+            "$kind": "method",
+            "id": 1991,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n     * Handler method for worker message events\n     * @param {Object} e\n     */",
+            "meta": {
+                "range": [
+                    6467,
+                    8364
+                ],
+                "filename": "Manager.mjs",
+                "lineno": 200,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {
+                    "id": "astnode100065031",
+                    "name": "Manager#onWorkerMessage",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "e"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Handler method for worker message events",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "e"
+                }
+            ],
+            "name": "onWorkerMessage",
+            "longname": "Manager#onWorkerMessage",
+            "kind": "function",
+            "memberof": "Manager",
+            "scope": "instance",
+            "$longname": "Manager#onWorkerMessage",
+            "$kind": "method",
+            "id": 1992,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {String} path\n     */",
+            "meta": {
+                "range": [
+                    8421,
+                    8627
+                ],
+                "filename": "Manager.mjs",
+                "lineno": 269,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {
+                    "id": "astnode100065253",
+                    "name": "Manager#loadApplication",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "path"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "path"
+                }
+            ],
+            "name": "loadApplication",
+            "longname": "Manager#loadApplication",
+            "kind": "function",
+            "memberof": "Manager",
+            "scope": "instance",
+            "$longname": "Manager#loadApplication",
+            "$kind": "method",
+            "id": 1993,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n     * Sends a message to each worker defined inside the this.workers config.\n     * @param msg\n     */",
+            "meta": {
+                "range": [
+                    8745,
+                    8875
+                ],
+                "filename": "Manager.mjs",
+                "lineno": 281,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {
+                    "id": "astnode100065275",
+                    "name": "Manager#broadcast",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "msg"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Sends a message to each worker defined inside the this.workers config.",
+            "params": [
+                {
+                    "name": "msg"
+                }
+            ],
+            "name": "broadcast",
+            "longname": "Manager#broadcast",
+            "kind": "function",
+            "memberof": "Manager",
+            "scope": "instance",
+            "$longname": "Manager#broadcast",
+            "$kind": "method",
+            "id": 1994,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {String} replyId\n     */",
+            "meta": {
+                "range": [
+                    8935,
+                    9269
+                ],
+                "filename": "Manager.mjs",
+                "lineno": 291,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {
+                    "id": "astnode100065301",
+                    "name": "Manager#resolveDomOperationPromise",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "replyId"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "replyId"
+                }
+            ],
+            "name": "resolveDomOperationPromise",
+            "longname": "Manager#resolveDomOperationPromise",
+            "kind": "function",
+            "memberof": "Manager",
+            "scope": "instance",
+            "$longname": "Manager#resolveDomOperationPromise",
+            "$kind": "method",
+            "id": 1995,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {String} dest app, data or vdom\n     * @param {Object} opts configs for Neo.worker.Message\n     * @param {Array} [transfer] An optional array of Transferable objects to transfer ownership of.\n     * If the ownership of an object is transferred, it becomes unusable (neutered) in the context it was sent from\n     * and becomes available only to the worker it was sent to.\n     * @returns {Neo.worker.Message}\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    9737,
+                    10252
+                ],
+                "filename": "Manager.mjs",
+                "lineno": 314,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {
+                    "id": "astnode100065335",
+                    "name": "Manager#sendMessage",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "dest",
+                        "opts",
+                        "transfer"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "description": "app, data or vdom",
+                    "name": "dest"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "description": "configs for Neo.worker.Message",
+                    "name": "opts"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "optional": true,
+                    "description": "An optional array of Transferable objects to transfer ownership of.<br />If the ownership of an object is transferred, it becomes unusable (neutered) in the context it was sent from<br />and becomes available only to the worker it was sent to.",
+                    "name": "transfer"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.worker.Message"
+                        ]
+                    }
+                }
+            ],
+            "access": "private",
+            "name": "sendMessage",
+            "longname": "Manager#sendMessage",
+            "kind": "function",
+            "memberof": "Manager",
+            "scope": "instance",
+            "$longname": "Manager#sendMessage",
+            "$kind": "method",
+            "id": 1996,
+            "neoClassName": "Neo.worker.Manager"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {String} dest app, data or vdom\n     * @param {Object} opts configs for Neo.worker.Message\n     * @param {Array} [transfer] An optional array of Transferable objects to transfer ownership of.\n     * If the ownership of an object is transferred, it becomes unusable (neutered) in the context it was sent from\n     * and becomes available only to the worker it was sent to.\n     * @returns {Promise<any>}\n     */",
+            "meta": {
+                "range": [
+                    10698,
+                    11049
+                ],
+                "filename": "Manager.mjs",
+                "lineno": 341,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {
+                    "id": "astnode100065387",
+                    "name": "Manager#promiseMessage",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "dest",
+                        "opts",
+                        "transfer"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "description": "app, data or vdom",
+                    "name": "dest"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "description": "configs for Neo.worker.Message",
+                    "name": "opts"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "optional": true,
+                    "description": "An optional array of Transferable objects to transfer ownership of.<br />If the ownership of an object is transferred, it becomes unusable (neutered) in the context it was sent from<br />and becomes available only to the worker it was sent to.",
+                    "name": "transfer"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Promise.<any>"
+                        ]
+                    }
+                }
+            ],
+            "name": "promiseMessage",
+            "longname": "Manager#promiseMessage",
+            "kind": "function",
+            "memberof": "Manager",
+            "scope": "instance",
+            "$longname": "Manager#promiseMessage",
+            "$kind": "method",
+            "id": 1997,
+            "neoClassName": "Neo.worker.Manager"
+        }
+    ]
+}

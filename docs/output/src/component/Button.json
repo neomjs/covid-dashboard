@@ -1,0 +1,958 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * @class Neo.component.Button\n * @extends Neo.component.Base\n */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 4,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "kind": "class",
+            "name": "Button",
+            "augments": [
+                "Neo.component.Base"
+            ],
+            "memberof": "Neo.component",
+            "longname": "Neo.component.Button",
+            "scope": "static",
+            "$longname": "Neo.component.Button",
+            "$kind": "class",
+            "id": 193,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n         * Valid values for iconPosition\n         * @member {String[]} iconPositions=['top', 'right', 'bottom', 'left']\n         * @private\n         * @static\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 16,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Valid values for iconPosition",
+            "kind": "member",
+            "name": "iconPositions",
+            "type": {
+                "names": [
+                    "Array.<String>"
+                ]
+            },
+            "defaultvalue": "['top', 'right', 'bottom', 'left']",
+            "access": "private",
+            "scope": "static",
+            "longname": "iconPositions",
+            "$longname": "iconPositions",
+            "$kind": "property",
+            "id": 194,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Neo.component.Button'\n         * @private\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 24,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Neo.component.Button'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 195,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n         * @member {String} ntype='button'\n         * @private\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 29,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "ntype",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'button'",
+            "access": "private",
+            "longname": "ntype",
+            "scope": "global",
+            "$longname": "ntype",
+            "$kind": "property",
+            "id": 196,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n         * @member {String[]} cls=['neo-button']\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 33,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "cls",
+            "type": {
+                "names": [
+                    "Array.<String>"
+                ]
+            },
+            "defaultvalue": "['neo-button']",
+            "longname": "cls",
+            "scope": "global",
+            "$longname": "cls",
+            "$kind": "property",
+            "id": 197,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n         * false calls Neo.Main.setRoute()\n         * @member {Boolean} editRoute=true\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 38,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "false calls Neo.Main.setRoute()",
+            "kind": "member",
+            "name": "editRoute",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "longname": "editRoute",
+            "scope": "global",
+            "$longname": "editRoute",
+            "$kind": "property",
+            "id": 198,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n         * Shortcut for domListeners={click:handler}\n         * A string based value assumes that the handlerFn lives inside a ComponentController\n         * @member {Function|String|null} handler_=null\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 44,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Shortcut for domListeners={click:handler}<br />A string based value assumes that the handlerFn lives inside a ComponentController",
+            "kind": "member",
+            "name": "handler_",
+            "type": {
+                "names": [
+                    "function",
+                    "String",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "handler_",
+            "scope": "global",
+            "$longname": "handler_",
+            "$kind": "property",
+            "id": 199,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n         * The scope (this pointer) inside the handler function.\n         * Points to the button instance by default.\n         * @member {Object|null} handlerScope=null\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 50,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The scope (this pointer) inside the handler function.<br />Points to the button instance by default.",
+            "kind": "member",
+            "name": "handlerScope",
+            "type": {
+                "names": [
+                    "Object",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "handlerScope",
+            "scope": "global",
+            "$longname": "handlerScope",
+            "$kind": "property",
+            "id": 200,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n         * The CSS class to use for an icon, e.g. 'fa fa-home'\n         * @member {String|null} [iconCls_=null]\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 55,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The CSS class to use for an icon, e.g. 'fa fa-home'",
+            "kind": "member",
+            "name": "iconCls_",
+            "type": {
+                "names": [
+                    "String",
+                    "null"
+                ]
+            },
+            "optional": true,
+            "defaultvalue": null,
+            "longname": "iconCls_",
+            "scope": "global",
+            "$longname": "iconCls_",
+            "$kind": "property",
+            "id": 201,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n         * The color to use for an icon, e.g. '#ff0000' [optional]\n         * @member {String|null} iconColor_=null\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 60,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The color to use for an icon, e.g. '#ff0000' [optional]",
+            "kind": "member",
+            "name": "iconColor_",
+            "type": {
+                "names": [
+                    "String",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "iconColor_",
+            "scope": "global",
+            "$longname": "iconColor_",
+            "$kind": "property",
+            "id": 202,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n         * The position of the icon in case iconCls has a value.\n         * Valid values are: 'top', 'right', 'bottom', 'left'\n         * @member {String} iconPosition_='left'\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 66,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The position of the icon in case iconCls has a value.<br />Valid values are: 'top', 'right', 'bottom', 'left'",
+            "kind": "member",
+            "name": "iconPosition_",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'left'",
+            "longname": "iconPosition_",
+            "scope": "global",
+            "$longname": "iconPosition_",
+            "$kind": "property",
+            "id": 203,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n         * The pressed state of the Button\n         * @member {Boolean} pressed_=false\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 71,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The pressed state of the Button",
+            "kind": "member",
+            "name": "pressed_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "longname": "pressed_",
+            "scope": "global",
+            "$longname": "pressed_",
+            "$kind": "property",
+            "id": 204,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n         * Change the browser hash value on click\n         * @member {String|null} route_=null\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 76,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Change the browser hash value on click",
+            "kind": "member",
+            "name": "route_",
+            "type": {
+                "names": [
+                    "String",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "route_",
+            "scope": "global",
+            "$longname": "route_",
+            "$kind": "property",
+            "id": 205,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n         * The text displayed on the button [optional]\n         * @member {String} text_=''\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 81,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The text displayed on the button [optional]",
+            "kind": "member",
+            "name": "text_",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "''",
+            "longname": "text_",
+            "scope": "global",
+            "$longname": "text_",
+            "$kind": "property",
+            "id": 206,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n         * @member {Object} _vdom\n         */",
+            "meta": {
+                "filename": "Button.mjs",
+                "lineno": 85,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "_vdom",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "longname": "_vdom",
+            "scope": "global",
+            "$longname": "_vdom",
+            "$kind": "property",
+            "id": 207,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n     * Triggered after the handler config got changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    2887,
+                    3218
+                ],
+                "filename": "Button.mjs",
+                "lineno": 100,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100006956",
+                    "name": "Button#afterSetHandler",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the handler config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetHandler",
+            "longname": "Button#afterSetHandler",
+            "kind": "function",
+            "memberof": "Button",
+            "scope": "instance",
+            "$longname": "Button#afterSetHandler",
+            "$kind": "method",
+            "id": 208,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n     * Triggered after the iconCls config got changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    3371,
+                    3786
+                ],
+                "filename": "Button.mjs",
+                "lineno": 120,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100006996",
+                    "name": "Button#afterSetIconCls",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the iconCls config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetIconCls",
+            "longname": "Button#afterSetIconCls",
+            "kind": "function",
+            "memberof": "Button",
+            "scope": "instance",
+            "$longname": "Button#afterSetIconCls",
+            "$kind": "method",
+            "id": 209,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n     * Triggered after the iconColor config got changed\n     * @param {String|null} value\n     * @param {String|null} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    3951,
+                    4304
+                ],
+                "filename": "Button.mjs",
+                "lineno": 143,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100007066",
+                    "name": "Button#afterSetIconColor",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the iconColor config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetIconColor",
+            "longname": "Button#afterSetIconColor",
+            "kind": "function",
+            "memberof": "Button",
+            "scope": "instance",
+            "$longname": "Button#afterSetIconColor",
+            "$kind": "method",
+            "id": 210,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n     * Triggered after the iconPosition config got changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    4462,
+                    4655
+                ],
+                "filename": "Button.mjs",
+                "lineno": 166,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100007126",
+                    "name": "Button#afterSetIconPosition",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the iconPosition config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetIconPosition",
+            "longname": "Button#afterSetIconPosition",
+            "kind": "function",
+            "memberof": "Button",
+            "scope": "instance",
+            "$longname": "Button#afterSetIconPosition",
+            "$kind": "method",
+            "id": 211,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n     * Triggered after the pressed config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    4810,
+                    4972
+                ],
+                "filename": "Button.mjs",
+                "lineno": 181,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100007162",
+                    "name": "Button#afterSetPressed",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the pressed config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetPressed",
+            "longname": "Button#afterSetPressed",
+            "kind": "function",
+            "memberof": "Button",
+            "scope": "instance",
+            "$longname": "Button#afterSetPressed",
+            "$kind": "method",
+            "id": 212,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n     * Triggered after the route config got changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    5123,
+                    5442
+                ],
+                "filename": "Button.mjs",
+                "lineno": 194,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100007192",
+                    "name": "Button#afterSetRoute",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the route config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetRoute",
+            "longname": "Button#afterSetRoute",
+            "kind": "function",
+            "memberof": "Button",
+            "scope": "instance",
+            "$longname": "Button#afterSetRoute",
+            "$kind": "method",
+            "id": 213,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n     * Triggered after the text config got changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    5592,
+                    6180
+                ],
+                "filename": "Button.mjs",
+                "lineno": 214,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100007230",
+                    "name": "Button#afterSetText",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the text config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetText",
+            "longname": "Button#afterSetText",
+            "kind": "function",
+            "memberof": "Button",
+            "scope": "instance",
+            "$longname": "Button#afterSetText",
+            "$kind": "method",
+            "id": 214,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n     * Converts the iconCls array into a string on beforeGet\n     * @returns {String}\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    6304,
+                    6479
+                ],
+                "filename": "Button.mjs",
+                "lineno": 239,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100007324",
+                    "name": "Button#beforeGetIconCls",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Converts the iconCls array into a string on beforeGet",
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    }
+                }
+            ],
+            "access": "private",
+            "name": "beforeGetIconCls",
+            "longname": "Button#beforeGetIconCls",
+            "kind": "function",
+            "memberof": "Button",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Button#beforeGetIconCls",
+            "$kind": "method",
+            "id": 215,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n     * Triggered before the iconCls config gets changed. Converts the string into an array if needed.\n     * @param {Array|String|null} value\n     * @param {Array|String|null} oldValue\n     * @returns {Array}\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    6726,
+                    6884
+                ],
+                "filename": "Button.mjs",
+                "lineno": 256,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100007349",
+                    "name": "Button#beforeSetIconCls",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the iconCls config gets changed. Converts the string into an array if needed.",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    }
+                }
+            ],
+            "access": "private",
+            "name": "beforeSetIconCls",
+            "longname": "Button#beforeSetIconCls",
+            "kind": "function",
+            "memberof": "Button",
+            "scope": "instance",
+            "$longname": "Button#beforeSetIconCls",
+            "$kind": "method",
+            "id": 216,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n     * Triggered before the iconPosition config gets changed\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    7044,
+                    7163
+                ],
+                "filename": "Button.mjs",
+                "lineno": 270,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100007375",
+                    "name": "Button#beforeSetIconPosition",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the iconPosition config gets changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "beforeSetIconPosition",
+            "longname": "Button#beforeSetIconPosition",
+            "kind": "function",
+            "memberof": "Button",
+            "scope": "instance",
+            "$longname": "Button#beforeSetIconPosition",
+            "$kind": "method",
+            "id": 217,
+            "neoClassName": "Neo.component.Button"
+        },
+        {
+            "comment": "/**\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    7201,
+                    7427
+                ],
+                "filename": "Button.mjs",
+                "lineno": 277,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100007389",
+                    "name": "Button#changeRoute",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "access": "private",
+            "name": "changeRoute",
+            "longname": "Button#changeRoute",
+            "kind": "function",
+            "memberof": "Button",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Button#changeRoute",
+            "$kind": "method",
+            "id": 218,
+            "neoClassName": "Neo.component.Button"
+        }
+    ]
+}

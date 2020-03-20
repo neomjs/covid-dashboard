@@ -1,0 +1,592 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * @class Neo.util.KeyNavigation\n * @extends Neo.core.Base\n */",
+            "meta": {
+                "filename": "KeyNavigation.mjs",
+                "lineno": 5,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {}
+            },
+            "kind": "class",
+            "name": "KeyNavigation",
+            "augments": [
+                "Neo.core.Base"
+            ],
+            "memberof": "Neo.util",
+            "longname": "Neo.util.KeyNavigation",
+            "scope": "static",
+            "$longname": "Neo.util.KeyNavigation",
+            "$kind": "class",
+            "id": 1864,
+            "neoClassName": "Neo.util.KeyNavigation"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Neo.util.KeyNavigation'\n         * @private\n         */",
+            "meta": {
+                "filename": "KeyNavigation.mjs",
+                "lineno": 15,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Neo.util.KeyNavigation'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 1865,
+            "neoClassName": "Neo.util.KeyNavigation"
+        },
+        {
+            "comment": "/**\n         * @member {String} ntype='keynav'\n         * @private\n         */",
+            "meta": {
+                "filename": "KeyNavigation.mjs",
+                "lineno": 20,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "ntype",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'keynav'",
+            "access": "private",
+            "longname": "ntype",
+            "scope": "global",
+            "$longname": "ntype",
+            "$kind": "property",
+            "id": 1866,
+            "neoClassName": "Neo.util.KeyNavigation"
+        },
+        {
+            "comment": "/**\n         * Internally stores the component id inside _component\n         * @member {Neo.component.Base|null} component_=null\n         */",
+            "meta": {
+                "filename": "KeyNavigation.mjs",
+                "lineno": 25,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {}
+            },
+            "description": "Internally stores the component id inside _component",
+            "kind": "member",
+            "name": "component_",
+            "type": {
+                "names": [
+                    "Neo.component.Base",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "component_",
+            "scope": "global",
+            "$longname": "component_",
+            "$kind": "property",
+            "id": 1867,
+            "neoClassName": "Neo.util.KeyNavigation"
+        },
+        {
+            "comment": "/**\n         * Set this to true in case the keydown event is supposed to bubble upwards inside the component tree\n         * @member {Boolean} keyDownEventBubble=false\n         */",
+            "meta": {
+                "filename": "KeyNavigation.mjs",
+                "lineno": 30,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {}
+            },
+            "description": "Set this to true in case the keydown event is supposed to bubble upwards inside the component tree",
+            "kind": "member",
+            "name": "keyDownEventBubble",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "longname": "keyDownEventBubble",
+            "scope": "global",
+            "$longname": "keyDownEventBubble",
+            "$kind": "property",
+            "id": 1868,
+            "neoClassName": "Neo.util.KeyNavigation"
+        },
+        {
+            "comment": "/**\n         * @member {Array|null} keys_=null\n         */",
+            "meta": {
+                "filename": "KeyNavigation.mjs",
+                "lineno": 34,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "keys_",
+            "type": {
+                "names": [
+                    "Array",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "keys_",
+            "scope": "global",
+            "$longname": "keys_",
+            "$kind": "property",
+            "id": 1869,
+            "neoClassName": "Neo.util.KeyNavigation"
+        },
+        {
+            "comment": "/**\n     *\n     * @private\n     * @returns {Neo.component.Base}\n     */",
+            "meta": {
+                "range": [
+                    1177,
+                    1255
+                ],
+                "filename": "KeyNavigation.mjs",
+                "lineno": 46,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100058946",
+                    "name": "KeyNavigation#beforeGetComponent",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "access": "private",
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.component.Base"
+                        ]
+                    }
+                }
+            ],
+            "name": "beforeGetComponent",
+            "longname": "KeyNavigation#beforeGetComponent",
+            "kind": "function",
+            "memberof": "KeyNavigation",
+            "scope": "instance",
+            "params": [],
+            "$longname": "KeyNavigation#beforeGetComponent",
+            "$kind": "method",
+            "id": 1870,
+            "neoClassName": "Neo.util.KeyNavigation"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Neo.component.Base} value\n     * @private\n     * @returns {String} the component id\n     */",
+            "meta": {
+                "range": [
+                    1383,
+                    1450
+                ],
+                "filename": "KeyNavigation.mjs",
+                "lineno": 56,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100058958",
+                    "name": "KeyNavigation#beforeSetComponent",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.component.Base"
+                        ]
+                    },
+                    "name": "value"
+                }
+            ],
+            "access": "private",
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "description": "the component id"
+                }
+            ],
+            "name": "beforeSetComponent",
+            "longname": "KeyNavigation#beforeSetComponent",
+            "kind": "function",
+            "memberof": "KeyNavigation",
+            "scope": "instance",
+            "$longname": "KeyNavigation#beforeSetComponent",
+            "$kind": "method",
+            "id": 1871,
+            "neoClassName": "Neo.util.KeyNavigation"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    1479,
+                    1548
+                ],
+                "filename": "KeyNavigation.mjs",
+                "lineno": 63,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100058969",
+                    "name": "KeyNavigation#destroy",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "destroy",
+            "longname": "KeyNavigation#destroy",
+            "kind": "function",
+            "memberof": "KeyNavigation",
+            "scope": "instance",
+            "params": [],
+            "$longname": "KeyNavigation#destroy",
+            "$kind": "method",
+            "id": 1872,
+            "neoClassName": "Neo.util.KeyNavigation"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     */",
+            "meta": {
+                "range": [
+                    1605,
+                    2335
+                ],
+                "filename": "KeyNavigation.mjs",
+                "lineno": 72,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100058983",
+                    "name": "KeyNavigation#onKeyDown",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "name": "onKeyDown",
+            "longname": "KeyNavigation#onKeyDown",
+            "kind": "function",
+            "memberof": "KeyNavigation",
+            "scope": "instance",
+            "$longname": "KeyNavigation#onKeyDown",
+            "$kind": "method",
+            "id": 1873,
+            "neoClassName": "Neo.util.KeyNavigation"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} value\n     * @returns {Object}\n     */",
+            "meta": {
+                "range": [
+                    2418,
+                    2966
+                ],
+                "filename": "KeyNavigation.mjs",
+                "lineno": 100,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100059064",
+                    "name": "KeyNavigation#parseKeys",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "value"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    }
+                }
+            ],
+            "name": "parseKeys",
+            "longname": "KeyNavigation#parseKeys",
+            "kind": "function",
+            "memberof": "KeyNavigation",
+            "scope": "instance",
+            "$longname": "KeyNavigation#parseKeys",
+            "$kind": "method",
+            "id": 1874,
+            "neoClassName": "Neo.util.KeyNavigation"
+        },
+        {
+            "comment": "/**\n     * Replaces specific key names, e.g. \" \" => SPACE\n     * @param {String} key\n     * @private\n     * @returns {String}\n     */",
+            "meta": {
+                "range": [
+                    3110,
+                    3600
+                ],
+                "filename": "KeyNavigation.mjs",
+                "lineno": 127,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100059119",
+                    "name": "KeyNavigation#parseUpperCaseKey",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "key"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Replaces specific key names, e.g. \" \" => SPACE",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "key"
+                }
+            ],
+            "access": "private",
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    }
+                }
+            ],
+            "name": "parseUpperCaseKey",
+            "longname": "KeyNavigation#parseUpperCaseKey",
+            "kind": "function",
+            "memberof": "KeyNavigation",
+            "scope": "instance",
+            "$longname": "KeyNavigation#parseUpperCaseKey",
+            "$kind": "method",
+            "id": 1875,
+            "neoClassName": "Neo.util.KeyNavigation"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Neo.component.Base} component\n     */",
+            "meta": {
+                "range": [
+                    3674,
+                    4174
+                ],
+                "filename": "KeyNavigation.mjs",
+                "lineno": 153,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100059163",
+                    "name": "KeyNavigation#register",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "component"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.component.Base"
+                        ]
+                    },
+                    "name": "component"
+                }
+            ],
+            "name": "register",
+            "longname": "KeyNavigation#register",
+            "kind": "function",
+            "memberof": "KeyNavigation",
+            "scope": "instance",
+            "$longname": "KeyNavigation#register",
+            "$kind": "method",
+            "id": 1876,
+            "neoClassName": "Neo.util.KeyNavigation"
+        },
+        {
+            "comment": "/**\n     * Remove a key listener using the same config used when creating it\n     * @param {Object} config\n     */",
+            "meta": {
+                "range": [
+                    4299,
+                    4650
+                ],
+                "filename": "KeyNavigation.mjs",
+                "lineno": 177,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100059222",
+                    "name": "KeyNavigation#removeKey",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "config"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Remove a key listener using the same config used when creating it",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config"
+                }
+            ],
+            "name": "removeKey",
+            "longname": "KeyNavigation#removeKey",
+            "kind": "function",
+            "memberof": "KeyNavigation",
+            "scope": "instance",
+            "$longname": "KeyNavigation#removeKey",
+            "$kind": "method",
+            "id": 1877,
+            "neoClassName": "Neo.util.KeyNavigation"
+        },
+        {
+            "comment": "/**\n     * Remove multiple key listeners passing an array of config items\n     * @param {Array} items\n     */",
+            "meta": {
+                "range": [
+                    4770,
+                    4898
+                ],
+                "filename": "KeyNavigation.mjs",
+                "lineno": 198,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100059275",
+                    "name": "KeyNavigation#removeKeys",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "items"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Remove multiple key listeners passing an array of config items",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "items"
+                }
+            ],
+            "name": "removeKeys",
+            "longname": "KeyNavigation#removeKeys",
+            "kind": "function",
+            "memberof": "KeyNavigation",
+            "scope": "instance",
+            "$longname": "KeyNavigation#removeKeys",
+            "$kind": "method",
+            "id": 1878,
+            "neoClassName": "Neo.util.KeyNavigation"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    4927,
+                    5013
+                ],
+                "filename": "KeyNavigation.mjs",
+                "lineno": 207,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100059299",
+                    "name": "KeyNavigation#unregister",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "unregister",
+            "longname": "KeyNavigation#unregister",
+            "kind": "function",
+            "memberof": "KeyNavigation",
+            "scope": "instance",
+            "params": [],
+            "$longname": "KeyNavigation#unregister",
+            "$kind": "method",
+            "id": 1879,
+            "neoClassName": "Neo.util.KeyNavigation"
+        }
+    ]
+}

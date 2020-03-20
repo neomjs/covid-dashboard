@@ -1,0 +1,3561 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * @class Neo.component.Base\n * @extends Neo.core.Base\n */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 13,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "kind": "class",
+            "name": "Base",
+            "augments": [
+                "Neo.core.Base"
+            ],
+            "memberof": "Neo.component",
+            "longname": "Neo.component.Base",
+            "scope": "static",
+            "$longname": "Neo.component.Base",
+            "$kind": "class",
+            "id": 101,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * True automatically applies the core/Observable.mjs mixin\n         * @member {Boolean} observable=true\n         * @static\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 24,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "True automatically applies the core/Observable.mjs mixin",
+            "kind": "member",
+            "name": "observable",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "scope": "static",
+            "longname": "observable",
+            "$longname": "observable",
+            "$kind": "property",
+            "id": 102,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Neo.component.Base'\n         * @private\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 32,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Neo.component.Base'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 103,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * @member {String} ntype='component'\n         * @private\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 37,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "ntype",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'component'",
+            "access": "private",
+            "longname": "ntype",
+            "scope": "global",
+            "$longname": "ntype",
+            "$kind": "property",
+            "id": 104,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * True automatically mounts a component after being rendered.\n         * Use this for the top level component of your app.\n         * @member {Boolean} autoMount=false\n         * @tutorial 02_ClassSystem\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 44,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "True automatically mounts a component after being rendered.<br />Use this for the top level component of your app.",
+            "kind": "member",
+            "name": "autoMount",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "tutorials": [
+                "02_ClassSystem"
+            ],
+            "longname": "autoMount",
+            "scope": "global",
+            "$longname": "autoMount",
+            "$kind": "property",
+            "id": 105,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * True automatically renders a component after being created inside the init call.\n         * Use this for the top level component of your app.\n         * @member {Boolean} autoRender=false\n         * @see {@link Neo.component.Base#init init}\n         * @tutorial 02_ClassSystem\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 52,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "True automatically renders a component after being created inside the init call.<br />Use this for the top level component of your app.",
+            "kind": "member",
+            "name": "autoRender",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "see": [
+                "{@link Neo.component.Base#init init}"
+            ],
+            "tutorials": [
+                "02_ClassSystem"
+            ],
+            "longname": "autoRender",
+            "scope": "global",
+            "$longname": "autoRender",
+            "$kind": "property",
+            "id": 106,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * manager.Focus will change this flag on focusin & out dom events\n         * @member {Boolean} containsFocus_=false\n         * @private\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 58,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "manager.Focus will change this flag on focusin & out dom events",
+            "kind": "member",
+            "name": "containsFocus_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "access": "private",
+            "longname": "containsFocus_",
+            "scope": "global",
+            "$longname": "containsFocus_",
+            "$kind": "property",
+            "id": 107,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Assign a component controller to this component (pass an imported module or the string based class name)\n         * @member {Neo.controller.Component|String} controller_=null\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 63,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Assign a component controller to this component (pass an imported module or the string based class name)",
+            "kind": "member",
+            "name": "controller_",
+            "type": {
+                "names": [
+                    "Neo.controller.Component",
+                    "String"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "controller_",
+            "scope": "global",
+            "$longname": "controller_",
+            "$kind": "property",
+            "id": 108,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Disabled components will get the neo-disabled cls applied and won't receive DOM events\n         * @member {Boolean} disabled_=false\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 68,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Disabled components will get the neo-disabled cls applied and won't receive DOM events",
+            "kind": "member",
+            "name": "disabled_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "longname": "disabled_",
+            "scope": "global",
+            "$longname": "disabled_",
+            "$kind": "property",
+            "id": 109,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * An array of domListener configs\n         * @member {Object[]|null} domListeners_=null\n         * @example\n         * afterSetStayOnHover(value, oldValue) {\n         *     if (value) {\n         *         let me           = this,\n         *             domListeners = me.domListeners || [];\n         *\n         *         domListeners.push({\n         *             mouseenter: me.onMouseEnter,\n         *             scope     : me\n         *         }, {\n         *             mouseleave: me.onMouseLeave,\n         *             scope     : me\n         *         });\n         *\n         *        me.domListeners = domListeners;\n         *    }\n         *}\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 90,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "An array of domListener configs",
+            "kind": "member",
+            "name": "domListeners_",
+            "type": {
+                "names": [
+                    "Array.<Object>",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "examples": [
+                "afterSetStayOnHover(value, oldValue) {\n    if (value) {\n        let me           = this,\n            domListeners = me.domListeners || [];\n\n        domListeners.push({\n            mouseenter: me.onMouseEnter,\n            scope     : me\n        }, {\n            mouseleave: me.onMouseLeave,\n            scope     : me\n        });\n\n       me.domListeners = domListeners;\n   }\n}"
+            ],
+            "longname": "domListeners_",
+            "scope": "global",
+            "$longname": "domListeners_",
+            "$kind": "property",
+            "id": 110,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Internal flag which will get set to true on mount\n         * @member {Boolean} hasBeenMounted=false\n         * @private\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 96,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Internal flag which will get set to true on mount",
+            "kind": "member",
+            "name": "hasBeenMounted",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "access": "private",
+            "longname": "hasBeenMounted",
+            "scope": "global",
+            "$longname": "hasBeenMounted",
+            "$kind": "property",
+            "id": 111,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Internal flag for vdom changes after a component got unmounted\n         * (delta updates can no longer get applied & a new render call is required before re-mounting)\n         * @member {Boolean} hasUnmountedVdomChanges_=false\n         * @private\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 103,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Internal flag for vdom changes after a component got unmounted<br />(delta updates can no longer get applied & a new render call is required before re-mounting)",
+            "kind": "member",
+            "name": "hasUnmountedVdomChanges_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "access": "private",
+            "longname": "hasUnmountedVdomChanges_",
+            "scope": "global",
+            "$longname": "hasUnmountedVdomChanges_",
+            "$kind": "property",
+            "id": 112,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Shortcut for style.height, defaults to px\n         * @member {Number|String|null} height_=null\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 108,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Shortcut for style.height, defaults to px",
+            "kind": "member",
+            "name": "height_",
+            "type": {
+                "names": [
+                    "Number",
+                    "String",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "height_",
+            "scope": "global",
+            "$longname": "height_",
+            "$kind": "property",
+            "id": 113,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * The top level innerHTML of the component\n         * @member {String|null} html_=null\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 113,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The top level innerHTML of the component",
+            "kind": "member",
+            "name": "html_",
+            "type": {
+                "names": [
+                    "String",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "html_",
+            "scope": "global",
+            "$longname": "html_",
+            "$kind": "property",
+            "id": 114,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * The unique component id\n         * @member {String|null} id_=null\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 118,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The unique component id",
+            "kind": "member",
+            "name": "id_",
+            "type": {
+                "names": [
+                    "String",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "id_",
+            "scope": "global",
+            "$longname": "id_",
+            "$kind": "property",
+            "id": 115,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Internal flag which will get set to true while an update request (worker messages) is in progress\n         * @member {Boolean} isVdomUpdating=false\n         * @private\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 124,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Internal flag which will get set to true while an update request (worker messages) is in progress",
+            "kind": "member",
+            "name": "isVdomUpdating",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "access": "private",
+            "longname": "isVdomUpdating",
+            "scope": "global",
+            "$longname": "isVdomUpdating",
+            "$kind": "property",
+            "id": 116,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Using the keys config will create an instance of Neo.util.KeyNavigation.\n         * @see {@link Neo.util.KeyNavigation KeyNavigation}\n         * @member {Object} keys_=null\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 130,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Using the keys config will create an instance of Neo.util.KeyNavigation.",
+            "see": [
+                "{@link Neo.util.KeyNavigation KeyNavigation}"
+            ],
+            "kind": "member",
+            "name": "keys_",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "keys_",
+            "scope": "global",
+            "$longname": "keys_",
+            "$kind": "property",
+            "id": 117,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Shortcut for style.maxHeight, defaults to px\n         * @member {Number|String|null} maxHeight_=null\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 135,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Shortcut for style.maxHeight, defaults to px",
+            "kind": "member",
+            "name": "maxHeight_",
+            "type": {
+                "names": [
+                    "Number",
+                    "String",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "maxHeight_",
+            "scope": "global",
+            "$longname": "maxHeight_",
+            "$kind": "property",
+            "id": 118,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Shortcut for style.maxWidth, defaults to px\n         * @member {Number|String|null} maxWidth_=null\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 140,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Shortcut for style.maxWidth, defaults to px",
+            "kind": "member",
+            "name": "maxWidth_",
+            "type": {
+                "names": [
+                    "Number",
+                    "String",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "maxWidth_",
+            "scope": "global",
+            "$longname": "maxWidth_",
+            "$kind": "property",
+            "id": 119,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Shortcut for style.minHeight, defaults to px\n         * @member {Number|String|null} minHeight_=null\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 145,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Shortcut for style.minHeight, defaults to px",
+            "kind": "member",
+            "name": "minHeight_",
+            "type": {
+                "names": [
+                    "Number",
+                    "String",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "minHeight_",
+            "scope": "global",
+            "$longname": "minHeight_",
+            "$kind": "property",
+            "id": 120,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Shortcut for style.minWidth, defaults to px\n         * @member {Number|String|null} minWidth_=null\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 150,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Shortcut for style.minWidth, defaults to px",
+            "kind": "member",
+            "name": "minWidth_",
+            "type": {
+                "names": [
+                    "Number",
+                    "String",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "minWidth_",
+            "scope": "global",
+            "$longname": "minWidth_",
+            "$kind": "property",
+            "id": 121,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * True in case the component is mounted to the DOM\n         * @member {Boolean} mounted_=false\n         * @private\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 156,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "True in case the component is mounted to the DOM",
+            "kind": "member",
+            "name": "mounted_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "access": "private",
+            "longname": "mounted_",
+            "scope": "global",
+            "$longname": "mounted_",
+            "$kind": "property",
+            "id": 122,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Internal flag which will get set to true in case an update call arrives while another update is running\n         * @member {Boolean} isVdomUpdating=false\n         * @private\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 162,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Internal flag which will get set to true in case an update call arrives while another update is running",
+            "kind": "member",
+            "name": "isVdomUpdating",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "access": "private",
+            "longname": "isVdomUpdating",
+            "scope": "global",
+            "$longname": "isVdomUpdating",
+            "$kind": "property",
+            "id": 123,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * True in case the component is rendering the vnode\n         * @member {Boolean} rendering_=false\n         * @private\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 168,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "True in case the component is rendering the vnode",
+            "kind": "member",
+            "name": "rendering_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "access": "private",
+            "longname": "rendering_",
+            "scope": "global",
+            "$longname": "rendering_",
+            "$kind": "property",
+            "id": 124,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Set this to true for bulk updates.\n         * Ensure to set it back to false afterwards.\n         * @member {Boolean} silentVdomUpdate=false\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 174,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Set this to true for bulk updates.<br />Ensure to set it back to false afterwards.",
+            "kind": "member",
+            "name": "silentVdomUpdate",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "longname": "silentVdomUpdate",
+            "scope": "global",
+            "$longname": "silentVdomUpdate",
+            "$kind": "property",
+            "id": 125,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Top level style attributes\n         * @member {Object} style={}\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 179,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Top level style attributes",
+            "kind": "member",
+            "name": "style",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": "{}",
+            "longname": "style",
+            "scope": "global",
+            "$longname": "style",
+            "$kind": "property",
+            "id": 126,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Add tooltip config objects\n         * See tooltip/Base.mjs\n         * @member {Array|Object} tooltips_=null\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 185,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Add tooltip config objects<br />See tooltip/Base.mjs",
+            "kind": "member",
+            "name": "tooltips_",
+            "type": {
+                "names": [
+                    "Array",
+                    "Object"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "tooltips_",
+            "scope": "global",
+            "$longname": "tooltips_",
+            "$kind": "property",
+            "id": 127,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * The component vnode tree. Available after the component got rendered.\n         * @member {Object} vnode_=null\n         * @private\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 191,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The component vnode tree. Available after the component got rendered.",
+            "kind": "member",
+            "name": "vnode_",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": null,
+            "access": "private",
+            "longname": "vnode_",
+            "scope": "global",
+            "$longname": "vnode_",
+            "$kind": "property",
+            "id": 128,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Shortcut for style.width, defaults to px\n         * @member {Number|String|null} width_=null\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 196,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Shortcut for style.width, defaults to px",
+            "kind": "member",
+            "name": "width_",
+            "type": {
+                "names": [
+                    "Number",
+                    "String",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "width_",
+            "scope": "global",
+            "$longname": "width_",
+            "$kind": "property",
+            "id": 129,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * Top level style attributes. Useful in case getVdomRoot() does not point to the top level DOM node.\n         * @member {Object} wrapperStyle_={}\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 201,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Top level style attributes. Useful in case getVdomRoot() does not point to the top level DOM node.",
+            "kind": "member",
+            "name": "wrapperStyle_",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": "{}",
+            "longname": "wrapperStyle_",
+            "scope": "global",
+            "$longname": "wrapperStyle_",
+            "$kind": "property",
+            "id": 130,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n         * The vdom markup for this component.\n         * @member {Object} _vdom={}\n         */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 206,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The vdom markup for this component.",
+            "kind": "member",
+            "name": "_vdom",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": "{}",
+            "longname": "_vdom",
+            "scope": "global",
+            "$longname": "_vdom",
+            "$kind": "property",
+            "id": 131,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Specify a different vdom root if needed to apply the top level style attributes on a different level.\n     * Make sure to use getVnodeRoot() as well, to keep the vdom & vnode trees in sync.\n     * @returns {Object} The new vdom root\n     */",
+            "meta": {
+                "range": [
+                    7259,
+                    7306
+                ],
+                "filename": "Base.mjs",
+                "lineno": 214,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100003942",
+                    "name": "Base#getVdomRoot",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Specify a different vdom root if needed to apply the top level style attributes on a different level.<br />Make sure to use getVnodeRoot() as well, to keep the vdom & vnode trees in sync.",
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "description": "The new vdom root"
+                }
+            ],
+            "name": "getVdomRoot",
+            "longname": "Base#getVdomRoot",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Base#getVdomRoot",
+            "$kind": "method",
+            "id": 132,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Specify a different vnode root if needed to apply the top level style attributes on a different level.\n     * Make sure to use getVdomRoot() as well, to keep the vdom & vnode trees in sync.\n     * @returns {Object} The new vnode root\n     */",
+            "meta": {
+                "range": [
+                    7569,
+                    7618
+                ],
+                "filename": "Base.mjs",
+                "lineno": 223,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100003950",
+                    "name": "Base#getVnodeRoot",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Specify a different vnode root if needed to apply the top level style attributes on a different level.<br />Make sure to use getVdomRoot() as well, to keep the vdom & vnode trees in sync.",
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "description": "The new vnode root"
+                }
+            ],
+            "name": "getVnodeRoot",
+            "longname": "Base#getVnodeRoot",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Base#getVnodeRoot",
+            "$kind": "method",
+            "id": 133,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Override this method to change the order configs are applied to this instance.\n     * @param {Object} config\n     * @param {Boolean} [preventOriginalConfig] True prevents the instance from getting an originalConfig property\n     * @returns {Object} config\n     */",
+            "meta": {
+                "range": [
+                    7903,
+                    8751
+                ],
+                "filename": "Base.mjs",
+                "lineno": 233,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100003958",
+                    "name": "Base#mergeConfig",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "args"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Override this method to change the order configs are applied to this instance.",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "optional": true,
+                    "description": "True prevents the instance from getting an originalConfig property",
+                    "name": "preventOriginalConfig"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "description": "config"
+                }
+            ],
+            "name": "mergeConfig",
+            "longname": "Base#mergeConfig",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#mergeConfig",
+            "$kind": "method",
+            "id": 134,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} config\n     */",
+            "meta": {
+                "range": [
+                    8810,
+                    8901
+                ],
+                "filename": "Base.mjs",
+                "lineno": 261,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004059",
+                    "name": "Base",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "config"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config"
+                }
+            ],
+            "name": "Base",
+            "longname": "Base",
+            "kind": "class",
+            "scope": "global",
+            "$longname": "Base",
+            "$kind": "constructor",
+            "id": 135,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    8930,
+                    9133
+                ],
+                "filename": "Base.mjs",
+                "lineno": 269,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004074",
+                    "name": "Base#onConstructed",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "onConstructed",
+            "longname": "Base#onConstructed",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Base#onConstructed",
+            "$kind": "method",
+            "id": 136,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    9162,
+                    9244
+                ],
+                "filename": "Base.mjs",
+                "lineno": 284,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004111",
+                    "name": "Base#init",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "init",
+            "longname": "Base#init",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Base#init",
+            "$kind": "method",
+            "id": 137,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * CSS selectors to apply to the top level node of this component\n     * @member {String[]} cls=['neo-component']\n     */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 294,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "CSS selectors to apply to the top level node of this component",
+            "kind": "member",
+            "name": "cls",
+            "type": {
+                "names": [
+                    "Array.<String>"
+                ]
+            },
+            "defaultvalue": "['neo-component']",
+            "longname": "cls",
+            "scope": "global",
+            "$longname": "cls",
+            "$kind": "property",
+            "id": 138,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Apply component based listeners\n     * @member {Object} listeners={}\n     */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 330,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Apply component based listeners",
+            "kind": "member",
+            "name": "listeners",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": "{}",
+            "longname": "listeners",
+            "scope": "global",
+            "$longname": "listeners",
+            "$kind": "property",
+            "id": 139,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * True after the component render() method was called. Also fires the rendered event.\n     * @member {Boolean} rendered=false\n     * @private\n     */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 342,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "True after the component render() method was called. Also fires the rendered event.",
+            "kind": "member",
+            "name": "rendered",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": false,
+            "access": "private",
+            "longname": "rendered",
+            "scope": "global",
+            "$longname": "rendered",
+            "$kind": "property",
+            "id": 140,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Top level style attributes\n     * @member {Object} style={}\n     */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 359,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Top level style attributes",
+            "kind": "member",
+            "name": "style",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": "{}",
+            "longname": "style",
+            "scope": "global",
+            "$longname": "style",
+            "$kind": "property",
+            "id": 141,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * The setter will handle vdom updates automatically\n     * @member {Object} vdom=this._vdom\n     */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 391,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "The setter will handle vdom updates automatically",
+            "kind": "member",
+            "name": "vdom",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": "this._vdom",
+            "longname": "vdom",
+            "scope": "global",
+            "$longname": "vdom",
+            "$kind": "property",
+            "id": 142,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Either a string like 'color: red; background-color: blue;'\n     * or an object containing style attributes\n     * @param {String|Object} value\n     * @returns {Object} all styles of this.el\n     */",
+            "meta": {
+                "range": [
+                    13754,
+                    13997
+                ],
+                "filename": "Base.mjs",
+                "lineno": 462,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004614",
+                    "name": "Base#addStyle",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Either a string like 'color: red; background-color: blue;'<br />or an object containing style attributes",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String",
+                            "Object"
+                        ]
+                    },
+                    "name": "value"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "description": "all styles of this.el"
+                }
+            ],
+            "name": "addStyle",
+            "longname": "Base#addStyle",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#addStyle",
+            "$kind": "method",
+            "id": 143,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the disabled config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    14153,
+                    14332
+                ],
+                "filename": "Base.mjs",
+                "lineno": 478,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004646",
+                    "name": "Base#afterSetDisabled",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the disabled config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetDisabled",
+            "longname": "Base#afterSetDisabled",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetDisabled",
+            "$kind": "method",
+            "id": 144,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Registers the domListeners inside the Neo.manager.DomEvent\n     * @param {Array} value\n     * @param {Array} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    14495,
+                    14607
+                ],
+                "filename": "Base.mjs",
+                "lineno": 492,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004677",
+                    "name": "Base#afterSetDomListeners",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Registers the domListeners inside the Neo.manager.DomEvent",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetDomListeners",
+            "longname": "Base#afterSetDomListeners",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetDomListeners",
+            "$kind": "method",
+            "id": 145,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the hasUnmountedVdomChanges config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    14778,
+                    15289
+                ],
+                "filename": "Base.mjs",
+                "lineno": 502,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004691",
+                    "name": "Base#afterSetHasUnmountedVdomChanges",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the hasUnmountedVdomChanges config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetHasUnmountedVdomChanges",
+            "longname": "Base#afterSetHasUnmountedVdomChanges",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetHasUnmountedVdomChanges",
+            "$kind": "method",
+            "id": 146,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the height config got changed\n     * @param {Number|String|null} value\n     * @param {Number|String|null} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    15465,
+                    15553
+                ],
+                "filename": "Base.mjs",
+                "lineno": 525,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004749",
+                    "name": "Base#afterSetHeight",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the height config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetHeight",
+            "longname": "Base#afterSetHeight",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetHeight",
+            "$kind": "method",
+            "id": 147,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the html config got changed\n     * @param {String|null} value\n     * @param {String|null} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    15713,
+                    15797
+                ],
+                "filename": "Base.mjs",
+                "lineno": 535,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004762",
+                    "name": "Base#afterSetHtml",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the html config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetHtml",
+            "longname": "Base#afterSetHtml",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetHtml",
+            "$kind": "method",
+            "id": 148,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the id config got changed\n     * @param {String|null} value\n     * @param {String|null} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    15955,
+                    16035
+                ],
+                "filename": "Base.mjs",
+                "lineno": 545,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004775",
+                    "name": "Base#afterSetId",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the id config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetId",
+            "longname": "Base#afterSetId",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetId",
+            "$kind": "method",
+            "id": 149,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the maxHeight config got changed\n     * @param {Number|String|null} value\n     * @param {Number|String|null} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    16214,
+                    16308
+                ],
+                "filename": "Base.mjs",
+                "lineno": 555,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004788",
+                    "name": "Base#afterSetMaxHeight",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the maxHeight config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetMaxHeight",
+            "longname": "Base#afterSetMaxHeight",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetMaxHeight",
+            "$kind": "method",
+            "id": 150,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the maxWidth config got changed\n     * @param {Number|String|null} value\n     * @param {Number|String|null} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    16486,
+                    16578
+                ],
+                "filename": "Base.mjs",
+                "lineno": 565,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004801",
+                    "name": "Base#afterSetMaxWidth",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the maxWidth config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetMaxWidth",
+            "longname": "Base#afterSetMaxWidth",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetMaxWidth",
+            "$kind": "method",
+            "id": 151,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the minHeight config got changed\n     * @param {Number|String|null} value\n     * @param {Number|String|null} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    16757,
+                    16851
+                ],
+                "filename": "Base.mjs",
+                "lineno": 575,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004814",
+                    "name": "Base#afterSetMinHeight",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the minHeight config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetMinHeight",
+            "longname": "Base#afterSetMinHeight",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetMinHeight",
+            "$kind": "method",
+            "id": 152,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the minWidth config got changed\n     * @param {Number|String|null} value\n     * @param {Number|String|null} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    17029,
+                    17121
+                ],
+                "filename": "Base.mjs",
+                "lineno": 585,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004827",
+                    "name": "Base#afterSetMinWidth",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the minWidth config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetMinWidth",
+            "longname": "Base#afterSetMinWidth",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetMinWidth",
+            "$kind": "method",
+            "id": 153,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the mounted config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    17276,
+                    18363
+                ],
+                "filename": "Base.mjs",
+                "lineno": 595,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004840",
+                    "name": "Base#afterSetMounted",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the mounted config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetMounted",
+            "longname": "Base#afterSetMounted",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetMounted",
+            "$kind": "method",
+            "id": 154,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the tooltips config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    18519,
+                    18919
+                ],
+                "filename": "Base.mjs",
+                "lineno": 639,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100004959",
+                    "name": "Base#afterSetTooltips",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the tooltips config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetTooltips",
+            "longname": "Base#afterSetTooltips",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetTooltips",
+            "$kind": "method",
+            "id": 155,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the vnode config got changed\n     * @param {Object} value\n     * @param {Object|null} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    19075,
+                    19178
+                ],
+                "filename": "Base.mjs",
+                "lineno": 661,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005000",
+                    "name": "Base#afterSetVnode",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the vnode config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetVnode",
+            "longname": "Base#afterSetVnode",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetVnode",
+            "$kind": "method",
+            "id": 156,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the width config got changed\n     * @param {Number|String|null} value\n     * @param {Number|String|null} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    19353,
+                    19439
+                ],
+                "filename": "Base.mjs",
+                "lineno": 673,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005014",
+                    "name": "Base#afterSetWidth",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the width config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetWidth",
+            "longname": "Base#afterSetWidth",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetWidth",
+            "$kind": "method",
+            "id": 157,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered after the wrapperStyle config got changed\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    19597,
+                    19851
+                ],
+                "filename": "Base.mjs",
+                "lineno": 683,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005027",
+                    "name": "Base#afterSetWrapperStyle",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the wrapperStyle config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetWrapperStyle",
+            "longname": "Base#afterSetWrapperStyle",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#afterSetWrapperStyle",
+            "$kind": "method",
+            "id": 158,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered when accessing the controller config\n     * @param {Object} value\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    19972,
+                    20046
+                ],
+                "filename": "Base.mjs",
+                "lineno": 698,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005074",
+                    "name": "Base#beforeGetController",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered when accessing the controller config",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "value"
+                }
+            ],
+            "access": "private",
+            "name": "beforeGetController",
+            "longname": "Base#beforeGetController",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#beforeGetController",
+            "$kind": "method",
+            "id": 159,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered before the controller config gets changed. Creates a ComponentController instance if needed.\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    20255,
+                    20963
+                ],
+                "filename": "Base.mjs",
+                "lineno": 708,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005087",
+                    "name": "Base#beforeSetController",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the controller config gets changed. Creates a ComponentController instance if needed.",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "beforeSetController",
+            "longname": "Base#beforeSetController",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#beforeSetController",
+            "$kind": "method",
+            "id": 160,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered before the domListeners config gets changed.\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    21124,
+                    21273
+                ],
+                "filename": "Base.mjs",
+                "lineno": 740,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005184",
+                    "name": "Base#beforeSetDomListeners",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the domListeners config gets changed.",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "beforeSetDomListeners",
+            "longname": "Base#beforeSetDomListeners",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#beforeSetDomListeners",
+            "$kind": "method",
+            "id": 161,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered before the keys config gets changed. Creates a KeyNavigation instance if needed.\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    21470,
+                    21974
+                ],
+                "filename": "Base.mjs",
+                "lineno": 754,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005206",
+                    "name": "Base#beforeSetKeys",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the keys config gets changed. Creates a KeyNavigation instance if needed.",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "beforeSetKeys",
+            "longname": "Base#beforeSetKeys",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#beforeSetKeys",
+            "$kind": "method",
+            "id": 162,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Changes the value of a vdom object attribute or removes it in case it has no value\n     * @param {String} key\n     * @param {Array|Number|Object|String|null} value\n     */",
+            "meta": {
+                "range": [
+                    22167,
+                    22416
+                ],
+                "filename": "Base.mjs",
+                "lineno": 779,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005261",
+                    "name": "Base#changeVdomRootKey",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "key",
+                        "value"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Changes the value of a vdom object attribute or removes it in case it has no value",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "key"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array",
+                            "Number",
+                            "Object",
+                            "String",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                }
+            ],
+            "name": "changeVdomRootKey",
+            "longname": "Base#changeVdomRootKey",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#changeVdomRootKey",
+            "$kind": "method",
+            "id": 163,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Creates the tooltip instances\n     * @param {Array|Object} value\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    22526,
+                    23052
+                ],
+                "filename": "Base.mjs",
+                "lineno": 797,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005303",
+                    "name": "Base#createTooltips",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Creates the tooltip instances",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array",
+                            "Object"
+                        ]
+                    },
+                    "name": "value"
+                }
+            ],
+            "access": "private",
+            "name": "createTooltips",
+            "longname": "Base#createTooltips",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#createTooltips",
+            "$kind": "method",
+            "id": 164,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Unregisters this instance from the ComponentManager\n     * @param {Boolean} [updateParentVdom=false] true to remove the component from the parent vdom => real dom\n     * @param {Boolean} [silent=false] true to update the vdom silently (useful for destroying multiple child items in a row)\n     * todo: unregister events\n     */",
+            "meta": {
+                "range": [
+                    23401,
+                    23849
+                ],
+                "filename": "Base.mjs",
+                "lineno": 827,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005369",
+                    "name": "Base#destroy",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "updateParentVdom",
+                        "silent"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Unregisters this instance from the ComponentManager",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": false,
+                    "description": "true to remove the component from the parent vdom => real dom",
+                    "name": "updateParentVdom"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": false,
+                    "description": "true to update the vdom silently (useful for destroying multiple child items in a row)<br />todo: unregister events",
+                    "name": "silent"
+                }
+            ],
+            "name": "destroy",
+            "longname": "Base#destroy",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#destroy",
+            "$kind": "method",
+            "id": 165,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Convenience shortcut for Neo.manager.Component.down\n     * @param {Object|String} config\n     * @returns {Neo.core.Base} The matching instance or null\n     */",
+            "meta": {
+                "range": [
+                    24029,
+                    24104
+                ],
+                "filename": "Base.mjs",
+                "lineno": 849,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005439",
+                    "name": "Base#down",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "config"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Convenience shortcut for Neo.manager.Component.down",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object",
+                            "String"
+                        ]
+                    },
+                    "name": "config"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.core.Base"
+                        ]
+                    },
+                    "description": "The matching instance or null"
+                }
+            ],
+            "name": "down",
+            "longname": "Base#down",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#down",
+            "$kind": "method",
+            "id": 166,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Calls focus() on the top level DOM node of this component or on a given node via id\n     * @param {String} [id]\n     */",
+            "meta": {
+                "range": [
+                    24245,
+                    24592
+                ],
+                "filename": "Base.mjs",
+                "lineno": 857,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005453",
+                    "name": "Base#focus",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "id"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Calls focus() on the top level DOM node of this component or on a given node via id",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "optional": true,
+                    "name": "id"
+                }
+            ],
+            "name": "focus",
+            "longname": "Base#focus",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#focus",
+            "$kind": "method",
+            "id": 167,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Returns this.controller or the closest parent controller\n     * @param {String} [ntype]\n     * @returns {Neo.controller.Base|null}\n     */",
+            "meta": {
+                "range": [
+                    24752,
+                    25288
+                ],
+                "filename": "Base.mjs",
+                "lineno": 875,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005498",
+                    "name": "Base#getController",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "ntype"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Returns this.controller or the closest parent controller",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "optional": true,
+                    "name": "ntype"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.controller.Base",
+                            "null"
+                        ]
+                    }
+                }
+            ],
+            "name": "getController",
+            "longname": "Base#getController",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#getController",
+            "$kind": "method",
+            "id": 168,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Search vdom child nodes by id for a given vdom tree\n     * @param {String} id\n     * @param {Object} [vdom]\n     * @returns {Object}\n     */",
+            "meta": {
+                "range": [
+                    25450,
+                    25981
+                ],
+                "filename": "Base.mjs",
+                "lineno": 902,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005582",
+                    "name": "Base#getVdomChild",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "id",
+                        "vdom"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Search vdom child nodes by id for a given vdom tree",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "id"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "optional": true,
+                    "name": "vdom"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    }
+                }
+            ],
+            "name": "getVdomChild",
+            "longname": "Base#getVdomChild",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#getVdomChild",
+            "$kind": "method",
+            "id": 169,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Can get called after the component got rendered. See the autoMount config as well.\n     */",
+            "meta": {
+                "range": [
+                    26093,
+                    27648
+                ],
+                "filename": "Base.mjs",
+                "lineno": 929,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005660",
+                    "name": "Base#mount",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Can get called after the component got rendered. See the autoMount config as well.",
+            "name": "mount",
+            "longname": "Base#mount",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Base#mount",
+            "$kind": "method",
+            "id": 170,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered by manager.Focus\n     * @name onFocusEnter\n     * @function\n     * @param {Array} path dom element ids upwards\n     */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 973,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Triggered by manager.Focus",
+            "name": "onFocusEnter",
+            "kind": "function",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "description": "dom element ids upwards",
+                    "name": "path"
+                }
+            ],
+            "longname": "onFocusEnter",
+            "scope": "global",
+            "$longname": "onFocusEnter",
+            "$kind": "method",
+            "id": 171,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered by manager.Focus\n     * @name onFocusLeave\n     * @function\n     * @param {Array} path dom element ids upwards\n     */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 980,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Triggered by manager.Focus",
+            "name": "onFocusLeave",
+            "kind": "function",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "description": "dom element ids upwards",
+                    "name": "path"
+                }
+            ],
+            "longname": "onFocusLeave",
+            "scope": "global",
+            "$longname": "onFocusLeave",
+            "$kind": "method",
+            "id": 172,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Triggered by manager.Focus\n     * @name onFocusMove\n     * @function\n     * @param {Object} opts\n     * @param {Array}  opts.newPath dom element ids upwards\n     * @param {Array}  opts.oldPath dom element ids upwards\n     */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 987,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "Triggered by manager.Focus",
+            "name": "onFocusMove",
+            "kind": "function",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "opts"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "description": "dom element ids upwards",
+                    "name": "opts.newPath"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "description": "dom element ids upwards",
+                    "name": "opts.oldPath"
+                }
+            ],
+            "longname": "onFocusMove",
+            "scope": "global",
+            "$longname": "onFocusMove",
+            "$kind": "method",
+            "id": 173,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Gets called from the render() promise success handler\n     * @param {Object} data\n     * @param {Boolean} autoMount Mount the DOM after the vnode got created\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    28382,
+                    29214
+                ],
+                "filename": "Base.mjs",
+                "lineno": 1002,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005793",
+                    "name": "Base#onRender",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data",
+                        "autoMount"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Gets called from the render() promise success handler",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "description": "Mount the DOM after the vnode got created",
+                    "name": "autoMount"
+                }
+            ],
+            "access": "private",
+            "name": "onRender",
+            "longname": "Base#onRender",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#onRender",
+            "$kind": "method",
+            "id": 174,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Promise based vdom update\n     * @param {Object} [vdom=this.vdom]\n     * @param {Neo.vdom.VNode} [vnode= this.vnode]\n     */",
+            "meta": {
+                "range": [
+                    29360,
+                    30357
+                ],
+                "filename": "Base.mjs",
+                "lineno": 1044,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100005933",
+                    "name": "Base#promiseVdomUpdate",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "vdom",
+                        "vnode"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Promise based vdom update",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": "this.vdom",
+                    "name": "vdom"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Neo.vdom.VNode"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": "this.vnode",
+                    "name": "vnode"
+                }
+            ],
+            "name": "promiseVdomUpdate",
+            "longname": "Base#promiseVdomUpdate",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#promiseVdomUpdate",
+            "$kind": "method",
+            "id": 175,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Either a string like 'color' or an array containing style attributes to remove\n     * @param {String|Array} value camelCase only\n     * @returns {Object} all styles of this.el\n     */",
+            "meta": {
+                "range": [
+                    30562,
+                    31009
+                ],
+                "filename": "Base.mjs",
+                "lineno": 1077,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100006032",
+                    "name": "Base#removeStyle",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Either a string like 'color' or an array containing style attributes to remove",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String",
+                            "Array"
+                        ]
+                    },
+                    "description": "camelCase only",
+                    "name": "value"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "description": "all styles of this.el"
+                }
+            ],
+            "name": "removeStyle",
+            "longname": "Base#removeStyle",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#removeStyle",
+            "$kind": "method",
+            "id": 176,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Creates the vnode tree for this component and mounts the component in case\n     * - you pass true for the mount param\n     * - or the autoMount config is set to true\n     * @param {Boolean} [mount] Mount the DOM after the vnode got created\n     */",
+            "meta": {
+                "range": [
+                    31278,
+                    32078
+                ],
+                "filename": "Base.mjs",
+                "lineno": 1105,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100006099",
+                    "name": "Base#render",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "mount"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Creates the vnode tree for this component and mounts the component in case<br />- you pass true for the mount param<br />- or the autoMount config is set to true",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "optional": true,
+                    "description": "Mount the DOM after the vnode got created",
+                    "name": "mount"
+                }
+            ],
+            "name": "render",
+            "longname": "Base#render",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#render",
+            "$kind": "method",
+            "id": 177,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Change multiple configs at once, ensuring that all afterSet methods get all new assigned values\n     * @param {Object} values={}\n     * @param {Boolean} [silent=false]\n     */",
+            "meta": {
+                "range": [
+                    32275,
+                    32589
+                ],
+                "filename": "Base.mjs",
+                "lineno": 1137,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100006212",
+                    "name": "Base#set",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "values",
+                        "silent"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Change multiple configs at once, ensuring that all afterSet methods get all new assigned values",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "defaultvalue": "{}",
+                    "name": "values"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": false,
+                    "name": "silent"
+                }
+            ],
+            "name": "set",
+            "longname": "Base#set",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#set",
+            "$kind": "method",
+            "id": 178,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Placeholder method for util.VDom.syncVdomIds to allow overriding (disabling) it\n     * @param {Neo.vdom.VNode} [vnode=this.vnode]\n     * @param {Object} [vdom=this.vdom]\n     */",
+            "meta": {
+                "range": [
+                    32788,
+                    32884
+                ],
+                "filename": "Base.mjs",
+                "lineno": 1159,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100006264",
+                    "name": "Base#syncVdomIds",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "vnode",
+                        "vdom"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Placeholder method for util.VDom.syncVdomIds to allow overriding (disabling) it",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.vdom.VNode"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": "this.vnode",
+                    "name": "vnode"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": "this.vdom",
+                    "name": "vdom"
+                }
+            ],
+            "name": "syncVdomIds",
+            "longname": "Base#syncVdomIds",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#syncVdomIds",
+            "$kind": "method",
+            "id": 179,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Placeholder method for util.VDom.syncVdomIds to allow overriding (disabling) it\n     * @param {Neo.vdom.VNode} [vnode=this.vnode]\n     */",
+            "meta": {
+                "range": [
+                    33043,
+                    34909
+                ],
+                "filename": "Base.mjs",
+                "lineno": 1167,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100006285",
+                    "name": "Base#syncVnodeTree",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "vnode"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Placeholder method for util.VDom.syncVdomIds to allow overriding (disabling) it",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.vdom.VNode"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": "this.vnode",
+                    "name": "vnode"
+                }
+            ],
+            "name": "syncVnodeTree",
+            "longname": "Base#syncVnodeTree",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#syncVnodeTree",
+            "$kind": "method",
+            "id": 180,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Removes the component DOM\n     */",
+            "meta": {
+                "range": [
+                    34964,
+                    35364
+                ],
+                "filename": "Base.mjs",
+                "lineno": 1222,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100006475",
+                    "name": "Base#unmount",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Removes the component DOM",
+            "name": "unmount",
+            "longname": "Base#unmount",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "params": [],
+            "$longname": "Base#unmount",
+            "$kind": "method",
+            "id": 181,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Convenience shortcut for Neo.manager.Component.up\n     * @param {Object|String} config\n     * @returns {Neo.core.Base} The matching instance or null\n     */",
+            "meta": {
+                "range": [
+                    35542,
+                    35613
+                ],
+                "filename": "Base.mjs",
+                "lineno": 1243,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100006528",
+                    "name": "Base#up",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "config"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Convenience shortcut for Neo.manager.Component.up",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object",
+                            "String"
+                        ]
+                    },
+                    "name": "config"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.core.Base"
+                        ]
+                    },
+                    "description": "The matching instance or null"
+                }
+            ],
+            "name": "up",
+            "longname": "Base#up",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#up",
+            "$kind": "method",
+            "id": 182,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Delta updates for the cls config. Gets called after the cls config gets changed in case the component is mounted.\n     * @param {Array} cls\n     * @param {Array} oldCls\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    35827,
+                    36668
+                ],
+                "filename": "Base.mjs",
+                "lineno": 1253,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100006542",
+                    "name": "Base#updateCls",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "cls",
+                        "oldCls"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Delta updates for the cls config. Gets called after the cls config gets changed in case the component is mounted.",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "cls"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "oldCls"
+                }
+            ],
+            "access": "private",
+            "name": "updateCls",
+            "longname": "Base#updateCls",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#updateCls",
+            "$kind": "method",
+            "id": 183,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Creates the style deltas for newValue & oldValue and applies them directly to the DOM.\n     * @param newValue\n     * @param oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    36846,
+                    37689
+                ],
+                "filename": "Base.mjs",
+                "lineno": 1286,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100006642",
+                    "name": "Base#updateStyle",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "newValue",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Creates the style deltas for newValue & oldValue and applies them directly to the DOM.",
+            "params": [
+                {
+                    "name": "newValue"
+                },
+                {
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "updateStyle",
+            "longname": "Base#updateStyle",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#updateStyle",
+            "$kind": "method",
+            "id": 184,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n     * Gets called after the vdom config gets changed in case the component is already mounted (delta updates).\n     * @param {Object} vdom\n     * @param {Neo.vdom.VNode} vnode\n     * @param {function} [resolve] used by promiseVdomUpdate()\n     * @param {function} [reject] used by promiseVdomUpdate()\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    38029,
+                    39155
+                ],
+                "filename": "Base.mjs",
+                "lineno": 1320,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {
+                    "id": "astnode100006722",
+                    "name": "Base#updateVdom",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "vdom",
+                        "vnode",
+                        "resolve",
+                        "reject"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Gets called after the vdom config gets changed in case the component is already mounted (delta updates).",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "vdom"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Neo.vdom.VNode"
+                        ]
+                    },
+                    "name": "vnode"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "function"
+                        ]
+                    },
+                    "optional": true,
+                    "description": "used by promiseVdomUpdate()",
+                    "name": "resolve"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "function"
+                        ]
+                    },
+                    "optional": true,
+                    "description": "used by promiseVdomUpdate()",
+                    "name": "reject"
+                }
+            ],
+            "access": "private",
+            "name": "updateVdom",
+            "longname": "Base#updateVdom",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#updateVdom",
+            "$kind": "method",
+            "id": 185,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n * manager.Focus fires the event when the component id is included inside the dom id path\n * @event focusEnter\n * @param {Array} path dom element ids upwards\n */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 1359,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "manager.Focus fires the event when the component id is included inside the dom id path",
+            "kind": "event",
+            "name": "focusEnter",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "description": "dom element ids upwards",
+                    "name": "path"
+                }
+            ],
+            "longname": "event:focusEnter",
+            "scope": "global",
+            "$longname": "event:focusEnter",
+            "$kind": "event",
+            "id": 186,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n * manager.Focus fires the event when the component id is not included inside the dom id path\n * @event focusLeave\n * @param {Array} path dom element ids upwards\n */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 1365,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "manager.Focus fires the event when the component id is not included inside the dom id path",
+            "kind": "event",
+            "name": "focusLeave",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "description": "dom element ids upwards",
+                    "name": "path"
+                }
+            ],
+            "longname": "event:focusLeave",
+            "scope": "global",
+            "$longname": "event:focusLeave",
+            "$kind": "event",
+            "id": 187,
+            "neoClassName": "Neo.component.Base"
+        },
+        {
+            "comment": "/**\n * manager.Focus fires the event when the component id is included inside the dom id path, but the path itself changed\n * @event focusMove\n * @param {Object} opts\n * @param {Array}  opts.newPath dom element ids upwards\n * @param {Array}  opts.oldPath dom element ids upwards\n */",
+            "meta": {
+                "filename": "Base.mjs",
+                "lineno": 1371,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
+                "code": {}
+            },
+            "description": "manager.Focus fires the event when the component id is included inside the dom id path, but the path itself changed",
+            "kind": "event",
+            "name": "focusMove",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "opts"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "description": "dom element ids upwards",
+                    "name": "opts.newPath"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "description": "dom element ids upwards",
+                    "name": "opts.oldPath"
+                }
+            ],
+            "longname": "event:focusMove",
+            "scope": "global",
+            "$longname": "event:focusMove",
+            "$kind": "event",
+            "id": 188,
+            "neoClassName": "Neo.component.Base"
+        }
+    ]
+}

@@ -1,0 +1,209 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * @class Neo.util.Function\n * @extends Neo.core.Base\n */",
+            "meta": {
+                "filename": "Function.mjs",
+                "lineno": 3,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {}
+            },
+            "kind": "class",
+            "name": "Function",
+            "augments": [
+                "Neo.core.Base"
+            ],
+            "memberof": "Neo.util",
+            "longname": "Neo.util.Function",
+            "scope": "static",
+            "$longname": "Neo.util.Function",
+            "$kind": "class",
+            "id": 1851,
+            "neoClassName": "Neo.util.Function"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Neo.util.Function'\n         * @private\n         */",
+            "meta": {
+                "filename": "Function.mjs",
+                "lineno": 13,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Neo.util.Function'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 1852,
+            "neoClassName": "Neo.util.Function"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Neo.core.Base} target\n     * @param {String} methodName\n     * @param {Function} fn\n     * @param {Object} scope\n     * @returns {Function}\n     */",
+            "meta": {
+                "range": [
+                    497,
+                    774
+                ],
+                "filename": "Function.mjs",
+                "lineno": 24,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100058695",
+                    "name": "NeoFunction.createSequence",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "target",
+                        "methodName",
+                        "fn",
+                        "scope"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.core.Base"
+                        ]
+                    },
+                    "name": "target"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "methodName"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "function"
+                        ]
+                    },
+                    "name": "fn"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "scope"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "function"
+                        ]
+                    }
+                }
+            ],
+            "name": "createSequence",
+            "longname": "NeoFunction.createSequence",
+            "kind": "function",
+            "memberof": "NeoFunction",
+            "scope": "static",
+            "$longname": "NeoFunction.createSequence",
+            "$kind": "method",
+            "id": 1853,
+            "neoClassName": "Neo.util.Function"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Neo.core.Base} target\n     * @param {String} methodName\n     * @param {Function} fn\n     * @param {Object} scope\n     * @returns {Function}\n     */",
+            "meta": {
+                "range": [
+                    958,
+                    1274
+                ],
+                "filename": "Function.mjs",
+                "lineno": 41,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100058736",
+                    "name": "NeoFunction.intercept",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "target",
+                        "methodName",
+                        "fn",
+                        "scope"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.core.Base"
+                        ]
+                    },
+                    "name": "target"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "methodName"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "function"
+                        ]
+                    },
+                    "name": "fn"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "scope"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "function"
+                        ]
+                    }
+                }
+            ],
+            "name": "intercept",
+            "longname": "NeoFunction.intercept",
+            "kind": "function",
+            "memberof": "NeoFunction",
+            "scope": "static",
+            "$longname": "NeoFunction.intercept",
+            "$kind": "method",
+            "id": 1854,
+            "neoClassName": "Neo.util.Function"
+        }
+    ]
+}
