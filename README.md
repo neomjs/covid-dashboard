@@ -31,7 +31,11 @@ This is a perfect performance demo for the webworkers driven UI framework <a hre
 You can find the Online Versions <a href="https://neomjs.github.io/pages/">here on GitHub Pages</a> (COVID-19 Dashboard App).
 
 ## Preview Images
-<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covid_gallery.png">
+<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/table.png">
+
+<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/gallery.png">
+
+<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/helix.png">
 
 ## Getting Started
 1. Clone this repo to your system to get the project files
