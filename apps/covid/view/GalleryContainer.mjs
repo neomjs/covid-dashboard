@@ -1,9 +1,9 @@
+import {default as Container}     from '../../../node_modules/neo.mjs/src/container/Base.mjs';
 import BoxLabel                   from '../../../node_modules/neo.mjs/src/component/BoxLabel.mjs';
 import Gallery                    from './country/Gallery.mjs';
 import GalleryContainerController from './GalleryContainerController.mjs';
 import Panel                      from '../../../node_modules/neo.mjs/src/container/Panel.mjs';
 import {default as RangeField}    from '../../../node_modules/neo.mjs/src/form/field/Range.mjs';
-import {default as Container}     from '../../../node_modules/neo.mjs/src/container/Base.mjs';
 
 /**
  * @class Covid.view.GalleryContainer
@@ -61,13 +61,6 @@ class GalleryContainer extends Container {
                 style: {overflowY: 'scroll'}
             },
 
-            itemDefaults: {
-                flex         : '0 1 auto',
-                labelWidth   : '110px',
-                style        : {padding: '10px'},
-                useInputEvent: true
-            },
-
             headers: [{
                 dock: 'top',
                 items: [{
@@ -79,6 +72,13 @@ class GalleryContainer extends Container {
                     text : 'Gallery Controls'
                 }]
             }],
+
+            itemDefaults: {
+                flex         : '0 1 auto',
+                labelWidth   : '110px',
+                style        : {padding: '10px'},
+                useInputEvent: true
+            },
 
             items: [{
                 module   : RangeField,
@@ -189,14 +189,6 @@ class GalleryContainer extends Container {
                 text  : [
                     '<b>Navigation Concept</b>',
                     '<p>You can use the Arrow Keys to walk through the items.</p>'
-                ].join('')
-            }, {
-                module: BoxLabel,
-                text  : [
-                    '<b>Attribution</b>',
-                    '<p>App created with <a href="https://github.com/neomjs/neo">neo.mjs</a>.</p>',
-                    '<p>Data provided by <a href="https://github.com/NovelCOVID/API">NovelCOVID/API</a>.</p>',
-                    '<p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>.</p>'
                 ].join('')
             }]
         }]

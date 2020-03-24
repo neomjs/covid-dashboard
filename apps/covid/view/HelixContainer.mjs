@@ -61,17 +61,6 @@ class HelixContainer extends Container {
                 style: {overflowY: 'scroll'}
             },
 
-            itemDefaults: {
-                ntype        : 'rangefield',
-                flex         : '0 1 auto',
-                labelWidth   : '100px',
-                style        : {padding: '10px'},
-                useInputEvent: true,
-                listeners    : {
-                    change: 'onRangefieldChange'
-                }
-            },
-
             headers: [{
                 dock: 'top',
                 items: [{
@@ -83,6 +72,17 @@ class HelixContainer extends Container {
                     text : 'Helix Controls'
                 }]
             }],
+
+            itemDefaults: {
+                ntype        : 'rangefield',
+                flex         : '0 1 auto',
+                labelWidth   : '100px',
+                style        : {padding: '10px'},
+                useInputEvent: true,
+                listeners    : {
+                    change: 'onRangefieldChange'
+                }
+            },
 
             items: [{
                 labelText: 'Translate X',
@@ -235,14 +235,6 @@ class HelixContainer extends Container {
                     '<p>Click on an item to select it. Afterwards you can use the Arrow Keys to walk through the items.</p>',
                     '<p>Hit the Space Key to rotate the currently selected item to the front.</p>',
                     '<p>Hit the Enter Key to expand the currently selected item.</p>'
-                ].join('')
-            }, {
-                module: BoxLabel,
-                text  : [
-                    '<b>Attribution</b>',
-                    '<p>App created with <a href="https://github.com/neomjs/neo">neo.mjs</a>.</p>',
-                    '<p>Data provided by <a href="https://github.com/NovelCOVID/API">NovelCOVID/API</a>.</p>',
-                    '<p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>.</p>'
                 ].join('')
             }]
         }]

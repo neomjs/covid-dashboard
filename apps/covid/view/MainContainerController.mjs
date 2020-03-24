@@ -42,7 +42,12 @@ class MainContainerController extends ComponentController {
         /**
          * @member {Object[]|null} data=null
          */
-        data: null
+        data: null,
+        /**
+         * @member {String[]} mainTabs=['table', 'gallery', 'helix']
+         * @private
+         */
+        mainTabs: ['table', 'gallery', 'helix']
     }}
 
     /**
@@ -70,17 +75,7 @@ class MainContainerController extends ComponentController {
 
         me.getReference('country-field').store.data = data;
 
-        switch(me.activeMainTabIndex) {
-            case 0:
-                me.getReference('table').store.data = data;
-                break;
-            case 1:
-                me.getReference('gallery').store.data = data;
-                break;
-            case 2:
-                me.getReference('helix').store.data = data;
-                break;
-        }
+        me.getReference(me.mainTabs[me.activeMainTabIndex]).store.data = data;
     }
 
     /**
@@ -95,8 +90,8 @@ class MainContainerController extends ComponentController {
             vdom         = summaryTable.vdom;
 
         vdom.cn[0].cn[1].html = data.cases;
-        vdom.cn[1].cn[1].html = data.deaths;
-        vdom.cn[2].cn[1].html = data.recovered;
+        vdom.cn[1].cn[1].html = data.recovered;
+        vdom.cn[2].cn[1].html = data.deaths;
 
         summaryTable.vdom = vdom;
     }
@@ -131,6 +126,7 @@ class MainContainerController extends ComponentController {
             'st.-barth'             : 'st-barts',
             'saint-martin'          : 'sint-maarten',
             'st.-vincent-grenadines': 'st-vincent-and-the-grenadines',
+            'timor-leste'           : 'east-timor',
             'u.s.-virgin-islands'   : 'virgin-islands',
             'uae'                   : 'united-arab-emirates',
             'uk'                    : 'united-kingdom',
@@ -152,18 +148,11 @@ class MainContainerController extends ComponentController {
      * @return {Number}
      */
     getTabIndex(hashObject) {
-        if (!hashObject) {
+        if (!hashObject || !hashObject.mainview) {
             return 0;
         }
 
-        switch(hashObject.mainview) {
-            case 'gallery':
-                return 1;
-            case 'helix':
-                return 2;
-            default:
-                return 0;
-        }
+        return this.mainTabs.indexOf(hashObject.mainview);
     }
 
     /**
@@ -172,21 +161,7 @@ class MainContainerController extends ComponentController {
      * @return {Neo.component.Base}
      */
     getView(tabIndex) {
-        let reference;
-
-        switch(tabIndex) {
-            case 0:
-                reference = 'table';
-                break;
-            case 1:
-                reference = 'gallery';
-                break;
-            case 2:
-                reference = 'helix';
-                break;
-        }
-
-        return this.getReference(reference);
+        return this.getReference(this.mainTabs[tabIndex]);
     }
 
     /**
@@ -250,24 +225,29 @@ class MainContainerController extends ComponentController {
         }
 
         if (value.country) {
+            // todo: instead of a timeout this should add a store load listener (single: true)
             setTimeout(() => {
-                countryField.value = value.country;
+                if (me.data) {
+                    countryField.value = value.country;
 
-                if (activeView.ntype === 'table-container') {
-                    id = selectionModel.getRowId(activeView.store.indexOf(value.country));
+                    if (activeView.ntype === 'table-container') {
+                        id = selectionModel.getRowId(activeView.store.indexOf(value.country));
 
-                    if (!selectionModel.isSelected(id)) {
-                        selectionModel.select(id);
-                        Neo.main.DomAccess.scrollToTableRow({id: id});
-                    }
-                } else if (activeView.ntype === 'helix') {
-                    if (!selectionModel.isSelected(value.country)) {
-                        selectionModel.select(value.country, false);
-                        activeView.onKeyDownSpace(null);
-                    }
-                } else {
-                    if (!selectionModel.isSelected(value.country)) {
-                        selectionModel.select(value.country, false);
+                        me.getReference('table-container').fire('countrySelect', {record: activeView.store.get(value.country)});
+
+                        if (!selectionModel.isSelected(id)) {
+                            selectionModel.select(id);
+                            Neo.main.DomAccess.scrollToTableRow({id: id});
+                        }
+                    } else if (activeView.ntype === 'helix') {
+                        if (!selectionModel.isSelected(value.country)) {
+                            selectionModel.select(value.country, false);
+                            activeView.onKeyDownSpace(null);
+                        }
+                    } else {
+                        if (!selectionModel.isSelected(value.country)) {
+                            selectionModel.select(value.country, false);
+                        }
                     }
                 }
             }, delaySelection);
@@ -299,6 +279,13 @@ class MainContainerController extends ComponentController {
 
         me.loadData();
         me.loadSummaryData();
+    }
+
+    /**
+     * @param {Object} data
+     */
+    onRemoveFooterButtonClick(data) {
+        this.view.remove(this.getReference('footer'), true);
     }
 
     /**

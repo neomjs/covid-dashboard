@@ -1,9 +1,10 @@
+import FooterContainer           from './FooterContainer.mjs';
 import GalleryContainer          from './GalleryContainer.mjs';
 import HeaderContainer           from './HeaderContainer.mjs';
 import HelixContainer            from './HelixContainer.mjs';
 import MainContainerController   from './MainContainerController.mjs';
 import {default as TabContainer} from '../../../node_modules/neo.mjs/src/tab/Container.mjs';
-import TableContainer            from './country/TableContainer.mjs';
+import TableContainer            from './TableContainer.mjs';
 import Viewport                  from '../../../node_modules/neo.mjs/src/container/Viewport.mjs';
 
 /**
@@ -47,11 +48,11 @@ class MainContainer extends Viewport {
             activeIndex: this.controller.getTabIndex(Neo.config.hash),
             flex       : 1,
             reference  : 'tab-container',
-            style      : {margin: '10px'},
+            style      : {margin: '10px', marginBottom: '10px'},
 
             items: [{
                 module         : TableContainer,
-                reference      : 'table',
+                reference      : 'table-container',
                 tabButtonConfig: {
                     iconCls: 'fa fa-table',
                     route  : 'mainview=table',
@@ -72,7 +73,7 @@ class MainContainer extends Viewport {
                     text   : 'Helix'
                 }
             }]
-        }];
+        }, FooterContainer];
     }
 }
 
