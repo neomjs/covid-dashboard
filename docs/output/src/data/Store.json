@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.data.Store",
             "$kind": "class",
-            "id": 700,
+            "id": 701,
             "neoClassName": "Neo.data.Store"
         },
         {
@@ -44,7 +44,7 @@
             "longname": "observable",
             "$longname": "observable",
             "$kind": "property",
-            "id": 701,
+            "id": 702,
             "neoClassName": "Neo.data.Store"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 702,
+            "id": 703,
             "neoClassName": "Neo.data.Store"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 703,
+            "id": 704,
             "neoClassName": "Neo.data.Store"
         },
         {
@@ -118,7 +118,7 @@
             "scope": "global",
             "$longname": "autoLoad",
             "$kind": "property",
-            "id": 704,
+            "id": 705,
             "neoClassName": "Neo.data.Store"
         },
         {
@@ -143,7 +143,7 @@
             "scope": "global",
             "$longname": "data_",
             "$kind": "property",
-            "id": 705,
+            "id": 706,
             "neoClassName": "Neo.data.Store"
         },
         {
@@ -168,7 +168,7 @@
             "scope": "global",
             "$longname": "initialData_",
             "$kind": "property",
-            "id": 706,
+            "id": 707,
             "neoClassName": "Neo.data.Store"
         },
         {
@@ -192,7 +192,7 @@
             "scope": "global",
             "$longname": "isGrouped",
             "$kind": "property",
-            "id": 707,
+            "id": 708,
             "neoClassName": "Neo.data.Store"
         },
         {
@@ -216,7 +216,7 @@
             "scope": "global",
             "$longname": "isLoaded",
             "$kind": "property",
-            "id": 708,
+            "id": 709,
             "neoClassName": "Neo.data.Store"
         },
         {
@@ -240,7 +240,7 @@
             "scope": "global",
             "$longname": "isLoading",
             "$kind": "property",
-            "id": 709,
+            "id": 710,
             "neoClassName": "Neo.data.Store"
         },
         {
@@ -264,7 +264,7 @@
             "scope": "global",
             "$longname": "model_",
             "$kind": "property",
-            "id": 710,
+            "id": 711,
             "neoClassName": "Neo.data.Store"
         },
         {
@@ -289,7 +289,7 @@
             "scope": "global",
             "$longname": "remoteFilter",
             "$kind": "property",
-            "id": 711,
+            "id": 712,
             "neoClassName": "Neo.data.Store"
         },
         {
@@ -314,7 +314,7 @@
             "scope": "global",
             "$longname": "remoteSort",
             "$kind": "property",
-            "id": 712,
+            "id": 713,
             "neoClassName": "Neo.data.Store"
         },
         {
@@ -340,7 +340,7 @@
             "scope": "global",
             "$longname": "url",
             "$kind": "property",
-            "id": 713,
+            "id": 714,
             "neoClassName": "Neo.data.Store"
         },
         {
@@ -355,7 +355,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100024815",
+                    "id": "astnode100024885",
                     "name": "Store",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -374,7 +374,7 @@
             "params": [],
             "$longname": "Store",
             "$kind": "constructor",
-            "id": 714,
+            "id": 715,
             "neoClassName": "Neo.data.Store"
         },
         {
@@ -382,14 +382,14 @@
             "meta": {
                 "range": [
                     2352,
-                    2626
+                    2627
                 ],
                 "filename": "Store.mjs",
                 "lineno": 95,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100024844",
+                    "id": "astnode100024914",
                     "name": "Store#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -406,22 +406,22 @@
             "params": [],
             "$longname": "Store#onConstructed",
             "$kind": "method",
-            "id": 715,
+            "id": 716,
             "neoClassName": "Neo.data.Store"
         },
         {
             "comment": "/**\n     *\n     * @param value\n     * @param oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    2714,
-                    3045
+                    2715,
+                    3046
                 ],
                 "filename": "Store.mjs",
                 "lineno": 117,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100024886",
+                    "id": "astnode100024956",
                     "name": "Store#afterSetData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -449,22 +449,22 @@
             "scope": "instance",
             "$longname": "Store#afterSetData",
             "$kind": "method",
-            "id": 716,
+            "id": 717,
             "neoClassName": "Neo.data.Store"
         },
         {
             "comment": "/**\n     *\n     * @param value\n     * @param oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    3133,
-                    3241
+                    3134,
+                    3242
                 ],
                 "filename": "Store.mjs",
                 "lineno": 139,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100024927",
+                    "id": "astnode100024997",
                     "name": "Store#afterSetInitialData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -492,22 +492,22 @@
             "scope": "instance",
             "$longname": "Store#afterSetInitialData",
             "$kind": "method",
-            "id": 717,
+            "id": 718,
             "neoClassName": "Neo.data.Store"
         },
         {
             "comment": "/**\n     *\n     * @param value\n     * @param oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    3329,
-                    3450
+                    3330,
+                    3451
                 ],
                 "filename": "Store.mjs",
                 "lineno": 149,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100024933",
+                    "id": "astnode100025003",
                     "name": "Store#afterSetModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -535,22 +535,22 @@
             "scope": "instance",
             "$longname": "Store#afterSetModel",
             "$kind": "method",
-            "id": 718,
+            "id": 719,
             "neoClassName": "Neo.data.Store"
         },
         {
             "comment": "/**\n     *\n     * @param value\n     * @param oldValue\n     * @private\n     * @returns {*}\n     */",
             "meta": {
                 "range": [
-                    3558,
-                    4132
+                    3559,
+                    4133
                 ],
                 "filename": "Store.mjs",
                 "lineno": 162,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100024948",
+                    "id": "astnode100025018",
                     "name": "Store#beforeSetData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -587,22 +587,22 @@
             "scope": "instance",
             "$longname": "Store#beforeSetData",
             "$kind": "method",
-            "id": 719,
+            "id": 720,
             "neoClassName": "Neo.data.Store"
         },
         {
             "comment": "/**\n     *\n     * @param value\n     * @param oldValue\n     * @private\n     * @returns {*}\n     */",
             "meta": {
                 "range": [
-                    4240,
-                    4381
+                    4241,
+                    4382
                 ],
                 "filename": "Store.mjs",
                 "lineno": 192,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100025015",
+                    "id": "astnode100025085",
                     "name": "Store#beforeSetInitialData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -639,22 +639,22 @@
             "scope": "instance",
             "$longname": "Store#beforeSetInitialData",
             "$kind": "method",
-            "id": 720,
+            "id": 721,
             "neoClassName": "Neo.data.Store"
         },
         {
             "comment": "/**\n     *\n     * @param {Neo.data.Model} value\n     * @param {Neo.data.Model} oldValue\n     * @private\n     * @returns {Neo.data.Model}\n     */",
             "meta": {
                 "range": [
-                    4536,
-                    4699
+                    4537,
+                    4700
                 ],
                 "filename": "Store.mjs",
                 "lineno": 207,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100025031",
+                    "id": "astnode100025101",
                     "name": "Store#beforeSetModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -701,22 +701,22 @@
             "scope": "instance",
             "$longname": "Store#beforeSetModel",
             "$kind": "method",
-            "id": 721,
+            "id": 722,
             "neoClassName": "Neo.data.Store"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} config\n     */",
             "meta": {
                 "range": [
-                    4758,
-                    4830
+                    4759,
+                    4831
                 ],
                 "filename": "Store.mjs",
                 "lineno": 219,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100025051",
+                    "id": "astnode100025121",
                     "name": "Store#createRecord",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -744,22 +744,22 @@
             "scope": "instance",
             "$longname": "Store#createRecord",
             "$kind": "method",
-            "id": 722,
+            "id": 723,
             "neoClassName": "Neo.data.Store"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} opts\n     */",
             "meta": {
                 "range": [
-                    5192,
-                    5386
+                    5193,
+                    5387
                 ],
                 "filename": "Store.mjs",
                 "lineno": 240,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100025123",
+                    "id": "astnode100025193",
                     "name": "Store#onCollectionMutate",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -787,22 +787,22 @@
             "scope": "instance",
             "$longname": "Store#onCollectionMutate",
             "$kind": "method",
-            "id": 723,
+            "id": 724,
             "neoClassName": "Neo.data.Store"
         },
         {
             "comment": "/**\n     * todo: add will fire mutate and sort right after another\n     */",
             "meta": {
                 "range": [
-                    5471,
-                    5675
+                    5472,
+                    5676
                 ],
                 "filename": "Store.mjs",
                 "lineno": 252,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100025146",
+                    "id": "astnode100025216",
                     "name": "Store#onCollectionSort",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -820,22 +820,22 @@
             "params": [],
             "$longname": "Store#onCollectionSort",
             "$kind": "method",
-            "id": 724,
+            "id": 725,
             "neoClassName": "Neo.data.Store"
         },
         {
             "comment": "/**\n     * Gets triggered after changing the value of a record field.\n     * E.g. myRecord.foo = 'bar';\n     * @param {Object} opts\n     * @param {String} opts.field The name of the field which got changed\n     * @param {Neo.data.Model} opts.model The model instance of the changed record\n     * @param {*} opts.oldValue\n     * @param {Object} opts.record\n     * @param {*} opts.value\n     */",
             "meta": {
                 "range": [
-                    6078,
-                    6147
+                    6079,
+                    6148
                 ],
                 "filename": "Store.mjs",
                 "lineno": 271,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100025159",
+                    "id": "astnode100025229",
                     "name": "Store#onRecordChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -906,22 +906,22 @@
             "scope": "instance",
             "$longname": "Store#onRecordChange",
             "$kind": "method",
-            "id": 725,
+            "id": 726,
             "neoClassName": "Neo.data.Store"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} opts\n     * @param {String} opts.direction\n     * @param {String} opts.property\n     */",
             "meta": {
                 "range": [
-                    6279,
-                    7008
+                    6280,
+                    7009
                 ],
                 "filename": "Store.mjs",
                 "lineno": 281,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100025171",
+                    "id": "astnode100025241",
                     "name": "Store#sort",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -965,7 +965,7 @@
             "scope": "instance",
             "$longname": "Store#sort",
             "$kind": "method",
-            "id": 726,
+            "id": 727,
             "neoClassName": "Neo.data.Store"
         }
     ]

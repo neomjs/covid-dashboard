@@ -1687,7 +1687,7 @@
             "meta": {
                 "range": [
                     17101,
-                    17920
+                    18110
                 ],
                 "filename": "Gallery.mjs",
                 "lineno": 615,
@@ -1718,15 +1718,15 @@
             "comment": "/**\n     *\n     * @param {Array} value\n     */",
             "meta": {
                 "range": [
-                    17977,
-                    21126
+                    18167,
+                    21316
                 ],
                 "filename": "Gallery.mjs",
-                "lineno": 644,
+                "lineno": 651,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100014487",
+                    "id": "astnode100014506",
                     "name": "Gallery#onSelectionChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1761,15 +1761,15 @@
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    21155,
-                    22091
+                    21345,
+                    22281
                 ],
                 "filename": "Gallery.mjs",
-                "lineno": 726,
+                "lineno": 733,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100014881",
+                    "id": "astnode100014900",
                     "name": "Gallery#onSort",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1793,15 +1793,15 @@
             "comment": "/**\n     *\n     * @param {Array} items\n     */",
             "meta": {
                 "range": [
-                    22148,
-                    22256
+                    22338,
+                    22446
                 ],
                 "filename": "Gallery.mjs",
-                "lineno": 763,
+                "lineno": 770,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100015020",
+                    "id": "astnode100015039",
                     "name": "Gallery#onStoreLoad",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1836,15 +1836,15 @@
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    22285,
-                    23098
+                    22475,
+                    23288
                 ],
                 "filename": "Gallery.mjs",
-                "lineno": 771,
+                "lineno": 778,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100015039",
+                    "id": "astnode100015058",
                     "name": "Gallery#refreshImageReflection",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1868,15 +1868,15 @@
             "comment": "/**\n     *\n     * @param {Number} x\n     * @param {Number} y\n     * @param {Number} z\n     * @returns {String}\n     */",
             "meta": {
                 "range": [
-                    23227,
-                    23324
+                    23417,
+                    23514
                 ],
                 "filename": "Gallery.mjs",
-                "lineno": 802,
+                "lineno": 809,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100015146",
+                    "id": "astnode100015165",
                     "name": "Gallery#translate3d",
                     "type": "MethodDefinition",
                     "paramnames": [

@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.util.Function",
             "$kind": "class",
-            "id": 1851,
+            "id": 1852,
             "neoClassName": "Neo.util.Function"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1852,
+            "id": 1853,
             "neoClassName": "Neo.util.Function"
         },
         {
@@ -59,7 +59,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100058695",
+                    "id": "astnode100058807",
                     "name": "NeoFunction.createSequence",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -123,7 +123,7 @@
             "scope": "static",
             "$longname": "NeoFunction.createSequence",
             "$kind": "method",
-            "id": 1853,
+            "id": 1854,
             "neoClassName": "Neo.util.Function"
         },
         {
@@ -138,7 +138,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100058736",
+                    "id": "astnode100058848",
                     "name": "NeoFunction.intercept",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -202,7 +202,7 @@
             "scope": "static",
             "$longname": "NeoFunction.intercept",
             "$kind": "method",
-            "id": 1854,
+            "id": 1855,
             "neoClassName": "Neo.util.Function"
         }
     ]

@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.data.field.String",
             "$kind": "class",
-            "id": 674,
+            "id": 675,
             "neoClassName": "Neo.data.field.String"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 675,
+            "id": 676,
             "neoClassName": "Neo.data.field.String"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 676,
+            "id": 677,
             "neoClassName": "Neo.data.field.String"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "defaultValue",
             "$kind": "property",
-            "id": 677,
+            "id": 678,
             "neoClassName": "Neo.data.field.String"
         },
         {
@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/field",
                 "code": {
-                    "id": "astnode100024114",
+                    "id": "astnode100024184",
                     "name": "StringField#beforeSetValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -159,7 +159,7 @@
             "scope": "instance",
             "$longname": "StringField#beforeSetValue",
             "$kind": "method",
-            "id": 678,
+            "id": 679,
             "neoClassName": "Neo.data.field.String"
         }
     ]

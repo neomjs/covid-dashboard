@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.util.KeyNavigation",
             "$kind": "class",
-            "id": 1864,
+            "id": 1865,
             "neoClassName": "Neo.util.KeyNavigation"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1865,
+            "id": 1866,
             "neoClassName": "Neo.util.KeyNavigation"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1866,
+            "id": 1867,
             "neoClassName": "Neo.util.KeyNavigation"
         },
         {
@@ -95,7 +95,7 @@
             "scope": "global",
             "$longname": "component_",
             "$kind": "property",
-            "id": 1867,
+            "id": 1868,
             "neoClassName": "Neo.util.KeyNavigation"
         },
         {
@@ -120,7 +120,7 @@
             "scope": "global",
             "$longname": "keyDownEventBubble",
             "$kind": "property",
-            "id": 1868,
+            "id": 1869,
             "neoClassName": "Neo.util.KeyNavigation"
         },
         {
@@ -145,7 +145,7 @@
             "scope": "global",
             "$longname": "keys_",
             "$kind": "property",
-            "id": 1869,
+            "id": 1870,
             "neoClassName": "Neo.util.KeyNavigation"
         },
         {
@@ -160,7 +160,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100058946",
+                    "id": "astnode100059058",
                     "name": "KeyNavigation#beforeGetComponent",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -187,7 +187,7 @@
             "params": [],
             "$longname": "KeyNavigation#beforeGetComponent",
             "$kind": "method",
-            "id": 1870,
+            "id": 1871,
             "neoClassName": "Neo.util.KeyNavigation"
         },
         {
@@ -202,7 +202,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100058958",
+                    "id": "astnode100059070",
                     "name": "KeyNavigation#beforeSetComponent",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -241,7 +241,7 @@
             "scope": "instance",
             "$longname": "KeyNavigation#beforeSetComponent",
             "$kind": "method",
-            "id": 1871,
+            "id": 1872,
             "neoClassName": "Neo.util.KeyNavigation"
         },
         {
@@ -256,7 +256,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100058969",
+                    "id": "astnode100059081",
                     "name": "KeyNavigation#destroy",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -273,7 +273,7 @@
             "params": [],
             "$longname": "KeyNavigation#destroy",
             "$kind": "method",
-            "id": 1872,
+            "id": 1873,
             "neoClassName": "Neo.util.KeyNavigation"
         },
         {
@@ -288,7 +288,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100058983",
+                    "id": "astnode100059095",
                     "name": "KeyNavigation#onKeyDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -316,7 +316,7 @@
             "scope": "instance",
             "$longname": "KeyNavigation#onKeyDown",
             "$kind": "method",
-            "id": 1873,
+            "id": 1874,
             "neoClassName": "Neo.util.KeyNavigation"
         },
         {
@@ -331,7 +331,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059064",
+                    "id": "astnode100059176",
                     "name": "KeyNavigation#parseKeys",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -368,7 +368,7 @@
             "scope": "instance",
             "$longname": "KeyNavigation#parseKeys",
             "$kind": "method",
-            "id": 1874,
+            "id": 1875,
             "neoClassName": "Neo.util.KeyNavigation"
         },
         {
@@ -383,7 +383,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059119",
+                    "id": "astnode100059231",
                     "name": "KeyNavigation#parseUpperCaseKey",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -422,7 +422,7 @@
             "scope": "instance",
             "$longname": "KeyNavigation#parseUpperCaseKey",
             "$kind": "method",
-            "id": 1875,
+            "id": 1876,
             "neoClassName": "Neo.util.KeyNavigation"
         },
         {
@@ -437,7 +437,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059163",
+                    "id": "astnode100059275",
                     "name": "KeyNavigation#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -465,7 +465,7 @@
             "scope": "instance",
             "$longname": "KeyNavigation#register",
             "$kind": "method",
-            "id": 1876,
+            "id": 1877,
             "neoClassName": "Neo.util.KeyNavigation"
         },
         {
@@ -480,7 +480,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059222",
+                    "id": "astnode100059334",
                     "name": "KeyNavigation#removeKey",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -509,7 +509,7 @@
             "scope": "instance",
             "$longname": "KeyNavigation#removeKey",
             "$kind": "method",
-            "id": 1877,
+            "id": 1878,
             "neoClassName": "Neo.util.KeyNavigation"
         },
         {
@@ -524,7 +524,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059275",
+                    "id": "astnode100059387",
                     "name": "KeyNavigation#removeKeys",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -553,7 +553,7 @@
             "scope": "instance",
             "$longname": "KeyNavigation#removeKeys",
             "$kind": "method",
-            "id": 1878,
+            "id": 1879,
             "neoClassName": "Neo.util.KeyNavigation"
         },
         {
@@ -568,7 +568,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059299",
+                    "id": "astnode100059411",
                     "name": "KeyNavigation#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -585,7 +585,7 @@
             "params": [],
             "$longname": "KeyNavigation#unregister",
             "$kind": "method",
-            "id": 1879,
+            "id": 1880,
             "neoClassName": "Neo.util.KeyNavigation"
         }
     ]

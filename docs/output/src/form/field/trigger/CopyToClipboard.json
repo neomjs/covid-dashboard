@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.trigger.CopyToClipboard",
             "$kind": "class",
-            "id": 1066,
+            "id": 1067,
             "neoClassName": "Neo.form.field.trigger.CopyToClipboard"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1067,
+            "id": 1068,
             "neoClassName": "Neo.form.field.trigger.CopyToClipboard"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1068,
+            "id": 1069,
             "neoClassName": "Neo.form.field.trigger.CopyToClipboard"
         },
         {
@@ -95,7 +95,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1069,
+            "id": 1070,
             "neoClassName": "Neo.form.field.trigger.CopyToClipboard"
         },
         {
@@ -121,7 +121,7 @@
             "scope": "global",
             "$longname": "iconCls",
             "$kind": "property",
-            "id": 1070,
+            "id": 1071,
             "neoClassName": "Neo.form.field.trigger.CopyToClipboard"
         },
         {
@@ -145,7 +145,7 @@
             "scope": "global",
             "$longname": "showOnHover",
             "$kind": "property",
-            "id": 1071,
+            "id": 1072,
             "neoClassName": "Neo.form.field.trigger.CopyToClipboard"
         },
         {
@@ -171,7 +171,7 @@
             "scope": "global",
             "$longname": "type",
             "$kind": "property",
-            "id": 1072,
+            "id": 1073,
             "neoClassName": "Neo.form.field.trigger.CopyToClipboard"
         },
         {
@@ -195,7 +195,7 @@
             "scope": "global",
             "$longname": "weight_",
             "$kind": "property",
-            "id": 1073,
+            "id": 1074,
             "neoClassName": "Neo.form.field.trigger.CopyToClipboard"
         },
         {
@@ -210,7 +210,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032774",
+                    "id": "astnode100032878",
                     "name": "CopyToClipboard#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -227,7 +227,7 @@
             "params": [],
             "$longname": "CopyToClipboard#onConstructed",
             "$kind": "method",
-            "id": 1074,
+            "id": 1075,
             "neoClassName": "Neo.form.field.trigger.CopyToClipboard"
         },
         {
@@ -242,7 +242,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032814",
+                    "id": "astnode100032918",
                     "name": "CopyToClipboard#afterSetHidden",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -280,7 +280,7 @@
             "scope": "instance",
             "$longname": "CopyToClipboard#afterSetHidden",
             "$kind": "method",
-            "id": 1075,
+            "id": 1076,
             "neoClassName": "Neo.form.field.trigger.CopyToClipboard"
         },
         {
@@ -295,7 +295,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032841",
+                    "id": "astnode100032945",
                     "name": "CopyToClipboard#getHiddenState",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -322,7 +322,7 @@
             "params": [],
             "$longname": "CopyToClipboard#getHiddenState",
             "$kind": "method",
-            "id": 1076,
+            "id": 1077,
             "neoClassName": "Neo.form.field.trigger.CopyToClipboard"
         },
         {
@@ -337,7 +337,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032862",
+                    "id": "astnode100032966",
                     "name": "CopyToClipboard#onFieldChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -365,7 +365,7 @@
             "scope": "instance",
             "$longname": "CopyToClipboard#onFieldChange",
             "$kind": "method",
-            "id": 1077,
+            "id": 1078,
             "neoClassName": "Neo.form.field.trigger.CopyToClipboard"
         }
     ]

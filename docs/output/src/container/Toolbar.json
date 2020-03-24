@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.container.Toolbar",
             "$kind": "class",
-            "id": 519,
+            "id": 520,
             "neoClassName": "Neo.container.Toolbar"
         },
         {
@@ -44,7 +44,7 @@
             "longname": "dockPositions",
             "$longname": "dockPositions",
             "$kind": "property",
-            "id": 520,
+            "id": 521,
             "neoClassName": "Neo.container.Toolbar"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 521,
+            "id": 522,
             "neoClassName": "Neo.container.Toolbar"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 522,
+            "id": 523,
             "neoClassName": "Neo.container.Toolbar"
         },
         {
@@ -118,7 +118,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 523,
+            "id": 524,
             "neoClassName": "Neo.container.Toolbar"
         },
         {
@@ -142,7 +142,7 @@
             "scope": "global",
             "$longname": "dock_",
             "$kind": "property",
-            "id": 524,
+            "id": 525,
             "neoClassName": "Neo.container.Toolbar"
         },
         {
@@ -167,7 +167,7 @@
             "scope": "global",
             "$longname": "itemDefaults",
             "$kind": "property",
-            "id": 525,
+            "id": 526,
             "neoClassName": "Neo.container.Toolbar"
         },
         {
@@ -192,7 +192,7 @@
             "scope": "global",
             "$longname": "_layout",
             "$kind": "property",
-            "id": 526,
+            "id": 527,
             "neoClassName": "Neo.container.Toolbar"
         },
         {
@@ -207,7 +207,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100019701",
+                    "id": "astnode100019771",
                     "name": "Toolbar#getLayoutConfig",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -235,7 +235,7 @@
             "params": [],
             "$longname": "Toolbar#getLayoutConfig",
             "$kind": "method",
-            "id": 527,
+            "id": 528,
             "neoClassName": "Neo.container.Toolbar"
         },
         {
@@ -250,7 +250,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100019759",
+                    "id": "astnode100019829",
                     "name": "Toolbar#afterSetDock",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -289,7 +289,7 @@
             "scope": "instance",
             "$longname": "Toolbar#afterSetDock",
             "$kind": "method",
-            "id": 528,
+            "id": 529,
             "neoClassName": "Neo.container.Toolbar"
         },
         {
@@ -304,7 +304,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100019818",
+                    "id": "astnode100019888",
                     "name": "Toolbar#beforeSetDock",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -353,7 +353,7 @@
             "scope": "instance",
             "$longname": "Toolbar#beforeSetDock",
             "$kind": "method",
-            "id": 529,
+            "id": 530,
             "neoClassName": "Neo.container.Toolbar"
         }
     ]

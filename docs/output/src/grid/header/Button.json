@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.grid.header.Button",
             "$kind": "class",
-            "id": 1128,
+            "id": 1129,
             "neoClassName": "Neo.grid.header.Button"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1129,
+            "id": 1130,
             "neoClassName": "Neo.grid.header.Button"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1130,
+            "id": 1131,
             "neoClassName": "Neo.grid.header.Button"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1131,
+            "id": 1132,
             "neoClassName": "Neo.grid.header.Button"
         }
     ]

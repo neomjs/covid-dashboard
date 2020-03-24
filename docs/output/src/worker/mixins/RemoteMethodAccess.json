@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.worker.mixins.RemoteMethodAccess",
             "$kind": "class",
-            "id": 2004,
+            "id": 2005,
             "neoClassName": "Neo.worker.mixins.RemoteMethodAccess"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 2005,
+            "id": 2006,
             "neoClassName": "Neo.worker.mixins.RemoteMethodAccess"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 2006,
+            "id": 2007,
             "neoClassName": "Neo.worker.mixins.RemoteMethodAccess"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "mixin",
             "$kind": "property",
-            "id": 2007,
+            "id": 2008,
             "neoClassName": "Neo.worker.mixins.RemoteMethodAccess"
         },
         {
@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker/mixins",
                 "code": {
-                    "id": "astnode100065554",
+                    "id": "astnode100065660",
                     "name": "RemoteMethodAccess#generateRemote",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -150,7 +150,7 @@
             "scope": "instance",
             "$longname": "RemoteMethodAccess#generateRemote",
             "$kind": "method",
-            "id": 2008,
+            "id": 2009,
             "neoClassName": "Neo.worker.mixins.RemoteMethodAccess"
         },
         {
@@ -165,7 +165,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker/mixins",
                 "code": {
-                    "id": "astnode100065598",
+                    "id": "astnode100065704",
                     "name": "RemoteMethodAccess#onRegisterRemote",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -193,7 +193,7 @@
             "scope": "instance",
             "$longname": "RemoteMethodAccess#onRegisterRemote",
             "$kind": "method",
-            "id": 2009,
+            "id": 2010,
             "neoClassName": "Neo.worker.mixins.RemoteMethodAccess"
         },
         {
@@ -208,7 +208,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker/mixins",
                 "code": {
-                    "id": "astnode100065682",
+                    "id": "astnode100065788",
                     "name": "RemoteMethodAccess#onRemoteMethod",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -236,7 +236,7 @@
             "scope": "instance",
             "$longname": "RemoteMethodAccess#onRemoteMethod",
             "$kind": "method",
-            "id": 2010,
+            "id": 2011,
             "neoClassName": "Neo.worker.mixins.RemoteMethodAccess"
         },
         {
@@ -251,7 +251,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker/mixins",
                 "code": {
-                    "id": "astnode100065814",
+                    "id": "astnode100065920",
                     "name": "RemoteMethodAccess#reject",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -289,7 +289,7 @@
             "scope": "instance",
             "$longname": "RemoteMethodAccess#reject",
             "$kind": "method",
-            "id": 2011,
+            "id": 2012,
             "neoClassName": "Neo.worker.mixins.RemoteMethodAccess"
         },
         {
@@ -304,7 +304,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker/mixins",
                 "code": {
-                    "id": "astnode100065839",
+                    "id": "astnode100065945",
                     "name": "RemoteMethodAccess#resolve",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -342,7 +342,7 @@
             "scope": "instance",
             "$longname": "RemoteMethodAccess#resolve",
             "$kind": "method",
-            "id": 2012,
+            "id": 2013,
             "neoClassName": "Neo.worker.mixins.RemoteMethodAccess"
         }
     ]

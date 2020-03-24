@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.Base",
             "$kind": "class",
-            "id": 752,
+            "id": 753,
             "neoClassName": "Neo.form.field.Base"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 753,
+            "id": 754,
             "neoClassName": "Neo.form.field.Base"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 754,
+            "id": 755,
             "neoClassName": "Neo.form.field.Base"
         },
         {
@@ -95,7 +95,7 @@
             "scope": "global",
             "$longname": "value_",
             "$kind": "property",
-            "id": 755,
+            "id": 756,
             "neoClassName": "Neo.form.field.Base"
         },
         {
@@ -110,7 +110,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100025602",
+                    "id": "astnode100025672",
                     "name": "Base#afterSetValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -147,7 +147,7 @@
             "scope": "instance",
             "$longname": "Base#afterSetValue",
             "$kind": "method",
-            "id": 756,
+            "id": 757,
             "neoClassName": "Neo.form.field.Base"
         },
         {
@@ -162,7 +162,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100025626",
+                    "id": "astnode100025696",
                     "name": "Base#getSubmitValue",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -189,7 +189,7 @@
             "params": [],
             "$longname": "Base#getSubmitValue",
             "$kind": "method",
-            "id": 757,
+            "id": 758,
             "neoClassName": "Neo.form.field.Base"
         },
         {
@@ -204,7 +204,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100025634",
+                    "id": "astnode100025704",
                     "name": "Base#isValid",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -230,7 +230,7 @@
             "params": [],
             "$longname": "Base#isValid",
             "$kind": "method",
-            "id": 758,
+            "id": 759,
             "neoClassName": "Neo.form.field.Base"
         },
         {
@@ -276,7 +276,7 @@
             "scope": "global",
             "$longname": "event:change",
             "$kind": "event",
-            "id": 759,
+            "id": 760,
             "neoClassName": "Neo.form.field.Base"
         }
     ]

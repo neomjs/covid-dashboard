@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.tab.Strip",
             "$kind": "class",
-            "id": 1693,
+            "id": 1694,
             "neoClassName": "Neo.tab.Strip"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1694,
+            "id": 1695,
             "neoClassName": "Neo.tab.Strip"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1695,
+            "id": 1696,
             "neoClassName": "Neo.tab.Strip"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1696,
+            "id": 1697,
             "neoClassName": "Neo.tab.Strip"
         },
         {
@@ -118,7 +118,7 @@
             "scope": "global",
             "$longname": "tabContainerId",
             "$kind": "property",
-            "id": 1697,
+            "id": 1698,
             "neoClassName": "Neo.tab.Strip"
         },
         {
@@ -142,7 +142,7 @@
             "scope": "global",
             "$longname": "useActiveTabIndicator_",
             "$kind": "property",
-            "id": 1698,
+            "id": 1699,
             "neoClassName": "Neo.tab.Strip"
         },
         {
@@ -167,7 +167,7 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1699,
+            "id": 1700,
             "neoClassName": "Neo.tab.Strip"
         },
         {
@@ -182,7 +182,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054734",
+                    "id": "astnode100054831",
                     "name": "Strip#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -199,7 +199,7 @@
             "params": [],
             "$longname": "Strip#onConstructed",
             "$kind": "method",
-            "id": 1700,
+            "id": 1701,
             "neoClassName": "Neo.tab.Strip"
         },
         {
@@ -214,7 +214,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054766",
+                    "id": "astnode100054863",
                     "name": "Strip#afterSetMounted",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -253,7 +253,7 @@
             "scope": "instance",
             "$longname": "Strip#afterSetMounted",
             "$kind": "method",
-            "id": 1701,
+            "id": 1702,
             "neoClassName": "Neo.tab.Strip"
         },
         {
@@ -268,7 +268,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054794",
+                    "id": "astnode100054891",
                     "name": "Strip#afterSetUseActiveTabIndicator",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -307,7 +307,7 @@
             "scope": "instance",
             "$longname": "Strip#afterSetUseActiveTabIndicator",
             "$kind": "method",
-            "id": 1702,
+            "id": 1703,
             "neoClassName": "Neo.tab.Strip"
         },
         {
@@ -322,7 +322,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054845",
+                    "id": "astnode100054942",
                     "name": "Strip#getActiveTab",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -348,7 +348,7 @@
             "params": [],
             "$longname": "Strip#getActiveTab",
             "$kind": "method",
-            "id": 1703,
+            "id": 1704,
             "neoClassName": "Neo.tab.Strip"
         },
         {
@@ -363,7 +363,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054870",
+                    "id": "astnode100054967",
                     "name": "Strip#getActiveTabRectThenMove",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -381,7 +381,7 @@
             "params": [],
             "$longname": "Strip#getActiveTabRectThenMove",
             "$kind": "method",
-            "id": 1704,
+            "id": 1705,
             "neoClassName": "Neo.tab.Strip"
         },
         {
@@ -396,7 +396,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054912",
+                    "id": "astnode100055009",
                     "name": "Strip#getTabContainer",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -413,7 +413,7 @@
             "params": [],
             "$longname": "Strip#getTabContainer",
             "$kind": "method",
-            "id": 1705,
+            "id": 1706,
             "neoClassName": "Neo.tab.Strip"
         },
         {
@@ -428,7 +428,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054924",
+                    "id": "astnode100055021",
                     "name": "Strip#moveActiveIndicator",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -520,7 +520,7 @@
             "scope": "instance",
             "$longname": "Strip#moveActiveIndicator",
             "$kind": "method",
-            "id": 1706,
+            "id": 1707,
             "neoClassName": "Neo.tab.Strip"
         },
         {
@@ -535,7 +535,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100055049",
+                    "id": "astnode100055146",
                     "name": "Strip#onTabBarPositionChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -580,7 +580,7 @@
             "scope": "instance",
             "$longname": "Strip#onTabBarPositionChange",
             "$kind": "method",
-            "id": 1707,
+            "id": 1708,
             "neoClassName": "Neo.tab.Strip"
         }
     ]

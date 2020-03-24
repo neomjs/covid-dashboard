@@ -210,7 +210,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100018058",
+                    "id": "astnode100018077",
                     "name": "Base#mergeConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -274,7 +274,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100018126",
+                    "id": "astnode100018145",
                     "name": "Base#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -306,7 +306,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100018171",
+                    "id": "astnode100018190",
                     "name": "Base#add",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -361,7 +361,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100018196",
+                    "id": "astnode100018215",
                     "name": "Base#afterSetLayout",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -414,7 +414,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100018246",
+                    "id": "astnode100018265",
                     "name": "Base#beforeSetLayout",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -468,7 +468,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100018257",
+                    "id": "astnode100018276",
                     "name": "Base#createItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -501,7 +501,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100018467",
+                    "id": "astnode100018486",
                     "name": "Base#createLayout",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -556,7 +556,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100018523",
+                    "id": "astnode100018542",
                     "name": "Base#destroy",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -589,7 +589,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100018547",
+                    "id": "astnode100018566",
                     "name": "Base#indexOf",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -645,7 +645,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100018609",
+                    "id": "astnode100018628",
                     "name": "Base#insert",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -709,7 +709,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100018802",
+                    "id": "astnode100018821",
                     "name": "Base#moveTo",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -772,7 +772,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100018908",
+                    "id": "astnode100018927",
                     "name": "Base#parseLayoutClass",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -816,18 +816,84 @@
             "neoClassName": "Neo.container.Base"
         },
         {
-            "comment": "/**\n     * Removes a container item at a given index\n     * @param {Number} index\n     * @param {Boolean} [destroyItem=true]\n     * @param {Boolean} [silent=false]\n     */",
+            "comment": "/**\n     * Removes a container item by reference\n     * @param {Neo.component.Base} component\n     * @param {Boolean} [destroyItem=true]\n     * @param {Boolean} [silent=false]\n     */",
             "meta": {
                 "range": [
-                    10797,
-                    11450
+                    10809,
+                    11114
                 ],
                 "filename": "Base.mjs",
                 "lineno": 395,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100018967",
+                    "id": "astnode100018986",
+                    "name": "Base#remove",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "component",
+                        "destroyItem",
+                        "silent"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Removes a container item by reference",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.component.Base"
+                        ]
+                    },
+                    "name": "component"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": true,
+                    "name": "destroyItem"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "optional": true,
+                    "defaultvalue": false,
+                    "name": "silent"
+                }
+            ],
+            "name": "remove",
+            "longname": "Base#remove",
+            "kind": "function",
+            "memberof": "Base",
+            "scope": "instance",
+            "$longname": "Base#remove",
+            "$kind": "method",
+            "id": 505,
+            "neoClassName": "Neo.container.Base"
+        },
+        {
+            "comment": "/**\n     * Removes a container item at a given index\n     * @param {Number} index\n     * @param {Boolean} [destroyItem=true]\n     * @param {Boolean} [silent=false]\n     */",
+            "meta": {
+                "range": [
+                    11296,
+                    11949
+                ],
+                "filename": "Base.mjs",
+                "lineno": 413,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
+                "code": {
+                    "id": "astnode100019037",
                     "name": "Base#removeAt",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -878,22 +944,22 @@
             "scope": "instance",
             "$longname": "Base#removeAt",
             "$kind": "method",
-            "id": 505,
+            "id": 506,
             "neoClassName": "Neo.container.Base"
         },
         {
             "comment": "/**\n     * Switches the position of 2 direct child items\n     * @param {String} item1id\n     * @param {String} item2id\n     */",
             "meta": {
                 "range": [
-                    11587,
-                    11947
+                    12086,
+                    12446
                 ],
                 "filename": "Base.mjs",
-                "lineno": 427,
+                "lineno": 445,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100019065",
+                    "id": "astnode100019135",
                     "name": "Base#switchItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -931,7 +997,7 @@
             "scope": "instance",
             "$longname": "Base#switchItems",
             "$kind": "method",
-            "id": 506,
+            "id": 507,
             "neoClassName": "Neo.container.Base"
         }
     ]
