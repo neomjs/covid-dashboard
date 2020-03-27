@@ -444,82 +444,18 @@
             "neoClassName": "Neo.table.Container"
         },
         {
-            "comment": "/**\n     * Override this method to change the order configs are applied to this instance.\n     * @param {Object} config\n     * @param {Boolean} [preventOriginalConfig] True prevents the instance from getting an originalConfig property\n     * @returns {Object} config\n     */",
-            "meta": {
-                "range": [
-                    3227,
-                    3527
-                ],
-                "filename": "Container.mjs",
-                "lineno": 108,
-                "columnno": 4,
-                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
-                "code": {
-                    "id": "astnode100055271",
-                    "name": "Container#mergeConfig",
-                    "type": "MethodDefinition",
-                    "paramnames": [
-                        "args"
-                    ]
-                },
-                "vars": {
-                    "": null
-                }
-            },
-            "description": "Override this method to change the order configs are applied to this instance.",
-            "params": [
-                {
-                    "type": {
-                        "names": [
-                            "Object"
-                        ]
-                    },
-                    "name": "config"
-                },
-                {
-                    "type": {
-                        "names": [
-                            "Boolean"
-                        ]
-                    },
-                    "optional": true,
-                    "description": "True prevents the instance from getting an originalConfig property",
-                    "name": "preventOriginalConfig"
-                }
-            ],
-            "returns": [
-                {
-                    "type": {
-                        "names": [
-                            "Object"
-                        ]
-                    },
-                    "description": "config"
-                }
-            ],
-            "name": "mergeConfig",
-            "longname": "Container#mergeConfig",
-            "kind": "function",
-            "memberof": "Container",
-            "scope": "instance",
-            "$longname": "Container#mergeConfig",
-            "$kind": "method",
-            "id": 1727,
-            "neoClassName": "Neo.table.Container"
-        },
-        {
             "comment": "/**\n     *\n     * @param {Object} config\n     */",
             "meta": {
                 "range": [
-                    3586,
-                    4080
+                    3001,
+                    3495
                 ],
                 "filename": "Container.mjs",
-                "lineno": 124,
+                "lineno": 106,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055306",
+                    "id": "astnode100055248",
                     "name": "Container",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -546,22 +482,22 @@
             "scope": "global",
             "$longname": "Container",
             "$kind": "constructor",
-            "id": 1728,
+            "id": 1727,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    4109,
-                    4479
+                    3524,
+                    3894
                 ],
                 "filename": "Container.mjs",
-                "lineno": 149,
+                "lineno": 131,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055385",
+                    "id": "astnode100055327",
                     "name": "Container#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -578,22 +514,22 @@
             "params": [],
             "$longname": "Container#onConstructed",
             "$kind": "method",
-            "id": 1729,
+            "id": 1728,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     * Triggered after the selectionModel config got changed\n     * @param {Neo.selection.Model} value\n     * @param {Neo.selection.Model} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    4665,
-                    4785
+                    4080,
+                    4200
                 ],
                 "filename": "Container.mjs",
-                "lineno": 172,
+                "lineno": 154,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055430",
+                    "id": "astnode100055372",
                     "name": "Container#afterSetSelectionModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -632,22 +568,22 @@
             "scope": "instance",
             "$longname": "Container#afterSetSelectionModel",
             "$kind": "method",
-            "id": 1730,
+            "id": 1729,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     * Triggered after the useCustomScrollbars config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    4952,
-                    5133
+                    4367,
+                    4548
                 ],
                 "filename": "Container.mjs",
-                "lineno": 184,
+                "lineno": 166,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055447",
+                    "id": "astnode100055389",
                     "name": "Container#afterSetUseCustomScrollbars",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -686,22 +622,22 @@
             "scope": "instance",
             "$longname": "Container#afterSetUseCustomScrollbars",
             "$kind": "method",
-            "id": 1731,
+            "id": 1730,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     * @private\n     */",
             "meta": {
                 "range": [
-                    5171,
-                    5751
+                    4586,
+                    5166
                 ],
                 "filename": "Container.mjs",
-                "lineno": 193,
+                "lineno": 175,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055476",
+                    "id": "astnode100055418",
                     "name": "Container#applyCustomScrollbarsCss",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -719,22 +655,22 @@
             "params": [],
             "$longname": "Container#applyCustomScrollbarsCss",
             "$kind": "method",
-            "id": 1732,
+            "id": 1731,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     * Triggered before the columns config gets changed.\n     * @param {Array} value\n     * @param {Array} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    5905,
-                    6060
+                    5320,
+                    5475
                 ],
                 "filename": "Container.mjs",
-                "lineno": 217,
+                "lineno": 199,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055556",
+                    "id": "astnode100055498",
                     "name": "Container#beforeSetColumns",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -773,22 +709,22 @@
             "scope": "instance",
             "$longname": "Container#beforeSetColumns",
             "$kind": "method",
-            "id": 1733,
+            "id": 1732,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     * Triggered before the headerToolbarId config gets changed.\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    6224,
-                    6314
+                    5639,
+                    5729
                 ],
                 "filename": "Container.mjs",
-                "lineno": 231,
+                "lineno": 213,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055575",
+                    "id": "astnode100055517",
                     "name": "Container#beforeSetHeaderToolbarId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -827,22 +763,22 @@
             "scope": "instance",
             "$longname": "Container#beforeSetHeaderToolbarId",
             "$kind": "method",
-            "id": 1734,
+            "id": 1733,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     * Triggered before the selectionModel config gets changed.\n     * @param {Neo.selection.Model} value\n     * @param {Neo.selection.Model} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    6503,
-                    6685
+                    5918,
+                    6100
                 ],
                 "filename": "Container.mjs",
-                "lineno": 241,
+                "lineno": 223,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055586",
+                    "id": "astnode100055528",
                     "name": "Container#beforeSetSelectionModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -881,22 +817,22 @@
             "scope": "instance",
             "$longname": "Container#beforeSetSelectionModel",
             "$kind": "method",
-            "id": 1735,
+            "id": 1734,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     * Triggered before the store config gets changed.\n     * @param {Neo.data.Store} value\n     * @param {Neo.data.Store} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    6855,
-                    7258
+                    6270,
+                    6673
                 ],
                 "filename": "Container.mjs",
-                "lineno": 255,
+                "lineno": 237,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055607",
+                    "id": "astnode100055549",
                     "name": "Container#beforeSetStore",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -935,22 +871,22 @@
             "scope": "instance",
             "$longname": "Container#beforeSetStore",
             "$kind": "method",
-            "id": 1736,
+            "id": 1735,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     * Triggered before the viewId config gets changed.\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    7413,
-                    7494
+                    6828,
+                    6909
                 ],
                 "filename": "Container.mjs",
-                "lineno": 279,
+                "lineno": 261,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055649",
+                    "id": "astnode100055591",
                     "name": "Container#beforeSetViewId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -989,22 +925,22 @@
             "scope": "instance",
             "$longname": "Container#beforeSetViewId",
             "$kind": "method",
-            "id": 1737,
+            "id": 1736,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     *\n     * @param columns\n     * @returns {*}\n     */",
             "meta": {
                 "range": [
-                    7565,
-                    8338
+                    6980,
+                    7753
                 ],
                 "filename": "Container.mjs",
-                "lineno": 288,
+                "lineno": 270,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055660",
+                    "id": "astnode100055602",
                     "name": "Container#createColumns",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1036,22 +972,22 @@
             "scope": "instance",
             "$longname": "Container#createColumns",
             "$kind": "method",
-            "id": 1738,
+            "id": 1737,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     *\n     * @param {Number} countRows\n     */",
             "meta": {
                 "range": [
-                    8400,
-                    8473
+                    7815,
+                    7888
                 ],
                 "filename": "Container.mjs",
-                "lineno": 320,
+                "lineno": 302,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055754",
+                    "id": "astnode100055696",
                     "name": "Container#createRandomViewData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1079,22 +1015,22 @@
             "scope": "instance",
             "$longname": "Container#createRandomViewData",
             "$kind": "method",
-            "id": 1739,
+            "id": 1738,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     * @param {Array} inputData\n     */",
             "meta": {
                 "range": [
-                    8527,
-                    8873
+                    7942,
+                    8288
                 ],
                 "filename": "Container.mjs",
-                "lineno": 327,
+                "lineno": 309,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055765",
+                    "id": "astnode100055707",
                     "name": "Container#createViewData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1122,22 +1058,22 @@
             "scope": "instance",
             "$longname": "Container#createViewData",
             "$kind": "method",
-            "id": 1740,
+            "id": 1739,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     * @override\n     * @returns {*}\n     */",
             "meta": {
                 "range": [
-                    8932,
-                    8985
+                    8347,
+                    8400
                 ],
                 "filename": "Container.mjs",
-                "lineno": 344,
+                "lineno": 326,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055809",
+                    "id": "astnode100055751",
                     "name": "Container#getVdomRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1164,22 +1100,22 @@
             "params": [],
             "$longname": "Container#getVdomRoot",
             "$kind": "method",
-            "id": 1741,
+            "id": 1740,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     * @override\n     * @returns {Neo.vdom.VNode}\n     */",
             "meta": {
                 "range": [
-                    9057,
-                    9120
+                    8472,
+                    8535
                 ],
                 "filename": "Container.mjs",
-                "lineno": 352,
+                "lineno": 334,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055821",
+                    "id": "astnode100055763",
                     "name": "Container#getVnodeRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1206,22 +1142,22 @@
             "params": [],
             "$longname": "Container#getVnodeRoot",
             "$kind": "method",
-            "id": 1742,
+            "id": 1741,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     *\n     * @param {Number} countRows\n     */",
             "meta": {
                 "range": [
-                    9182,
-                    9575
+                    8597,
+                    8990
                 ],
                 "filename": "Container.mjs",
-                "lineno": 360,
+                "lineno": 342,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055833",
+                    "id": "astnode100055775",
                     "name": "Container#loadData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1249,22 +1185,22 @@
             "scope": "instance",
             "$longname": "Container#loadData",
             "$kind": "method",
-            "id": 1743,
+            "id": 1742,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} opts\n     * @param {String} opts.direction\n     * @param {String} opts.property\n     * @private\n     */",
             "meta": {
                 "range": [
-                    9723,
-                    9886
+                    9138,
+                    9301
                 ],
                 "filename": "Container.mjs",
-                "lineno": 379,
+                "lineno": 361,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055894",
+                    "id": "astnode100055836",
                     "name": "Container#onSortColumn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1309,22 +1245,22 @@
             "scope": "instance",
             "$longname": "Container#onSortColumn",
             "$kind": "method",
-            "id": 1744,
+            "id": 1743,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     *\n     * @param {Array} data\n     * @private\n     */",
             "meta": {
                 "range": [
-                    9958,
-                    10441
+                    9373,
+                    9856
                 ],
                 "filename": "Container.mjs",
-                "lineno": 392,
+                "lineno": 374,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055929",
+                    "id": "astnode100055871",
                     "name": "Container#onStoreLoad",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1353,22 +1289,22 @@
             "scope": "instance",
             "$longname": "Container#onStoreLoad",
             "$kind": "method",
-            "id": 1745,
+            "id": 1744,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     * Gets triggered after changing the value of a record field.\n     * E.g. myRecord.foo = 'bar';\n     * @param {Object} opts\n     * @param {String} opts.field The name of the field which got changed\n     * @param {Neo.data.Model} opts.model The model instance of the changed record\n     * @param {*} opts.oldValue\n     * @param {Object} opts.record\n     * @param {*} opts.value\n     */",
             "meta": {
                 "range": [
-                    10844,
-                    10933
+                    10259,
+                    10348
                 ],
                 "filename": "Container.mjs",
-                "lineno": 422,
+                "lineno": 404,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055997",
+                    "id": "astnode100055939",
                     "name": "Container#onStoreRecordChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1439,22 +1375,22 @@
             "scope": "instance",
             "$longname": "Container#onStoreRecordChange",
             "$kind": "method",
-            "id": 1746,
+            "id": 1745,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     *\n     * @param {Array} items\n     * @private\n     */",
             "meta": {
                 "range": [
-                    11006,
-                    11072
+                    10421,
+                    10487
                 ],
                 "filename": "Container.mjs",
-                "lineno": 431,
+                "lineno": 413,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100056014",
+                    "id": "astnode100055956",
                     "name": "Container#onToolbarItemsCreated",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1483,22 +1419,22 @@
             "scope": "instance",
             "$longname": "Container#onToolbarItemsCreated",
             "$kind": "method",
-            "id": 1747,
+            "id": 1746,
             "neoClassName": "Neo.table.Container"
         },
         {
             "comment": "/**\n     *\n     * @param {String} dataField\n     * @private\n     */",
             "meta": {
                 "range": [
-                    11150,
-                    11352
+                    10565,
+                    10767
                 ],
                 "filename": "Container.mjs",
-                "lineno": 440,
+                "lineno": 422,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100056025",
+                    "id": "astnode100055967",
                     "name": "Container#removeSortingCss",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1527,7 +1463,7 @@
             "scope": "instance",
             "$longname": "Container#removeSortingCss",
             "$kind": "method",
-            "id": 1748,
+            "id": 1747,
             "neoClassName": "Neo.table.Container"
         }
     ]

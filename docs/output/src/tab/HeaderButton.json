@@ -156,7 +156,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054559",
+                    "id": "astnode100054536",
                     "name": "HeaderButton#afterSetUseActiveTabIndicator",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -210,7 +210,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054570",
+                    "id": "astnode100054547",
                     "name": "HeaderButton#updateUseActiveTabIndicator",
                     "type": "MethodDefinition",
                     "paramnames": [

@@ -1,0 +1,141 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * Static utility class\n * @class Covid.Util\n * @extends Neo.core.Base\n */",
+            "meta": {
+                "filename": "Util.mjs",
+                "lineno": 3,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/apps/covid",
+                "code": {}
+            },
+            "description": "Static utility class",
+            "kind": "class",
+            "name": "Util",
+            "augments": [
+                "Neo.core.Base"
+            ],
+            "memberof": "Covid",
+            "longname": "Covid.Util",
+            "scope": "static",
+            "$longname": "Covid.Util",
+            "$kind": "class",
+            "id": 2158,
+            "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
+        },
+        {
+            "comment": "/**\n         * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString\n         * Change this config to enforce a county specific formatting (e.g. 'de-DE')\n         * @member {String} locales='default'\n         * @private\n         * @static\n         */",
+            "meta": {
+                "filename": "Util.mjs",
+                "lineno": 17,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/apps/covid",
+                "code": {}
+            },
+            "description": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString<br />Change this config to enforce a county specific formatting (e.g. 'de-DE')",
+            "kind": "member",
+            "name": "locales",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'default'",
+            "access": "private",
+            "scope": "static",
+            "longname": "locales",
+            "$longname": "locales",
+            "$kind": "property",
+            "id": 2159,
+            "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Covid.Util'\n         * @private\n         */",
+            "meta": {
+                "filename": "Util.mjs",
+                "lineno": 25,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/apps/covid",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Covid.Util'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 2160,
+            "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
+        },
+        {
+            "comment": "/**\n     * This method will get used as a grid renderer, so the 2nd param is an overload (would be {Object} record)\n     * @param {Number} value\n     * @param {String} [color]\n     * @return {String}\n     */",
+            "meta": {
+                "range": [
+                    937,
+                    1201
+                ],
+                "filename": "Util.mjs",
+                "lineno": 34,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/apps/covid",
+                "code": {
+                    "id": "astnode100071219",
+                    "name": "Util.formatNumber",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "color"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "This method will get used as a grid renderer, so the 2nd param is an overload (would be {Object} record)",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "optional": true,
+                    "name": "color"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    }
+                }
+            ],
+            "name": "formatNumber",
+            "longname": "Util.formatNumber",
+            "kind": "function",
+            "memberof": "Util",
+            "scope": "static",
+            "$longname": "Util.formatNumber",
+            "$kind": "method",
+            "id": 2161,
+            "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
+        }
+    ]
+}

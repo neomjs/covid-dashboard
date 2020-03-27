@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.util.Function",
             "$kind": "class",
-            "id": 1852,
+            "id": 1851,
             "neoClassName": "Neo.util.Function"
         },
         {
@@ -44,6 +44,59 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
+            "id": 1852,
+            "neoClassName": "Neo.util.Function"
+        },
+        {
+            "comment": "/**\n     * Append args instead of prepending them\n     * @param {Object} scope\n     * @returns {Function}\n     */",
+            "meta": {
+                "range": [
+                    437,
+                    666
+                ],
+                "filename": "Function.mjs",
+                "lineno": 21,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
+                "code": {
+                    "id": "astnode100058749",
+                    "name": "NeoFunction.bindAppend",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "scope"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Append args instead of prepending them",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "scope"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "function"
+                        ]
+                    }
+                }
+            ],
+            "name": "bindAppend",
+            "longname": "NeoFunction.bindAppend",
+            "kind": "function",
+            "memberof": "NeoFunction",
+            "scope": "static",
+            "$longname": "NeoFunction.bindAppend",
+            "$kind": "method",
             "id": 1853,
             "neoClassName": "Neo.util.Function"
         },
@@ -51,15 +104,15 @@
             "comment": "/**\n     *\n     * @param {Neo.core.Base} target\n     * @param {String} methodName\n     * @param {Function} fn\n     * @param {Object} scope\n     * @returns {Function}\n     */",
             "meta": {
                 "range": [
-                    497,
-                    774
+                    850,
+                    1127
                 ],
                 "filename": "Function.mjs",
-                "lineno": 24,
+                "lineno": 38,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100058807",
+                    "id": "astnode100058791",
                     "name": "NeoFunction.createSequence",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -130,15 +183,15 @@
             "comment": "/**\n     *\n     * @param {Neo.core.Base} target\n     * @param {String} methodName\n     * @param {Function} fn\n     * @param {Object} scope\n     * @returns {Function}\n     */",
             "meta": {
                 "range": [
-                    958,
-                    1274
+                    1311,
+                    1627
                 ],
                 "filename": "Function.mjs",
-                "lineno": 41,
+                "lineno": 55,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100058848",
+                    "id": "astnode100058832",
                     "name": "NeoFunction.intercept",
                     "type": "MethodDefinition",
                     "paramnames": [
