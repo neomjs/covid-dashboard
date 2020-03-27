@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.main.mixins.DeltaUpdates",
             "$kind": "class",
-            "id": 1358,
+            "id": 1364,
             "neoClassName": "Neo.main.mixins.DeltaUpdates"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1359,
+            "id": 1365,
             "neoClassName": "Neo.main.mixins.DeltaUpdates"
         },
         {
@@ -67,7 +67,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100040824",
+                    "id": "astnode100041059",
                     "name": "DeltaUpdates#du_focusNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -103,7 +103,7 @@
             "scope": "instance",
             "$longname": "DeltaUpdates#du_focusNode",
             "$kind": "method",
-            "id": 1360,
+            "id": 1366,
             "neoClassName": "Neo.main.mixins.DeltaUpdates"
         },
         {
@@ -118,7 +118,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100040840",
+                    "id": "astnode100041075",
                     "name": "DeltaUpdates#du_insertNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -171,7 +171,7 @@
             "scope": "instance",
             "$longname": "DeltaUpdates#du_insertNode",
             "$kind": "method",
-            "id": 1361,
+            "id": 1367,
             "neoClassName": "Neo.main.mixins.DeltaUpdates"
         },
         {
@@ -186,7 +186,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100041010",
+                    "id": "astnode100041245",
                     "name": "DeltaUpdates#du_moveNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -238,7 +238,7 @@
             "scope": "instance",
             "$longname": "DeltaUpdates#du_moveNode",
             "$kind": "method",
-            "id": 1362,
+            "id": 1368,
             "neoClassName": "Neo.main.mixins.DeltaUpdates"
         },
         {
@@ -253,7 +253,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100041081",
+                    "id": "astnode100041316",
                     "name": "DeltaUpdates#du_removeNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -289,7 +289,7 @@
             "scope": "instance",
             "$longname": "DeltaUpdates#du_removeNode",
             "$kind": "method",
-            "id": 1363,
+            "id": 1369,
             "neoClassName": "Neo.main.mixins.DeltaUpdates"
         },
         {
@@ -304,7 +304,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100041109",
+                    "id": "astnode100041344",
                     "name": "DeltaUpdates#du_replaceChild",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -356,7 +356,7 @@
             "scope": "instance",
             "$longname": "DeltaUpdates#du_replaceChild",
             "$kind": "method",
-            "id": 1364,
+            "id": 1370,
             "neoClassName": "Neo.main.mixins.DeltaUpdates"
         },
         {
@@ -371,7 +371,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100041146",
+                    "id": "astnode100041381",
                     "name": "DeltaUpdates#du_updateNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -453,7 +453,7 @@
             "scope": "instance",
             "$longname": "DeltaUpdates#du_updateNode",
             "$kind": "method",
-            "id": 1365,
+            "id": 1371,
             "neoClassName": "Neo.main.mixins.DeltaUpdates"
         },
         {
@@ -468,7 +468,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100041341",
+                    "id": "astnode100041576",
                     "name": "DeltaUpdates#du_updateVtext",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -520,7 +520,7 @@
             "scope": "instance",
             "$longname": "DeltaUpdates#du_updateVtext",
             "$kind": "method",
-            "id": 1366,
+            "id": 1372,
             "neoClassName": "Neo.main.mixins.DeltaUpdates"
         },
         {
@@ -535,7 +535,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100041392",
+                    "id": "astnode100041627",
                     "name": "DeltaUpdates#htmlStringToElement",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -573,7 +573,7 @@
             "scope": "instance",
             "$longname": "DeltaUpdates#htmlStringToElement",
             "$kind": "method",
-            "id": 1367,
+            "id": 1373,
             "neoClassName": "Neo.main.mixins.DeltaUpdates"
         },
         {
@@ -588,7 +588,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100041417",
+                    "id": "astnode100041652",
                     "name": "DeltaUpdates#update",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -643,7 +643,7 @@
             "scope": "instance",
             "$longname": "DeltaUpdates#update",
             "$kind": "method",
-            "id": 1368,
+            "id": 1374,
             "neoClassName": "Neo.main.mixins.DeltaUpdates"
         }
     ]

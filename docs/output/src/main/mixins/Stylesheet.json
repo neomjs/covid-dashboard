@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.main.mixins.Stylesheet",
             "$kind": "class",
-            "id": 1389,
+            "id": 1395,
             "neoClassName": "Neo.main.mixins.Stylesheet"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1390,
+            "id": 1396,
             "neoClassName": "Neo.main.mixins.Stylesheet"
         },
         {
@@ -67,7 +67,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100042175",
+                    "id": "astnode100042410",
                     "name": "Stylesheet#createStyleSheet",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -117,7 +117,7 @@
             "scope": "instance",
             "$longname": "Stylesheet#createStyleSheet",
             "$kind": "method",
-            "id": 1391,
+            "id": 1397,
             "neoClassName": "Neo.main.mixins.Stylesheet"
         },
         {
@@ -132,7 +132,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100042266",
+                    "id": "astnode100042501",
                     "name": "Stylesheet#hasStyleSheet",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -169,7 +169,7 @@
             "scope": "instance",
             "$longname": "Stylesheet#hasStyleSheet",
             "$kind": "method",
-            "id": 1392,
+            "id": 1398,
             "neoClassName": "Neo.main.mixins.Stylesheet"
         },
         {
@@ -184,7 +184,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100042316",
+                    "id": "astnode100042551",
                     "name": "Stylesheet#insertCssRules",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -213,7 +213,7 @@
             "scope": "instance",
             "$longname": "Stylesheet#insertCssRules",
             "$kind": "method",
-            "id": 1393,
+            "id": 1399,
             "neoClassName": "Neo.main.mixins.Stylesheet"
         },
         {
@@ -228,7 +228,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100042418",
+                    "id": "astnode100042653",
                     "name": "Stylesheet#insertTheme",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -246,7 +246,7 @@
             "params": [],
             "$longname": "Stylesheet#insertTheme",
             "$kind": "method",
-            "id": 1394,
+            "id": 1400,
             "neoClassName": "Neo.main.mixins.Stylesheet"
         },
         {
@@ -261,7 +261,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100042572",
+                    "id": "astnode100042807",
                     "name": "Stylesheet#removeStyleSheets",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -305,7 +305,7 @@
             "scope": "instance",
             "$longname": "Stylesheet#removeStyleSheets",
             "$kind": "method",
-            "id": 1395,
+            "id": 1401,
             "neoClassName": "Neo.main.mixins.Stylesheet"
         },
         {
@@ -320,7 +320,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100042700",
+                    "id": "astnode100042935",
                     "name": "Stylesheet#swapStyleSheet",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -364,7 +364,7 @@
             "scope": "instance",
             "$longname": "Stylesheet#swapStyleSheet",
             "$kind": "method",
-            "id": 1396,
+            "id": 1402,
             "neoClassName": "Neo.main.mixins.Stylesheet"
         }
     ]

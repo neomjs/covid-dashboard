@@ -186,7 +186,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032683",
+                    "id": "astnode100032658",
                     "name": "Clear#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -218,7 +218,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032723",
+                    "id": "astnode100032698",
                     "name": "Clear#afterSetHidden",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -272,7 +272,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032751",
+                    "id": "astnode100032726",
                     "name": "Clear#getHiddenState",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -314,7 +314,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032806",
+                    "id": "astnode100032781",
                     "name": "Clear#onFieldChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -357,7 +357,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032820",
+                    "id": "astnode100032795",
                     "name": "Clear#onTriggerClick",
                     "type": "MethodDefinition",
                     "paramnames": [

@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.util.Matrix",
             "$kind": "class",
-            "id": 1881,
+            "id": 1887,
             "neoClassName": "Neo.util.Matrix"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1882,
+            "id": 1888,
             "neoClassName": "Neo.util.Matrix"
         },
         {
@@ -71,7 +71,7 @@
             "scope": "global",
             "$longname": "items_",
             "$kind": "property",
-            "id": 1883,
+            "id": 1889,
             "neoClassName": "Neo.util.Matrix"
         },
         {
@@ -86,7 +86,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059427",
+                    "id": "astnode100059662",
                     "name": "Matrix#getElement",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -123,7 +123,7 @@
             "scope": "instance",
             "$longname": "Matrix#getElement",
             "$kind": "method",
-            "id": 1884,
+            "id": 1890,
             "neoClassName": "Neo.util.Matrix"
         },
         {
@@ -138,7 +138,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059474",
+                    "id": "astnode100059709",
                     "name": "Matrix#e",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -159,7 +159,7 @@
             "params": [],
             "$longname": "Matrix#e",
             "$kind": "method",
-            "id": 1885,
+            "id": 1891,
             "neoClassName": "Neo.util.Matrix"
         },
         {
@@ -174,7 +174,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059487",
+                    "id": "astnode100059722",
                     "name": "Matrix#multiply",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -207,7 +207,7 @@
             "scope": "instance",
             "$longname": "Matrix#multiply",
             "$kind": "method",
-            "id": 1886,
+            "id": 1892,
             "neoClassName": "Neo.util.Matrix"
         },
         {
@@ -222,7 +222,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059623",
+                    "id": "astnode100059858",
                     "name": "Matrix#x",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -242,7 +242,7 @@
             "params": [],
             "$longname": "Matrix#x",
             "$kind": "method",
-            "id": 1887,
+            "id": 1893,
             "neoClassName": "Neo.util.Matrix"
         },
         {
@@ -257,7 +257,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059634",
+                    "id": "astnode100059869",
                     "name": "Matrix.rotateX",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -289,7 +289,7 @@
             "scope": "static",
             "$longname": "Matrix.rotateX",
             "$kind": "method",
-            "id": 1888,
+            "id": 1894,
             "neoClassName": "Neo.util.Matrix"
         },
         {
@@ -304,7 +304,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059677",
+                    "id": "astnode100059912",
                     "name": "Matrix.rotateY",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -336,7 +336,7 @@
             "scope": "static",
             "$longname": "Matrix.rotateY",
             "$kind": "method",
-            "id": 1889,
+            "id": 1895,
             "neoClassName": "Neo.util.Matrix"
         },
         {
@@ -351,7 +351,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059720",
+                    "id": "astnode100059955",
                     "name": "Matrix.rotateZ",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -383,7 +383,7 @@
             "scope": "static",
             "$longname": "Matrix.rotateZ",
             "$kind": "method",
-            "id": 1890,
+            "id": 1896,
             "neoClassName": "Neo.util.Matrix"
         },
         {
@@ -398,7 +398,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059763",
+                    "id": "astnode100059998",
                     "name": "Matrix#getTransformStyle",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -415,7 +415,7 @@
             "params": [],
             "$longname": "Matrix#getTransformStyle",
             "$kind": "method",
-            "id": 1891,
+            "id": 1897,
             "neoClassName": "Neo.util.Matrix"
         }
     ]

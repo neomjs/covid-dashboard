@@ -182,7 +182,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/grid/header",
                 "code": {
-                    "id": "astnode100033828",
+                    "id": "astnode100033803",
                     "name": "Toolbar#getLayoutConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -231,7 +231,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/grid/header",
                 "code": {
-                    "id": "astnode100033835",
+                    "id": "astnode100033810",
                     "name": "Toolbar#getVdomRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -272,7 +272,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/grid/header",
                 "code": {
-                    "id": "astnode100033847",
+                    "id": "astnode100033822",
                     "name": "Toolbar#getVnodeRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -313,7 +313,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/grid/header",
                 "code": {
-                    "id": "astnode100033859",
+                    "id": "astnode100033834",
                     "name": "Toolbar#createItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -356,7 +356,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/grid/header",
                 "code": {
-                    "id": "astnode100033945",
+                    "id": "astnode100033920",
                     "name": "Toolbar#render",
                     "type": "MethodDefinition",
                     "paramnames": []

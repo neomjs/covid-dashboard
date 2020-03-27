@@ -282,7 +282,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026665",
+                    "id": "astnode100026640",
                     "name": "Number#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -314,7 +314,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026679",
+                    "id": "astnode100026654",
                     "name": "Number#afterSetMaxValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -367,7 +367,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026692",
+                    "id": "astnode100026667",
                     "name": "Number#afterSetMinValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -420,7 +420,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026705",
+                    "id": "astnode100026680",
                     "name": "Number#afterSetStepSize",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -473,7 +473,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026833",
+                    "id": "astnode100026808",
                     "name": "Number#afterSetTriggerPosition",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -526,7 +526,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026847",
+                    "id": "astnode100026822",
                     "name": "Number#afterSetUseSpinButtons",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -579,7 +579,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026864",
+                    "id": "astnode100026839",
                     "name": "Number#beforeSetTriggerPosition",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -633,7 +633,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026878",
+                    "id": "astnode100026853",
                     "name": "Number#onInputValueChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -677,7 +677,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026978",
+                    "id": "astnode100026953",
                     "name": "Number#onSpinButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -713,7 +713,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026995",
+                    "id": "astnode100026970",
                     "name": "Number#onSpinButtonDownClick",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -746,7 +746,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100027048",
+                    "id": "astnode100027023",
                     "name": "Number#onSpinButtonUpClick",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -779,7 +779,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100027107",
+                    "id": "astnode100027082",
                     "name": "Number#updateTriggers",
                     "type": "MethodDefinition",
                     "paramnames": []

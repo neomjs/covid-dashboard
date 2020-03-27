@@ -22,7 +22,7 @@
             "kind": "member",
             "$longname": "Neo.config",
             "$kind": "property",
-            "id": 728,
+            "id": 727,
             "neoClassName": "Neo.DefaultConfig"
         },
         {
@@ -48,7 +48,7 @@
             "kind": "member",
             "$longname": "Neo.config.applyBodyCls",
             "$kind": "property",
-            "id": 729,
+            "id": 728,
             "neoClassName": "Neo.DefaultConfig"
         },
         {
@@ -75,7 +75,7 @@
             "kind": "member",
             "$longname": "Neo.config.appPath",
             "$kind": "property",
-            "id": 730,
+            "id": 729,
             "neoClassName": "Neo.DefaultConfig"
         },
         {
@@ -101,7 +101,7 @@
             "kind": "member",
             "$longname": "Neo.config.basePath",
             "$kind": "property",
-            "id": 731,
+            "id": 730,
             "neoClassName": "Neo.DefaultConfig"
         },
         {
@@ -135,7 +135,7 @@
             "kind": "member",
             "$longname": "Neo.[config.cssPath]",
             "$kind": "property",
-            "id": 732,
+            "id": 731,
             "neoClassName": "Neo.DefaultConfig"
         },
         {
@@ -161,7 +161,7 @@
             "kind": "member",
             "$longname": "Neo.config.environment",
             "$kind": "property",
-            "id": 733,
+            "id": 732,
             "neoClassName": "Neo.DefaultConfig"
         },
         {
@@ -187,7 +187,7 @@
             "kind": "member",
             "$longname": "Neo.config.isExperimental",
             "$kind": "property",
-            "id": 734,
+            "id": 733,
             "neoClassName": "Neo.DefaultConfig"
         },
         {
@@ -213,7 +213,7 @@
             "kind": "member",
             "$longname": "Neo.config.isInsideSiesta",
             "$kind": "property",
-            "id": 735,
+            "id": 734,
             "neoClassName": "Neo.DefaultConfig"
         },
         {
@@ -239,7 +239,7 @@
             "kind": "member",
             "$longname": "Neo.config.locale",
             "$kind": "property",
-            "id": 736,
+            "id": 735,
             "neoClassName": "Neo.DefaultConfig"
         },
         {
@@ -265,7 +265,7 @@
             "kind": "member",
             "$longname": "Neo.config.themes",
             "$kind": "property",
-            "id": 737,
+            "id": 736,
             "neoClassName": "Neo.DefaultConfig"
         },
         {
@@ -291,20 +291,46 @@
             "kind": "member",
             "$longname": "Neo.config.unitTestMode",
             "$kind": "property",
+            "id": 737,
+            "neoClassName": "Neo.DefaultConfig"
+        },
+        {
+            "comment": "/**\n     * Flag if to load the files needed for working with amCharts\n     * https://www.amcharts.com/docs/v4/\n     * @default false\n     * @memberOf! module:Neo\n     * @name config.useAmCharts\n     * @type Boolean\n     */",
+            "meta": {
+                "filename": "DefaultConfig.mjs",
+                "lineno": 106,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
+                "code": {}
+            },
+            "description": "Flag if to load the files needed for working with amCharts<br />https://www.amcharts.com/docs/v4/",
+            "defaultvalue": "false",
+            "memberof": "module:Neo.config",
+            "name": "config.useAmCharts",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "scope": "static",
+            "longname": "module:Neo.config.useAmCharts",
+            "kind": "member",
+            "$longname": "Neo.config.useAmCharts",
+            "$kind": "property",
             "id": 738,
             "neoClassName": "Neo.DefaultConfig"
         },
         {
-            "comment": "/**\n     * Flag if CSS4 stylesheets are in use (important for switching themes)\n     * @default false\n     * @memberOf! module:Neo\n     * @name config.useCss4\n     * @type Boolean\n     */",
+            "comment": "/**\n     * Flag if CSS4 stylesheets are in use (important for switching themes)\n     * @default true\n     * @memberOf! module:Neo\n     * @name config.useCss4\n     * @type Boolean\n     */",
             "meta": {
                 "filename": "DefaultConfig.mjs",
-                "lineno": 105,
+                "lineno": 114,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {}
             },
             "description": "Flag if CSS4 stylesheets are in use (important for switching themes)",
-            "defaultvalue": "false",
+            "defaultvalue": "true",
             "memberof": "module:Neo.config",
             "name": "config.useCss4",
             "type": {
@@ -324,7 +350,7 @@
             "comment": "/**\n     * True will automatically include the stylesheet\n     * @default true\n     * @memberOf! module:Neo\n     * @name config.useFontAwesome\n     * @type Boolean\n     */",
             "meta": {
                 "filename": "DefaultConfig.mjs",
-                "lineno": 113,
+                "lineno": 122,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {}
@@ -350,7 +376,7 @@
             "comment": "/**\n     * Required for the online examples\n     * @default false\n     * @memberOf! module:Neo\n     * @name config.useGoogleAnalytics\n     * @type Boolean\n     */",
             "meta": {
                 "filename": "DefaultConfig.mjs",
-                "lineno": 121,
+                "lineno": 130,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {}
@@ -376,7 +402,7 @@
             "comment": "/**\n     * Path to the top level neo.mjs resources folder\n     * @default Neo.config.basePath + 'resources/'\n     * @memberOf! module:Neo\n     * @name config.resourcesPath\n     * @type String\n     */",
             "meta": {
                 "filename": "DefaultConfig.mjs",
-                "lineno": 132,
+                "lineno": 141,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {}
@@ -402,7 +428,7 @@
             "comment": "/**\n     * The default base URL for web worker entry points (App, Data, Vdom)\n     * @default Neo.config.basePath + 'src/worker/'\n     * @memberOf! module:Neo\n     * @name config.workerBasePath\n     * @type String\n     */",
             "meta": {
                 "filename": "DefaultConfig.mjs",
-                "lineno": 140,
+                "lineno": 149,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {}
