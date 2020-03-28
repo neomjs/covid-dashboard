@@ -127,7 +127,7 @@
             "meta": {
                 "range": [
                     884,
-                    1328
+                    1322
                 ],
                 "filename": "AmChart.mjs",
                 "lineno": 35,
@@ -158,8 +158,8 @@
             "comment": "/**\n     * Override this method to trigger logic after the chart got mounted into the dom\n     */",
             "meta": {
                 "range": [
-                    1436,
-                    1461
+                    1430,
+                    1455
                 ],
                 "filename": "AmChart.mjs",
                 "lineno": 56,

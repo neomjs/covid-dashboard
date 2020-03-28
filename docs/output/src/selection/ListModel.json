@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.selection.ListModel",
             "$kind": "class",
-            "id": 1548,
+            "id": 1555,
             "neoClassName": "Neo.selection.ListModel"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1549,
+            "id": 1556,
             "neoClassName": "Neo.selection.ListModel"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1550,
+            "id": 1557,
             "neoClassName": "Neo.selection.ListModel"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "stayInList",
             "$kind": "property",
-            "id": 1551,
+            "id": 1558,
             "neoClassName": "Neo.selection.ListModel"
         },
         {
@@ -108,7 +108,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050033",
+                    "id": "astnode100050081",
                     "name": "ListModel#onKeyDownDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -136,7 +136,7 @@
             "scope": "instance",
             "$longname": "ListModel#onKeyDownDown",
             "$kind": "method",
-            "id": 1552,
+            "id": 1559,
             "neoClassName": "Neo.selection.ListModel"
         },
         {
@@ -151,7 +151,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050053",
+                    "id": "astnode100050101",
                     "name": "ListModel#onKeyDownLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -179,7 +179,7 @@
             "scope": "instance",
             "$longname": "ListModel#onKeyDownLeft",
             "$kind": "method",
-            "id": 1553,
+            "id": 1560,
             "neoClassName": "Neo.selection.ListModel"
         },
         {
@@ -194,7 +194,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050064",
+                    "id": "astnode100050112",
                     "name": "ListModel#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -222,7 +222,7 @@
             "scope": "instance",
             "$longname": "ListModel#onKeyDownRight",
             "$kind": "method",
-            "id": 1554,
+            "id": 1561,
             "neoClassName": "Neo.selection.ListModel"
         },
         {
@@ -237,7 +237,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050075",
+                    "id": "astnode100050123",
                     "name": "ListModel#onKeyDownUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -265,7 +265,7 @@
             "scope": "instance",
             "$longname": "ListModel#onKeyDownUp",
             "$kind": "method",
-            "id": 1555,
+            "id": 1562,
             "neoClassName": "Neo.selection.ListModel"
         },
         {
@@ -280,7 +280,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050096",
+                    "id": "astnode100050144",
                     "name": "ListModel#onNavKey",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -317,7 +317,7 @@
             "scope": "instance",
             "$longname": "ListModel#onNavKey",
             "$kind": "method",
-            "id": 1556,
+            "id": 1563,
             "neoClassName": "Neo.selection.ListModel"
         },
         {
@@ -332,7 +332,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050280",
+                    "id": "astnode100050328",
                     "name": "ListModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -360,7 +360,7 @@
             "scope": "instance",
             "$longname": "ListModel#register",
             "$kind": "method",
-            "id": 1557,
+            "id": 1564,
             "neoClassName": "Neo.selection.ListModel"
         },
         {
@@ -375,7 +375,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050347",
+                    "id": "astnode100050395",
                     "name": "ListModel#selectAt",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -403,7 +403,7 @@
             "scope": "instance",
             "$longname": "ListModel#selectAt",
             "$kind": "method",
-            "id": 1558,
+            "id": 1565,
             "neoClassName": "Neo.selection.ListModel"
         },
         {
@@ -418,7 +418,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050391",
+                    "id": "astnode100050439",
                     "name": "ListModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -435,7 +435,7 @@
             "params": [],
             "$longname": "ListModel#unregister",
             "$kind": "method",
-            "id": 1559,
+            "id": 1566,
             "neoClassName": "Neo.selection.ListModel"
         }
     ]

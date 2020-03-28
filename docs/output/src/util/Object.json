@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.util.Object",
             "$kind": "class",
-            "id": 1907,
+            "id": 1914,
             "neoClassName": "Neo.util.Object"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1908,
+            "id": 1915,
             "neoClassName": "Neo.util.Object"
         },
         {
@@ -59,7 +59,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100060418",
+                    "id": "astnode100060466",
                     "name": "NeoObject.isEqual",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -106,7 +106,7 @@
             "scope": "static",
             "$longname": "NeoObject.isEqual",
             "$kind": "method",
-            "id": 1909,
+            "id": 1916,
             "neoClassName": "Neo.util.Object"
         }
     ]
