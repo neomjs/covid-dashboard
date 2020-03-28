@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.main.mixins.GoogleAnalytics",
             "$kind": "class",
-            "id": 1375,
+            "id": 1384,
             "neoClassName": "Neo.main.mixins.GoogleAnalytics"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1376,
+            "id": 1385,
             "neoClassName": "Neo.main.mixins.GoogleAnalytics"
         },
         {
@@ -67,7 +67,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100041844",
+                    "id": "astnode100042001",
                     "name": "GoogleAnalytics#insertGoogleAnalyticsScript",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -85,7 +85,7 @@
             "params": [],
             "$longname": "GoogleAnalytics#insertGoogleAnalyticsScript",
             "$kind": "method",
-            "id": 1377,
+            "id": 1386,
             "neoClassName": "Neo.main.mixins.GoogleAnalytics"
         }
     ]

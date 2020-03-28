@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.layout.Fit",
             "$kind": "class",
-            "id": 1167,
+            "id": 1174,
             "neoClassName": "Neo.layout.Fit"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1168,
+            "id": 1175,
             "neoClassName": "Neo.layout.Fit"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1169,
+            "id": 1176,
             "neoClassName": "Neo.layout.Fit"
         },
         {
@@ -84,7 +84,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100034387",
+                    "id": "astnode100034496",
                     "name": "Fit#applyChildAttributes",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -111,7 +111,7 @@
             "scope": "instance",
             "$longname": "Fit#applyChildAttributes",
             "$kind": "method",
-            "id": 1170,
+            "id": 1177,
             "neoClassName": "Neo.layout.Fit"
         },
         {
@@ -126,7 +126,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100034405",
+                    "id": "astnode100034514",
                     "name": "Fit#applyRenderAttributes",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -144,7 +144,7 @@
             "params": [],
             "$longname": "Fit#applyRenderAttributes",
             "$kind": "method",
-            "id": 1171,
+            "id": 1178,
             "neoClassName": "Neo.layout.Fit"
         },
         {
@@ -159,7 +159,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100034457",
+                    "id": "astnode100034566",
                     "name": "Fit#removeRenderAttributes",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -177,7 +177,7 @@
             "params": [],
             "$longname": "Fit#removeRenderAttributes",
             "$kind": "method",
-            "id": 1172,
+            "id": 1179,
             "neoClassName": "Neo.layout.Fit"
         }
     ]

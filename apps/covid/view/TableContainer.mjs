@@ -1,3 +1,4 @@
+import CheckBox                  from '../../../node_modules/neo.mjs/src/form/field/CheckBox.mjs';
 import {default as Container}    from '../../../node_modules/neo.mjs/src/container/Base.mjs';
 import HistoricalDataTable       from './country/HistoricalDataTable.mjs';
 import LineChartComponent        from './country/LineChartComponent.mjs'
@@ -86,9 +87,26 @@ class TableContainer extends Container {
 
             items: [{
                 module: TabContainer,
-                items: [{
-                    module   : LineChartComponent,
-                    reference: 'line-chart',
+                style : {marginTop: '10px'},
+                items : [{
+                    ntype : 'container',
+                    layout: {ntype: 'vbox', align: 'stretch'},
+                    items : [{
+                        ntype: 'toolbar',
+                        flex : '0 1 auto',
+                        items: [{
+                            module   : CheckBox,
+                            checked  : true,
+                            labelText: 'Logarithmic Scale',
+                            listeners: {
+                                change: 'onLogarithmicScaleChange'
+                            }
+                        }]
+                    }, {
+                        module   : LineChartComponent,
+                        flex     : 1,
+                        reference: 'line-chart',
+                    }],
 
                     tabButtonConfig: {
                         iconCls: 'fa fa-chart-line',

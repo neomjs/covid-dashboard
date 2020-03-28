@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.util.Floating",
             "$kind": "class",
-            "id": 1851,
+            "id": 1860,
             "neoClassName": "Neo.util.Floating"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1852,
+            "id": 1861,
             "neoClassName": "Neo.util.Floating"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1853,
+            "id": 1862,
             "neoClassName": "Neo.util.Floating"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "mixin",
             "$kind": "property",
-            "id": 1854,
+            "id": 1863,
             "neoClassName": "Neo.util.Floating"
         },
         {
@@ -119,7 +119,7 @@
             "scope": "global",
             "$longname": "animateTargetId",
             "$kind": "property",
-            "id": 1855,
+            "id": 1864,
             "neoClassName": "Neo.util.Floating"
         },
         {
@@ -143,7 +143,7 @@
             "scope": "global",
             "$longname": "modal_",
             "$kind": "property",
-            "id": 1856,
+            "id": 1865,
             "neoClassName": "Neo.util.Floating"
         }
     ]

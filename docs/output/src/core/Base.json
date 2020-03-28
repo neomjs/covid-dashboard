@@ -17,7 +17,7 @@
             "scope": "static",
             "$longname": "Neo.core.Base",
             "$kind": "class",
-            "id": 571,
+            "id": 578,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -32,7 +32,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021240",
+                    "id": "astnode100021342",
                     "name": "Base.getStaticConfig",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -63,7 +63,7 @@
             "params": [],
             "$longname": "Base.getStaticConfig",
             "$kind": "method",
-            "id": 572,
+            "id": 579,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -89,7 +89,7 @@
             "longname": "registerToGlobalNs",
             "$longname": "registerToGlobalNs",
             "$kind": "property",
-            "id": 573,
+            "id": 580,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -104,7 +104,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021248",
+                    "id": "astnode100021350",
                     "name": "Base.getConfig",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -135,7 +135,7 @@
             "params": [],
             "$longname": "Base.getConfig",
             "$kind": "method",
-            "id": 574,
+            "id": 581,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -161,7 +161,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 575,
+            "id": 582,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -187,7 +187,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 576,
+            "id": 583,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -214,7 +214,7 @@
             "scope": "global",
             "$longname": "mixins",
             "$kind": "property",
-            "id": 577,
+            "id": 584,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -229,7 +229,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021260",
+                    "id": "astnode100021362",
                     "name": "Base",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -257,7 +257,7 @@
             "scope": "global",
             "$longname": "Base",
             "$kind": "constructor",
-            "id": 578,
+            "id": 585,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -272,7 +272,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021403",
+                    "id": "astnode100021505",
                     "name": "Base#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -293,7 +293,7 @@
             "params": [],
             "$longname": "Base#onConstructed",
             "$kind": "method",
-            "id": 579,
+            "id": 586,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -308,7 +308,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021407",
+                    "id": "astnode100021509",
                     "name": "Base#init",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -332,7 +332,7 @@
             "params": [],
             "$longname": "Base#init",
             "$kind": "method",
-            "id": 580,
+            "id": 587,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -347,7 +347,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021411",
+                    "id": "astnode100021513",
                     "name": "Base#beforeSetEnumValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -409,7 +409,7 @@
             "scope": "instance",
             "$longname": "Base#beforeSetEnumValue",
             "$kind": "method",
-            "id": 581,
+            "id": 588,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -424,7 +424,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021528",
+                    "id": "astnode100021630",
                     "name": "Base#destroy",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -442,7 +442,7 @@
             "params": [],
             "$longname": "Base#destroy",
             "$kind": "method",
-            "id": 582,
+            "id": 589,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -457,7 +457,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021576",
+                    "id": "astnode100021678",
                     "name": "Base#getStaticConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -497,7 +497,7 @@
             "scope": "instance",
             "$longname": "Base#getStaticConfig",
             "$kind": "method",
-            "id": 583,
+            "id": 590,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -512,7 +512,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021596",
+                    "id": "astnode100021698",
                     "name": "Base#initConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -552,7 +552,7 @@
             "scope": "instance",
             "$longname": "Base#initConfig",
             "$kind": "method",
-            "id": 584,
+            "id": 591,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -567,7 +567,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021625",
+                    "id": "astnode100021727",
                     "name": "Base#processConfigs",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -584,7 +584,7 @@
             "params": [],
             "$longname": "Base#processConfigs",
             "$kind": "method",
-            "id": 585,
+            "id": 592,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -599,7 +599,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021687",
+                    "id": "astnode100021789",
                     "name": "Base#initRemote",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -617,7 +617,7 @@
             "params": [],
             "$longname": "Base#initRemote",
             "$kind": "method",
-            "id": 586,
+            "id": 593,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -632,7 +632,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021782",
+                    "id": "astnode100021884",
                     "name": "Base#mergeConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -682,7 +682,7 @@
             "scope": "instance",
             "$longname": "Base#mergeConfig",
             "$kind": "method",
-            "id": 587,
+            "id": 594,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -697,7 +697,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021835",
+                    "id": "astnode100021937",
                     "name": "Base#set",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -727,7 +727,7 @@
             "scope": "instance",
             "$longname": "Base#set",
             "$kind": "method",
-            "id": 588,
+            "id": 595,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -742,7 +742,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021881",
+                    "id": "astnode100021983",
                     "name": "Base#setStaticConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -791,7 +791,7 @@
             "scope": "instance",
             "$longname": "Base#setStaticConfig",
             "$kind": "method",
-            "id": 589,
+            "id": 596,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -806,7 +806,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021912",
+                    "id": "astnode100022014",
                     "name": "Base#Symbol.toStringTag",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -833,7 +833,7 @@
             "params": [],
             "$longname": "Base#Symbol.toStringTag",
             "$kind": "property",
-            "id": 590,
+            "id": 597,
             "neoClassName": "Neo.core.Base"
         },
         {
@@ -848,7 +848,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100021930",
+                    "id": "astnode100022032",
                     "name": "Base.Symbol.hasInstance",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -877,7 +877,7 @@
             "params": [],
             "$longname": "Base.Symbol.hasInstance",
             "$kind": "method",
-            "id": 591,
+            "id": 598,
             "neoClassName": "Neo.core.Base"
         }
     ]

@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.worker.App",
             "$kind": "class",
-            "id": 1951,
+            "id": 1960,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1952,
+            "id": 1961,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -77,7 +77,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1953,
+            "id": 1962,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -103,7 +103,7 @@
             "scope": "global",
             "$longname": "data",
             "$kind": "property",
-            "id": 1954,
+            "id": 1963,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -128,7 +128,7 @@
             "scope": "global",
             "$longname": "dataRemotesRegistered",
             "$kind": "property",
-            "id": 1955,
+            "id": 1964,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -153,7 +153,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 1956,
+            "id": 1965,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -178,7 +178,7 @@
             "scope": "global",
             "$longname": "vdomRemotesRegistered",
             "$kind": "property",
-            "id": 1957,
+            "id": 1966,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -203,7 +203,7 @@
             "scope": "global",
             "$longname": "workerId",
             "$kind": "property",
-            "id": 1958,
+            "id": 1967,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -229,7 +229,7 @@
             "scope": "global",
             "$longname": "countDataRemotes",
             "$kind": "property",
-            "id": 1959,
+            "id": 1968,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -255,7 +255,7 @@
             "scope": "global",
             "$longname": "countVdomRemotes",
             "$kind": "property",
-            "id": 1960,
+            "id": 1969,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -270,7 +270,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100064265",
+                    "id": "astnode100064422",
                     "name": "App",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -297,7 +297,7 @@
             "scope": "global",
             "$longname": "App",
             "$kind": "constructor",
-            "id": 1961,
+            "id": 1970,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -312,7 +312,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100064288",
+                    "id": "astnode100064445",
                     "name": "App#onDomEvent",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -342,7 +342,7 @@
             "scope": "instance",
             "$longname": "App#onDomEvent",
             "$kind": "method",
-            "id": 1962,
+            "id": 1971,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -357,7 +357,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100064299",
+                    "id": "astnode100064456",
                     "name": "App#onHashChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -387,7 +387,7 @@
             "scope": "instance",
             "$longname": "App#onHashChange",
             "$kind": "method",
-            "id": 1963,
+            "id": 1972,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -402,7 +402,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100064315",
+                    "id": "astnode100064472",
                     "name": "App#onLoadApplication",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -431,7 +431,7 @@
             "scope": "instance",
             "$longname": "App#onLoadApplication",
             "$kind": "method",
-            "id": 1964,
+            "id": 1973,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -446,7 +446,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100064431",
+                    "id": "astnode100064588",
                     "name": "App#onRemoteRegistered",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -475,7 +475,7 @@
             "scope": "instance",
             "$longname": "App#onRemoteRegistered",
             "$kind": "method",
-            "id": 1965,
+            "id": 1974,
             "neoClassName": "Neo.worker.App"
         }
     ]

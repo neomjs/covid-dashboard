@@ -26,7 +26,7 @@
             "scope": "static",
             "$longname": "Neo.Xhr",
             "$kind": "class",
-            "id": 2025,
+            "id": 2034,
             "neoClassName": "Neo.Xhr"
         },
         {
@@ -51,7 +51,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 2026,
+            "id": 2035,
             "neoClassName": "Neo.Xhr"
         },
         {
@@ -76,7 +76,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 2027,
+            "id": 2036,
             "neoClassName": "Neo.Xhr"
         },
         {
@@ -101,7 +101,7 @@
             "scope": "global",
             "$longname": "remote",
             "$kind": "property",
-            "id": 2028,
+            "id": 2037,
             "neoClassName": "Neo.Xhr"
         },
         {
@@ -126,7 +126,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 2029,
+            "id": 2038,
             "neoClassName": "Neo.Xhr"
         }
     ]

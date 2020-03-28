@@ -26,7 +26,7 @@
             "scope": "static",
             "$longname": "Neo.manager.Focus",
             "$kind": "class",
-            "id": 1436,
+            "id": 1445,
             "neoClassName": "Neo.manager.Focus"
         },
         {
@@ -51,7 +51,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1437,
+            "id": 1446,
             "neoClassName": "Neo.manager.Focus"
         },
         {
@@ -76,7 +76,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1438,
+            "id": 1447,
             "neoClassName": "Neo.manager.Focus"
         },
         {
@@ -101,7 +101,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 1439,
+            "id": 1448,
             "neoClassName": "Neo.manager.Focus"
         },
         {
@@ -126,7 +126,7 @@
             "scope": "global",
             "$longname": "history",
             "$kind": "property",
-            "id": 1440,
+            "id": 1449,
             "neoClassName": "Neo.manager.Focus"
         },
         {
@@ -153,7 +153,7 @@
             "scope": "global",
             "$longname": "lastFocusInDate",
             "$kind": "property",
-            "id": 1441,
+            "id": 1450,
             "neoClassName": "Neo.manager.Focus"
         },
         {
@@ -180,7 +180,7 @@
             "scope": "global",
             "$longname": "lastFocusInDate",
             "$kind": "property",
-            "id": 1442,
+            "id": 1451,
             "neoClassName": "Neo.manager.Focus"
         },
         {
@@ -205,7 +205,7 @@
             "scope": "global",
             "$longname": "maxFocusInOutGap",
             "$kind": "property",
-            "id": 1443,
+            "id": 1452,
             "neoClassName": "Neo.manager.Focus"
         },
         {
@@ -230,7 +230,7 @@
             "scope": "global",
             "$longname": "maxHistoryLength",
             "$kind": "property",
-            "id": 1444,
+            "id": 1453,
             "neoClassName": "Neo.manager.Focus"
         },
         {
@@ -245,7 +245,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100045014",
+                    "id": "astnode100045171",
                     "name": "Focus#addToHistory",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -292,7 +292,7 @@
             "scope": "instance",
             "$longname": "Focus#addToHistory",
             "$kind": "method",
-            "id": 1445,
+            "id": 1454,
             "neoClassName": "Neo.manager.Focus"
         },
         {
@@ -307,7 +307,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100045045",
+                    "id": "astnode100045202",
                     "name": "Focus#focusEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -354,7 +354,7 @@
             "scope": "instance",
             "$longname": "Focus#focusEnter",
             "$kind": "method",
-            "id": 1446,
+            "id": 1455,
             "neoClassName": "Neo.manager.Focus"
         },
         {
@@ -369,7 +369,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100045063",
+                    "id": "astnode100045220",
                     "name": "Focus#focusLeave",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -416,7 +416,7 @@
             "scope": "instance",
             "$longname": "Focus#focusLeave",
             "$kind": "method",
-            "id": 1447,
+            "id": 1456,
             "neoClassName": "Neo.manager.Focus"
         },
         {
@@ -431,7 +431,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100045075",
+                    "id": "astnode100045232",
                     "name": "Focus#focusMove",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -478,7 +478,7 @@
             "scope": "instance",
             "$longname": "Focus#focusMove",
             "$kind": "method",
-            "id": 1448,
+            "id": 1457,
             "neoClassName": "Neo.manager.Focus"
         },
         {
@@ -493,7 +493,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100045219",
+                    "id": "astnode100045376",
                     "name": "Focus#onFocusin",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -540,7 +540,7 @@
             "scope": "instance",
             "$longname": "Focus#onFocusin",
             "$kind": "method",
-            "id": 1449,
+            "id": 1458,
             "neoClassName": "Neo.manager.Focus"
         },
         {
@@ -555,7 +555,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100045265",
+                    "id": "astnode100045422",
                     "name": "Focus#onFocusout",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -602,7 +602,7 @@
             "scope": "instance",
             "$longname": "Focus#onFocusout",
             "$kind": "method",
-            "id": 1450,
+            "id": 1459,
             "neoClassName": "Neo.manager.Focus"
         },
         {
@@ -617,7 +617,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100045304",
+                    "id": "astnode100045461",
                     "name": "Focus#setComponentFocus",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -673,7 +673,7 @@
             "scope": "instance",
             "$longname": "Focus#setComponentFocus",
             "$kind": "method",
-            "id": 1451,
+            "id": 1460,
             "neoClassName": "Neo.manager.Focus"
         }
     ]

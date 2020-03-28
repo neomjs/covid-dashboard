@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.trigger.Base",
             "$kind": "class",
-            "id": 1032,
+            "id": 1039,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -46,7 +46,7 @@
             "longname": "alignValues",
             "$longname": "alignValues",
             "$kind": "property",
-            "id": 1033,
+            "id": 1040,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -71,7 +71,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1034,
+            "id": 1041,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -96,7 +96,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1035,
+            "id": 1042,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -120,7 +120,7 @@
             "scope": "global",
             "$longname": "align_",
             "$kind": "property",
-            "id": 1036,
+            "id": 1043,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -144,7 +144,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1037,
+            "id": 1044,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -169,7 +169,7 @@
             "scope": "global",
             "$longname": "field",
             "$kind": "property",
-            "id": 1038,
+            "id": 1045,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -193,7 +193,7 @@
             "scope": "global",
             "$longname": "hidden_",
             "$kind": "property",
-            "id": 1039,
+            "id": 1046,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -218,7 +218,7 @@
             "scope": "global",
             "$longname": "iconCls_",
             "$kind": "property",
-            "id": 1040,
+            "id": 1047,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -244,7 +244,7 @@
             "scope": "global",
             "$longname": "scope",
             "$kind": "property",
-            "id": 1041,
+            "id": 1048,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -268,7 +268,7 @@
             "scope": "global",
             "$longname": "showOnHover",
             "$kind": "property",
-            "id": 1042,
+            "id": 1049,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -294,7 +294,7 @@
             "scope": "global",
             "$longname": "type",
             "$kind": "property",
-            "id": 1043,
+            "id": 1050,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -319,7 +319,7 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1044,
+            "id": 1051,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -343,7 +343,7 @@
             "scope": "global",
             "$longname": "weight_",
             "$kind": "property",
-            "id": 1045,
+            "id": 1052,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -358,7 +358,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032310",
+                    "id": "astnode100032419",
                     "name": "Base",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -385,7 +385,7 @@
             "scope": "global",
             "$longname": "Base",
             "$kind": "constructor",
-            "id": 1046,
+            "id": 1053,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -400,7 +400,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032431",
+                    "id": "astnode100032540",
                     "name": "Base#afterSetAlign",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -439,7 +439,7 @@
             "scope": "instance",
             "$longname": "Base#afterSetAlign",
             "$kind": "method",
-            "id": 1047,
+            "id": 1054,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -454,7 +454,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032461",
+                    "id": "astnode100032570",
                     "name": "Base#afterSetHidden",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -493,7 +493,7 @@
             "scope": "instance",
             "$longname": "Base#afterSetHidden",
             "$kind": "method",
-            "id": 1048,
+            "id": 1055,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -508,7 +508,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032495",
+                    "id": "astnode100032604",
                     "name": "Base#afterSetIconCls",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -547,7 +547,7 @@
             "scope": "instance",
             "$longname": "Base#afterSetIconCls",
             "$kind": "method",
-            "id": 1049,
+            "id": 1056,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -562,7 +562,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032534",
+                    "id": "astnode100032643",
                     "name": "Base#beforeSetAlign",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -601,7 +601,7 @@
             "scope": "instance",
             "$longname": "Base#beforeSetAlign",
             "$kind": "method",
-            "id": 1050,
+            "id": 1057,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -616,7 +616,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032549",
+                    "id": "astnode100032658",
                     "name": "Base#destroy",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -633,7 +633,7 @@
             "params": [],
             "$longname": "Base#destroy",
             "$kind": "method",
-            "id": 1051,
+            "id": 1058,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -648,7 +648,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032563",
+                    "id": "astnode100032672",
                     "name": "Base#onMouseEnter",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -665,7 +665,7 @@
             "params": [],
             "$longname": "Base#onMouseEnter",
             "$kind": "method",
-            "id": 1052,
+            "id": 1059,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -680,7 +680,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032573",
+                    "id": "astnode100032682",
                     "name": "Base#onMouseLeave",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -697,7 +697,7 @@
             "params": [],
             "$longname": "Base#onMouseLeave",
             "$kind": "method",
-            "id": 1053,
+            "id": 1060,
             "neoClassName": "Neo.form.field.trigger.Base"
         },
         {
@@ -712,7 +712,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032583",
+                    "id": "astnode100032692",
                     "name": "Base#onTriggerClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -742,7 +742,7 @@
             "scope": "instance",
             "$longname": "Base#onTriggerClick",
             "$kind": "method",
-            "id": 1054,
+            "id": 1061,
             "neoClassName": "Neo.form.field.trigger.Base"
         }
     ]

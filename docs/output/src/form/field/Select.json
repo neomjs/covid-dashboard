@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.Select",
             "$kind": "class",
-            "id": 893,
+            "id": 900,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 894,
+            "id": 901,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 895,
+            "id": 902,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -95,7 +95,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 896,
+            "id": 903,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -119,7 +119,7 @@
             "scope": "global",
             "$longname": "displayField",
             "$kind": "property",
-            "id": 897,
+            "id": 904,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -145,7 +145,7 @@
             "scope": "global",
             "$longname": "hintRecordId",
             "$kind": "property",
-            "id": 898,
+            "id": 905,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -169,7 +169,7 @@
             "scope": "global",
             "$longname": "keys",
             "$kind": "property",
-            "id": 899,
+            "id": 906,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -195,7 +195,7 @@
             "scope": "global",
             "$longname": "lastManualInput",
             "$kind": "property",
-            "id": 900,
+            "id": 907,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -220,7 +220,7 @@
             "scope": "global",
             "$longname": "list",
             "$kind": "property",
-            "id": 901,
+            "id": 908,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -245,7 +245,7 @@
             "scope": "global",
             "$longname": "listConfig",
             "$kind": "property",
-            "id": 902,
+            "id": 909,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -271,7 +271,7 @@
             "scope": "global",
             "$longname": "pickerHeight",
             "$kind": "property",
-            "id": 903,
+            "id": 910,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -296,7 +296,7 @@
             "scope": "global",
             "$longname": "store_",
             "$kind": "property",
-            "id": 904,
+            "id": 911,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -321,7 +321,7 @@
             "scope": "global",
             "$longname": "typeAhead_",
             "$kind": "property",
-            "id": 905,
+            "id": 912,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -336,7 +336,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028324",
+                    "id": "astnode100028433",
                     "name": "Select",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -358,7 +358,7 @@
             "scope": "global",
             "$longname": "Select",
             "$kind": "constructor",
-            "id": 906,
+            "id": 913,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -373,7 +373,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028438",
+                    "id": "astnode100028547",
                     "name": "Select#afterSetStore",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -412,7 +412,7 @@
             "scope": "instance",
             "$longname": "Select#afterSetStore",
             "$kind": "method",
-            "id": 907,
+            "id": 914,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -427,7 +427,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028485",
+                    "id": "astnode100028594",
                     "name": "Select#afterSetTypeAhead",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -466,7 +466,7 @@
             "scope": "instance",
             "$longname": "Select#afterSetTypeAhead",
             "$kind": "method",
-            "id": 908,
+            "id": 915,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -481,7 +481,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028501",
+                    "id": "astnode100028610",
                     "name": "Select#afterSetValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -533,7 +533,7 @@
             "scope": "instance",
             "$longname": "Select#afterSetValue",
             "$kind": "method",
-            "id": 909,
+            "id": 916,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -548,7 +548,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028526",
+                    "id": "astnode100028635",
                     "name": "Select#beforeSetStore",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -598,7 +598,7 @@
             "scope": "instance",
             "$longname": "Select#beforeSetStore",
             "$kind": "method",
-            "id": 910,
+            "id": 917,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -613,7 +613,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028546",
+                    "id": "astnode100028655",
                     "name": "Select#createPickerComponent",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -639,7 +639,7 @@
             "params": [],
             "$longname": "Select#createPickerComponent",
             "$kind": "method",
-            "id": 911,
+            "id": 918,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -654,7 +654,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028554",
+                    "id": "astnode100028663",
                     "name": "Select#focusInputEl",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -683,7 +683,7 @@
             "scope": "instance",
             "$longname": "Select#focusInputEl",
             "$kind": "method",
-            "id": 912,
+            "id": 919,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -698,7 +698,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028609",
+                    "id": "astnode100028718",
                     "name": "Select#getInputHintEl",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -724,7 +724,7 @@
             "params": [],
             "$longname": "Select#getInputHintEl",
             "$kind": "method",
-            "id": 913,
+            "id": 920,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -739,7 +739,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028633",
+                    "id": "astnode100028742",
                     "name": "Select#getInputHintId",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -765,7 +765,7 @@
             "params": [],
             "$longname": "Select#getInputHintId",
             "$kind": "method",
-            "id": 914,
+            "id": 921,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -780,7 +780,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028643",
+                    "id": "astnode100028752",
                     "name": "Select#onContainerKeyDownEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -809,7 +809,7 @@
             "scope": "instance",
             "$longname": "Select#onContainerKeyDownEnter",
             "$kind": "method",
-            "id": 915,
+            "id": 922,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -824,7 +824,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028653",
+                    "id": "astnode100028762",
                     "name": "Select#onContainerKeyDownEscape",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -853,7 +853,7 @@
             "scope": "instance",
             "$longname": "Select#onContainerKeyDownEscape",
             "$kind": "method",
-            "id": 916,
+            "id": 923,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -868,7 +868,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028666",
+                    "id": "astnode100028775",
                     "name": "Select#onInputValueChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -897,7 +897,7 @@
             "scope": "instance",
             "$longname": "Select#onInputValueChange",
             "$kind": "method",
-            "id": 917,
+            "id": 924,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -912,7 +912,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028685",
+                    "id": "astnode100028794",
                     "name": "Select#onKeyDownDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -941,7 +941,7 @@
             "scope": "instance",
             "$longname": "Select#onKeyDownDown",
             "$kind": "method",
-            "id": 918,
+            "id": 925,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -956,7 +956,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028696",
+                    "id": "astnode100028805",
                     "name": "Select#onKeyDownEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -985,7 +985,7 @@
             "scope": "instance",
             "$longname": "Select#onKeyDownEnter",
             "$kind": "method",
-            "id": 919,
+            "id": 926,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -1000,7 +1000,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028731",
+                    "id": "astnode100028840",
                     "name": "Select#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1029,7 +1029,7 @@
             "scope": "instance",
             "$longname": "Select#onKeyDownRight",
             "$kind": "method",
-            "id": 920,
+            "id": 927,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -1044,7 +1044,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028763",
+                    "id": "astnode100028872",
                     "name": "Select#onKeyDownUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1073,7 +1073,7 @@
             "scope": "instance",
             "$longname": "Select#onKeyDownUp",
             "$kind": "method",
-            "id": 921,
+            "id": 928,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -1088,7 +1088,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028798",
+                    "id": "astnode100028907",
                     "name": "Select#onListCreateItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1107,7 +1107,7 @@
             "params": [],
             "$longname": "Select#onListCreateItems",
             "$kind": "method",
-            "id": 922,
+            "id": 929,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -1122,7 +1122,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028827",
+                    "id": "astnode100028936",
                     "name": "Select#onListItemClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1150,7 +1150,7 @@
             "scope": "instance",
             "$longname": "Select#onListItemClick",
             "$kind": "method",
-            "id": 923,
+            "id": 930,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -1165,7 +1165,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028895",
+                    "id": "astnode100029004",
                     "name": "Select#onListItemNavigate",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1193,7 +1193,7 @@
             "scope": "instance",
             "$longname": "Select#onListItemNavigate",
             "$kind": "method",
-            "id": 924,
+            "id": 931,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -1208,7 +1208,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028906",
+                    "id": "astnode100029015",
                     "name": "Select#selectFirstListItem",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1225,7 +1225,7 @@
             "params": [],
             "$longname": "Select#selectFirstListItem",
             "$kind": "method",
-            "id": 925,
+            "id": 932,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -1240,7 +1240,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028916",
+                    "id": "astnode100029025",
                     "name": "Select#selectLastListItem",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1257,7 +1257,7 @@
             "params": [],
             "$longname": "Select#selectLastListItem",
             "$kind": "method",
-            "id": 926,
+            "id": 933,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -1272,7 +1272,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028933",
+                    "id": "astnode100029042",
                     "name": "Select#selectListItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1302,7 +1302,7 @@
             "scope": "instance",
             "$longname": "Select#selectListItem",
             "$kind": "method",
-            "id": 927,
+            "id": 934,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -1317,7 +1317,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028992",
+                    "id": "astnode100029101",
                     "name": "Select#updateTypeAhead",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1348,7 +1348,7 @@
             "scope": "instance",
             "$longname": "Select#updateTypeAhead",
             "$kind": "method",
-            "id": 928,
+            "id": 935,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -1363,7 +1363,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100029091",
+                    "id": "astnode100029200",
                     "name": "Select#updateTypeAheadValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1405,7 +1405,7 @@
             "scope": "instance",
             "$longname": "Select#updateTypeAheadValue",
             "$kind": "method",
-            "id": 929,
+            "id": 936,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -1420,7 +1420,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100029256",
+                    "id": "astnode100029365",
                     "name": "Select#updateValue",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1438,7 +1438,7 @@
             "params": [],
             "$longname": "Select#updateValue",
             "$kind": "method",
-            "id": 930,
+            "id": 937,
             "neoClassName": "Neo.form.field.Select"
         },
         {
@@ -1484,7 +1484,7 @@
             "scope": "global",
             "$longname": "event:select",
             "$kind": "event",
-            "id": 931,
+            "id": 938,
             "neoClassName": "Neo.form.field.Select"
         }
     ]

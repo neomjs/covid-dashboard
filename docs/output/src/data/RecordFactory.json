@@ -26,7 +26,7 @@
             "scope": "static",
             "$longname": "Neo.data.RecordFactory",
             "$kind": "class",
-            "id": 688,
+            "id": 695,
             "neoClassName": "Neo.data.RecordFactory"
         },
         {
@@ -51,7 +51,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 689,
+            "id": 696,
             "neoClassName": "Neo.data.RecordFactory"
         },
         {
@@ -76,7 +76,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 690,
+            "id": 697,
             "neoClassName": "Neo.data.RecordFactory"
         },
         {
@@ -101,7 +101,7 @@
             "scope": "global",
             "$longname": "ovPrefix",
             "$kind": "property",
-            "id": 691,
+            "id": 698,
             "neoClassName": "Neo.data.RecordFactory"
         },
         {
@@ -125,7 +125,7 @@
             "scope": "global",
             "$longname": "recordNamespace",
             "$kind": "property",
-            "id": 692,
+            "id": 699,
             "neoClassName": "Neo.data.RecordFactory"
         },
         {
@@ -140,7 +140,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100024329",
+                    "id": "astnode100024431",
                     "name": "RecordFactory#createRecord",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -186,7 +186,7 @@
             "scope": "instance",
             "$longname": "RecordFactory#createRecord",
             "$kind": "method",
-            "id": 693,
+            "id": 700,
             "neoClassName": "Neo.data.RecordFactory"
         },
         {
@@ -201,7 +201,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100024365",
+                    "id": "astnode100024467",
                     "name": "RecordFactory#createRecordClass",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -238,7 +238,7 @@
             "scope": "instance",
             "$longname": "RecordFactory#createRecordClass",
             "$kind": "method",
-            "id": 694,
+            "id": 701,
             "neoClassName": "Neo.data.RecordFactory"
         },
         {
@@ -253,7 +253,7 @@
                 "columnno": 20,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100024438",
+                    "id": "astnode100024540",
                     "name": "ns[undefined]",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -273,7 +273,7 @@
             "params": [],
             "$longname": "ns~ns[undefined]",
             "$kind": "constructor",
-            "id": 695,
+            "id": 702,
             "neoClassName": "Neo.data.RecordFactory"
         },
         {
@@ -288,7 +288,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100024613",
+                    "id": "astnode100024715",
                     "name": "RecordFactory#isModified",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -335,7 +335,7 @@
             "scope": "instance",
             "$longname": "RecordFactory#isModified",
             "$kind": "method",
-            "id": 696,
+            "id": 703,
             "neoClassName": "Neo.data.RecordFactory"
         },
         {
@@ -350,7 +350,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100024674",
+                    "id": "astnode100024776",
                     "name": "RecordFactory#isModifiedField",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -398,7 +398,7 @@
             "scope": "instance",
             "$longname": "RecordFactory#isModifiedField",
             "$kind": "method",
-            "id": 697,
+            "id": 704,
             "neoClassName": "Neo.data.RecordFactory"
         },
         {
@@ -413,7 +413,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100024721",
+                    "id": "astnode100024823",
                     "name": "RecordFactory#isRecord",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -451,7 +451,7 @@
             "scope": "instance",
             "$longname": "RecordFactory#isRecord",
             "$kind": "method",
-            "id": 698,
+            "id": 705,
             "neoClassName": "Neo.data.RecordFactory"
         },
         {
@@ -466,7 +466,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100024746",
+                    "id": "astnode100024848",
                     "name": "RecordFactory#onRecordChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -537,7 +537,7 @@
             "scope": "instance",
             "$longname": "RecordFactory#onRecordChange",
             "$kind": "method",
-            "id": 699,
+            "id": 706,
             "neoClassName": "Neo.data.RecordFactory"
         }
     ]

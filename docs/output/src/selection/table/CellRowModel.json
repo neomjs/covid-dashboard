@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.selection.table.CellRowModel",
             "$kind": "class",
-            "id": 1610,
+            "id": 1619,
             "neoClassName": "Neo.selection.table.CellRowModel"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1611,
+            "id": 1620,
             "neoClassName": "Neo.selection.table.CellRowModel"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1612,
+            "id": 1621,
             "neoClassName": "Neo.selection.table.CellRowModel"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1613,
+            "id": 1622,
             "neoClassName": "Neo.selection.table.CellRowModel"
         },
         {
@@ -120,7 +120,7 @@
             "scope": "global",
             "$longname": "selectedRowIds",
             "$kind": "property",
-            "id": 1614,
+            "id": 1623,
             "neoClassName": "Neo.selection.table.CellRowModel"
         },
         {
@@ -135,7 +135,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052127",
+                    "id": "astnode100052284",
                     "name": "CellRowModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -162,7 +162,7 @@
             "scope": "global",
             "$longname": "CellRowModel",
             "$kind": "constructor",
-            "id": 1615,
+            "id": 1624,
             "neoClassName": "Neo.selection.table.CellRowModel"
         },
         {
@@ -177,7 +177,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052142",
+                    "id": "astnode100052299",
                     "name": "CellRowModel#deselectAllRows",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -207,7 +207,7 @@
             "scope": "instance",
             "$longname": "CellRowModel#deselectAllRows",
             "$kind": "method",
-            "id": 1616,
+            "id": 1625,
             "neoClassName": "Neo.selection.table.CellRowModel"
         },
         {
@@ -222,7 +222,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052193",
+                    "id": "astnode100052350",
                     "name": "CellRowModel#deselectRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -261,7 +261,7 @@
             "scope": "instance",
             "$longname": "CellRowModel#deselectRow",
             "$kind": "method",
-            "id": 1617,
+            "id": 1626,
             "neoClassName": "Neo.selection.table.CellRowModel"
         },
         {
@@ -276,7 +276,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052267",
+                    "id": "astnode100052424",
                     "name": "CellRowModel#onCellClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -304,7 +304,7 @@
             "scope": "instance",
             "$longname": "CellRowModel#onCellClick",
             "$kind": "method",
-            "id": 1618,
+            "id": 1627,
             "neoClassName": "Neo.selection.table.CellRowModel"
         },
         {
@@ -319,7 +319,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052313",
+                    "id": "astnode100052470",
                     "name": "CellRowModel#onNavKeyRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -356,7 +356,7 @@
             "scope": "instance",
             "$longname": "CellRowModel#onNavKeyRow",
             "$kind": "method",
-            "id": 1619,
+            "id": 1628,
             "neoClassName": "Neo.selection.table.CellRowModel"
         },
         {
@@ -371,7 +371,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052417",
+                    "id": "astnode100052574",
                     "name": "CellRowModel#selectRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -409,7 +409,7 @@
             "scope": "instance",
             "$longname": "CellRowModel#selectRow",
             "$kind": "method",
-            "id": 1620,
+            "id": 1629,
             "neoClassName": "Neo.selection.table.CellRowModel"
         },
         {
@@ -424,7 +424,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052492",
+                    "id": "astnode100052649",
                     "name": "CellRowModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -441,7 +441,7 @@
             "params": [],
             "$longname": "CellRowModel#unregister",
             "$kind": "method",
-            "id": 1621,
+            "id": 1630,
             "neoClassName": "Neo.selection.table.CellRowModel"
         }
     ]

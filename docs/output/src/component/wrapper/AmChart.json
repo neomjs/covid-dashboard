@@ -1,0 +1,191 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * Convenience class to render an amChart\n * Requires setting Neo.config.useAmCharts to true (or manually include the lib)\n * @class Neo.component.wrapper.AmChart\n * @extends Neo.component.Base\n */",
+            "meta": {
+                "filename": "AmChart.mjs",
+                "lineno": 3,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {}
+            },
+            "description": "Convenience class to render an amChart<br />Requires setting Neo.config.useAmCharts to true (or manually include the lib)",
+            "kind": "class",
+            "name": "AmChart",
+            "augments": [
+                "Neo.component.Base"
+            ],
+            "memberof": "Neo.component.wrapper",
+            "longname": "Neo.component.wrapper.AmChart",
+            "scope": "static",
+            "$longname": "Neo.component.wrapper.AmChart",
+            "$kind": "class",
+            "id": 485,
+            "neoClassName": "Neo.component.wrapper.AmChart"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Neo.component.wrapper.AmChart'\n         * @private\n         */",
+            "meta": {
+                "filename": "AmChart.mjs",
+                "lineno": 15,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Neo.component.wrapper.AmChart'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 486,
+            "neoClassName": "Neo.component.wrapper.AmChart"
+        },
+        {
+            "comment": "/**\n         * @member {String} ntype='am-chart'\n         * @private\n         */",
+            "meta": {
+                "filename": "AmChart.mjs",
+                "lineno": 20,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "ntype",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'am-chart'",
+            "access": "private",
+            "longname": "ntype",
+            "scope": "global",
+            "$longname": "ntype",
+            "$kind": "property",
+            "id": 487,
+            "neoClassName": "Neo.component.wrapper.AmChart"
+        },
+        {
+            "comment": "/**\n         * See: https://www.amcharts.com/docs/v4/\n         * @member {Object} chartConfig=null\n         */",
+            "meta": {
+                "filename": "AmChart.mjs",
+                "lineno": 25,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {}
+            },
+            "description": "See: https://www.amcharts.com/docs/v4/",
+            "kind": "member",
+            "name": "chartConfig",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": null,
+            "longname": "chartConfig",
+            "scope": "global",
+            "$longname": "chartConfig",
+            "$kind": "property",
+            "id": 488,
+            "neoClassName": "Neo.component.wrapper.AmChart"
+        },
+        {
+            "comment": "/**\n         * @member {String} chartType='XYChart'\n         */",
+            "meta": {
+                "filename": "AmChart.mjs",
+                "lineno": 29,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "chartType",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'XYChart'",
+            "longname": "chartType",
+            "scope": "global",
+            "$longname": "chartType",
+            "$kind": "property",
+            "id": 489,
+            "neoClassName": "Neo.component.wrapper.AmChart"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    884,
+                    1328
+                ],
+                "filename": "AmChart.mjs",
+                "lineno": 35,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {
+                    "id": "astnode100018036",
+                    "name": "AmChart#onConstructed",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "onConstructed",
+            "longname": "AmChart#onConstructed",
+            "kind": "function",
+            "memberof": "AmChart",
+            "scope": "instance",
+            "params": [],
+            "$longname": "AmChart#onConstructed",
+            "$kind": "method",
+            "id": 490,
+            "neoClassName": "Neo.component.wrapper.AmChart"
+        },
+        {
+            "comment": "/**\n     * Override this method to trigger logic after the chart got mounted into the dom\n     */",
+            "meta": {
+                "range": [
+                    1436,
+                    1461
+                ],
+                "filename": "AmChart.mjs",
+                "lineno": 56,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {
+                    "id": "astnode100018100",
+                    "name": "AmChart#onChartMounted",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Override this method to trigger logic after the chart got mounted into the dom",
+            "name": "onChartMounted",
+            "longname": "AmChart#onChartMounted",
+            "kind": "function",
+            "memberof": "AmChart",
+            "scope": "instance",
+            "params": [],
+            "$longname": "AmChart#onChartMounted",
+            "$kind": "method",
+            "id": 491,
+            "neoClassName": "Neo.component.wrapper.AmChart"
+        }
+    ]
+}

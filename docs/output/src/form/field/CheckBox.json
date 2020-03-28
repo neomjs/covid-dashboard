@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.CheckBox",
             "$kind": "class",
-            "id": 761,
+            "id": 768,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 762,
+            "id": 769,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 763,
+            "id": 770,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "checked_",
             "$kind": "property",
-            "id": 764,
+            "id": 771,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
@@ -117,7 +117,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 765,
+            "id": 772,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
@@ -141,7 +141,7 @@
             "scope": "global",
             "$longname": "hideLabel_",
             "$kind": "property",
-            "id": 766,
+            "id": 773,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
@@ -165,7 +165,7 @@
             "scope": "global",
             "$longname": "hideValueLabel_",
             "$kind": "property",
-            "id": 767,
+            "id": 774,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
@@ -189,7 +189,7 @@
             "scope": "global",
             "$longname": "inputType_",
             "$kind": "property",
-            "id": 768,
+            "id": 775,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
@@ -213,7 +213,7 @@
             "scope": "global",
             "$longname": "labelText_",
             "$kind": "property",
-            "id": 769,
+            "id": 776,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
@@ -239,7 +239,7 @@
             "scope": "global",
             "$longname": "labelWidth_",
             "$kind": "property",
-            "id": 770,
+            "id": 777,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
@@ -263,7 +263,7 @@
             "scope": "global",
             "$longname": "The",
             "$kind": "property",
-            "id": 771,
+            "id": 778,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
@@ -287,7 +287,7 @@
             "scope": "global",
             "$longname": "valueLabelText_",
             "$kind": "property",
-            "id": 772,
+            "id": 779,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
@@ -310,7 +310,7 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 773,
+            "id": 780,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
@@ -325,7 +325,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100025760",
+                    "id": "astnode100025862",
                     "name": "CheckBox",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -352,7 +352,7 @@
             "scope": "global",
             "$longname": "CheckBox",
             "$kind": "constructor",
-            "id": 774,
+            "id": 781,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
@@ -367,7 +367,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100025831",
+                    "id": "astnode100025933",
                     "name": "CheckBox#afterSetChecked",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -405,7 +405,7 @@
             "scope": "instance",
             "$longname": "CheckBox#afterSetChecked",
             "$kind": "method",
-            "id": 775,
+            "id": 782,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
@@ -413,18 +413,19 @@
             "meta": {
                 "range": [
                     2979,
-                    3106
+                    3116
                 ],
                 "filename": "CheckBox.mjs",
                 "lineno": 126,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100025878",
+                    "id": "astnode100025980",
                     "name": "CheckBox#afterSetHideLabel",
                     "type": "MethodDefinition",
                     "paramnames": [
-                        "value"
+                        "value",
+                        "oldValue"
                     ]
                 },
                 "vars": {
@@ -457,26 +458,27 @@
             "scope": "instance",
             "$longname": "CheckBox#afterSetHideLabel",
             "$kind": "method",
-            "id": 776,
+            "id": 783,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
             "comment": "/**\n     *\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    3212,
-                    3344
+                    3222,
+                    3364
                 ],
                 "filename": "CheckBox.mjs",
                 "lineno": 139,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100025905",
+                    "id": "astnode100026008",
                     "name": "CheckBox#afterSetHideValueLabel",
                     "type": "MethodDefinition",
                     "paramnames": [
-                        "value"
+                        "value",
+                        "oldValue"
                     ]
                 },
                 "vars": {
@@ -509,26 +511,27 @@
             "scope": "instance",
             "$longname": "CheckBox#afterSetHideValueLabel",
             "$kind": "method",
-            "id": 777,
+            "id": 784,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
             "comment": "/**\n     *\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    3450,
-                    3572
+                    3470,
+                    3602
                 ],
                 "filename": "CheckBox.mjs",
                 "lineno": 152,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100025932",
+                    "id": "astnode100026036",
                     "name": "CheckBox#afterSetInputType",
                     "type": "MethodDefinition",
                     "paramnames": [
-                        "value"
+                        "value",
+                        "oldValue"
                     ]
                 },
                 "vars": {
@@ -561,26 +564,27 @@
             "scope": "instance",
             "$longname": "CheckBox#afterSetInputType",
             "$kind": "method",
-            "id": 778,
+            "id": 785,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
             "comment": "/**\n     *\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    3678,
-                    3805
+                    3708,
+                    3845
                 ],
                 "filename": "CheckBox.mjs",
                 "lineno": 165,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100025959",
+                    "id": "astnode100026064",
                     "name": "CheckBox#afterSetLabelText",
                     "type": "MethodDefinition",
                     "paramnames": [
-                        "value"
+                        "value",
+                        "oldValue"
                     ]
                 },
                 "vars": {
@@ -613,26 +617,27 @@
             "scope": "instance",
             "$longname": "CheckBox#afterSetLabelText",
             "$kind": "method",
-            "id": 779,
+            "id": 786,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
             "comment": "/**\n     *\n     * @param {Number|String} value\n     * @param {Number|String} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    3925,
-                    4117
+                    3965,
+                    4167
                 ],
                 "filename": "CheckBox.mjs",
                 "lineno": 178,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100025986",
+                    "id": "astnode100026092",
                     "name": "CheckBox#afterSetLabelWidth",
                     "type": "MethodDefinition",
                     "paramnames": [
-                        "value"
+                        "value",
+                        "oldValue"
                     ]
                 },
                 "vars": {
@@ -667,26 +672,27 @@
             "scope": "instance",
             "$longname": "CheckBox#afterSetLabelWidth",
             "$kind": "method",
-            "id": 780,
+            "id": 787,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
             "comment": "/**\n     *\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    4223,
-                    4340
+                    4273,
+                    4400
                 ],
                 "filename": "CheckBox.mjs",
                 "lineno": 194,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026022",
+                    "id": "astnode100026129",
                     "name": "CheckBox#afterSetName",
                     "type": "MethodDefinition",
                     "paramnames": [
-                        "value"
+                        "value",
+                        "oldValue"
                     ]
                 },
                 "vars": {
@@ -719,22 +725,22 @@
             "scope": "instance",
             "$longname": "CheckBox#afterSetName",
             "$kind": "method",
-            "id": 781,
+            "id": 788,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
             "comment": "/**\n     *\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    4446,
-                    4665
+                    4506,
+                    4725
                 ],
                 "filename": "CheckBox.mjs",
                 "lineno": 207,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026049",
+                    "id": "astnode100026157",
                     "name": "CheckBox#afterSetValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -772,26 +778,27 @@
             "scope": "instance",
             "$longname": "CheckBox#afterSetValue",
             "$kind": "method",
-            "id": 782,
+            "id": 789,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
             "comment": "/**\n     *\n     * @param {String} value\n     * @param {String} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    4771,
-                    4976
+                    4831,
+                    5046
                 ],
                 "filename": "CheckBox.mjs",
                 "lineno": 224,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026087",
+                    "id": "astnode100026195",
                     "name": "CheckBox#afterSetValueLabelText",
                     "type": "MethodDefinition",
                     "paramnames": [
-                        "value"
+                        "value",
+                        "oldValue"
                     ]
                 },
                 "vars": {
@@ -824,22 +831,22 @@
             "scope": "instance",
             "$longname": "CheckBox#afterSetValueLabelText",
             "$kind": "method",
-            "id": 783,
+            "id": 790,
             "neoClassName": "Neo.form.field.CheckBox"
         },
         {
             "comment": "/**\n     * Gets triggered when a user checks a checkbox input.\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    5085,
-                    5508
+                    5155,
+                    5578
                 ],
                 "filename": "CheckBox.mjs",
                 "lineno": 238,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026123",
+                    "id": "astnode100026232",
                     "name": "CheckBox#onInputValueChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -868,7 +875,7 @@
             "scope": "instance",
             "$longname": "CheckBox#onInputValueChange",
             "$kind": "method",
-            "id": 784,
+            "id": 791,
             "neoClassName": "Neo.form.field.CheckBox"
         }
     ]

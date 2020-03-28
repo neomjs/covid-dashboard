@@ -26,7 +26,7 @@
             "scope": "static",
             "$longname": "Neo.util.HashHistory",
             "$kind": "class",
-            "id": 1862,
+            "id": 1871,
             "neoClassName": "Neo.util.HashHistory"
         },
         {
@@ -51,7 +51,7 @@
             "longname": "observable",
             "$longname": "observable",
             "$kind": "property",
-            "id": 1863,
+            "id": 1872,
             "neoClassName": "Neo.util.HashHistory"
         },
         {
@@ -76,7 +76,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1864,
+            "id": 1873,
             "neoClassName": "Neo.util.HashHistory"
         },
         {
@@ -101,7 +101,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1865,
+            "id": 1874,
             "neoClassName": "Neo.util.HashHistory"
         },
         {
@@ -126,7 +126,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 1866,
+            "id": 1875,
             "neoClassName": "Neo.util.HashHistory"
         },
         {
@@ -151,7 +151,7 @@
             "scope": "global",
             "$longname": "stack",
             "$kind": "property",
-            "id": 1867,
+            "id": 1876,
             "neoClassName": "Neo.util.HashHistory"
         },
         {
@@ -166,7 +166,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059152",
+                    "id": "astnode100059309",
                     "name": "HashHistory#first",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -192,7 +192,7 @@
             "params": [],
             "$longname": "HashHistory#first",
             "$kind": "method",
-            "id": 1868,
+            "id": 1877,
             "neoClassName": "Neo.util.HashHistory"
         },
         {
@@ -207,7 +207,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059162",
+                    "id": "astnode100059319",
                     "name": "HashHistory#getCount",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -233,7 +233,7 @@
             "params": [],
             "$longname": "HashHistory#getCount",
             "$kind": "method",
-            "id": 1869,
+            "id": 1878,
             "neoClassName": "Neo.util.HashHistory"
         },
         {
@@ -248,7 +248,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059172",
+                    "id": "astnode100059329",
                     "name": "HashHistory#push",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -285,7 +285,7 @@
             "scope": "instance",
             "$longname": "HashHistory#push",
             "$kind": "method",
-            "id": 1870,
+            "id": 1879,
             "neoClassName": "Neo.util.HashHistory"
         }
     ]

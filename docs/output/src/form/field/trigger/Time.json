@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.trigger.Time",
             "$kind": "class",
-            "id": 1106,
+            "id": 1113,
             "neoClassName": "Neo.form.field.trigger.Time"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1107,
+            "id": 1114,
             "neoClassName": "Neo.form.field.trigger.Time"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1108,
+            "id": 1115,
             "neoClassName": "Neo.form.field.trigger.Time"
         },
         {
@@ -96,7 +96,7 @@
             "scope": "global",
             "$longname": "iconCls",
             "$kind": "property",
-            "id": 1109,
+            "id": 1116,
             "neoClassName": "Neo.form.field.trigger.Time"
         }
     ]

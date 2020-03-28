@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.controller.Application",
             "$kind": "class",
-            "id": 544,
+            "id": 551,
             "neoClassName": "Neo.controller.Application"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 545,
+            "id": 552,
             "neoClassName": "Neo.controller.Application"
         },
         {
@@ -68,7 +68,7 @@
             "scope": "global",
             "$longname": "createMainView",
             "$kind": "property",
-            "id": 546,
+            "id": 553,
             "neoClassName": "Neo.controller.Application"
         },
         {
@@ -92,7 +92,7 @@
             "scope": "global",
             "$longname": "mainView_",
             "$kind": "property",
-            "id": 547,
+            "id": 554,
             "neoClassName": "Neo.controller.Application"
         },
         {
@@ -116,7 +116,7 @@
             "scope": "global",
             "$longname": "name",
             "$kind": "property",
-            "id": 548,
+            "id": 555,
             "neoClassName": "Neo.controller.Application"
         },
         {
@@ -140,7 +140,7 @@
             "scope": "global",
             "$longname": "parentId",
             "$kind": "property",
-            "id": 549,
+            "id": 556,
             "neoClassName": "Neo.controller.Application"
         },
         {
@@ -165,7 +165,7 @@
             "scope": "global",
             "$longname": "rendered",
             "$kind": "property",
-            "id": 550,
+            "id": 557,
             "neoClassName": "Neo.controller.Application"
         },
         {
@@ -190,7 +190,7 @@
             "scope": "global",
             "$longname": "rendering",
             "$kind": "property",
-            "id": 551,
+            "id": 558,
             "neoClassName": "Neo.controller.Application"
         },
         {
@@ -205,7 +205,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100020166",
+                    "id": "astnode100020268",
                     "name": "Application",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -224,7 +224,7 @@
             "params": [],
             "$longname": "Application",
             "$kind": "constructor",
-            "id": 552,
+            "id": 559,
             "neoClassName": "Neo.controller.Application"
         }
     ]

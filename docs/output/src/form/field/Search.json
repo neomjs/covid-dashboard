@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.Search",
             "$kind": "class",
-            "id": 887,
+            "id": 894,
             "neoClassName": "Neo.form.field.Search"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 888,
+            "id": 895,
             "neoClassName": "Neo.form.field.Search"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 889,
+            "id": 896,
             "neoClassName": "Neo.form.field.Search"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 890,
+            "id": 897,
             "neoClassName": "Neo.form.field.Search"
         },
         {
@@ -119,7 +119,7 @@
             "scope": "global",
             "$longname": "hideLabel",
             "$kind": "property",
-            "id": 891,
+            "id": 898,
             "neoClassName": "Neo.form.field.Search"
         },
         {
@@ -144,7 +144,7 @@
             "scope": "global",
             "$longname": "placeholderText",
             "$kind": "property",
-            "id": 892,
+            "id": 899,
             "neoClassName": "Neo.form.field.Search"
         }
     ]
