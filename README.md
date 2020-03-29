@@ -80,9 +80,12 @@ In case you want to take a closer look at the workers setup, take a look into th
 Your app code will get loaded into the App thread.
 
 ## Attribution
-1. This App is created using the <a href="https://github.com/neomjs/neo">neo.mjs</a> UI framework.
-2. Data provided by <a href="https://github.com/NovelCOVID/API">NovelCOVID/API</a>.
-3. Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>.
+1. The logos were created by <a target="_blank" href="https://www.linkedin.com/in/sebastian-d-036aab6/">Sebastian Driefmeier</a>. Thank you!
+2. The logos are based on the image from <a target="_blank" href="https://phil.cdc.gov/Details.aspx?pid=23312">CDC Public Health Image Library (PHIL)</a>, so credits to the content providers CDC/ Alissa Eckert, MS; Dan Higgins, MAMS..
+3. Data provided by: <a target="_blank" href="https://github.com/NovelCOVID/API">NovelCOVID / API</a>.
+4. Country Flag Icons made by <a target="_blank" href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a target="_blank" href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>..
+5. Charts got created with <a target="_blank" href="https://www.amcharts.com/docs/v4/">amCharts 4</a>.
+6. The App is created with the webworkers driven UI framework <a target="_blank" href="https://github.com/neomjs/neo">neo.mjs</a>.
 
 ### Join our Slack Channel for questions & feedback:
 
