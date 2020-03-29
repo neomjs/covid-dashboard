@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.controller.Base",
             "$kind": "class",
-            "id": 560,
+            "id": 562,
             "neoClassName": "Neo.controller.Base"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "observable",
             "$kind": "property",
-            "id": 561,
+            "id": 563,
             "neoClassName": "Neo.controller.Base"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 562,
+            "id": 564,
             "neoClassName": "Neo.controller.Base"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 563,
+            "id": 565,
             "neoClassName": "Neo.controller.Base"
         },
         {
@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100020398",
+                    "id": "astnode100020406",
                     "name": "Base",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -136,7 +136,7 @@
             "scope": "global",
             "$longname": "Base",
             "$kind": "constructor",
-            "id": 564,
+            "id": 566,
             "neoClassName": "Neo.controller.Base"
         },
         {
@@ -151,7 +151,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100020417",
+                    "id": "astnode100020425",
                     "name": "Base#onHashChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -198,7 +198,7 @@
             "scope": "instance",
             "$longname": "Base#onHashChange",
             "$kind": "method",
-            "id": 565,
+            "id": 567,
             "neoClassName": "Neo.controller.Base"
         }
     ]

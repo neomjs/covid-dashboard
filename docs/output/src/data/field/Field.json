@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.data.field.Field",
             "$kind": "class",
-            "id": 664,
+            "id": 666,
             "neoClassName": "Neo.data.field.Field"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 665,
+            "id": 667,
             "neoClassName": "Neo.data.field.Field"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 666,
+            "id": 668,
             "neoClassName": "Neo.data.field.Field"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "defaultValue",
             "$kind": "property",
-            "id": 667,
+            "id": 669,
             "neoClassName": "Neo.data.field.Field"
         },
         {
@@ -120,7 +120,7 @@
             "scope": "global",
             "$longname": "nullableValue",
             "$kind": "property",
-            "id": 668,
+            "id": 670,
             "neoClassName": "Neo.data.field.Field"
         },
         {
@@ -146,7 +146,7 @@
             "scope": "global",
             "$longname": "value_",
             "$kind": "property",
-            "id": 669,
+            "id": 671,
             "neoClassName": "Neo.data.field.Field"
         },
         {
@@ -161,7 +161,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/field",
                 "code": {
-                    "id": "astnode100024072",
+                    "id": "astnode100024080",
                     "name": "Field#afterSetValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -202,7 +202,7 @@
             "scope": "instance",
             "$longname": "Field#afterSetValue",
             "$kind": "method",
-            "id": 670,
+            "id": 672,
             "neoClassName": "Neo.data.field.Field"
         }
     ]

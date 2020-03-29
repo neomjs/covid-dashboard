@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.main.mixins.Hljs",
             "$kind": "class",
-            "id": 1394,
+            "id": 1397,
             "neoClassName": "Neo.main.mixins.Hljs"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1395,
+            "id": 1398,
             "neoClassName": "Neo.main.mixins.Hljs"
         },
         {
@@ -67,7 +67,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100042138",
+                    "id": "astnode100042258",
                     "name": "Hljs#onSyntaxHighlight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -96,7 +96,7 @@
             "scope": "instance",
             "$longname": "Hljs#onSyntaxHighlight",
             "$kind": "method",
-            "id": 1396,
+            "id": 1399,
             "neoClassName": "Neo.main.mixins.Hljs"
         },
         {
@@ -111,7 +111,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100042198",
+                    "id": "astnode100042318",
                     "name": "Hljs#onSyntaxHighlightInit",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -140,7 +140,7 @@
             "scope": "instance",
             "$longname": "Hljs#onSyntaxHighlightInit",
             "$kind": "method",
-            "id": 1397,
+            "id": 1400,
             "neoClassName": "Neo.main.mixins.Hljs"
         },
         {
@@ -155,7 +155,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100042257",
+                    "id": "astnode100042377",
                     "name": "Hljs#onSyntaxHighlightLine",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -184,7 +184,7 @@
             "scope": "instance",
             "$longname": "Hljs#onSyntaxHighlightLine",
             "$kind": "method",
-            "id": 1398,
+            "id": 1401,
             "neoClassName": "Neo.main.mixins.Hljs"
         }
     ]

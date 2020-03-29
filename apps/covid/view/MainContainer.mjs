@@ -7,6 +7,7 @@ import MainContainerController   from './MainContainerController.mjs';
 import {default as TabContainer} from '../../../node_modules/neo.mjs/src/tab/Container.mjs';
 import TableContainer            from './TableContainer.mjs';
 import Viewport                  from '../../../node_modules/neo.mjs/src/container/Viewport.mjs';
+import WorldMapComponent         from './WorldMapComponent.mjs';
 
 /**
  * @class Covid.view.MainContainer
@@ -58,6 +59,14 @@ class MainContainer extends Viewport {
                     iconCls: 'fa fa-table',
                     route  : 'mainview=table',
                     text   : 'Table'
+                }
+            }, {
+                module         : WorldMapComponent,
+                reference      : 'worldmap',
+                tabButtonConfig: {
+                    iconCls: 'fa fa-globe-americas',
+                    route  : 'mainview=worldmap',
+                    text   : 'World Map'
                 }
             }, {
                 module         : GalleryContainer,

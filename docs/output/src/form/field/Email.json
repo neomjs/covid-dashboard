@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.Email",
             "$kind": "class",
-            "id": 814,
+            "id": 816,
             "neoClassName": "Neo.form.field.Email"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 815,
+            "id": 817,
             "neoClassName": "Neo.form.field.Email"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 816,
+            "id": 818,
             "neoClassName": "Neo.form.field.Email"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "inputType",
             "$kind": "property",
-            "id": 817,
+            "id": 819,
             "neoClassName": "Neo.form.field.Email"
         }
     ]

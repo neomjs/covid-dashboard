@@ -12,75 +12,92 @@ class WorldMapComponent extends AmChartComponent {
          */
         className: 'Covid.view.country.WorldMapComponent',
         /**
+         * @member {String} ntype='covid-world-map'
+         * @private
+         */
+        ntype: 'covid-world-map',
+        /**
+         * @member {String} chartType='MapChart'
+         */
+        chartType: 'MapChart',
+        /**
          * @member {String[]} cls=['covid-line-chart']
          */
-        cls: ['covid-line-chart'],
+        cls: ['covid-world-map'],
+        /**
+         * @member {String} dataPath='data.series.values.0'
+         */
+        dataPath: 'series.values.0',
+        /**
+         * @member {String} package='am4maps'
+         */
+        package: 'am4maps',
         /**
          * @member {Object} chartConfig
          */
         chartConfig: {
-            cursor: {}, // default value for each chart type
-
-            "columns": {
-                "tooltipText": "Series: {name}\nCategory: {categoryX}\nValue: {valueY}",
-                "fill": "#104547"
-            },
-
-            xAxes: [{
-                type: 'DateAxis',
-
-                renderer: {
-                    minGridDistance: 60,
-                    labels: {
-                        template: {
-                            fill: '#bbb'
-                        }
-                    }
-                }
-            }],
-
-            yAxes: [{
-                type       : 'ValueAxis',
-                logarithmic: true,
-
-                numberFormatter: {
-                    numberFormat: '#a',
-
-                    bigNumberPrefixes: [
-                        {number: 1e3, suffix: 'K'},
-                        {number: 1e6, suffix: 'M'},
-                        {number: 1e9, suffix: 'B'}
-                    ]
-                },
-                renderer: {
-                    minGridDistance: 60,
-                    labels: {
-                        template: {
-                            fill: '#bbb'
-                        }
-                    }
-                }
-            }],
+            projection: 'Miller',
+            geodata   : 'worldLow',
 
             series: [{
-                type       : 'LineSeries',
-                dataFields : {dateX : 'date', valueY: 'cases'},
-                fill       : '#64b5f6',
-                name       : 'Cases',
-                stroke     : '#64b5f6',
-                strokeWidth: 3,
-                tooltipText: '{name}: [bold]{valueY}[/]'
-            }, {
-                type       : 'LineSeries',
-                dataFields : {dateX : 'date', valueY: 'deaths'},
-                fill       : '#e86c6c',
-                name       : 'Deaths',
-                stroke     : '#e86c6c',
-                strokeWidth: 3,
-                tooltipText: '{name}: [bold]{valueY}[/]'
+                type      : 'MapPolygonSeries',
+                exclude   : ['AQ'],
+                useGeodata: true,
+
+                dataFields: {
+                    value: 'cases'
+                },
+
+                heatRules: [{
+                    max     : '#64b5f6',
+                    maxValue: 7500,
+                    min     : '#ffffff',
+                    minValue: 0,
+                    property: 'fill',
+                    target  : 'mapPolygons.template'
+                }],
+                
+                mapPolygons: {
+                    tooltipText: '{name}: [bold]{value}[/]',
+                    //fill       : '#74B266',
+
+                    states: {
+                        hover: {
+                            properties: {
+                                //fill: '#367B25'
+                            }
+                        }
+                    }
+                }
             }]
         }
     }}
+
+    /**
+     *
+     * @param {Object[]} data
+     */
+    loadData(data) {
+        const chartData = [];
+
+        data.forEach(item => {
+            chartData.push({
+                active   : item.active,
+                cases    : item.cases,
+                critical : item.critical,
+                deaths   : item.deaths,
+                id       : item.countryInfo.iso2,
+                name     : item.country,
+                recovered: item.recovered,
+            });
+        });
+
+        Neo.main.AmCharts.updateData({
+            data    : chartData,
+            dataPath: this.dataPath,
+            id      : this.id
+        });
+    }
 }
 
 Neo.applyClassConfig(WorldMapComponent);

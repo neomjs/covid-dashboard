@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.selection.Model",
             "$kind": "class",
-            "id": 1567,
+            "id": 1570,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -44,7 +44,7 @@
             "longname": "observable",
             "$longname": "observable",
             "$kind": "property",
-            "id": 1568,
+            "id": 1571,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1569,
+            "id": 1572,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1570,
+            "id": 1573,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -121,7 +121,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1571,
+            "id": 1574,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -146,7 +146,7 @@
             "scope": "global",
             "$longname": "items",
             "$kind": "property",
-            "id": 1572,
+            "id": 1575,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -170,7 +170,7 @@
             "scope": "global",
             "$longname": "selectedCls",
             "$kind": "property",
-            "id": 1573,
+            "id": 1576,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -194,7 +194,7 @@
             "scope": "global",
             "$longname": "singleSelect",
             "$kind": "property",
-            "id": 1574,
+            "id": 1577,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -220,7 +220,7 @@
             "scope": "global",
             "$longname": "view_",
             "$kind": "property",
-            "id": 1575,
+            "id": 1578,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -235,7 +235,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050559",
+                    "id": "astnode100050679",
                     "name": "Model#beforeGetView",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -262,7 +262,7 @@
             "params": [],
             "$longname": "Model#beforeGetView",
             "$kind": "method",
-            "id": 1576,
+            "id": 1579,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -277,7 +277,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050571",
+                    "id": "astnode100050691",
                     "name": "Model#beforeSetView",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -307,7 +307,7 @@
             "params": [],
             "$longname": "Model#beforeSetView",
             "$kind": "method",
-            "id": 1577,
+            "id": 1580,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -322,7 +322,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050582",
+                    "id": "astnode100050702",
                     "name": "Model#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -339,7 +339,7 @@
             "params": [],
             "$longname": "Model#addDomListener",
             "$kind": "method",
-            "id": 1578,
+            "id": 1581,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -354,7 +354,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050586",
+                    "id": "astnode100050706",
                     "name": "Model#deselect",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -413,7 +413,7 @@
             "scope": "instance",
             "$longname": "Model#deselect",
             "$kind": "method",
-            "id": 1579,
+            "id": 1582,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -428,7 +428,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050666",
+                    "id": "astnode100050786",
                     "name": "Model#deselectAll",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -458,7 +458,7 @@
             "scope": "instance",
             "$longname": "Model#deselectAll",
             "$kind": "method",
-            "id": 1580,
+            "id": 1583,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -473,7 +473,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050723",
+                    "id": "astnode100050843",
                     "name": "Model#destroy",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -490,7 +490,7 @@
             "params": [],
             "$longname": "Model#destroy",
             "$kind": "method",
-            "id": 1581,
+            "id": 1584,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -505,7 +505,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050737",
+                    "id": "astnode100050857",
                     "name": "Model#getSelection",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -532,7 +532,7 @@
             "params": [],
             "$longname": "Model#getSelection",
             "$kind": "method",
-            "id": 1582,
+            "id": 1585,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -547,7 +547,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050745",
+                    "id": "astnode100050865",
                     "name": "Model#hasSelection",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -574,7 +574,7 @@
             "params": [],
             "$longname": "Model#hasSelection",
             "$kind": "method",
-            "id": 1583,
+            "id": 1586,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -589,7 +589,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050757",
+                    "id": "astnode100050877",
                     "name": "Model#isSelected",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -627,7 +627,7 @@
             "scope": "instance",
             "$longname": "Model#isSelected",
             "$kind": "method",
-            "id": 1584,
+            "id": 1587,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -642,7 +642,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050773",
+                    "id": "astnode100050893",
                     "name": "Model#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -670,7 +670,7 @@
             "scope": "instance",
             "$longname": "Model#register",
             "$kind": "method",
-            "id": 1585,
+            "id": 1588,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -685,7 +685,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050828",
+                    "id": "astnode100050948",
                     "name": "Model#removeDomListeners",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -702,7 +702,7 @@
             "params": [],
             "$longname": "Model#removeDomListeners",
             "$kind": "method",
-            "id": 1586,
+            "id": 1589,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -717,7 +717,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050878",
+                    "id": "astnode100050998",
                     "name": "Model#select",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -767,7 +767,7 @@
             "scope": "instance",
             "$longname": "Model#select",
             "$kind": "method",
-            "id": 1587,
+            "id": 1590,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -782,7 +782,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100051004",
+                    "id": "astnode100051124",
                     "name": "Model#toggleSelection",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -810,7 +810,7 @@
             "scope": "instance",
             "$longname": "Model#toggleSelection",
             "$kind": "method",
-            "id": 1588,
+            "id": 1591,
             "neoClassName": "Neo.selection.Model"
         },
         {
@@ -825,7 +825,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100051033",
+                    "id": "astnode100051153",
                     "name": "Model#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -842,7 +842,7 @@
             "params": [],
             "$longname": "Model#unregister",
             "$kind": "method",
-            "id": 1589,
+            "id": 1592,
             "neoClassName": "Neo.selection.Model"
         }
     ]

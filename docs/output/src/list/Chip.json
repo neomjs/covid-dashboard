@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.list.Chip",
             "$kind": "class",
-            "id": 1254,
+            "id": 1256,
             "neoClassName": "Neo.list.Chip"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1255,
+            "id": 1257,
             "neoClassName": "Neo.list.Chip"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1256,
+            "id": 1258,
             "neoClassName": "Neo.list.Chip"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "chipConfig",
             "$kind": "property",
-            "id": 1257,
+            "id": 1259,
             "neoClassName": "Neo.list.Chip"
         },
         {
@@ -119,7 +119,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1258,
+            "id": 1260,
             "neoClassName": "Neo.list.Chip"
         },
         {
@@ -143,7 +143,7 @@
             "scope": "global",
             "$longname": "itemCls",
             "$kind": "property",
-            "id": 1259,
+            "id": 1261,
             "neoClassName": "Neo.list.Chip"
         },
         {
@@ -168,7 +168,7 @@
             "scope": "global",
             "$longname": "stacked_",
             "$kind": "property",
-            "id": 1260,
+            "id": 1262,
             "neoClassName": "Neo.list.Chip"
         },
         {
@@ -191,7 +191,7 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1261,
+            "id": 1263,
             "neoClassName": "Neo.list.Chip"
         },
         {
@@ -206,7 +206,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100036205",
+                    "id": "astnode100036213",
                     "name": "Chip#afterSetStacked",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -245,7 +245,7 @@
             "scope": "instance",
             "$longname": "Chip#afterSetStacked",
             "$kind": "method",
-            "id": 1262,
+            "id": 1264,
             "neoClassName": "Neo.list.Chip"
         },
         {
@@ -260,7 +260,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100036260",
+                    "id": "astnode100036268",
                     "name": "Chip#createItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -290,7 +290,7 @@
             "scope": "instance",
             "$longname": "Chip#createItems",
             "$kind": "method",
-            "id": 1263,
+            "id": 1265,
             "neoClassName": "Neo.list.Chip"
         },
         {
@@ -305,7 +305,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100036378",
+                    "id": "astnode100036386",
                     "name": "Chip#destroy",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -322,7 +322,7 @@
             "params": [],
             "$longname": "Chip#destroy",
             "$kind": "method",
-            "id": 1264,
+            "id": 1266,
             "neoClassName": "Neo.list.Chip"
         }
     ]

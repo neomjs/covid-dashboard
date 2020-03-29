@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.table.Container",
             "$kind": "class",
-            "id": 1731,
+            "id": 1734,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1732,
+            "id": 1735,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1733,
+            "id": 1736,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "amountRows",
             "$kind": "property",
-            "id": 1734,
+            "id": 1737,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -119,7 +119,7 @@
             "scope": "global",
             "$longname": "columnDefaults",
             "$kind": "property",
-            "id": 1735,
+            "id": 1738,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -144,7 +144,7 @@
             "scope": "global",
             "$longname": "createRandomData",
             "$kind": "property",
-            "id": 1736,
+            "id": 1739,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -168,7 +168,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1737,
+            "id": 1740,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -192,7 +192,7 @@
             "scope": "global",
             "$longname": "columns_",
             "$kind": "property",
-            "id": 1738,
+            "id": 1741,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -217,7 +217,7 @@
             "scope": "global",
             "$longname": "headerToolbarId_",
             "$kind": "property",
-            "id": 1739,
+            "id": 1742,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -241,7 +241,7 @@
             "scope": "global",
             "$longname": "keys",
             "$kind": "property",
-            "id": 1740,
+            "id": 1743,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -265,7 +265,7 @@
             "scope": "global",
             "$longname": "layout",
             "$kind": "property",
-            "id": 1741,
+            "id": 1744,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -290,7 +290,7 @@
             "scope": "global",
             "$longname": "scrollbarsCssApplied",
             "$kind": "property",
-            "id": 1742,
+            "id": 1745,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -314,7 +314,7 @@
             "scope": "global",
             "$longname": "selectionModel_",
             "$kind": "property",
-            "id": 1743,
+            "id": 1746,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -338,7 +338,7 @@
             "scope": "global",
             "$longname": "store_",
             "$kind": "property",
-            "id": 1744,
+            "id": 1747,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -363,7 +363,7 @@
             "scope": "global",
             "$longname": "useCustomScrollbars_",
             "$kind": "property",
-            "id": 1745,
+            "id": 1748,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -389,7 +389,7 @@
             "scope": "global",
             "$longname": "viewId_",
             "$kind": "property",
-            "id": 1746,
+            "id": 1749,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -415,7 +415,7 @@
             "scope": "global",
             "$longname": "items",
             "$kind": "property",
-            "id": 1747,
+            "id": 1750,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -440,7 +440,7 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1748,
+            "id": 1751,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -455,7 +455,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055688",
+                    "id": "astnode100055808",
                     "name": "Container",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -482,7 +482,7 @@
             "scope": "global",
             "$longname": "Container",
             "$kind": "constructor",
-            "id": 1749,
+            "id": 1752,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -497,7 +497,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055767",
+                    "id": "astnode100055887",
                     "name": "Container#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -514,7 +514,7 @@
             "params": [],
             "$longname": "Container#onConstructed",
             "$kind": "method",
-            "id": 1750,
+            "id": 1753,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -529,7 +529,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055812",
+                    "id": "astnode100055932",
                     "name": "Container#afterSetSelectionModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -568,7 +568,7 @@
             "scope": "instance",
             "$longname": "Container#afterSetSelectionModel",
             "$kind": "method",
-            "id": 1751,
+            "id": 1754,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -583,7 +583,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055829",
+                    "id": "astnode100055949",
                     "name": "Container#afterSetUseCustomScrollbars",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -622,7 +622,7 @@
             "scope": "instance",
             "$longname": "Container#afterSetUseCustomScrollbars",
             "$kind": "method",
-            "id": 1752,
+            "id": 1755,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -637,7 +637,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055858",
+                    "id": "astnode100055978",
                     "name": "Container#applyCustomScrollbarsCss",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -655,7 +655,7 @@
             "params": [],
             "$longname": "Container#applyCustomScrollbarsCss",
             "$kind": "method",
-            "id": 1753,
+            "id": 1756,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -670,7 +670,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055938",
+                    "id": "astnode100056058",
                     "name": "Container#beforeSetColumns",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -709,7 +709,7 @@
             "scope": "instance",
             "$longname": "Container#beforeSetColumns",
             "$kind": "method",
-            "id": 1754,
+            "id": 1757,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -724,7 +724,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055957",
+                    "id": "astnode100056077",
                     "name": "Container#beforeSetHeaderToolbarId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -763,7 +763,7 @@
             "scope": "instance",
             "$longname": "Container#beforeSetHeaderToolbarId",
             "$kind": "method",
-            "id": 1755,
+            "id": 1758,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -778,7 +778,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055968",
+                    "id": "astnode100056088",
                     "name": "Container#beforeSetSelectionModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -817,7 +817,7 @@
             "scope": "instance",
             "$longname": "Container#beforeSetSelectionModel",
             "$kind": "method",
-            "id": 1756,
+            "id": 1759,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -832,7 +832,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100055989",
+                    "id": "astnode100056109",
                     "name": "Container#beforeSetStore",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -871,7 +871,7 @@
             "scope": "instance",
             "$longname": "Container#beforeSetStore",
             "$kind": "method",
-            "id": 1757,
+            "id": 1760,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -886,7 +886,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100056031",
+                    "id": "astnode100056151",
                     "name": "Container#beforeSetViewId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -925,7 +925,7 @@
             "scope": "instance",
             "$longname": "Container#beforeSetViewId",
             "$kind": "method",
-            "id": 1758,
+            "id": 1761,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -940,7 +940,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100056042",
+                    "id": "astnode100056162",
                     "name": "Container#createColumns",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -972,7 +972,7 @@
             "scope": "instance",
             "$longname": "Container#createColumns",
             "$kind": "method",
-            "id": 1759,
+            "id": 1762,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -987,7 +987,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100056136",
+                    "id": "astnode100056256",
                     "name": "Container#createRandomViewData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1015,7 +1015,7 @@
             "scope": "instance",
             "$longname": "Container#createRandomViewData",
             "$kind": "method",
-            "id": 1760,
+            "id": 1763,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -1030,7 +1030,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100056147",
+                    "id": "astnode100056267",
                     "name": "Container#createViewData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1058,7 +1058,7 @@
             "scope": "instance",
             "$longname": "Container#createViewData",
             "$kind": "method",
-            "id": 1761,
+            "id": 1764,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -1073,7 +1073,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100056191",
+                    "id": "astnode100056311",
                     "name": "Container#getVdomRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1100,7 +1100,7 @@
             "params": [],
             "$longname": "Container#getVdomRoot",
             "$kind": "method",
-            "id": 1762,
+            "id": 1765,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -1115,7 +1115,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100056203",
+                    "id": "astnode100056323",
                     "name": "Container#getVnodeRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1142,7 +1142,7 @@
             "params": [],
             "$longname": "Container#getVnodeRoot",
             "$kind": "method",
-            "id": 1763,
+            "id": 1766,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -1157,7 +1157,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100056215",
+                    "id": "astnode100056335",
                     "name": "Container#loadData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1185,7 +1185,7 @@
             "scope": "instance",
             "$longname": "Container#loadData",
             "$kind": "method",
-            "id": 1764,
+            "id": 1767,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -1200,7 +1200,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100056276",
+                    "id": "astnode100056396",
                     "name": "Container#onSortColumn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1245,7 +1245,7 @@
             "scope": "instance",
             "$longname": "Container#onSortColumn",
             "$kind": "method",
-            "id": 1765,
+            "id": 1768,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -1260,7 +1260,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100056311",
+                    "id": "astnode100056431",
                     "name": "Container#onStoreLoad",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1289,7 +1289,7 @@
             "scope": "instance",
             "$longname": "Container#onStoreLoad",
             "$kind": "method",
-            "id": 1766,
+            "id": 1769,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -1304,7 +1304,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100056379",
+                    "id": "astnode100056499",
                     "name": "Container#onStoreRecordChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1375,7 +1375,7 @@
             "scope": "instance",
             "$longname": "Container#onStoreRecordChange",
             "$kind": "method",
-            "id": 1767,
+            "id": 1770,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -1390,7 +1390,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100056396",
+                    "id": "astnode100056516",
                     "name": "Container#onToolbarItemsCreated",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1419,7 +1419,7 @@
             "scope": "instance",
             "$longname": "Container#onToolbarItemsCreated",
             "$kind": "method",
-            "id": 1768,
+            "id": 1771,
             "neoClassName": "Neo.table.Container"
         },
         {
@@ -1434,7 +1434,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100056407",
+                    "id": "astnode100056527",
                     "name": "Container#removeSortingCss",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1463,7 +1463,7 @@
             "scope": "instance",
             "$longname": "Container#removeSortingCss",
             "$kind": "method",
-            "id": 1769,
+            "id": 1772,
             "neoClassName": "Neo.table.Container"
         }
     ]

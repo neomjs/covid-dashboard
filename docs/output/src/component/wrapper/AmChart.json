@@ -123,18 +123,68 @@
             "neoClassName": "Neo.component.wrapper.AmChart"
         },
         {
+            "comment": "/**\n         * Charts & maps can have different targets to apply the data to. E.g.:\n         * myChart.data = data; // => ''\n         * myChart.series.values[0].data = data; // => 'series.values.0'\n         * Use a Neo.ns() conform syntax with dots between props\n         * @member {String} dataPath=''\n         */",
+            "meta": {
+                "filename": "AmChart.mjs",
+                "lineno": 37,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {}
+            },
+            "description": "Charts & maps can have different targets to apply the data to. E.g.:<br />myChart.data = data; // => ''<br />myChart.series.values[0].data = data; // => 'series.values.0'<br />Use a Neo.ns() conform syntax with dots between props",
+            "kind": "member",
+            "name": "dataPath",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "''",
+            "longname": "dataPath",
+            "scope": "global",
+            "$longname": "dataPath",
+            "$kind": "property",
+            "id": 490,
+            "neoClassName": "Neo.component.wrapper.AmChart"
+        },
+        {
+            "comment": "/**\n         * am4charts, am4maps\n         * @member {String} package='am4charts'\n         */",
+            "meta": {
+                "filename": "AmChart.mjs",
+                "lineno": 42,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {}
+            },
+            "description": "am4charts, am4maps",
+            "kind": "member",
+            "name": "package",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'am4charts'",
+            "longname": "package",
+            "scope": "global",
+            "$longname": "package",
+            "$kind": "property",
+            "id": 491,
+            "neoClassName": "Neo.component.wrapper.AmChart"
+        },
+        {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    884,
-                    1322
+                    1361,
+                    1839
                 ],
                 "filename": "AmChart.mjs",
-                "lineno": 35,
+                "lineno": 48,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100018036",
+                    "id": "astnode100018040",
                     "name": "AmChart#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -151,22 +201,22 @@
             "params": [],
             "$longname": "AmChart#onConstructed",
             "$kind": "method",
-            "id": 490,
+            "id": 492,
             "neoClassName": "Neo.component.wrapper.AmChart"
         },
         {
             "comment": "/**\n     * Override this method to trigger logic after the chart got mounted into the dom\n     */",
             "meta": {
                 "range": [
-                    1430,
-                    1455
+                    1947,
+                    1972
                 ],
                 "filename": "AmChart.mjs",
-                "lineno": 56,
+                "lineno": 70,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100018100",
+                    "id": "astnode100018108",
                     "name": "AmChart#onChartMounted",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -184,7 +234,7 @@
             "params": [],
             "$longname": "AmChart#onChartMounted",
             "$kind": "method",
-            "id": 491,
+            "id": 493,
             "neoClassName": "Neo.component.wrapper.AmChart"
         }
     ]

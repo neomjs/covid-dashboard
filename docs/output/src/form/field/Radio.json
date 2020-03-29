@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.Radio",
             "$kind": "class",
-            "id": 874,
+            "id": 876,
             "neoClassName": "Neo.form.field.Radio"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 875,
+            "id": 877,
             "neoClassName": "Neo.form.field.Radio"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 876,
+            "id": 878,
             "neoClassName": "Neo.form.field.Radio"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 877,
+            "id": 879,
             "neoClassName": "Neo.form.field.Radio"
         },
         {
@@ -117,7 +117,7 @@
             "scope": "global",
             "$longname": "inputType",
             "$kind": "property",
-            "id": 878,
+            "id": 880,
             "neoClassName": "Neo.form.field.Radio"
         },
         {
@@ -140,7 +140,7 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 879,
+            "id": 881,
             "neoClassName": "Neo.form.field.Radio"
         },
         {
@@ -155,7 +155,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028076",
+                    "id": "astnode100028084",
                     "name": "Radio#afterSetChecked",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -193,7 +193,7 @@
             "scope": "instance",
             "$longname": "Radio#afterSetChecked",
             "$kind": "method",
-            "id": 880,
+            "id": 882,
             "neoClassName": "Neo.form.field.Radio"
         },
         {
@@ -208,7 +208,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028097",
+                    "id": "astnode100028105",
                     "name": "Radio#onInputValueChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -237,7 +237,7 @@
             "scope": "instance",
             "$longname": "Radio#onInputValueChange",
             "$kind": "method",
-            "id": 881,
+            "id": 883,
             "neoClassName": "Neo.form.field.Radio"
         },
         {
@@ -252,7 +252,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028113",
+                    "id": "astnode100028121",
                     "name": "Radio#uncheckGroupItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -270,7 +270,7 @@
             "params": [],
             "$longname": "Radio#uncheckGroupItems",
             "$kind": "method",
-            "id": 882,
+            "id": 884,
             "neoClassName": "Neo.form.field.Radio"
         }
     ]

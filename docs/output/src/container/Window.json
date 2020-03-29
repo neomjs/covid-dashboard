@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.container.Window",
             "$kind": "class",
-            "id": 543,
+            "id": 545,
             "neoClassName": "Neo.container.Window"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 544,
+            "id": 546,
             "neoClassName": "Neo.container.Window"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 545,
+            "id": 547,
             "neoClassName": "Neo.container.Window"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "autoMount",
             "$kind": "property",
-            "id": 546,
+            "id": 548,
             "neoClassName": "Neo.container.Window"
         },
         {
@@ -119,7 +119,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 547,
+            "id": 549,
             "neoClassName": "Neo.container.Window"
         },
         {
@@ -143,7 +143,7 @@
             "scope": "global",
             "$longname": "draggable_",
             "$kind": "property",
-            "id": 548,
+            "id": 550,
             "neoClassName": "Neo.container.Window"
         },
         {
@@ -167,7 +167,7 @@
             "scope": "global",
             "$longname": "mixins",
             "$kind": "property",
-            "id": 549,
+            "id": 551,
             "neoClassName": "Neo.container.Window"
         },
         {
@@ -191,7 +191,7 @@
             "scope": "global",
             "$longname": "headers",
             "$kind": "property",
-            "id": 550,
+            "id": 552,
             "neoClassName": "Neo.container.Window"
         }
     ]

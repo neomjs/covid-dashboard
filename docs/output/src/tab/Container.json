@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.tab.Container",
             "$kind": "class",
-            "id": 1664,
+            "id": 1667,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -45,7 +45,7 @@
             "longname": "tabBarPositions",
             "$longname": "tabBarPositions",
             "$kind": "property",
-            "id": 1665,
+            "id": 1668,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1666,
+            "id": 1669,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -95,7 +95,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1667,
+            "id": 1670,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -119,7 +119,7 @@
             "scope": "global",
             "$longname": "activeIndex_",
             "$kind": "property",
-            "id": 1668,
+            "id": 1671,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -144,7 +144,7 @@
             "scope": "global",
             "$longname": "activateInsertedTabs",
             "$kind": "property",
-            "id": 1669,
+            "id": 1672,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -168,7 +168,7 @@
             "scope": "global",
             "$longname": "baseCls",
             "$kind": "property",
-            "id": 1670,
+            "id": 1673,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -193,7 +193,7 @@
             "scope": "global",
             "$longname": "cardContainerId",
             "$kind": "property",
-            "id": 1671,
+            "id": 1674,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -219,7 +219,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1672,
+            "id": 1675,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -245,7 +245,7 @@
             "scope": "global",
             "$longname": "contentContainerDefaults",
             "$kind": "property",
-            "id": 1673,
+            "id": 1676,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -271,7 +271,7 @@
             "scope": "global",
             "$longname": "headerToolbarDefaults",
             "$kind": "property",
-            "id": 1674,
+            "id": 1677,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -296,7 +296,7 @@
             "scope": "global",
             "$longname": "plain_",
             "$kind": "property",
-            "id": 1675,
+            "id": 1678,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -321,7 +321,7 @@
             "scope": "global",
             "$longname": "tabBarId",
             "$kind": "property",
-            "id": 1676,
+            "id": 1679,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -347,7 +347,7 @@
             "scope": "global",
             "$longname": "tabStripDefaults",
             "$kind": "property",
-            "id": 1677,
+            "id": 1680,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -372,7 +372,7 @@
             "scope": "global",
             "$longname": "tabStripId",
             "$kind": "property",
-            "id": 1678,
+            "id": 1681,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -397,7 +397,7 @@
             "scope": "global",
             "$longname": "tabBarPosition_",
             "$kind": "property",
-            "id": 1679,
+            "id": 1682,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -421,7 +421,7 @@
             "scope": "global",
             "$longname": "useActiveTabIndicator_",
             "$kind": "property",
-            "id": 1680,
+            "id": 1683,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -436,7 +436,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100053748",
+                    "id": "astnode100053868",
                     "name": "Container#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -453,7 +453,7 @@
             "params": [],
             "$longname": "Container#onConstructed",
             "$kind": "method",
-            "id": 1681,
+            "id": 1684,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -468,7 +468,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100053766",
+                    "id": "astnode100053886",
                     "name": "Container#add",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -508,7 +508,7 @@
             "scope": "instance",
             "$longname": "Container#add",
             "$kind": "method",
-            "id": 1682,
+            "id": 1685,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -523,7 +523,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100053785",
+                    "id": "astnode100053905",
                     "name": "Container#afterSetActiveIndex",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -562,7 +562,7 @@
             "scope": "instance",
             "$longname": "Container#afterSetActiveIndex",
             "$kind": "method",
-            "id": 1683,
+            "id": 1686,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -577,7 +577,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100053838",
+                    "id": "astnode100053958",
                     "name": "Container#afterSetPlain",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -616,7 +616,7 @@
             "scope": "instance",
             "$longname": "Container#afterSetPlain",
             "$kind": "method",
-            "id": 1684,
+            "id": 1687,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -631,7 +631,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100053878",
+                    "id": "astnode100053998",
                     "name": "Container#afterSetTabBarPosition",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -672,7 +672,7 @@
             "scope": "instance",
             "$longname": "Container#afterSetTabBarPosition",
             "$kind": "method",
-            "id": 1685,
+            "id": 1688,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -687,7 +687,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100053964",
+                    "id": "astnode100054084",
                     "name": "Container#afterSetUseActiveTabIndicator",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -726,7 +726,7 @@
             "scope": "instance",
             "$longname": "Container#afterSetUseActiveTabIndicator",
             "$kind": "method",
-            "id": 1686,
+            "id": 1689,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -741,7 +741,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100053995",
+                    "id": "astnode100054115",
                     "name": "Container#beforeSetTabBarPosition",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -790,7 +790,7 @@
             "scope": "instance",
             "$longname": "Container#beforeSetTabBarPosition",
             "$kind": "method",
-            "id": 1687,
+            "id": 1690,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -805,7 +805,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054009",
+                    "id": "astnode100054129",
                     "name": "Container#createItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -823,7 +823,7 @@
             "params": [],
             "$longname": "Container#createItems",
             "$kind": "method",
-            "id": 1688,
+            "id": 1691,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -838,7 +838,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054231",
+                    "id": "astnode100054351",
                     "name": "Container#getCard",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -877,7 +877,7 @@
             "scope": "instance",
             "$longname": "Container#getCard",
             "$kind": "method",
-            "id": 1689,
+            "id": 1692,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -892,7 +892,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054251",
+                    "id": "astnode100054371",
                     "name": "Container#getCardContainer",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -918,7 +918,7 @@
             "params": [],
             "$longname": "Container#getCardContainer",
             "$kind": "method",
-            "id": 1690,
+            "id": 1693,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -933,7 +933,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054263",
+                    "id": "astnode100054383",
                     "name": "Container#getCount",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -960,7 +960,7 @@
             "params": [],
             "$longname": "Container#getCount",
             "$kind": "method",
-            "id": 1691,
+            "id": 1694,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -975,7 +975,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054276",
+                    "id": "astnode100054396",
                     "name": "Container#getLayoutConfig",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1003,7 +1003,7 @@
             "params": [],
             "$longname": "Container#getLayoutConfig",
             "$kind": "method",
-            "id": 1692,
+            "id": 1695,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -1018,7 +1018,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054349",
+                    "id": "astnode100054469",
                     "name": "Container#getTabBar",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1044,7 +1044,7 @@
             "params": [],
             "$longname": "Container#getTabBar",
             "$kind": "method",
-            "id": 1693,
+            "id": 1696,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -1059,7 +1059,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054361",
+                    "id": "astnode100054481",
                     "name": "Container#getTabButtonConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1107,7 +1107,7 @@
             "scope": "instance",
             "$longname": "Container#getTabButtonConfig",
             "$kind": "method",
-            "id": 1694,
+            "id": 1697,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -1122,7 +1122,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054418",
+                    "id": "astnode100054538",
                     "name": "Container#getTabStrip",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1148,7 +1148,7 @@
             "params": [],
             "$longname": "Container#getTabStrip",
             "$kind": "method",
-            "id": 1695,
+            "id": 1698,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -1163,7 +1163,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054430",
+                    "id": "astnode100054550",
                     "name": "Container#insert",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1212,7 +1212,7 @@
             "scope": "instance",
             "$longname": "Container#insert",
             "$kind": "method",
-            "id": 1696,
+            "id": 1699,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -1227,7 +1227,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054677",
+                    "id": "astnode100054797",
                     "name": "Container#onTabButtonMounted",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1257,7 +1257,7 @@
             "scope": "instance",
             "$longname": "Container#onTabButtonMounted",
             "$kind": "method",
-            "id": 1697,
+            "id": 1700,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -1272,7 +1272,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054778",
+                    "id": "astnode100054898",
                     "name": "Container#removeAt",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1300,7 +1300,7 @@
             "scope": "instance",
             "$longname": "Container#removeAt",
             "$kind": "method",
-            "id": 1698,
+            "id": 1701,
             "neoClassName": "Neo.tab.Container"
         },
         {
@@ -1315,7 +1315,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100054875",
+                    "id": "astnode100054995",
                     "name": "Container#updateTabButtons",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1333,7 +1333,7 @@
             "params": [],
             "$longname": "Container#updateTabButtons",
             "$kind": "method",
-            "id": 1699,
+            "id": 1702,
             "neoClassName": "Neo.tab.Container"
         }
     ]
