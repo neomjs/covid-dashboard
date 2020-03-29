@@ -41,6 +41,8 @@ https://www.youtube.com/watch?v=BhSZS6_UlO4
 
 <img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/helix.png">
 
+<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/world.png">
+
 ## Getting Started
 1. Clone this repo to your system to get the project files
    ```sh
