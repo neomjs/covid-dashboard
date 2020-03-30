@@ -325,7 +325,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100025870",
+                    "id": "astnode100025933",
                     "name": "CheckBox",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -367,7 +367,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100025941",
+                    "id": "astnode100026004",
                     "name": "CheckBox#afterSetChecked",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -420,7 +420,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100025988",
+                    "id": "astnode100026051",
                     "name": "CheckBox#afterSetHideLabel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -473,7 +473,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026016",
+                    "id": "astnode100026079",
                     "name": "CheckBox#afterSetHideValueLabel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -526,7 +526,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026044",
+                    "id": "astnode100026107",
                     "name": "CheckBox#afterSetInputType",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -579,7 +579,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026072",
+                    "id": "astnode100026135",
                     "name": "CheckBox#afterSetLabelText",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -632,7 +632,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026100",
+                    "id": "astnode100026163",
                     "name": "CheckBox#afterSetLabelWidth",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -687,7 +687,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026137",
+                    "id": "astnode100026200",
                     "name": "CheckBox#afterSetName",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -740,7 +740,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026165",
+                    "id": "astnode100026228",
                     "name": "CheckBox#afterSetValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -793,7 +793,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026203",
+                    "id": "astnode100026266",
                     "name": "CheckBox#afterSetValueLabelText",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -846,7 +846,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026240",
+                    "id": "astnode100026303",
                     "name": "CheckBox#onInputValueChange",
                     "type": "MethodDefinition",
                     "paramnames": [

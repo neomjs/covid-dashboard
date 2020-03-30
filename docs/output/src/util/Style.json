@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.util.Style",
             "$kind": "class",
-            "id": 1920,
+            "id": 1922,
             "neoClassName": "Neo.util.Style"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1921,
+            "id": 1923,
             "neoClassName": "Neo.util.Style"
         },
         {
@@ -59,7 +59,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100060676",
+                    "id": "astnode100060775",
                     "name": "Style.compareStyles",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -109,7 +109,7 @@
             "scope": "static",
             "$longname": "Style.compareStyles",
             "$kind": "method",
-            "id": 1922,
+            "id": 1924,
             "neoClassName": "Neo.util.Style"
         }
     ]

@@ -414,7 +414,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037540",
+                    "id": "astnode100037603",
                     "name": "Main",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -456,7 +456,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037587",
+                    "id": "astnode100037650",
                     "name": "Main#editRoute",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -500,7 +500,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037670",
+                    "id": "astnode100037733",
                     "name": "Main#onDomContentLoaded",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -532,7 +532,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037779",
+                    "id": "astnode100037842",
                     "name": "Main#onMountDom",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -570,7 +570,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037809",
+                    "id": "astnode100037872",
                     "name": "Main#onRender",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -608,7 +608,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037832",
+                    "id": "astnode100037895",
                     "name": "Main#onUpdateDom",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -646,7 +646,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037843",
+                    "id": "astnode100037906",
                     "name": "Main#onUpdateVdom",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -684,7 +684,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037866",
+                    "id": "astnode100037929",
                     "name": "Main#processQueue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -736,7 +736,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037932",
+                    "id": "astnode100037995",
                     "name": "Main#queueRead",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -775,7 +775,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037971",
+                    "id": "astnode100038034",
                     "name": "Main#queueUpdate",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -814,7 +814,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100038010",
+                    "id": "astnode100038073",
                     "name": "Main#queueWrite",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -853,7 +853,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100038049",
+                    "id": "astnode100038112",
                     "name": "Main#renderFrame",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -887,7 +887,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100038172",
+                    "id": "astnode100038235",
                     "name": "Main#setRoute",
                     "type": "MethodDefinition",
                     "paramnames": [

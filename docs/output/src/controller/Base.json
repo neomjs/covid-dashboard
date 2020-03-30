@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100020406",
+                    "id": "astnode100020469",
                     "name": "Base",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -151,7 +151,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100020425",
+                    "id": "astnode100020488",
                     "name": "Base#onHashChange",
                     "type": "MethodDefinition",
                     "paramnames": [

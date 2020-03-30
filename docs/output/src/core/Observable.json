@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100022539",
+                    "id": "astnode100022602",
                     "name": "Observable#addListener",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -213,7 +213,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100022776",
+                    "id": "astnode100022839",
                     "name": "Observable#fire",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -251,7 +251,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100022869",
+                    "id": "astnode100022932",
                     "name": "Observable#removeListener",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -293,7 +293,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100022925",
+                    "id": "astnode100022988",
                     "name": "Observable#on",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -393,7 +393,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100022938",
+                    "id": "astnode100023001",
                     "name": "Observable#un",
                     "type": "MethodDefinition",
                     "paramnames": [

@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.util.Css",
             "$kind": "class",
-            "id": 1861,
+            "id": 1863,
             "neoClassName": "Neo.util.Css"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1862,
+            "id": 1864,
             "neoClassName": "Neo.util.Css"
         },
         {
@@ -59,7 +59,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059093",
+                    "id": "astnode100059192",
                     "name": "Css.insertRules",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -87,7 +87,7 @@
             "scope": "static",
             "$longname": "Css.insertRules",
             "$kind": "method",
-            "id": 1863,
+            "id": 1865,
             "neoClassName": "Neo.util.Css"
         }
     ]

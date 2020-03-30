@@ -358,7 +358,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032427",
+                    "id": "astnode100032490",
                     "name": "Base",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -400,7 +400,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032548",
+                    "id": "astnode100032611",
                     "name": "Base#afterSetAlign",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -454,7 +454,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032578",
+                    "id": "astnode100032641",
                     "name": "Base#afterSetHidden",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -508,7 +508,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032612",
+                    "id": "astnode100032675",
                     "name": "Base#afterSetIconCls",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -562,7 +562,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032651",
+                    "id": "astnode100032714",
                     "name": "Base#beforeSetAlign",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -616,7 +616,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032666",
+                    "id": "astnode100032729",
                     "name": "Base#destroy",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -648,7 +648,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032680",
+                    "id": "astnode100032743",
                     "name": "Base#onMouseEnter",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -680,7 +680,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032690",
+                    "id": "astnode100032753",
                     "name": "Base#onMouseLeave",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -712,7 +712,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100032700",
+                    "id": "astnode100032763",
                     "name": "Base#onTriggerClick",
                     "type": "MethodDefinition",
                     "paramnames": [

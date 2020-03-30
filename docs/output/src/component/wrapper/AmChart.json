@@ -184,7 +184,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100018040",
+                    "id": "astnode100018103",
                     "name": "AmChart#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -216,7 +216,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100018108",
+                    "id": "astnode100018171",
                     "name": "AmChart#onChartMounted",
                     "type": "MethodDefinition",
                     "paramnames": []

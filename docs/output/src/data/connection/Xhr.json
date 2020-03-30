@@ -180,7 +180,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100023460",
+                    "id": "astnode100023523",
                     "name": "Xhr#request",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -307,7 +307,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100023723",
+                    "id": "astnode100023786",
                     "name": "Xhr#sendForm",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -363,7 +363,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100023743",
+                    "id": "astnode100023806",
                     "name": "Xhr#onLoad",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -406,7 +406,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100023815",
+                    "id": "astnode100023878",
                     "name": "Xhr#onError",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -449,7 +449,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100023887",
+                    "id": "astnode100023950",
                     "name": "Xhr#getResponse",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -493,7 +493,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100023921",
+                    "id": "astnode100023984",
                     "name": "Xhr#onProgress",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -525,7 +525,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100023925",
+                    "id": "astnode100023988",
                     "name": "Xhr#promiseRequest",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -577,7 +577,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100023968",
+                    "id": "astnode100024031",
                     "name": "Xhr#promiseJson",
                     "type": "MethodDefinition",
                     "paramnames": [

@@ -206,7 +206,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100036213",
+                    "id": "astnode100036276",
                     "name": "Chip#afterSetStacked",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -260,7 +260,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100036268",
+                    "id": "astnode100036331",
                     "name": "Chip#createItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -305,7 +305,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100036386",
+                    "id": "astnode100036449",
                     "name": "Chip#destroy",
                     "type": "MethodDefinition",
                     "paramnames": []

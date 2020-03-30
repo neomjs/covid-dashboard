@@ -134,7 +134,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100020482",
+                    "id": "astnode100020545",
                     "name": "Component",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -168,7 +168,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100020514",
+                    "id": "astnode100020577",
                     "name": "Component#beforeGetView",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -222,7 +222,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100020526",
+                    "id": "astnode100020589",
                     "name": "Component#beforeSetView",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -276,7 +276,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100020536",
+                    "id": "astnode100020599",
                     "name": "Component#getParentHandlerScope",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -329,7 +329,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100020593",
+                    "id": "astnode100020656",
                     "name": "Component#getReference",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -382,7 +382,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100020655",
+                    "id": "astnode100020718",
                     "name": "Component#onViewConstructed",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -425,7 +425,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100021005",
+                    "id": "astnode100021068",
                     "name": "Component#parseConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
