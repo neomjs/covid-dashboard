@@ -265,11 +265,11 @@
             "neoClassName": "Neo.controller.Component"
         },
         {
-            "comment": "/**\n     *\n     * @param {String} handlerName\n     * @returns {Neo.controller.Component|null}\n     */",
+            "comment": "/**\n     *\n     * @param {String} [ntype]\n     * @returns {Neo.controller.Component|null}\n     */",
             "meta": {
                 "range": [
-                    1659,
-                    2123
+                    1655,
+                    2269
                 ],
                 "filename": "Component.mjs",
                 "lineno": 70,
@@ -277,6 +277,60 @@
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
                     "id": "astnode100020599",
+                    "name": "Component#getParent",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "ntype"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "optional": true,
+                    "name": "ntype"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Neo.controller.Component",
+                            "null"
+                        ]
+                    }
+                }
+            ],
+            "name": "getParent",
+            "longname": "Component#getParent",
+            "kind": "function",
+            "memberof": "Component",
+            "scope": "instance",
+            "$longname": "Component#getParent",
+            "$kind": "method",
+            "id": 576,
+            "neoClassName": "Neo.controller.Component"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {String} handlerName\n     * @returns {Neo.controller.Component|null}\n     */",
+            "meta": {
+                "range": [
+                    2381,
+                    2845
+                ],
+                "filename": "Component.mjs",
+                "lineno": 100,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
+                "code": {
+                    "id": "astnode100020665",
                     "name": "Component#getParentHandlerScope",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -314,22 +368,22 @@
             "scope": "instance",
             "$longname": "Component#getParentHandlerScope",
             "$kind": "method",
-            "id": 576,
+            "id": 577,
             "neoClassName": "Neo.controller.Component"
         },
         {
             "comment": "/**\n     * todo: cleanup no longer existing references\n     * todo: update changed references (e.g. container.remove() then container.add() using the same key)\n     * @param {String} name\n     * @returns {*}\n     */",
             "meta": {
                 "range": [
-                    2349,
-                    2795
+                    3071,
+                    3517
                 ],
                 "filename": "Component.mjs",
-                "lineno": 95,
+                "lineno": 125,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100020656",
+                    "id": "astnode100020722",
                     "name": "Component#getReference",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -367,22 +421,22 @@
             "scope": "instance",
             "$longname": "Component#getReference",
             "$kind": "method",
-            "id": 577,
+            "id": 578,
             "neoClassName": "Neo.controller.Component"
         },
         {
             "comment": "/**\n     *\n     * @param {Neo.component.Base} view\n     */",
             "meta": {
                 "range": [
-                    2864,
-                    6608
+                    3586,
+                    7330
                 ],
                 "filename": "Component.mjs",
-                "lineno": 119,
+                "lineno": 149,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100020718",
+                    "id": "astnode100020784",
                     "name": "Component#onViewConstructed",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -410,22 +464,22 @@
             "scope": "instance",
             "$longname": "Component#onViewConstructed",
             "$kind": "method",
-            "id": 578,
+            "id": 579,
             "neoClassName": "Neo.controller.Component"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} config\n     */",
             "meta": {
                 "range": [
-                    6667,
-                    9307
+                    7389,
+                    10029
                 ],
                 "filename": "Component.mjs",
-                "lineno": 213,
+                "lineno": 243,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100021068",
+                    "id": "astnode100021134",
                     "name": "Component#parseConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -453,7 +507,7 @@
             "scope": "instance",
             "$longname": "Component#parseConfig",
             "$kind": "method",
-            "id": 579,
+            "id": 580,
             "neoClassName": "Neo.controller.Component"
         }
     ]

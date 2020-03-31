@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.worker.Data",
             "$kind": "class",
-            "id": 1998,
+            "id": 2000,
             "neoClassName": "Neo.worker.Data"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1999,
+            "id": 2001,
             "neoClassName": "Neo.worker.Data"
         },
         {
@@ -77,7 +77,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 2000,
+            "id": 2002,
             "neoClassName": "Neo.worker.Data"
         },
         {
@@ -102,7 +102,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 2001,
+            "id": 2003,
             "neoClassName": "Neo.worker.Data"
         },
         {
@@ -127,7 +127,7 @@
             "scope": "global",
             "$longname": "workerId",
             "$kind": "property",
-            "id": 2002,
+            "id": 2004,
             "neoClassName": "Neo.worker.Data"
         },
         {
@@ -142,7 +142,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100065287",
+                    "id": "astnode100065478",
                     "name": "Data#onLoad",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -159,7 +159,7 @@
             "params": [],
             "$longname": "Data#onLoad",
             "$kind": "method",
-            "id": 2003,
+            "id": 2005,
             "neoClassName": "Neo.worker.Data"
         }
     ]

@@ -117,10 +117,10 @@ class MainContainerController extends ComponentController {
 
         me.summaryData = data;
 
-        vdom.cn[0].cn[1].html = Util.formatNumber(data.cases);
-        vdom.cn[1].cn[1].html = Util.formatNumber(data.active);
-        vdom.cn[2].cn[1].html = Util.formatNumber(data.recovered);
-        vdom.cn[3].cn[1].html = Util.formatNumber(data.deaths);
+        vdom.cn[0].cn[1].html = Util.formatNumber({value: data.cases});
+        vdom.cn[1].cn[1].html = Util.formatNumber({value: data.active});
+        vdom.cn[2].cn[1].html = Util.formatNumber({value: data.recovered});
+        vdom.cn[3].cn[1].html = Util.formatNumber({value: data.deaths});
 
         container.vdom = vdom;
 
@@ -134,6 +134,14 @@ class MainContainerController extends ComponentController {
         }).format(new Date(data.updated));
 
         container.vdom = vdom;
+    }
+
+    /**
+     *
+     * @param {Object} record
+     */
+    clearCountryField(record) {
+        this.getReference('country-field').clear();
     }
 
     /**
@@ -249,6 +257,20 @@ class MainContainerController extends ComponentController {
         }, 2000);
     }
 
+
+    /**
+     *
+     */
+    onCountryFieldClear() {
+        Neo.Main.editRoute({
+            country: null
+        });
+    }
+
+    /**
+     *
+     * @param {Object} data
+     */
     onCountryFieldSelect(data) {
         Neo.Main.editRoute({
             country: data.value
@@ -290,11 +312,16 @@ class MainContainerController extends ComponentController {
                 activeView.loadData(me.data);
                 me.worldMapHasData = true;
             }
-        } else if (value.country) {
+        } else {
+
             // todo: instead of a timeout this should add a store load listener (single: true)
             setTimeout(() => {
                 if (me.data) {
-                    countryField.value = value.country;
+                    if (value.country) {
+                        countryField.value = value.country;
+                    } else {
+                        value.country = 'all';
+                    }
 
                     switch(activeView.ntype) {
                         case 'gallery':
@@ -362,7 +389,12 @@ class MainContainerController extends ComponentController {
 
         me.getReference('gallery').on('select', me.updateCountryField, me);
         me.getReference('helix')  .on('select', me.updateCountryField, me);
-        me.getReference('table')  .on('select', me.updateCountryField, me);
+
+        me.getReference('table')  .on({
+            deselect: me.clearCountryField,
+            select  : me.updateCountryField,
+            scope   : me
+        });
     }
 
     /**

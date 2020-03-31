@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.layout.Card",
             "$kind": "class",
-            "id": 1169,
+            "id": 1170,
             "neoClassName": "Neo.layout.Card"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1170,
+            "id": 1171,
             "neoClassName": "Neo.layout.Card"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1171,
+            "id": 1172,
             "neoClassName": "Neo.layout.Card"
         },
         {
@@ -84,7 +84,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100034264",
+                    "id": "astnode100034330",
                     "name": "Card#afterSetActiveIndex",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -113,7 +113,7 @@
             "scope": "instance",
             "$longname": "Card#afterSetActiveIndex",
             "$kind": "method",
-            "id": 1172,
+            "id": 1173,
             "neoClassName": "Neo.layout.Card"
         },
         {
@@ -128,7 +128,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100034377",
+                    "id": "astnode100034443",
                     "name": "Card#applyChildAttributes",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -156,7 +156,7 @@
             "scope": "instance",
             "$longname": "Card#applyChildAttributes",
             "$kind": "method",
-            "id": 1173,
+            "id": 1174,
             "neoClassName": "Neo.layout.Card"
         },
         {
@@ -171,7 +171,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100034431",
+                    "id": "astnode100034497",
                     "name": "Card#applyRenderAttributes",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -189,7 +189,7 @@
             "params": [],
             "$longname": "Card#applyRenderAttributes",
             "$kind": "method",
-            "id": 1174,
+            "id": 1175,
             "neoClassName": "Neo.layout.Card"
         },
         {
@@ -204,7 +204,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100034483",
+                    "id": "astnode100034549",
                     "name": "Card#removeRenderAttributes",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -222,7 +222,7 @@
             "params": [],
             "$longname": "Card#removeRenderAttributes",
             "$kind": "method",
-            "id": 1175,
+            "id": 1176,
             "neoClassName": "Neo.layout.Card"
         }
     ]

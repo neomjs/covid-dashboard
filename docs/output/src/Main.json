@@ -26,7 +26,7 @@
             "scope": "static",
             "$longname": "Neo.Main",
             "$kind": "class",
-            "id": 1286,
+            "id": 1287,
             "neoClassName": "Neo.Main"
         },
         {
@@ -51,7 +51,7 @@
             "longname": "observable",
             "$longname": "observable",
             "$kind": "property",
-            "id": 1287,
+            "id": 1288,
             "neoClassName": "Neo.Main"
         },
         {
@@ -76,7 +76,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1288,
+            "id": 1289,
             "neoClassName": "Neo.Main"
         },
         {
@@ -101,7 +101,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 1289,
+            "id": 1290,
             "neoClassName": "Neo.Main"
         },
         {
@@ -126,7 +126,7 @@
             "scope": "global",
             "$longname": "isReady",
             "$kind": "property",
-            "id": 1290,
+            "id": 1291,
             "neoClassName": "Neo.Main"
         },
         {
@@ -150,7 +150,7 @@
             "scope": "global",
             "$longname": "logAnimationFrames",
             "$kind": "property",
-            "id": 1291,
+            "id": 1292,
             "neoClassName": "Neo.Main"
         },
         {
@@ -174,7 +174,7 @@
             "scope": "global",
             "$longname": "mixins",
             "$kind": "property",
-            "id": 1292,
+            "id": 1293,
             "neoClassName": "Neo.Main"
         },
         {
@@ -199,7 +199,7 @@
             "scope": "global",
             "$longname": "mode",
             "$kind": "property",
-            "id": 1293,
+            "id": 1294,
             "neoClassName": "Neo.Main"
         },
         {
@@ -224,7 +224,7 @@
             "scope": "global",
             "$longname": "readQueue",
             "$kind": "property",
-            "id": 1294,
+            "id": 1295,
             "neoClassName": "Neo.Main"
         },
         {
@@ -250,7 +250,7 @@
             "scope": "global",
             "$longname": "remote",
             "$kind": "property",
-            "id": 1295,
+            "id": 1296,
             "neoClassName": "Neo.Main"
         },
         {
@@ -275,7 +275,7 @@
             "scope": "global",
             "$longname": "running",
             "$kind": "property",
-            "id": 1296,
+            "id": 1297,
             "neoClassName": "Neo.Main"
         },
         {
@@ -299,7 +299,7 @@
             "scope": "global",
             "$longname": "showFps",
             "$kind": "property",
-            "id": 1297,
+            "id": 1298,
             "neoClassName": "Neo.Main"
         },
         {
@@ -323,7 +323,7 @@
             "scope": "global",
             "$longname": "timeLimit",
             "$kind": "property",
-            "id": 1298,
+            "id": 1299,
             "neoClassName": "Neo.Main"
         },
         {
@@ -349,7 +349,7 @@
             "scope": "global",
             "$longname": "totalFrameCount",
             "$kind": "property",
-            "id": 1299,
+            "id": 1300,
             "neoClassName": "Neo.Main"
         },
         {
@@ -374,7 +374,7 @@
             "scope": "global",
             "$longname": "updateQueue",
             "$kind": "property",
-            "id": 1300,
+            "id": 1301,
             "neoClassName": "Neo.Main"
         },
         {
@@ -399,7 +399,7 @@
             "scope": "global",
             "$longname": "writeQueue",
             "$kind": "property",
-            "id": 1301,
+            "id": 1302,
             "neoClassName": "Neo.Main"
         },
         {
@@ -414,7 +414,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037603",
+                    "id": "astnode100037669",
                     "name": "Main",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -441,22 +441,22 @@
             "scope": "global",
             "$longname": "Main",
             "$kind": "constructor",
-            "id": 1302,
+            "id": 1303,
             "neoClassName": "Neo.Main"
         },
         {
-            "comment": "/**\n     * Edit the location.hash value\n     * @param {Object} data\n     */",
+            "comment": "/**\n     * Edit the location.hash value\n     * A value of null will remove the given key.\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    3224,
-                    3693
+                    3274,
+                    3795
                 ],
                 "filename": "Main.mjs",
-                "lineno": 128,
+                "lineno": 129,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037650",
+                    "id": "astnode100037716",
                     "name": "Main#editRoute",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -467,7 +467,7 @@
                     "": null
                 }
             },
-            "description": "Edit the location.hash value",
+            "description": "Edit the location.hash value<br />A value of null will remove the given key.",
             "params": [
                 {
                     "type": {
@@ -485,22 +485,22 @@
             "scope": "instance",
             "$longname": "Main#editRoute",
             "$kind": "method",
-            "id": 1303,
+            "id": 1304,
             "neoClassName": "Neo.Main"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    3722,
-                    4839
+                    3824,
+                    4941
                 ],
                 "filename": "Main.mjs",
-                "lineno": 148,
+                "lineno": 151,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037733",
+                    "id": "astnode100037804",
                     "name": "Main#onDomContentLoaded",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -517,22 +517,22 @@
             "params": [],
             "$longname": "Main#onDomContentLoaded",
             "$kind": "method",
-            "id": 1304,
+            "id": 1305,
             "neoClassName": "Neo.Main"
         },
         {
             "comment": "/**\n     *\n     * @param data\n     */",
             "meta": {
                 "range": [
-                    5052,
-                    5264
+                    5154,
+                    5366
                 ],
                 "filename": "Main.mjs",
-                "lineno": 195,
+                "lineno": 198,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037842",
+                    "id": "astnode100037913",
                     "name": "Main#onMountDom",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -555,22 +555,22 @@
             "scope": "instance",
             "$longname": "Main#onMountDom",
             "$kind": "method",
-            "id": 1305,
+            "id": 1306,
             "neoClassName": "Neo.Main"
         },
         {
             "comment": "/**\n     *\n     * @param data\n     */",
             "meta": {
                 "range": [
-                    5312,
-                    5412
+                    5414,
+                    5514
                 ],
                 "filename": "Main.mjs",
-                "lineno": 209,
+                "lineno": 212,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037872",
+                    "id": "astnode100037943",
                     "name": "Main#onRender",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -593,22 +593,22 @@
             "scope": "instance",
             "$longname": "Main#onRender",
             "$kind": "method",
-            "id": 1306,
+            "id": 1307,
             "neoClassName": "Neo.Main"
         },
         {
             "comment": "/**\n     *\n     * @param data\n     */",
             "meta": {
                 "range": [
-                    5460,
-                    5517
+                    5562,
+                    5619
                 ],
                 "filename": "Main.mjs",
-                "lineno": 218,
+                "lineno": 221,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037895",
+                    "id": "astnode100037966",
                     "name": "Main#onUpdateDom",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -631,22 +631,22 @@
             "scope": "instance",
             "$longname": "Main#onUpdateDom",
             "$kind": "method",
-            "id": 1307,
+            "id": 1308,
             "neoClassName": "Neo.Main"
         },
         {
             "comment": "/**\n     *\n     * @param data\n     */",
             "meta": {
                 "range": [
-                    5565,
-                    5670
+                    5667,
+                    5772
                 ],
                 "filename": "Main.mjs",
-                "lineno": 226,
+                "lineno": 229,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037906",
+                    "id": "astnode100037977",
                     "name": "Main#onUpdateVdom",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -669,22 +669,22 @@
             "scope": "instance",
             "$longname": "Main#onUpdateVdom",
             "$kind": "method",
-            "id": 1308,
+            "id": 1309,
             "neoClassName": "Neo.Main"
         },
         {
             "comment": "/**\n     *\n     * @param queue\n     * @param start\n     * @returns {number}\n     * @private\n     */",
             "meta": {
                 "range": [
-                    5780,
-                    6270
+                    5882,
+                    6372
                 ],
                 "filename": "Main.mjs",
-                "lineno": 238,
+                "lineno": 241,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037929",
+                    "id": "astnode100038000",
                     "name": "Main#processQueue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -721,22 +721,22 @@
             "scope": "instance",
             "$longname": "Main#processQueue",
             "$kind": "method",
-            "id": 1309,
+            "id": 1310,
             "neoClassName": "Neo.Main"
         },
         {
             "comment": "/**\n     *\n     * @param data\n     * @private\n     */",
             "meta": {
                 "range": [
-                    6334,
-                    6542
+                    6436,
+                    6644
                 ],
                 "filename": "Main.mjs",
-                "lineno": 259,
+                "lineno": 262,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100037995",
+                    "id": "astnode100038066",
                     "name": "Main#queueRead",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -760,22 +760,22 @@
             "scope": "instance",
             "$longname": "Main#queueRead",
             "$kind": "method",
-            "id": 1310,
+            "id": 1311,
             "neoClassName": "Neo.Main"
         },
         {
             "comment": "/**\n     *\n     * @param data\n     * @private\n     */",
             "meta": {
                 "range": [
-                    6606,
-                    6818
+                    6708,
+                    6920
                 ],
                 "filename": "Main.mjs",
-                "lineno": 274,
+                "lineno": 277,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100038034",
+                    "id": "astnode100038105",
                     "name": "Main#queueUpdate",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -799,22 +799,22 @@
             "scope": "instance",
             "$longname": "Main#queueUpdate",
             "$kind": "method",
-            "id": 1311,
+            "id": 1312,
             "neoClassName": "Neo.Main"
         },
         {
             "comment": "/**\n     *\n     * @param data\n     * @private\n     */",
             "meta": {
                 "range": [
-                    6882,
-                    7092
+                    6984,
+                    7194
                 ],
                 "filename": "Main.mjs",
-                "lineno": 289,
+                "lineno": 292,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100038073",
+                    "id": "astnode100038144",
                     "name": "Main#queueWrite",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -838,22 +838,22 @@
             "scope": "instance",
             "$longname": "Main#queueWrite",
             "$kind": "method",
-            "id": 1312,
+            "id": 1313,
             "neoClassName": "Neo.Main"
         },
         {
             "comment": "/**\n     * Triggers the different DOM operation queues\n     * @private\n     */",
             "meta": {
                 "range": [
-                    7181,
-                    8076
+                    7283,
+                    8178
                 ],
                 "filename": "Main.mjs",
-                "lineno": 303,
+                "lineno": 306,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100038112",
+                    "id": "astnode100038183",
                     "name": "Main#renderFrame",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -872,22 +872,22 @@
             "params": [],
             "$longname": "Main#renderFrame",
             "$kind": "method",
-            "id": 1313,
+            "id": 1314,
             "neoClassName": "Neo.Main"
         },
         {
             "comment": "/**\n     * Change the location.hash value\n     * @param {Object} data\n     * @param {String} data.value\n     */",
             "meta": {
                 "range": [
-                    8198,
-                    8263
+                    8300,
+                    8365
                 ],
                 "filename": "Main.mjs",
-                "lineno": 345,
+                "lineno": 348,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src",
                 "code": {
-                    "id": "astnode100038235",
+                    "id": "astnode100038306",
                     "name": "Main#setRoute",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -924,7 +924,7 @@
             "scope": "instance",
             "$longname": "Main#setRoute",
             "$kind": "method",
-            "id": 1314,
+            "id": 1315,
             "neoClassName": "Neo.Main"
         }
     ]

@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.util.Date",
             "$kind": "class",
-            "id": 1866,
+            "id": 1868,
             "neoClassName": "Neo.util.Date"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1867,
+            "id": 1869,
             "neoClassName": "Neo.util.Date"
         },
         {
@@ -59,7 +59,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059266",
+                    "id": "astnode100059457",
                     "name": "DateUtil.clone",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -98,7 +98,7 @@
             "scope": "static",
             "$longname": "DateUtil.clone",
             "$kind": "method",
-            "id": 1868,
+            "id": 1870,
             "neoClassName": "Neo.util.Date"
         },
         {
@@ -113,7 +113,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059278",
+                    "id": "astnode100059469",
                     "name": "DateUtil.convertToyyyymmdd",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -152,7 +152,7 @@
             "scope": "static",
             "$longname": "DateUtil.convertToyyyymmdd",
             "$kind": "method",
-            "id": 1869,
+            "id": 1871,
             "neoClassName": "Neo.util.Date"
         },
         {
@@ -167,7 +167,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059306",
+                    "id": "astnode100059497",
                     "name": "DateUtil.getDaysInMonth",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -206,7 +206,7 @@
             "scope": "static",
             "$longname": "DateUtil.getDaysInMonth",
             "$kind": "method",
-            "id": 1870,
+            "id": 1872,
             "neoClassName": "Neo.util.Date"
         },
         {
@@ -221,7 +221,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100059328",
+                    "id": "astnode100059519",
                     "name": "DateUtil.getFirstDayOfMonth",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -260,7 +260,7 @@
             "scope": "static",
             "$longname": "DateUtil.getFirstDayOfMonth",
             "$kind": "method",
-            "id": 1871,
+            "id": 1873,
             "neoClassName": "Neo.util.Date"
         }
     ]

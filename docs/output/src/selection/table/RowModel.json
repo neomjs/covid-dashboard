@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.selection.table.RowModel",
             "$kind": "class",
-            "id": 1656,
+            "id": 1657,
             "neoClassName": "Neo.selection.table.RowModel"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1657,
+            "id": 1658,
             "neoClassName": "Neo.selection.table.RowModel"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1658,
+            "id": 1659,
             "neoClassName": "Neo.selection.table.RowModel"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1659,
+            "id": 1660,
             "neoClassName": "Neo.selection.table.RowModel"
         },
         {
@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100053450",
+                    "id": "astnode100053521",
                     "name": "RowModel#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -126,7 +126,7 @@
             "params": [],
             "$longname": "RowModel#addDomListener",
             "$kind": "method",
-            "id": 1660,
+            "id": 1661,
             "neoClassName": "Neo.selection.table.RowModel"
         },
         {
@@ -141,7 +141,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100053488",
+                    "id": "astnode100053559",
                     "name": "RowModel#getRowId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -182,7 +182,7 @@
             "scope": "instance",
             "$longname": "RowModel#getRowId",
             "$kind": "method",
-            "id": 1661,
+            "id": 1662,
             "neoClassName": "Neo.selection.table.RowModel"
         },
         {
@@ -197,7 +197,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100053531",
+                    "id": "astnode100053602",
                     "name": "RowModel.getRowNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -239,7 +239,7 @@
             "scope": "static",
             "$longname": "RowModel.getRowNode",
             "$kind": "method",
-            "id": 1662,
+            "id": 1663,
             "neoClassName": "Neo.selection.table.RowModel"
         },
         {
@@ -254,7 +254,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100053574",
+                    "id": "astnode100053645",
                     "name": "RowModel#onKeyDownDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -282,7 +282,7 @@
             "scope": "instance",
             "$longname": "RowModel#onKeyDownDown",
             "$kind": "method",
-            "id": 1663,
+            "id": 1664,
             "neoClassName": "Neo.selection.table.RowModel"
         },
         {
@@ -297,7 +297,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100053586",
+                    "id": "astnode100053657",
                     "name": "RowModel#onKeyDownUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -325,7 +325,7 @@
             "scope": "instance",
             "$longname": "RowModel#onKeyDownUp",
             "$kind": "method",
-            "id": 1664,
+            "id": 1665,
             "neoClassName": "Neo.selection.table.RowModel"
         },
         {
@@ -340,7 +340,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100053599",
+                    "id": "astnode100053670",
                     "name": "RowModel#onNavKeyRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -377,7 +377,7 @@
             "scope": "instance",
             "$longname": "RowModel#onNavKeyRow",
             "$kind": "method",
-            "id": 1665,
+            "id": 1666,
             "neoClassName": "Neo.selection.table.RowModel"
         },
         {
@@ -385,14 +385,14 @@
             "meta": {
                 "range": [
                     2978,
-                    3407
+                    3377
                 ],
                 "filename": "RowModel.mjs",
                 "lineno": 128,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100053709",
+                    "id": "astnode100053780",
                     "name": "RowModel#onRowClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -420,22 +420,22 @@
             "scope": "instance",
             "$longname": "RowModel#onRowClick",
             "$kind": "method",
-            "id": 1666,
+            "id": 1667,
             "neoClassName": "Neo.selection.table.RowModel"
         },
         {
             "comment": "/**\n     *\n     * @param {Neo.component.Base} component\n     */",
             "meta": {
                 "range": [
-                    3481,
-                    3917
+                    3451,
+                    3887
                 ],
                 "filename": "RowModel.mjs",
-                "lineno": 149,
+                "lineno": 147,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100053779",
+                    "id": "astnode100053850",
                     "name": "RowModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -463,22 +463,22 @@
             "scope": "instance",
             "$longname": "RowModel#register",
             "$kind": "method",
-            "id": 1667,
+            "id": 1668,
             "neoClassName": "Neo.selection.table.RowModel"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    3946,
-                    4370
+                    3916,
+                    4340
                 ],
                 "filename": "RowModel.mjs",
-                "lineno": 172,
+                "lineno": 170,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100053832",
+                    "id": "astnode100053903",
                     "name": "RowModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -495,7 +495,7 @@
             "params": [],
             "$longname": "RowModel#unregister",
             "$kind": "method",
-            "id": 1668,
+            "id": 1669,
             "neoClassName": "Neo.selection.table.RowModel"
         }
     ]
