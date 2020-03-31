@@ -35,13 +35,13 @@ You can find the Online Versions <a href="https://neomjs.github.io/pages/">here 
 https://www.youtube.com/watch?v=BhSZS6_UlO4
 
 ## Preview Images
-<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/table.png">
+<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/v2/table.png">
 
-<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/gallery.png">
+<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/v2/gallery.png">
 
-<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/helix.png">
+<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/v2/helix.png">
 
-<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/world.png">
+<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/v2/world.png">
 
 ## Getting Started
 1. Clone this repo to your system to get the project files
@@ -70,7 +70,7 @@ Since this app shell was created using:
 We do get documentation views for our app source code out of the box:
 > http://localhost:8080/docs/
 
-<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/docs.png">
+<img src="https://raw.githubusercontent.com/neomjs/pages/master/resources/images/covidDashboard/v2/docs.png">
    
 ## Multithreading
 In case you want to take a closer look at the workers setup, take a look into the Chrome dev tools Sources:
