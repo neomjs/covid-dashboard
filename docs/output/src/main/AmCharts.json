@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.main.AmCharts",
             "$kind": "class",
-            "id": 1316,
+            "id": 1321,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1317,
+            "id": 1322,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
@@ -78,7 +78,7 @@
             "scope": "global",
             "$longname": "charts",
             "$kind": "property",
-            "id": 1318,
+            "id": 1323,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
@@ -104,7 +104,7 @@
             "scope": "global",
             "$longname": "chartsToCreate",
             "$kind": "property",
-            "id": 1319,
+            "id": 1324,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
@@ -130,7 +130,7 @@
             "scope": "global",
             "$longname": "charts",
             "$kind": "property",
-            "id": 1320,
+            "id": 1325,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
@@ -155,7 +155,7 @@
             "scope": "global",
             "$longname": "downLoadPath",
             "$kind": "property",
-            "id": 1321,
+            "id": 1326,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
@@ -180,7 +180,7 @@
             "scope": "global",
             "$longname": "fallbackPath",
             "$kind": "property",
-            "id": 1322,
+            "id": 1327,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
@@ -205,7 +205,7 @@
             "scope": "global",
             "$longname": "scriptsLoaded_",
             "$kind": "property",
-            "id": 1323,
+            "id": 1328,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
@@ -230,7 +230,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 1324,
+            "id": 1329,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
@@ -256,22 +256,22 @@
             "scope": "global",
             "$longname": "remote",
             "$kind": "property",
-            "id": 1325,
+            "id": 1330,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} config\n     */",
             "meta": {
                 "range": [
-                    2102,
-                    2243
+                    2126,
+                    2267
                 ],
                 "filename": "AmCharts.mjs",
-                "lineno": 75,
+                "lineno": 76,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038386",
+                    "id": "astnode100038568",
                     "name": "AmCharts",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -298,22 +298,22 @@
             "scope": "global",
             "$longname": "AmCharts",
             "$kind": "constructor",
-            "id": 1326,
+            "id": 1331,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
             "comment": "/**\n     * Triggered after the scriptsLoaded config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    2404,
-                    2876
+                    2428,
+                    2900
                 ],
                 "filename": "AmCharts.mjs",
-                "lineno": 89,
+                "lineno": 90,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038407",
+                    "id": "astnode100038589",
                     "name": "AmCharts#afterSetScriptsLoaded",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -352,22 +352,90 @@
             "scope": "instance",
             "$longname": "AmCharts#afterSetScriptsLoaded",
             "$kind": "method",
-            "id": 1327,
+            "id": 1332,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
-            "comment": "/**\n     *\n     * @param {Object} data\n     * @param {Object} data.config\n     * @param {String} data.id\n     * @param {String} data.package\n     * @param {String} data.type='XYChart'\n     */",
+            "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.id\n     * @param {String} data.path\n     * @param {Array} [data.params]\n     */",
             "meta": {
                 "range": [
-                    3078,
-                    3684
+                    3057,
+                    3460
                 ],
                 "filename": "AmCharts.mjs",
                 "lineno": 117,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038475",
+                    "id": "astnode100038657",
+                    "name": "AmCharts#callMethod",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "data.id"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "data.path"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "optional": true,
+                    "name": "data.params"
+                }
+            ],
+            "name": "callMethod",
+            "longname": "AmCharts#callMethod",
+            "kind": "function",
+            "memberof": "AmCharts",
+            "scope": "instance",
+            "$longname": "AmCharts#callMethod",
+            "$kind": "method",
+            "id": 1333,
+            "neoClassName": "Neo.main.AmCharts"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     * @param {Boolean} data.combineSeriesTooltip\n     * @param {Object} data.config\n     * @param {String} data.id\n     * @param {String} data.package\n     * @param {String} data.type='XYChart'\n     */",
+            "meta": {
+                "range": [
+                    3712,
+                    4439
+                ],
+                "filename": "AmCharts.mjs",
+                "lineno": 139,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
+                "code": {
+                    "id": "astnode100038724",
                     "name": "AmCharts#create",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -386,6 +454,14 @@
                         ]
                     },
                     "name": "data"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "data.combineSeriesTooltip"
                 },
                 {
                     "type": {
@@ -428,22 +504,65 @@
             "scope": "instance",
             "$longname": "AmCharts#create",
             "$kind": "method",
-            "id": 1328,
+            "id": 1334,
+            "neoClassName": "Neo.main.AmCharts"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} chart\n     */",
+            "meta": {
+                "range": [
+                    4497,
+                    4907
+                ],
+                "filename": "AmCharts.mjs",
+                "lineno": 165,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
+                "code": {
+                    "id": "astnode100038825",
+                    "name": "AmCharts#combineSeriesTooltip",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "chart"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "chart"
+                }
+            ],
+            "name": "combineSeriesTooltip",
+            "longname": "AmCharts#combineSeriesTooltip",
+            "kind": "function",
+            "memberof": "AmCharts",
+            "scope": "instance",
+            "$longname": "AmCharts#combineSeriesTooltip",
+            "$kind": "method",
+            "id": 1335,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
             "comment": "/**\n     *\n     * @param {String} id\n     * @return {Boolean}\n     */",
             "meta": {
                 "range": [
-                    3764,
-                    3816
+                    4987,
+                    5041
                 ],
                 "filename": "AmCharts.mjs",
-                "lineno": 140,
+                "lineno": 184,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038559",
+                    "id": "astnode100038890",
                     "name": "AmCharts#hasChart",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -480,22 +599,22 @@
             "scope": "instance",
             "$longname": "AmCharts#hasChart",
             "$kind": "method",
-            "id": 1329,
+            "id": 1336,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
             "comment": "/**\n     * Async approach\n     * core.js has to arrive first or the other scripts will cause JS errors since they rely on it\n     * => fetching the other files after core.js is loaded\n     */",
             "meta": {
                 "range": [
-                    4018,
-                    4707
+                    5243,
+                    5932
                 ],
                 "filename": "AmCharts.mjs",
-                "lineno": 149,
+                "lineno": 193,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038570",
+                    "id": "astnode100038903",
                     "name": "AmCharts#insertAmChartsScripts",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -515,23 +634,23 @@
             "params": [],
             "$longname": "AmCharts#insertAmChartsScripts",
             "$kind": "method",
-            "id": 1330,
+            "id": 1337,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
-            "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.id\n     * @param {Boolean} data.value\n     */",
+            "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.id\n     * @param {Boolean} [data.isColor=false] true will wrap the value into am4core.color()\n     * @param {String} data.path\n     * @param {*} data.value\n     */",
             "meta": {
                 "range": [
-                    4830,
-                    4984
+                    6173,
+                    6609
                 ],
                 "filename": "AmCharts.mjs",
-                "lineno": 173,
+                "lineno": 219,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038661",
-                    "name": "AmCharts#toggleLogarithmic",
+                    "id": "astnode100038994",
+                    "name": "AmCharts#setProperty",
                     "type": "MethodDefinition",
                     "paramnames": [
                         "data"
@@ -564,32 +683,51 @@
                             "Boolean"
                         ]
                     },
+                    "optional": true,
+                    "defaultvalue": false,
+                    "description": "true will wrap the value into am4core.color()",
+                    "name": "data.isColor"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "data.path"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "*"
+                        ]
+                    },
                     "name": "data.value"
                 }
             ],
-            "name": "toggleLogarithmic",
-            "longname": "AmCharts#toggleLogarithmic",
+            "name": "setProperty",
+            "longname": "AmCharts#setProperty",
             "kind": "function",
             "memberof": "AmCharts",
             "scope": "instance",
-            "$longname": "AmCharts#toggleLogarithmic",
+            "$longname": "AmCharts#setProperty",
             "$kind": "method",
-            "id": 1331,
+            "id": 1338,
             "neoClassName": "Neo.main.AmCharts"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {Object} data.data\n     * @param {String} data.dataPath\n     * @param {String} data.id\n     */",
             "meta": {
                 "range": [
-                    5142,
-                    5549
+                    6767,
+                    7174
                 ],
                 "filename": "AmCharts.mjs",
-                "lineno": 186,
+                "lineno": 239,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100038695",
+                    "id": "astnode100039066",
                     "name": "AmCharts#updateData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -641,7 +779,7 @@
             "scope": "instance",
             "$longname": "AmCharts#updateData",
             "$kind": "method",
-            "id": 1332,
+            "id": 1339,
             "neoClassName": "Neo.main.AmCharts"
         }
     ]

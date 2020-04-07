@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.selection.GalleryModel",
             "$kind": "class",
-            "id": 1529,
+            "id": 1536,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1530,
+            "id": 1537,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1531,
+            "id": 1538,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -95,7 +95,7 @@
             "scope": "global",
             "$longname": "stayInRow",
             "$kind": "property",
-            "id": 1532,
+            "id": 1539,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -110,7 +110,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048698",
+                    "id": "astnode100049069",
                     "name": "GalleryModel#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -128,7 +128,7 @@
             "params": [],
             "$longname": "GalleryModel#addDomListener",
             "$kind": "method",
-            "id": 1533,
+            "id": 1540,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -143,7 +143,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048702",
+                    "id": "astnode100049073",
                     "name": "GalleryModel#onContainerClick",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -160,7 +160,7 @@
             "params": [],
             "$longname": "GalleryModel#onContainerClick",
             "$kind": "method",
-            "id": 1534,
+            "id": 1541,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -175,7 +175,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048795",
+                    "id": "astnode100049166",
                     "name": "GalleryModel#onItemClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -203,7 +203,7 @@
             "scope": "instance",
             "$longname": "GalleryModel#onItemClick",
             "$kind": "method",
-            "id": 1535,
+            "id": 1542,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -218,7 +218,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048874",
+                    "id": "astnode100049245",
                     "name": "GalleryModel#onKeyDownDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -246,7 +246,7 @@
             "scope": "instance",
             "$longname": "GalleryModel#onKeyDownDown",
             "$kind": "method",
-            "id": 1536,
+            "id": 1543,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -261,7 +261,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048892",
+                    "id": "astnode100049263",
                     "name": "GalleryModel#onKeyDownLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -289,7 +289,7 @@
             "scope": "instance",
             "$longname": "GalleryModel#onKeyDownLeft",
             "$kind": "method",
-            "id": 1537,
+            "id": 1544,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -304,7 +304,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048911",
+                    "id": "astnode100049282",
                     "name": "GalleryModel#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -332,7 +332,7 @@
             "scope": "instance",
             "$longname": "GalleryModel#onKeyDownRight",
             "$kind": "method",
-            "id": 1538,
+            "id": 1545,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -347,7 +347,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048929",
+                    "id": "astnode100049300",
                     "name": "GalleryModel#onKeyDownUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -375,7 +375,7 @@
             "scope": "instance",
             "$longname": "GalleryModel#onKeyDownUp",
             "$kind": "method",
-            "id": 1539,
+            "id": 1546,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -390,7 +390,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100048948",
+                    "id": "astnode100049319",
                     "name": "GalleryModel#onNavKeyColumn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -419,7 +419,7 @@
             "scope": "instance",
             "$longname": "GalleryModel#onNavKeyColumn",
             "$kind": "method",
-            "id": 1540,
+            "id": 1547,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -434,7 +434,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100049051",
+                    "id": "astnode100049422",
                     "name": "GalleryModel#onNavKeyRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -463,7 +463,7 @@
             "scope": "instance",
             "$longname": "GalleryModel#onNavKeyRow",
             "$kind": "method",
-            "id": 1541,
+            "id": 1548,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -478,7 +478,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100049212",
+                    "id": "astnode100049583",
                     "name": "GalleryModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -506,7 +506,7 @@
             "scope": "instance",
             "$longname": "GalleryModel#register",
             "$kind": "method",
-            "id": 1542,
+            "id": 1549,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -521,7 +521,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100049295",
+                    "id": "astnode100049666",
                     "name": "GalleryModel#select",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -560,7 +560,7 @@
             "scope": "instance",
             "$longname": "GalleryModel#select",
             "$kind": "method",
-            "id": 1543,
+            "id": 1550,
             "neoClassName": "Neo.selection.GalleryModel"
         },
         {
@@ -575,7 +575,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100049461",
+                    "id": "astnode100049832",
                     "name": "GalleryModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -592,7 +592,7 @@
             "params": [],
             "$longname": "GalleryModel#unregister",
             "$kind": "method",
-            "id": 1544,
+            "id": 1551,
             "neoClassName": "Neo.selection.GalleryModel"
         }
     ]

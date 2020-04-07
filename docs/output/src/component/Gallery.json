@@ -711,7 +711,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100013045",
+                    "id": "astnode100013042",
                     "name": "Gallery",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -753,7 +753,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100013201",
+                    "id": "astnode100013198",
                     "name": "Gallery#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -785,7 +785,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100013293",
+                    "id": "astnode100013290",
                     "name": "Gallery#afterSetAmountRows",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -839,7 +839,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100013322",
+                    "id": "astnode100013319",
                     "name": "Gallery#afterSetMaxItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -893,7 +893,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100013360",
+                    "id": "astnode100013357",
                     "name": "Gallery#afterSetOrderByRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -947,7 +947,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100013478",
+                    "id": "astnode100013475",
                     "name": "Gallery#afterSetSelectionModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1001,7 +1001,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100013503",
+                    "id": "astnode100013500",
                     "name": "Gallery#beforeSetStore",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1057,7 +1057,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100013588",
+                    "id": "astnode100013585",
                     "name": "Gallery#beforeGetItemTpl",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1098,7 +1098,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100013601",
+                    "id": "astnode100013598",
                     "name": "Gallery#beforeSetSelectionModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1152,7 +1152,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100013631",
+                    "id": "astnode100013628",
                     "name": "Gallery#createItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1224,7 +1224,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100013705",
+                    "id": "astnode100013702",
                     "name": "Gallery#createItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1270,7 +1270,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100013897",
+                    "id": "astnode100013894",
                     "name": "Gallery#destroyItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1324,7 +1324,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100013974",
+                    "id": "astnode100013971",
                     "name": "Gallery#getCameraTransformForCell",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1376,7 +1376,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100014088",
+                    "id": "astnode100014085",
                     "name": "Gallery#getItemId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1429,7 +1429,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100014103",
+                    "id": "astnode100014100",
                     "name": "Gallery#getItemsRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1472,7 +1472,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100014127",
+                    "id": "astnode100014124",
                     "name": "Gallery#getItemTransform",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1524,7 +1524,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100014220",
+                    "id": "astnode100014217",
                     "name": "Gallery#getItemVnodeId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1576,7 +1576,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100014233",
+                    "id": "astnode100014230",
                     "name": "Gallery#moveOrigin",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1608,7 +1608,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100014276",
+                    "id": "astnode100014273",
                     "name": "Gallery#onClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1651,7 +1651,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100014297",
+                    "id": "astnode100014294",
                     "name": "Gallery#onMouseWheel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1694,7 +1694,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100014378",
+                    "id": "astnode100014375",
                     "name": "Gallery#onMounted",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1726,7 +1726,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100014506",
+                    "id": "astnode100014503",
                     "name": "Gallery#onSelectionChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1769,7 +1769,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100014900",
+                    "id": "astnode100014897",
                     "name": "Gallery#onSort",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1801,7 +1801,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100015039",
+                    "id": "astnode100015036",
                     "name": "Gallery#onStoreLoad",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1844,7 +1844,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100015058",
+                    "id": "astnode100015055",
                     "name": "Gallery#refreshImageReflection",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1876,7 +1876,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100015165",
+                    "id": "astnode100015162",
                     "name": "Gallery#translate3d",
                     "type": "MethodDefinition",
                     "paramnames": [

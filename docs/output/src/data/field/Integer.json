@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.data.field.Integer",
             "$kind": "class",
-            "id": 679,
+            "id": 684,
             "neoClassName": "Neo.data.field.Integer"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 680,
+            "id": 685,
             "neoClassName": "Neo.data.field.Integer"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 681,
+            "id": 686,
             "neoClassName": "Neo.data.field.Integer"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "defaultValue",
             "$kind": "property",
-            "id": 682,
+            "id": 687,
             "neoClassName": "Neo.data.field.Integer"
         },
         {
@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/field",
                 "code": {
-                    "id": "astnode100024325",
+                    "id": "astnode100024506",
                     "name": "IntegerField#beforeSetValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -159,7 +159,7 @@
             "scope": "instance",
             "$longname": "IntegerField#beforeSetValue",
             "$kind": "method",
-            "id": 683,
+            "id": 688,
             "neoClassName": "Neo.data.field.Integer"
         }
     ]

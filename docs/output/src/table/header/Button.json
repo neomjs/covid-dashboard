@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.table.header.Button",
             "$kind": "class",
-            "id": 1776,
+            "id": 1783,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -44,7 +44,7 @@
             "longname": "alignValues:",
             "$longname": "alignValues:",
             "$kind": "property",
-            "id": 1777,
+            "id": 1784,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1778,
+            "id": 1785,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1779,
+            "id": 1786,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -119,7 +119,7 @@
             "scope": "global",
             "$longname": "align_",
             "$kind": "property",
-            "id": 1780,
+            "id": 1787,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -143,7 +143,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1781,
+            "id": 1788,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -167,7 +167,7 @@
             "scope": "global",
             "$longname": "draggable_",
             "$kind": "property",
-            "id": 1782,
+            "id": 1789,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -192,7 +192,7 @@
             "scope": "global",
             "$longname": "iconCls",
             "$kind": "property",
-            "id": 1783,
+            "id": 1790,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -216,7 +216,7 @@
             "scope": "global",
             "$longname": "iconPosition",
             "$kind": "property",
-            "id": 1784,
+            "id": 1791,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -243,7 +243,7 @@
             "scope": "global",
             "$longname": "isSorted_",
             "$kind": "property",
-            "id": 1785,
+            "id": 1792,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -269,7 +269,7 @@
             "scope": "global",
             "$longname": "rendererScope",
             "$kind": "property",
-            "id": 1786,
+            "id": 1793,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -292,7 +292,7 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1787,
+            "id": 1794,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -307,7 +307,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100056846",
+                    "id": "astnode100057217",
                     "name": "Button#getVdomRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -335,7 +335,7 @@
             "params": [],
             "$longname": "Button#getVdomRoot",
             "$kind": "method",
-            "id": 1788,
+            "id": 1795,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -350,7 +350,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100056858",
+                    "id": "astnode100057229",
                     "name": "Button#getVnodeRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -378,7 +378,7 @@
             "params": [],
             "$longname": "Button#getVnodeRoot",
             "$kind": "method",
-            "id": 1789,
+            "id": 1796,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -393,7 +393,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100056870",
+                    "id": "astnode100057241",
                     "name": "Button",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -420,7 +420,7 @@
             "scope": "global",
             "$longname": "Button",
             "$kind": "constructor",
-            "id": 1790,
+            "id": 1797,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -435,7 +435,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100056934",
+                    "id": "astnode100057305",
                     "name": "Button#afterSetDraggable",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -474,7 +474,7 @@
             "scope": "instance",
             "$longname": "Button#afterSetDraggable",
             "$kind": "method",
-            "id": 1791,
+            "id": 1798,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -489,7 +489,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100056978",
+                    "id": "astnode100057349",
                     "name": "Button#afterSetIsSorted",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -528,7 +528,7 @@
             "scope": "instance",
             "$longname": "Button#afterSetIsSorted",
             "$kind": "method",
-            "id": 1792,
+            "id": 1799,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -543,7 +543,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100057094",
+                    "id": "astnode100057465",
                     "name": "Button#beforeSetAlign",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -582,7 +582,7 @@
             "scope": "instance",
             "$longname": "Button#beforeSetAlign",
             "$kind": "method",
-            "id": 1793,
+            "id": 1800,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -597,7 +597,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100057109",
+                    "id": "astnode100057480",
                     "name": "Button#onButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -615,7 +615,7 @@
             "params": [],
             "$longname": "Button#onButtonClick",
             "$kind": "method",
-            "id": 1794,
+            "id": 1801,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -630,7 +630,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100057150",
+                    "id": "astnode100057521",
                     "name": "Button#onDragEnd",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -648,7 +648,7 @@
             "params": [],
             "$longname": "Button#onDragEnd",
             "$kind": "method",
-            "id": 1795,
+            "id": 1802,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -663,7 +663,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100057174",
+                    "id": "astnode100057545",
                     "name": "Button#onDragEnter",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -681,7 +681,7 @@
             "params": [],
             "$longname": "Button#onDragEnter",
             "$kind": "method",
-            "id": 1796,
+            "id": 1803,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -696,7 +696,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100057200",
+                    "id": "astnode100057571",
                     "name": "Button#onDragLeave",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -714,7 +714,7 @@
             "params": [],
             "$longname": "Button#onDragLeave",
             "$kind": "method",
-            "id": 1797,
+            "id": 1804,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -729,7 +729,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100057226",
+                    "id": "astnode100057597",
                     "name": "Button#onDragOver",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -757,7 +757,7 @@
             "scope": "instance",
             "$longname": "Button#onDragOver",
             "$kind": "method",
-            "id": 1798,
+            "id": 1805,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -772,7 +772,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100057231",
+                    "id": "astnode100057602",
                     "name": "Button#onDragStart",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -790,7 +790,7 @@
             "params": [],
             "$longname": "Button#onDragStart",
             "$kind": "method",
-            "id": 1799,
+            "id": 1806,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -805,7 +805,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100057256",
+                    "id": "astnode100057627",
                     "name": "Button#onDrop",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -833,7 +833,7 @@
             "scope": "instance",
             "$longname": "Button#onDrop",
             "$kind": "method",
-            "id": 1800,
+            "id": 1807,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -848,7 +848,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100057320",
+                    "id": "astnode100057691",
                     "name": "Button#removeSortingCss",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -866,7 +866,7 @@
             "params": [],
             "$longname": "Button#removeSortingCss",
             "$kind": "method",
-            "id": 1801,
+            "id": 1808,
             "neoClassName": "Neo.table.header.Button"
         },
         {
@@ -881,7 +881,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100057352",
+                    "id": "astnode100057723",
                     "name": "Button#renderer",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -951,7 +951,7 @@
             "scope": "instance",
             "$longname": "Button#renderer",
             "$kind": "method",
-            "id": 1802,
+            "id": 1809,
             "neoClassName": "Neo.table.header.Button"
         }
     ]

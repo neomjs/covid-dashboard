@@ -1173,7 +1173,7 @@
             "comment": "/**\n     * The setter will handle vdom updates automatically\n     * @member {Object} vdom=this._vdom\n     */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 391,
+                "lineno": 386,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {}
@@ -1198,15 +1198,15 @@
             "comment": "/**\n     * Either a string like 'color: red; background-color: blue;'\n     * or an object containing style attributes\n     * @param {String|Object} value\n     * @returns {Object} all styles of this.el\n     */",
             "meta": {
                 "range": [
-                    13754,
-                    13997
+                    13691,
+                    13934
                 ],
                 "filename": "Base.mjs",
-                "lineno": 462,
+                "lineno": 457,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100004614",
+                    "id": "astnode100004611",
                     "name": "Base#addStyle",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1253,15 +1253,15 @@
             "comment": "/**\n     * Triggered after the disabled config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    14153,
-                    14332
+                    14090,
+                    14269
                 ],
                 "filename": "Base.mjs",
-                "lineno": 478,
+                "lineno": 473,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100004646",
+                    "id": "astnode100004643",
                     "name": "Base#afterSetDisabled",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1307,15 +1307,15 @@
             "comment": "/**\n     * Registers the domListeners inside the Neo.manager.DomEvent\n     * @param {Array} value\n     * @param {Array} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    14495,
-                    14607
+                    14432,
+                    14544
                 ],
                 "filename": "Base.mjs",
-                "lineno": 492,
+                "lineno": 487,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100004677",
+                    "id": "astnode100004674",
                     "name": "Base#afterSetDomListeners",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1361,15 +1361,15 @@
             "comment": "/**\n     * Triggered after the hasUnmountedVdomChanges config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    14778,
-                    15289
+                    14715,
+                    15226
                 ],
                 "filename": "Base.mjs",
-                "lineno": 502,
+                "lineno": 497,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100004691",
+                    "id": "astnode100004688",
                     "name": "Base#afterSetHasUnmountedVdomChanges",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1415,15 +1415,15 @@
             "comment": "/**\n     * Triggered after the height config got changed\n     * @param {Number|String|null} value\n     * @param {Number|String|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    15465,
-                    15553
+                    15402,
+                    15490
                 ],
                 "filename": "Base.mjs",
-                "lineno": 525,
+                "lineno": 520,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100004749",
+                    "id": "astnode100004746",
                     "name": "Base#afterSetHeight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1473,15 +1473,15 @@
             "comment": "/**\n     * Triggered after the html config got changed\n     * @param {String|null} value\n     * @param {String|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    15713,
-                    15797
+                    15650,
+                    15734
                 ],
                 "filename": "Base.mjs",
-                "lineno": 535,
+                "lineno": 530,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100004762",
+                    "id": "astnode100004759",
                     "name": "Base#afterSetHtml",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1529,15 +1529,15 @@
             "comment": "/**\n     * Triggered after the id config got changed\n     * @param {String|null} value\n     * @param {String|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    15955,
-                    16035
+                    15892,
+                    15972
                 ],
                 "filename": "Base.mjs",
-                "lineno": 545,
+                "lineno": 540,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100004775",
+                    "id": "astnode100004772",
                     "name": "Base#afterSetId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1585,15 +1585,15 @@
             "comment": "/**\n     * Triggered after the maxHeight config got changed\n     * @param {Number|String|null} value\n     * @param {Number|String|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    16214,
-                    16308
+                    16151,
+                    16245
                 ],
                 "filename": "Base.mjs",
-                "lineno": 555,
+                "lineno": 550,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100004788",
+                    "id": "astnode100004785",
                     "name": "Base#afterSetMaxHeight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1643,15 +1643,15 @@
             "comment": "/**\n     * Triggered after the maxWidth config got changed\n     * @param {Number|String|null} value\n     * @param {Number|String|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    16486,
-                    16578
+                    16423,
+                    16515
                 ],
                 "filename": "Base.mjs",
-                "lineno": 565,
+                "lineno": 560,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100004801",
+                    "id": "astnode100004798",
                     "name": "Base#afterSetMaxWidth",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1701,15 +1701,15 @@
             "comment": "/**\n     * Triggered after the minHeight config got changed\n     * @param {Number|String|null} value\n     * @param {Number|String|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    16757,
-                    16851
+                    16694,
+                    16788
                 ],
                 "filename": "Base.mjs",
-                "lineno": 575,
+                "lineno": 570,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100004814",
+                    "id": "astnode100004811",
                     "name": "Base#afterSetMinHeight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1759,15 +1759,15 @@
             "comment": "/**\n     * Triggered after the minWidth config got changed\n     * @param {Number|String|null} value\n     * @param {Number|String|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    17029,
-                    17121
+                    16966,
+                    17058
                 ],
                 "filename": "Base.mjs",
-                "lineno": 585,
+                "lineno": 580,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100004827",
+                    "id": "astnode100004824",
                     "name": "Base#afterSetMinWidth",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1817,15 +1817,15 @@
             "comment": "/**\n     * Triggered after the mounted config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    17276,
-                    18363
+                    17213,
+                    18300
                 ],
                 "filename": "Base.mjs",
-                "lineno": 595,
+                "lineno": 590,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100004840",
+                    "id": "astnode100004837",
                     "name": "Base#afterSetMounted",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1871,15 +1871,15 @@
             "comment": "/**\n     * Triggered after the tooltips config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    18519,
-                    18919
+                    18456,
+                    18856
                 ],
                 "filename": "Base.mjs",
-                "lineno": 639,
+                "lineno": 634,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100004959",
+                    "id": "astnode100004956",
                     "name": "Base#afterSetTooltips",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1925,15 +1925,15 @@
             "comment": "/**\n     * Triggered after the vnode config got changed\n     * @param {Object} value\n     * @param {Object|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    19075,
-                    19178
+                    19012,
+                    19115
                 ],
                 "filename": "Base.mjs",
-                "lineno": 661,
+                "lineno": 656,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005000",
+                    "id": "astnode100004997",
                     "name": "Base#afterSetVnode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1980,15 +1980,15 @@
             "comment": "/**\n     * Triggered after the width config got changed\n     * @param {Number|String|null} value\n     * @param {Number|String|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    19353,
-                    19439
+                    19290,
+                    19376
                 ],
                 "filename": "Base.mjs",
-                "lineno": 673,
+                "lineno": 668,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005014",
+                    "id": "astnode100005011",
                     "name": "Base#afterSetWidth",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2038,15 +2038,15 @@
             "comment": "/**\n     * Triggered after the wrapperStyle config got changed\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    19597,
-                    19851
+                    19534,
+                    19788
                 ],
                 "filename": "Base.mjs",
-                "lineno": 683,
+                "lineno": 678,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005027",
+                    "id": "astnode100005024",
                     "name": "Base#afterSetWrapperStyle",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2092,15 +2092,15 @@
             "comment": "/**\n     * Triggered when accessing the controller config\n     * @param {Object} value\n     * @private\n     */",
             "meta": {
                 "range": [
-                    19972,
-                    20046
+                    19909,
+                    19983
                 ],
                 "filename": "Base.mjs",
-                "lineno": 698,
+                "lineno": 693,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005074",
+                    "id": "astnode100005071",
                     "name": "Base#beforeGetController",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2137,15 +2137,15 @@
             "comment": "/**\n     * Triggered before the controller config gets changed. Creates a ComponentController instance if needed.\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    20255,
-                    20963
+                    20192,
+                    20900
                 ],
                 "filename": "Base.mjs",
-                "lineno": 708,
+                "lineno": 703,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005087",
+                    "id": "astnode100005084",
                     "name": "Base#beforeSetController",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2191,15 +2191,15 @@
             "comment": "/**\n     * Triggered before the domListeners config gets changed.\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    21124,
-                    21273
+                    21061,
+                    21210
                 ],
                 "filename": "Base.mjs",
-                "lineno": 740,
+                "lineno": 735,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005184",
+                    "id": "astnode100005181",
                     "name": "Base#beforeSetDomListeners",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2245,15 +2245,15 @@
             "comment": "/**\n     * Triggered before the keys config gets changed. Creates a KeyNavigation instance if needed.\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    21470,
-                    21974
+                    21407,
+                    21911
                 ],
                 "filename": "Base.mjs",
-                "lineno": 754,
+                "lineno": 749,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005206",
+                    "id": "astnode100005203",
                     "name": "Base#beforeSetKeys",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2299,15 +2299,15 @@
             "comment": "/**\n     * Changes the value of a vdom object attribute or removes it in case it has no value\n     * @param {String} key\n     * @param {Array|Number|Object|String|null} value\n     */",
             "meta": {
                 "range": [
-                    22167,
-                    22416
+                    22104,
+                    22353
                 ],
                 "filename": "Base.mjs",
-                "lineno": 779,
+                "lineno": 774,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005261",
+                    "id": "astnode100005258",
                     "name": "Base#changeVdomRootKey",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2356,15 +2356,15 @@
             "comment": "/**\n     * Creates the tooltip instances\n     * @param {Array|Object} value\n     * @private\n     */",
             "meta": {
                 "range": [
-                    22526,
-                    23052
+                    22463,
+                    22989
                 ],
                 "filename": "Base.mjs",
-                "lineno": 797,
+                "lineno": 792,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005303",
+                    "id": "astnode100005300",
                     "name": "Base#createTooltips",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2402,15 +2402,15 @@
             "comment": "/**\n     * Unregisters this instance from the ComponentManager\n     * @param {Boolean} [updateParentVdom=false] true to remove the component from the parent vdom => real dom\n     * @param {Boolean} [silent=false] true to update the vdom silently (useful for destroying multiple child items in a row)\n     * todo: unregister events\n     */",
             "meta": {
                 "range": [
-                    23401,
-                    23849
+                    23338,
+                    23786
                 ],
                 "filename": "Base.mjs",
-                "lineno": 827,
+                "lineno": 822,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005369",
+                    "id": "astnode100005366",
                     "name": "Base#destroy",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2461,15 +2461,15 @@
             "comment": "/**\n     * Convenience shortcut for Neo.manager.Component.down\n     * @param {Object|String} config\n     * @returns {Neo.core.Base} The matching instance or null\n     */",
             "meta": {
                 "range": [
-                    24029,
-                    24104
+                    23966,
+                    24041
                 ],
                 "filename": "Base.mjs",
-                "lineno": 849,
+                "lineno": 844,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005439",
+                    "id": "astnode100005436",
                     "name": "Base#down",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2516,15 +2516,15 @@
             "comment": "/**\n     * Calls focus() on the top level DOM node of this component or on a given node via id\n     * @param {String} [id]\n     */",
             "meta": {
                 "range": [
-                    24245,
-                    24592
+                    24182,
+                    24529
                 ],
                 "filename": "Base.mjs",
-                "lineno": 857,
+                "lineno": 852,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005453",
+                    "id": "astnode100005450",
                     "name": "Base#focus",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2561,15 +2561,15 @@
             "comment": "/**\n     * Returns this.controller or the closest parent controller\n     * @param {String} [ntype]\n     * @returns {Neo.controller.Base|null}\n     */",
             "meta": {
                 "range": [
-                    24752,
-                    25288
+                    24689,
+                    25225
                 ],
                 "filename": "Base.mjs",
-                "lineno": 875,
+                "lineno": 870,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005498",
+                    "id": "astnode100005495",
                     "name": "Base#getController",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2616,15 +2616,15 @@
             "comment": "/**\n     * Search vdom child nodes by id for a given vdom tree\n     * @param {String} id\n     * @param {Object} [vdom]\n     * @returns {Object}\n     */",
             "meta": {
                 "range": [
-                    25450,
-                    25981
+                    25387,
+                    25918
                 ],
                 "filename": "Base.mjs",
-                "lineno": 902,
+                "lineno": 897,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005582",
+                    "id": "astnode100005579",
                     "name": "Base#getVdomChild",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2679,15 +2679,15 @@
             "comment": "/**\n     * Can get called after the component got rendered. See the autoMount config as well.\n     */",
             "meta": {
                 "range": [
-                    26093,
-                    27648
+                    26030,
+                    27585
                 ],
                 "filename": "Base.mjs",
-                "lineno": 929,
+                "lineno": 924,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005660",
+                    "id": "astnode100005657",
                     "name": "Base#mount",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -2712,7 +2712,7 @@
             "comment": "/**\n     * Triggered by manager.Focus\n     * @name onFocusEnter\n     * @function\n     * @param {Array} path dom element ids upwards\n     */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 973,
+                "lineno": 968,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {}
@@ -2742,7 +2742,7 @@
             "comment": "/**\n     * Triggered by manager.Focus\n     * @name onFocusLeave\n     * @function\n     * @param {Array} path dom element ids upwards\n     */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 980,
+                "lineno": 975,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {}
@@ -2772,7 +2772,7 @@
             "comment": "/**\n     * Triggered by manager.Focus\n     * @name onFocusMove\n     * @function\n     * @param {Object} opts\n     * @param {Array}  opts.newPath dom element ids upwards\n     * @param {Array}  opts.oldPath dom element ids upwards\n     */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 987,
+                "lineno": 982,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {}
@@ -2819,15 +2819,15 @@
             "comment": "/**\n     * Gets called from the render() promise success handler\n     * @param {Object} data\n     * @param {Boolean} autoMount Mount the DOM after the vnode got created\n     * @private\n     */",
             "meta": {
                 "range": [
-                    28382,
-                    29214
+                    28319,
+                    29151
                 ],
                 "filename": "Base.mjs",
-                "lineno": 1002,
+                "lineno": 997,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005793",
+                    "id": "astnode100005790",
                     "name": "Base#onRender",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2874,15 +2874,15 @@
             "comment": "/**\n     * Promise based vdom update\n     * @param {Object} [vdom=this.vdom]\n     * @param {Neo.vdom.VNode} [vnode= this.vnode]\n     */",
             "meta": {
                 "range": [
-                    29360,
-                    30357
+                    29297,
+                    30294
                 ],
                 "filename": "Base.mjs",
-                "lineno": 1044,
+                "lineno": 1039,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100005933",
+                    "id": "astnode100005930",
                     "name": "Base#promiseVdomUpdate",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2931,15 +2931,15 @@
             "comment": "/**\n     * Either a string like 'color' or an array containing style attributes to remove\n     * @param {String|Array} value camelCase only\n     * @returns {Object} all styles of this.el\n     */",
             "meta": {
                 "range": [
-                    30562,
-                    31009
+                    30499,
+                    30946
                 ],
                 "filename": "Base.mjs",
-                "lineno": 1077,
+                "lineno": 1072,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100006032",
+                    "id": "astnode100006029",
                     "name": "Base#removeStyle",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2987,15 +2987,15 @@
             "comment": "/**\n     * Creates the vnode tree for this component and mounts the component in case\n     * - you pass true for the mount param\n     * - or the autoMount config is set to true\n     * @param {Boolean} [mount] Mount the DOM after the vnode got created\n     */",
             "meta": {
                 "range": [
-                    31278,
-                    32078
+                    31215,
+                    32015
                 ],
                 "filename": "Base.mjs",
-                "lineno": 1105,
+                "lineno": 1100,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100006099",
+                    "id": "astnode100006096",
                     "name": "Base#render",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -3033,15 +3033,15 @@
             "comment": "/**\n     * Change multiple configs at once, ensuring that all afterSet methods get all new assigned values\n     * @param {Object} values={}\n     * @param {Boolean} [silent=false]\n     */",
             "meta": {
                 "range": [
-                    32275,
-                    32589
+                    32212,
+                    32526
                 ],
                 "filename": "Base.mjs",
-                "lineno": 1137,
+                "lineno": 1132,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100006212",
+                    "id": "astnode100006209",
                     "name": "Base#set",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -3089,15 +3089,15 @@
             "comment": "/**\n     * Placeholder method for util.VDom.syncVdomIds to allow overriding (disabling) it\n     * @param {Neo.vdom.VNode} [vnode=this.vnode]\n     * @param {Object} [vdom=this.vdom]\n     */",
             "meta": {
                 "range": [
-                    32788,
-                    32884
+                    32725,
+                    32821
                 ],
                 "filename": "Base.mjs",
-                "lineno": 1159,
+                "lineno": 1154,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100006264",
+                    "id": "astnode100006261",
                     "name": "Base#syncVdomIds",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -3146,15 +3146,15 @@
             "comment": "/**\n     * Placeholder method for util.VDom.syncVdomIds to allow overriding (disabling) it\n     * @param {Neo.vdom.VNode} [vnode=this.vnode]\n     */",
             "meta": {
                 "range": [
-                    33043,
-                    34909
+                    32980,
+                    34846
                 ],
                 "filename": "Base.mjs",
-                "lineno": 1167,
+                "lineno": 1162,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100006285",
+                    "id": "astnode100006282",
                     "name": "Base#syncVnodeTree",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -3192,15 +3192,15 @@
             "comment": "/**\n     * Removes the component DOM\n     */",
             "meta": {
                 "range": [
-                    34964,
-                    35364
+                    34901,
+                    35301
                 ],
                 "filename": "Base.mjs",
-                "lineno": 1222,
+                "lineno": 1217,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100006475",
+                    "id": "astnode100006472",
                     "name": "Base#unmount",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -3225,15 +3225,15 @@
             "comment": "/**\n     * Convenience shortcut for Neo.manager.Component.up\n     * @param {Object|String} config\n     * @returns {Neo.core.Base} The matching instance or null\n     */",
             "meta": {
                 "range": [
-                    35542,
-                    35613
+                    35479,
+                    35550
                 ],
                 "filename": "Base.mjs",
-                "lineno": 1243,
+                "lineno": 1238,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100006528",
+                    "id": "astnode100006525",
                     "name": "Base#up",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -3280,15 +3280,15 @@
             "comment": "/**\n     * Delta updates for the cls config. Gets called after the cls config gets changed in case the component is mounted.\n     * @param {Array} cls\n     * @param {Array} oldCls\n     * @private\n     */",
             "meta": {
                 "range": [
-                    35827,
-                    36668
+                    35764,
+                    36605
                 ],
                 "filename": "Base.mjs",
-                "lineno": 1253,
+                "lineno": 1248,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100006542",
+                    "id": "astnode100006539",
                     "name": "Base#updateCls",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -3334,15 +3334,15 @@
             "comment": "/**\n     * Creates the style deltas for newValue & oldValue and applies them directly to the DOM.\n     * @param newValue\n     * @param oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    36846,
-                    37689
+                    36783,
+                    37626
                 ],
                 "filename": "Base.mjs",
-                "lineno": 1286,
+                "lineno": 1281,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100006642",
+                    "id": "astnode100006639",
                     "name": "Base#updateStyle",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -3378,15 +3378,15 @@
             "comment": "/**\n     * Gets called after the vdom config gets changed in case the component is already mounted (delta updates).\n     * @param {Object} vdom\n     * @param {Neo.vdom.VNode} vnode\n     * @param {function} [resolve] used by promiseVdomUpdate()\n     * @param {function} [reject] used by promiseVdomUpdate()\n     * @private\n     */",
             "meta": {
                 "range": [
-                    38029,
-                    39155
+                    37966,
+                    39092
                 ],
                 "filename": "Base.mjs",
-                "lineno": 1320,
+                "lineno": 1315,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100006722",
+                    "id": "astnode100006719",
                     "name": "Base#updateVdom",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -3454,7 +3454,7 @@
             "comment": "/**\n * manager.Focus fires the event when the component id is included inside the dom id path\n * @event focusEnter\n * @param {Array} path dom element ids upwards\n */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 1359,
+                "lineno": 1354,
                 "columnno": 0,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {}
@@ -3484,7 +3484,7 @@
             "comment": "/**\n * manager.Focus fires the event when the component id is not included inside the dom id path\n * @event focusLeave\n * @param {Array} path dom element ids upwards\n */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 1365,
+                "lineno": 1360,
                 "columnno": 0,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {}
@@ -3514,7 +3514,7 @@
             "comment": "/**\n * manager.Focus fires the event when the component id is included inside the dom id path, but the path itself changed\n * @event focusMove\n * @param {Object} opts\n * @param {Array}  opts.newPath dom element ids upwards\n * @param {Array}  opts.oldPath dom element ids upwards\n */",
             "meta": {
                 "filename": "Base.mjs",
-                "lineno": 1371,
+                "lineno": 1366,
                 "columnno": 0,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {}

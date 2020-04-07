@@ -85,6 +85,22 @@ class MainContainerController extends ComponentController {
               reference    = me.mainTabs[me.activeMainTabIndex],
               activeTab    = me.getReference(reference);
 
+        // worldometer added world as a country
+        // might get removed by the NovelCovid API
+        if (data[0] && data[0].country === 'World') {
+            const worldData = data.shift();
+            console.log(worldData);
+        }
+
+        data.forEach(item => {
+            if (item.country.includes('"')) {
+                item.country = item.country.replace('"', "\'");
+            }
+
+            item.casesPerOneMillion = item.casesPerOneMillion || 0;
+            item.infected           = item.casesPerOneMillion;
+        });
+
         me.data = data;
 
         if (countryStore.getCount() < 1) {
@@ -154,6 +170,7 @@ class MainContainerController extends ComponentController {
             'bosnia'                               : 'bosnia-and-herzegovina',
             'cabo-verde'                           : 'cape-verde',
             'car'                                  : 'central-african-republic',
+            'caribbean-netherlands'                : 'netherlands',
             'channel-islands'                      : 'jersey',
             'côte-d\'ivoire'                       : 'ivory-coast',
             'congo'                                : 'republic-of-the-congo',
@@ -165,13 +182,14 @@ class MainContainerController extends ComponentController {
             'el-salvador'                          : 'salvador',
             'eswatini'                             : 'swaziland',
             'faeroe-islands'                       : 'faroe-islands',
+            'falkland-islands-(malvinas)'          : 'falkland-islands',
             'french-guiana'                        : 'france', // ?
             'guadeloupe'                           : 'france', // ?
             'holy-see-(vatican-city-state)'        : 'vatican-city',
             'iran,-islamic-republic-of'            : 'iran',
             'lao-people\'s-democratic-republic'    : 'laos',
             'libyan-arab-jamahiriya'               : 'libya',
-            'north-macedonia'                      : 'republic-of-macedonia',
+            'macedonia'                            : 'republic-of-macedonia',
             'mayotte'                              : 'france', // ?
             'moldova,-republic-of'                 : 'moldova',
             'ms-zaandam'                           : 'netherlands', // cruise ship
@@ -183,7 +201,8 @@ class MainContainerController extends ComponentController {
             'st.-barth'                            : 'st-barts',
             'saint-lucia'                          : 'st-lucia',
             'saint-martin'                         : 'sint-maarten',
-            'st.-vincent-grenadines'               : 'st-vincent-and-the-grenadines',
+            'saint-pierre-miquelon'                : 'france',
+            'saint-vincent-and-the-grenadines'     : 'st-vincent-and-the-grenadines',
             'syrian-arab-republic'                 : 'syria',
             'tanzania,-united-republic-of'         : 'tanzania',
             'timor-leste'                          : 'east-timor',

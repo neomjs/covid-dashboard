@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Covid.Util",
             "$kind": "class",
-            "id": 2187,
+            "id": 2196,
             "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
         },
         {
@@ -46,7 +46,7 @@
             "longname": "locales",
             "$longname": "locales",
             "$kind": "property",
-            "id": 2188,
+            "id": 2197,
             "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
         },
         {
@@ -71,26 +71,87 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 2189,
+            "id": 2198,
             "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
         },
         {
-            "comment": "/**\n     * This method will get used as a grid renderer, so the 2nd param is an overload (would be {Object} record)\n     * @param {Number} value\n     * @param {String} [color]\n     * @return {String}\n     */",
+            "comment": "/**\n     * Used for the casesPerOneMillion column to show % of population\n     * @param {Object} data\n     * @param {Number} data.value\n     * @return {String}\n     */",
             "meta": {
                 "range": [
-                    937,
-                    1201
+                    897,
+                    1192
                 ],
                 "filename": "Util.mjs",
                 "lineno": 34,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/apps/covid",
                 "code": {
-                    "id": "astnode100072079",
+                    "id": "astnode100072476",
+                    "name": "Util.formatInfected",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Used for the casesPerOneMillion column to show % of population",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "data.value"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    }
+                }
+            ],
+            "name": "formatInfected",
+            "longname": "Util.formatInfected",
+            "kind": "function",
+            "memberof": "Util",
+            "scope": "static",
+            "$longname": "Util.formatInfected",
+            "$kind": "method",
+            "id": 2199,
+            "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
+        },
+        {
+            "comment": "/**\n     * This method will get used as a grid renderer, so the 2nd param is an overload (would be {Object} record)\n     * @param {Object} data\n     * @param {Number} data.value\n     * @param {String} [color]\n     * @return {String}\n     */",
+            "meta": {
+                "range": [
+                    1443,
+                    1739
+                ],
+                "filename": "Util.mjs",
+                "lineno": 56,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/apps/covid",
+                "code": {
+                    "id": "astnode100072529",
                     "name": "Util.formatNumber",
                     "type": "MethodDefinition",
                     "paramnames": [
-                        "value",
+                        "data",
                         "color"
                     ]
                 },
@@ -103,10 +164,18 @@
                 {
                     "type": {
                         "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                },
+                {
+                    "type": {
+                        "names": [
                             "Number"
                         ]
                     },
-                    "name": "value"
+                    "name": "data.value"
                 },
                 {
                     "type": {
@@ -134,7 +203,67 @@
             "scope": "static",
             "$longname": "Util.formatNumber",
             "$kind": "method",
-            "id": 2190,
+            "id": 2200,
+            "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     * @param {Number} data.index\n     * @return {Object}\n     */",
+            "meta": {
+                "range": [
+                    1854,
+                    2007
+                ],
+                "filename": "Util.mjs",
+                "lineno": 74,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/apps/covid",
+                "code": {
+                    "id": "astnode100072574",
+                    "name": "Util.indexRenderer",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Number"
+                        ]
+                    },
+                    "name": "data.index"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    }
+                }
+            ],
+            "name": "indexRenderer",
+            "longname": "Util.indexRenderer",
+            "kind": "function",
+            "memberof": "Util",
+            "scope": "static",
+            "$longname": "Util.indexRenderer",
+            "$kind": "method",
+            "id": 2201,
             "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
         }
     ]

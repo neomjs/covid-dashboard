@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.data.Model",
             "$kind": "class",
-            "id": 689,
+            "id": 694,
             "neoClassName": "Neo.data.Model"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 690,
+            "id": 695,
             "neoClassName": "Neo.data.Model"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 691,
+            "id": 696,
             "neoClassName": "Neo.data.Model"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "fields_",
             "$kind": "property",
-            "id": 692,
+            "id": 697,
             "neoClassName": "Neo.data.Model"
         },
         {
@@ -119,7 +119,7 @@
             "scope": "global",
             "$longname": "keyProperty_",
             "$kind": "property",
-            "id": 693,
+            "id": 698,
             "neoClassName": "Neo.data.Model"
         },
         {
@@ -145,7 +145,7 @@
             "scope": "global",
             "$longname": "storeId",
             "$kind": "property",
-            "id": 694,
+            "id": 699,
             "neoClassName": "Neo.data.Model"
         },
         {
@@ -170,7 +170,7 @@
             "scope": "global",
             "$longname": "trackModifiedFields",
             "$kind": "property",
-            "id": 695,
+            "id": 700,
             "neoClassName": "Neo.data.Model"
         },
         {
@@ -185,7 +185,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100024472",
+                    "id": "astnode100024653",
                     "name": "Model#afterSetFields",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -222,7 +222,7 @@
             "scope": "instance",
             "$longname": "Model#afterSetFields",
             "$kind": "method",
-            "id": 696,
+            "id": 701,
             "neoClassName": "Neo.data.Model"
         },
         {
@@ -237,7 +237,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100024478",
+                    "id": "astnode100024659",
                     "name": "Model#getField",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -277,7 +277,7 @@
             "scope": "instance",
             "$longname": "Model#getField",
             "$kind": "method",
-            "id": 697,
+            "id": 702,
             "neoClassName": "Neo.data.Model"
         }
     ]

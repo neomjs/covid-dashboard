@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.grid.View",
             "$kind": "class",
-            "id": 1155,
+            "id": 1160,
             "neoClassName": "Neo.grid.View"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1156,
+            "id": 1161,
             "neoClassName": "Neo.grid.View"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1157,
+            "id": 1162,
             "neoClassName": "Neo.grid.View"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1158,
+            "id": 1163,
             "neoClassName": "Neo.grid.View"
         },
         {
@@ -116,7 +116,7 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1159,
+            "id": 1164,
             "neoClassName": "Neo.grid.View"
         },
         {
@@ -131,7 +131,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/grid",
                 "code": {
-                    "id": "astnode100034226",
+                    "id": "astnode100034407",
                     "name": "View#syncVdomIds",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -150,7 +150,7 @@
             "params": [],
             "$longname": "View#syncVdomIds",
             "$kind": "method",
-            "id": 1160,
+            "id": 1165,
             "neoClassName": "Neo.grid.View"
         }
     ]
