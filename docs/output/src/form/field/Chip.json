@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.Chip",
             "$kind": "class",
-            "id": 800,
+            "id": 814,
             "neoClassName": "Neo.form.field.Chip"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 801,
+            "id": 815,
             "neoClassName": "Neo.form.field.Chip"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 802,
+            "id": 816,
             "neoClassName": "Neo.form.field.Chip"
         },
         {
@@ -95,7 +95,7 @@
             "scope": "global",
             "$longname": "listConfig",
             "$kind": "property",
-            "id": 803,
+            "id": 817,
             "neoClassName": "Neo.form.field.Chip"
         },
         {
@@ -110,7 +110,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100026646",
+                    "id": "astnode100026930",
                     "name": "Chip",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -132,7 +132,7 @@
             "scope": "global",
             "$longname": "Chip",
             "$kind": "constructor",
-            "id": 804,
+            "id": 818,
             "neoClassName": "Neo.form.field.Chip"
         }
     ]

@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.layout.VBox",
             "$kind": "class",
-            "id": 1219,
+            "id": 1233,
             "neoClassName": "Neo.layout.VBox"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1220,
+            "id": 1234,
             "neoClassName": "Neo.layout.VBox"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1221,
+            "id": 1235,
             "neoClassName": "Neo.layout.VBox"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "direction",
             "$kind": "property",
-            "id": 1222,
+            "id": 1236,
             "neoClassName": "Neo.layout.VBox"
         },
         {
@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100035654",
+                    "id": "astnode100035938",
                     "name": "VBox#applyChildAttributes",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -138,7 +138,7 @@
             "scope": "instance",
             "$longname": "VBox#applyChildAttributes",
             "$kind": "method",
-            "id": 1223,
+            "id": 1237,
             "neoClassName": "Neo.layout.VBox"
         }
     ]

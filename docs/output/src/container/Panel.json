@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.container.Panel",
             "$kind": "class",
-            "id": 522,
+            "id": 535,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 523,
+            "id": 536,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 524,
+            "id": 537,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -95,7 +95,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 525,
+            "id": 538,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -119,7 +119,7 @@
             "scope": "global",
             "$longname": "containerConfig",
             "$kind": "property",
-            "id": 526,
+            "id": 539,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -143,7 +143,7 @@
             "scope": "global",
             "$longname": "headerDefaults",
             "$kind": "property",
-            "id": 527,
+            "id": 540,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -167,7 +167,7 @@
             "scope": "global",
             "$longname": "headers",
             "$kind": "property",
-            "id": 528,
+            "id": 541,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -192,7 +192,7 @@
             "scope": "global",
             "$longname": "items",
             "$kind": "property",
-            "id": 529,
+            "id": 542,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -216,7 +216,7 @@
             "scope": "global",
             "$longname": "verticalHeadersFirst",
             "$kind": "property",
-            "id": 530,
+            "id": 543,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -231,7 +231,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100019597",
+                    "id": "astnode100019879",
                     "name": "Panel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -258,7 +258,7 @@
             "scope": "global",
             "$longname": "Panel",
             "$kind": "constructor",
-            "id": 531,
+            "id": 544,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -273,7 +273,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100019638",
+                    "id": "astnode100019920",
                     "name": "Panel#createItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -290,7 +290,7 @@
             "params": [],
             "$longname": "Panel#createItems",
             "$kind": "method",
-            "id": 532,
+            "id": 545,
             "neoClassName": "Neo.container.Panel"
         },
         {
@@ -305,7 +305,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100019970",
+                    "id": "astnode100020252",
                     "name": "Panel.createHeaderConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -343,7 +343,7 @@
             "scope": "static",
             "$longname": "Panel.createHeaderConfig",
             "$kind": "method",
-            "id": 533,
+            "id": 546,
             "neoClassName": "Neo.container.Panel"
         }
     ]

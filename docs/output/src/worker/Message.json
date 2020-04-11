@@ -17,7 +17,7 @@
             "scope": "static",
             "$longname": "Neo.worker.Message",
             "$kind": "class",
-            "id": 2037,
+            "id": 2072,
             "neoClassName": "Neo.worker.Message"
         },
         {
@@ -32,7 +32,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100066800",
+                    "id": "astnode100067744",
                     "name": "Message",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -59,7 +59,7 @@
             "scope": "global",
             "$longname": "Message",
             "$kind": "constructor",
-            "id": 2038,
+            "id": 2073,
             "neoClassName": "Neo.worker.Message"
         },
         {
@@ -82,7 +82,7 @@
             "scope": "global",
             "$longname": "action",
             "$kind": "property",
-            "id": 2039,
+            "id": 2074,
             "neoClassName": "Neo.worker.Message"
         },
         {
@@ -106,7 +106,7 @@
             "scope": "global",
             "$longname": "destination",
             "$kind": "property",
-            "id": 2040,
+            "id": 2075,
             "neoClassName": "Neo.worker.Message"
         },
         {
@@ -130,7 +130,7 @@
             "scope": "global",
             "$longname": "id",
             "$kind": "property",
-            "id": 2041,
+            "id": 2076,
             "neoClassName": "Neo.worker.Message"
         },
         {
@@ -154,7 +154,7 @@
             "scope": "global",
             "$longname": "origin",
             "$kind": "property",
-            "id": 2042,
+            "id": 2077,
             "neoClassName": "Neo.worker.Message"
         }
     ]

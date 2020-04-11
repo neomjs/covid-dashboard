@@ -289,7 +289,7 @@
             "meta": {
                 "range": [
                     2229,
-                    2870
+                    2874
                 ],
                 "filename": "AmChart.mjs",
                 "lineno": 82,
@@ -320,15 +320,15 @@
             "comment": "/**\n     * Override this method to trigger logic after the chart got mounted into the dom\n     */",
             "meta": {
                 "range": [
-                    2978,
-                    3003
+                    2982,
+                    3007
                 ],
                 "filename": "AmChart.mjs",
                 "lineno": 107,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100018246",
+                    "id": "astnode100018248",
                     "name": "AmChart#onChartMounted",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -353,15 +353,15 @@
             "comment": "/**\n     *\n     * @param {Array|Object} config\n     */",
             "meta": {
                 "range": [
-                    3068,
-                    3848
+                    3072,
+                    3852
                 ],
                 "filename": "AmChart.mjs",
                 "lineno": 115,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100018250",
+                    "id": "astnode100018252",
                     "name": "AmChart#parseChartConfig",
                     "type": "MethodDefinition",
                     "paramnames": [

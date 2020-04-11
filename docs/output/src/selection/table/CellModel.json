@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.selection.table.CellModel",
             "$kind": "class",
-            "id": 1625,
+            "id": 1656,
             "neoClassName": "Neo.selection.table.CellModel"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1626,
+            "id": 1657,
             "neoClassName": "Neo.selection.table.CellModel"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1627,
+            "id": 1658,
             "neoClassName": "Neo.selection.table.CellModel"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1628,
+            "id": 1659,
             "neoClassName": "Neo.selection.table.CellModel"
         },
         {
@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052473",
+                    "id": "astnode100053293",
                     "name": "CellModel#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -126,7 +126,7 @@
             "params": [],
             "$longname": "CellModel#addDomListener",
             "$kind": "method",
-            "id": 1629,
+            "id": 1660,
             "neoClassName": "Neo.selection.table.CellModel"
         },
         {
@@ -141,7 +141,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052511",
+                    "id": "astnode100053331",
                     "name": "CellModel#onCellClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -169,7 +169,7 @@
             "scope": "instance",
             "$longname": "CellModel#onCellClick",
             "$kind": "method",
-            "id": 1630,
+            "id": 1661,
             "neoClassName": "Neo.selection.table.CellModel"
         },
         {
@@ -184,7 +184,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052570",
+                    "id": "astnode100053390",
                     "name": "CellModel#onKeyDownDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -212,7 +212,7 @@
             "scope": "instance",
             "$longname": "CellModel#onKeyDownDown",
             "$kind": "method",
-            "id": 1631,
+            "id": 1662,
             "neoClassName": "Neo.selection.table.CellModel"
         },
         {
@@ -227,7 +227,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052582",
+                    "id": "astnode100053402",
                     "name": "CellModel#onKeyDownLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -255,7 +255,7 @@
             "scope": "instance",
             "$longname": "CellModel#onKeyDownLeft",
             "$kind": "method",
-            "id": 1632,
+            "id": 1663,
             "neoClassName": "Neo.selection.table.CellModel"
         },
         {
@@ -270,7 +270,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052595",
+                    "id": "astnode100053415",
                     "name": "CellModel#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -298,7 +298,7 @@
             "scope": "instance",
             "$longname": "CellModel#onKeyDownRight",
             "$kind": "method",
-            "id": 1633,
+            "id": 1664,
             "neoClassName": "Neo.selection.table.CellModel"
         },
         {
@@ -313,7 +313,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052607",
+                    "id": "astnode100053427",
                     "name": "CellModel#onKeyDownUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -341,7 +341,7 @@
             "scope": "instance",
             "$longname": "CellModel#onKeyDownUp",
             "$kind": "method",
-            "id": 1634,
+            "id": 1665,
             "neoClassName": "Neo.selection.table.CellModel"
         },
         {
@@ -356,7 +356,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052620",
+                    "id": "astnode100053440",
                     "name": "CellModel#onNavKeyColumn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -393,7 +393,7 @@
             "scope": "instance",
             "$longname": "CellModel#onNavKeyColumn",
             "$kind": "method",
-            "id": 1635,
+            "id": 1666,
             "neoClassName": "Neo.selection.table.CellModel"
         },
         {
@@ -408,7 +408,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052720",
+                    "id": "astnode100053540",
                     "name": "CellModel#onNavKeyRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -445,7 +445,7 @@
             "scope": "instance",
             "$longname": "CellModel#onNavKeyRow",
             "$kind": "method",
-            "id": 1636,
+            "id": 1667,
             "neoClassName": "Neo.selection.table.CellModel"
         },
         {
@@ -460,7 +460,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052816",
+                    "id": "astnode100053636",
                     "name": "CellModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -488,7 +488,7 @@
             "scope": "instance",
             "$longname": "CellModel#register",
             "$kind": "method",
-            "id": 1637,
+            "id": 1668,
             "neoClassName": "Neo.selection.table.CellModel"
         },
         {
@@ -503,7 +503,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100052883",
+                    "id": "astnode100053703",
                     "name": "CellModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -520,7 +520,7 @@
             "params": [],
             "$longname": "CellModel#unregister",
             "$kind": "method",
-            "id": 1638,
+            "id": 1669,
             "neoClassName": "Neo.selection.table.CellModel"
         }
     ]

@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.trigger.SpinUpDown",
             "$kind": "class",
-            "id": 1114,
+            "id": 1128,
             "neoClassName": "Neo.form.field.trigger.SpinUpDown"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1115,
+            "id": 1129,
             "neoClassName": "Neo.form.field.trigger.SpinUpDown"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1116,
+            "id": 1130,
             "neoClassName": "Neo.form.field.trigger.SpinUpDown"
         },
         {
@@ -95,7 +95,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1117,
+            "id": 1131,
             "neoClassName": "Neo.form.field.trigger.SpinUpDown"
         },
         {
@@ -120,7 +120,7 @@
             "scope": "global",
             "$longname": "spinButtonDownIconCls",
             "$kind": "property",
-            "id": 1118,
+            "id": 1132,
             "neoClassName": "Neo.form.field.trigger.SpinUpDown"
         },
         {
@@ -145,7 +145,7 @@
             "scope": "global",
             "$longname": "spinButtonUpIconCls",
             "$kind": "property",
-            "id": 1119,
+            "id": 1133,
             "neoClassName": "Neo.form.field.trigger.SpinUpDown"
         },
         {
@@ -171,7 +171,7 @@
             "scope": "global",
             "$longname": "type",
             "$kind": "property",
-            "id": 1120,
+            "id": 1134,
             "neoClassName": "Neo.form.field.trigger.SpinUpDown"
         }
     ]

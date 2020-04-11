@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.data.connection.Xhr",
             "$kind": "class",
-            "id": 657,
+            "id": 670,
             "neoClassName": "Neo.data.connection.Xhr"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 658,
+            "id": 671,
             "neoClassName": "Neo.data.connection.Xhr"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 659,
+            "id": 672,
             "neoClassName": "Neo.data.connection.Xhr"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "callback",
             "$kind": "property",
-            "id": 660,
+            "id": 673,
             "neoClassName": "Neo.data.connection.Xhr"
         },
         {
@@ -117,7 +117,7 @@
             "scope": "global",
             "$longname": "requests",
             "$kind": "property",
-            "id": 661,
+            "id": 674,
             "neoClassName": "Neo.data.connection.Xhr"
         },
         {
@@ -141,7 +141,7 @@
             "scope": "global",
             "$longname": "scope",
             "$kind": "property",
-            "id": 662,
+            "id": 675,
             "neoClassName": "Neo.data.connection.Xhr"
         },
         {
@@ -165,7 +165,7 @@
             "scope": "global",
             "$longname": "timeout",
             "$kind": "property",
-            "id": 663,
+            "id": 676,
             "neoClassName": "Neo.data.connection.Xhr"
         },
         {
@@ -180,7 +180,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100023770",
+                    "id": "astnode100024052",
                     "name": "Xhr#request",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -292,7 +292,7 @@
             "scope": "instance",
             "$longname": "Xhr#request",
             "$kind": "method",
-            "id": 664,
+            "id": 677,
             "neoClassName": "Neo.data.connection.Xhr"
         },
         {
@@ -307,7 +307,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100024033",
+                    "id": "astnode100024315",
                     "name": "Xhr#sendForm",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -348,7 +348,7 @@
             "scope": "instance",
             "$longname": "Xhr#sendForm",
             "$kind": "method",
-            "id": 665,
+            "id": 678,
             "neoClassName": "Neo.data.connection.Xhr"
         },
         {
@@ -363,7 +363,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100024053",
+                    "id": "astnode100024335",
                     "name": "Xhr#onLoad",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -391,7 +391,7 @@
             "scope": "instance",
             "$longname": "Xhr#onLoad",
             "$kind": "method",
-            "id": 666,
+            "id": 679,
             "neoClassName": "Neo.data.connection.Xhr"
         },
         {
@@ -406,7 +406,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100024125",
+                    "id": "astnode100024407",
                     "name": "Xhr#onError",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -434,7 +434,7 @@
             "scope": "instance",
             "$longname": "Xhr#onError",
             "$kind": "method",
-            "id": 667,
+            "id": 680,
             "neoClassName": "Neo.data.connection.Xhr"
         },
         {
@@ -449,7 +449,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100024197",
+                    "id": "astnode100024479",
                     "name": "Xhr#getResponse",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -478,7 +478,7 @@
             "scope": "instance",
             "$longname": "Xhr#getResponse",
             "$kind": "method",
-            "id": 668,
+            "id": 681,
             "neoClassName": "Neo.data.connection.Xhr"
         },
         {
@@ -493,7 +493,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100024231",
+                    "id": "astnode100024513",
                     "name": "Xhr#onProgress",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -510,7 +510,7 @@
             "params": [],
             "$longname": "Xhr#onProgress",
             "$kind": "method",
-            "id": 669,
+            "id": 682,
             "neoClassName": "Neo.data.connection.Xhr"
         },
         {
@@ -525,7 +525,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100024235",
+                    "id": "astnode100024517",
                     "name": "Xhr#promiseRequest",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -562,7 +562,7 @@
             "scope": "instance",
             "$longname": "Xhr#promiseRequest",
             "$kind": "method",
-            "id": 670,
+            "id": 683,
             "neoClassName": "Neo.data.connection.Xhr"
         },
         {
@@ -577,7 +577,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/connection",
                 "code": {
-                    "id": "astnode100024278",
+                    "id": "astnode100024560",
                     "name": "Xhr#promiseJson",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -614,7 +614,7 @@
             "scope": "instance",
             "$longname": "Xhr#promiseJson",
             "$kind": "method",
-            "id": 671,
+            "id": 684,
             "neoClassName": "Neo.data.connection.Xhr"
         }
     ]

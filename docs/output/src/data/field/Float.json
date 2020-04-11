@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.data.field.Float",
             "$kind": "class",
-            "id": 679,
+            "id": 692,
             "neoClassName": "Neo.data.field.Float"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 680,
+            "id": 693,
             "neoClassName": "Neo.data.field.Float"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 681,
+            "id": 694,
             "neoClassName": "Neo.data.field.Float"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "defaultValue",
             "$kind": "property",
-            "id": 682,
+            "id": 695,
             "neoClassName": "Neo.data.field.Float"
         },
         {
@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/data/field",
                 "code": {
-                    "id": "astnode100024436",
+                    "id": "astnode100024718",
                     "name": "FloatField#beforeSetValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -159,7 +159,7 @@
             "scope": "instance",
             "$longname": "FloatField#beforeSetValue",
             "$kind": "method",
-            "id": 683,
+            "id": 696,
             "neoClassName": "Neo.data.field.Float"
         }
     ]

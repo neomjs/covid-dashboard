@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.core.Observable",
             "$kind": "class",
-            "id": 628,
+            "id": 641,
             "neoClassName": "Neo.core.Observable"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 629,
+            "id": 642,
             "neoClassName": "Neo.core.Observable"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 630,
+            "id": 643,
             "neoClassName": "Neo.core.Observable"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "mixin",
             "$kind": "property",
-            "id": 631,
+            "id": 644,
             "neoClassName": "Neo.core.Observable"
         },
         {
@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100022849",
+                    "id": "astnode100023131",
                     "name": "Observable#addListener",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -198,7 +198,7 @@
             "scope": "instance",
             "$longname": "Observable#addListener",
             "$kind": "method",
-            "id": 632,
+            "id": 645,
             "neoClassName": "Neo.core.Observable"
         },
         {
@@ -213,7 +213,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100023086",
+                    "id": "astnode100023368",
                     "name": "Observable#fire",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -236,7 +236,7 @@
             "scope": "instance",
             "$longname": "Observable#fire",
             "$kind": "method",
-            "id": 633,
+            "id": 646,
             "neoClassName": "Neo.core.Observable"
         },
         {
@@ -251,7 +251,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100023179",
+                    "id": "astnode100023461",
                     "name": "Observable#removeListener",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -278,7 +278,7 @@
             "scope": "instance",
             "$longname": "Observable#removeListener",
             "$kind": "method",
-            "id": 634,
+            "id": 647,
             "neoClassName": "Neo.core.Observable"
         },
         {
@@ -293,7 +293,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100023235",
+                    "id": "astnode100023517",
                     "name": "Observable#on",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -378,7 +378,7 @@
             "scope": "instance",
             "$longname": "Observable#on",
             "$kind": "method",
-            "id": 635,
+            "id": 648,
             "neoClassName": "Neo.core.Observable"
         },
         {
@@ -393,7 +393,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100023248",
+                    "id": "astnode100023530",
                     "name": "Observable#un",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -420,7 +420,7 @@
             "scope": "instance",
             "$longname": "Observable#un",
             "$kind": "method",
-            "id": 636,
+            "id": 649,
             "neoClassName": "Neo.core.Observable"
         }
     ]

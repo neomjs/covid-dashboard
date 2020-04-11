@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.tab.header.Toolbar",
             "$kind": "class",
-            "id": 1721,
+            "id": 1752,
             "neoClassName": "Neo.tab.header.Toolbar"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1722,
+            "id": 1753,
             "neoClassName": "Neo.tab.header.Toolbar"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1723,
+            "id": 1754,
             "neoClassName": "Neo.tab.header.Toolbar"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1724,
+            "id": 1755,
             "neoClassName": "Neo.tab.header.Toolbar"
         },
         {
@@ -117,7 +117,7 @@
             "scope": "global",
             "$longname": "useActiveTabIndicator_",
             "$kind": "property",
-            "id": 1725,
+            "id": 1756,
             "neoClassName": "Neo.tab.header.Toolbar"
         },
         {
@@ -132,7 +132,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab/header",
                 "code": {
-                    "id": "astnode100055722",
+                    "id": "astnode100056542",
                     "name": "Toolbar#afterSetUseActiveTabIndicator",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -171,7 +171,7 @@
             "scope": "instance",
             "$longname": "Toolbar#afterSetUseActiveTabIndicator",
             "$kind": "method",
-            "id": 1726,
+            "id": 1757,
             "neoClassName": "Neo.tab.header.Toolbar"
         },
         {
@@ -186,7 +186,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab/header",
                 "code": {
-                    "id": "astnode100055772",
+                    "id": "astnode100056592",
                     "name": "Toolbar#createItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -204,7 +204,7 @@
             "params": [],
             "$longname": "Toolbar#createItems",
             "$kind": "method",
-            "id": 1727,
+            "id": 1758,
             "neoClassName": "Neo.tab.header.Toolbar"
         },
         {
@@ -219,7 +219,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab/header",
                 "code": {
-                    "id": "astnode100055806",
+                    "id": "astnode100056626",
                     "name": "Toolbar#getLayoutConfig",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -248,7 +248,7 @@
             "params": [],
             "$longname": "Toolbar#getLayoutConfig",
             "$kind": "method",
-            "id": 1728,
+            "id": 1759,
             "neoClassName": "Neo.tab.header.Toolbar"
         }
     ]

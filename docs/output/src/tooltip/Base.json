@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.tooltip.Base",
             "$kind": "class",
-            "id": 1832,
+            "id": 1867,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1833,
+            "id": 1868,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1834,
+            "id": 1869,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1835,
+            "id": 1870,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -120,7 +120,7 @@
             "scope": "global",
             "$longname": "componentId_",
             "$kind": "property",
-            "id": 1836,
+            "id": 1871,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -146,7 +146,7 @@
             "scope": "global",
             "$longname": "delegate",
             "$kind": "property",
-            "id": 1837,
+            "id": 1872,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -172,7 +172,7 @@
             "scope": "global",
             "$longname": "dismissDelay",
             "$kind": "property",
-            "id": 1838,
+            "id": 1873,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -199,7 +199,7 @@
             "scope": "global",
             "$longname": "dismissDelayTaskId",
             "$kind": "property",
-            "id": 1839,
+            "id": 1874,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -225,7 +225,7 @@
             "scope": "global",
             "$longname": "hideDelay",
             "$kind": "property",
-            "id": 1840,
+            "id": 1875,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -252,7 +252,7 @@
             "scope": "global",
             "$longname": "hideDelayTaskId",
             "$kind": "property",
-            "id": 1841,
+            "id": 1876,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -276,7 +276,7 @@
             "scope": "global",
             "$longname": "mixins",
             "$kind": "property",
-            "id": 1842,
+            "id": 1877,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -302,7 +302,7 @@
             "scope": "global",
             "$longname": "showDelay",
             "$kind": "property",
-            "id": 1843,
+            "id": 1878,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -329,7 +329,7 @@
             "scope": "global",
             "$longname": "showDelayTaskId",
             "$kind": "property",
-            "id": 1844,
+            "id": 1879,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -355,7 +355,7 @@
             "scope": "global",
             "$longname": "stayOnHover_",
             "$kind": "property",
-            "id": 1845,
+            "id": 1880,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -380,7 +380,7 @@
             "scope": "global",
             "$longname": "text_",
             "$kind": "property",
-            "id": 1846,
+            "id": 1881,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -395,7 +395,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100058691",
+                    "id": "astnode100059576",
                     "name": "Base#afterSetComponentId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -434,7 +434,7 @@
             "scope": "instance",
             "$longname": "Base#afterSetComponentId",
             "$kind": "method",
-            "id": 1847,
+            "id": 1882,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -449,7 +449,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100058754",
+                    "id": "astnode100059639",
                     "name": "Base#afterSetStayOnHover",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -488,7 +488,7 @@
             "scope": "instance",
             "$longname": "Base#afterSetStayOnHover",
             "$kind": "method",
-            "id": 1848,
+            "id": 1883,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -503,7 +503,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100058802",
+                    "id": "astnode100059687",
                     "name": "Base#afterSetText",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -541,7 +541,7 @@
             "scope": "instance",
             "$longname": "Base#afterSetText",
             "$kind": "method",
-            "id": 1849,
+            "id": 1884,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -556,7 +556,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100058858",
+                    "id": "astnode100059743",
                     "name": "Base#clearTimeout",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -587,7 +587,7 @@
             "scope": "instance",
             "$longname": "Base#clearTimeout",
             "$kind": "method",
-            "id": 1850,
+            "id": 1885,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -602,7 +602,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100058913",
+                    "id": "astnode100059798",
                     "name": "Base#hide",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -632,7 +632,7 @@
             "scope": "instance",
             "$longname": "Base#hide",
             "$kind": "method",
-            "id": 1851,
+            "id": 1886,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -647,7 +647,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100058941",
+                    "id": "astnode100059826",
                     "name": "Base#hideDelayed",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -677,7 +677,7 @@
             "scope": "instance",
             "$longname": "Base#hideDelayed",
             "$kind": "method",
-            "id": 1852,
+            "id": 1887,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -692,7 +692,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100058980",
+                    "id": "astnode100059865",
                     "name": "Base#onMouseEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -721,7 +721,7 @@
             "scope": "instance",
             "$longname": "Base#onMouseEnter",
             "$kind": "method",
-            "id": 1853,
+            "id": 1888,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -736,7 +736,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100059013",
+                    "id": "astnode100059898",
                     "name": "Base#onMouseLeave",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -765,7 +765,7 @@
             "scope": "instance",
             "$longname": "Base#onMouseLeave",
             "$kind": "method",
-            "id": 1854,
+            "id": 1889,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -780,7 +780,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100059044",
+                    "id": "astnode100059929",
                     "name": "Base#show",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -809,7 +809,7 @@
             "scope": "instance",
             "$longname": "Base#show",
             "$kind": "method",
-            "id": 1855,
+            "id": 1890,
             "neoClassName": "Neo.tooltip.Base"
         },
         {
@@ -824,7 +824,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100059099",
+                    "id": "astnode100059984",
                     "name": "Base#showDelayed",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -853,7 +853,7 @@
             "scope": "instance",
             "$longname": "Base#showDelayed",
             "$kind": "method",
-            "id": 1856,
+            "id": 1891,
             "neoClassName": "Neo.tooltip.Base"
         }
     ]

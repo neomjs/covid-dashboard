@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.Time",
             "$kind": "class",
-            "id": 1018,
+            "id": 1032,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1019,
+            "id": 1033,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1020,
+            "id": 1034,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1021,
+            "id": 1035,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -119,7 +119,7 @@
             "scope": "global",
             "$longname": "collection",
             "$kind": "property",
-            "id": 1022,
+            "id": 1036,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -143,7 +143,7 @@
             "scope": "global",
             "$longname": "inputType",
             "$kind": "property",
-            "id": 1023,
+            "id": 1037,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -167,7 +167,7 @@
             "scope": "global",
             "$longname": "keys",
             "$kind": "property",
-            "id": 1024,
+            "id": 1038,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -192,7 +192,7 @@
             "scope": "global",
             "$longname": "list",
             "$kind": "property",
-            "id": 1025,
+            "id": 1039,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -217,7 +217,7 @@
             "scope": "global",
             "$longname": "listConfig",
             "$kind": "property",
-            "id": 1026,
+            "id": 1040,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -241,7 +241,7 @@
             "scope": "global",
             "$longname": "maxValue_",
             "$kind": "property",
-            "id": 1027,
+            "id": 1041,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -265,7 +265,7 @@
             "scope": "global",
             "$longname": "minValue_",
             "$kind": "property",
-            "id": 1028,
+            "id": 1042,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -290,7 +290,7 @@
             "scope": "global",
             "$longname": "stepSize_",
             "$kind": "property",
-            "id": 1029,
+            "id": 1043,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -317,7 +317,7 @@
             "scope": "global",
             "$longname": "triggers",
             "$kind": "property",
-            "id": 1030,
+            "id": 1044,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -332,7 +332,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032129",
+                    "id": "astnode100032413",
                     "name": "Time",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -354,7 +354,7 @@
             "scope": "global",
             "$longname": "Time",
             "$kind": "constructor",
-            "id": 1031,
+            "id": 1045,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -369,7 +369,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032232",
+                    "id": "astnode100032516",
                     "name": "Time#afterSetMaxValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -407,7 +407,7 @@
             "scope": "instance",
             "$longname": "Time#afterSetMaxValue",
             "$kind": "method",
-            "id": 1032,
+            "id": 1046,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -422,7 +422,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032245",
+                    "id": "astnode100032529",
                     "name": "Time#afterSetMinValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -460,7 +460,7 @@
             "scope": "instance",
             "$longname": "Time#afterSetMinValue",
             "$kind": "method",
-            "id": 1033,
+            "id": 1047,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -475,7 +475,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032258",
+                    "id": "astnode100032542",
                     "name": "Time#afterSetStepSize",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -513,7 +513,7 @@
             "scope": "instance",
             "$longname": "Time#afterSetStepSize",
             "$kind": "method",
-            "id": 1034,
+            "id": 1048,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -528,7 +528,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032271",
+                    "id": "astnode100032555",
                     "name": "Time#afterSetValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -580,7 +580,7 @@
             "scope": "instance",
             "$longname": "Time#afterSetValue",
             "$kind": "method",
-            "id": 1035,
+            "id": 1049,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -595,7 +595,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032301",
+                    "id": "astnode100032585",
                     "name": "Time#beforeSetMaxValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -634,7 +634,7 @@
             "scope": "instance",
             "$longname": "Time#beforeSetMaxValue",
             "$kind": "method",
-            "id": 1036,
+            "id": 1050,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -649,7 +649,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032309",
+                    "id": "astnode100032593",
                     "name": "Time#beforeSetMinValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -688,7 +688,7 @@
             "scope": "instance",
             "$longname": "Time#beforeSetMinValue",
             "$kind": "method",
-            "id": 1037,
+            "id": 1051,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -703,7 +703,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032317",
+                    "id": "astnode100032601",
                     "name": "Time#createCollectionItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -729,7 +729,7 @@
             "params": [],
             "$longname": "Time#createCollectionItems",
             "$kind": "method",
-            "id": 1038,
+            "id": 1052,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -744,7 +744,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032460",
+                    "id": "astnode100032744",
                     "name": "Time#createPickerComponent",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -770,7 +770,7 @@
             "params": [],
             "$longname": "Time#createPickerComponent",
             "$kind": "method",
-            "id": 1039,
+            "id": 1053,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -785,7 +785,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032468",
+                    "id": "astnode100032752",
                     "name": "Time#focusInputEl",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -814,7 +814,7 @@
             "scope": "instance",
             "$longname": "Time#focusInputEl",
             "$kind": "method",
-            "id": 1040,
+            "id": 1054,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -829,7 +829,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032506",
+                    "id": "astnode100032790",
                     "name": "Time#onContainerKeyDownEnter",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -856,7 +856,7 @@
             "scope": "instance",
             "$longname": "Time#onContainerKeyDownEnter",
             "$kind": "method",
-            "id": 1041,
+            "id": 1055,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -871,7 +871,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032515",
+                    "id": "astnode100032799",
                     "name": "Time#onContainerKeyDownEscape",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -898,7 +898,7 @@
             "scope": "instance",
             "$longname": "Time#onContainerKeyDownEscape",
             "$kind": "method",
-            "id": 1042,
+            "id": 1056,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -913,7 +913,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032527",
+                    "id": "astnode100032811",
                     "name": "Time#onKeyDownEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -942,7 +942,7 @@
             "scope": "instance",
             "$longname": "Time#onKeyDownEnter",
             "$kind": "method",
-            "id": 1043,
+            "id": 1057,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -957,7 +957,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032562",
+                    "id": "astnode100032846",
                     "name": "Time#onListItemClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -985,7 +985,7 @@
             "scope": "instance",
             "$longname": "Time#onListItemClick",
             "$kind": "method",
-            "id": 1044,
+            "id": 1058,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -1000,7 +1000,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032602",
+                    "id": "astnode100032886",
                     "name": "Time#onListItemNavigate",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1028,7 +1028,7 @@
             "scope": "instance",
             "$longname": "Time#onListItemNavigate",
             "$kind": "method",
-            "id": 1045,
+            "id": 1059,
             "neoClassName": "Neo.form.field.Time"
         },
         {
@@ -1043,7 +1043,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032613",
+                    "id": "astnode100032897",
                     "name": "Time#selectCurrentListItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1073,7 +1073,7 @@
             "scope": "instance",
             "$longname": "Time#selectCurrentListItem",
             "$kind": "method",
-            "id": 1046,
+            "id": 1060,
             "neoClassName": "Neo.form.field.Time"
         }
     ]
