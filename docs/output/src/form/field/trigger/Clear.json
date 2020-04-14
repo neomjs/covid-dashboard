@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.trigger.Clear",
             "$kind": "class",
-            "id": 1084,
+            "id": 1101,
             "neoClassName": "Neo.form.field.trigger.Clear"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1085,
+            "id": 1102,
             "neoClassName": "Neo.form.field.trigger.Clear"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1086,
+            "id": 1103,
             "neoClassName": "Neo.form.field.trigger.Clear"
         },
         {
@@ -95,7 +95,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1087,
+            "id": 1104,
             "neoClassName": "Neo.form.field.trigger.Clear"
         },
         {
@@ -121,7 +121,7 @@
             "scope": "global",
             "$longname": "iconCls",
             "$kind": "property",
-            "id": 1088,
+            "id": 1105,
             "neoClassName": "Neo.form.field.trigger.Clear"
         },
         {
@@ -147,7 +147,7 @@
             "scope": "global",
             "$longname": "type",
             "$kind": "property",
-            "id": 1089,
+            "id": 1106,
             "neoClassName": "Neo.form.field.trigger.Clear"
         },
         {
@@ -171,7 +171,7 @@
             "scope": "global",
             "$longname": "weight_",
             "$kind": "property",
-            "id": 1090,
+            "id": 1107,
             "neoClassName": "Neo.form.field.trigger.Clear"
         },
         {
@@ -186,7 +186,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100033369",
+                    "id": "astnode100033680",
                     "name": "Clear#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -203,7 +203,7 @@
             "params": [],
             "$longname": "Clear#onConstructed",
             "$kind": "method",
-            "id": 1091,
+            "id": 1108,
             "neoClassName": "Neo.form.field.trigger.Clear"
         },
         {
@@ -218,7 +218,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100033409",
+                    "id": "astnode100033720",
                     "name": "Clear#afterSetHidden",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -257,7 +257,7 @@
             "scope": "instance",
             "$longname": "Clear#afterSetHidden",
             "$kind": "method",
-            "id": 1092,
+            "id": 1109,
             "neoClassName": "Neo.form.field.trigger.Clear"
         },
         {
@@ -272,7 +272,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100033437",
+                    "id": "astnode100033748",
                     "name": "Clear#getHiddenState",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -299,7 +299,7 @@
             "params": [],
             "$longname": "Clear#getHiddenState",
             "$kind": "method",
-            "id": 1093,
+            "id": 1110,
             "neoClassName": "Neo.form.field.trigger.Clear"
         },
         {
@@ -314,7 +314,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100033492",
+                    "id": "astnode100033803",
                     "name": "Clear#onFieldChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -342,7 +342,7 @@
             "scope": "instance",
             "$longname": "Clear#onFieldChange",
             "$kind": "method",
-            "id": 1094,
+            "id": 1111,
             "neoClassName": "Neo.form.field.trigger.Clear"
         },
         {
@@ -357,7 +357,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100033506",
+                    "id": "astnode100033817",
                     "name": "Clear#onTriggerClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -385,7 +385,7 @@
             "scope": "instance",
             "$longname": "Clear#onTriggerClick",
             "$kind": "method",
-            "id": 1095,
+            "id": 1112,
             "neoClassName": "Neo.form.field.trigger.Clear"
         }
     ]

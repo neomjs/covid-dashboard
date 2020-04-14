@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.util.Function",
             "$kind": "class",
-            "id": 1922,
+            "id": 1952,
             "neoClassName": "Neo.util.Function"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1923,
+            "id": 1953,
             "neoClassName": "Neo.util.Function"
         },
         {
@@ -59,7 +59,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100060861",
+                    "id": "astnode100061658",
                     "name": "NeoFunction.bindAppend",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -97,7 +97,7 @@
             "scope": "static",
             "$longname": "NeoFunction.bindAppend",
             "$kind": "method",
-            "id": 1924,
+            "id": 1954,
             "neoClassName": "Neo.util.Function"
         },
         {
@@ -112,7 +112,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100060903",
+                    "id": "astnode100061700",
                     "name": "NeoFunction.createSequence",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -176,7 +176,7 @@
             "scope": "static",
             "$longname": "NeoFunction.createSequence",
             "$kind": "method",
-            "id": 1925,
+            "id": 1955,
             "neoClassName": "Neo.util.Function"
         },
         {
@@ -191,7 +191,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100060944",
+                    "id": "astnode100061741",
                     "name": "NeoFunction.intercept",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -255,7 +255,7 @@
             "scope": "static",
             "$longname": "NeoFunction.intercept",
             "$kind": "method",
-            "id": 1926,
+            "id": 1956,
             "neoClassName": "Neo.util.Function"
         }
     ]

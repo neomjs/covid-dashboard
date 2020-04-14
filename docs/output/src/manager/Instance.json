@@ -26,7 +26,7 @@
             "scope": "static",
             "$longname": "Neo.manager.Instance",
             "$kind": "class",
-            "id": 1512,
+            "id": 1541,
             "neoClassName": "Neo.manager.Instance"
         },
         {
@@ -51,7 +51,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1513,
+            "id": 1542,
             "neoClassName": "Neo.manager.Instance"
         },
         {
@@ -76,7 +76,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1514,
+            "id": 1543,
             "neoClassName": "Neo.manager.Instance"
         },
         {
@@ -101,7 +101,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 1515,
+            "id": 1544,
             "neoClassName": "Neo.manager.Instance"
         },
         {
@@ -116,7 +116,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047115",
+                    "id": "astnode100047899",
                     "name": "Instance",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -143,7 +143,7 @@
             "scope": "global",
             "$longname": "Instance",
             "$kind": "constructor",
-            "id": 1516,
+            "id": 1545,
             "neoClassName": "Neo.manager.Instance"
         },
         {
@@ -158,7 +158,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047151",
+                    "id": "astnode100047935",
                     "name": "Instance#consumeNeoIdMap",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -177,7 +177,7 @@
             "params": [],
             "$longname": "Instance#consumeNeoIdMap",
             "$kind": "method",
-            "id": 1517,
+            "id": 1546,
             "neoClassName": "Neo.manager.Instance"
         }
     ]

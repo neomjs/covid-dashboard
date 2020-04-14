@@ -1,0 +1,445 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * Convenience class to render an OpenStreetMap\n * Requires setting Neo.config.useOpenStreetMaps to true (or manually include the lib)\n * @class Neo.component.wrapper.OpenStreetMap\n * @extends Neo.component.Base\n */",
+            "meta": {
+                "filename": "OpenStreetMap.mjs",
+                "lineno": 3,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {}
+            },
+            "description": "Convenience class to render an OpenStreetMap<br />Requires setting Neo.config.useOpenStreetMaps to true (or manually include the lib)",
+            "kind": "class",
+            "name": "OpenStreetMap",
+            "augments": [
+                "Neo.component.Base"
+            ],
+            "memberof": "Neo.component.wrapper",
+            "longname": "Neo.component.wrapper.OpenStreetMap",
+            "scope": "static",
+            "$longname": "Neo.component.wrapper.OpenStreetMap",
+            "$kind": "class",
+            "id": 499,
+            "neoClassName": "Neo.component.wrapper.OpenStreetMap"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Neo.component.wrapper.OpenStreetMap'\n         * @private\n         */",
+            "meta": {
+                "filename": "OpenStreetMap.mjs",
+                "lineno": 15,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Neo.component.wrapper.OpenStreetMap'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 500,
+            "neoClassName": "Neo.component.wrapper.OpenStreetMap"
+        },
+        {
+            "comment": "/**\n         * @member {String} ntype='openstreetmap'\n         * @private\n         */",
+            "meta": {
+                "filename": "OpenStreetMap.mjs",
+                "lineno": 20,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "ntype",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'openstreetmap'",
+            "access": "private",
+            "longname": "ntype",
+            "scope": "global",
+            "$longname": "ntype",
+            "$kind": "property",
+            "id": 501,
+            "neoClassName": "Neo.component.wrapper.OpenStreetMap"
+        },
+        {
+            "comment": "/**\n         * @member {Boolean} convertDataToGeoJson=true\n         * @private\n         */",
+            "meta": {
+                "filename": "OpenStreetMap.mjs",
+                "lineno": 25,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "convertDataToGeoJson",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "access": "private",
+            "longname": "convertDataToGeoJson",
+            "scope": "global",
+            "$longname": "convertDataToGeoJson",
+            "$kind": "property",
+            "id": 502,
+            "neoClassName": "Neo.component.wrapper.OpenStreetMap"
+        },
+        {
+            "comment": "/**\n         * @member {Array|null} data_=null\n         * @private\n         */",
+            "meta": {
+                "filename": "OpenStreetMap.mjs",
+                "lineno": 30,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "data_",
+            "type": {
+                "names": [
+                    "Array",
+                    "null"
+                ]
+            },
+            "defaultvalue": null,
+            "access": "private",
+            "longname": "data_",
+            "scope": "global",
+            "$longname": "data_",
+            "$kind": "property",
+            "id": 503,
+            "neoClassName": "Neo.component.wrapper.OpenStreetMap"
+        },
+        {
+            "comment": "/**\n         * @member {Object} _vdom\n         */",
+            "meta": {
+                "filename": "OpenStreetMap.mjs",
+                "lineno": 34,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "_vdom",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "longname": "_vdom",
+            "scope": "global",
+            "$longname": "_vdom",
+            "$kind": "property",
+            "id": 504,
+            "neoClassName": "Neo.component.wrapper.OpenStreetMap"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    1329,
+                    1388
+                ],
+                "filename": "OpenStreetMap.mjs",
+                "lineno": 50,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {
+                    "id": "astnode100018420",
+                    "name": "OpenStreetMap#getVdomRoot",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "getVdomRoot",
+            "longname": "OpenStreetMap#getVdomRoot",
+            "kind": "function",
+            "memberof": "OpenStreetMap",
+            "scope": "instance",
+            "params": [],
+            "$longname": "OpenStreetMap#getVdomRoot",
+            "$kind": "method",
+            "id": 505,
+            "neoClassName": "Neo.component.wrapper.OpenStreetMap"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    1417,
+                    1494
+                ],
+                "filename": "OpenStreetMap.mjs",
+                "lineno": 57,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {
+                    "id": "astnode100018436",
+                    "name": "OpenStreetMap#getVnodeRoot",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "getVnodeRoot",
+            "longname": "OpenStreetMap#getVnodeRoot",
+            "kind": "function",
+            "memberof": "OpenStreetMap",
+            "scope": "instance",
+            "params": [],
+            "$longname": "OpenStreetMap#getVnodeRoot",
+            "$kind": "method",
+            "id": 506,
+            "neoClassName": "Neo.component.wrapper.OpenStreetMap"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    1523,
+                    1762
+                ],
+                "filename": "OpenStreetMap.mjs",
+                "lineno": 64,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {
+                    "id": "astnode100018452",
+                    "name": "OpenStreetMap#onConstructed",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "onConstructed",
+            "longname": "OpenStreetMap#onConstructed",
+            "kind": "function",
+            "memberof": "OpenStreetMap",
+            "scope": "instance",
+            "params": [],
+            "$longname": "OpenStreetMap#onConstructed",
+            "$kind": "method",
+            "id": 507,
+            "neoClassName": "Neo.component.wrapper.OpenStreetMap"
+        },
+        {
+            "comment": "/**\n     * Triggered after the data config got changed\n     * @param {Array|null} value\n     * @param {Array|null} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    1920,
+                    2116
+                ],
+                "filename": "OpenStreetMap.mjs",
+                "lineno": 82,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {
+                    "id": "astnode100018495",
+                    "name": "OpenStreetMap#afterSetData",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the data config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetData",
+            "longname": "OpenStreetMap#afterSetData",
+            "kind": "function",
+            "memberof": "OpenStreetMap",
+            "scope": "instance",
+            "$longname": "OpenStreetMap#afterSetData",
+            "$kind": "method",
+            "id": 508,
+            "neoClassName": "Neo.component.wrapper.OpenStreetMap"
+        },
+        {
+            "comment": "/**\n     * Triggered before the data config gets changed.\n     * @param {Array|null} value\n     * @param {Array|null} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    2277,
+                    2448
+                ],
+                "filename": "OpenStreetMap.mjs",
+                "lineno": 97,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {
+                    "id": "astnode100018522",
+                    "name": "OpenStreetMap#beforeSetData",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered before the data config gets changed.",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array",
+                            "null"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array",
+                            "null"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "beforeSetData",
+            "longname": "OpenStreetMap#beforeSetData",
+            "kind": "function",
+            "memberof": "OpenStreetMap",
+            "scope": "instance",
+            "$longname": "OpenStreetMap#beforeSetData",
+            "$kind": "method",
+            "id": 509,
+            "neoClassName": "Neo.component.wrapper.OpenStreetMap"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Array} data\n     * @return {Object} Object matching the geojson format\n     */",
+            "meta": {
+                "range": [
+                    2563,
+                    3428
+                ],
+                "filename": "OpenStreetMap.mjs",
+                "lineno": 110,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {
+                    "id": "astnode100018545",
+                    "name": "OpenStreetMap#convertToGeoJson",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "data"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "description": "Object matching the geojson format"
+                }
+            ],
+            "name": "convertToGeoJson",
+            "longname": "OpenStreetMap#convertToGeoJson",
+            "kind": "function",
+            "memberof": "OpenStreetMap",
+            "scope": "instance",
+            "$longname": "OpenStreetMap#convertToGeoJson",
+            "$kind": "method",
+            "id": 510,
+            "neoClassName": "Neo.component.wrapper.OpenStreetMap"
+        },
+        {
+            "comment": "/**\n     * Override this method to trigger logic after the map got mounted into the dom\n     */",
+            "meta": {
+                "range": [
+                    3534,
+                    3593
+                ],
+                "filename": "OpenStreetMap.mjs",
+                "lineno": 145,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {
+                    "id": "astnode100018628",
+                    "name": "OpenStreetMap#onMapMounted",
+                    "type": "MethodDefinition",
+                    "paramnames": []
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Override this method to trigger logic after the map got mounted into the dom",
+            "name": "onMapMounted",
+            "longname": "OpenStreetMap#onMapMounted",
+            "kind": "function",
+            "memberof": "OpenStreetMap",
+            "scope": "instance",
+            "params": [],
+            "$longname": "OpenStreetMap#onMapMounted",
+            "$kind": "method",
+            "id": 511,
+            "neoClassName": "Neo.component.wrapper.OpenStreetMap"
+        }
+    ]
+}

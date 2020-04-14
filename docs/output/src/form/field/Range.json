@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.Range",
             "$kind": "class",
-            "id": 905,
+            "id": 921,
             "neoClassName": "Neo.form.field.Range"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 906,
+            "id": 922,
             "neoClassName": "Neo.form.field.Range"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 907,
+            "id": 923,
             "neoClassName": "Neo.form.field.Range"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "clearable",
             "$kind": "property",
-            "id": 908,
+            "id": 924,
             "neoClassName": "Neo.form.field.Range"
         },
         {
@@ -118,7 +118,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 909,
+            "id": 925,
             "neoClassName": "Neo.form.field.Range"
         },
         {
@@ -143,7 +143,7 @@
             "scope": "global",
             "$longname": "inputType",
             "$kind": "property",
-            "id": 910,
+            "id": 926,
             "neoClassName": "Neo.form.field.Range"
         },
         {
@@ -167,7 +167,7 @@
             "scope": "global",
             "$longname": "tickmarks_",
             "$kind": "property",
-            "id": 911,
+            "id": 927,
             "neoClassName": "Neo.form.field.Range"
         },
         {
@@ -191,7 +191,7 @@
             "scope": "global",
             "$longname": "useInputEvent",
             "$kind": "property",
-            "id": 912,
+            "id": 928,
             "neoClassName": "Neo.form.field.Range"
         },
         {
@@ -216,7 +216,7 @@
             "scope": "global",
             "$longname": "useInputEvent",
             "$kind": "property",
-            "id": 913,
+            "id": 929,
             "neoClassName": "Neo.form.field.Range"
         },
         {
@@ -231,7 +231,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028847",
+                    "id": "astnode100029122",
                     "name": "Range",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -258,7 +258,7 @@
             "scope": "global",
             "$longname": "Range",
             "$kind": "constructor",
-            "id": 914,
+            "id": 930,
             "neoClassName": "Neo.form.field.Range"
         },
         {
@@ -273,7 +273,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100028916",
+                    "id": "astnode100029191",
                     "name": "Range#afterSetTickmarks",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -311,7 +311,7 @@
             "scope": "instance",
             "$longname": "Range#afterSetTickmarks",
             "$kind": "method",
-            "id": 915,
+            "id": 931,
             "neoClassName": "Neo.form.field.Range"
         }
     ]

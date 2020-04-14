@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.trigger.Picker",
             "$kind": "class",
-            "id": 1112,
+            "id": 1129,
             "neoClassName": "Neo.form.field.trigger.Picker"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1113,
+            "id": 1130,
             "neoClassName": "Neo.form.field.trigger.Picker"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1114,
+            "id": 1131,
             "neoClassName": "Neo.form.field.trigger.Picker"
         },
         {
@@ -96,7 +96,7 @@
             "scope": "global",
             "$longname": "iconCls",
             "$kind": "property",
-            "id": 1115,
+            "id": 1132,
             "neoClassName": "Neo.form.field.trigger.Picker"
         },
         {
@@ -122,7 +122,7 @@
             "scope": "global",
             "$longname": "type",
             "$kind": "property",
-            "id": 1116,
+            "id": 1133,
             "neoClassName": "Neo.form.field.trigger.Picker"
         }
     ]

@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.container.Viewport",
             "$kind": "class",
-            "id": 558,
+            "id": 574,
             "neoClassName": "Neo.container.Viewport"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 559,
+            "id": 575,
             "neoClassName": "Neo.container.Viewport"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 560,
+            "id": 576,
             "neoClassName": "Neo.container.Viewport"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "applyBodyCls",
             "$kind": "property",
-            "id": 561,
+            "id": 577,
             "neoClassName": "Neo.container.Viewport"
         },
         {
@@ -118,7 +118,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 562,
+            "id": 578,
             "neoClassName": "Neo.container.Viewport"
         }
     ]

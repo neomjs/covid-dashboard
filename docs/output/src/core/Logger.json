@@ -26,7 +26,7 @@
             "scope": "static",
             "$longname": "Neo.core.Logger",
             "$kind": "class",
-            "id": 628,
+            "id": 644,
             "neoClassName": "Neo.core.Logger"
         },
         {
@@ -51,7 +51,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 629,
+            "id": 645,
             "neoClassName": "Neo.core.Logger"
         },
         {
@@ -76,7 +76,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 630,
+            "id": 646,
             "neoClassName": "Neo.core.Logger"
         },
         {
@@ -101,7 +101,7 @@
             "scope": "global",
             "$longname": "enableLogs",
             "$kind": "property",
-            "id": 631,
+            "id": 647,
             "neoClassName": "Neo.core.Logger"
         },
         {
@@ -126,7 +126,7 @@
             "scope": "global",
             "$longname": "level",
             "$kind": "property",
-            "id": 632,
+            "id": 648,
             "neoClassName": "Neo.core.Logger"
         },
         {
@@ -151,7 +151,7 @@
             "scope": "global",
             "$longname": "enableLogs",
             "$kind": "property",
-            "id": 633,
+            "id": 649,
             "neoClassName": "Neo.core.Logger"
         },
         {
@@ -166,7 +166,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100022835",
+                    "id": "astnode100023110",
                     "name": "Logger",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -188,7 +188,7 @@
             "scope": "global",
             "$longname": "Logger",
             "$kind": "constructor",
-            "id": 634,
+            "id": 650,
             "neoClassName": "Neo.core.Logger"
         },
         {
@@ -203,7 +203,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100022863",
+                    "id": "astnode100023138",
                     "name": "Logger#error",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -226,7 +226,7 @@
             "scope": "instance",
             "$longname": "Logger#error",
             "$kind": "method",
-            "id": 635,
+            "id": 651,
             "neoClassName": "Neo.core.Logger"
         },
         {
@@ -241,7 +241,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100022872",
+                    "id": "astnode100023147",
                     "name": "Logger#log",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -265,7 +265,7 @@
             "scope": "instance",
             "$longname": "Logger#log",
             "$kind": "method",
-            "id": 636,
+            "id": 652,
             "neoClassName": "Neo.core.Logger"
         },
         {
@@ -280,7 +280,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100022891",
+                    "id": "astnode100023166",
                     "name": "Logger#info",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -304,7 +304,7 @@
             "scope": "instance",
             "$longname": "Logger#info",
             "$kind": "method",
-            "id": 637,
+            "id": 653,
             "neoClassName": "Neo.core.Logger"
         },
         {
@@ -319,7 +319,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100022910",
+                    "id": "astnode100023185",
                     "name": "Logger#logError",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -343,7 +343,7 @@
             "scope": "instance",
             "$longname": "Logger#logError",
             "$kind": "method",
-            "id": 638,
+            "id": 654,
             "neoClassName": "Neo.core.Logger"
         },
         {
@@ -358,7 +358,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100022929",
+                    "id": "astnode100023204",
                     "name": "Logger#warn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -382,7 +382,7 @@
             "scope": "instance",
             "$longname": "Logger#warn",
             "$kind": "method",
-            "id": 639,
+            "id": 655,
             "neoClassName": "Neo.core.Logger"
         },
         {
@@ -397,7 +397,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100022948",
+                    "id": "astnode100023223",
                     "name": "Logger#write",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -422,7 +422,7 @@
             "scope": "instance",
             "$longname": "Logger#write",
             "$kind": "method",
-            "id": 640,
+            "id": 656,
             "neoClassName": "Neo.core.Logger"
         }
     ]

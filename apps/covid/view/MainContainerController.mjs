@@ -41,20 +41,24 @@ class MainContainerController extends ComponentController {
          */
         apiSummaryUrl: 'https://corona.lmao.ninja/all',
         /**
+         * @member {Object|null} countryRecord=null
+         */
+        countryRecord: null,
+        /**
          * @member {Object[]|null} data=null
          */
         data: null,
         /**
-         * @member {String[]} mainTabs=['table', 'openstreetmap', 'worldmap', 'gallery', 'helix', 'attribution']
+         * @member {String[]} mainTabs=['table', 'mapboxglmap', 'worldmap', 'gallery', 'helix', 'attribution']
          * @private
          */
-        mainTabs: ['table','openstreetmap', 'worldmap', 'gallery', 'helix', 'attribution'],
+        mainTabs: ['table','mapboxglmap', 'worldmap', 'gallery', 'helix', 'attribution'],
         /**
          * Flag to only load the map once onHashChange, but always on reload button click
-         * @member {Boolean} openstreetMapHasData=false
+         * @member {Boolean} mapboxglMapHasData=false
          * @private
          */
-        openstreetMapHasData: false,
+        mapboxglMapHasData: false,
         /**
          * @member {Object} summaryData=null
          */
@@ -117,9 +121,9 @@ class MainContainerController extends ComponentController {
             activeTab.store.data = data;
         }
 
-        else if (reference === 'openstreetmap') {
+        else if (reference === 'mapboxglmap') {
             activeTab.data = data;
-            me.openstreetMapHasData = true;
+            me.mapboxglMapHasData = true;
         }
 
         else if (reference === 'worldmap') {
@@ -292,6 +296,8 @@ class MainContainerController extends ComponentController {
      *
      */
     onCountryFieldClear() {
+        this.countryRecord = null;
+
         Neo.Main.editRoute({
             country: null
         });
@@ -302,6 +308,8 @@ class MainContainerController extends ComponentController {
      * @param {Object} data
      */
     onCountryFieldSelect(data) {
+        this.countryRecord = data.record;
+
         Neo.Main.editRoute({
             country: data.value
         });
@@ -337,18 +345,30 @@ class MainContainerController extends ComponentController {
             delaySelection = 500;
         }
 
-        if (activeView.ntype === 'covid-openstreet-map' && me.data) {
-            if (!me.openstreetMapHasData) {
+        if (activeView.ntype === 'covid-mapboxgl-map' && me.data) {
+            if (!me.mapboxglMapHasData) {
                 activeView.data = me.data;
-                me.openstreetMapHasData = true;
+                me.mapboxglMapHasData = true;
             }
+
+            // console.log(countryField.getRecord());
+
+            if (me.countryRecord) {
+                activeView.flyTo({
+                    lat: me.countryRecord.countryInfo.lat,
+                    lng: me.countryRecord.countryInfo.long
+                });
+
+                activeView.zoom = 5; // todo: we could use a different value for big countries (Russia, USA,...)
+            }
+
+            activeView.autoResize();
         } else if (activeView.ntype === 'covid-world-map' && me.data) {
             if (!me.worldMapHasData) {
                 activeView.loadData(me.data);
                 me.worldMapHasData = true;
             }
         } else {
-
             // todo: instead of a timeout this should add a store load listener (single: true)
             setTimeout(() => {
                 if (me.data) {
@@ -446,7 +466,14 @@ class MainContainerController extends ComponentController {
      * @param {Object} data
      */
     onRemoveFooterButtonClick(data) {
-        this.view.remove(this.getReference('footer'), true);
+        const me        = this,
+              activeTab = me.getReference('tab-container').getActiveCard();
+
+        me.view.remove(me.getReference('footer'), true);
+
+        if (activeTab.ntype === 'covid-mapboxgl-map') {
+            me.getReference('mapboxglmap').autoResize();
+        }
     }
 
     /**
@@ -457,20 +484,23 @@ class MainContainerController extends ComponentController {
             button   = data.component,
             logo     = me.getReference('logo'),
             logoPath = 'https://raw.githubusercontent.com/neomjs/pages/master/resources/images/apps/covid/',
+            mapView  = me.getReference('mapboxglmap'),
             vdom     = logo.vdom,
             view     = me.view,
-            buttonText, cls, href, iconCls, theme;
+            buttonText, cls, href, iconCls, mapViewStyle, theme;
 
         if (button.text === 'Theme Light') {
-            buttonText = 'Theme Dark';
-            href       = '../dist/development/neo-theme-light-no-css4.css';
-            iconCls    = 'fa fa-moon';
-            theme      = 'neo-theme-light';
+            buttonText   = 'Theme Dark';
+            href         = '../dist/development/neo-theme-light-no-css4.css';
+            iconCls      = 'fa fa-moon';
+            mapViewStyle = mapView.mapboxStyleLight;
+            theme        = 'neo-theme-light';
         } else {
-            buttonText = 'Theme Light';
-            href       = '../dist/development/neo-theme-dark-no-css4.css';
-            iconCls    = 'fa fa-sun';
-            theme      = 'neo-theme-dark';
+            buttonText   = 'Theme Light';
+            href         = '../dist/development/neo-theme-dark-no-css4.css';
+            iconCls      = 'fa fa-sun';
+            mapViewStyle = mapView.mapboxStyleDark;
+            theme        = 'neo-theme-dark';
         }
 
         vdom.src = logoPath + (theme === 'neo-theme-dark' ? 'covid_logo_dark.jpg' : 'covid_logo_light.jpg');
@@ -480,7 +510,7 @@ class MainContainerController extends ComponentController {
         if (Neo.config.useCss4) {
             cls = [...view.cls];
 
-            view.cls.forEach((item, index) => {
+            view.cls.forEach(item => {
                 if (item.includes('neo-theme')) {
                     NeoArray.remove(cls, item);
                 }
@@ -501,6 +531,8 @@ class MainContainerController extends ComponentController {
                 button.text = buttonText;
             });
         }
+
+        mapView.mapboxStyle = mapViewStyle;
     }
 
     /**

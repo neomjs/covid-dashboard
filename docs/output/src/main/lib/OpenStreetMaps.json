@@ -1,0 +1,554 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * Helper class to include OpenStreetMaps into your neo.mjs app\n * https://docs.mapbox.com/mapbox-gl-js/overview/\n * @class Neo.main.lib.OpenStreetMaps\n * @extends Neo.core.Base\n * @singleton\n */",
+            "meta": {
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 4,
+                "columnno": 0,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {}
+            },
+            "description": "Helper class to include OpenStreetMaps into your neo.mjs app<br />https://docs.mapbox.com/mapbox-gl-js/overview/",
+            "kind": "class",
+            "name": "OpenStreetMaps",
+            "augments": [
+                "Neo.core.Base"
+            ],
+            "tags": [
+                {
+                    "originalTitle": "singleton",
+                    "title": "singleton",
+                    "text": ""
+                }
+            ],
+            "memberof": "Neo.main.lib",
+            "longname": "Neo.main.lib.OpenStreetMaps",
+            "scope": "static",
+            "$longname": "Neo.main.lib.OpenStreetMaps",
+            "$kind": "class",
+            "id": 1408,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Neo.main.lib.OpenStreetMaps'\n         * @private\n         */",
+            "meta": {
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 17,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Neo.main.lib.OpenStreetMaps'",
+            "access": "private",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 1409,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        },
+        {
+            "comment": "/**\n         * Stores all map data inside an object. key => map id\n         * No array since in case a map gets loaded multiple times, we only want to apply the last data on mount.\n         * @member {Object} dataMap={}\n         * @private\n         */",
+            "meta": {
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 24,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {}
+            },
+            "description": "Stores all map data inside an object. key => map id<br />No array since in case a map gets loaded multiple times, we only want to apply the last data on mount.",
+            "kind": "member",
+            "name": "dataMap",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": "> map id",
+            "access": "private",
+            "longname": "dataMap",
+            "scope": "global",
+            "$longname": "dataMap",
+            "$kind": "property",
+            "id": 1410,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        },
+        {
+            "comment": "/**\n         * @member {String} downloadPath='https://api.mapbox.com/mapbox-gl-js/'\n         * @private\n         */",
+            "meta": {
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 29,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "downloadPath",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'https://api.mapbox.com/mapbox-gl-js/'",
+            "access": "private",
+            "longname": "downloadPath",
+            "scope": "global",
+            "$longname": "downloadPath",
+            "$kind": "property",
+            "id": 1411,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        },
+        {
+            "comment": "/**\n         * Stores all map ids inside an object\n         * @member {Object} maps={}\n         * @private\n         */",
+            "meta": {
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 35,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {}
+            },
+            "description": "Stores all map ids inside an object",
+            "kind": "member",
+            "name": "maps",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": "{}",
+            "access": "private",
+            "longname": "maps",
+            "scope": "global",
+            "$longname": "maps",
+            "$kind": "property",
+            "id": 1412,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        },
+        {
+            "comment": "/**\n         * Stores all map config objects which arrived before the map lib scripts got loaded\n         * @member {Object[]} mapsToCreate=[]\n         * @private\n         */",
+            "meta": {
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 41,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {}
+            },
+            "description": "Stores all map config objects which arrived before the map lib scripts got loaded",
+            "kind": "member",
+            "name": "mapsToCreate",
+            "type": {
+                "names": [
+                    "Array.<Object>"
+                ]
+            },
+            "defaultvalue": "[]",
+            "access": "private",
+            "longname": "mapsToCreate",
+            "scope": "global",
+            "$longname": "mapsToCreate",
+            "$kind": "property",
+            "id": 1413,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        },
+        {
+            "comment": "/**\n         * @member {Boolean} scriptsLoaded_=true\n         * @private\n         */",
+            "meta": {
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 46,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "scriptsLoaded_",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "access": "private",
+            "longname": "scriptsLoaded_",
+            "scope": "global",
+            "$longname": "scriptsLoaded_",
+            "$kind": "property",
+            "id": 1414,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        },
+        {
+            "comment": "/**\n         * @member {Boolean} singleton=true\n         * @private\n         */",
+            "meta": {
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 51,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "singleton",
+            "type": {
+                "names": [
+                    "Boolean"
+                ]
+            },
+            "defaultvalue": true,
+            "access": "private",
+            "longname": "singleton",
+            "scope": "global",
+            "$longname": "singleton",
+            "$kind": "property",
+            "id": 1415,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        },
+        {
+            "comment": "/**\n         * Remote method access for other workers\n         * @member {Object} remote\n         * @private\n         */",
+            "meta": {
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 57,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {}
+            },
+            "description": "Remote method access for other workers",
+            "kind": "member",
+            "name": "remote",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "access": "private",
+            "longname": "remote",
+            "scope": "global",
+            "$longname": "remote",
+            "$kind": "property",
+            "id": 1416,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        },
+        {
+            "comment": "/**\n         * @member {String} version='v1.8.1'\n         * @private\n         */",
+            "meta": {
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 67,
+                "columnno": 8,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "version",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'v1.8.1'",
+            "access": "private",
+            "longname": "version",
+            "scope": "global",
+            "$longname": "version",
+            "$kind": "property",
+            "id": 1417,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} config\n     */",
+            "meta": {
+                "range": [
+                    2004,
+                    2157
+                ],
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 74,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {
+                    "id": "astnode100042284",
+                    "name": "OpenStreetMaps",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "config"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "config"
+                }
+            ],
+            "name": "OpenStreetMaps",
+            "longname": "OpenStreetMaps",
+            "kind": "class",
+            "scope": "global",
+            "$longname": "OpenStreetMaps",
+            "$kind": "constructor",
+            "id": 1418,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        },
+        {
+            "comment": "/**\n     * Triggered after the scriptsLoaded config got changed\n     * @param {Boolean} value\n     * @param {Boolean} oldValue\n     * @private\n     */",
+            "meta": {
+                "range": [
+                    2318,
+                    2796
+                ],
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 88,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {
+                    "id": "astnode100042305",
+                    "name": "OpenStreetMaps#afterSetScriptsLoaded",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "value",
+                        "oldValue"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "description": "Triggered after the scriptsLoaded config got changed",
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "value"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "name": "oldValue"
+                }
+            ],
+            "access": "private",
+            "name": "afterSetScriptsLoaded",
+            "longname": "OpenStreetMaps#afterSetScriptsLoaded",
+            "kind": "function",
+            "memberof": "OpenStreetMaps",
+            "scope": "instance",
+            "$longname": "OpenStreetMaps#afterSetScriptsLoaded",
+            "$kind": "method",
+            "id": 1419,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.id\n     */",
+            "meta": {
+                "range": [
+                    2884,
+                    3512
+                ],
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 113,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {
+                    "id": "astnode100042372",
+                    "name": "OpenStreetMaps#create",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "data.id"
+                }
+            ],
+            "name": "create",
+            "longname": "OpenStreetMaps#create",
+            "kind": "function",
+            "memberof": "OpenStreetMaps",
+            "scope": "instance",
+            "$longname": "OpenStreetMaps#create",
+            "$kind": "method",
+            "id": 1420,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {String} id\n     * @return {Boolean}\n     */",
+            "meta": {
+                "range": [
+                    3592,
+                    3642
+                ],
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 139,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {
+                    "id": "astnode100042453",
+                    "name": "OpenStreetMaps#hasMap",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "id"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "id"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    }
+                }
+            ],
+            "name": "hasMap",
+            "longname": "OpenStreetMaps#hasMap",
+            "kind": "function",
+            "memberof": "OpenStreetMaps",
+            "scope": "instance",
+            "$longname": "OpenStreetMaps#hasMap",
+            "$kind": "method",
+            "id": 1421,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        },
+        {
+            "comment": "/**\n     *\n     */",
+            "meta": {
+                "range": [
+                    4032,
+                    6640
+                ],
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 158,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {
+                    "id": "astnode100042516",
+                    "name": "OpenStreetMaps#onMapLoaded",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "event"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "name": "onMapLoaded",
+            "longname": "OpenStreetMaps#onMapLoaded",
+            "kind": "function",
+            "memberof": "OpenStreetMaps",
+            "scope": "instance",
+            "params": [],
+            "$longname": "OpenStreetMaps#onMapLoaded",
+            "$kind": "method",
+            "id": 1422,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     * @param {Object} data.data\n     * @param {String} data.id\n     */",
+            "meta": {
+                "range": [
+                    6761,
+                    7167
+                ],
+                "filename": "OpenStreetMaps.mjs",
+                "lineno": 239,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/lib",
+                "code": {
+                    "id": "astnode100042635",
+                    "name": "OpenStreetMaps#updateData",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data.data"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "data.id"
+                }
+            ],
+            "name": "updateData",
+            "longname": "OpenStreetMaps#updateData",
+            "kind": "function",
+            "memberof": "OpenStreetMaps",
+            "scope": "instance",
+            "$longname": "OpenStreetMaps#updateData",
+            "$kind": "method",
+            "id": 1423,
+            "neoClassName": "Neo.main.lib.OpenStreetMaps"
+        }
+    ]
+}

@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.Date",
             "$kind": "class",
-            "id": 819,
+            "id": 835,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 820,
+            "id": 836,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 821,
+            "id": 837,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 822,
+            "id": 838,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -119,7 +119,7 @@
             "scope": "global",
             "$longname": "dateSelector",
             "$kind": "property",
-            "id": 823,
+            "id": 839,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -144,7 +144,7 @@
             "scope": "global",
             "$longname": "dateSelectorConfig",
             "$kind": "property",
-            "id": 824,
+            "id": 840,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -169,7 +169,7 @@
             "scope": "global",
             "$longname": "hidePickerOnSelect",
             "$kind": "property",
-            "id": 825,
+            "id": 841,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -193,7 +193,7 @@
             "scope": "global",
             "$longname": "inputType",
             "$kind": "property",
-            "id": 826,
+            "id": 842,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -217,7 +217,7 @@
             "scope": "global",
             "$longname": "pickerHeight",
             "$kind": "property",
-            "id": 827,
+            "id": 843,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -241,7 +241,7 @@
             "scope": "global",
             "$longname": "pickerWidth",
             "$kind": "property",
-            "id": 828,
+            "id": 844,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -268,7 +268,7 @@
             "scope": "global",
             "$longname": "triggers",
             "$kind": "property",
-            "id": 829,
+            "id": 845,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -283,7 +283,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100027007",
+                    "id": "astnode100027282",
                     "name": "Date",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -305,7 +305,7 @@
             "scope": "global",
             "$longname": "Date",
             "$kind": "constructor",
-            "id": 830,
+            "id": 846,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -320,7 +320,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100027077",
+                    "id": "astnode100027352",
                     "name": "Date#createPickerComponent",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -346,7 +346,7 @@
             "params": [],
             "$longname": "Date#createPickerComponent",
             "$kind": "method",
-            "id": 831,
+            "id": 847,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -361,7 +361,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100027085",
+                    "id": "astnode100027360",
                     "name": "Date#onContainerKeyDownEscape",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -388,7 +388,7 @@
             "scope": "instance",
             "$longname": "Date#onContainerKeyDownEscape",
             "$kind": "method",
-            "id": 832,
+            "id": 848,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -403,7 +403,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100027107",
+                    "id": "astnode100027382",
                     "name": "Date#onDatePickerChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -431,7 +431,7 @@
             "scope": "instance",
             "$longname": "Date#onDatePickerChange",
             "$kind": "method",
-            "id": 833,
+            "id": 849,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -446,7 +446,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100027164",
+                    "id": "astnode100027439",
                     "name": "Date#onKeyDownEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -475,7 +475,7 @@
             "scope": "instance",
             "$longname": "Date#onKeyDownEnter",
             "$kind": "method",
-            "id": 834,
+            "id": 850,
             "neoClassName": "Neo.form.field.Date"
         },
         {
@@ -490,7 +490,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100027206",
+                    "id": "astnode100027481",
                     "name": "Date#onInputValueChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -519,7 +519,7 @@
             "scope": "instance",
             "$longname": "Date#onInputValueChange",
             "$kind": "method",
-            "id": 835,
+            "id": 851,
             "neoClassName": "Neo.form.field.Date"
         }
     ]

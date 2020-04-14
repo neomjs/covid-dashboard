@@ -24,7 +24,7 @@
             "scope": "static",
             "$longname": "Neo.core.IdGenerator",
             "$kind": "class",
-            "id": 620,
+            "id": 636,
             "neoClassName": "Neo.core.IdGenerator"
         },
         {
@@ -50,7 +50,7 @@
             "longname": "registerToGlobalNs",
             "$longname": "registerToGlobalNs",
             "$kind": "property",
-            "id": 621,
+            "id": 637,
             "neoClassName": "Neo.core.IdGenerator"
         },
         {
@@ -75,7 +75,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 622,
+            "id": 638,
             "neoClassName": "Neo.core.IdGenerator"
         },
         {
@@ -100,7 +100,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 623,
+            "id": 639,
             "neoClassName": "Neo.core.IdGenerator"
         },
         {
@@ -125,7 +125,7 @@
             "scope": "global",
             "$longname": "base",
             "$kind": "property",
-            "id": 624,
+            "id": 640,
             "neoClassName": "Neo.core.IdGenerator"
         },
         {
@@ -150,7 +150,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 625,
+            "id": 641,
             "neoClassName": "Neo.core.IdGenerator"
         },
         {
@@ -165,7 +165,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100022703",
+                    "id": "astnode100022978",
                     "name": "IdGenerator",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -187,7 +187,7 @@
             "scope": "global",
             "$longname": "IdGenerator",
             "$kind": "constructor",
-            "id": 626,
+            "id": 642,
             "neoClassName": "Neo.core.IdGenerator"
         },
         {
@@ -202,7 +202,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100022738",
+                    "id": "astnode100023013",
                     "name": "IdGenerator#getId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -234,7 +234,7 @@
             "scope": "instance",
             "$longname": "IdGenerator#getId",
             "$kind": "method",
-            "id": 627,
+            "id": 643,
             "neoClassName": "Neo.core.IdGenerator"
         }
     ]

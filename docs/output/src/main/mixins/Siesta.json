@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.main.mixins.Siesta",
             "$kind": "class",
-            "id": 1452,
+            "id": 1481,
             "neoClassName": "Neo.main.mixins.Siesta"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1453,
+            "id": 1482,
             "neoClassName": "Neo.main.mixins.Siesta"
         },
         {
@@ -67,7 +67,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixins",
                 "code": {
-                    "id": "astnode100044003",
+                    "id": "astnode100044787",
                     "name": "Siesta#adjustSiestaEnvironment",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -85,7 +85,7 @@
             "params": [],
             "$longname": "Siesta#adjustSiestaEnvironment",
             "$kind": "method",
-            "id": 1454,
+            "id": 1483,
             "neoClassName": "Neo.main.mixins.Siesta"
         }
     ]
