@@ -61,7 +61,8 @@ class TableContainerController extends ComponentController {
               dataArray = [],
               map       = {};
 
-        let timeline  = data && data.timeline;
+        let timeline  = data && data.timeline,
+            nextItem;
 
         // https://github.com/NovelCOVID/API/issues/309 // different format for 'all'
         if (data && !data.timeline) {
@@ -104,10 +105,50 @@ class TableContainerController extends ComponentController {
                 });
             }
 
+            // the array is sorted by date ASC
+            Object.assign(dataArray[0], {
+                dailyActive   : dataArray[0].active,
+                dailyCases    : dataArray[0].cases,
+                dailyDeaths   : dataArray[0].deaths,
+                dailyRecovered: dataArray[0].recovered
+            });
+
+            dataArray.forEach((item, index) => {
+                nextItem = dataArray[index + 1];
+
+                if (nextItem) {
+                    Object.assign(nextItem, {
+                        dailyActive   : nextItem.active    - item.active,
+                        dailyCases    : nextItem.cases     - item.cases,
+                        dailyDeaths   : nextItem.deaths    - item.deaths,
+                        dailyRecovered: nextItem.recovered - item.recovered
+                    });
+                }
+            });
+
             // todo: we could only update the active tab
             me.getReference('historical-data-table').store.data = dataArray;
             me.updateLineChart(dataArray);
         }
+    }
+
+    /**
+     *
+     * @param {Object} record
+     * @private
+     * @return {Object}
+     */
+    static assignFieldsOrNull(record) {
+        return {
+            active        : record.active         || null,
+            cases         : record.cases          || null,
+            deaths        : record.deaths         || null,
+            dailyActive   : record.dailyActive    || null,
+            dailyCases    : record.dailyCases     || null,
+            dailyDeaths   : record.dailyDeaths    || null,
+            dailyRecovered: record.dailyRecovered || null,
+            recovered     : record.recovered      || null
+        };
     }
 
     /**
@@ -166,6 +207,39 @@ class TableContainerController extends ComponentController {
     /**
      * {Object} data
      */
+    onDailyValuesChange(data) {
+        const chartId     = this.getReference('line-chart').id,
+              logCheckbox = this.getReference('logarithmic-scale-checkbox'),
+              value       = data.value;
+
+        if (value) {
+            logCheckbox.set({
+                checked : false,
+                disabled: data.value
+            });
+        } else {
+            logCheckbox.disabled = false;
+        }
+
+        Neo.main.lib.AmCharts.setProperties({
+            id        : chartId,
+            properties: {
+                'series.values.0.dataFields.valueY' : value ? 'dailyActive'    : 'active',
+                'series.values.1.dataFields.valueY' : value ? 'dailyCases'     : 'cases',
+                'series.values.2.dataFields.valueY' : value ? 'dailyDeaths'    : 'deaths',
+                'series.values.3.dataFields.valueY' : value ? 'dailyRecovered' : 'recovered'
+            }
+        });
+
+        Neo.main.lib.AmCharts.callMethod({
+            id  : chartId,
+            path: 'invalidateData'
+        });
+    }
+
+    /**
+     * {Object} data
+     */
     onLogarithmicScaleChange(data) {
         Neo.main.lib.AmCharts.setProperty({
             id   : this.getReference('line-chart').id,
@@ -204,12 +278,7 @@ class TableContainerController extends ComponentController {
             record = me.selectedRecord,
             chart  = me.getReference('line-chart');
 
-        dataArray.forEach(item => {
-            item.active    = item.active    || null;
-            item.cases     = item.cases     || null;
-            item.deaths    = item.deaths    || null;
-            item.recovered = item.recovered || null;
-        });
+        dataArray.forEach(item => Object.assign(item, TableContainerController.assignFieldsOrNull(item)));
 
         if (!record) {
             record = me.getParent().summaryData;
@@ -218,11 +287,7 @@ class TableContainerController extends ComponentController {
         if (record) {
             dataArray.push({
                 date: new Date().toISOString(),
-
-                active   : record.active    || null,
-                cases    : record.cases     || null,
-                deaths   : record.deaths    || null,
-                recovered: record.recovered || null
+                ...TableContainerController.assignFieldsOrNull(record)
             });
         }
 

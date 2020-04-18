@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Covid.Util",
             "$kind": "class",
-            "id": 2261,
+            "id": 2268,
             "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
         },
         {
@@ -46,7 +46,7 @@
             "longname": "locales",
             "$longname": "locales",
             "$kind": "property",
-            "id": 2262,
+            "id": 2269,
             "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
         },
         {
@@ -71,7 +71,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 2263,
+            "id": 2270,
             "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
         },
         {
@@ -86,7 +86,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/apps/covid",
                 "code": {
-                    "id": "astnode100074232",
+                    "id": "astnode100074557",
                     "name": "Util.formatInfected",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -132,7 +132,7 @@
             "scope": "static",
             "$longname": "Util.formatInfected",
             "$kind": "method",
-            "id": 2264,
+            "id": 2271,
             "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
         },
         {
@@ -147,7 +147,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/apps/covid",
                 "code": {
-                    "id": "astnode100074285",
+                    "id": "astnode100074610",
                     "name": "Util.formatNumber",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -203,7 +203,7 @@
             "scope": "static",
             "$longname": "Util.formatNumber",
             "$kind": "method",
-            "id": 2265,
+            "id": 2272,
             "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
         },
         {
@@ -218,7 +218,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/apps/covid",
                 "code": {
-                    "id": "astnode100074330",
+                    "id": "astnode100074655",
                     "name": "Util.indexRenderer",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -263,7 +263,7 @@
             "scope": "static",
             "$longname": "Util.indexRenderer",
             "$kind": "method",
-            "id": 2266,
+            "id": 2273,
             "neoClassName": "Neo..Users.Shared.github.covid-dashboard.apps.covidUtil"
         }
     ]

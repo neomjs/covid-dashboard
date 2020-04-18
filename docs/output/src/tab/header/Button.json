@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.tab.header.Button",
             "$kind": "class",
-            "id": 1774,
+            "id": 1781,
             "neoClassName": "Neo.tab.header.Button"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1775,
+            "id": 1782,
             "neoClassName": "Neo.tab.header.Button"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1776,
+            "id": 1783,
             "neoClassName": "Neo.tab.header.Button"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1777,
+            "id": 1784,
             "neoClassName": "Neo.tab.header.Button"
         },
         {
@@ -118,7 +118,7 @@
             "scope": "global",
             "$longname": "useActiveTabIndicator_",
             "$kind": "property",
-            "id": 1778,
+            "id": 1785,
             "neoClassName": "Neo.tab.header.Button"
         },
         {
@@ -141,7 +141,7 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1779,
+            "id": 1786,
             "neoClassName": "Neo.tab.header.Button"
         },
         {
@@ -156,7 +156,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab/header",
                 "code": {
-                    "id": "astnode100057254",
+                    "id": "astnode100057517",
                     "name": "Button#afterSetUseActiveTabIndicator",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -195,7 +195,7 @@
             "scope": "instance",
             "$longname": "Button#afterSetUseActiveTabIndicator",
             "$kind": "method",
-            "id": 1780,
+            "id": 1787,
             "neoClassName": "Neo.tab.header.Button"
         },
         {
@@ -210,7 +210,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tab/header",
                 "code": {
-                    "id": "astnode100057265",
+                    "id": "astnode100057528",
                     "name": "Button#updateUseActiveTabIndicator",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -240,7 +240,7 @@
             "scope": "instance",
             "$longname": "Button#updateUseActiveTabIndicator",
             "$kind": "method",
-            "id": 1781,
+            "id": 1788,
             "neoClassName": "Neo.tab.header.Button"
         }
     ]

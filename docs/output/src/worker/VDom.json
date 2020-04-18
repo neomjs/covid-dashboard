@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.worker.VDom",
             "$kind": "class",
-            "id": 2117,
+            "id": 2124,
             "neoClassName": "Neo.worker.VDom"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 2118,
+            "id": 2125,
             "neoClassName": "Neo.worker.VDom"
         },
         {
@@ -77,7 +77,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 2119,
+            "id": 2126,
             "neoClassName": "Neo.worker.VDom"
         },
         {
@@ -102,7 +102,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 2120,
+            "id": 2127,
             "neoClassName": "Neo.worker.VDom"
         },
         {
@@ -127,7 +127,7 @@
             "scope": "global",
             "$longname": "workerId",
             "$kind": "property",
-            "id": 2121,
+            "id": 2128,
             "neoClassName": "Neo.worker.VDom"
         }
     ]

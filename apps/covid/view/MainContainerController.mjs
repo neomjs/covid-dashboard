@@ -33,13 +33,13 @@ class MainContainerController extends ComponentController {
          */
         activeMainTabIndex: 0,
         /**
-         * @member {String} apiUrl='https://corona.lmao.ninja/countries'
+         * @member {String} apiUrl='https://corona.lmao.ninja/v2/countries'
          */
-        apiUrl: 'https://corona.lmao.ninja/countries',
+        apiUrl: 'https://corona.lmao.ninja/v2/countries',
         /**
-         * @member {String} apiSummaryUrl='https://corona.lmao.ninja/all'
+         * @member {String} apiSummaryUrl='https://corona.lmao.ninja/v2/all'
          */
-        apiSummaryUrl: 'https://corona.lmao.ninja/all',
+        apiSummaryUrl: 'https://corona.lmao.ninja/v2/all',
         /**
          * @member {Object|null} countryRecord=null
          */
@@ -107,7 +107,7 @@ class MainContainerController extends ComponentController {
                 item.country = item.country.replace('"', "\'");
             }
 
-            item.casesPerOneMillion = item.casesPerOneMillion || 0;
+            item.casesPerOneMillion = item.casesPerOneMillion > item.cases ? 'N/A' : item.casesPerOneMillion || 0;
             item.infected           = item.casesPerOneMillion;
         });
 
@@ -122,7 +122,7 @@ class MainContainerController extends ComponentController {
         }
 
         else if (reference === 'mapboxglmap') {
-            activeTab.data = data;
+            me.getReference('mapboxglmap').data = data;
             me.mapboxglMapHasData = true;
         }
 
@@ -322,13 +322,13 @@ class MainContainerController extends ComponentController {
      * @param {String} hashString
      */
     onHashChange(value, oldValue, hashString) {
-        let me             = this,
-            activeIndex    = me.getTabIndex(value),
-            countryField   = me.getReference('country-field'),
-            tabContainer   = me.getReference('tab-container'),
-            activeView     = me.getView(activeIndex),
-            selectionModel = activeView.selectionModel,
-            delaySelection = !me.data ? 1000 : tabContainer.activeIndex !== activeIndex ? 100 : 0,
+        let me                = this,
+            activeIndex       = me.getTabIndex(value),
+            countryField      = me.getReference('country-field'),
+            tabContainer      = me.getReference('tab-container'),
+            activeView        = me.getView(activeIndex),
+            selectionModel    = activeView.selectionModel,
+            delaySelection    = !me.data ? 1000 : tabContainer.activeIndex !== activeIndex ? 100 : 0,
             id;
 
         tabContainer.activeIndex = activeIndex;
@@ -345,7 +345,14 @@ class MainContainerController extends ComponentController {
             delaySelection = 500;
         }
 
-        if (activeView.ntype === 'covid-mapboxgl-map' && me.data) {
+        // todo: https://github.com/neomjs/neo/issues/483
+        // quick hack. selectionModels update the vdom of the table.Container.
+        // if table.View is vdom updating, this can result in a 2x rendering of all rows.
+        if (delaySelection === 1000 && activeView.ntype === 'table-container') {
+            delaySelection = 2000;
+        }
+
+        if (activeView.ntype === 'mapboxgl' && me.data) {
             if (!me.mapboxglMapHasData) {
                 activeView.data = me.data;
                 me.mapboxglMapHasData = true;
@@ -354,12 +361,7 @@ class MainContainerController extends ComponentController {
             // console.log(countryField.getRecord());
 
             if (me.countryRecord) {
-                activeView.flyTo({
-                    lat: me.countryRecord.countryInfo.lat,
-                    lng: me.countryRecord.countryInfo.long
-                });
-
-                activeView.zoom = 5; // todo: we could use a different value for big countries (Russia, USA,...)
+                MainContainerController.selectMapboxGlCountry(activeView, me.countryRecord);
             }
 
             activeView.autoResize();
@@ -471,7 +473,7 @@ class MainContainerController extends ComponentController {
 
         me.view.remove(me.getReference('footer'), true);
 
-        if (activeTab.ntype === 'covid-mapboxgl-map') {
+        if (activeTab.ntype === 'covid-mapboxgl-container') {
             me.getReference('mapboxglmap').autoResize();
         }
     }
@@ -533,6 +535,33 @@ class MainContainerController extends ComponentController {
         }
 
         mapView.mapboxStyle = mapViewStyle;
+    }
+
+    /**
+     *
+     * @param view
+     * @param record
+     */
+    static selectMapboxGlCountry(view, record) {console.log(record.countryInfo.iso2);
+        // https://github.com/neomjs/neo/issues/490
+        // there are missing iso2&3 values on natural earth vector
+        const map = {
+            FRA    : ['match', ['get', 'NAME'], ['France'], true, false],
+            NOR    : ['match', ['get', 'NAME'], ['Norway'], true, false],
+            default: ['match', ['get', 'ISO_A3'], [record.countryInfo.iso3], true, false]
+        };
+
+        view.setFilter({
+            layerId: 'ne-10m-admin-0-countries-4s7rvf',
+            value  : map[record.countryInfo.iso3] || map['default']
+        });
+        
+        view.flyTo({
+            lat: record.countryInfo.lat,
+            lng: record.countryInfo.long
+        });
+
+        view.zoom = 5; // todo: we could use a different value for big countries (Russia, USA,...)
     }
 
     /**

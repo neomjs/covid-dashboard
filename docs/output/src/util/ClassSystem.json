@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.util.ClassSystem",
             "$kind": "class",
-            "id": 1934,
+            "id": 1941,
             "neoClassName": "Neo.util.ClassSystem"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1935,
+            "id": 1942,
             "neoClassName": "Neo.util.ClassSystem"
         },
         {
@@ -59,7 +59,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100061312",
+                    "id": "astnode100061617",
                     "name": "ClassSystem.beforeSetInstance",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -122,7 +122,7 @@
             "scope": "static",
             "$longname": "ClassSystem.beforeSetInstance",
             "$kind": "method",
-            "id": 1936,
+            "id": 1943,
             "neoClassName": "Neo.util.ClassSystem"
         }
     ]

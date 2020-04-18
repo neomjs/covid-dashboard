@@ -17,7 +17,7 @@
             "scope": "static",
             "$longname": "Neo.vdom.VNode",
             "$kind": "class",
-            "id": 2036,
+            "id": 2043,
             "neoClassName": "Neo.vdom.VNode"
         },
         {
@@ -32,7 +32,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/vdom",
                 "code": {
-                    "id": "astnode100066863",
+                    "id": "astnode100067168",
                     "name": "VNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -54,7 +54,7 @@
             "scope": "global",
             "$longname": "VNode",
             "$kind": "constructor",
-            "id": 2037,
+            "id": 2044,
             "neoClassName": "Neo.vdom.VNode"
         },
         {
@@ -78,7 +78,7 @@
             "scope": "global",
             "$longname": "attributes",
             "$kind": "property",
-            "id": 2038,
+            "id": 2045,
             "neoClassName": "Neo.vdom.VNode"
         },
         {
@@ -102,7 +102,7 @@
             "scope": "global",
             "$longname": "childNodes",
             "$kind": "property",
-            "id": 2039,
+            "id": 2046,
             "neoClassName": "Neo.vdom.VNode"
         },
         {
@@ -126,7 +126,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 2040,
+            "id": 2047,
             "neoClassName": "Neo.vdom.VNode"
         },
         {
@@ -150,7 +150,7 @@
             "scope": "global",
             "$longname": "id",
             "$kind": "property",
-            "id": 2041,
+            "id": 2048,
             "neoClassName": "Neo.vdom.VNode"
         },
         {
@@ -173,7 +173,7 @@
             "scope": "global",
             "$longname": "innerHTML",
             "$kind": "property",
-            "id": 2042,
+            "id": 2049,
             "neoClassName": "Neo.vdom.VNode"
         },
         {
@@ -196,7 +196,7 @@
             "scope": "global",
             "$longname": "nodeName",
             "$kind": "property",
-            "id": 2043,
+            "id": 2050,
             "neoClassName": "Neo.vdom.VNode"
         },
         {
@@ -219,7 +219,7 @@
             "scope": "global",
             "$longname": "style",
             "$kind": "property",
-            "id": 2044,
+            "id": 2051,
             "neoClassName": "Neo.vdom.VNode"
         },
         {
@@ -243,7 +243,7 @@
             "scope": "global",
             "$longname": "vtype",
             "$kind": "property",
-            "id": 2045,
+            "id": 2052,
             "neoClassName": "Neo.vdom.VNode"
         }
     ]

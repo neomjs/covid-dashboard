@@ -304,7 +304,7 @@
             "comment": "/**\n         *\n         * @member {Number} zoom_=3\n         */",
             "meta": {
                 "filename": "MapboxGL.mjs",
-                "lineno": 82,
+                "lineno": 80,
                 "columnno": 8,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {}
@@ -328,11 +328,11 @@
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    2558,
-                    2617
+                    2513,
+                    2572
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 88,
+                "lineno": 86,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -360,11 +360,11 @@
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    2646,
-                    2723
+                    2601,
+                    2678
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 95,
+                "lineno": 93,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -392,11 +392,11 @@
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    2752,
-                    3162
+                    2707,
+                    3117
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 102,
+                "lineno": 100,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -424,11 +424,11 @@
             "comment": "/**\n     * Triggered after the center config got changed\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    3314,
-                    3384
+                    3269,
+                    3339
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 124,
+                "lineno": 122,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -478,11 +478,11 @@
             "comment": "/**\n     * Triggered after the data config got changed\n     * @param {Array|null} value\n     * @param {Array|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    3542,
-                    3797
+                    3497,
+                    3752
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 134,
+                "lineno": 132,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -534,11 +534,11 @@
             "comment": "/**\n     * Triggered after the layers config got changed\n     * @param {Object[]|null} value\n     * @param {Object[]|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    3963,
-                    4158
+                    3918,
+                    4113
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 150,
+                "lineno": 148,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -590,11 +590,11 @@
             "comment": "/**\n     * Triggered after the mapboxStyle config got changed\n     * @param {Object|String} value\n     * @param {Object|String} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    4329,
-                    4592
+                    4284,
+                    4547
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 165,
+                "lineno": 163,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -646,11 +646,11 @@
             "comment": "/**\n     * Triggered after the sources config got changed\n     * @param {Object[]|null} value\n     * @param {Object[]|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    4759,
-                    4958
+                    4714,
+                    4913
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 181,
+                "lineno": 179,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -702,11 +702,11 @@
             "comment": "/**\n     * Triggered after the zoom config got changed\n     * @param {Number} value\n     * @param {Number} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    5108,
-                    5299
+                    5063,
+                    5254
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 196,
+                "lineno": 194,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -756,11 +756,11 @@
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    5328,
-                    5427
+                    5283,
+                    5382
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 208,
+                "lineno": 206,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -788,11 +788,11 @@
             "comment": "/**\n     * Triggered before the center config gets changed.\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    5582,
-                    5757
+                    5537,
+                    5712
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 220,
+                "lineno": 218,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -842,11 +842,11 @@
             "comment": "/**\n     * Triggered before the data config gets changed.\n     * @param {Array|null} value\n     * @param {Array|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    5918,
-                    6089
+                    5873,
+                    6044
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 235,
+                "lineno": 233,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -898,11 +898,11 @@
             "comment": "/**\n     * Use component.center = {} or component.flyTo() instead\n     * @param {Object} value\n     * @param {Number} value.lat\n     * @param {Number} value.lng\n     * @param {Boolean} animate=false\n     * @private\n     */",
             "meta": {
                 "range": [
-                    6322,
-                    6535
+                    6277,
+                    6490
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 251,
+                "lineno": 249,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -969,11 +969,11 @@
             "comment": "/**\n     *\n     * @param {Object[]} data\n     * @return {Object} Object matching the geojson format\n     */",
             "meta": {
                 "range": [
-                    6653,
-                    7487
+                    6608,
+                    7442
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 265,
+                "lineno": 263,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -1022,11 +1022,11 @@
             "comment": "/**\n     *\n     * @param {Object} value\n     * @param {Number} value.lat\n     * @param {Number} value.lng\n     */",
             "meta": {
                 "range": [
-                    7611,
-                    7840
+                    7566,
+                    7795
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 301,
+                "lineno": 299,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -1081,11 +1081,11 @@
             "comment": "/**\n     * Override this method to trigger logic after the map got mounted into the dom\n     */",
             "meta": {
                 "range": [
-                    7946,
-                    7969
+                    7901,
+                    7924
                 ],
                 "filename": "MapboxGL.mjs",
-                "lineno": 314,
+                "lineno": 312,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
@@ -1108,6 +1108,250 @@
             "$longname": "MapboxGL#onMapMounted",
             "$kind": "method",
             "id": 527,
+            "neoClassName": "Neo.component.wrapper.MapboxGL"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.layerId\n     * @param {Object} data.options\n     * @param {Boolean} data.options.validate = true\n     * @param {Array} data.value\n     */",
+            "meta": {
+                "range": [
+                    8139,
+                    8348
+                ],
+                "filename": "MapboxGL.mjs",
+                "lineno": 324,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {
+                    "id": "astnode100018913",
+                    "name": "MapboxGL#setFilter",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "data.layerId"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data.options"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "description": "= true",
+                    "name": "data.options.validate"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Array"
+                        ]
+                    },
+                    "name": "data.value"
+                }
+            ],
+            "name": "setFilter",
+            "longname": "MapboxGL#setFilter",
+            "kind": "function",
+            "memberof": "MapboxGL",
+            "scope": "instance",
+            "$longname": "MapboxGL#setFilter",
+            "$kind": "method",
+            "id": 528,
+            "neoClassName": "Neo.component.wrapper.MapboxGL"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.layerId\n     * @param {String} data.key\n     * @param {Object} data.options\n     * @param {Boolean} data.options.validate = true\n     * @param {String} data.value\n     */",
+            "meta": {
+                "range": [
+                    8596,
+                    8852
+                ],
+                "filename": "MapboxGL.mjs",
+                "lineno": 342,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {
+                    "id": "astnode100018946",
+                    "name": "MapboxGL#setLayoutProperty",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "data.layerId"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "data.key"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data.options"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "description": "= true",
+                    "name": "data.options.validate"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "data.value"
+                }
+            ],
+            "name": "setLayoutProperty",
+            "longname": "MapboxGL#setLayoutProperty",
+            "kind": "function",
+            "memberof": "MapboxGL",
+            "scope": "instance",
+            "$longname": "MapboxGL#setLayoutProperty",
+            "$kind": "method",
+            "id": 529,
+            "neoClassName": "Neo.component.wrapper.MapboxGL"
+        },
+        {
+            "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.layerId\n     * @param {String} data.key\n     * @param {Object} data.options\n     * @param {Boolean} data.options.validate = true\n     * @param {String} data.value\n     */",
+            "meta": {
+                "range": [
+                    9100,
+                    9354
+                ],
+                "filename": "MapboxGL.mjs",
+                "lineno": 361,
+                "columnno": 4,
+                "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
+                "code": {
+                    "id": "astnode100018983",
+                    "name": "MapboxGL#setPaintProperty",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "data"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "data.layerId"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "data.key"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Object"
+                        ]
+                    },
+                    "name": "data.options"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "Boolean"
+                        ]
+                    },
+                    "description": "= true",
+                    "name": "data.options.validate"
+                },
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "data.value"
+                }
+            ],
+            "name": "setPaintProperty",
+            "longname": "MapboxGL#setPaintProperty",
+            "kind": "function",
+            "memberof": "MapboxGL",
+            "scope": "instance",
+            "$longname": "MapboxGL#setPaintProperty",
+            "$kind": "method",
+            "id": 530,
             "neoClassName": "Neo.component.wrapper.MapboxGL"
         }
     ]

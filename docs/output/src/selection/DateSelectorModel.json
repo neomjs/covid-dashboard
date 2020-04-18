@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.selection.DateSelectorModel",
             "$kind": "class",
-            "id": 1583,
+            "id": 1590,
             "neoClassName": "Neo.selection.DateSelectorModel"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1584,
+            "id": 1591,
             "neoClassName": "Neo.selection.DateSelectorModel"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1585,
+            "id": 1592,
             "neoClassName": "Neo.selection.DateSelectorModel"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "stayInColumn",
             "$kind": "property",
-            "id": 1586,
+            "id": 1593,
             "neoClassName": "Neo.selection.DateSelectorModel"
         },
         {
@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050171",
+                    "id": "astnode100050434",
                     "name": "DateSelectorModel#getCellDate",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -146,7 +146,7 @@
             "scope": "instance",
             "$longname": "DateSelectorModel#getCellDate",
             "$kind": "method",
-            "id": 1587,
+            "id": 1594,
             "neoClassName": "Neo.selection.DateSelectorModel"
         },
         {
@@ -161,7 +161,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050245",
+                    "id": "astnode100050508",
                     "name": "DateSelectorModel#onKeyDownDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -189,7 +189,7 @@
             "scope": "instance",
             "$longname": "DateSelectorModel#onKeyDownDown",
             "$kind": "method",
-            "id": 1588,
+            "id": 1595,
             "neoClassName": "Neo.selection.DateSelectorModel"
         },
         {
@@ -204,7 +204,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050257",
+                    "id": "astnode100050520",
                     "name": "DateSelectorModel#onKeyDownLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -232,7 +232,7 @@
             "scope": "instance",
             "$longname": "DateSelectorModel#onKeyDownLeft",
             "$kind": "method",
-            "id": 1589,
+            "id": 1596,
             "neoClassName": "Neo.selection.DateSelectorModel"
         },
         {
@@ -247,7 +247,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050270",
+                    "id": "astnode100050533",
                     "name": "DateSelectorModel#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -275,7 +275,7 @@
             "scope": "instance",
             "$longname": "DateSelectorModel#onKeyDownRight",
             "$kind": "method",
-            "id": 1590,
+            "id": 1597,
             "neoClassName": "Neo.selection.DateSelectorModel"
         },
         {
@@ -290,7 +290,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050282",
+                    "id": "astnode100050545",
                     "name": "DateSelectorModel#onKeyDownUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -318,7 +318,7 @@
             "scope": "instance",
             "$longname": "DateSelectorModel#onKeyDownUp",
             "$kind": "method",
-            "id": 1591,
+            "id": 1598,
             "neoClassName": "Neo.selection.DateSelectorModel"
         },
         {
@@ -333,7 +333,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050295",
+                    "id": "astnode100050558",
                     "name": "DateSelectorModel#onNavKeyColumn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -370,7 +370,7 @@
             "scope": "instance",
             "$longname": "DateSelectorModel#onNavKeyColumn",
             "$kind": "method",
-            "id": 1592,
+            "id": 1599,
             "neoClassName": "Neo.selection.DateSelectorModel"
         },
         {
@@ -385,7 +385,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050381",
+                    "id": "astnode100050644",
                     "name": "DateSelectorModel#onNavKeyRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -422,7 +422,7 @@
             "scope": "instance",
             "$longname": "DateSelectorModel#onNavKeyRow",
             "$kind": "method",
-            "id": 1593,
+            "id": 1600,
             "neoClassName": "Neo.selection.DateSelectorModel"
         },
         {
@@ -437,7 +437,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050506",
+                    "id": "astnode100050769",
                     "name": "DateSelectorModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -465,7 +465,7 @@
             "scope": "instance",
             "$longname": "DateSelectorModel#register",
             "$kind": "method",
-            "id": 1594,
+            "id": 1601,
             "neoClassName": "Neo.selection.DateSelectorModel"
         },
         {
@@ -480,7 +480,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050573",
+                    "id": "astnode100050836",
                     "name": "DateSelectorModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -497,7 +497,7 @@
             "params": [],
             "$longname": "DateSelectorModel#unregister",
             "$kind": "method",
-            "id": 1595,
+            "id": 1602,
             "neoClassName": "Neo.selection.DateSelectorModel"
         }
     ]
