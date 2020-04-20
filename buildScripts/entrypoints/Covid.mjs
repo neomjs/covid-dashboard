@@ -1,2 +1,2 @@
 import '../../node_modules/neo.mjs/src/worker/App.mjs';
-import '../../apps/Covid/app.mjs';
+import '../../apps/covid/app.mjs';
