@@ -1,6 +1,6 @@
 {
     "name": "covid19-dashboard",
-    "version": "1.0.15",
+    "version": "1.0.16",
     "description": "Dashboard App displaying numbers by country about COVID-19",
     "scripts": {
         "server-start": "webpack-dev-server --open",
