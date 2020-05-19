@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055668",
+                    "id": "astnode100055671",
                     "name": "ColumnModel#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -141,7 +141,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055706",
+                    "id": "astnode100055709",
                     "name": "ColumnModel.getCellId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -195,7 +195,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055750",
+                    "id": "astnode100055753",
                     "name": "ColumnModel.getColumnIndex",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -258,7 +258,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055786",
+                    "id": "astnode100055789",
                     "name": "ColumnModel#onCellClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -301,7 +301,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055858",
+                    "id": "astnode100055861",
                     "name": "ColumnModel#onKeyDownLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -344,7 +344,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055871",
+                    "id": "astnode100055874",
                     "name": "ColumnModel#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -387,7 +387,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055883",
+                    "id": "astnode100055886",
                     "name": "ColumnModel#onNavKeyColumn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -439,7 +439,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100056013",
+                    "id": "astnode100056016",
                     "name": "ColumnModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -482,7 +482,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100056066",
+                    "id": "astnode100056069",
                     "name": "ColumnModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []

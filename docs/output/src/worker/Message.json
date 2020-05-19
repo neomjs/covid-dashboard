@@ -32,7 +32,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100069221",
+                    "id": "astnode100069224",
                     "name": "Message",
                     "type": "MethodDefinition",
                     "paramnames": [

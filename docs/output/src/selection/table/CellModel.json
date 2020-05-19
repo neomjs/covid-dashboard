@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100054733",
+                    "id": "astnode100054736",
                     "name": "CellModel#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -141,7 +141,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100054771",
+                    "id": "astnode100054774",
                     "name": "CellModel#onCellClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -184,7 +184,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100054830",
+                    "id": "astnode100054833",
                     "name": "CellModel#onKeyDownDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -227,7 +227,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100054842",
+                    "id": "astnode100054845",
                     "name": "CellModel#onKeyDownLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -270,7 +270,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100054855",
+                    "id": "astnode100054858",
                     "name": "CellModel#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -313,7 +313,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100054867",
+                    "id": "astnode100054870",
                     "name": "CellModel#onKeyDownUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -356,7 +356,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100054880",
+                    "id": "astnode100054883",
                     "name": "CellModel#onNavKeyColumn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -408,7 +408,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100054980",
+                    "id": "astnode100054983",
                     "name": "CellModel#onNavKeyRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -460,7 +460,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055076",
+                    "id": "astnode100055079",
                     "name": "CellModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -503,7 +503,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055143",
+                    "id": "astnode100055146",
                     "name": "CellModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []

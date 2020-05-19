@@ -168,7 +168,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100048671",
+                    "id": "astnode100048674",
                     "name": "Store#createRandomData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -221,7 +221,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100048770",
+                    "id": "astnode100048773",
                     "name": "Store#filter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -267,7 +267,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100048777",
+                    "id": "astnode100048780",
                     "name": "Store#load",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -309,7 +309,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100048783",
+                    "id": "astnode100048786",
                     "name": "Store#sort",
                     "type": "MethodDefinition",
                     "paramnames": [

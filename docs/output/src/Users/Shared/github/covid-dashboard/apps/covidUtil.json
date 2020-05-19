@@ -86,7 +86,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/apps/covid",
                 "code": {
-                    "id": "astnode100074932",
+                    "id": "astnode100074946",
                     "name": "Util.formatInfected",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -147,7 +147,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/apps/covid",
                 "code": {
-                    "id": "astnode100074985",
+                    "id": "astnode100074999",
                     "name": "Util.formatNumber",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -218,7 +218,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/apps/covid",
                 "code": {
-                    "id": "astnode100075030",
+                    "id": "astnode100075044",
                     "name": "Util.indexRenderer",
                     "type": "MethodDefinition",
                     "paramnames": [

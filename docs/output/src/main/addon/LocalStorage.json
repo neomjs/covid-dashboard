@@ -118,7 +118,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040387",
+                    "id": "astnode100040390",
                     "name": "LocalStorage#createLocalStorageItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -178,7 +178,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040398",
+                    "id": "astnode100040401",
                     "name": "LocalStorage#destroyLocalStorageItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -230,7 +230,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040413",
+                    "id": "astnode100040416",
                     "name": "LocalStorage#readLocalStorageItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -282,7 +282,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040434",
+                    "id": "astnode100040437",
                     "name": "LocalStorage#updateLocalStorageItem",
                     "type": "MethodDefinition",
                     "paramnames": [

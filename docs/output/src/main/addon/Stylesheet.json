@@ -118,7 +118,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041770",
+                    "id": "astnode100041773",
                     "name": "Stylesheet",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -160,7 +160,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041826",
+                    "id": "astnode100041829",
                     "name": "Stylesheet#createStyleSheet",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -225,7 +225,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041917",
+                    "id": "astnode100041920",
                     "name": "Stylesheet#hasStyleSheet",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -277,7 +277,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041967",
+                    "id": "astnode100041970",
                     "name": "Stylesheet#insertCssRules",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -321,7 +321,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100042046",
+                    "id": "astnode100042049",
                     "name": "Stylesheet#insertTheme",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -354,7 +354,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100042205",
+                    "id": "astnode100042208",
                     "name": "Stylesheet#removeStyleSheets",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -413,7 +413,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100042333",
+                    "id": "astnode100042336",
                     "name": "Stylesheet#swapStyleSheet",
                     "type": "MethodDefinition",
                     "paramnames": [

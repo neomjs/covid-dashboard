@@ -167,7 +167,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100043721",
+                    "id": "astnode100043724",
                     "name": "DomEvents",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -209,7 +209,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100043760",
+                    "id": "astnode100043763",
                     "name": "DomEvents#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -252,7 +252,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100043888",
+                    "id": "astnode100043891",
                     "name": "DomEvents#addGlobalDomListeners",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -284,7 +284,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100043939",
+                    "id": "astnode100043942",
                     "name": "DomEvents#domEventListener",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -328,7 +328,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044276",
+                    "id": "astnode100044279",
                     "name": "DomEvents#getTargetData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -380,7 +380,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044409",
+                    "id": "astnode100044412",
                     "name": "DomEvents#onChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -423,7 +423,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044439",
+                    "id": "astnode100044442",
                     "name": "DomEvents#onClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -466,7 +466,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044471",
+                    "id": "astnode100044474",
                     "name": "DomEvents#onContextMenu",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -509,7 +509,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044503",
+                    "id": "astnode100044506",
                     "name": "DomEvents#onDomContentLoaded",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -541,7 +541,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044518",
+                    "id": "astnode100044521",
                     "name": "DomEvents#onDragOver",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -584,7 +584,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044531",
+                    "id": "astnode100044534",
                     "name": "DomEvents#onFocusIn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -627,7 +627,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044546",
+                    "id": "astnode100044549",
                     "name": "DomEvents#onFocusOut",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -670,7 +670,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044561",
+                    "id": "astnode100044564",
                     "name": "DomEvents#onHashChange",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -702,7 +702,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044596",
+                    "id": "astnode100044599",
                     "name": "DomEvents#onKeyDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -745,7 +745,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044629",
+                    "id": "astnode100044632",
                     "name": "DomEvents#onKeyUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -788,7 +788,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044644",
+                    "id": "astnode100044647",
                     "name": "DomEvents#onMouseEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -831,7 +831,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044673",
+                    "id": "astnode100044676",
                     "name": "DomEvents#onMouseLeave",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -874,7 +874,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044702",
+                    "id": "astnode100044705",
                     "name": "DomEvents#onWheel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -917,7 +917,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044806",
+                    "id": "astnode100044809",
                     "name": "DomEvents#parseHash",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -970,7 +970,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044950",
+                    "id": "astnode100044953",
                     "name": "DomEvents#parseValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1026,7 +1026,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100044988",
+                    "id": "astnode100044991",
                     "name": "DomEvents#registerPreventDefaultTargets",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1086,7 +1086,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045057",
+                    "id": "astnode100045060",
                     "name": "DomEvents#sendMessageToApp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1131,7 +1131,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100045081",
+                    "id": "astnode100045084",
                     "name": "DomEvents#testPathInclusion",
                     "type": "MethodDefinition",
                     "paramnames": [

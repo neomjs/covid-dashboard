@@ -166,7 +166,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100046807",
+                    "id": "astnode100046810",
                     "name": "DomEvent#fire",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -210,7 +210,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047088",
+                    "id": "astnode100047091",
                     "name": "DomEvent#generateListenerConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -261,7 +261,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047166",
+                    "id": "astnode100047169",
                     "name": "DomEvent#getListener",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -361,7 +361,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047209",
+                    "id": "astnode100047212",
                     "name": "DomEvent#mountDomListeners",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -406,7 +406,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047331",
+                    "id": "astnode100047334",
                     "name": "DomEvent#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -531,7 +531,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047609",
+                    "id": "astnode100047612",
                     "name": "DomEvent#unregister",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -633,7 +633,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047849",
+                    "id": "astnode100047852",
                     "name": "DomEvent#updateListenerPlaceholder",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -717,7 +717,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047927",
+                    "id": "astnode100047930",
                     "name": "DomEvent#verifyDelegationPath",
                     "type": "MethodDefinition",
                     "paramnames": [

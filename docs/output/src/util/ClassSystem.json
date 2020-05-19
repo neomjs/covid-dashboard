@@ -59,7 +59,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100062041",
+                    "id": "astnode100062044",
                     "name": "ClassSystem.beforeSetInstance",
                     "type": "MethodDefinition",
                     "paramnames": [

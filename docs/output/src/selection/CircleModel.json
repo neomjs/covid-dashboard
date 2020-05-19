@@ -84,7 +84,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050513",
+                    "id": "astnode100050516",
                     "name": "CircleModel#onKeyDownLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -127,7 +127,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050526",
+                    "id": "astnode100050529",
                     "name": "CircleModel#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -170,7 +170,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050538",
+                    "id": "astnode100050541",
                     "name": "CircleModel#onNavKey",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -222,7 +222,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050660",
+                    "id": "astnode100050663",
                     "name": "CircleModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -265,7 +265,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100050727",
+                    "id": "astnode100050730",
                     "name": "CircleModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []

@@ -160,7 +160,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100054055",
+                    "id": "astnode100054058",
                     "name": "CellColumnModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -202,7 +202,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100054070",
+                    "id": "astnode100054073",
                     "name": "CellColumnModel#deselectAllCells",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -247,7 +247,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100054127",
+                    "id": "astnode100054130",
                     "name": "CellColumnModel#onCellClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -290,7 +290,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100054217",
+                    "id": "astnode100054220",
                     "name": "CellColumnModel#onNavKeyColumn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -342,7 +342,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100054342",
+                    "id": "astnode100054345",
                     "name": "CellColumnModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []

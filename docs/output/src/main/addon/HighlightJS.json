@@ -187,7 +187,7 @@
             "meta": {
                 "range": [
                     1949,
-                    2218
+                    2241
                 ],
                 "filename": "HighlightJS.mjs",
                 "lineno": 58,
@@ -228,15 +228,15 @@
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.text\n     * @param {String} data.vnodeId\n     * @private\n     */",
             "meta": {
                 "range": [
-                    2360,
-                    2736
+                    2383,
+                    2759
                 ],
                 "filename": "HighlightJS.mjs",
-                "lineno": 75,
+                "lineno": 77,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040113",
+                    "id": "astnode100040116",
                     "name": "HighlightJS#scrollIntoView",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -288,15 +288,15 @@
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.vnodeId\n     */",
             "meta": {
                 "range": [
-                    2829,
-                    3131
+                    2852,
+                    3154
                 ],
                 "filename": "HighlightJS.mjs",
-                "lineno": 93,
+                "lineno": 95,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040158",
+                    "id": "astnode100040161",
                     "name": "HighlightJS#syntaxHighlight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -339,15 +339,15 @@
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    3188,
-                    3497
+                    3211,
+                    3520
                 ],
                 "filename": "HighlightJS.mjs",
-                "lineno": 108,
+                "lineno": 110,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040195",
+                    "id": "astnode100040198",
                     "name": "HighlightJS#syntaxHighlightInit",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -382,15 +382,15 @@
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {Number} data.addLine\n     * @param {String} data.vnodeId\n     * @param {Number} data.removeLine\n     */",
             "meta": {
                 "range": [
-                    3665,
-                    4471
+                    3688,
+                    4494
                 ],
                 "filename": "HighlightJS.mjs",
-                "lineno": 124,
+                "lineno": 126,
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040231",
+                    "id": "astnode100040234",
                     "name": "HighlightJS#syntaxHighlightLine",
                     "type": "MethodDefinition",
                     "paramnames": [

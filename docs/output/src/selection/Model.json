@@ -235,7 +235,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053480",
+                    "id": "astnode100053483",
                     "name": "Model#beforeGetView",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -277,7 +277,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053492",
+                    "id": "astnode100053495",
                     "name": "Model#beforeSetView",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -322,7 +322,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053503",
+                    "id": "astnode100053506",
                     "name": "Model#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -354,7 +354,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053507",
+                    "id": "astnode100053510",
                     "name": "Model#deselect",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -428,7 +428,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053587",
+                    "id": "astnode100053590",
                     "name": "Model#deselectAll",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -473,7 +473,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053644",
+                    "id": "astnode100053647",
                     "name": "Model#destroy",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -505,7 +505,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053658",
+                    "id": "astnode100053661",
                     "name": "Model#getSelection",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -547,7 +547,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053666",
+                    "id": "astnode100053669",
                     "name": "Model#hasSelection",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -589,7 +589,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053678",
+                    "id": "astnode100053681",
                     "name": "Model#isSelected",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -642,7 +642,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053694",
+                    "id": "astnode100053697",
                     "name": "Model#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -685,7 +685,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053749",
+                    "id": "astnode100053752",
                     "name": "Model#removeDomListeners",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -717,7 +717,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053799",
+                    "id": "astnode100053802",
                     "name": "Model#select",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -782,7 +782,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053925",
+                    "id": "astnode100053928",
                     "name": "Model#toggleSelection",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -825,7 +825,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053954",
+                    "id": "astnode100053957",
                     "name": "Model#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []

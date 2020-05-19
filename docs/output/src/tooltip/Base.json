@@ -395,7 +395,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100061102",
+                    "id": "astnode100061105",
                     "name": "Base#afterSetComponentId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -449,7 +449,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100061165",
+                    "id": "astnode100061168",
                     "name": "Base#afterSetStayOnHover",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -503,7 +503,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100061213",
+                    "id": "astnode100061216",
                     "name": "Base#afterSetText",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -556,7 +556,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100061269",
+                    "id": "astnode100061272",
                     "name": "Base#clearTimeout",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -602,7 +602,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100061324",
+                    "id": "astnode100061327",
                     "name": "Base#hide",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -647,7 +647,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100061352",
+                    "id": "astnode100061355",
                     "name": "Base#hideDelayed",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -692,7 +692,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100061391",
+                    "id": "astnode100061394",
                     "name": "Base#onMouseEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -736,7 +736,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100061424",
+                    "id": "astnode100061427",
                     "name": "Base#onMouseLeave",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -780,7 +780,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100061455",
+                    "id": "astnode100061458",
                     "name": "Base#show",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -824,7 +824,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100061510",
+                    "id": "astnode100061513",
                     "name": "Base#showDelayed",
                     "type": "MethodDefinition",
                     "paramnames": [

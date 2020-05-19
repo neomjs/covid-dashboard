@@ -299,7 +299,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100068413",
+                    "id": "astnode100068416",
                     "name": "Manager",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -341,7 +341,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100068492",
+                    "id": "astnode100068495",
                     "name": "Manager#detectFeatures",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -373,7 +373,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100068527",
+                    "id": "astnode100068530",
                     "name": "Manager#getWorker",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -426,7 +426,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100068545",
+                    "id": "astnode100068548",
                     "name": "Manager#createWorker",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -479,7 +479,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100068613",
+                    "id": "astnode100068616",
                     "name": "Manager#createWorkers",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -512,7 +512,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100068715",
+                    "id": "astnode100068718",
                     "name": "Manager#onWorkerConstructed",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -555,7 +555,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100068769",
+                    "id": "astnode100068772",
                     "name": "Manager#onWorkerError",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -599,7 +599,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100068789",
+                    "id": "astnode100068792",
                     "name": "Manager#onWorkerMessage",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -643,7 +643,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100069011",
+                    "id": "astnode100069014",
                     "name": "Manager#loadApplication",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -686,7 +686,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100069033",
+                    "id": "astnode100069036",
                     "name": "Manager#broadcast",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -725,7 +725,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100069059",
+                    "id": "astnode100069062",
                     "name": "Manager#resolveDomOperationPromise",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -768,7 +768,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100069093",
+                    "id": "astnode100069096",
                     "name": "Manager#sendMessage",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -843,7 +843,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100069145",
+                    "id": "astnode100069148",
                     "name": "Manager#promiseMessage",
                     "type": "MethodDefinition",
                     "paramnames": [

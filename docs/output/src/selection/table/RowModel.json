@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100056152",
+                    "id": "astnode100056155",
                     "name": "RowModel#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -141,7 +141,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100056190",
+                    "id": "astnode100056193",
                     "name": "RowModel#getRowId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -197,7 +197,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100056233",
+                    "id": "astnode100056236",
                     "name": "RowModel.getRowNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -254,7 +254,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100056276",
+                    "id": "astnode100056279",
                     "name": "RowModel#onKeyDownDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -297,7 +297,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100056288",
+                    "id": "astnode100056291",
                     "name": "RowModel#onKeyDownUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -340,7 +340,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100056301",
+                    "id": "astnode100056304",
                     "name": "RowModel#onNavKeyRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -392,7 +392,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100056411",
+                    "id": "astnode100056414",
                     "name": "RowModel#onRowClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -435,7 +435,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100056481",
+                    "id": "astnode100056484",
                     "name": "RowModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -478,7 +478,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100056534",
+                    "id": "astnode100056537",
                     "name": "RowModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []

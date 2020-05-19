@@ -67,7 +67,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixin",
                 "code": {
-                    "id": "astnode100045199",
+                    "id": "astnode100045202",
                     "name": "DeltaUpdates#du_focusNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -118,7 +118,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixin",
                 "code": {
-                    "id": "astnode100045215",
+                    "id": "astnode100045218",
                     "name": "DeltaUpdates#du_insertNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -186,7 +186,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixin",
                 "code": {
-                    "id": "astnode100045385",
+                    "id": "astnode100045388",
                     "name": "DeltaUpdates#du_moveNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -253,7 +253,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixin",
                 "code": {
-                    "id": "astnode100045456",
+                    "id": "astnode100045459",
                     "name": "DeltaUpdates#du_removeNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -304,7 +304,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixin",
                 "code": {
-                    "id": "astnode100045484",
+                    "id": "astnode100045487",
                     "name": "DeltaUpdates#du_replaceChild",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -371,7 +371,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixin",
                 "code": {
-                    "id": "astnode100045521",
+                    "id": "astnode100045524",
                     "name": "DeltaUpdates#du_updateNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -468,7 +468,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixin",
                 "code": {
-                    "id": "astnode100045716",
+                    "id": "astnode100045719",
                     "name": "DeltaUpdates#du_updateVtext",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -535,7 +535,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixin",
                 "code": {
-                    "id": "astnode100045767",
+                    "id": "astnode100045770",
                     "name": "DeltaUpdates#htmlStringToElement",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -588,7 +588,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/mixin",
                 "code": {
-                    "id": "astnode100045792",
+                    "id": "astnode100045795",
                     "name": "DeltaUpdates#update",
                     "type": "MethodDefinition",
                     "paramnames": [

@@ -160,7 +160,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100062671",
+                    "id": "astnode100062674",
                     "name": "KeyNavigation#beforeGetComponent",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -202,7 +202,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100062683",
+                    "id": "astnode100062686",
                     "name": "KeyNavigation#beforeSetComponent",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -256,7 +256,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100062694",
+                    "id": "astnode100062697",
                     "name": "KeyNavigation#destroy",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -288,7 +288,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100062708",
+                    "id": "astnode100062711",
                     "name": "KeyNavigation#onKeyDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -331,7 +331,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100062789",
+                    "id": "astnode100062792",
                     "name": "KeyNavigation#parseKeys",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -383,7 +383,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100062844",
+                    "id": "astnode100062847",
                     "name": "KeyNavigation#parseUpperCaseKey",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -437,7 +437,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100062888",
+                    "id": "astnode100062891",
                     "name": "KeyNavigation#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -480,7 +480,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100062947",
+                    "id": "astnode100062950",
                     "name": "KeyNavigation#removeKey",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -524,7 +524,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100063000",
+                    "id": "astnode100063003",
                     "name": "KeyNavigation#removeKeys",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -568,7 +568,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100063024",
+                    "id": "astnode100063027",
                     "name": "KeyNavigation#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []

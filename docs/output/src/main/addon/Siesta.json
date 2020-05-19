@@ -92,7 +92,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041643",
+                    "id": "astnode100041646",
                     "name": "Siesta",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -134,7 +134,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041657",
+                    "id": "astnode100041660",
                     "name": "Siesta#adjustSiestaEnvironment",
                     "type": "MethodDefinition",
                     "paramnames": []

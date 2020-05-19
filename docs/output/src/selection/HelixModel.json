@@ -110,7 +110,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100052192",
+                    "id": "astnode100052195",
                     "name": "HelixModel#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -143,7 +143,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100052196",
+                    "id": "astnode100052199",
                     "name": "HelixModel#onContainerClick",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -175,7 +175,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100052289",
+                    "id": "astnode100052292",
                     "name": "HelixModel#onItemClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -218,7 +218,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100052368",
+                    "id": "astnode100052371",
                     "name": "HelixModel#onKeyDownDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -261,7 +261,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100052379",
+                    "id": "astnode100052382",
                     "name": "HelixModel#onKeyDownLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -304,7 +304,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100052391",
+                    "id": "astnode100052394",
                     "name": "HelixModel#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -347,7 +347,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100052402",
+                    "id": "astnode100052405",
                     "name": "HelixModel#onKeyDownUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -390,7 +390,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100052414",
+                    "id": "astnode100052417",
                     "name": "HelixModel#onNavKeyColumn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -434,7 +434,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100052559",
+                    "id": "astnode100052562",
                     "name": "HelixModel#onNavKeyRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -478,7 +478,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100052662",
+                    "id": "astnode100052665",
                     "name": "HelixModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -521,7 +521,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100052745",
+                    "id": "astnode100052748",
                     "name": "HelixModel#select",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -575,7 +575,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100052906",
+                    "id": "astnode100052909",
                     "name": "HelixModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []
