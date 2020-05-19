@@ -235,7 +235,17 @@ class MainContainerController extends ComponentController {
 
         imageName = map[imageName] || imageName;
 
-        return 'https://raw.githubusercontent.com/neomjs/pages/master/resources/images/flaticon/country_flags/png/' + imageName + '.png'
+        if (Neo.config.isGitHubPages) {
+            let path = '../../../../resources/images/flaticon/country_flags/png/' + imageName + '.png';
+
+            if (!Neo.config.isExperimental) {
+                path = '../../' + path;
+            }
+
+            return path;
+        }
+
+        return 'https://raw.githubusercontent.com/neomjs/pages/master/resources/images/flaticon/country_flags/png/' + imageName + '.png';
     }
 
     /**
@@ -290,7 +300,6 @@ class MainContainerController extends ComponentController {
             }
         }, 2000);
     }
-
 
     /**
      *
@@ -447,7 +456,7 @@ class MainContainerController extends ComponentController {
         me.getReference('gallery').on('select', me.updateCountryField, me);
         me.getReference('helix')  .on('select', me.updateCountryField, me);
 
-        me.getReference('table')  .on({
+        me.getReference('table').on({
             deselect: me.clearCountryField,
             select  : me.updateCountryField,
             scope   : me
@@ -526,7 +535,7 @@ class MainContainerController extends ComponentController {
                 text   : buttonText
             });
         } else {
-            Neo.main.DomAccess.swapStyleSheet({
+            Neo.main.addon.Stylesheet.swapStyleSheet({
                 href: href,
                 id  : 'neo-theme'
             }).then(data => {

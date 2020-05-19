@@ -1,6 +1,6 @@
 {
     "name": "covid19-dashboard",
-    "version": "1.0.14",
+    "version": "1.0.15",
     "description": "Dashboard App displaying numbers by country about COVID-19",
     "scripts": {
         "server-start": "webpack-dev-server --open",
@@ -8,7 +8,9 @@
         "generate-docs-json": "node ./node_modules/neo.mjs/buildScripts/docs/jsdocx.js",
         "dev-build-all-my-apps": "webpack --config ./node_modules/neo.mjs/buildScripts/webpack/development/webpack.config.myapps.js --env.build_all=true",
         "prod-build-all-my-apps": "webpack --config ./node_modules/neo.mjs/buildScripts/webpack/production/webpack.config.myapps.js --env.build_all=true",
+        "dev-build-main": "webpack --config ./node_modules/neo.mjs/buildScripts/webpack/development/webpack.config.main.js",
         "dev-build-my-apps": "webpack --config ./node_modules/neo.mjs/buildScripts/webpack/development/webpack.config.myapps.js",
+        "prod-build-main": "webpack --config ./node_modules/neo.mjs/buildScripts/webpack/production/webpack.config.main.js",
         "prod-build-my-apps": "webpack --config ./node_modules/neo.mjs/buildScripts/webpack/production/webpack.config.myapps.js",
         "dev-css-structure": "webpack --config ./node_modules/neo.mjs/buildScripts/webpack/development/webpack.scss.config.js --env.json_file=neo.structure.json",
         "dev-theme-dark": "webpack --config ./node_modules/neo.mjs/buildScripts/webpack/development/webpack.scss.config.js --env.json_file=theme.dark.json",
@@ -40,7 +42,7 @@
     },
     "homepage": "https://neomjs.github.io/pages/",
     "dependencies": {
-        "neo.mjs": "^1.1.46",
+        "neo.mjs": "^1.1.56",
         "sass": "^1.24.0"
     },
     "funding": {

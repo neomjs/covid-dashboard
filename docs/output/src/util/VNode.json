@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.util.VNode",
             "$kind": "class",
-            "id": 2020,
+            "id": 2052,
             "neoClassName": "Neo.util.VNode"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 2021,
+            "id": 2053,
             "neoClassName": "Neo.util.VNode"
         },
         {
@@ -59,7 +59,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100064420",
+                    "id": "astnode100064835",
                     "name": "VNode.findChildVnode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -131,7 +131,7 @@
             "scope": "static",
             "$longname": "VNode.findChildVnode",
             "$kind": "method",
-            "id": 2022,
+            "id": 2054,
             "neoClassName": "Neo.util.VNode"
         },
         {
@@ -146,7 +146,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100064788",
+                    "id": "astnode100065203",
                     "name": "VNode.findChildVnodeById",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -196,7 +196,7 @@
             "scope": "static",
             "$longname": "VNode.findChildVnodeById",
             "$kind": "method",
-            "id": 2023,
+            "id": 2055,
             "neoClassName": "Neo.util.VNode"
         },
         {
@@ -211,7 +211,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100064859",
+                    "id": "astnode100065274",
                     "name": "VNode.getChildIds",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -251,7 +251,7 @@
             "scope": "static",
             "$longname": "VNode.getChildIds",
             "$kind": "method",
-            "id": 2024,
+            "id": 2056,
             "neoClassName": "Neo.util.VNode"
         },
         {
@@ -266,7 +266,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100064909",
+                    "id": "astnode100065324",
                     "name": "VNode.replaceChildVnode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -323,7 +323,7 @@
             "scope": "static",
             "$longname": "VNode.replaceChildVnode",
             "$kind": "method",
-            "id": 2025,
+            "id": 2057,
             "neoClassName": "Neo.util.VNode"
         }
     ]

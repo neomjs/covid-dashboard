@@ -1872,7 +1872,7 @@
             "meta": {
                 "range": [
                     18457,
-                    18857
+                    18899
                 ],
                 "filename": "Base.mjs",
                 "lineno": 634,
@@ -1925,8 +1925,8 @@
             "comment": "/**\n     * Triggered after the vnode config got changed\n     * @param {Object} value\n     * @param {Object|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    19013,
-                    19116
+                    19055,
+                    19158
                 ],
                 "filename": "Base.mjs",
                 "lineno": 656,
@@ -1980,8 +1980,8 @@
             "comment": "/**\n     * Triggered after the width config got changed\n     * @param {Number|String|null} value\n     * @param {Number|String|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    19291,
-                    19377
+                    19333,
+                    19419
                 ],
                 "filename": "Base.mjs",
                 "lineno": 668,
@@ -2038,8 +2038,8 @@
             "comment": "/**\n     * Triggered after the wrapperStyle config got changed\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    19535,
-                    19789
+                    19577,
+                    19831
                 ],
                 "filename": "Base.mjs",
                 "lineno": 678,
@@ -2092,8 +2092,8 @@
             "comment": "/**\n     * Triggered when accessing the controller config\n     * @param {Object} value\n     * @private\n     */",
             "meta": {
                 "range": [
-                    19910,
-                    19984
+                    19952,
+                    20026
                 ],
                 "filename": "Base.mjs",
                 "lineno": 693,
@@ -2137,8 +2137,8 @@
             "comment": "/**\n     * Triggered before the controller config gets changed. Creates a ComponentController instance if needed.\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    20193,
-                    20901
+                    20235,
+                    20943
                 ],
                 "filename": "Base.mjs",
                 "lineno": 703,
@@ -2191,8 +2191,8 @@
             "comment": "/**\n     * Triggered before the domListeners config gets changed.\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    21062,
-                    21211
+                    21104,
+                    21253
                 ],
                 "filename": "Base.mjs",
                 "lineno": 735,
@@ -2245,8 +2245,8 @@
             "comment": "/**\n     * Triggered before the keys config gets changed. Creates a KeyNavigation instance if needed.\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    21408,
-                    21912
+                    21450,
+                    21954
                 ],
                 "filename": "Base.mjs",
                 "lineno": 749,
@@ -2299,8 +2299,8 @@
             "comment": "/**\n     * Changes the value of a vdom object attribute or removes it in case it has no value\n     * @param {String} key\n     * @param {Array|Number|Object|String|null} value\n     */",
             "meta": {
                 "range": [
-                    22105,
-                    22354
+                    22147,
+                    22396
                 ],
                 "filename": "Base.mjs",
                 "lineno": 774,
@@ -2356,8 +2356,8 @@
             "comment": "/**\n     * Creates the tooltip instances\n     * @param {Array|Object} value\n     * @private\n     */",
             "meta": {
                 "range": [
-                    22464,
-                    22990
+                    22506,
+                    23032
                 ],
                 "filename": "Base.mjs",
                 "lineno": 792,
@@ -2402,8 +2402,8 @@
             "comment": "/**\n     * Unregisters this instance from the ComponentManager\n     * @param {Boolean} [updateParentVdom=false] true to remove the component from the parent vdom => real dom\n     * @param {Boolean} [silent=false] true to update the vdom silently (useful for destroying multiple child items in a row)\n     * todo: unregister events\n     */",
             "meta": {
                 "range": [
-                    23339,
-                    23787
+                    23381,
+                    23829
                 ],
                 "filename": "Base.mjs",
                 "lineno": 822,
@@ -2461,8 +2461,8 @@
             "comment": "/**\n     * Convenience shortcut for Neo.manager.Component.down\n     * @param {Object|String} config\n     * @returns {Neo.core.Base} The matching instance or null\n     */",
             "meta": {
                 "range": [
-                    23967,
-                    24042
+                    24009,
+                    24084
                 ],
                 "filename": "Base.mjs",
                 "lineno": 844,
@@ -2516,8 +2516,8 @@
             "comment": "/**\n     * Calls focus() on the top level DOM node of this component or on a given node via id\n     * @param {String} [id]\n     */",
             "meta": {
                 "range": [
-                    24183,
-                    24530
+                    24225,
+                    24572
                 ],
                 "filename": "Base.mjs",
                 "lineno": 852,
@@ -2561,8 +2561,8 @@
             "comment": "/**\n     * Returns this.controller or the closest parent controller\n     * @param {String} [ntype]\n     * @returns {Neo.controller.Base|null}\n     */",
             "meta": {
                 "range": [
-                    24690,
-                    25226
+                    24732,
+                    25268
                 ],
                 "filename": "Base.mjs",
                 "lineno": 870,
@@ -2616,8 +2616,8 @@
             "comment": "/**\n     * Search vdom child nodes by id for a given vdom tree\n     * @param {String} id\n     * @param {Object} [vdom]\n     * @returns {Object}\n     */",
             "meta": {
                 "range": [
-                    25388,
-                    25919
+                    25430,
+                    25961
                 ],
                 "filename": "Base.mjs",
                 "lineno": 897,
@@ -2679,8 +2679,8 @@
             "comment": "/**\n     * Can get called after the component got rendered. See the autoMount config as well.\n     */",
             "meta": {
                 "range": [
-                    26031,
-                    27586
+                    26073,
+                    27628
                 ],
                 "filename": "Base.mjs",
                 "lineno": 924,
@@ -2819,8 +2819,8 @@
             "comment": "/**\n     * Gets called from the render() promise success handler\n     * @param {Object} data\n     * @param {Boolean} autoMount Mount the DOM after the vnode got created\n     * @private\n     */",
             "meta": {
                 "range": [
-                    28320,
-                    29152
+                    28362,
+                    29194
                 ],
                 "filename": "Base.mjs",
                 "lineno": 997,
@@ -2874,8 +2874,8 @@
             "comment": "/**\n     * Promise based vdom update\n     * @param {Object} [vdom=this.vdom]\n     * @param {Neo.vdom.VNode} [vnode= this.vnode]\n     */",
             "meta": {
                 "range": [
-                    29298,
-                    30295
+                    29340,
+                    30337
                 ],
                 "filename": "Base.mjs",
                 "lineno": 1039,
@@ -2931,8 +2931,8 @@
             "comment": "/**\n     * Either a string like 'color' or an array containing style attributes to remove\n     * @param {String|Array} value camelCase only\n     * @returns {Object} all styles of this.el\n     */",
             "meta": {
                 "range": [
-                    30500,
-                    30947
+                    30542,
+                    30989
                 ],
                 "filename": "Base.mjs",
                 "lineno": 1072,
@@ -2987,8 +2987,8 @@
             "comment": "/**\n     * Creates the vnode tree for this component and mounts the component in case\n     * - you pass true for the mount param\n     * - or the autoMount config is set to true\n     * @param {Boolean} [mount] Mount the DOM after the vnode got created\n     */",
             "meta": {
                 "range": [
-                    31216,
-                    32016
+                    31258,
+                    32058
                 ],
                 "filename": "Base.mjs",
                 "lineno": 1100,
@@ -3033,8 +3033,8 @@
             "comment": "/**\n     * Change multiple configs at once, ensuring that all afterSet methods get all new assigned values\n     * @param {Object} values={}\n     * @param {Boolean} [silent=false]\n     */",
             "meta": {
                 "range": [
-                    32213,
-                    32527
+                    32255,
+                    32569
                 ],
                 "filename": "Base.mjs",
                 "lineno": 1132,
@@ -3089,8 +3089,8 @@
             "comment": "/**\n     * Placeholder method for util.VDom.syncVdomIds to allow overriding (disabling) it\n     * @param {Neo.vdom.VNode} [vnode=this.vnode]\n     * @param {Object} [vdom=this.vdom]\n     */",
             "meta": {
                 "range": [
-                    32726,
-                    32822
+                    32768,
+                    32864
                 ],
                 "filename": "Base.mjs",
                 "lineno": 1154,
@@ -3146,8 +3146,8 @@
             "comment": "/**\n     * Placeholder method for util.VDom.syncVdomIds to allow overriding (disabling) it\n     * @param {Neo.vdom.VNode} [vnode=this.vnode]\n     */",
             "meta": {
                 "range": [
-                    32981,
-                    34847
+                    33023,
+                    34889
                 ],
                 "filename": "Base.mjs",
                 "lineno": 1162,
@@ -3192,8 +3192,8 @@
             "comment": "/**\n     * Removes the component DOM\n     */",
             "meta": {
                 "range": [
-                    34902,
-                    35302
+                    34944,
+                    35344
                 ],
                 "filename": "Base.mjs",
                 "lineno": 1217,
@@ -3225,8 +3225,8 @@
             "comment": "/**\n     * Convenience shortcut for Neo.manager.Component.up\n     * @param {Object|String} config\n     * @returns {Neo.core.Base} The matching instance or null\n     */",
             "meta": {
                 "range": [
-                    35480,
-                    35551
+                    35522,
+                    35593
                 ],
                 "filename": "Base.mjs",
                 "lineno": 1238,
@@ -3280,8 +3280,8 @@
             "comment": "/**\n     * Delta updates for the cls config. Gets called after the cls config gets changed in case the component is mounted.\n     * @param {Array} cls\n     * @param {Array} oldCls\n     * @private\n     */",
             "meta": {
                 "range": [
-                    35765,
-                    36606
+                    35807,
+                    36648
                 ],
                 "filename": "Base.mjs",
                 "lineno": 1248,
@@ -3334,8 +3334,8 @@
             "comment": "/**\n     * Creates the style deltas for newValue & oldValue and applies them directly to the DOM.\n     * @param newValue\n     * @param oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    36784,
-                    37627
+                    36826,
+                    37669
                 ],
                 "filename": "Base.mjs",
                 "lineno": 1281,
@@ -3378,8 +3378,8 @@
             "comment": "/**\n     * Gets called after the vdom config gets changed in case the component is already mounted (delta updates).\n     * @param {Object} vdom\n     * @param {Neo.vdom.VNode} vnode\n     * @param {function} [resolve] used by promiseVdomUpdate()\n     * @param {function} [reject] used by promiseVdomUpdate()\n     * @private\n     */",
             "meta": {
                 "range": [
-                    37967,
-                    39093
+                    38009,
+                    39135
                 ],
                 "filename": "Base.mjs",
                 "lineno": 1315,

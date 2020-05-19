@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Neo.layout.Base",
             "$kind": "class",
-            "id": 1200,
+            "id": 1201,
             "neoClassName": "Neo.layout.Base"
         },
         {
@@ -45,7 +45,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1201,
+            "id": 1202,
             "neoClassName": "Neo.layout.Base"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1202,
+            "id": 1203,
             "neoClassName": "Neo.layout.Base"
         },
         {
@@ -97,7 +97,7 @@
             "scope": "global",
             "$longname": "containerId",
             "$kind": "property",
-            "id": 1203,
+            "id": 1204,
             "neoClassName": "Neo.layout.Base"
         },
         {
@@ -123,7 +123,7 @@
             "scope": "global",
             "$longname": "isLayout",
             "$kind": "property",
-            "id": 1204,
+            "id": 1205,
             "neoClassName": "Neo.layout.Base"
         },
         {
@@ -138,7 +138,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100035147",
+                    "id": "astnode100035159",
                     "name": "Base#applyChildAttributes",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -168,7 +168,7 @@
             "scope": "instance",
             "$longname": "Base#applyChildAttributes",
             "$kind": "method",
-            "id": 1205,
+            "id": 1206,
             "neoClassName": "Neo.layout.Base"
         },
         {
@@ -183,7 +183,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100035152",
+                    "id": "astnode100035164",
                     "name": "Base#applyRenderAttributes",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -202,7 +202,7 @@
             "params": [],
             "$longname": "Base#applyRenderAttributes",
             "$kind": "method",
-            "id": 1206,
+            "id": 1207,
             "neoClassName": "Neo.layout.Base"
         },
         {
@@ -217,7 +217,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100035156",
+                    "id": "astnode100035168",
                     "name": "Base#removeChildAttributes",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -247,7 +247,7 @@
             "scope": "instance",
             "$longname": "Base#removeChildAttributes",
             "$kind": "method",
-            "id": 1207,
+            "id": 1208,
             "neoClassName": "Neo.layout.Base"
         },
         {
@@ -262,7 +262,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100035161",
+                    "id": "astnode100035173",
                     "name": "Base#removeRenderAttributes",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -281,7 +281,7 @@
             "params": [],
             "$longname": "Base#removeRenderAttributes",
             "$kind": "method",
-            "id": 1208,
+            "id": 1209,
             "neoClassName": "Neo.layout.Base"
         }
     ]

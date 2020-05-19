@@ -26,7 +26,7 @@
             "scope": "static",
             "$longname": "Neo.manager.DomEvent",
             "$kind": "class",
-            "id": 1518,
+            "id": 1546,
             "neoClassName": "Neo.manager.DomEvent"
         },
         {
@@ -51,7 +51,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1519,
+            "id": 1547,
             "neoClassName": "Neo.manager.DomEvent"
         },
         {
@@ -76,7 +76,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1520,
+            "id": 1548,
             "neoClassName": "Neo.manager.DomEvent"
         },
         {
@@ -101,7 +101,7 @@
             "scope": "global",
             "$longname": "listeners",
             "$kind": "property",
-            "id": 1521,
+            "id": 1549,
             "neoClassName": "Neo.manager.DomEvent"
         },
         {
@@ -126,7 +126,7 @@
             "scope": "global",
             "$longname": "map",
             "$kind": "property",
-            "id": 1522,
+            "id": 1550,
             "neoClassName": "Neo.manager.DomEvent"
         },
         {
@@ -151,7 +151,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 1523,
+            "id": 1551,
             "neoClassName": "Neo.manager.DomEvent"
         },
         {
@@ -166,7 +166,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100046414",
+                    "id": "astnode100046807",
                     "name": "DomEvent#fire",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -195,7 +195,7 @@
             "scope": "instance",
             "$longname": "DomEvent#fire",
             "$kind": "method",
-            "id": 1524,
+            "id": 1552,
             "neoClassName": "Neo.manager.DomEvent"
         },
         {
@@ -210,7 +210,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100046695",
+                    "id": "astnode100047088",
                     "name": "DomEvent#generateListenerConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -246,7 +246,7 @@
             "scope": "instance",
             "$longname": "DomEvent#generateListenerConfig",
             "$kind": "method",
-            "id": 1525,
+            "id": 1553,
             "neoClassName": "Neo.manager.DomEvent"
         },
         {
@@ -261,7 +261,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100046773",
+                    "id": "astnode100047166",
                     "name": "DomEvent#getListener",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -346,7 +346,7 @@
             "scope": "instance",
             "$longname": "DomEvent#getListener",
             "$kind": "method",
-            "id": 1526,
+            "id": 1554,
             "neoClassName": "Neo.manager.DomEvent"
         },
         {
@@ -361,7 +361,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100046816",
+                    "id": "astnode100047209",
                     "name": "DomEvent#mountDomListeners",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -391,7 +391,7 @@
             "scope": "instance",
             "$longname": "DomEvent#mountDomListeners",
             "$kind": "method",
-            "id": 1527,
+            "id": 1555,
             "neoClassName": "Neo.manager.DomEvent"
         },
         {
@@ -406,7 +406,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100046938",
+                    "id": "astnode100047331",
                     "name": "DomEvent#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -516,7 +516,7 @@
             "scope": "instance",
             "$longname": "DomEvent#register",
             "$kind": "method",
-            "id": 1528,
+            "id": 1556,
             "neoClassName": "Neo.manager.DomEvent"
         },
         {
@@ -531,7 +531,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047216",
+                    "id": "astnode100047609",
                     "name": "DomEvent#unregister",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -618,7 +618,7 @@
             "scope": "instance",
             "$longname": "DomEvent#unregister",
             "$kind": "method",
-            "id": 1529,
+            "id": 1557,
             "neoClassName": "Neo.manager.DomEvent"
         },
         {
@@ -633,7 +633,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047456",
+                    "id": "astnode100047849",
                     "name": "DomEvent#updateListenerPlaceholder",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -702,7 +702,7 @@
             "scope": "instance",
             "$longname": "DomEvent#updateListenerPlaceholder",
             "$kind": "method",
-            "id": 1530,
+            "id": 1558,
             "neoClassName": "Neo.manager.DomEvent"
         },
         {
@@ -717,7 +717,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047534",
+                    "id": "astnode100047927",
                     "name": "DomEvent#verifyDelegationPath",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -765,7 +765,7 @@
             "scope": "instance",
             "$longname": "DomEvent#verifyDelegationPath",
             "$kind": "method",
-            "id": 1531,
+            "id": 1559,
             "neoClassName": "Neo.manager.DomEvent"
         }
     ]

@@ -393,7 +393,7 @@
             "meta": {
                 "range": [
                     2707,
-                    3117
+                    3119
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 100,
@@ -424,8 +424,8 @@
             "comment": "/**\n     * Triggered after the center config got changed\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    3269,
-                    3339
+                    3271,
+                    3341
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 122,
@@ -478,8 +478,8 @@
             "comment": "/**\n     * Triggered after the data config got changed\n     * @param {Array|null} value\n     * @param {Array|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    3497,
-                    3752
+                    3499,
+                    3756
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 132,
@@ -534,8 +534,8 @@
             "comment": "/**\n     * Triggered after the layers config got changed\n     * @param {Object[]|null} value\n     * @param {Object[]|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    3918,
-                    4113
+                    3922,
+                    4119
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 148,
@@ -590,8 +590,8 @@
             "comment": "/**\n     * Triggered after the mapboxStyle config got changed\n     * @param {Object|String} value\n     * @param {Object|String} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    4284,
-                    4547
+                    4290,
+                    4555
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 163,
@@ -646,8 +646,8 @@
             "comment": "/**\n     * Triggered after the sources config got changed\n     * @param {Object[]|null} value\n     * @param {Object[]|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    4714,
-                    4913
+                    4722,
+                    4923
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 179,
@@ -702,8 +702,8 @@
             "comment": "/**\n     * Triggered after the zoom config got changed\n     * @param {Number} value\n     * @param {Number} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    5063,
-                    5254
+                    5073,
+                    5266
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 194,
@@ -756,8 +756,8 @@
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    5283,
-                    5382
+                    5295,
+                    5396
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 206,
@@ -788,8 +788,8 @@
             "comment": "/**\n     * Triggered before the center config gets changed.\n     * @param {Object} value\n     * @param {Object} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    5537,
-                    5712
+                    5551,
+                    5726
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 218,
@@ -842,8 +842,8 @@
             "comment": "/**\n     * Triggered before the data config gets changed.\n     * @param {Array|null} value\n     * @param {Array|null} oldValue\n     * @private\n     */",
             "meta": {
                 "range": [
-                    5873,
-                    6044
+                    5887,
+                    6058
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 233,
@@ -898,8 +898,8 @@
             "comment": "/**\n     * Use component.center = {} or component.flyTo() instead\n     * @param {Object} value\n     * @param {Number} value.lat\n     * @param {Number} value.lng\n     * @param {Boolean} animate=false\n     * @private\n     */",
             "meta": {
                 "range": [
-                    6277,
-                    6490
+                    6291,
+                    6506
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 249,
@@ -969,8 +969,8 @@
             "comment": "/**\n     *\n     * @param {Object[]} data\n     * @return {Object} Object matching the geojson format\n     */",
             "meta": {
                 "range": [
-                    6608,
-                    7442
+                    6624,
+                    7458
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 263,
@@ -1022,8 +1022,8 @@
             "comment": "/**\n     *\n     * @param {Object} value\n     * @param {Number} value.lat\n     * @param {Number} value.lng\n     */",
             "meta": {
                 "range": [
-                    7566,
-                    7795
+                    7582,
+                    7811
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 299,
@@ -1081,8 +1081,8 @@
             "comment": "/**\n     * Override this method to trigger logic after the map got mounted into the dom\n     */",
             "meta": {
                 "range": [
-                    7901,
-                    7924
+                    7917,
+                    7940
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 312,
@@ -1114,8 +1114,8 @@
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.layerId\n     * @param {Object} data.options\n     * @param {Boolean} data.options.validate = true\n     * @param {Array} data.value\n     */",
             "meta": {
                 "range": [
-                    8139,
-                    8348
+                    8155,
+                    8366
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 324,
@@ -1190,8 +1190,8 @@
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.layerId\n     * @param {String} data.key\n     * @param {Object} data.options\n     * @param {Boolean} data.options.validate = true\n     * @param {String} data.value\n     */",
             "meta": {
                 "range": [
-                    8596,
-                    8852
+                    8614,
+                    8872
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 342,
@@ -1274,8 +1274,8 @@
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {String} data.layerId\n     * @param {String} data.key\n     * @param {Object} data.options\n     * @param {Boolean} data.options.validate = true\n     * @param {String} data.value\n     */",
             "meta": {
                 "range": [
-                    9100,
-                    9354
+                    9120,
+                    9376
                 ],
                 "filename": "MapboxGL.mjs",
                 "lineno": 361,

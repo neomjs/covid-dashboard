@@ -1,11 +1,10 @@
-<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><meta charset="UTF-8"><title>COVID-19 IN NUMBERS</title></head><body><script>Neo = self.Neo || {}; Neo.config = Neo.config || {};
+<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><meta charset="UTF-8"><title>Covid</title></head><body><script>Neo = self.Neo || {}; Neo.config = Neo.config || {};
 
         Object.assign(Neo.config, {
-            appPath       : '/apps/covid/app.js',
-            basePath      : '../../../../',
-            environment   : 'production',
-            themes        : ['neo-theme-dark', 'neo-theme-light'],
-            useAmCharts   : true,
-            useMapboxGL   : true,
-            workerBasePath: '../../'
+            appPath         : '/apps/covid/app.js',
+            basePath        : '../../../../',
+            environment     : 'production',
+            mainThreadAddons: ['AmCharts', 'MapboxGL', 'Stylesheet'],
+            themes          : ['neo-theme-dark', 'neo-theme-light'],
+            workerBasePath  : '../../'
         });</script><script src="../../main.js"></script></body></html>
