@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.main.addon.MapboxGL",
             "$kind": "class",
-            "id": 1399,
+            "id": 1401,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1400,
+            "id": 1402,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -78,7 +78,7 @@
             "scope": "global",
             "$longname": "dataMap",
             "$kind": "property",
-            "id": 1401,
+            "id": 1403,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -103,7 +103,7 @@
             "scope": "global",
             "$longname": "downloadPath",
             "$kind": "property",
-            "id": 1402,
+            "id": 1404,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -129,7 +129,7 @@
             "scope": "global",
             "$longname": "layers",
             "$kind": "property",
-            "id": 1403,
+            "id": 1405,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -155,7 +155,7 @@
             "scope": "global",
             "$longname": "maps",
             "$kind": "property",
-            "id": 1404,
+            "id": 1406,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -181,7 +181,7 @@
             "scope": "global",
             "$longname": "mapsToCreate",
             "$kind": "property",
-            "id": 1405,
+            "id": 1407,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -206,7 +206,7 @@
             "scope": "global",
             "$longname": "scriptsLoaded_",
             "$kind": "property",
-            "id": 1406,
+            "id": 1408,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -231,7 +231,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 1407,
+            "id": 1409,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -257,7 +257,7 @@
             "scope": "global",
             "$longname": "sources",
             "$kind": "property",
-            "id": 1408,
+            "id": 1410,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -282,7 +282,7 @@
             "scope": "global",
             "$longname": "remote",
             "$kind": "property",
-            "id": 1409,
+            "id": 1411,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -308,7 +308,7 @@
             "scope": "global",
             "$longname": "styleMap",
             "$kind": "property",
-            "id": 1410,
+            "id": 1412,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -333,7 +333,7 @@
             "scope": "global",
             "$longname": "version",
             "$kind": "property",
-            "id": 1411,
+            "id": 1413,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -359,7 +359,7 @@
             "scope": "global",
             "$longname": "zoomMap",
             "$kind": "property",
-            "id": 1412,
+            "id": 1414,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -374,7 +374,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040536",
+                    "id": "astnode100040573",
                     "name": "MapboxGL",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -401,7 +401,7 @@
             "scope": "global",
             "$longname": "MapboxGL",
             "$kind": "constructor",
-            "id": 1413,
+            "id": 1415,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -416,7 +416,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040550",
+                    "id": "astnode100040587",
                     "name": "MapboxGL#addLayers",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -460,7 +460,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#addLayers",
             "$kind": "method",
-            "id": 1414,
+            "id": 1416,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -475,7 +475,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040626",
+                    "id": "astnode100040663",
                     "name": "MapboxGL#addSources",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -519,7 +519,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#addSources",
             "$kind": "method",
-            "id": 1415,
+            "id": 1417,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -534,7 +534,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040702",
+                    "id": "astnode100040739",
                     "name": "MapboxGL#afterSetScriptsLoaded",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -573,7 +573,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#afterSetScriptsLoaded",
             "$kind": "method",
-            "id": 1416,
+            "id": 1418,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -588,7 +588,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040737",
+                    "id": "astnode100040774",
                     "name": "MapboxGL#applyStyleObject",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -635,7 +635,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#applyStyleObject",
             "$kind": "method",
-            "id": 1417,
+            "id": 1419,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -650,7 +650,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040789",
+                    "id": "astnode100040826",
                     "name": "MapboxGL#autoResize",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -687,7 +687,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#autoResize",
             "$kind": "method",
-            "id": 1418,
+            "id": 1420,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -702,7 +702,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040818",
+                    "id": "astnode100040855",
                     "name": "MapboxGL#center",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -764,7 +764,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#center",
             "$kind": "method",
-            "id": 1419,
+            "id": 1421,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -779,7 +779,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040868",
+                    "id": "astnode100040905",
                     "name": "MapboxGL#create",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -847,7 +847,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#create",
             "$kind": "method",
-            "id": 1420,
+            "id": 1422,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -862,7 +862,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040986",
+                    "id": "astnode100041023",
                     "name": "MapboxGL#hasMap",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -899,7 +899,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#hasMap",
             "$kind": "method",
-            "id": 1421,
+            "id": 1423,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -914,7 +914,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041049",
+                    "id": "astnode100041086",
                     "name": "MapboxGL#onMapLoaded",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -960,7 +960,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#onMapLoaded",
             "$kind": "method",
-            "id": 1422,
+            "id": 1424,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -975,7 +975,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041139",
+                    "id": "astnode100041176",
                     "name": "MapboxGL#onMapReallyLoaded",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1021,7 +1021,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#onMapReallyLoaded",
             "$kind": "method",
-            "id": 1423,
+            "id": 1425,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -1036,7 +1036,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041173",
+                    "id": "astnode100041210",
                     "name": "MapboxGL#setFilter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1105,7 +1105,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#setFilter",
             "$kind": "method",
-            "id": 1424,
+            "id": 1426,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -1120,7 +1120,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041208",
+                    "id": "astnode100041245",
                     "name": "MapboxGL#setLayoutProperty",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1197,7 +1197,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#setLayoutProperty",
             "$kind": "method",
-            "id": 1425,
+            "id": 1427,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -1212,7 +1212,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041246",
+                    "id": "astnode100041283",
                     "name": "MapboxGL#setPaintProperty",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1289,7 +1289,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#setPaintProperty",
             "$kind": "method",
-            "id": 1426,
+            "id": 1428,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -1304,7 +1304,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041284",
+                    "id": "astnode100041321",
                     "name": "MapboxGL#setStyle",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1357,7 +1357,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#setStyle",
             "$kind": "method",
-            "id": 1427,
+            "id": 1429,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -1372,7 +1372,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041412",
+                    "id": "astnode100041449",
                     "name": "MapboxGL#updateData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1424,7 +1424,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#updateData",
             "$kind": "method",
-            "id": 1428,
+            "id": 1430,
             "neoClassName": "Neo.main.addon.MapboxGL"
         },
         {
@@ -1439,7 +1439,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041477",
+                    "id": "astnode100041514",
                     "name": "MapboxGL#zoom",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1483,7 +1483,7 @@
             "scope": "instance",
             "$longname": "MapboxGL#zoom",
             "$kind": "method",
-            "id": 1429,
+            "id": 1431,
             "neoClassName": "Neo.main.addon.MapboxGL"
         }
     ]

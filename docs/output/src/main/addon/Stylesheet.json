@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.main.addon.Stylesheet",
             "$kind": "class",
-            "id": 1442,
+            "id": 1444,
             "neoClassName": "Neo.main.addon.Stylesheet"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1443,
+            "id": 1445,
             "neoClassName": "Neo.main.addon.Stylesheet"
         },
         {
@@ -78,7 +78,7 @@
             "scope": "global",
             "$longname": "remote",
             "$kind": "property",
-            "id": 1444,
+            "id": 1446,
             "neoClassName": "Neo.main.addon.Stylesheet"
         },
         {
@@ -103,7 +103,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 1445,
+            "id": 1447,
             "neoClassName": "Neo.main.addon.Stylesheet"
         },
         {
@@ -118,7 +118,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041773",
+                    "id": "astnode100041810",
                     "name": "Stylesheet",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -145,7 +145,7 @@
             "scope": "global",
             "$longname": "Stylesheet",
             "$kind": "constructor",
-            "id": 1446,
+            "id": 1448,
             "neoClassName": "Neo.main.addon.Stylesheet"
         },
         {
@@ -160,7 +160,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041829",
+                    "id": "astnode100041866",
                     "name": "Stylesheet#createStyleSheet",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -210,7 +210,7 @@
             "scope": "instance",
             "$longname": "Stylesheet#createStyleSheet",
             "$kind": "method",
-            "id": 1447,
+            "id": 1449,
             "neoClassName": "Neo.main.addon.Stylesheet"
         },
         {
@@ -225,7 +225,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041920",
+                    "id": "astnode100041957",
                     "name": "Stylesheet#hasStyleSheet",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -262,7 +262,7 @@
             "scope": "instance",
             "$longname": "Stylesheet#hasStyleSheet",
             "$kind": "method",
-            "id": 1448,
+            "id": 1450,
             "neoClassName": "Neo.main.addon.Stylesheet"
         },
         {
@@ -277,7 +277,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041970",
+                    "id": "astnode100042007",
                     "name": "Stylesheet#insertCssRules",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -306,7 +306,7 @@
             "scope": "instance",
             "$longname": "Stylesheet#insertCssRules",
             "$kind": "method",
-            "id": 1449,
+            "id": 1451,
             "neoClassName": "Neo.main.addon.Stylesheet"
         },
         {
@@ -321,7 +321,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100042049",
+                    "id": "astnode100042086",
                     "name": "Stylesheet#insertTheme",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -339,7 +339,7 @@
             "params": [],
             "$longname": "Stylesheet#insertTheme",
             "$kind": "method",
-            "id": 1450,
+            "id": 1452,
             "neoClassName": "Neo.main.addon.Stylesheet"
         },
         {
@@ -354,7 +354,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100042208",
+                    "id": "astnode100042245",
                     "name": "Stylesheet#removeStyleSheets",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -398,7 +398,7 @@
             "scope": "instance",
             "$longname": "Stylesheet#removeStyleSheets",
             "$kind": "method",
-            "id": 1451,
+            "id": 1453,
             "neoClassName": "Neo.main.addon.Stylesheet"
         },
         {
@@ -413,7 +413,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100042336",
+                    "id": "astnode100042373",
                     "name": "Stylesheet#swapStyleSheet",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -457,7 +457,7 @@
             "scope": "instance",
             "$longname": "Stylesheet#swapStyleSheet",
             "$kind": "method",
-            "id": 1452,
+            "id": 1454,
             "neoClassName": "Neo.main.addon.Stylesheet"
         }
     ]

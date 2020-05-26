@@ -24,7 +24,7 @@
             "mainThreadAddons": "'AmCharts', 'MapboxGL', 'Stylesheet'",
             "output": "/apps/covid/",
             "themes": "'neo-theme-dark', 'neo-theme-light'",
-            "title": "Covid"
+            "title": "COVID-19 IN NUMBERS"
         }
     }
 }

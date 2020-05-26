@@ -21,7 +21,7 @@
             "scope": "static",
             "$longname": "Neo.worker.Base",
             "$kind": "class",
-            "id": 2096,
+            "id": 2098,
             "neoClassName": "Neo.worker.Base"
         },
         {
@@ -46,7 +46,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 2097,
+            "id": 2099,
             "neoClassName": "Neo.worker.Base"
         },
         {
@@ -71,7 +71,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 2098,
+            "id": 2100,
             "neoClassName": "Neo.worker.Base"
         },
         {
@@ -98,7 +98,7 @@
             "scope": "global",
             "$longname": "mixins",
             "$kind": "property",
-            "id": 2099,
+            "id": 2101,
             "neoClassName": "Neo.worker.Base"
         },
         {
@@ -124,7 +124,7 @@
             "scope": "global",
             "$longname": "workerId",
             "$kind": "property",
-            "id": 2100,
+            "id": 2102,
             "neoClassName": "Neo.worker.Base"
         },
         {
@@ -139,7 +139,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100067927",
+                    "id": "astnode100067964",
                     "name": "Base",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -166,7 +166,7 @@
             "scope": "global",
             "$longname": "Base",
             "$kind": "constructor",
-            "id": 2101,
+            "id": 2103,
             "neoClassName": "Neo.worker.Base"
         },
         {
@@ -181,7 +181,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100067980",
+                    "id": "astnode100068017",
                     "name": "Base#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -198,7 +198,7 @@
             "params": [],
             "$longname": "Base#onConstructed",
             "$kind": "method",
-            "id": 2102,
+            "id": 2104,
             "neoClassName": "Neo.worker.Base"
         },
         {
@@ -213,7 +213,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100067998",
+                    "id": "astnode100068035",
                     "name": "Base#onMessage",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -241,7 +241,7 @@
             "scope": "instance",
             "$longname": "Base#onMessage",
             "$kind": "method",
-            "id": 2103,
+            "id": 2105,
             "neoClassName": "Neo.worker.Base"
         },
         {
@@ -256,7 +256,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100068120",
+                    "id": "astnode100068157",
                     "name": "Base#onPing",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -284,7 +284,7 @@
             "scope": "instance",
             "$longname": "Base#onPing",
             "$kind": "method",
-            "id": 2104,
+            "id": 2106,
             "neoClassName": "Neo.worker.Base"
         },
         {
@@ -299,7 +299,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100068134",
+                    "id": "astnode100068171",
                     "name": "Base#onRegisterNeoConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -327,7 +327,7 @@
             "scope": "instance",
             "$longname": "Base#onRegisterNeoConfig",
             "$kind": "method",
-            "id": 2105,
+            "id": 2107,
             "neoClassName": "Neo.worker.Base"
         },
         {
@@ -342,7 +342,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100068160",
+                    "id": "astnode100068197",
                     "name": "Base#promiseMessage",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -401,7 +401,7 @@
             "scope": "instance",
             "$longname": "Base#promiseMessage",
             "$kind": "method",
-            "id": 2106,
+            "id": 2108,
             "neoClassName": "Neo.worker.Base"
         },
         {
@@ -416,7 +416,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100068205",
+                    "id": "astnode100068242",
                     "name": "Base#sendMessage",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -476,7 +476,7 @@
             "scope": "instance",
             "$longname": "Base#sendMessage",
             "$kind": "method",
-            "id": 2107,
+            "id": 2109,
             "neoClassName": "Neo.worker.Base"
         }
     ]

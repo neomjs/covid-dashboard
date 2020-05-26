@@ -26,7 +26,7 @@
             "scope": "static",
             "$longname": "Neo.main.DomAccess",
             "$kind": "class",
-            "id": 1453,
+            "id": 1455,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -51,7 +51,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1454,
+            "id": 1456,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -75,7 +75,7 @@
             "scope": "global",
             "$longname": "logDeltaUpdates",
             "$kind": "property",
-            "id": 1455,
+            "id": 1457,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -100,7 +100,7 @@
             "scope": "global",
             "$longname": "mixins",
             "$kind": "property",
-            "id": 1456,
+            "id": 1458,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -126,7 +126,7 @@
             "scope": "global",
             "$longname": "remote",
             "$kind": "property",
-            "id": 1457,
+            "id": 1459,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -151,7 +151,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 1458,
+            "id": 1460,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -176,7 +176,7 @@
             "scope": "global",
             "$longname": "voidAttributes",
             "$kind": "property",
-            "id": 1459,
+            "id": 1461,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -191,7 +191,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100042430",
+                    "id": "astnode100042467",
                     "name": "DomAccess",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -218,7 +218,7 @@
             "scope": "global",
             "$longname": "DomAccess",
             "$kind": "constructor",
-            "id": 1460,
+            "id": 1462,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -233,7 +233,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100042460",
+                    "id": "astnode100042497",
                     "name": "DomAccess#addScript",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -289,7 +289,7 @@
             "scope": "instance",
             "$longname": "DomAccess#addScript",
             "$kind": "method",
-            "id": 1461,
+            "id": 1463,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -304,7 +304,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100042502",
+                    "id": "astnode100042539",
                     "name": "DomAccess#applyBodyCls",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -340,7 +340,7 @@
             "scope": "instance",
             "$longname": "DomAccess#applyBodyCls",
             "$kind": "method",
-            "id": 1462,
+            "id": 1464,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -355,7 +355,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100042526",
+                    "id": "astnode100042563",
                     "name": "DomAccess#execCommand",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -401,7 +401,7 @@
             "scope": "instance",
             "$longname": "DomAccess#execCommand",
             "$kind": "method",
-            "id": 1463,
+            "id": 1465,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -416,7 +416,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100042541",
+                    "id": "astnode100042578",
                     "name": "DomAccess#focus",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -455,7 +455,7 @@
             "scope": "instance",
             "$longname": "DomAccess#focus",
             "$kind": "method",
-            "id": 1464,
+            "id": 1466,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -470,7 +470,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100042570",
+                    "id": "astnode100042607",
                     "name": "DomAccess#getAttributes",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -530,7 +530,7 @@
             "scope": "instance",
             "$longname": "DomAccess#getAttributes",
             "$kind": "method",
-            "id": 1465,
+            "id": 1467,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -545,7 +545,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100042674",
+                    "id": "astnode100042711",
                     "name": "DomAccess#getBoundingClientRect",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -595,7 +595,7 @@
             "scope": "instance",
             "$longname": "DomAccess#getBoundingClientRect",
             "$kind": "method",
-            "id": 1466,
+            "id": 1468,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -610,7 +610,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100042786",
+                    "id": "astnode100042823",
                     "name": "DomAccess#getElement",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -648,7 +648,7 @@
             "scope": "instance",
             "$longname": "DomAccess#getElement",
             "$kind": "method",
-            "id": 1467,
+            "id": 1469,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -663,7 +663,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100042797",
+                    "id": "astnode100042834",
                     "name": "DomAccess#getElementOrBody",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -703,7 +703,7 @@
             "scope": "instance",
             "$longname": "DomAccess#getElementOrBody",
             "$kind": "method",
-            "id": 1468,
+            "id": 1470,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -718,7 +718,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100042824",
+                    "id": "astnode100042861",
                     "name": "DomAccess#loadScript",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -767,7 +767,7 @@
             "scope": "instance",
             "$longname": "DomAccess#loadScript",
             "$kind": "method",
-            "id": 1469,
+            "id": 1471,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -782,7 +782,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100042873",
+                    "id": "astnode100042910",
                     "name": "DomAccess#loadStylesheet",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -820,7 +820,7 @@
             "scope": "instance",
             "$longname": "DomAccess#loadStylesheet",
             "$kind": "method",
-            "id": 1470,
+            "id": 1472,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -835,7 +835,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100042921",
+                    "id": "astnode100042958",
                     "name": "DomAccess#onDomContentLoaded",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -852,7 +852,7 @@
             "params": [],
             "$longname": "DomAccess#onDomContentLoaded",
             "$kind": "method",
-            "id": 1471,
+            "id": 1473,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -867,7 +867,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100042941",
+                    "id": "astnode100042978",
                     "name": "DomAccess#onReadDom",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -929,7 +929,7 @@
             "scope": "instance",
             "$longname": "DomAccess#onReadDom",
             "$kind": "method",
-            "id": 1472,
+            "id": 1474,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -944,7 +944,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100043210",
+                    "id": "astnode100043247",
                     "name": "DomAccess#read",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -973,7 +973,7 @@
             "scope": "instance",
             "$longname": "DomAccess#read",
             "$kind": "method",
-            "id": 1473,
+            "id": 1475,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -988,7 +988,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100043224",
+                    "id": "astnode100043261",
                     "name": "DomAccess#scrollIntoView",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1064,7 +1064,7 @@
             "scope": "instance",
             "$longname": "DomAccess#scrollIntoView",
             "$kind": "method",
-            "id": 1474,
+            "id": 1476,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -1079,7 +1079,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100043272",
+                    "id": "astnode100043309",
                     "name": "DomAccess#scrollToTableRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1145,7 +1145,7 @@
             "scope": "instance",
             "$longname": "DomAccess#scrollToTableRow",
             "$kind": "method",
-            "id": 1475,
+            "id": 1477,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -1160,7 +1160,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100043352",
+                    "id": "astnode100043389",
                     "name": "DomAccess#selectNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1226,7 +1226,7 @@
             "scope": "instance",
             "$longname": "DomAccess#selectNode",
             "$kind": "method",
-            "id": 1476,
+            "id": 1478,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -1241,7 +1241,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100043410",
+                    "id": "astnode100043447",
                     "name": "DomAccess#windowScrollTo",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1300,7 +1300,7 @@
             "scope": "instance",
             "$longname": "DomAccess#windowScrollTo",
             "$kind": "method",
-            "id": 1477,
+            "id": 1479,
             "neoClassName": "Neo.main.DomAccess"
         },
         {
@@ -1315,7 +1315,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100043439",
+                    "id": "astnode100043476",
                     "name": "DomAccess#write",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1344,7 +1344,7 @@
             "scope": "instance",
             "$longname": "DomAccess#write",
             "$kind": "method",
-            "id": 1478,
+            "id": 1480,
             "neoClassName": "Neo.main.DomAccess"
         }
     ]

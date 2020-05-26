@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.main.addon.Markdown",
             "$kind": "class",
-            "id": 1430,
+            "id": 1432,
             "neoClassName": "Neo.main.addon.Markdown"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1431,
+            "id": 1433,
             "neoClassName": "Neo.main.addon.Markdown"
         },
         {
@@ -78,7 +78,7 @@
             "scope": "global",
             "$longname": "remote",
             "$kind": "property",
-            "id": 1432,
+            "id": 1434,
             "neoClassName": "Neo.main.addon.Markdown"
         },
         {
@@ -103,7 +103,7 @@
             "scope": "global",
             "$longname": "showdownPath",
             "$kind": "property",
-            "id": 1433,
+            "id": 1435,
             "neoClassName": "Neo.main.addon.Markdown"
         },
         {
@@ -128,7 +128,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 1434,
+            "id": 1436,
             "neoClassName": "Neo.main.addon.Markdown"
         },
         {
@@ -143,7 +143,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041567",
+                    "id": "astnode100041604",
                     "name": "Markdown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -170,7 +170,7 @@
             "scope": "global",
             "$longname": "Markdown",
             "$kind": "constructor",
-            "id": 1435,
+            "id": 1437,
             "neoClassName": "Neo.main.addon.Markdown"
         },
         {
@@ -185,7 +185,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100041586",
+                    "id": "astnode100041623",
                     "name": "Markdown#markdownToHtml",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -216,7 +216,7 @@
             "scope": "instance",
             "$longname": "Markdown#markdownToHtml",
             "$kind": "method",
-            "id": 1436,
+            "id": 1438,
             "neoClassName": "Neo.main.addon.Markdown"
         }
     ]

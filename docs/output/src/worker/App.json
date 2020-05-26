@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.worker.App",
             "$kind": "class",
-            "id": 2085,
+            "id": 2087,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 2086,
+            "id": 2088,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -77,7 +77,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 2087,
+            "id": 2089,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -103,7 +103,7 @@
             "scope": "global",
             "$longname": "data",
             "$kind": "property",
-            "id": 2088,
+            "id": 2090,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -128,7 +128,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 2089,
+            "id": 2091,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -153,7 +153,7 @@
             "scope": "global",
             "$longname": "workerId",
             "$kind": "property",
-            "id": 2090,
+            "id": 2092,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -168,7 +168,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100067713",
+                    "id": "astnode100067750",
                     "name": "App",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -195,7 +195,7 @@
             "scope": "global",
             "$longname": "App",
             "$kind": "constructor",
-            "id": 2091,
+            "id": 2093,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -210,7 +210,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100067736",
+                    "id": "astnode100067773",
                     "name": "App#onDomEvent",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -240,7 +240,7 @@
             "scope": "instance",
             "$longname": "App#onDomEvent",
             "$kind": "method",
-            "id": 2092,
+            "id": 2094,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -255,7 +255,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100067747",
+                    "id": "astnode100067784",
                     "name": "App#onHashChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -285,7 +285,7 @@
             "scope": "instance",
             "$longname": "App#onHashChange",
             "$kind": "method",
-            "id": 2093,
+            "id": 2095,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -300,7 +300,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100067763",
+                    "id": "astnode100067800",
                     "name": "App#onLoadApplication",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -329,7 +329,7 @@
             "scope": "instance",
             "$longname": "App#onLoadApplication",
             "$kind": "method",
-            "id": 2094,
+            "id": 2096,
             "neoClassName": "Neo.worker.App"
         },
         {
@@ -344,7 +344,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100067862",
+                    "id": "astnode100067899",
                     "name": "App#onRemoteRegistered",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -373,7 +373,7 @@
             "scope": "instance",
             "$longname": "App#onRemoteRegistered",
             "$kind": "method",
-            "id": 2095,
+            "id": 2097,
             "neoClassName": "Neo.worker.App"
         }
     ]
