@@ -10,7 +10,7 @@ class HistoricalDataTable extends Container {
     static getConfig() {return {
         /**
          * @member {String} className='Covid.view.country.HistoricalDataTable'
-         * @private
+         * @protected
          */
         className: 'Covid.view.country.HistoricalDataTable',
         /**
@@ -78,10 +78,6 @@ class HistoricalDataTable extends Container {
             text     : 'Daily D',
             renderer : data => Util.formatNumber(data, '#fb6767')
         }],
-        /**
-         * @member {Boolean} createRandomData=false
-         */
-        createRandomData: false, // testing config
         /**
          * @member {Neo.data.Store} store=HistoricalData
          */

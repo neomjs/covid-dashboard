@@ -13,13 +13,9 @@ class HelixContainer extends Container {
     static getConfig() {return {
         /**
          * @member {String} className='Covid.view.HelixContainer'
-         * @private
+         * @protected
          */
         className: 'Covid.view.HelixContainer',
-        /**
-         * @member {Boolean} autoMount=true
-         */
-        autoMount: true,
         /**
          * @member {String[]} cls=['neo-helix-maincontainer', 'neo-viewport']
          */

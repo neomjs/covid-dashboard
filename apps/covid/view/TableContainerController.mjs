@@ -9,13 +9,13 @@ class TableContainerController extends ComponentController {
     static getConfig() {return {
         /**
          * @member {String} className='Covid.view.TableContainerController'
-         * @private
+         * @protected
          */
         className: 'Covid.view.TableContainerController',
         /**
-         * @member {String} apiBaseUrl='https://corona.lmao.ninja/'
+         * @member {String} apiBaseUrl='https://disease.sh/'
          */
-        apiBaseUrl: 'https://corona.lmao.ninja/',
+        apiBaseUrl: 'https://disease.sh/',
         /**
          * @member {String} apiHistoricalDataEndpoint='historical'
          */
@@ -36,7 +36,7 @@ class TableContainerController extends ComponentController {
         selectedRecord: null,
         /**
          * @member {Neo.table.Container|null} table_=null
-         * @private
+         * @protected
          */
         table_: null
     }}
@@ -135,7 +135,7 @@ class TableContainerController extends ComponentController {
     /**
      *
      * @param {Object} record
-     * @private
+     * @protected
      * @return {Object}
      */
     static assignFieldsOrNull(record) {
@@ -154,7 +154,7 @@ class TableContainerController extends ComponentController {
     /**
      * Triggered when accessing the table config
      * @param {Neo.table.Container|null} value
-     * @private
+     * @protected
      */
     beforeGetTable(value) {
         if (!value) {
@@ -291,11 +291,7 @@ class TableContainerController extends ComponentController {
             });
         }
 
-        Neo.main.addon.AmCharts.updateData({
-            data    : dataArray,
-            dataPath: chart.dataPath,
-            id      : chart.id
-        });
+        chart.data = dataArray;
     }
 }
 
