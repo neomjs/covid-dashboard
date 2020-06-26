@@ -182,7 +182,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/grid/header",
                 "code": {
-                    "id": "astnode100035464",
+                    "id": "astnode100035466",
                     "name": "Toolbar#getLayoutConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -231,7 +231,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/grid/header",
                 "code": {
-                    "id": "astnode100035471",
+                    "id": "astnode100035473",
                     "name": "Toolbar#getVdomRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -272,7 +272,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/grid/header",
                 "code": {
-                    "id": "astnode100035483",
+                    "id": "astnode100035485",
                     "name": "Toolbar#getVnodeRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -313,7 +313,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/grid/header",
                 "code": {
-                    "id": "astnode100035495",
+                    "id": "astnode100035497",
                     "name": "Toolbar#createItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -356,7 +356,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/grid/header",
                 "code": {
-                    "id": "astnode100035581",
+                    "id": "astnode100035583",
                     "name": "Toolbar#render",
                     "type": "MethodDefinition",
                     "paramnames": []

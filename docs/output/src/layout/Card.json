@@ -84,7 +84,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100035745",
+                    "id": "astnode100035747",
                     "name": "Card#afterSetActiveIndex",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -128,7 +128,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100035854",
+                    "id": "astnode100035856",
                     "name": "Card#applyChildAttributes",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -171,7 +171,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100035908",
+                    "id": "astnode100035910",
                     "name": "Card#applyRenderAttributes",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -204,7 +204,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100035960",
+                    "id": "astnode100035962",
                     "name": "Card#removeRenderAttributes",
                     "type": "MethodDefinition",
                     "paramnames": []

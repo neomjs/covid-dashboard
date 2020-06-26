@@ -160,7 +160,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055014",
+                    "id": "astnode100055016",
                     "name": "CellColumnModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -202,7 +202,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055029",
+                    "id": "astnode100055031",
                     "name": "CellColumnModel#deselectAllCells",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -247,7 +247,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055086",
+                    "id": "astnode100055088",
                     "name": "CellColumnModel#onCellClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -290,7 +290,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055176",
+                    "id": "astnode100055178",
                     "name": "CellColumnModel#onNavKeyColumn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -342,7 +342,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055301",
+                    "id": "astnode100055303",
                     "name": "CellColumnModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []

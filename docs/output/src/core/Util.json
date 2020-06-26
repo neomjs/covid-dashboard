@@ -110,7 +110,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024478",
+                    "id": "astnode100024480",
                     "name": "Util.createStyles",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -165,7 +165,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024524",
+                    "id": "astnode100024526",
                     "name": "Util.capitalize",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -220,7 +220,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024548",
+                    "id": "astnode100024550",
                     "name": "Util.decamel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -275,7 +275,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024565",
+                    "id": "astnode100024567",
                     "name": "Util.createStyleObject",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -330,7 +330,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024663",
+                    "id": "astnode100024665",
                     "name": "Util.isArray",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -384,7 +384,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024674",
+                    "id": "astnode100024676",
                     "name": "Util.isBoolean",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -438,7 +438,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024684",
+                    "id": "astnode100024686",
                     "name": "Util.isDefined",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -492,7 +492,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024694",
+                    "id": "astnode100024696",
                     "name": "Util.isEmpty",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -548,7 +548,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024742",
+                    "id": "astnode100024744",
                     "name": "Util.isFunction",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -602,7 +602,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024752",
+                    "id": "astnode100024754",
                     "name": "Util.isNumber",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -656,7 +656,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024766",
+                    "id": "astnode100024768",
                     "name": "Util.isObject",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -710,7 +710,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024787",
+                    "id": "astnode100024789",
                     "name": "Util.isString",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -764,7 +764,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024797",
+                    "id": "astnode100024799",
                     "name": "Util.toArray",
                     "type": "MethodDefinition",
                     "paramnames": [

@@ -32,7 +32,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/vdom",
                 "code": {
-                    "id": "astnode100068612",
+                    "id": "astnode100068614",
                     "name": "VNode",
                     "type": "MethodDefinition",
                     "paramnames": [

@@ -245,7 +245,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100049083",
+                    "id": "astnode100049085",
                     "name": "Focus#addToHistory",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -307,7 +307,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100049114",
+                    "id": "astnode100049116",
                     "name": "Focus#focusEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -369,7 +369,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100049132",
+                    "id": "astnode100049134",
                     "name": "Focus#focusLeave",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -431,7 +431,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100049144",
+                    "id": "astnode100049146",
                     "name": "Focus#focusMove",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -493,7 +493,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100049288",
+                    "id": "astnode100049290",
                     "name": "Focus#onFocusin",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -555,7 +555,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100049334",
+                    "id": "astnode100049336",
                     "name": "Focus#onFocusout",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -617,7 +617,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100049373",
+                    "id": "astnode100049375",
                     "name": "Focus#setComponentFocus",
                     "type": "MethodDefinition",
                     "paramnames": [

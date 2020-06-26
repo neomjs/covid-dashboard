@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100036891",
+                    "id": "astnode100036893",
                     "name": "VBox#applyChildAttributes",
                     "type": "MethodDefinition",
                     "paramnames": [

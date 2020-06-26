@@ -271,7 +271,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100039990",
+                    "id": "astnode100039992",
                     "name": "AmCharts",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -313,7 +313,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040004",
+                    "id": "astnode100040006",
                     "name": "AmCharts#afterSetScriptsLoaded",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -367,7 +367,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040071",
+                    "id": "astnode100040073",
                     "name": "AmCharts#callMethod",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -435,7 +435,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040145",
+                    "id": "astnode100040147",
                     "name": "AmCharts#combineSeriesTooltip",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -478,7 +478,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040210",
+                    "id": "astnode100040212",
                     "name": "AmCharts#create",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -580,7 +580,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040334",
+                    "id": "astnode100040336",
                     "name": "AmCharts#destroy",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -631,7 +631,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040359",
+                    "id": "astnode100040361",
                     "name": "AmCharts#hasChart",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -683,7 +683,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040372",
+                    "id": "astnode100040374",
                     "name": "AmCharts#insertAmChartsScripts",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -718,7 +718,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040463",
+                    "id": "astnode100040465",
                     "name": "AmCharts#setProperties",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -777,7 +777,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040496",
+                    "id": "astnode100040498",
                     "name": "AmCharts#setProperty",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -855,7 +855,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040568",
+                    "id": "astnode100040570",
                     "name": "AmCharts#updateData",
                     "type": "MethodDefinition",
                     "paramnames": [

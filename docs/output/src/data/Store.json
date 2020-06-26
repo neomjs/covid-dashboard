@@ -355,7 +355,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100026457",
+                    "id": "astnode100026459",
                     "name": "Store",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -389,7 +389,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100026486",
+                    "id": "astnode100026488",
                     "name": "Store#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -421,7 +421,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100026528",
+                    "id": "astnode100026530",
                     "name": "Store#afterSetData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -464,7 +464,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100026569",
+                    "id": "astnode100026571",
                     "name": "Store#afterSetInitialData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -507,7 +507,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100026575",
+                    "id": "astnode100026577",
                     "name": "Store#afterSetModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -550,7 +550,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100026590",
+                    "id": "astnode100026592",
                     "name": "Store#beforeSetData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -602,7 +602,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100026657",
+                    "id": "astnode100026659",
                     "name": "Store#beforeSetInitialData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -654,7 +654,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100026673",
+                    "id": "astnode100026675",
                     "name": "Store#beforeSetModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -716,7 +716,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100026693",
+                    "id": "astnode100026695",
                     "name": "Store#createRecord",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -759,7 +759,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100026765",
+                    "id": "astnode100026767",
                     "name": "Store#onCollectionMutate",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -802,7 +802,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100026788",
+                    "id": "astnode100026790",
                     "name": "Store#onCollectionSort",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -835,7 +835,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100026801",
+                    "id": "astnode100026803",
                     "name": "Store#onRecordChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -921,7 +921,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100026813",
+                    "id": "astnode100026815",
                     "name": "Store#sort",
                     "type": "MethodDefinition",
                     "paramnames": [

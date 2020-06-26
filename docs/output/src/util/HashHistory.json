@@ -191,7 +191,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100063556",
+                    "id": "astnode100063558",
                     "name": "HashHistory#first",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -232,7 +232,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100063566",
+                    "id": "astnode100063568",
                     "name": "HashHistory#getCount",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -273,7 +273,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100063576",
+                    "id": "astnode100063578",
                     "name": "HashHistory#push",
                     "type": "MethodDefinition",
                     "paramnames": [

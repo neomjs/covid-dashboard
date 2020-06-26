@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055692",
+                    "id": "astnode100055694",
                     "name": "CellModel#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -141,7 +141,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055730",
+                    "id": "astnode100055732",
                     "name": "CellModel#onCellClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -184,7 +184,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055789",
+                    "id": "astnode100055791",
                     "name": "CellModel#onKeyDownDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -227,7 +227,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055801",
+                    "id": "astnode100055803",
                     "name": "CellModel#onKeyDownLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -270,7 +270,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055814",
+                    "id": "astnode100055816",
                     "name": "CellModel#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -313,7 +313,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055826",
+                    "id": "astnode100055828",
                     "name": "CellModel#onKeyDownUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -356,7 +356,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055839",
+                    "id": "astnode100055841",
                     "name": "CellModel#onNavKeyColumn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -408,7 +408,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100055939",
+                    "id": "astnode100055941",
                     "name": "CellModel#onNavKeyRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -460,7 +460,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100056035",
+                    "id": "astnode100056037",
                     "name": "CellModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -503,7 +503,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100056102",
+                    "id": "astnode100056104",
                     "name": "CellModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []

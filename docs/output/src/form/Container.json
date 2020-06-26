@@ -134,7 +134,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form",
                 "code": {
-                    "id": "astnode100027038",
+                    "id": "astnode100027040",
                     "name": "Container#getFields",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -176,7 +176,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form",
                 "code": {
-                    "id": "astnode100027074",
+                    "id": "astnode100027076",
                     "name": "Container#getValues",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -218,7 +218,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form",
                 "code": {
-                    "id": "astnode100027112",
+                    "id": "astnode100027114",
                     "name": "Container#isValid",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -260,7 +260,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form",
                 "code": {
-                    "id": "astnode100027151",
+                    "id": "astnode100027153",
                     "name": "Container#setValues",
                     "type": "MethodDefinition",
                     "paramnames": [

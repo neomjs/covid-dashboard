@@ -186,7 +186,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100034319",
+                    "id": "astnode100034321",
                     "name": "Clear#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -218,7 +218,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100034359",
+                    "id": "astnode100034361",
                     "name": "Clear#afterSetHidden",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -272,7 +272,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100034387",
+                    "id": "astnode100034389",
                     "name": "Clear#getHiddenState",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -314,7 +314,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100034442",
+                    "id": "astnode100034444",
                     "name": "Clear#onFieldChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -357,7 +357,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100034456",
+                    "id": "astnode100034458",
                     "name": "Clear#onTriggerClick",
                     "type": "MethodDefinition",
                     "paramnames": [

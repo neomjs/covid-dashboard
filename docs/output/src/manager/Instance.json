@@ -116,7 +116,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100049498",
+                    "id": "astnode100049500",
                     "name": "Instance",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -158,7 +158,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100049534",
+                    "id": "astnode100049536",
                     "name": "Instance#consumeNeoIdMap",
                     "type": "MethodDefinition",
                     "paramnames": []

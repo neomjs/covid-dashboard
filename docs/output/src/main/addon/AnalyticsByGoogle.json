@@ -92,7 +92,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040687",
+                    "id": "astnode100040689",
                     "name": "AnalyticsByGoogle",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -134,7 +134,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100040701",
+                    "id": "astnode100040703",
                     "name": "AnalyticsByGoogle#insertGoogleAnalyticsScript",
                     "type": "MethodDefinition",
                     "paramnames": []

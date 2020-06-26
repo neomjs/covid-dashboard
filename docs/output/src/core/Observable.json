@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024028",
+                    "id": "astnode100024030",
                     "name": "Observable#addListener",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -213,7 +213,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024265",
+                    "id": "astnode100024267",
                     "name": "Observable#fire",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -251,7 +251,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024358",
+                    "id": "astnode100024360",
                     "name": "Observable#removeListener",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -293,7 +293,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024414",
+                    "id": "astnode100024416",
                     "name": "Observable#on",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -393,7 +393,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100024427",
+                    "id": "astnode100024429",
                     "name": "Observable#un",
                     "type": "MethodDefinition",
                     "paramnames": [

@@ -205,7 +205,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/controller",
                 "code": {
-                    "id": "astnode100021595",
+                    "id": "astnode100021597",
                     "name": "Application",
                     "type": "MethodDefinition",
                     "paramnames": [

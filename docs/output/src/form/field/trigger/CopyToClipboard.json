@@ -210,7 +210,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100034514",
+                    "id": "astnode100034516",
                     "name": "CopyToClipboard#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -242,7 +242,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100034554",
+                    "id": "astnode100034556",
                     "name": "CopyToClipboard#afterSetHidden",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -295,7 +295,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100034581",
+                    "id": "astnode100034583",
                     "name": "CopyToClipboard#getHiddenState",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -337,7 +337,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field/trigger",
                 "code": {
-                    "id": "astnode100034602",
+                    "id": "astnode100034604",
                     "name": "CopyToClipboard#onFieldChange",
                     "type": "MethodDefinition",
                     "paramnames": [

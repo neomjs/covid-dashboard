@@ -85,7 +85,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047054",
+                    "id": "astnode100047056",
                     "name": "Base#getById",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -138,7 +138,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047065",
+                    "id": "astnode100047067",
                     "name": "Base#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -181,7 +181,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047104",
+                    "id": "astnode100047106",
                     "name": "Base#unregister",
                     "type": "MethodDefinition",
                     "paramnames": [

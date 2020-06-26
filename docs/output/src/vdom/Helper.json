@@ -217,7 +217,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/vdom",
                 "code": {
-                    "id": "astnode100066500",
+                    "id": "astnode100066502",
                     "name": "Helper#create",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -278,7 +278,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/vdom",
                 "code": {
-                    "id": "astnode100066584",
+                    "id": "astnode100066586",
                     "name": "Helper#update",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -347,7 +347,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/vdom",
                 "code": {
-                    "id": "astnode100066623",
+                    "id": "astnode100066625",
                     "name": "Helper#createStringFromVnode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -390,7 +390,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/vdom",
                 "code": {
-                    "id": "astnode100066686",
+                    "id": "astnode100066688",
                     "name": "Helper#createOpenTag",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -434,7 +434,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/vdom",
                 "code": {
-                    "id": "astnode100066838",
+                    "id": "astnode100066840",
                     "name": "Helper#createTagContent",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -478,7 +478,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/vdom",
                 "code": {
-                    "id": "astnode100066922",
+                    "id": "astnode100066924",
                     "name": "Helper#createCloseTag",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -522,7 +522,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/vdom",
                 "code": {
-                    "id": "astnode100066949",
+                    "id": "astnode100066951",
                     "name": "Helper#parseHelper",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -576,7 +576,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/vdom",
                 "code": {
-                    "id": "astnode100067315",
+                    "id": "astnode100067317",
                     "name": "Helper#createDeltas",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -685,7 +685,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/vdom",
                 "code": {
-                    "id": "astnode100068460",
+                    "id": "astnode100068462",
                     "name": "Helper#findVnode",
                     "type": "MethodDefinition",
                     "paramnames": [

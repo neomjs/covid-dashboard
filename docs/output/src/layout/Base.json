@@ -138,7 +138,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100035679",
+                    "id": "astnode100035681",
                     "name": "Base#applyChildAttributes",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -183,7 +183,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100035684",
+                    "id": "astnode100035686",
                     "name": "Base#applyRenderAttributes",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -217,7 +217,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100035688",
+                    "id": "astnode100035690",
                     "name": "Base#removeChildAttributes",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -262,7 +262,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/layout",
                 "code": {
-                    "id": "astnode100035693",
+                    "id": "astnode100035695",
                     "name": "Base#removeRenderAttributes",
                     "type": "MethodDefinition",
                     "paramnames": []

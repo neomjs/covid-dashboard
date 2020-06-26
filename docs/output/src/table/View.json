@@ -232,7 +232,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100061398",
+                    "id": "astnode100061400",
                     "name": "View#createViewData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -275,7 +275,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100061938",
+                    "id": "astnode100061940",
                     "name": "View#destroy",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -327,7 +327,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100061957",
+                    "id": "astnode100061959",
                     "name": "View#getCellId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -388,7 +388,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100061981",
+                    "id": "astnode100061983",
                     "name": "View#getTrClass",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -450,7 +450,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table",
                 "code": {
-                    "id": "astnode100061990",
+                    "id": "astnode100061992",
                     "name": "View#onStoreRecordChange",
                     "type": "MethodDefinition",
                     "paramnames": [

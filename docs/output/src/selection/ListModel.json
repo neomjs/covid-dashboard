@@ -108,7 +108,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053961",
+                    "id": "astnode100053963",
                     "name": "ListModel#onKeyDownDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -151,7 +151,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053981",
+                    "id": "astnode100053983",
                     "name": "ListModel#onKeyDownLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -194,7 +194,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100053992",
+                    "id": "astnode100053994",
                     "name": "ListModel#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -237,7 +237,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100054003",
+                    "id": "astnode100054005",
                     "name": "ListModel#onKeyDownUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -280,7 +280,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100054024",
+                    "id": "astnode100054026",
                     "name": "ListModel#onNavKey",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -332,7 +332,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100054208",
+                    "id": "astnode100054210",
                     "name": "ListModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -375,7 +375,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100054275",
+                    "id": "astnode100054277",
                     "name": "ListModel#selectAt",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -418,7 +418,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100054319",
+                    "id": "astnode100054321",
                     "name": "ListModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []

@@ -67,7 +67,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/mixin",
                 "code": {
-                    "id": "astnode100046927",
+                    "id": "astnode100046929",
                     "name": "TouchDomEvents#onTouchCancel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -110,7 +110,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/mixin",
                 "code": {
-                    "id": "astnode100046942",
+                    "id": "astnode100046944",
                     "name": "TouchDomEvents#onTouchEnd",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -153,7 +153,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/mixin",
                 "code": {
-                    "id": "astnode100046957",
+                    "id": "astnode100046959",
                     "name": "TouchDomEvents#onTouchEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -196,7 +196,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/mixin",
                 "code": {
-                    "id": "astnode100046972",
+                    "id": "astnode100046974",
                     "name": "TouchDomEvents#onTouchLeave",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -239,7 +239,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/mixin",
                 "code": {
-                    "id": "astnode100046987",
+                    "id": "astnode100046989",
                     "name": "TouchDomEvents#onTouchMove",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -282,7 +282,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/mixin",
                 "code": {
-                    "id": "astnode100047002",
+                    "id": "astnode100047004",
                     "name": "TouchDomEvents#onTouchStart",
                     "type": "MethodDefinition",
                     "paramnames": [

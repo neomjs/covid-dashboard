@@ -431,7 +431,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100031093",
+                    "id": "astnode100031095",
                     "name": "Text",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -473,7 +473,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100031174",
+                    "id": "astnode100031176",
                     "name": "Text#mergeConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -536,7 +536,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100031217",
+                    "id": "astnode100031219",
                     "name": "Text#afterSetClearable",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -590,7 +590,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100031259",
+                    "id": "astnode100031261",
                     "name": "Text#afterSetClearToOriginalValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -644,7 +644,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100031276",
+                    "id": "astnode100031278",
                     "name": "Text#afterSetHideLabel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -698,7 +698,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100031312",
+                    "id": "astnode100031314",
                     "name": "Text#afterSetInputType",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -752,7 +752,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100031325",
+                    "id": "astnode100031327",
                     "name": "Text#afterSetLabelPosition",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -806,7 +806,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100031524",
+                    "id": "astnode100031526",
                     "name": "Text#afterSetLabelText",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -860,7 +860,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100031609",
+                    "id": "astnode100031611",
                     "name": "Text#afterSetLabelWidth",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -916,7 +916,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100031661",
+                    "id": "astnode100031663",
                     "name": "Text#afterSetPlaceholderText",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -972,7 +972,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100031679",
+                    "id": "astnode100031681",
                     "name": "Text#afterSetRequired",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1026,7 +1026,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100031692",
+                    "id": "astnode100031694",
                     "name": "Text#afterSetTriggers",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1080,7 +1080,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100031942",
+                    "id": "astnode100031944",
                     "name": "Text#afterSetValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1134,7 +1134,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032027",
+                    "id": "astnode100032029",
                     "name": "Text#afterSetWidth",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1190,7 +1190,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032045",
+                    "id": "astnode100032047",
                     "name": "Text#beforeGetTriggers",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1236,7 +1236,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032063",
+                    "id": "astnode100032065",
                     "name": "Text#beforeSetLabelPosition",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1290,7 +1290,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032077",
+                    "id": "astnode100032079",
                     "name": "Text#beforeSetTriggers",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1355,7 +1355,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032223",
+                    "id": "astnode100032225",
                     "name": "Text#changeInputElKey",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1412,7 +1412,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032269",
+                    "id": "astnode100032271",
                     "name": "Text#clear",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1445,7 +1445,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032298",
+                    "id": "astnode100032300",
                     "name": "Text#getCenterBorderEl",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1487,7 +1487,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032321",
+                    "id": "astnode100032323",
                     "name": "Text#getInputEl",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1529,7 +1529,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032344",
+                    "id": "astnode100032346",
                     "name": "Text#getInputElId",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1570,7 +1570,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032354",
+                    "id": "astnode100032356",
                     "name": "Text#getInputWidth",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1614,7 +1614,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032418",
+                    "id": "astnode100032420",
                     "name": "Text#getLabelEl",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1656,7 +1656,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032441",
+                    "id": "astnode100032443",
                     "name": "Text#getTrigger",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1709,7 +1709,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032487",
+                    "id": "astnode100032489",
                     "name": "Text#getTriggerById",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1762,7 +1762,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032533",
+                    "id": "astnode100032535",
                     "name": "Text#getTriggerId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1816,7 +1816,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032546",
+                    "id": "astnode100032548",
                     "name": "Text#hasTrigger",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1869,7 +1869,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032587",
+                    "id": "astnode100032589",
                     "name": "Text#isEmpty",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1910,7 +1910,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032607",
+                    "id": "astnode100032609",
                     "name": "Text#isValid",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1951,7 +1951,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032644",
+                    "id": "astnode100032646",
                     "name": "Text#onFocusEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1995,7 +1995,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032715",
+                    "id": "astnode100032717",
                     "name": "Text#onFocusLeave",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2039,7 +2039,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032782",
+                    "id": "astnode100032784",
                     "name": "Text#onInputValueChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2083,7 +2083,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032837",
+                    "id": "astnode100032839",
                     "name": "Text#removeTrigger",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2160,7 +2160,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100032920",
+                    "id": "astnode100032922",
                     "name": "Text#updateCenterBorderElWidth",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2206,7 +2206,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100033000",
+                    "id": "astnode100033002",
                     "name": "Text#updateInputWidth",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -2240,7 +2240,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100033056",
+                    "id": "astnode100033058",
                     "name": "Text#updateTriggerVnodes",
                     "type": "MethodDefinition",
                     "paramnames": []

@@ -116,7 +116,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047155",
+                    "id": "astnode100047157",
                     "name": "Component",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -158,7 +158,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047176",
+                    "id": "astnode100047178",
                     "name": "Component#down",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -222,7 +222,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047313",
+                    "id": "astnode100047315",
                     "name": "Component#findParentComponent",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -276,7 +276,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047362",
+                    "id": "astnode100047364",
                     "name": "Component#getChildIds",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -329,7 +329,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047375",
+                    "id": "astnode100047377",
                     "name": "Component#getChildren",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -383,7 +383,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047422",
+                    "id": "astnode100047424",
                     "name": "Component#getParentIds",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -437,7 +437,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047461",
+                    "id": "astnode100047463",
                     "name": "Component#getParentPath",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -489,7 +489,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047511",
+                    "id": "astnode100047513",
                     "name": "Component#getParents",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -543,7 +543,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100047548",
+                    "id": "astnode100047550",
                     "name": "Component#up",
                     "type": "MethodDefinition",
                     "paramnames": [

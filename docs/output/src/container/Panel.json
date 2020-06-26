@@ -266,7 +266,7 @@
             "meta": {
                 "range": [
                     1688,
-                    4351
+                    4377
                 ],
                 "filename": "Panel.mjs",
                 "lineno": 71,
@@ -297,15 +297,15 @@
             "comment": "/**\n     *\n     * @param {Object} header the header config\n     * @returns {Object}\n     */",
             "meta": {
                 "range": [
-                    4453,
-                    5264
+                    4479,
+                    5290
                 ],
                 "filename": "Panel.mjs",
                 "lineno": 149,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100021041",
+                    "id": "astnode100021043",
                     "name": "Panel.createHeaderConfig",
                     "type": "MethodDefinition",
                     "paramnames": [

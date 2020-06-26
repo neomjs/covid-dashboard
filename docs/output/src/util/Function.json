@@ -59,7 +59,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100063386",
+                    "id": "astnode100063388",
                     "name": "NeoFunction.bindAppend",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -112,7 +112,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100063428",
+                    "id": "astnode100063430",
                     "name": "NeoFunction.createSequence",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -191,7 +191,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100063469",
+                    "id": "astnode100063471",
                     "name": "NeoFunction.intercept",
                     "type": "MethodDefinition",
                     "paramnames": [
