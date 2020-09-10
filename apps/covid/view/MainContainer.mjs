@@ -1,14 +1,14 @@
-import AttributionComponent           from './AttributionComponent.mjs';
-import FooterContainer                from './FooterContainer.mjs';
-import GalleryContainer               from './GalleryContainer.mjs';
-import HeaderContainer                from './HeaderContainer.mjs';
-import HelixContainer                 from './HelixContainer.mjs';
-import MainContainerController        from './MainContainerController.mjs';
-import {default as MapboxGlContainer} from './mapboxGl/Container.mjs';
-import {default as TabContainer}      from '../../../node_modules/neo.mjs/src/tab/Container.mjs';
-import TableContainer                 from './TableContainer.mjs';
-import Viewport                       from '../../../node_modules/neo.mjs/src/container/Viewport.mjs';
-import WorldMapContainer              from './WorldMapContainer.mjs';
+import AttributionComponent    from './AttributionComponent.mjs';
+import FooterContainer         from './FooterContainer.mjs';
+import GalleryContainer        from './GalleryContainer.mjs';
+import HeaderContainer         from './HeaderContainer.mjs';
+import HelixContainer          from './HelixContainer.mjs';
+import MainContainerController from './MainContainerController.mjs';
+import MapboxGlContainer       from './mapboxGl/Container.mjs';
+import TabContainer            from '../../../node_modules/neo.mjs/src/tab/Container.mjs';
+import TableContainer          from './TableContainer.mjs';
+import Viewport                from '../../../node_modules/neo.mjs/src/container/Viewport.mjs';
+import WorldMapContainer       from './WorldMapContainer.mjs';
 
 /**
  * @class Covid.view.MainContainer

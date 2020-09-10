@@ -1,4 +1,4 @@
-import {default as Container}   from '../../../node_modules/neo.mjs/src/container/Base.mjs';
+import Container from '../../../node_modules/neo.mjs/src/container/Base.mjs';
 
 /**
  * @class Covid.view.FooterContainer
@@ -43,7 +43,7 @@ class FooterContainer extends Container {
         }, {
             flex: 1
         }, {
-            html : 'Data provided by <a target="_blank" href="https://github.com/disease-sh/API">disease-sh/API</a>.'
+            html : 'Data provided by <a target="_blank" href="https://github.com/disease-sh/API">disease.sh/API</a>.'
         }, {
             flex: 1
         }, {

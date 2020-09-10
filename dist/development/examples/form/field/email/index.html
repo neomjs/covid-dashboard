@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <title>Neo EmailField</title>
+    </head>
+    <body>
+    <script>
+        Neo = self.Neo || {}; Neo.config = Neo.config || {};
+
+        Object.assign(Neo.config, {
+            appPath         : '/examples/form/field/email/app.mjs',
+            basePath        : '../../../../../../',
+            environment     : 'development',
+            mainThreadAddons: ['Stylesheet'],
+            themes          : ['neo-theme-light', 'neo-theme-dark'],
+            useSharedWorkers: false,
+            workerBasePath  : '../../../../'
+        });
+    </script>
+    <script src="../../../../main.js"></script>
+    </body>
+</html>

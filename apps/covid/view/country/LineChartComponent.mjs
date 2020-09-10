@@ -1,4 +1,4 @@
-import {default as AmChartComponent} from '../../../../node_modules/neo.mjs/src/component/wrapper/AmChart.mjs';
+import AmChartComponent from '../../../../node_modules/neo.mjs/src/component/wrapper/AmChart.mjs';
 
 /**
  * @class Covid.view.country.LineChartComponent

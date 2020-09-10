@@ -1,8 +1,8 @@
-import {default as BaseContainer} from '../../../../node_modules/neo.mjs/src/container/Base.mjs';
-import CheckBox                   from '../../../../node_modules/neo.mjs/src/form/field/CheckBox.mjs';
-import Component                  from './Component.mjs';
-import ContainerController        from './ContainerController.mjs';
-import Panel                      from '../../../../node_modules/neo.mjs/src/container/Panel.mjs';
+import BaseContainer       from '../../../../node_modules/neo.mjs/src/container/Base.mjs';
+import CheckBox            from '../../../../node_modules/neo.mjs/src/form/field/CheckBox.mjs';
+import Component           from './Component.mjs';
+import ContainerController from './ContainerController.mjs';
+import Panel               from '../../../../node_modules/neo.mjs/src/container/Panel.mjs';
 
 /**
  * @class Covid.view.mapboxGl.Container

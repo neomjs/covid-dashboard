@@ -1,4 +1,4 @@
-import {default as BaseComponent} from '../../../../node_modules/neo.mjs/src/component/wrapper/MapboxGL.mjs';
+import BaseComponent from '../../../../node_modules/neo.mjs/src/component/wrapper/MapboxGL.mjs';
 
 /**
  * @class Covid.view.mapboxGl.Component

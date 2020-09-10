@@ -1,6 +1,6 @@
-import {default as Container}   from '../../../node_modules/neo.mjs/src/container/Base.mjs';
-import CountryStore             from '../store/Countries.mjs';
-import {default as SelectField} from '../../../node_modules/neo.mjs/src/form/field/Select.mjs';
+import Container    from '../../../node_modules/neo.mjs/src/container/Base.mjs';
+import CountryStore from '../store/Countries.mjs';
+import SelectField  from '../../../node_modules/neo.mjs/src/form/field/Select.mjs';
 
 /**
  * @class Covid.view.HeaderContainer
@@ -88,7 +88,7 @@ class HeaderContainer extends Container {
                     flex: 1
                 }, {
                     style: {padding: '10px'},
-                    width: 115,
+                    width: 125,
                     vdom : {
                         cn: [{
                             tag              : 'a',

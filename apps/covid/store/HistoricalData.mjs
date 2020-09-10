@@ -1,5 +1,5 @@
-import {default as HistoricalDataModel} from '../model/HistoricalData.mjs';
-import Store                            from '../../../node_modules/neo.mjs/src/data/Store.mjs';
+import HistoricalDataModel from '../model/HistoricalData.mjs';
+import Store               from '../../../node_modules/neo.mjs/src/data/Store.mjs';
 
 /**
  * @class Covid.store.HistoricalData

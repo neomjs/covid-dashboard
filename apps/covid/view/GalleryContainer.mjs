@@ -1,9 +1,9 @@
-import {default as Container}     from '../../../node_modules/neo.mjs/src/container/Base.mjs';
 import BoxLabel                   from '../../../node_modules/neo.mjs/src/component/BoxLabel.mjs';
+import Container                  from '../../../node_modules/neo.mjs/src/container/Base.mjs';
 import Gallery                    from './country/Gallery.mjs';
 import GalleryContainerController from './GalleryContainerController.mjs';
 import Panel                      from '../../../node_modules/neo.mjs/src/container/Panel.mjs';
-import {default as RangeField}    from '../../../node_modules/neo.mjs/src/form/field/Range.mjs';
+import RangeField                 from '../../../node_modules/neo.mjs/src/form/field/Range.mjs';
 
 /**
  * @class Covid.view.GalleryContainer

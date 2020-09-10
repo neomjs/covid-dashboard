@@ -1,6 +1,6 @@
-import {default as ComponentController} from '../../../node_modules/neo.mjs/src/controller/Component.mjs';
-import NeoArray                         from '../../../node_modules/neo.mjs/src/util/Array.mjs';
-import Util                             from '../Util.mjs';
+import ComponentController from '../../../node_modules/neo.mjs/src/controller/Component.mjs';
+import NeoArray            from '../../../node_modules/neo.mjs/src/util/Array.mjs';
+import Util                from '../Util.mjs';
 
 /**
  * @class Covid.view.MainContainerController

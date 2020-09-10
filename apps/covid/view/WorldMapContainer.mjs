@@ -1,5 +1,5 @@
-import {default as Container}      from '../../../node_modules/neo.mjs/src/container/Base.mjs';
-import {default as NumberField}    from '../../../node_modules/neo.mjs/src/form/field/Number.mjs';
+import Container                   from '../../../node_modules/neo.mjs/src/container/Base.mjs';
+import NumberField                 from '../../../node_modules/neo.mjs/src/form/field/Number.mjs';
 import Toolbar                     from '../../../node_modules/neo.mjs/src/container/Toolbar.mjs';
 import WorldMapComponent           from './WorldMapComponent.mjs';
 import WorldMapContainerController from './WorldMapContainerController.mjs';

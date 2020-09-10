@@ -1,11 +1,11 @@
-import CheckBox                  from '../../../node_modules/neo.mjs/src/form/field/CheckBox.mjs';
-import {default as Container}    from '../../../node_modules/neo.mjs/src/container/Base.mjs';
-import HistoricalDataTable       from './country/HistoricalDataTable.mjs';
-import LineChartComponent        from './country/LineChartComponent.mjs'
-import Panel                     from '../../../node_modules/neo.mjs/src/container/Panel.mjs';
-import {default as TabContainer} from '../../../node_modules/neo.mjs/src/tab/Container.mjs';
-import Table                     from './country/Table.mjs';
-import TableContainerController  from './TableContainerController.mjs';
+import CheckBox                 from '../../../node_modules/neo.mjs/src/form/field/CheckBox.mjs';
+import Container                from '../../../node_modules/neo.mjs/src/container/Base.mjs';
+import HistoricalDataTable      from './country/HistoricalDataTable.mjs';
+import LineChartComponent       from './country/LineChartComponent.mjs'
+import Panel                    from '../../../node_modules/neo.mjs/src/container/Panel.mjs';
+import TabContainer             from '../../../node_modules/neo.mjs/src/tab/Container.mjs';
+import Table                    from './country/Table.mjs';
+import TableContainerController from './TableContainerController.mjs';
 
 /**
  * @class Covid.view.TableContainer

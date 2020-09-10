@@ -1,4 +1,4 @@
-import {default as ComponentController} from '../../../node_modules/neo.mjs/src/controller/Component.mjs';
+import ComponentController from '../../../node_modules/neo.mjs/src/controller/Component.mjs';
 
 /**
  * @class Covid.view.HelixContainerController
@@ -70,7 +70,7 @@ class HelixContainerController extends ComponentController {
      * @param {Object} data
      */
     onRangefieldChange(data) {
-        const name = data.sender.name;
+        const name = data.component.name;
 
         if (['deltaY', 'maxOpacity', 'minOpacity'].includes(name)) {
             data.value /= 100;

@@ -1,4 +1,4 @@
-import {default as ComponentController} from '../../../../node_modules/neo.mjs/src/controller/Component.mjs';
+import ComponentController from '../../../../node_modules/neo.mjs/src/controller/Component.mjs';
 
 /**
  * @class Covid.view.mapboxGl.ContainerController

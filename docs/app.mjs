@@ -1,10 +1,9 @@
 import MainContainer from './app/view/MainContainer.mjs';
 
-Neo.onStart = () => {
-    Neo.app({
-        appPath       : 'docs/',
-        createMainView: true,
-        mainView      : MainContainer,
-        name          : 'Docs'
-    });
-};
+const onStart = () => Neo.app({
+    appPath : 'docs/',
+    mainView: MainContainer,
+    name    : 'Docs'
+});
+
+export {onStart as onStart};
