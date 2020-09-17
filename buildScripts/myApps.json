@@ -17,6 +17,12 @@
         }
     },
     "apps": {
+        "Docs": {
+            "input": "./docs/app.mjs",
+            "mainThreadAddons": "'HighlightJS', 'Stylesheet'",
+            "output": "/docs/",
+            "title": "Neo Docs"
+        },
         "Covid": {
             "input": "./apps/covid/app.mjs",
             "mainThreadAddons": "'AmCharts', 'MapboxGL', 'Stylesheet'",
