@@ -100438,18 +100438,70 @@
         "neoClassName": "Neo.worker.App"
     },
     {
-        "comment": "/**\n     * Only relevant for SharedWorkers\n     */",
+        "comment": "/**\n     *\n     * @param {String} path\n     * @returns {Promise}\n     */",
         "meta": {
             "range": [
-                1601,
-                1722
+                1623,
+                1989
             ],
             "filename": "App.mjs",
-            "lineno": 59,
+            "lineno": 61,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
                 "id": "astnode100089468",
+                "name": "App#importApp",
+                "type": "MethodDefinition",
+                "paramnames": [
+                    "path"
+                ]
+            },
+            "vars": {
+                "": null
+            }
+        },
+        "params": [
+            {
+                "type": {
+                    "names": [
+                        "String"
+                    ]
+                },
+                "name": "path"
+            }
+        ],
+        "returns": [
+            {
+                "type": {
+                    "names": [
+                        "Promise"
+                    ]
+                }
+            }
+        ],
+        "name": "importApp",
+        "longname": "App#importApp",
+        "kind": "function",
+        "memberof": "App",
+        "scope": "instance",
+        "$longname": "App#importApp",
+        "$kind": "method",
+        "id": 2712,
+        "neoClassName": "Neo.worker.App"
+    },
+    {
+        "comment": "/**\n     * Only relevant for SharedWorkers\n     */",
+        "meta": {
+            "range": [
+                2050,
+                2171
+            ],
+            "filename": "App.mjs",
+            "lineno": 78,
+            "columnno": 4,
+            "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
+            "code": {
+                "id": "astnode100089492",
                 "name": "App#onDisconnect",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -100469,22 +100521,22 @@
         "params": [],
         "$longname": "App#onDisconnect",
         "$kind": "method",
-        "id": 2712,
+        "id": 2713,
         "neoClassName": "Neo.worker.App"
     },
     {
         "comment": "/**\n     * Every dom event will get forwarded as a worker message from main and ends up here first\n     * @param {Object} data useful event properties, differs for different event types. See Neo.main.DomEvents.\n     */",
         "meta": {
             "range": [
-                1951,
-                2011
+                2400,
+                2460
             ],
             "filename": "App.mjs",
-            "lineno": 68,
+            "lineno": 87,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100089488",
+                "id": "astnode100089512",
                 "name": "App#onDomEvent",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -100514,22 +100566,22 @@
         "scope": "instance",
         "$longname": "App#onDomEvent",
         "$kind": "method",
-        "id": 2713,
+        "id": 2714,
         "neoClassName": "Neo.worker.App"
     },
     {
         "comment": "/**\n     * Every URL hash-change will create a post message in main and end up here first.\n     * @param {Object} data parsed key-value pairs for each hash value\n     */",
         "meta": {
             "range": [
-                2191,
-                2254
+                2640,
+                2703
             ],
             "filename": "App.mjs",
-            "lineno": 76,
+            "lineno": 95,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100089499",
+                "id": "astnode100089523",
                 "name": "App#onHashChange",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -100559,22 +100611,22 @@
         "scope": "instance",
         "$longname": "App#onHashChange",
         "$kind": "method",
-        "id": 2714,
+        "id": 2715,
         "neoClassName": "Neo.worker.App"
     },
     {
         "comment": "/**\n     * The starting point for apps\n     * @param {Object} data\n     */",
         "meta": {
             "range": [
-                2339,
-                3315
+                2788,
+                3411
             ],
             "filename": "App.mjs",
-            "lineno": 84,
+            "lineno": 103,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100089512",
+                "id": "astnode100089536",
                 "name": "App#onLoadApplication",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -100603,22 +100655,22 @@
         "scope": "instance",
         "$longname": "App#onLoadApplication",
         "$kind": "method",
-        "id": 2715,
+        "id": 2716,
         "neoClassName": "Neo.worker.App"
     },
     {
         "comment": "/**\n     *\n     * @param {String} name\n     */",
         "meta": {
             "range": [
-                3372,
-                3452
+                3468,
+                3548
             ],
             "filename": "App.mjs",
-            "lineno": 123,
+            "lineno": 132,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100089628",
+                "id": "astnode100089635",
                 "name": "App#registerMainView",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -100646,7 +100698,7 @@
         "scope": "instance",
         "$longname": "App#registerMainView",
         "$kind": "method",
-        "id": 2716,
+        "id": 2717,
         "neoClassName": "Neo.worker.App"
     },
     {
@@ -100670,11 +100722,11 @@
         "scope": "static",
         "$longname": "Neo.worker.Base",
         "$kind": "class",
-        "id": 2717,
+        "id": 2718,
         "neoClassName": "Neo.worker.Base"
     },
     {
-        "comment": "/**\n         * @member {String} className='Neo.worker.Worker'\n         * @protected\n         */",
+        "comment": "/**\n         * @member {String} className='Neo.worker.Base'\n         * @protected\n         */",
         "meta": {
             "filename": "Base.mjs",
             "lineno": 18,
@@ -100689,13 +100741,13 @@
                 "String"
             ]
         },
-        "defaultvalue": "'Neo.worker.Worker'",
+        "defaultvalue": "'Neo.worker.Base'",
         "access": "protected",
         "longname": "className",
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2718,
+        "id": 2719,
         "neoClassName": "Neo.worker.Base"
     },
     {
@@ -100720,7 +100772,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2719,
+        "id": 2720,
         "neoClassName": "Neo.worker.Base"
     },
     {
@@ -100746,7 +100798,7 @@
         "scope": "global",
         "$longname": "isConnected",
         "$kind": "property",
-        "id": 2720,
+        "id": 2721,
         "neoClassName": "Neo.worker.Base"
     },
     {
@@ -100771,7 +100823,7 @@
         "scope": "global",
         "$longname": "isSharedWorker",
         "$kind": "property",
-        "id": 2721,
+        "id": 2722,
         "neoClassName": "Neo.worker.Base"
     },
     {
@@ -100798,7 +100850,7 @@
         "scope": "global",
         "$longname": "mixins",
         "$kind": "property",
-        "id": 2722,
+        "id": 2723,
         "neoClassName": "Neo.worker.Base"
     },
     {
@@ -100824,7 +100876,7 @@
         "scope": "global",
         "$longname": "ports",
         "$kind": "property",
-        "id": 2723,
+        "id": 2724,
         "neoClassName": "Neo.worker.Base"
     },
     {
@@ -100850,22 +100902,22 @@
         "scope": "global",
         "$longname": "workerId",
         "$kind": "property",
-        "id": 2724,
+        "id": 2725,
         "neoClassName": "Neo.worker.Base"
     },
     {
         "comment": "/**\n     *\n     * @param {Object} config={}\n     */",
         "meta": {
             "range": [
-                1443,
-                1949
+                1439,
+                1945
             ],
             "filename": "Base.mjs",
             "lineno": 55,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100089706",
+                "id": "astnode100089713",
                 "name": "Base",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -100893,22 +100945,22 @@
         "scope": "global",
         "$longname": "Base",
         "$kind": "constructor",
-        "id": 2725,
+        "id": 2726,
         "neoClassName": "Neo.worker.Base"
     },
     {
         "comment": "/**\n     *\n     * @param {Object} opts\n     * @returns {Object|null}\n     */",
         "meta": {
             "range": [
-                2036,
-                2472
+                2032,
+                2468
             ],
             "filename": "Base.mjs",
             "lineno": 81,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100089783",
+                "id": "astnode100089790",
                 "name": "Base#getPort",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -100946,22 +100998,22 @@
         "scope": "instance",
         "$longname": "Base#getPort",
         "$kind": "method",
-        "id": 2726,
+        "id": 2727,
         "neoClassName": "Neo.worker.Base"
     },
     {
         "comment": "/**\n     *\n     */",
         "meta": {
             "range": [
-                2501,
-                2671
+                2497,
+                2667
             ],
             "filename": "Base.mjs",
             "lineno": 105,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100089840",
+                "id": "astnode100089847",
                 "name": "Base#onConstructed",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -100978,22 +101030,22 @@
         "params": [],
         "$longname": "Base#onConstructed",
         "$kind": "method",
-        "id": 2727,
+        "id": 2728,
         "neoClassName": "Neo.worker.Base"
     },
     {
         "comment": "/**\n     * Only relevant for SharedWorkers\n     * @param {Object} e\n     */",
         "meta": {
             "range": [
-                2757,
-                3331
+                2753,
+                3327
             ],
             "filename": "Base.mjs",
             "lineno": 117,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100089864",
+                "id": "astnode100089871",
                 "name": "Base#onConnected",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -101022,22 +101074,22 @@
         "scope": "instance",
         "$longname": "Base#onConnected",
         "$kind": "method",
-        "id": 2728,
+        "id": 2729,
         "neoClassName": "Neo.worker.Base"
     },
     {
         "comment": "/**\n     * Only relevant for SharedWorkers\n     */",
         "meta": {
             "range": [
-                3392,
-                3413
+                3388,
+                3409
             ],
             "filename": "Base.mjs",
             "lineno": 142,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100089951",
+                "id": "astnode100089958",
                 "name": "Base#onDisconnect",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -101057,22 +101109,22 @@
         "params": [],
         "$longname": "Base#onDisconnect",
         "$kind": "method",
-        "id": 2729,
+        "id": 2730,
         "neoClassName": "Neo.worker.Base"
     },
     {
         "comment": "/**\n     *\n     * @param {Object} e\n     */",
         "meta": {
             "range": [
-                3467,
-                4109
+                3463,
+                4105
             ],
             "filename": "Base.mjs",
             "lineno": 148,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100089956",
+                "id": "astnode100089963",
                 "name": "Base#onMessage",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -101100,22 +101152,22 @@
         "scope": "instance",
         "$longname": "Base#onMessage",
         "$kind": "method",
-        "id": 2730,
+        "id": 2731,
         "neoClassName": "Neo.worker.Base"
     },
     {
         "comment": "/**\n     *\n     * @param {Object} msg\n     */",
         "meta": {
             "range": [
-                4165,
-                4251
+                4161,
+                4247
             ],
             "filename": "Base.mjs",
             "lineno": 176,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090053",
+                "id": "astnode100090060",
                 "name": "Base#onPing",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -101143,22 +101195,22 @@
         "scope": "instance",
         "$longname": "Base#onPing",
         "$kind": "method",
-        "id": 2731,
+        "id": 2732,
         "neoClassName": "Neo.worker.Base"
     },
     {
         "comment": "/**\n     *\n     * @param {Object} msg\n     */",
         "meta": {
             "range": [
-                4307,
-                4423
+                4303,
+                4419
             ],
             "filename": "Base.mjs",
             "lineno": 186,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090067",
+                "id": "astnode100090074",
                 "name": "Base#onRegisterNeoConfig",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -101186,22 +101238,22 @@
         "scope": "instance",
         "$longname": "Base#onRegisterNeoConfig",
         "$kind": "method",
-        "id": 2732,
+        "id": 2733,
         "neoClassName": "Neo.worker.Base"
     },
     {
         "comment": "/**\n     *\n     * @param {String} dest app, data, main or vdom (excluding the current worker)\n     * @param {Object} opts configs for Neo.worker.Message\n     * @param {Array} [transfer] An optional array of Transferable objects to transfer ownership of.\n     * If the ownership of an object is transferred, it becomes unusable (neutered) in the context it was sent from\n     * and becomes available only to the worker it was sent to.\n     * @returns {Promise<any>}\n     */",
         "meta": {
             "range": [
-                4906,
-                5260
+                4902,
+                5256
             ],
             "filename": "Base.mjs",
             "lineno": 200,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090093",
+                "id": "astnode100090100",
                 "name": "Base#promiseMessage",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -101260,22 +101312,22 @@
         "scope": "instance",
         "$longname": "Base#promiseMessage",
         "$kind": "method",
-        "id": 2733,
+        "id": 2734,
         "neoClassName": "Neo.worker.Base"
     },
     {
         "comment": "/**\n     * Only needed for SharedWorkers\n     * @param {String} name\n     */",
         "meta": {
             "range": [
-                5347,
-                5650
+                5343,
+                5646
             ],
             "filename": "Base.mjs",
             "lineno": 218,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090138",
+                "id": "astnode100090145",
                 "name": "Base#registerApp",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -101304,22 +101356,22 @@
         "scope": "instance",
         "$longname": "Base#registerApp",
         "$kind": "method",
-        "id": 2734,
+        "id": 2735,
         "neoClassName": "Neo.worker.Base"
     },
     {
         "comment": "/**\n     * @param {String} dest app, data, main or vdom (excluding the current worker)\n     * @param {Object} opts configs for Neo.worker.Message\n     * @param {Array} [transfer] An optional array of Transferable objects to transfer ownership of.\n     * If the ownership of an object is transferred, it becomes unusable (neutered) in the context it was sent from\n     * and becomes available only to the worker it was sent to.\n     * @returns {Neo.worker.Message}\n     * @protected\n     */",
         "meta": {
             "range": [
-                6150,
-                6839
+                6146,
+                6835
             ],
             "filename": "Base.mjs",
             "lineno": 240,
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090176",
+                "id": "astnode100090183",
                 "name": "Base#sendMessage",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -101379,7 +101431,7 @@
         "scope": "instance",
         "$longname": "Base#sendMessage",
         "$kind": "method",
-        "id": 2735,
+        "id": 2736,
         "neoClassName": "Neo.worker.Base"
     },
     {
@@ -101409,7 +101461,7 @@
         "scope": "static",
         "$longname": "Neo.worker.Data",
         "$kind": "class",
-        "id": 2736,
+        "id": 2737,
         "neoClassName": "Neo.worker.Data"
     },
     {
@@ -101434,7 +101486,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2737,
+        "id": 2738,
         "neoClassName": "Neo.worker.Data"
     },
     {
@@ -101459,7 +101511,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2738,
+        "id": 2739,
         "neoClassName": "Neo.worker.Data"
     },
     {
@@ -101484,7 +101536,7 @@
         "scope": "global",
         "$longname": "singleton",
         "$kind": "property",
-        "id": 2739,
+        "id": 2740,
         "neoClassName": "Neo.worker.Data"
     },
     {
@@ -101509,7 +101561,7 @@
         "scope": "global",
         "$longname": "workerId",
         "$kind": "property",
-        "id": 2740,
+        "id": 2741,
         "neoClassName": "Neo.worker.Data"
     },
     {
@@ -101524,7 +101576,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090336",
+                "id": "astnode100090343",
                 "name": "Data#onLoad",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -101541,7 +101593,7 @@
         "params": [],
         "$longname": "Data#onLoad",
         "$kind": "method",
-        "id": 2741,
+        "id": 2742,
         "neoClassName": "Neo.worker.Data"
     },
     {
@@ -101571,7 +101623,7 @@
         "scope": "static",
         "$longname": "Neo.worker.Manager",
         "$kind": "class",
-        "id": 2742,
+        "id": 2743,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -101596,7 +101648,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2743,
+        "id": 2744,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -101621,7 +101673,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2744,
+        "id": 2745,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -101646,7 +101698,7 @@
         "scope": "global",
         "$longname": "singleton",
         "$kind": "property",
-        "id": 2745,
+        "id": 2746,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -101672,7 +101724,7 @@
         "scope": "global",
         "$longname": "appName",
         "$kind": "property",
-        "id": 2746,
+        "id": 2747,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -101699,7 +101751,7 @@
         "scope": "global",
         "$longname": "basePath",
         "$kind": "property",
-        "id": 2747,
+        "id": 2748,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -101724,7 +101776,7 @@
         "scope": "global",
         "$longname": "constructedThreads",
         "$kind": "property",
-        "id": 2748,
+        "id": 2749,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -101751,7 +101803,7 @@
         "scope": "global",
         "$longname": "mixins",
         "$kind": "property",
-        "id": 2749,
+        "id": 2750,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -101777,7 +101829,7 @@
         "scope": "global",
         "$longname": "sharedWorkersEnabled",
         "$kind": "property",
-        "id": 2750,
+        "id": 2751,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -101803,7 +101855,7 @@
         "scope": "global",
         "$longname": "stopCommunication",
         "$kind": "property",
-        "id": 2751,
+        "id": 2752,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -101829,7 +101881,7 @@
         "scope": "global",
         "$longname": "sharedWorkersEnabled",
         "$kind": "property",
-        "id": 2752,
+        "id": 2753,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -101854,7 +101906,7 @@
         "scope": "global",
         "$longname": "workers",
         "$kind": "property",
-        "id": 2753,
+        "id": 2754,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -101869,7 +101921,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090467",
+                "id": "astnode100090474",
                 "name": "Manager",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -101896,7 +101948,7 @@
         "scope": "global",
         "$longname": "Manager",
         "$kind": "constructor",
-        "id": 2754,
+        "id": 2755,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -101911,7 +101963,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090546",
+                "id": "astnode100090553",
                 "name": "Manager#broadcast",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -101935,7 +101987,7 @@
         "scope": "instance",
         "$longname": "Manager#broadcast",
         "$kind": "method",
-        "id": 2755,
+        "id": 2756,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -101950,7 +102002,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090572",
+                "id": "astnode100090579",
                 "name": "Manager#createWorker",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -101988,7 +102040,7 @@
         "scope": "instance",
         "$longname": "Manager#createWorker",
         "$kind": "method",
-        "id": 2756,
+        "id": 2757,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -102003,7 +102055,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090665",
+                "id": "astnode100090672",
                 "name": "Manager#createWorkers",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -102021,7 +102073,7 @@
         "params": [],
         "$longname": "Manager#createWorkers",
         "$kind": "method",
-        "id": 2757,
+        "id": 2758,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -102036,7 +102088,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090764",
+                "id": "astnode100090771",
                 "name": "Manager#detectFeatures",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -102053,7 +102105,7 @@
         "params": [],
         "$longname": "Manager#detectFeatures",
         "$kind": "method",
-        "id": 2758,
+        "id": 2759,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -102068,7 +102120,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090815",
+                "id": "astnode100090822",
                 "name": "Manager#getWorker",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -102106,7 +102158,7 @@
         "scope": "instance",
         "$longname": "Manager#getWorker",
         "$kind": "method",
-        "id": 2759,
+        "id": 2760,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -102121,7 +102173,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090833",
+                "id": "astnode100090840",
                 "name": "Manager#loadApplication",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -102149,7 +102201,7 @@
         "scope": "instance",
         "$longname": "Manager#loadApplication",
         "$kind": "method",
-        "id": 2760,
+        "id": 2761,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -102164,7 +102216,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090855",
+                "id": "astnode100090862",
                 "name": "Manager#onWorkerConstructed",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -102192,7 +102244,7 @@
         "scope": "instance",
         "$longname": "Manager#onWorkerConstructed",
         "$kind": "method",
-        "id": 2761,
+        "id": 2762,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -102207,7 +102259,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090909",
+                "id": "astnode100090916",
                 "name": "Manager#onWorkerError",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -102236,7 +102288,7 @@
         "scope": "instance",
         "$longname": "Manager#onWorkerError",
         "$kind": "method",
-        "id": 2762,
+        "id": 2763,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -102251,7 +102303,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100090929",
+                "id": "astnode100090936",
                 "name": "Manager#onWorkerMessage",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -102280,7 +102332,7 @@
         "scope": "instance",
         "$longname": "Manager#onWorkerMessage",
         "$kind": "method",
-        "id": 2763,
+        "id": 2764,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -102295,7 +102347,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100091168",
+                "id": "astnode100091175",
                 "name": "Manager#promiseMessage",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -102354,7 +102406,7 @@
         "scope": "instance",
         "$longname": "Manager#promiseMessage",
         "$kind": "method",
-        "id": 2764,
+        "id": 2765,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -102369,7 +102421,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100091213",
+                "id": "astnode100091220",
                 "name": "Manager#resolveDomOperationPromise",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -102397,7 +102449,7 @@
         "scope": "instance",
         "$longname": "Manager#resolveDomOperationPromise",
         "$kind": "method",
-        "id": 2765,
+        "id": 2766,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -102412,7 +102464,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100091247",
+                "id": "astnode100091254",
                 "name": "Manager#sendMessage",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -102472,7 +102524,7 @@
         "scope": "instance",
         "$longname": "Manager#sendMessage",
         "$kind": "method",
-        "id": 2766,
+        "id": 2767,
         "neoClassName": "Neo.worker.Manager"
     },
     {
@@ -102492,7 +102544,7 @@
         "scope": "static",
         "$longname": "Neo.worker.Message",
         "$kind": "class",
-        "id": 2767,
+        "id": 2768,
         "neoClassName": "Neo.worker.Message"
     },
     {
@@ -102507,7 +102559,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
             "code": {
-                "id": "astnode100091347",
+                "id": "astnode100091354",
                 "name": "Message",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -102534,7 +102586,7 @@
         "scope": "global",
         "$longname": "Message",
         "$kind": "constructor",
-        "id": 2768,
+        "id": 2769,
         "neoClassName": "Neo.worker.Message"
     },
     {
@@ -102557,7 +102609,7 @@
         "scope": "global",
         "$longname": "action",
         "$kind": "property",
-        "id": 2769,
+        "id": 2770,
         "neoClassName": "Neo.worker.Message"
     },
     {
@@ -102581,7 +102633,7 @@
         "scope": "global",
         "$longname": "destination",
         "$kind": "property",
-        "id": 2770,
+        "id": 2771,
         "neoClassName": "Neo.worker.Message"
     },
     {
@@ -102605,7 +102657,7 @@
         "scope": "global",
         "$longname": "id",
         "$kind": "property",
-        "id": 2771,
+        "id": 2772,
         "neoClassName": "Neo.worker.Message"
     },
     {
@@ -102629,7 +102681,7 @@
         "scope": "global",
         "$longname": "origin",
         "$kind": "property",
-        "id": 2772,
+        "id": 2773,
         "neoClassName": "Neo.worker.Message"
     },
     {
@@ -102651,7 +102703,7 @@
         "scope": "static",
         "$longname": "Neo.worker.mixin.RemoteMethodAccess",
         "$kind": "class",
-        "id": 2773,
+        "id": 2774,
         "neoClassName": "Neo.worker.mixin.RemoteMethodAccess"
     },
     {
@@ -102676,7 +102728,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2774,
+        "id": 2775,
         "neoClassName": "Neo.worker.mixin.RemoteMethodAccess"
     },
     {
@@ -102701,7 +102753,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2775,
+        "id": 2776,
         "neoClassName": "Neo.worker.mixin.RemoteMethodAccess"
     },
     {
@@ -102726,7 +102778,7 @@
         "scope": "global",
         "$longname": "mixin",
         "$kind": "property",
-        "id": 2776,
+        "id": 2777,
         "neoClassName": "Neo.worker.mixin.RemoteMethodAccess"
     },
     {
@@ -102741,7 +102793,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker/mixin",
             "code": {
-                "id": "astnode100091438",
+                "id": "astnode100091445",
                 "name": "RemoteMethodAccess#generateRemote",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -102782,7 +102834,7 @@
         "scope": "instance",
         "$longname": "RemoteMethodAccess#generateRemote",
         "$kind": "method",
-        "id": 2777,
+        "id": 2778,
         "neoClassName": "Neo.worker.mixin.RemoteMethodAccess"
     },
     {
@@ -102797,7 +102849,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker/mixin",
             "code": {
-                "id": "astnode100091515",
+                "id": "astnode100091522",
                 "name": "RemoteMethodAccess#onRegisterRemote",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -102825,7 +102877,7 @@
         "scope": "instance",
         "$longname": "RemoteMethodAccess#onRegisterRemote",
         "$kind": "method",
-        "id": 2778,
+        "id": 2779,
         "neoClassName": "Neo.worker.mixin.RemoteMethodAccess"
     },
     {
@@ -102840,7 +102892,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker/mixin",
             "code": {
-                "id": "astnode100091622",
+                "id": "astnode100091629",
                 "name": "RemoteMethodAccess#onRemoteMethod",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -102868,7 +102920,7 @@
         "scope": "instance",
         "$longname": "RemoteMethodAccess#onRemoteMethod",
         "$kind": "method",
-        "id": 2779,
+        "id": 2780,
         "neoClassName": "Neo.worker.mixin.RemoteMethodAccess"
     },
     {
@@ -102883,7 +102935,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker/mixin",
             "code": {
-                "id": "astnode100091754",
+                "id": "astnode100091761",
                 "name": "RemoteMethodAccess#reject",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -102921,7 +102973,7 @@
         "scope": "instance",
         "$longname": "RemoteMethodAccess#reject",
         "$kind": "method",
-        "id": 2780,
+        "id": 2781,
         "neoClassName": "Neo.worker.mixin.RemoteMethodAccess"
     },
     {
@@ -102936,7 +102988,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker/mixin",
             "code": {
-                "id": "astnode100091804",
+                "id": "astnode100091811",
                 "name": "RemoteMethodAccess#resolve",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -102974,7 +103026,7 @@
         "scope": "instance",
         "$longname": "RemoteMethodAccess#resolve",
         "$kind": "method",
-        "id": 2781,
+        "id": 2782,
         "neoClassName": "Neo.worker.mixin.RemoteMethodAccess"
     },
     {
@@ -103004,7 +103056,7 @@
         "scope": "static",
         "$longname": "Neo.worker.VDom",
         "$kind": "class",
-        "id": 2782,
+        "id": 2783,
         "neoClassName": "Neo.worker.VDom"
     },
     {
@@ -103029,7 +103081,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2783,
+        "id": 2784,
         "neoClassName": "Neo.worker.VDom"
     },
     {
@@ -103054,7 +103106,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2784,
+        "id": 2785,
         "neoClassName": "Neo.worker.VDom"
     },
     {
@@ -103079,7 +103131,7 @@
         "scope": "global",
         "$longname": "singleton",
         "$kind": "property",
-        "id": 2785,
+        "id": 2786,
         "neoClassName": "Neo.worker.VDom"
     },
     {
@@ -103104,7 +103156,7 @@
         "scope": "global",
         "$longname": "workerId",
         "$kind": "property",
-        "id": 2786,
+        "id": 2787,
         "neoClassName": "Neo.worker.VDom"
     },
     {
@@ -103133,7 +103185,7 @@
         "scope": "static",
         "$longname": "Neo.Xhr",
         "$kind": "class",
-        "id": 2787,
+        "id": 2788,
         "neoClassName": "Neo.Xhr"
     },
     {
@@ -103158,7 +103210,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2788,
+        "id": 2789,
         "neoClassName": "Neo.Xhr"
     },
     {
@@ -103183,7 +103235,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2789,
+        "id": 2790,
         "neoClassName": "Neo.Xhr"
     },
     {
@@ -103208,7 +103260,7 @@
         "scope": "global",
         "$longname": "remote",
         "$kind": "property",
-        "id": 2790,
+        "id": 2791,
         "neoClassName": "Neo.Xhr"
     },
     {
@@ -103233,7 +103285,7 @@
         "scope": "global",
         "$longname": "singleton",
         "$kind": "property",
-        "id": 2791,
+        "id": 2792,
         "neoClassName": "Neo.Xhr"
     },
     {
@@ -103255,7 +103307,7 @@
         "scope": "static",
         "$longname": "Docs.app.view.ApiTreeList",
         "$kind": "class",
-        "id": 2792,
+        "id": 2793,
         "neoClassName": "Docs.app.view.ApiTreeList"
     },
     {
@@ -103280,7 +103332,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2793,
+        "id": 2794,
         "neoClassName": "Docs.app.view.ApiTreeList"
     },
     {
@@ -103305,7 +103357,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2794,
+        "id": 2795,
         "neoClassName": "Docs.app.view.ApiTreeList"
     },
     {
@@ -103320,7 +103372,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
             "code": {
-                "id": "astnode100091998",
+                "id": "astnode100092005",
                 "name": "ApiTreeList#onConstructed",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -103337,7 +103389,7 @@
         "params": [],
         "$longname": "ApiTreeList#onConstructed",
         "$kind": "method",
-        "id": 2795,
+        "id": 2796,
         "neoClassName": "Docs.app.view.ApiTreeList"
     },
     {
@@ -103359,7 +103411,7 @@
         "scope": "static",
         "$longname": "Docs.app.view.classdetails.HeaderComponent",
         "$kind": "class",
-        "id": 2796,
+        "id": 2797,
         "neoClassName": "Docs.app.view.classdetails.HeaderComponent"
     },
     {
@@ -103384,7 +103436,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2797,
+        "id": 2798,
         "neoClassName": "Docs.app.view.classdetails.HeaderComponent"
     },
     {
@@ -103409,7 +103461,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2798,
+        "id": 2799,
         "neoClassName": "Docs.app.view.classdetails.HeaderComponent"
     },
     {
@@ -103433,7 +103485,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2799,
+        "id": 2800,
         "neoClassName": "Docs.app.view.classdetails.HeaderComponent"
     },
     {
@@ -103458,7 +103510,7 @@
         "scope": "global",
         "$longname": "record_",
         "$kind": "property",
-        "id": 2800,
+        "id": 2801,
         "neoClassName": "Docs.app.view.classdetails.HeaderComponent"
     },
     {
@@ -103481,7 +103533,7 @@
         "scope": "global",
         "$longname": "domListeners",
         "$kind": "property",
-        "id": 2801,
+        "id": 2802,
         "neoClassName": "Docs.app.view.classdetails.HeaderComponent"
     },
     {
@@ -103504,7 +103556,7 @@
         "scope": "global",
         "$longname": "_vdom",
         "$kind": "property",
-        "id": 2802,
+        "id": 2803,
         "neoClassName": "Docs.app.view.classdetails.HeaderComponent"
     },
     {
@@ -103519,7 +103571,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100092122",
+                "id": "astnode100092129",
                 "name": "HeaderComponent#onConstructed",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -103536,7 +103588,7 @@
         "params": [],
         "$longname": "HeaderComponent#onConstructed",
         "$kind": "method",
-        "id": 2803,
+        "id": 2804,
         "neoClassName": "Docs.app.view.classdetails.HeaderComponent"
     },
     {
@@ -103558,7 +103610,7 @@
         "scope": "static",
         "$longname": "Docs.app.view.classdetails.HierarchyTreeList",
         "$kind": "class",
-        "id": 2804,
+        "id": 2805,
         "neoClassName": "Docs.app.view.classdetails.HierarchyTreeList"
     },
     {
@@ -103583,7 +103635,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2805,
+        "id": 2806,
         "neoClassName": "Docs.app.view.classdetails.HierarchyTreeList"
     },
     {
@@ -103608,7 +103660,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2806,
+        "id": 2807,
         "neoClassName": "Docs.app.view.classdetails.HierarchyTreeList"
     },
     {
@@ -103633,7 +103685,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2807,
+        "id": 2808,
         "neoClassName": "Docs.app.view.classdetails.HierarchyTreeList"
     },
     {
@@ -103657,7 +103709,7 @@
         "scope": "global",
         "$longname": "showCollapseExpandAllIcons",
         "$kind": "property",
-        "id": 2808,
+        "id": 2809,
         "neoClassName": "Docs.app.view.classdetails.HierarchyTreeList"
     },
     {
@@ -103682,7 +103734,7 @@
         "scope": "global",
         "$longname": "structureData",
         "$kind": "property",
-        "id": 2809,
+        "id": 2810,
         "neoClassName": "Docs.app.view.classdetails.HierarchyTreeList"
     },
     {
@@ -103697,7 +103749,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100092303",
+                "id": "astnode100092310",
                 "name": "HierarchyTreeList#onConstructed",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -103714,7 +103766,7 @@
         "params": [],
         "$longname": "HierarchyTreeList#onConstructed",
         "$kind": "method",
-        "id": 2810,
+        "id": 2811,
         "neoClassName": "Docs.app.view.classdetails.HierarchyTreeList"
     },
     {
@@ -103729,7 +103781,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100092332",
+                "id": "astnode100092339",
                 "name": "HierarchyTreeList#createStoreItems",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -103746,7 +103798,7 @@
         "params": [],
         "$longname": "HierarchyTreeList#createStoreItems",
         "$kind": "method",
-        "id": 2811,
+        "id": 2812,
         "neoClassName": "Docs.app.view.classdetails.HierarchyTreeList"
     },
     {
@@ -103761,7 +103813,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100092488",
+                "id": "astnode100092495",
                 "name": "HierarchyTreeList#onLeafItemClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -103789,7 +103841,7 @@
         "scope": "instance",
         "$longname": "HierarchyTreeList#onLeafItemClick",
         "$kind": "method",
-        "id": 2812,
+        "id": 2813,
         "neoClassName": "Docs.app.view.classdetails.HierarchyTreeList"
     },
     {
@@ -103811,7 +103863,7 @@
         "scope": "static",
         "$longname": "Docs.app.view.classdetails.MainContainer",
         "$kind": "class",
-        "id": 2813,
+        "id": 2814,
         "neoClassName": "Docs.app.view.classdetails.MainContainer"
     },
     {
@@ -103836,7 +103888,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2814,
+        "id": 2815,
         "neoClassName": "Docs.app.view.classdetails.MainContainer"
     },
     {
@@ -103861,7 +103913,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2815,
+        "id": 2816,
         "neoClassName": "Docs.app.view.classdetails.MainContainer"
     },
     {
@@ -103886,7 +103938,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2816,
+        "id": 2817,
         "neoClassName": "Docs.app.view.classdetails.MainContainer"
     },
     {
@@ -103910,7 +103962,7 @@
         "scope": "global",
         "$longname": "controller",
         "$kind": "property",
-        "id": 2817,
+        "id": 2818,
         "neoClassName": "Docs.app.view.classdetails.MainContainer"
     },
     {
@@ -103935,7 +103987,7 @@
         "scope": "global",
         "$longname": "layout",
         "$kind": "property",
-        "id": 2818,
+        "id": 2819,
         "neoClassName": "Docs.app.view.classdetails.MainContainer"
     },
     {
@@ -103960,7 +104012,7 @@
         "scope": "global",
         "$longname": "structureData",
         "$kind": "property",
-        "id": 2819,
+        "id": 2820,
         "neoClassName": "Docs.app.view.classdetails.MainContainer"
     },
     {
@@ -103984,7 +104036,7 @@
         "scope": "global",
         "$longname": "items",
         "$kind": "property",
-        "id": 2820,
+        "id": 2821,
         "neoClassName": "Docs.app.view.classdetails.MainContainer"
     },
     {
@@ -104006,7 +104058,7 @@
         "scope": "static",
         "$longname": "Docs.app.view.MainContainerController",
         "$kind": "class",
-        "id": 2821,
+        "id": 2822,
         "neoClassName": "Docs.app.view.classdetails.MainContainerController"
     },
     {
@@ -104031,7 +104083,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2822,
+        "id": 2823,
         "neoClassName": "Docs.app.view.classdetails.MainContainerController"
     },
     {
@@ -104056,7 +104108,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2823,
+        "id": 2824,
         "neoClassName": "Docs.app.view.classdetails.MainContainerController"
     },
     {
@@ -104071,7 +104123,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100092815",
+                "id": "astnode100092822",
                 "name": "MainContainerController#onHeaderClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -104099,7 +104151,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#onHeaderClick",
         "$kind": "method",
-        "id": 2824,
+        "id": 2825,
         "neoClassName": "Docs.app.view.classdetails.MainContainerController"
     },
     {
@@ -104114,7 +104166,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100092883",
+                "id": "astnode100092890",
                 "name": "MainContainerController#onMutateItems",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -104142,7 +104194,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#onMutateItems",
         "$kind": "method",
-        "id": 2825,
+        "id": 2826,
         "neoClassName": "Docs.app.view.classdetails.MainContainerController"
     },
     {
@@ -104157,7 +104209,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100093046",
+                "id": "astnode100093053",
                 "name": "MainContainerController#onScrollIntoView",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -104185,7 +104237,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#onScrollIntoView",
         "$kind": "method",
-        "id": 2826,
+        "id": 2827,
         "neoClassName": "Docs.app.view.classdetails.MainContainerController"
     },
     {
@@ -104200,7 +104252,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100093094",
+                "id": "astnode100093101",
                 "name": "MainContainerController#onSearchFieldChange",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -104228,7 +104280,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#onSearchFieldChange",
         "$kind": "method",
-        "id": 2827,
+        "id": 2828,
         "neoClassName": "Docs.app.view.classdetails.MainContainerController"
     },
     {
@@ -104243,7 +104295,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100093111",
+                "id": "astnode100093118",
                 "name": "MainContainerController#onToggleMembers",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -104271,7 +104323,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#onToggleMembers",
         "$kind": "method",
-        "id": 2828,
+        "id": 2829,
         "neoClassName": "Docs.app.view.classdetails.MainContainerController"
     },
     {
@@ -104293,7 +104345,7 @@
         "scope": "static",
         "$longname": "Docs.app.view.classdetails.MembersList",
         "$kind": "class",
-        "id": 2829,
+        "id": 2830,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104318,7 +104370,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2830,
+        "id": 2831,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104343,7 +104395,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2831,
+        "id": 2832,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104367,7 +104419,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2832,
+        "id": 2833,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104392,7 +104444,7 @@
         "scope": "global",
         "$longname": "filterMembersQuery_",
         "$kind": "property",
-        "id": 2833,
+        "id": 2834,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104416,7 +104468,7 @@
         "scope": "global",
         "$longname": "showPrivateMembers_",
         "$kind": "property",
-        "id": 2834,
+        "id": 2835,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104440,7 +104492,7 @@
         "scope": "global",
         "$longname": "showProtectedMembers_",
         "$kind": "property",
-        "id": 2835,
+        "id": 2836,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104464,7 +104516,7 @@
         "scope": "global",
         "$longname": "showStaticMembers_",
         "$kind": "property",
-        "id": 2836,
+        "id": 2837,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104488,7 +104540,7 @@
         "scope": "global",
         "$longname": "store",
         "$kind": "property",
-        "id": 2837,
+        "id": 2838,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104513,7 +104565,7 @@
         "scope": "global",
         "$longname": "targetClassName",
         "$kind": "property",
-        "id": 2838,
+        "id": 2839,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104538,7 +104590,7 @@
         "scope": "global",
         "$longname": "_vdom",
         "$kind": "property",
-        "id": 2839,
+        "id": 2840,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104553,7 +104605,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100093218",
+                "id": "astnode100093225",
                 "name": "MembersList#onConstructed",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -104570,7 +104622,7 @@
         "params": [],
         "$longname": "MembersList#onConstructed",
         "$kind": "method",
-        "id": 2840,
+        "id": 2841,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104585,7 +104637,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100093285",
+                "id": "astnode100093292",
                 "name": "MembersList#afterSetFilterMembersQuery",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -104624,7 +104676,7 @@
         "scope": "instance",
         "$longname": "MembersList#afterSetFilterMembersQuery",
         "$kind": "method",
-        "id": 2841,
+        "id": 2842,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104639,7 +104691,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100093301",
+                "id": "astnode100093308",
                 "name": "MembersList#afterSetShowProtectedMembers",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -104678,7 +104730,7 @@
         "scope": "instance",
         "$longname": "MembersList#afterSetShowProtectedMembers",
         "$kind": "method",
-        "id": 2842,
+        "id": 2843,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104693,7 +104745,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100093317",
+                "id": "astnode100093324",
                 "name": "MembersList#afterSetShowPrivateMembers",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -104732,7 +104784,7 @@
         "scope": "instance",
         "$longname": "MembersList#afterSetShowPrivateMembers",
         "$kind": "method",
-        "id": 2843,
+        "id": 2844,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104747,7 +104799,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100093333",
+                "id": "astnode100093340",
                 "name": "MembersList#afterSetShowStaticMembers",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -104786,7 +104838,7 @@
         "scope": "instance",
         "$longname": "MembersList#afterSetShowStaticMembers",
         "$kind": "method",
-        "id": 2844,
+        "id": 2845,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104801,7 +104853,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100093349",
+                "id": "astnode100093356",
                 "name": "MembersList#applyConfigsHeader",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -104848,7 +104900,7 @@
         "scope": "instance",
         "$longname": "MembersList#applyConfigsHeader",
         "$kind": "method",
-        "id": 2845,
+        "id": 2846,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104863,7 +104915,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100093390",
+                "id": "astnode100093397",
                 "name": "MembersList#applyEventsHeader",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -104928,7 +104980,7 @@
         "scope": "instance",
         "$longname": "MembersList#applyEventsHeader",
         "$kind": "method",
-        "id": 2846,
+        "id": 2847,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -104943,7 +104995,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100093447",
+                "id": "astnode100093454",
                 "name": "MembersList#applyMethodsHeader",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -105008,7 +105060,7 @@
         "scope": "instance",
         "$longname": "MembersList#applyMethodsHeader",
         "$kind": "method",
-        "id": 2847,
+        "id": 2848,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -105023,7 +105075,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100093513",
+                "id": "astnode100093520",
                 "name": "MembersList#createItems",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -105040,7 +105092,7 @@
         "params": [],
         "$longname": "MembersList#createItems",
         "$kind": "method",
-        "id": 2848,
+        "id": 2849,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -105055,7 +105107,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100094186",
+                "id": "astnode100094193",
                 "name": "MembersList.createParametersTable",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -105093,7 +105145,7 @@
         "scope": "static",
         "$longname": "MembersList.createParametersTable",
         "$kind": "method",
-        "id": 2849,
+        "id": 2850,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -105108,7 +105160,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100094544",
+                "id": "astnode100094551",
                 "name": "MembersList.escapeHtml",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -105146,7 +105198,7 @@
         "scope": "static",
         "$longname": "MembersList.escapeHtml",
         "$kind": "method",
-        "id": 2850,
+        "id": 2851,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -105161,7 +105213,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100094561",
+                "id": "astnode100094568",
                 "name": "MembersList#filterAndSortItems",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -105178,7 +105230,7 @@
         "params": [],
         "$longname": "MembersList#filterAndSortItems",
         "$kind": "method",
-        "id": 2851,
+        "id": 2852,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -105193,7 +105245,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100094983",
+                "id": "astnode100094990",
                 "name": "MembersList#onStoreFilter",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -105211,7 +105263,7 @@
         "params": [],
         "$longname": "MembersList#onStoreFilter",
         "$kind": "method",
-        "id": 2852,
+        "id": 2853,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -105226,7 +105278,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100094987",
+                "id": "astnode100094994",
                 "name": "MembersList#onRefreshClassMembers",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -105243,7 +105295,7 @@
         "params": [],
         "$longname": "MembersList#onRefreshClassMembers",
         "$kind": "method",
-        "id": 2853,
+        "id": 2854,
         "neoClassName": "Docs.app.view.classdetails.MembersList"
     },
     {
@@ -105265,7 +105317,7 @@
         "scope": "static",
         "$longname": "Docs.app.view.classdetails.SourceViewComponent",
         "$kind": "class",
-        "id": 2854,
+        "id": 2855,
         "neoClassName": "Docs.app.view.classdetails.SourceViewComponent"
     },
     {
@@ -105290,7 +105342,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2855,
+        "id": 2856,
         "neoClassName": "Docs.app.view.classdetails.SourceViewComponent"
     },
     {
@@ -105315,7 +105367,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2856,
+        "id": 2857,
         "neoClassName": "Docs.app.view.classdetails.SourceViewComponent"
     },
     {
@@ -105340,7 +105392,7 @@
         "scope": "global",
         "$longname": "isHighlighted_",
         "$kind": "property",
-        "id": 2857,
+        "id": 2858,
         "neoClassName": "Docs.app.view.classdetails.SourceViewComponent"
     },
     {
@@ -105366,7 +105418,7 @@
         "scope": "global",
         "$longname": "line_",
         "$kind": "property",
-        "id": 2858,
+        "id": 2859,
         "neoClassName": "Docs.app.view.classdetails.SourceViewComponent"
     },
     {
@@ -105392,7 +105444,7 @@
         "scope": "global",
         "$longname": "previousLine",
         "$kind": "property",
-        "id": 2859,
+        "id": 2860,
         "neoClassName": "Docs.app.view.classdetails.SourceViewComponent"
     },
     {
@@ -105418,7 +105470,7 @@
         "scope": "global",
         "$longname": "structureData",
         "$kind": "property",
-        "id": 2860,
+        "id": 2861,
         "neoClassName": "Docs.app.view.classdetails.SourceViewComponent"
     },
     {
@@ -105442,7 +105494,7 @@
         "scope": "global",
         "$longname": "style=",
         "$kind": "property",
-        "id": 2861,
+        "id": 2862,
         "neoClassName": "Docs.app.view.classdetails.SourceViewComponent"
     },
     {
@@ -105467,7 +105519,7 @@
         "scope": "global",
         "$longname": "_vdom",
         "$kind": "property",
-        "id": 2862,
+        "id": 2863,
         "neoClassName": "Docs.app.view.classdetails.SourceViewComponent"
     },
     {
@@ -105482,7 +105534,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100095057",
+                "id": "astnode100095064",
                 "name": "SourceViewComponent",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -105509,7 +105561,7 @@
         "scope": "global",
         "$longname": "SourceViewComponent",
         "$kind": "constructor",
-        "id": 2863,
+        "id": 2864,
         "neoClassName": "Docs.app.view.classdetails.SourceViewComponent"
     },
     {
@@ -105524,7 +105576,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100095109",
+                "id": "astnode100095116",
                 "name": "SourceViewComponent#afterSetIsHighlighted",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -105563,7 +105615,7 @@
         "scope": "instance",
         "$longname": "SourceViewComponent#afterSetIsHighlighted",
         "$kind": "method",
-        "id": 2864,
+        "id": 2865,
         "neoClassName": "Docs.app.view.classdetails.SourceViewComponent"
     },
     {
@@ -105578,7 +105630,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100095158",
+                "id": "astnode100095165",
                 "name": "SourceViewComponent#afterSetLine",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -105617,7 +105669,7 @@
         "scope": "instance",
         "$longname": "SourceViewComponent#afterSetLine",
         "$kind": "method",
-        "id": 2865,
+        "id": 2866,
         "neoClassName": "Docs.app.view.classdetails.SourceViewComponent"
     },
     {
@@ -105632,7 +105684,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100095189",
+                "id": "astnode100095196",
                 "name": "SourceViewComponent#applySourceCode",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -105660,7 +105712,7 @@
         "scope": "instance",
         "$longname": "SourceViewComponent#applySourceCode",
         "$kind": "method",
-        "id": 2866,
+        "id": 2867,
         "neoClassName": "Docs.app.view.classdetails.SourceViewComponent"
     },
     {
@@ -105675,7 +105727,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100095240",
+                "id": "astnode100095247",
                 "name": "SourceViewComponent#syntaxHighlight",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -105703,7 +105755,7 @@
         "scope": "instance",
         "$longname": "SourceViewComponent#syntaxHighlight",
         "$kind": "method",
-        "id": 2867,
+        "id": 2868,
         "neoClassName": "Docs.app.view.classdetails.SourceViewComponent"
     },
     {
@@ -105725,7 +105777,7 @@
         "scope": "static",
         "$longname": "Docs.app.view.classdetails.TutorialComponent",
         "$kind": "class",
-        "id": 2868,
+        "id": 2869,
         "neoClassName": "Docs.app.view.classdetails.TutorialComponent"
     },
     {
@@ -105750,7 +105802,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2869,
+        "id": 2870,
         "neoClassName": "Docs.app.view.classdetails.TutorialComponent"
     },
     {
@@ -105775,7 +105827,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2870,
+        "id": 2871,
         "neoClassName": "Docs.app.view.classdetails.TutorialComponent"
     },
     {
@@ -105799,7 +105851,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2871,
+        "id": 2872,
         "neoClassName": "Docs.app.view.classdetails.TutorialComponent"
     },
     {
@@ -105824,7 +105876,7 @@
         "scope": "global",
         "$longname": "fileName",
         "$kind": "property",
-        "id": 2872,
+        "id": 2873,
         "neoClassName": "Docs.app.view.classdetails.TutorialComponent"
     },
     {
@@ -105849,7 +105901,7 @@
         "scope": "global",
         "$longname": "fileType",
         "$kind": "property",
-        "id": 2873,
+        "id": 2874,
         "neoClassName": "Docs.app.view.classdetails.TutorialComponent"
     },
     {
@@ -105874,7 +105926,7 @@
         "scope": "global",
         "$longname": "style",
         "$kind": "property",
-        "id": 2874,
+        "id": 2875,
         "neoClassName": "Docs.app.view.classdetails.TutorialComponent"
     },
     {
@@ -105889,7 +105941,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100095360",
+                "id": "astnode100095367",
                 "name": "TutorialComponent",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -105916,7 +105968,7 @@
         "scope": "global",
         "$longname": "TutorialComponent",
         "$kind": "constructor",
-        "id": 2875,
+        "id": 2876,
         "neoClassName": "Docs.app.view.classdetails.TutorialComponent"
     },
     {
@@ -105931,7 +105983,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100095425",
+                "id": "astnode100095432",
                 "name": "TutorialComponent#applySourceCode",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -105959,7 +106011,7 @@
         "scope": "instance",
         "$longname": "TutorialComponent#applySourceCode",
         "$kind": "method",
-        "id": 2876,
+        "id": 2877,
         "neoClassName": "Docs.app.view.classdetails.TutorialComponent"
     },
     {
@@ -105974,7 +106026,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
             "code": {
-                "id": "astnode100095476",
+                "id": "astnode100095483",
                 "name": "TutorialComponent.syntaxHighlight",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -105991,7 +106043,7 @@
         "params": [],
         "$longname": "TutorialComponent.syntaxHighlight",
         "$kind": "method",
-        "id": 2877,
+        "id": 2878,
         "neoClassName": "Docs.app.view.classdetails.TutorialComponent"
     },
     {
@@ -106013,7 +106065,7 @@
         "scope": "static",
         "$longname": "Docs.app.view.ContentTabContainer",
         "$kind": "class",
-        "id": 2878,
+        "id": 2879,
         "neoClassName": "Docs.app.view.ContentTabContainer"
     },
     {
@@ -106038,7 +106090,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2879,
+        "id": 2880,
         "neoClassName": "Docs.app.view.ContentTabContainer"
     },
     {
@@ -106063,7 +106115,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2880,
+        "id": 2881,
         "neoClassName": "Docs.app.view.ContentTabContainer"
     },
     {
@@ -106087,7 +106139,7 @@
         "scope": "global",
         "$longname": "activateInsertedTabs",
         "$kind": "property",
-        "id": 2881,
+        "id": 2882,
         "neoClassName": "Docs.app.view.ContentTabContainer"
     },
     {
@@ -106111,7 +106163,7 @@
         "scope": "global",
         "$longname": "contentContainerDefaults",
         "$kind": "property",
-        "id": 2882,
+        "id": 2883,
         "neoClassName": "Docs.app.view.ContentTabContainer"
     },
     {
@@ -106135,7 +106187,7 @@
         "scope": "global",
         "$longname": "headerToolbarDefaults",
         "$kind": "property",
-        "id": 2883,
+        "id": 2884,
         "neoClassName": "Docs.app.view.ContentTabContainer"
     },
     {
@@ -106159,7 +106211,7 @@
         "scope": "global",
         "$longname": "items",
         "$kind": "property",
-        "id": 2884,
+        "id": 2885,
         "neoClassName": "Docs.app.view.ContentTabContainer"
     },
     {
@@ -106174,7 +106226,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
             "code": {
-                "id": "astnode100095558",
+                "id": "astnode100095565",
                 "name": "ContentTabContainer",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -106201,7 +106253,7 @@
         "scope": "global",
         "$longname": "ContentTabContainer",
         "$kind": "constructor",
-        "id": 2885,
+        "id": 2886,
         "neoClassName": "Docs.app.view.ContentTabContainer"
     },
     {
@@ -106216,7 +106268,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
             "code": {
-                "id": "astnode100095588",
+                "id": "astnode100095595",
                 "name": "ContentTabContainer#getTabButtonConfig",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -106266,7 +106318,7 @@
         "scope": "instance",
         "$longname": "ContentTabContainer#getTabButtonConfig",
         "$kind": "method",
-        "id": 2886,
+        "id": 2887,
         "neoClassName": "Docs.app.view.ContentTabContainer"
     },
     {
@@ -106288,7 +106340,7 @@
         "scope": "static",
         "$longname": "Docs.app.view.ExamplesTreeList",
         "$kind": "class",
-        "id": 2887,
+        "id": 2888,
         "neoClassName": "Docs.app.view.ExamplesTreeList"
     },
     {
@@ -106313,7 +106365,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2888,
+        "id": 2889,
         "neoClassName": "Docs.app.view.ExamplesTreeList"
     },
     {
@@ -106338,7 +106390,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2889,
+        "id": 2890,
         "neoClassName": "Docs.app.view.ExamplesTreeList"
     },
     {
@@ -106363,7 +106415,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2890,
+        "id": 2891,
         "neoClassName": "Docs.app.view.ExamplesTreeList"
     },
     {
@@ -106378,7 +106430,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
             "code": {
-                "id": "astnode100095725",
+                "id": "astnode100095732",
                 "name": "ExamplesTreeList#onConstructed",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -106395,7 +106447,7 @@
         "params": [],
         "$longname": "ExamplesTreeList#onConstructed",
         "$kind": "method",
-        "id": 2891,
+        "id": 2892,
         "neoClassName": "Docs.app.view.ExamplesTreeList"
     },
     {
@@ -106417,7 +106469,7 @@
         "scope": "static",
         "$longname": "Docs.app.view.HeaderContainer",
         "$kind": "class",
-        "id": 2892,
+        "id": 2893,
         "neoClassName": "Docs.app.view.HeaderContainer"
     },
     {
@@ -106442,7 +106494,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2893,
+        "id": 2894,
         "neoClassName": "Docs.app.view.HeaderContainer"
     },
     {
@@ -106467,7 +106519,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2894,
+        "id": 2895,
         "neoClassName": "Docs.app.view.HeaderContainer"
     },
     {
@@ -106491,7 +106543,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2895,
+        "id": 2896,
         "neoClassName": "Docs.app.view.HeaderContainer"
     },
     {
@@ -106515,7 +106567,7 @@
         "scope": "global",
         "$longname": "height",
         "$kind": "property",
-        "id": 2896,
+        "id": 2897,
         "neoClassName": "Docs.app.view.HeaderContainer"
     },
     {
@@ -106540,7 +106592,7 @@
         "scope": "global",
         "$longname": "layout",
         "$kind": "property",
-        "id": 2897,
+        "id": 2898,
         "neoClassName": "Docs.app.view.HeaderContainer"
     },
     {
@@ -106564,7 +106616,7 @@
         "scope": "global",
         "$longname": "items",
         "$kind": "property",
-        "id": 2898,
+        "id": 2899,
         "neoClassName": "Docs.app.view.HeaderContainer"
     },
     {
@@ -106586,7 +106638,7 @@
         "scope": "static",
         "$longname": "Docs.app.view.MainContainer",
         "$kind": "class",
-        "id": 2899,
+        "id": 2900,
         "neoClassName": "Docs.app.view.MainContainer"
     },
     {
@@ -106611,7 +106663,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2900,
+        "id": 2901,
         "neoClassName": "Docs.app.view.MainContainer"
     },
     {
@@ -106636,7 +106688,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2901,
+        "id": 2902,
         "neoClassName": "Docs.app.view.MainContainer"
     },
     {
@@ -106660,7 +106712,7 @@
         "scope": "global",
         "$longname": "autoMount",
         "$kind": "property",
-        "id": 2902,
+        "id": 2903,
         "neoClassName": "Docs.app.view.MainContainer"
     },
     {
@@ -106685,7 +106737,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2903,
+        "id": 2904,
         "neoClassName": "Docs.app.view.MainContainer"
     },
     {
@@ -106709,7 +106761,7 @@
         "scope": "global",
         "$longname": "controller",
         "$kind": "property",
-        "id": 2904,
+        "id": 2905,
         "neoClassName": "Docs.app.view.MainContainer"
     },
     {
@@ -106734,7 +106786,7 @@
         "scope": "global",
         "$longname": "layout",
         "$kind": "property",
-        "id": 2905,
+        "id": 2906,
         "neoClassName": "Docs.app.view.MainContainer"
     },
     {
@@ -106759,7 +106811,7 @@
         "scope": "global",
         "$longname": "store_",
         "$kind": "property",
-        "id": 2906,
+        "id": 2907,
         "neoClassName": "Docs.app.view.MainContainer"
     },
     {
@@ -106783,7 +106835,7 @@
         "scope": "global",
         "$longname": "items",
         "$kind": "property",
-        "id": 2907,
+        "id": 2908,
         "neoClassName": "Docs.app.view.MainContainer"
     },
     {
@@ -106798,7 +106850,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
             "code": {
-                "id": "astnode100096080",
+                "id": "astnode100096087",
                 "name": "MainContainer",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -106825,7 +106877,7 @@
         "scope": "global",
         "$longname": "MainContainer",
         "$kind": "constructor",
-        "id": 2908,
+        "id": 2909,
         "neoClassName": "Docs.app.view.MainContainer"
     },
     {
@@ -106840,7 +106892,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
             "code": {
-                "id": "astnode100096137",
+                "id": "astnode100096144",
                 "name": "MainContainer#onConstructed",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -106857,7 +106909,7 @@
         "params": [],
         "$longname": "MainContainer#onConstructed",
         "$kind": "method",
-        "id": 2909,
+        "id": 2910,
         "neoClassName": "Docs.app.view.MainContainer"
     },
     {
@@ -106879,7 +106931,7 @@
         "scope": "static",
         "$longname": "Docs.app.view.MainContainerController",
         "$kind": "class",
-        "id": 2910,
+        "id": 2911,
         "neoClassName": "Docs.app.view.MainContainerController"
     },
     {
@@ -106904,7 +106956,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2911,
+        "id": 2912,
         "neoClassName": "Docs.app.view.MainContainerController"
     },
     {
@@ -106929,7 +106981,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2912,
+        "id": 2913,
         "neoClassName": "Docs.app.view.MainContainerController"
     },
     {
@@ -106944,7 +106996,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
             "code": {
-                "id": "astnode100096210",
+                "id": "astnode100096217",
                 "name": "MainContainerController#onApiListLeafClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -106972,7 +107024,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#onApiListLeafClick",
         "$kind": "method",
-        "id": 2913,
+        "id": 2914,
         "neoClassName": "Docs.app.view.MainContainerController"
     },
     {
@@ -106987,7 +107039,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
             "code": {
-                "id": "astnode100096253",
+                "id": "astnode100096260",
                 "name": "MainContainerController#onExamplesListLeafClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -107015,7 +107067,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#onExamplesListLeafClick",
         "$kind": "method",
-        "id": 2914,
+        "id": 2915,
         "neoClassName": "Docs.app.view.MainContainerController"
     },
     {
@@ -107030,7 +107082,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
             "code": {
-                "id": "astnode100096443",
+                "id": "astnode100096450",
                 "name": "MainContainerController#onHashChange",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -107067,7 +107119,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#onHashChange",
         "$kind": "method",
-        "id": 2915,
+        "id": 2916,
         "neoClassName": "Docs.app.view.MainContainerController"
     },
     {
@@ -107082,7 +107134,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
             "code": {
-                "id": "astnode100096543",
+                "id": "astnode100096550",
                 "name": "MainContainerController#onNavigationSearchFieldChange",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -107110,7 +107162,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#onNavigationSearchFieldChange",
         "$kind": "method",
-        "id": 2916,
+        "id": 2917,
         "neoClassName": "Docs.app.view.MainContainerController"
     },
     {
@@ -107125,7 +107177,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
             "code": {
-                "id": "astnode100096593",
+                "id": "astnode100096600",
                 "name": "MainContainerController#onSwitchSourceViewThemeButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -107142,7 +107194,7 @@
         "params": [],
         "$longname": "MainContainerController#onSwitchSourceViewThemeButtonClick",
         "$kind": "method",
-        "id": 2917,
+        "id": 2918,
         "neoClassName": "Docs.app.view.MainContainerController"
     },
     {
@@ -107157,7 +107209,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
             "code": {
-                "id": "astnode100096664",
+                "id": "astnode100096671",
                 "name": "MainContainerController#onSwitchThemeButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -107174,7 +107226,7 @@
         "params": [],
         "$longname": "MainContainerController#onSwitchThemeButtonClick",
         "$kind": "method",
-        "id": 2918,
+        "id": 2919,
         "neoClassName": "Docs.app.view.MainContainerController"
     },
     {
@@ -107189,7 +107241,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
             "code": {
-                "id": "astnode100096812",
+                "id": "astnode100096819",
                 "name": "MainContainerController#onTutorialListLeafClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -107217,7 +107269,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#onTutorialListLeafClick",
         "$kind": "method",
-        "id": 2919,
+        "id": 2920,
         "neoClassName": "Docs.app.view.MainContainerController"
     },
     {
@@ -107239,7 +107291,7 @@
         "scope": "static",
         "$longname": "Docs.app.view.TutorialsTreeList",
         "$kind": "class",
-        "id": 2920,
+        "id": 2921,
         "neoClassName": "Docs.app.view.TutorialsTreeList"
     },
     {
@@ -107264,7 +107316,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2921,
+        "id": 2922,
         "neoClassName": "Docs.app.view.TutorialsTreeList"
     },
     {
@@ -107289,7 +107341,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 2922,
+        "id": 2923,
         "neoClassName": "Docs.app.view.TutorialsTreeList"
     },
     {
@@ -107314,7 +107366,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2923,
+        "id": 2924,
         "neoClassName": "Docs.app.view.TutorialsTreeList"
     },
     {
@@ -107329,7 +107381,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
             "code": {
-                "id": "astnode100096892",
+                "id": "astnode100096899",
                 "name": "TutorialsTreeList#onConstructed",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -107346,7 +107398,7 @@
         "params": [],
         "$longname": "TutorialsTreeList#onConstructed",
         "$kind": "method",
-        "id": 2924,
+        "id": 2925,
         "neoClassName": "Docs.app.view.TutorialsTreeList"
     },
     {
@@ -107368,7 +107420,7 @@
         "scope": "static",
         "$longname": "Covid.model.Country",
         "$kind": "class",
-        "id": 2925,
+        "id": 2926,
         "neoClassName": "Covid.model.Country"
     },
     {
@@ -107390,7 +107442,7 @@
         "scope": "static",
         "$longname": "Covid.model.HistoricalData",
         "$kind": "class",
-        "id": 2926,
+        "id": 2927,
         "neoClassName": "Covid.model.HistoricalData"
     },
     {
@@ -107412,7 +107464,7 @@
         "scope": "static",
         "$longname": "Covid.store.Countries",
         "$kind": "class",
-        "id": 2927,
+        "id": 2928,
         "neoClassName": "Covid.store.Countries"
     },
     {
@@ -107434,7 +107486,7 @@
         "scope": "static",
         "$longname": "Covid.store.HistoricalData",
         "$kind": "class",
-        "id": 2928,
+        "id": 2929,
         "neoClassName": "Covid.store.HistoricalData"
     },
     {
@@ -107457,7 +107509,7 @@
         "scope": "static",
         "$longname": "Covid.Util",
         "$kind": "class",
-        "id": 2929,
+        "id": 2930,
         "neoClassName": "Covid.Util"
     },
     {
@@ -107483,7 +107535,7 @@
         "longname": "flagRegEx",
         "$longname": "flagRegEx",
         "$kind": "property",
-        "id": 2930,
+        "id": 2931,
         "neoClassName": "Covid.Util"
     },
     {
@@ -107509,7 +107561,7 @@
         "longname": "locales",
         "$longname": "locales",
         "$kind": "property",
-        "id": 2931,
+        "id": 2932,
         "neoClassName": "Covid.Util"
     },
     {
@@ -107534,7 +107586,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2932,
+        "id": 2933,
         "neoClassName": "Covid.Util"
     },
     {
@@ -107549,7 +107601,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid",
             "code": {
-                "id": "astnode100097283",
+                "id": "astnode100097290",
                 "name": "Util.formatInfected",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -107595,7 +107647,7 @@
         "scope": "static",
         "$longname": "Util.formatInfected",
         "$kind": "method",
-        "id": 2933,
+        "id": 2934,
         "neoClassName": "Covid.Util"
     },
     {
@@ -107610,7 +107662,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid",
             "code": {
-                "id": "astnode100097338",
+                "id": "astnode100097345",
                 "name": "Util.formatNumber",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -107666,7 +107718,7 @@
         "scope": "static",
         "$longname": "Util.formatNumber",
         "$kind": "method",
-        "id": 2934,
+        "id": 2935,
         "neoClassName": "Covid.Util"
     },
     {
@@ -107681,7 +107733,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid",
             "code": {
-                "id": "astnode100097385",
+                "id": "astnode100097392",
                 "name": "Util.getCountryFlagUrl",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -107719,7 +107771,7 @@
         "scope": "static",
         "$longname": "Util.getCountryFlagUrl",
         "$kind": "method",
-        "id": 2935,
+        "id": 2936,
         "neoClassName": "Covid.Util"
     },
     {
@@ -107734,7 +107786,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid",
             "code": {
-                "id": "astnode100097547",
+                "id": "astnode100097554",
                 "name": "Util.indexRenderer",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -107779,7 +107831,7 @@
         "scope": "static",
         "$longname": "Util.indexRenderer",
         "$kind": "method",
-        "id": 2936,
+        "id": 2937,
         "neoClassName": "Covid.Util"
     },
     {
@@ -107801,7 +107853,7 @@
         "scope": "static",
         "$longname": "Covid.view.AttributionComponent",
         "$kind": "class",
-        "id": 2937,
+        "id": 2938,
         "neoClassName": "Covid.view.AttributionComponent"
     },
     {
@@ -107826,7 +107878,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2938,
+        "id": 2939,
         "neoClassName": "Covid.view.AttributionComponent"
     },
     {
@@ -107851,7 +107903,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2939,
+        "id": 2940,
         "neoClassName": "Covid.view.AttributionComponent"
     },
     {
@@ -107874,7 +107926,7 @@
         "scope": "global",
         "$longname": "vdom",
         "$kind": "property",
-        "id": 2940,
+        "id": 2941,
         "neoClassName": "Covid.view.AttributionComponent"
     },
     {
@@ -107896,7 +107948,7 @@
         "scope": "static",
         "$longname": "Covid.view.country.Gallery",
         "$kind": "class",
-        "id": 2941,
+        "id": 2942,
         "neoClassName": "Covid.view.country.Gallery"
     },
     {
@@ -107921,7 +107973,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2942,
+        "id": 2943,
         "neoClassName": "Covid.view.country.Gallery"
     },
     {
@@ -107946,7 +107998,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2943,
+        "id": 2944,
         "neoClassName": "Covid.view.country.Gallery"
     },
     {
@@ -107971,7 +108023,7 @@
         "scope": "global",
         "$longname": "imageHeight",
         "$kind": "property",
-        "id": 2944,
+        "id": 2945,
         "neoClassName": "Covid.view.country.Gallery"
     },
     {
@@ -107996,7 +108048,7 @@
         "scope": "global",
         "$longname": "imageWidth",
         "$kind": "property",
-        "id": 2945,
+        "id": 2946,
         "neoClassName": "Covid.view.country.Gallery"
     },
     {
@@ -108019,7 +108071,7 @@
         "scope": "global",
         "$longname": "itemTpl_",
         "$kind": "property",
-        "id": 2946,
+        "id": 2947,
         "neoClassName": "Covid.view.country.Gallery"
     },
     {
@@ -108044,7 +108096,7 @@
         "scope": "global",
         "$longname": "keyProperty",
         "$kind": "property",
-        "id": 2947,
+        "id": 2948,
         "neoClassName": "Covid.view.country.Gallery"
     },
     {
@@ -108069,7 +108121,7 @@
         "scope": "global",
         "$longname": "selectOnMount",
         "$kind": "property",
-        "id": 2948,
+        "id": 2949,
         "neoClassName": "Covid.view.country.Gallery"
     },
     {
@@ -108093,7 +108145,7 @@
         "scope": "global",
         "$longname": "store",
         "$kind": "property",
-        "id": 2949,
+        "id": 2950,
         "neoClassName": "Covid.view.country.Gallery"
     },
     {
@@ -108108,7 +108160,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
             "code": {
-                "id": "astnode100097868",
+                "id": "astnode100097875",
                 "name": "CountryGallery#createItem",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -108165,7 +108217,7 @@
         "scope": "instance",
         "$longname": "CountryGallery#createItem",
         "$kind": "method",
-        "id": 2950,
+        "id": 2951,
         "neoClassName": "Covid.view.country.Gallery"
     },
     {
@@ -108180,7 +108232,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
             "code": {
-                "id": "astnode100098116",
+                "id": "astnode100098123",
                 "name": "CountryGallery#getItemId",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -108218,7 +108270,7 @@
         "scope": "instance",
         "$longname": "CountryGallery#getItemId",
         "$kind": "method",
-        "id": 2951,
+        "id": 2952,
         "neoClassName": "Covid.view.country.Gallery"
     },
     {
@@ -108233,7 +108285,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
             "code": {
-                "id": "astnode100098129",
+                "id": "astnode100098136",
                 "name": "CountryGallery#onStoreLoad",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -108261,7 +108313,7 @@
         "scope": "instance",
         "$longname": "CountryGallery#onStoreLoad",
         "$kind": "method",
-        "id": 2952,
+        "id": 2953,
         "neoClassName": "Covid.view.country.Gallery"
     },
     {
@@ -108283,7 +108335,7 @@
         "scope": "static",
         "$longname": "Covid.view.country.Helix",
         "$kind": "class",
-        "id": 2953,
+        "id": 2954,
         "neoClassName": "Covid.view.country.Helix"
     },
     {
@@ -108308,7 +108360,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2954,
+        "id": 2955,
         "neoClassName": "Covid.view.country.Helix"
     },
     {
@@ -108333,7 +108385,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2955,
+        "id": 2956,
         "neoClassName": "Covid.view.country.Helix"
     },
     {
@@ -108358,7 +108410,7 @@
         "scope": "global",
         "$longname": "deltaY",
         "$kind": "property",
-        "id": 2956,
+        "id": 2957,
         "neoClassName": "Covid.view.country.Helix"
     },
     {
@@ -108381,7 +108433,7 @@
         "scope": "global",
         "$longname": "itemTpl_",
         "$kind": "property",
-        "id": 2957,
+        "id": 2958,
         "neoClassName": "Covid.view.country.Helix"
     },
     {
@@ -108406,7 +108458,7 @@
         "scope": "global",
         "$longname": "keyProperty",
         "$kind": "property",
-        "id": 2958,
+        "id": 2959,
         "neoClassName": "Covid.view.country.Helix"
     },
     {
@@ -108431,7 +108483,7 @@
         "scope": "global",
         "$longname": "radius",
         "$kind": "property",
-        "id": 2959,
+        "id": 2960,
         "neoClassName": "Covid.view.country.Helix"
     },
     {
@@ -108456,7 +108508,7 @@
         "scope": "global",
         "$longname": "rotationAngle",
         "$kind": "property",
-        "id": 2960,
+        "id": 2961,
         "neoClassName": "Covid.view.country.Helix"
     },
     {
@@ -108481,7 +108533,7 @@
         "scope": "global",
         "$longname": "showCloneInfo",
         "$kind": "property",
-        "id": 2961,
+        "id": 2962,
         "neoClassName": "Covid.view.country.Helix"
     },
     {
@@ -108505,7 +108557,7 @@
         "scope": "global",
         "$longname": "store",
         "$kind": "property",
-        "id": 2962,
+        "id": 2963,
         "neoClassName": "Covid.view.country.Helix"
     },
     {
@@ -108530,7 +108582,7 @@
         "scope": "global",
         "$longname": "translateY",
         "$kind": "property",
-        "id": 2963,
+        "id": 2964,
         "neoClassName": "Covid.view.country.Helix"
     },
     {
@@ -108555,7 +108607,7 @@
         "scope": "global",
         "$longname": "translateZ_",
         "$kind": "property",
-        "id": 2964,
+        "id": 2965,
         "neoClassName": "Covid.view.country.Helix"
     },
     {
@@ -108570,7 +108622,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
             "code": {
-                "id": "astnode100098373",
+                "id": "astnode100098380",
                 "name": "CountryHelix#createItem",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -108626,7 +108678,7 @@
         "scope": "instance",
         "$longname": "CountryHelix#createItem",
         "$kind": "method",
-        "id": 2965,
+        "id": 2966,
         "neoClassName": "Covid.view.country.Helix"
     },
     {
@@ -108641,7 +108693,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
             "code": {
-                "id": "astnode100098579",
+                "id": "astnode100098586",
                 "name": "CountryHelix#getCloneTransform",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -108667,7 +108719,7 @@
         "params": [],
         "$longname": "CountryHelix#getCloneTransform",
         "$kind": "method",
-        "id": 2966,
+        "id": 2967,
         "neoClassName": "Covid.view.country.Helix"
     },
     {
@@ -108682,7 +108734,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
             "code": {
-                "id": "astnode100098628",
+                "id": "astnode100098635",
                 "name": "CountryHelix#getItemId",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -108719,7 +108771,7 @@
         "scope": "instance",
         "$longname": "CountryHelix#getItemId",
         "$kind": "method",
-        "id": 2967,
+        "id": 2968,
         "neoClassName": "Covid.view.country.Helix"
     },
     {
@@ -108741,7 +108793,7 @@
         "scope": "static",
         "$longname": "Covid.view.country.HistoricalDataTable",
         "$kind": "class",
-        "id": 2968,
+        "id": 2969,
         "neoClassName": "Covid.view.country.HistoricalDataTable"
     },
     {
@@ -108766,7 +108818,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2969,
+        "id": 2970,
         "neoClassName": "Covid.view.country.HistoricalDataTable"
     },
     {
@@ -108791,7 +108843,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2970,
+        "id": 2971,
         "neoClassName": "Covid.view.country.HistoricalDataTable"
     },
     {
@@ -108815,7 +108867,7 @@
         "scope": "global",
         "$longname": "columnDefaults",
         "$kind": "property",
-        "id": 2971,
+        "id": 2972,
         "neoClassName": "Covid.view.country.HistoricalDataTable"
     },
     {
@@ -108838,7 +108890,7 @@
         "scope": "global",
         "$longname": "columns",
         "$kind": "property",
-        "id": 2972,
+        "id": 2973,
         "neoClassName": "Covid.view.country.HistoricalDataTable"
     },
     {
@@ -108862,7 +108914,7 @@
         "scope": "global",
         "$longname": "store",
         "$kind": "property",
-        "id": 2973,
+        "id": 2974,
         "neoClassName": "Covid.view.country.HistoricalDataTable"
     },
     {
@@ -108884,7 +108936,7 @@
         "scope": "static",
         "$longname": "Covid.view.country.LineChartComponent",
         "$kind": "class",
-        "id": 2974,
+        "id": 2975,
         "neoClassName": "Covid.view.country.LineChartComponent"
     },
     {
@@ -108909,7 +108961,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2975,
+        "id": 2976,
         "neoClassName": "Covid.view.country.LineChartComponent"
     },
     {
@@ -108933,7 +108985,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2976,
+        "id": 2977,
         "neoClassName": "Covid.view.country.LineChartComponent"
     },
     {
@@ -108956,7 +109008,7 @@
         "scope": "global",
         "$longname": "chartConfig",
         "$kind": "property",
-        "id": 2977,
+        "id": 2978,
         "neoClassName": "Covid.view.country.LineChartComponent"
     },
     {
@@ -108980,7 +109032,7 @@
         "scope": "global",
         "$longname": "combineSeriesTooltip",
         "$kind": "property",
-        "id": 2978,
+        "id": 2979,
         "neoClassName": "Covid.view.country.LineChartComponent"
     },
     {
@@ -109004,7 +109056,7 @@
         "scope": "global",
         "$longname": "fitParentHeight",
         "$kind": "property",
-        "id": 2979,
+        "id": 2980,
         "neoClassName": "Covid.view.country.LineChartComponent"
     },
     {
@@ -109026,7 +109078,7 @@
         "scope": "static",
         "$longname": "Covid.view.country.Table",
         "$kind": "class",
-        "id": 2980,
+        "id": 2981,
         "neoClassName": "Covid.view.country.Table"
     },
     {
@@ -109051,7 +109103,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2981,
+        "id": 2982,
         "neoClassName": "Covid.view.country.Table"
     },
     {
@@ -109076,7 +109128,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2982,
+        "id": 2983,
         "neoClassName": "Covid.view.country.Table"
     },
     {
@@ -109100,7 +109152,7 @@
         "scope": "global",
         "$longname": "columnDefaults",
         "$kind": "property",
-        "id": 2983,
+        "id": 2984,
         "neoClassName": "Covid.view.country.Table"
     },
     {
@@ -109123,7 +109175,7 @@
         "scope": "global",
         "$longname": "columns",
         "$kind": "property",
-        "id": 2984,
+        "id": 2985,
         "neoClassName": "Covid.view.country.Table"
     },
     {
@@ -109147,7 +109199,7 @@
         "scope": "global",
         "$longname": "store",
         "$kind": "property",
-        "id": 2985,
+        "id": 2986,
         "neoClassName": "Covid.view.country.Table"
     },
     {
@@ -109169,7 +109221,7 @@
         "scope": "static",
         "$longname": "Covid.view.FooterContainer",
         "$kind": "class",
-        "id": 2986,
+        "id": 2987,
         "neoClassName": "Covid.view.FooterContainer"
     },
     {
@@ -109194,7 +109246,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2987,
+        "id": 2988,
         "neoClassName": "Covid.view.FooterContainer"
     },
     {
@@ -109218,7 +109270,7 @@
         "scope": "global",
         "$longname": "height",
         "$kind": "property",
-        "id": 2988,
+        "id": 2989,
         "neoClassName": "Covid.view.FooterContainer"
     },
     {
@@ -109243,7 +109295,7 @@
         "scope": "global",
         "$longname": "layout",
         "$kind": "property",
-        "id": 2989,
+        "id": 2990,
         "neoClassName": "Covid.view.FooterContainer"
     },
     {
@@ -109267,7 +109319,7 @@
         "scope": "global",
         "$longname": "reference",
         "$kind": "property",
-        "id": 2990,
+        "id": 2991,
         "neoClassName": "Covid.view.FooterContainer"
     },
     {
@@ -109292,7 +109344,7 @@
         "scope": "global",
         "$longname": "style",
         "$kind": "property",
-        "id": 2991,
+        "id": 2992,
         "neoClassName": "Covid.view.FooterContainer"
     },
     {
@@ -109315,7 +109367,7 @@
         "scope": "global",
         "$longname": "itemDefaults",
         "$kind": "property",
-        "id": 2992,
+        "id": 2993,
         "neoClassName": "Covid.view.FooterContainer"
     },
     {
@@ -109338,7 +109390,7 @@
         "scope": "global",
         "$longname": "items",
         "$kind": "property",
-        "id": 2993,
+        "id": 2994,
         "neoClassName": "Covid.view.FooterContainer"
     },
     {
@@ -109360,7 +109412,7 @@
         "scope": "static",
         "$longname": "Covid.view.GalleryContainer",
         "$kind": "class",
-        "id": 2994,
+        "id": 2995,
         "neoClassName": "Covid.view.GalleryContainer"
     },
     {
@@ -109385,7 +109437,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 2995,
+        "id": 2996,
         "neoClassName": "Covid.view.GalleryContainer"
     },
     {
@@ -109410,7 +109462,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 2996,
+        "id": 2997,
         "neoClassName": "Covid.view.GalleryContainer"
     },
     {
@@ -109435,7 +109487,7 @@
         "scope": "global",
         "$longname": "controller",
         "$kind": "property",
-        "id": 2997,
+        "id": 2998,
         "neoClassName": "Covid.view.GalleryContainer"
     },
     {
@@ -109460,7 +109512,7 @@
         "scope": "global",
         "$longname": "gallery",
         "$kind": "property",
-        "id": 2998,
+        "id": 2999,
         "neoClassName": "Covid.view.GalleryContainer"
     },
     {
@@ -109485,7 +109537,7 @@
         "scope": "global",
         "$longname": "galleryConfig",
         "$kind": "property",
-        "id": 2999,
+        "id": 3000,
         "neoClassName": "Covid.view.GalleryContainer"
     },
     {
@@ -109511,7 +109563,7 @@
         "scope": "global",
         "$longname": "layout",
         "$kind": "property",
-        "id": 3000,
+        "id": 3001,
         "neoClassName": "Covid.view.GalleryContainer"
     },
     {
@@ -109535,7 +109587,7 @@
         "scope": "global",
         "$longname": "items",
         "$kind": "property",
-        "id": 3001,
+        "id": 3002,
         "neoClassName": "Covid.view.GalleryContainer"
     },
     {
@@ -109550,7 +109602,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100099758",
+                "id": "astnode100099765",
                 "name": "GalleryContainer",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -109577,7 +109629,7 @@
         "scope": "global",
         "$longname": "GalleryContainer",
         "$kind": "constructor",
-        "id": 3002,
+        "id": 3003,
         "neoClassName": "Covid.view.GalleryContainer"
     },
     {
@@ -109592,7 +109644,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100099805",
+                "id": "astnode100099812",
                 "name": "GalleryContainer#destroy",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -109611,7 +109663,7 @@
         "params": [],
         "$longname": "GalleryContainer#destroy",
         "$kind": "method",
-        "id": 3003,
+        "id": 3004,
         "neoClassName": "Covid.view.GalleryContainer"
     },
     {
@@ -109633,7 +109685,7 @@
         "scope": "static",
         "$longname": "Covid.view.GalleryContainerController",
         "$kind": "class",
-        "id": 3004,
+        "id": 3005,
         "neoClassName": "Covid.view.GalleryContainerController"
     },
     {
@@ -109658,7 +109710,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 3005,
+        "id": 3006,
         "neoClassName": "Covid.view.GalleryContainerController"
     },
     {
@@ -109684,7 +109736,7 @@
         "scope": "global",
         "$longname": "gallery_",
         "$kind": "property",
-        "id": 3006,
+        "id": 3007,
         "neoClassName": "Covid.view.GalleryContainerController"
     },
     {
@@ -109699,7 +109751,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100099854",
+                "id": "astnode100099861",
                 "name": "GalleryContainerController#beforeGetGallery",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -109730,7 +109782,7 @@
         "scope": "instance",
         "$longname": "GalleryContainerController#beforeGetGallery",
         "$kind": "method",
-        "id": 3007,
+        "id": 3008,
         "neoClassName": "Covid.view.GalleryContainerController"
     },
     {
@@ -109745,7 +109797,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100099877",
+                "id": "astnode100099884",
                 "name": "GalleryContainerController#onCollapseButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -109765,7 +109817,7 @@
         "params": [],
         "$longname": "GalleryContainerController#onCollapseButtonClick",
         "$kind": "method",
-        "id": 3008,
+        "id": 3009,
         "neoClassName": "Covid.view.GalleryContainerController"
     },
     {
@@ -109780,7 +109832,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100099917",
+                "id": "astnode100099924",
                 "name": "GalleryContainerController#onOrderButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -109808,7 +109860,7 @@
         "scope": "instance",
         "$longname": "GalleryContainerController#onOrderButtonClick",
         "$kind": "method",
-        "id": 3009,
+        "id": 3010,
         "neoClassName": "Covid.view.GalleryContainerController"
     },
     {
@@ -109823,7 +109875,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100099953",
+                "id": "astnode100099960",
                 "name": "GalleryContainerController#onRangefieldChange",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -109851,7 +109903,7 @@
         "scope": "instance",
         "$longname": "GalleryContainerController#onRangefieldChange",
         "$kind": "method",
-        "id": 3010,
+        "id": 3011,
         "neoClassName": "Covid.view.GalleryContainerController"
     },
     {
@@ -109866,7 +109918,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100099972",
+                "id": "astnode100099979",
                 "name": "GalleryContainerController#onRangefieldMounted",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -109894,7 +109946,7 @@
         "scope": "instance",
         "$longname": "GalleryContainerController#onRangefieldMounted",
         "$kind": "method",
-        "id": 3011,
+        "id": 3012,
         "neoClassName": "Covid.view.GalleryContainerController"
     },
     {
@@ -109909,7 +109961,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100100028",
+                "id": "astnode100100035",
                 "name": "GalleryContainerController#onSortButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -109937,7 +109989,7 @@
         "scope": "instance",
         "$longname": "GalleryContainerController#onSortButtonClick",
         "$kind": "method",
-        "id": 3012,
+        "id": 3013,
         "neoClassName": "Covid.view.GalleryContainerController"
     },
     {
@@ -109959,7 +110011,7 @@
         "scope": "static",
         "$longname": "Covid.view.HeaderContainer",
         "$kind": "class",
-        "id": 3013,
+        "id": 3014,
         "neoClassName": "Covid.view.HeaderContainer"
     },
     {
@@ -109984,7 +110036,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 3014,
+        "id": 3015,
         "neoClassName": "Covid.view.HeaderContainer"
     },
     {
@@ -110008,7 +110060,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 3015,
+        "id": 3016,
         "neoClassName": "Covid.view.HeaderContainer"
     },
     {
@@ -110032,7 +110084,7 @@
         "scope": "global",
         "$longname": "height",
         "$kind": "property",
-        "id": 3016,
+        "id": 3017,
         "neoClassName": "Covid.view.HeaderContainer"
     },
     {
@@ -110057,7 +110109,7 @@
         "scope": "global",
         "$longname": "layout",
         "$kind": "property",
-        "id": 3017,
+        "id": 3018,
         "neoClassName": "Covid.view.HeaderContainer"
     },
     {
@@ -110080,7 +110132,7 @@
         "scope": "global",
         "$longname": "items",
         "$kind": "property",
-        "id": 3018,
+        "id": 3019,
         "neoClassName": "Covid.view.HeaderContainer"
     },
     {
@@ -110102,7 +110154,7 @@
         "scope": "static",
         "$longname": "Covid.view.HelixContainer",
         "$kind": "class",
-        "id": 3019,
+        "id": 3020,
         "neoClassName": "Covid.view.HelixContainer"
     },
     {
@@ -110127,7 +110179,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 3020,
+        "id": 3021,
         "neoClassName": "Covid.view.HelixContainer"
     },
     {
@@ -110152,7 +110204,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 3021,
+        "id": 3022,
         "neoClassName": "Covid.view.HelixContainer"
     },
     {
@@ -110177,7 +110229,7 @@
         "scope": "global",
         "$longname": "controller",
         "$kind": "property",
-        "id": 3022,
+        "id": 3023,
         "neoClassName": "Covid.view.HelixContainer"
     },
     {
@@ -110202,7 +110254,7 @@
         "scope": "global",
         "$longname": "helix",
         "$kind": "property",
-        "id": 3023,
+        "id": 3024,
         "neoClassName": "Covid.view.HelixContainer"
     },
     {
@@ -110227,7 +110279,7 @@
         "scope": "global",
         "$longname": "helixConfig",
         "$kind": "property",
-        "id": 3024,
+        "id": 3025,
         "neoClassName": "Covid.view.HelixContainer"
     },
     {
@@ -110253,7 +110305,7 @@
         "scope": "global",
         "$longname": "layout",
         "$kind": "property",
-        "id": 3025,
+        "id": 3026,
         "neoClassName": "Covid.view.HelixContainer"
     },
     {
@@ -110277,7 +110329,7 @@
         "scope": "global",
         "$longname": "items",
         "$kind": "property",
-        "id": 3026,
+        "id": 3027,
         "neoClassName": "Covid.view.HelixContainer"
     },
     {
@@ -110292,7 +110344,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100100850",
+                "id": "astnode100100857",
                 "name": "HelixContainer",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -110319,7 +110371,7 @@
         "scope": "global",
         "$longname": "HelixContainer",
         "$kind": "constructor",
-        "id": 3027,
+        "id": 3028,
         "neoClassName": "Covid.view.HelixContainer"
     },
     {
@@ -110341,7 +110393,7 @@
         "scope": "static",
         "$longname": "Covid.view.HelixContainerController",
         "$kind": "class",
-        "id": 3028,
+        "id": 3029,
         "neoClassName": "Covid.view.HelixContainerController"
     },
     {
@@ -110366,7 +110418,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 3029,
+        "id": 3030,
         "neoClassName": "Covid.view.HelixContainerController"
     },
     {
@@ -110392,7 +110444,7 @@
         "scope": "global",
         "$longname": "helix_",
         "$kind": "property",
-        "id": 3030,
+        "id": 3031,
         "neoClassName": "Covid.view.HelixContainerController"
     },
     {
@@ -110407,7 +110459,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100100927",
+                "id": "astnode100100934",
                 "name": "HelixContainerController#beforeGetHelix",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -110438,7 +110490,7 @@
         "scope": "instance",
         "$longname": "HelixContainerController#beforeGetHelix",
         "$kind": "method",
-        "id": 3031,
+        "id": 3032,
         "neoClassName": "Covid.view.HelixContainerController"
     },
     {
@@ -110453,7 +110505,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100100950",
+                "id": "astnode100100957",
                 "name": "HelixContainerController#onCollapseButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -110473,7 +110525,7 @@
         "params": [],
         "$longname": "HelixContainerController#onCollapseButtonClick",
         "$kind": "method",
-        "id": 3032,
+        "id": 3033,
         "neoClassName": "Covid.view.HelixContainerController"
     },
     {
@@ -110488,7 +110540,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100100990",
+                "id": "astnode100100997",
                 "name": "HelixContainerController#onFlipItemsButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -110508,7 +110560,7 @@
         "params": [],
         "$longname": "HelixContainerController#onFlipItemsButtonClick",
         "$kind": "method",
-        "id": 3033,
+        "id": 3034,
         "neoClassName": "Covid.view.HelixContainerController"
     },
     {
@@ -110523,7 +110575,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100101008",
+                "id": "astnode100101015",
                 "name": "HelixContainerController#onFollowSelectionButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -110543,7 +110595,7 @@
         "params": [],
         "$longname": "HelixContainerController#onFollowSelectionButtonClick",
         "$kind": "method",
-        "id": 3034,
+        "id": 3035,
         "neoClassName": "Covid.view.HelixContainerController"
     },
     {
@@ -110558,7 +110610,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100101055",
+                "id": "astnode100101062",
                 "name": "HelixContainerController#onRangefieldChange",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -110586,7 +110638,7 @@
         "scope": "instance",
         "$longname": "HelixContainerController#onRangefieldChange",
         "$kind": "method",
-        "id": 3035,
+        "id": 3036,
         "neoClassName": "Covid.view.HelixContainerController"
     },
     {
@@ -110601,7 +110653,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100101094",
+                "id": "astnode100101101",
                 "name": "HelixContainerController#onRangefieldMounted",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -110629,7 +110681,7 @@
         "scope": "instance",
         "$longname": "HelixContainerController#onRangefieldMounted",
         "$kind": "method",
-        "id": 3036,
+        "id": 3037,
         "neoClassName": "Covid.view.HelixContainerController"
     },
     {
@@ -110644,7 +110696,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100101144",
+                "id": "astnode100101151",
                 "name": "HelixContainerController#onSortButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -110672,7 +110724,7 @@
         "scope": "instance",
         "$longname": "HelixContainerController#onSortButtonClick",
         "$kind": "method",
-        "id": 3037,
+        "id": 3038,
         "neoClassName": "Covid.view.HelixContainerController"
     },
     {
@@ -110694,7 +110746,7 @@
         "scope": "static",
         "$longname": "Covid.view.MainContainer",
         "$kind": "class",
-        "id": 3038,
+        "id": 3039,
         "neoClassName": "Covid.view.MainContainer"
     },
     {
@@ -110719,7 +110771,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 3039,
+        "id": 3040,
         "neoClassName": "Covid.view.MainContainer"
     },
     {
@@ -110743,7 +110795,7 @@
         "scope": "global",
         "$longname": "autoMount",
         "$kind": "property",
-        "id": 3040,
+        "id": 3041,
         "neoClassName": "Covid.view.MainContainer"
     },
     {
@@ -110768,7 +110820,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 3041,
+        "id": 3042,
         "neoClassName": "Covid.view.MainContainer"
     },
     {
@@ -110792,7 +110844,7 @@
         "scope": "global",
         "$longname": "controller",
         "$kind": "property",
-        "id": 3042,
+        "id": 3043,
         "neoClassName": "Covid.view.MainContainer"
     },
     {
@@ -110815,7 +110867,7 @@
         "scope": "global",
         "$longname": "items",
         "$kind": "property",
-        "id": 3043,
+        "id": 3044,
         "neoClassName": "Covid.view.MainContainer"
     },
     {
@@ -110840,7 +110892,7 @@
         "scope": "global",
         "$longname": "layout",
         "$kind": "property",
-        "id": 3044,
+        "id": 3045,
         "neoClassName": "Covid.view.MainContainer"
     },
     {
@@ -110862,7 +110914,7 @@
         "scope": "static",
         "$longname": "Covid.view.MainContainerController",
         "$kind": "class",
-        "id": 3045,
+        "id": 3046,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -110887,7 +110939,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 3046,
+        "id": 3047,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -110912,7 +110964,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 3047,
+        "id": 3048,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -110936,7 +110988,7 @@
         "scope": "global",
         "$longname": "activeMainTabIndex",
         "$kind": "property",
-        "id": 3048,
+        "id": 3049,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -110960,7 +111012,7 @@
         "scope": "global",
         "$longname": "apiSummaryUrl",
         "$kind": "property",
-        "id": 3049,
+        "id": 3050,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -110984,7 +111036,7 @@
         "scope": "global",
         "$longname": "apiUrl",
         "$kind": "property",
-        "id": 3050,
+        "id": 3051,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111009,7 +111061,7 @@
         "scope": "global",
         "$longname": "countryRecord",
         "$kind": "property",
-        "id": 3051,
+        "id": 3052,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111034,7 +111086,7 @@
         "scope": "global",
         "$longname": "data",
         "$kind": "property",
-        "id": 3052,
+        "id": 3053,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111060,7 +111112,7 @@
         "scope": "global",
         "$longname": "mainTabs",
         "$kind": "property",
-        "id": 3053,
+        "id": 3054,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111086,7 +111138,7 @@
         "scope": "global",
         "$longname": "mapboxglMapHasData",
         "$kind": "property",
-        "id": 3054,
+        "id": 3055,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111110,7 +111162,7 @@
         "scope": "global",
         "$longname": "summaryData",
         "$kind": "property",
-        "id": 3055,
+        "id": 3056,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111136,7 +111188,7 @@
         "scope": "global",
         "$longname": "worldMapHasData",
         "$kind": "property",
-        "id": 3056,
+        "id": 3057,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111151,7 +111203,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100101401",
+                "id": "astnode100101408",
                 "name": "MainContainerController#onConstructed",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -111168,7 +111220,7 @@
         "params": [],
         "$longname": "MainContainerController#onConstructed",
         "$kind": "method",
-        "id": 3057,
+        "id": 3058,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111183,7 +111235,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100101436",
+                "id": "astnode100101443",
                 "name": "MainContainerController#addStoreItems",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -111211,7 +111263,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#addStoreItems",
         "$kind": "method",
-        "id": 3058,
+        "id": 3059,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111226,7 +111278,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100101635",
+                "id": "astnode100101642",
                 "name": "MainContainerController#applySummaryData",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -111295,7 +111347,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#applySummaryData",
         "$kind": "method",
-        "id": 3059,
+        "id": 3060,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111310,7 +111362,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100101803",
+                "id": "astnode100101810",
                 "name": "MainContainerController#clearCountryField",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -111338,7 +111390,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#clearCountryField",
         "$kind": "method",
-        "id": 3060,
+        "id": 3061,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111353,7 +111405,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100101817",
+                "id": "astnode100101824",
                 "name": "MainContainerController#getTabIndex",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -111398,7 +111450,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#getTabIndex",
         "$kind": "method",
-        "id": 3061,
+        "id": 3062,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111413,7 +111465,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100101843",
+                "id": "astnode100101850",
                 "name": "MainContainerController#getView",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -111450,7 +111502,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#getView",
         "$kind": "method",
-        "id": 3062,
+        "id": 3063,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111465,7 +111517,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100101858",
+                "id": "astnode100101865",
                 "name": "MainContainerController#loadData",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -111482,7 +111534,7 @@
         "params": [],
         "$longname": "MainContainerController#loadData",
         "$kind": "method",
-        "id": 3063,
+        "id": 3064,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111497,7 +111549,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100101906",
+                "id": "astnode100101913",
                 "name": "MainContainerController#loadSummaryData",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -111514,7 +111566,7 @@
         "params": [],
         "$longname": "MainContainerController#loadSummaryData",
         "$kind": "method",
-        "id": 3064,
+        "id": 3065,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111529,7 +111581,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100101971",
+                "id": "astnode100101978",
                 "name": "MainContainerController#onCountryFieldClear",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -111546,7 +111598,7 @@
         "params": [],
         "$longname": "MainContainerController#onCountryFieldClear",
         "$kind": "method",
-        "id": 3065,
+        "id": 3066,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111561,7 +111613,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100101991",
+                "id": "astnode100101998",
                 "name": "MainContainerController#onCountryFieldSelect",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -111589,7 +111641,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#onCountryFieldSelect",
         "$kind": "method",
-        "id": 3066,
+        "id": 3067,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111604,7 +111656,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100102016",
+                "id": "astnode100102023",
                 "name": "MainContainerController#onHashChange",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -111641,7 +111693,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#onHashChange",
         "$kind": "method",
-        "id": 3067,
+        "id": 3068,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111656,7 +111708,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100102384",
+                "id": "astnode100102391",
                 "name": "MainContainerController#onLoadSummaryDataFail",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -111673,7 +111725,7 @@
         "params": [],
         "$longname": "MainContainerController#onLoadSummaryDataFail",
         "$kind": "method",
-        "id": 3068,
+        "id": 3069,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111688,7 +111740,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100102443",
+                "id": "astnode100102450",
                 "name": "MainContainerController#onMainViewMounted",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -111705,7 +111757,7 @@
         "params": [],
         "$longname": "MainContainerController#onMainViewMounted",
         "$kind": "method",
-        "id": 3069,
+        "id": 3070,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111720,7 +111772,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100102515",
+                "id": "astnode100102522",
                 "name": "MainContainerController#onReloadDataButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -111748,7 +111800,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#onReloadDataButtonClick",
         "$kind": "method",
-        "id": 3070,
+        "id": 3071,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111763,7 +111815,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100102530",
+                "id": "astnode100102537",
                 "name": "MainContainerController#onRemoveFooterButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -111791,7 +111843,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#onRemoveFooterButtonClick",
         "$kind": "method",
-        "id": 3071,
+        "id": 3072,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111806,7 +111858,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100102578",
+                "id": "astnode100102585",
                 "name": "MainContainerController#onSwitchThemeButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -111834,7 +111886,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#onSwitchThemeButtonClick",
         "$kind": "method",
-        "id": 3072,
+        "id": 3073,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111849,7 +111901,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100102799",
+                "id": "astnode100102806",
                 "name": "MainContainerController.selectMapboxGlCountry",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -111876,7 +111928,7 @@
         "scope": "static",
         "$longname": "MainContainerController.selectMapboxGlCountry",
         "$kind": "method",
-        "id": 3073,
+        "id": 3074,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111891,7 +111943,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100102897",
+                "id": "astnode100102904",
                 "name": "MainContainerController#updateCountryField",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -111927,7 +111979,7 @@
         "scope": "instance",
         "$longname": "MainContainerController#updateCountryField",
         "$kind": "method",
-        "id": 3074,
+        "id": 3075,
         "neoClassName": "Covid.view.MainContainerController"
     },
     {
@@ -111949,7 +112001,7 @@
         "scope": "static",
         "$longname": "Covid.view.mapboxGl.Component",
         "$kind": "class",
-        "id": 3075,
+        "id": 3076,
         "neoClassName": "Covid.view.mapboxGl.Component"
     },
     {
@@ -111974,7 +112026,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 3076,
+        "id": 3077,
         "neoClassName": "Covid.view.mapboxGl.Component"
     },
     {
@@ -111998,7 +112050,7 @@
         "scope": "global",
         "$longname": "accessToken",
         "$kind": "property",
-        "id": 3077,
+        "id": 3078,
         "neoClassName": "Covid.view.mapboxGl.Component"
     },
     {
@@ -112023,7 +112075,7 @@
         "scope": "global",
         "$longname": "center",
         "$kind": "property",
-        "id": 3078,
+        "id": 3079,
         "neoClassName": "Covid.view.mapboxGl.Component"
     },
     {
@@ -112047,7 +112099,7 @@
         "scope": "global",
         "$longname": "dataSourceId",
         "$kind": "property",
-        "id": 3079,
+        "id": 3080,
         "neoClassName": "Covid.view.mapboxGl.Component"
     },
     {
@@ -112062,7 +112114,7 @@
             "columnno": 8,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
             "code": {
-                "id": "astnode100102954",
+                "id": "astnode100102961",
                 "name": "layers",
                 "type": "ArrayExpression",
                 "value": "[\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"id\\\":\\\"hillshading\\\",\\\"source\\\":\\\"dem\\\",\\\"type\\\":\\\"hillshade\\\"}\",\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"filter\\\":\\\"\\\",\\\"id\\\":\\\"covid19-heat\\\",\\\"source\\\":\\\"covid19\\\",\\\"type\\\":\\\"heatmap\\\",\\\"paint\\\":\\\"\\\"}\",\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"filter\\\":\\\"\\\",\\\"id\\\":\\\"covid19-circle\\\",\\\"source\\\":\\\"covid19\\\",\\\"type\\\":\\\"circle\\\",\\\"minzoom\\\":5,\\\"paint\\\":\\\"\\\"}\",\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"filter\\\":\\\"\\\",\\\"id\\\":\\\"covid19-circle-text\\\",\\\"source\\\":\\\"covid19\\\",\\\"type\\\":\\\"symbol\\\",\\\"minzoom\\\":5,\\\"layout\\\":\\\"\\\",\\\"paint\\\":\\\"\\\"}\"]"
@@ -112079,7 +112131,7 @@
         "scope": "global",
         "$longname": "layers",
         "$kind": "property",
-        "id": 3080,
+        "id": 3081,
         "neoClassName": "Covid.view.mapboxGl.Component"
     },
     {
@@ -112105,7 +112157,7 @@
         "scope": "global",
         "$longname": "mapboxStyle",
         "$kind": "property",
-        "id": 3081,
+        "id": 3082,
         "neoClassName": "Covid.view.mapboxGl.Component"
     },
     {
@@ -112131,7 +112183,7 @@
         "scope": "global",
         "$longname": "mapboxStyle",
         "$kind": "property",
-        "id": 3082,
+        "id": 3083,
         "neoClassName": "Covid.view.mapboxGl.Component"
     },
     {
@@ -112157,7 +112209,7 @@
         "scope": "global",
         "$longname": "mapboxStyle",
         "$kind": "property",
-        "id": 3083,
+        "id": 3084,
         "neoClassName": "Covid.view.mapboxGl.Component"
     },
     {
@@ -112172,7 +112224,7 @@
             "columnno": 8,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
             "code": {
-                "id": "astnode100103189",
+                "id": "astnode100103196",
                 "name": "sources",
                 "type": "ArrayExpression",
                 "value": "[\"{\\\"id\\\":\\\"covid19\\\",\\\"type\\\":\\\"geojson\\\",\\\"data\\\":\\\"\\\"}\",\"{\\\"id\\\":\\\"dem\\\",\\\"type\\\":\\\"raster-dem\\\",\\\"url\\\":\\\"mapbox://mapbox.terrain-rgb\\\"}\"]"
@@ -112189,7 +112241,7 @@
         "scope": "global",
         "$longname": "sources",
         "$kind": "property",
-        "id": 3084,
+        "id": 3085,
         "neoClassName": "Covid.view.mapboxGl.Component"
     },
     {
@@ -112211,7 +112263,7 @@
         "scope": "static",
         "$longname": "Covid.view.mapboxGl.Container",
         "$kind": "class",
-        "id": 3085,
+        "id": 3086,
         "neoClassName": "Covid.view.mapboxGl.Container"
     },
     {
@@ -112236,7 +112288,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 3086,
+        "id": 3087,
         "neoClassName": "Covid.view.mapboxGl.Container"
     },
     {
@@ -112261,7 +112313,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 3087,
+        "id": 3088,
         "neoClassName": "Covid.view.mapboxGl.Container"
     },
     {
@@ -112285,7 +112337,7 @@
         "scope": "global",
         "$longname": "controller",
         "$kind": "property",
-        "id": 3088,
+        "id": 3089,
         "neoClassName": "Covid.view.mapboxGl.Container"
     },
     {
@@ -112308,7 +112360,7 @@
         "scope": "global",
         "$longname": "items",
         "$kind": "property",
-        "id": 3089,
+        "id": 3090,
         "neoClassName": "Covid.view.mapboxGl.Container"
     },
     {
@@ -112333,7 +112385,7 @@
         "scope": "global",
         "$longname": "layout",
         "$kind": "property",
-        "id": 3090,
+        "id": 3091,
         "neoClassName": "Covid.view.mapboxGl.Container"
     },
     {
@@ -112356,7 +112408,7 @@
         "scope": "global",
         "$longname": "_vdom",
         "$kind": "property",
-        "id": 3091,
+        "id": 3092,
         "neoClassName": "Covid.view.mapboxGl.Container"
     },
     {
@@ -112371,7 +112423,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
             "code": {
-                "id": "astnode100103391",
+                "id": "astnode100103398",
                 "name": "Container#getVdomRoot",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -112388,7 +112440,7 @@
         "params": [],
         "$longname": "Container#getVdomRoot",
         "$kind": "method",
-        "id": 3092,
+        "id": 3093,
         "neoClassName": "Covid.view.mapboxGl.Container"
     },
     {
@@ -112403,7 +112455,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
             "code": {
-                "id": "astnode100103407",
+                "id": "astnode100103414",
                 "name": "Container#getVnodeRoot",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -112420,7 +112472,7 @@
         "params": [],
         "$longname": "Container#getVnodeRoot",
         "$kind": "method",
-        "id": 3093,
+        "id": 3094,
         "neoClassName": "Covid.view.mapboxGl.Container"
     },
     {
@@ -112442,7 +112494,7 @@
         "scope": "static",
         "$longname": "Covid.view.mapboxGl.ContainerController",
         "$kind": "class",
-        "id": 3094,
+        "id": 3095,
         "neoClassName": "Covid.view.mapboxGl.ContainerController"
     },
     {
@@ -112467,7 +112519,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 3095,
+        "id": 3096,
         "neoClassName": "Covid.view.mapboxGl.ContainerController"
     },
     {
@@ -112492,7 +112544,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 3096,
+        "id": 3097,
         "neoClassName": "Covid.view.mapboxGl.ContainerController"
     },
     {
@@ -112507,7 +112559,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
             "code": {
-                "id": "astnode100103453",
+                "id": "astnode100103460",
                 "name": "ContainerController#changeLayerVisibility",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -112544,7 +112596,7 @@
         "scope": "instance",
         "$longname": "ContainerController#changeLayerVisibility",
         "$kind": "method",
-        "id": 3097,
+        "id": 3098,
         "neoClassName": "Covid.view.mapboxGl.ContainerController"
     },
     {
@@ -112559,7 +112611,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
             "code": {
-                "id": "astnode100103475",
+                "id": "astnode100103482",
                 "name": "ContainerController#onDetailCirclesChange",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -112587,7 +112639,7 @@
         "scope": "instance",
         "$longname": "ContainerController#onDetailCirclesChange",
         "$kind": "method",
-        "id": 3098,
+        "id": 3099,
         "neoClassName": "Covid.view.mapboxGl.ContainerController"
     },
     {
@@ -112602,7 +112654,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
             "code": {
-                "id": "astnode100103503",
+                "id": "astnode100103510",
                 "name": "ContainerController#onHeatMapChange",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -112630,7 +112682,7 @@
         "scope": "instance",
         "$longname": "ContainerController#onHeatMapChange",
         "$kind": "method",
-        "id": 3099,
+        "id": 3100,
         "neoClassName": "Covid.view.mapboxGl.ContainerController"
     },
     {
@@ -112645,7 +112697,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
             "code": {
-                "id": "astnode100103520",
+                "id": "astnode100103527",
                 "name": "ContainerController#onHideMapControlsButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -112673,7 +112725,7 @@
         "scope": "instance",
         "$longname": "ContainerController#onHideMapControlsButtonClick",
         "$kind": "method",
-        "id": 3100,
+        "id": 3101,
         "neoClassName": "Covid.view.mapboxGl.ContainerController"
     },
     {
@@ -112688,7 +112740,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
             "code": {
-                "id": "astnode100103532",
+                "id": "astnode100103539",
                 "name": "ContainerController#onTerrainChange",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -112716,7 +112768,7 @@
         "scope": "instance",
         "$longname": "ContainerController#onTerrainChange",
         "$kind": "method",
-        "id": 3101,
+        "id": 3102,
         "neoClassName": "Covid.view.mapboxGl.ContainerController"
     },
     {
@@ -112738,7 +112790,7 @@
         "scope": "static",
         "$longname": "Covid.view.MapboxGLComponent",
         "$kind": "class",
-        "id": 3102,
+        "id": 3103,
         "neoClassName": "Covid.view.MapboxGLComponent"
     },
     {
@@ -112763,7 +112815,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 3103,
+        "id": 3104,
         "neoClassName": "Covid.view.MapboxGLComponent"
     },
     {
@@ -112788,7 +112840,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 3104,
+        "id": 3105,
         "neoClassName": "Covid.view.MapboxGLComponent"
     },
     {
@@ -112812,7 +112864,7 @@
         "scope": "global",
         "$longname": "accessToken",
         "$kind": "property",
-        "id": 3105,
+        "id": 3106,
         "neoClassName": "Covid.view.MapboxGLComponent"
     },
     {
@@ -112837,7 +112889,7 @@
         "scope": "global",
         "$longname": "center",
         "$kind": "property",
-        "id": 3106,
+        "id": 3107,
         "neoClassName": "Covid.view.MapboxGLComponent"
     },
     {
@@ -112861,7 +112913,7 @@
         "scope": "global",
         "$longname": "dataSourceId",
         "$kind": "property",
-        "id": 3107,
+        "id": 3108,
         "neoClassName": "Covid.view.MapboxGLComponent"
     },
     {
@@ -112876,7 +112928,7 @@
             "columnno": 8,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100103589",
+                "id": "astnode100103596",
                 "name": "layers",
                 "type": "ArrayExpression",
                 "value": "[\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"id\\\":\\\"hillshading\\\",\\\"source\\\":\\\"dem\\\",\\\"type\\\":\\\"hillshade\\\"}\",\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"filter\\\":\\\"\\\",\\\"id\\\":\\\"covid19-heat\\\",\\\"source\\\":\\\"covid19\\\",\\\"type\\\":\\\"heatmap\\\",\\\"paint\\\":\\\"\\\"}\",\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"filter\\\":\\\"\\\",\\\"id\\\":\\\"covid19-circle\\\",\\\"source\\\":\\\"covid19\\\",\\\"type\\\":\\\"circle\\\",\\\"minzoom\\\":5,\\\"paint\\\":\\\"\\\"}\",\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"filter\\\":\\\"\\\",\\\"id\\\":\\\"covid19-circle-text\\\",\\\"source\\\":\\\"covid19\\\",\\\"type\\\":\\\"symbol\\\",\\\"minzoom\\\":5,\\\"layout\\\":\\\"\\\",\\\"paint\\\":\\\"\\\"}\"]"
@@ -112893,7 +112945,7 @@
         "scope": "global",
         "$longname": "layers",
         "$kind": "property",
-        "id": 3108,
+        "id": 3109,
         "neoClassName": "Covid.view.MapboxGLComponent"
     },
     {
@@ -112919,7 +112971,7 @@
         "scope": "global",
         "$longname": "mapboxStyle",
         "$kind": "property",
-        "id": 3109,
+        "id": 3110,
         "neoClassName": "Covid.view.MapboxGLComponent"
     },
     {
@@ -112945,7 +112997,7 @@
         "scope": "global",
         "$longname": "mapboxStyle",
         "$kind": "property",
-        "id": 3110,
+        "id": 3111,
         "neoClassName": "Covid.view.MapboxGLComponent"
     },
     {
@@ -112971,7 +113023,7 @@
         "scope": "global",
         "$longname": "mapboxStyle",
         "$kind": "property",
-        "id": 3111,
+        "id": 3112,
         "neoClassName": "Covid.view.MapboxGLComponent"
     },
     {
@@ -112986,7 +113038,7 @@
             "columnno": 8,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100103824",
+                "id": "astnode100103831",
                 "name": "sources",
                 "type": "ArrayExpression",
                 "value": "[\"{\\\"id\\\":\\\"covid19\\\",\\\"type\\\":\\\"geojson\\\",\\\"data\\\":\\\"\\\"}\",\"{\\\"id\\\":\\\"dem\\\",\\\"type\\\":\\\"raster-dem\\\",\\\"url\\\":\\\"mapbox://mapbox.terrain-rgb\\\"}\"]"
@@ -113003,7 +113055,7 @@
         "scope": "global",
         "$longname": "sources",
         "$kind": "property",
-        "id": 3112,
+        "id": 3113,
         "neoClassName": "Covid.view.MapboxGLComponent"
     },
     {
@@ -113025,7 +113077,7 @@
         "scope": "static",
         "$longname": "Covid.view.TableContainer",
         "$kind": "class",
-        "id": 3113,
+        "id": 3114,
         "neoClassName": "Covid.view.TableContainer"
     },
     {
@@ -113050,7 +113102,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 3114,
+        "id": 3115,
         "neoClassName": "Covid.view.TableContainer"
     },
     {
@@ -113074,7 +113126,7 @@
         "scope": "global",
         "$longname": "autoMount",
         "$kind": "property",
-        "id": 3115,
+        "id": 3116,
         "neoClassName": "Covid.view.TableContainer"
     },
     {
@@ -113099,7 +113151,7 @@
         "scope": "global",
         "$longname": "controller",
         "$kind": "property",
-        "id": 3116,
+        "id": 3117,
         "neoClassName": "Covid.view.TableContainer"
     },
     {
@@ -113124,7 +113176,7 @@
         "scope": "global",
         "$longname": "historyPanelWidth",
         "$kind": "property",
-        "id": 3117,
+        "id": 3118,
         "neoClassName": "Covid.view.TableContainer"
     },
     {
@@ -113149,7 +113201,7 @@
         "scope": "global",
         "$longname": "table",
         "$kind": "property",
-        "id": 3118,
+        "id": 3119,
         "neoClassName": "Covid.view.TableContainer"
     },
     {
@@ -113174,7 +113226,7 @@
         "scope": "global",
         "$longname": "tableConfig",
         "$kind": "property",
-        "id": 3119,
+        "id": 3120,
         "neoClassName": "Covid.view.TableContainer"
     },
     {
@@ -113200,7 +113252,7 @@
         "scope": "global",
         "$longname": "layout",
         "$kind": "property",
-        "id": 3120,
+        "id": 3121,
         "neoClassName": "Covid.view.TableContainer"
     },
     {
@@ -113224,7 +113276,7 @@
         "scope": "global",
         "$longname": "items",
         "$kind": "property",
-        "id": 3121,
+        "id": 3122,
         "neoClassName": "Covid.view.TableContainer"
     },
     {
@@ -113239,7 +113291,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100104065",
+                "id": "astnode100104072",
                 "name": "TableContainer",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -113266,7 +113318,7 @@
         "scope": "global",
         "$longname": "TableContainer",
         "$kind": "constructor",
-        "id": 3122,
+        "id": 3123,
         "neoClassName": "Covid.view.TableContainer"
     },
     {
@@ -113288,7 +113340,7 @@
         "scope": "static",
         "$longname": "Covid.view.TableContainerController",
         "$kind": "class",
-        "id": 3123,
+        "id": 3124,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113313,7 +113365,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 3124,
+        "id": 3125,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113337,7 +113389,7 @@
         "scope": "global",
         "$longname": "apiBaseUrl",
         "$kind": "property",
-        "id": 3125,
+        "id": 3126,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113361,7 +113413,7 @@
         "scope": "global",
         "$longname": "apiHistoricalDataEndpoint",
         "$kind": "property",
-        "id": 3126,
+        "id": 3127,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113387,7 +113439,7 @@
         "scope": "global",
         "$longname": "apiHistoricalDataTimeRange",
         "$kind": "property",
-        "id": 3127,
+        "id": 3128,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113412,7 +113464,7 @@
         "scope": "global",
         "$longname": "removeEmptyRecords",
         "$kind": "property",
-        "id": 3128,
+        "id": 3129,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113436,7 +113488,7 @@
         "scope": "global",
         "$longname": "selectedRecord",
         "$kind": "property",
-        "id": 3129,
+        "id": 3130,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113462,7 +113514,7 @@
         "scope": "global",
         "$longname": "table_",
         "$kind": "property",
-        "id": 3130,
+        "id": 3131,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113477,7 +113529,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100104200",
+                "id": "astnode100104207",
                 "name": "TableContainerController#onConstructed",
                 "type": "MethodDefinition",
                 "paramnames": []
@@ -113494,7 +113546,7 @@
         "params": [],
         "$longname": "TableContainerController#onConstructed",
         "$kind": "method",
-        "id": 3131,
+        "id": 3132,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113509,7 +113561,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100104225",
+                "id": "astnode100104232",
                 "name": "TableContainerController#addStoreItems",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -113537,7 +113589,7 @@
         "scope": "instance",
         "$longname": "TableContainerController#addStoreItems",
         "$kind": "method",
-        "id": 3132,
+        "id": 3133,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113552,7 +113604,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100104564",
+                "id": "astnode100104571",
                 "name": "TableContainerController.assignFieldsOrNull",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -113590,7 +113642,7 @@
         "scope": "static",
         "$longname": "TableContainerController.assignFieldsOrNull",
         "$kind": "method",
-        "id": 3133,
+        "id": 3134,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113605,7 +113657,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100104619",
+                "id": "astnode100104626",
                 "name": "TableContainerController#beforeGetTable",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -113636,7 +113688,7 @@
         "scope": "instance",
         "$longname": "TableContainerController#beforeGetTable",
         "$kind": "method",
-        "id": 3134,
+        "id": 3135,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113651,7 +113703,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100104642",
+                "id": "astnode100104649",
                 "name": "TableContainerController#loadHistoricalData",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -113679,7 +113731,7 @@
         "scope": "instance",
         "$longname": "TableContainerController#loadHistoricalData",
         "$kind": "method",
-        "id": 3135,
+        "id": 3136,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113694,7 +113746,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100104704",
+                "id": "astnode100104711",
                 "name": "TableContainerController#on520pxButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -113714,7 +113766,7 @@
         "params": [],
         "$longname": "TableContainerController#on520pxButtonClick",
         "$kind": "method",
-        "id": 3136,
+        "id": 3137,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113729,7 +113781,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100104719",
+                "id": "astnode100104726",
                 "name": "TableContainerController#on800pxButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -113749,7 +113801,7 @@
         "params": [],
         "$longname": "TableContainerController#on800pxButtonClick",
         "$kind": "method",
-        "id": 3137,
+        "id": 3138,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113764,7 +113816,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100104734",
+                "id": "astnode100104741",
                 "name": "TableContainerController#onCollapseButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -113784,7 +113836,7 @@
         "params": [],
         "$longname": "TableContainerController#onCollapseButtonClick",
         "$kind": "method",
-        "id": 3138,
+        "id": 3139,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113799,7 +113851,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100104778",
+                "id": "astnode100104785",
                 "name": "TableContainerController#onDailyValuesChange",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -113819,7 +113871,7 @@
         "params": [],
         "$longname": "TableContainerController#onDailyValuesChange",
         "$kind": "method",
-        "id": 3139,
+        "id": 3140,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113834,7 +113886,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100104879",
+                "id": "astnode100104886",
                 "name": "TableContainerController#onLogarithmicScaleChange",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -113854,7 +113906,7 @@
         "params": [],
         "$longname": "TableContainerController#onLogarithmicScaleChange",
         "$kind": "method",
-        "id": 3140,
+        "id": 3141,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113869,7 +113921,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100104910",
+                "id": "astnode100104917",
                 "name": "TableContainerController#onTableSelect",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -113889,7 +113941,7 @@
         "params": [],
         "$longname": "TableContainerController#onTableSelect",
         "$kind": "method",
-        "id": 3141,
+        "id": 3142,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113904,7 +113956,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100104982",
+                "id": "astnode100104989",
                 "name": "TableContainerController#updateLineChart",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -113933,7 +113985,7 @@
         "scope": "instance",
         "$longname": "TableContainerController#updateLineChart",
         "$kind": "method",
-        "id": 3142,
+        "id": 3143,
         "neoClassName": "Covid.view.TableContainerController"
     },
     {
@@ -113955,7 +114007,7 @@
         "scope": "static",
         "$longname": "Covid.view.WorldMapComponent",
         "$kind": "class",
-        "id": 3143,
+        "id": 3144,
         "neoClassName": "Covid.view.WorldMapComponent"
     },
     {
@@ -113980,7 +114032,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 3144,
+        "id": 3145,
         "neoClassName": "Covid.view.WorldMapComponent"
     },
     {
@@ -114005,7 +114057,7 @@
         "scope": "global",
         "$longname": "ntype",
         "$kind": "property",
-        "id": 3145,
+        "id": 3146,
         "neoClassName": "Covid.view.WorldMapComponent"
     },
     {
@@ -114029,7 +114081,7 @@
         "scope": "global",
         "$longname": "chartType",
         "$kind": "property",
-        "id": 3146,
+        "id": 3147,
         "neoClassName": "Covid.view.WorldMapComponent"
     },
     {
@@ -114053,7 +114105,7 @@
         "scope": "global",
         "$longname": "cls",
         "$kind": "property",
-        "id": 3147,
+        "id": 3148,
         "neoClassName": "Covid.view.WorldMapComponent"
     },
     {
@@ -114077,7 +114129,7 @@
         "scope": "global",
         "$longname": "dataPath",
         "$kind": "property",
-        "id": 3148,
+        "id": 3149,
         "neoClassName": "Covid.view.WorldMapComponent"
     },
     {
@@ -114101,7 +114153,7 @@
         "scope": "global",
         "$longname": "heatRulesMaxValue",
         "$kind": "property",
-        "id": 3149,
+        "id": 3150,
         "neoClassName": "Covid.view.WorldMapComponent"
     },
     {
@@ -114125,7 +114177,7 @@
         "scope": "global",
         "$longname": "package",
         "$kind": "property",
-        "id": 3150,
+        "id": 3151,
         "neoClassName": "Covid.view.WorldMapComponent"
     },
     {
@@ -114148,7 +114200,7 @@
         "scope": "global",
         "$longname": "chartConfig",
         "$kind": "property",
-        "id": 3151,
+        "id": 3152,
         "neoClassName": "Covid.view.WorldMapComponent"
     },
     {
@@ -114163,7 +114215,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100105146",
+                "id": "astnode100105153",
                 "name": "WorldMapComponent#loadData",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -114191,7 +114243,7 @@
         "scope": "instance",
         "$longname": "WorldMapComponent#loadData",
         "$kind": "method",
-        "id": 3152,
+        "id": 3153,
         "neoClassName": "Covid.view.WorldMapComponent"
     },
     {
@@ -114213,7 +114265,7 @@
         "scope": "static",
         "$longname": "Covid.view.WorldMapContainer",
         "$kind": "class",
-        "id": 3153,
+        "id": 3154,
         "neoClassName": "Covid.view.WorldMapContainer"
     },
     {
@@ -114238,7 +114290,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 3154,
+        "id": 3155,
         "neoClassName": "Covid.view.WorldMapContainer"
     },
     {
@@ -114262,7 +114314,7 @@
         "scope": "global",
         "$longname": "controller",
         "$kind": "property",
-        "id": 3155,
+        "id": 3156,
         "neoClassName": "Covid.view.WorldMapContainer"
     },
     {
@@ -114287,7 +114339,7 @@
         "scope": "global",
         "$longname": "layout",
         "$kind": "property",
-        "id": 3156,
+        "id": 3157,
         "neoClassName": "Covid.view.WorldMapContainer"
     },
     {
@@ -114310,7 +114362,7 @@
         "scope": "global",
         "$longname": "items",
         "$kind": "property",
-        "id": 3157,
+        "id": 3158,
         "neoClassName": "Covid.view.WorldMapContainer"
     },
     {
@@ -114332,7 +114384,7 @@
         "scope": "static",
         "$longname": "Covid.view.WorldMapContainerController",
         "$kind": "class",
-        "id": 3158,
+        "id": 3159,
         "neoClassName": "Covid.view.WorldMapContainerController"
     },
     {
@@ -114357,7 +114409,7 @@
         "scope": "global",
         "$longname": "className",
         "$kind": "property",
-        "id": 3159,
+        "id": 3160,
         "neoClassName": "Covid.view.WorldMapContainerController"
     },
     {
@@ -114381,7 +114433,7 @@
         "scope": "global",
         "$longname": "heatRuleChangeDelay",
         "$kind": "property",
-        "id": 3160,
+        "id": 3161,
         "neoClassName": "Covid.view.WorldMapContainerController"
     },
     {
@@ -114406,7 +114458,7 @@
         "scope": "global",
         "$longname": "heatRuleChangeTimeout",
         "$kind": "property",
-        "id": 3161,
+        "id": 3162,
         "neoClassName": "Covid.view.WorldMapContainerController"
     },
     {
@@ -114421,7 +114473,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100105457",
+                "id": "astnode100105464",
                 "name": "WorldMapContainerController#onHeatRuleFieldChange",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -114449,7 +114501,7 @@
         "scope": "instance",
         "$longname": "WorldMapContainerController#onHeatRuleFieldChange",
         "$kind": "method",
-        "id": 3162,
+        "id": 3163,
         "neoClassName": "Covid.view.WorldMapContainerController"
     },
     {
@@ -114464,7 +114516,7 @@
             "columnno": 4,
             "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
             "code": {
-                "id": "astnode100105492",
+                "id": "astnode100105499",
                 "name": "WorldMapContainerController#onSeriesButtonClick",
                 "type": "MethodDefinition",
                 "paramnames": [
@@ -114492,7 +114544,7 @@
         "scope": "instance",
         "$longname": "WorldMapContainerController#onSeriesButtonClick",
         "$kind": "method",
-        "id": 3163,
+        "id": 3164,
         "neoClassName": "Covid.view.WorldMapContainerController"
     }
 ]

@@ -210,18 +210,70 @@
             "neoClassName": "Neo.worker.App"
         },
         {
-            "comment": "/**\n     * Only relevant for SharedWorkers\n     */",
+            "comment": "/**\n     *\n     * @param {String} path\n     * @returns {Promise}\n     */",
             "meta": {
                 "range": [
-                    1601,
-                    1722
+                    1623,
+                    1989
                 ],
                 "filename": "App.mjs",
-                "lineno": 59,
+                "lineno": 61,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
                     "id": "astnode100089468",
+                    "name": "App#importApp",
+                    "type": "MethodDefinition",
+                    "paramnames": [
+                        "path"
+                    ]
+                },
+                "vars": {
+                    "": null
+                }
+            },
+            "params": [
+                {
+                    "type": {
+                        "names": [
+                            "String"
+                        ]
+                    },
+                    "name": "path"
+                }
+            ],
+            "returns": [
+                {
+                    "type": {
+                        "names": [
+                            "Promise"
+                        ]
+                    }
+                }
+            ],
+            "name": "importApp",
+            "longname": "App#importApp",
+            "kind": "function",
+            "memberof": "App",
+            "scope": "instance",
+            "$longname": "App#importApp",
+            "$kind": "method",
+            "id": 2712,
+            "neoClassName": "Neo.worker.App"
+        },
+        {
+            "comment": "/**\n     * Only relevant for SharedWorkers\n     */",
+            "meta": {
+                "range": [
+                    2050,
+                    2171
+                ],
+                "filename": "App.mjs",
+                "lineno": 78,
+                "columnno": 4,
+                "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
+                "code": {
+                    "id": "astnode100089492",
                     "name": "App#onDisconnect",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -241,22 +293,22 @@
             "params": [],
             "$longname": "App#onDisconnect",
             "$kind": "method",
-            "id": 2712,
+            "id": 2713,
             "neoClassName": "Neo.worker.App"
         },
         {
             "comment": "/**\n     * Every dom event will get forwarded as a worker message from main and ends up here first\n     * @param {Object} data useful event properties, differs for different event types. See Neo.main.DomEvents.\n     */",
             "meta": {
                 "range": [
-                    1951,
-                    2011
+                    2400,
+                    2460
                 ],
                 "filename": "App.mjs",
-                "lineno": 68,
+                "lineno": 87,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100089488",
+                    "id": "astnode100089512",
                     "name": "App#onDomEvent",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -286,22 +338,22 @@
             "scope": "instance",
             "$longname": "App#onDomEvent",
             "$kind": "method",
-            "id": 2713,
+            "id": 2714,
             "neoClassName": "Neo.worker.App"
         },
         {
             "comment": "/**\n     * Every URL hash-change will create a post message in main and end up here first.\n     * @param {Object} data parsed key-value pairs for each hash value\n     */",
             "meta": {
                 "range": [
-                    2191,
-                    2254
+                    2640,
+                    2703
                 ],
                 "filename": "App.mjs",
-                "lineno": 76,
+                "lineno": 95,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100089499",
+                    "id": "astnode100089523",
                     "name": "App#onHashChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -331,22 +383,22 @@
             "scope": "instance",
             "$longname": "App#onHashChange",
             "$kind": "method",
-            "id": 2714,
+            "id": 2715,
             "neoClassName": "Neo.worker.App"
         },
         {
             "comment": "/**\n     * The starting point for apps\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    2339,
-                    3315
+                    2788,
+                    3411
                 ],
                 "filename": "App.mjs",
-                "lineno": 84,
+                "lineno": 103,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100089512",
+                    "id": "astnode100089536",
                     "name": "App#onLoadApplication",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -375,22 +427,22 @@
             "scope": "instance",
             "$longname": "App#onLoadApplication",
             "$kind": "method",
-            "id": 2715,
+            "id": 2716,
             "neoClassName": "Neo.worker.App"
         },
         {
             "comment": "/**\n     *\n     * @param {String} name\n     */",
             "meta": {
                 "range": [
-                    3372,
-                    3452
+                    3468,
+                    3548
                 ],
                 "filename": "App.mjs",
-                "lineno": 123,
+                "lineno": 132,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100089628",
+                    "id": "astnode100089635",
                     "name": "App#registerMainView",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -418,7 +470,7 @@
             "scope": "instance",
             "$longname": "App#registerMainView",
             "$kind": "method",
-            "id": 2716,
+            "id": 2717,
             "neoClassName": "Neo.worker.App"
         }
     ]

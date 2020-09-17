@@ -27,7 +27,7 @@
             "scope": "static",
             "$longname": "Neo.worker.Manager",
             "$kind": "class",
-            "id": 2742,
+            "id": 2743,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -52,7 +52,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 2743,
+            "id": 2744,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -77,7 +77,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 2744,
+            "id": 2745,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -102,7 +102,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 2745,
+            "id": 2746,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -128,7 +128,7 @@
             "scope": "global",
             "$longname": "appName",
             "$kind": "property",
-            "id": 2746,
+            "id": 2747,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -155,7 +155,7 @@
             "scope": "global",
             "$longname": "basePath",
             "$kind": "property",
-            "id": 2747,
+            "id": 2748,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -180,7 +180,7 @@
             "scope": "global",
             "$longname": "constructedThreads",
             "$kind": "property",
-            "id": 2748,
+            "id": 2749,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -207,7 +207,7 @@
             "scope": "global",
             "$longname": "mixins",
             "$kind": "property",
-            "id": 2749,
+            "id": 2750,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -233,7 +233,7 @@
             "scope": "global",
             "$longname": "sharedWorkersEnabled",
             "$kind": "property",
-            "id": 2750,
+            "id": 2751,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -259,7 +259,7 @@
             "scope": "global",
             "$longname": "stopCommunication",
             "$kind": "property",
-            "id": 2751,
+            "id": 2752,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -285,7 +285,7 @@
             "scope": "global",
             "$longname": "sharedWorkersEnabled",
             "$kind": "property",
-            "id": 2752,
+            "id": 2753,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -310,7 +310,7 @@
             "scope": "global",
             "$longname": "workers",
             "$kind": "property",
-            "id": 2753,
+            "id": 2754,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -325,7 +325,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100090467",
+                    "id": "astnode100090474",
                     "name": "Manager",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -352,7 +352,7 @@
             "scope": "global",
             "$longname": "Manager",
             "$kind": "constructor",
-            "id": 2754,
+            "id": 2755,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -367,7 +367,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100090546",
+                    "id": "astnode100090553",
                     "name": "Manager#broadcast",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -391,7 +391,7 @@
             "scope": "instance",
             "$longname": "Manager#broadcast",
             "$kind": "method",
-            "id": 2755,
+            "id": 2756,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -406,7 +406,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100090572",
+                    "id": "astnode100090579",
                     "name": "Manager#createWorker",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -444,7 +444,7 @@
             "scope": "instance",
             "$longname": "Manager#createWorker",
             "$kind": "method",
-            "id": 2756,
+            "id": 2757,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -459,7 +459,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100090665",
+                    "id": "astnode100090672",
                     "name": "Manager#createWorkers",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -477,7 +477,7 @@
             "params": [],
             "$longname": "Manager#createWorkers",
             "$kind": "method",
-            "id": 2757,
+            "id": 2758,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -492,7 +492,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100090764",
+                    "id": "astnode100090771",
                     "name": "Manager#detectFeatures",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -509,7 +509,7 @@
             "params": [],
             "$longname": "Manager#detectFeatures",
             "$kind": "method",
-            "id": 2758,
+            "id": 2759,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -524,7 +524,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100090815",
+                    "id": "astnode100090822",
                     "name": "Manager#getWorker",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -562,7 +562,7 @@
             "scope": "instance",
             "$longname": "Manager#getWorker",
             "$kind": "method",
-            "id": 2759,
+            "id": 2760,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -577,7 +577,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100090833",
+                    "id": "astnode100090840",
                     "name": "Manager#loadApplication",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -605,7 +605,7 @@
             "scope": "instance",
             "$longname": "Manager#loadApplication",
             "$kind": "method",
-            "id": 2760,
+            "id": 2761,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -620,7 +620,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100090855",
+                    "id": "astnode100090862",
                     "name": "Manager#onWorkerConstructed",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -648,7 +648,7 @@
             "scope": "instance",
             "$longname": "Manager#onWorkerConstructed",
             "$kind": "method",
-            "id": 2761,
+            "id": 2762,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -663,7 +663,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100090909",
+                    "id": "astnode100090916",
                     "name": "Manager#onWorkerError",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -692,7 +692,7 @@
             "scope": "instance",
             "$longname": "Manager#onWorkerError",
             "$kind": "method",
-            "id": 2762,
+            "id": 2763,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -707,7 +707,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100090929",
+                    "id": "astnode100090936",
                     "name": "Manager#onWorkerMessage",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -736,7 +736,7 @@
             "scope": "instance",
             "$longname": "Manager#onWorkerMessage",
             "$kind": "method",
-            "id": 2763,
+            "id": 2764,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -751,7 +751,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100091168",
+                    "id": "astnode100091175",
                     "name": "Manager#promiseMessage",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -810,7 +810,7 @@
             "scope": "instance",
             "$longname": "Manager#promiseMessage",
             "$kind": "method",
-            "id": 2764,
+            "id": 2765,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -825,7 +825,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100091213",
+                    "id": "astnode100091220",
                     "name": "Manager#resolveDomOperationPromise",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -853,7 +853,7 @@
             "scope": "instance",
             "$longname": "Manager#resolveDomOperationPromise",
             "$kind": "method",
-            "id": 2765,
+            "id": 2766,
             "neoClassName": "Neo.worker.Manager"
         },
         {
@@ -868,7 +868,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100091247",
+                    "id": "astnode100091254",
                     "name": "Manager#sendMessage",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -928,7 +928,7 @@
             "scope": "instance",
             "$longname": "Manager#sendMessage",
             "$kind": "method",
-            "id": 2766,
+            "id": 2767,
             "neoClassName": "Neo.worker.Manager"
         }
     ]
