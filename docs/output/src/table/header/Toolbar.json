@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.table.header.Toolbar",
             "$kind": "class",
-            "id": 2518,
+            "id": 2517,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 2519,
+            "id": 2518,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 2520,
+            "id": 2519,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 2521,
+            "id": 2520,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -117,7 +117,7 @@
             "scope": "global",
             "$longname": "layout",
             "$kind": "property",
-            "id": 2522,
+            "id": 2521,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -142,7 +142,7 @@
             "scope": "global",
             "$longname": "itemDefaults",
             "$kind": "property",
-            "id": 2523,
+            "id": 2522,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -166,7 +166,7 @@
             "scope": "global",
             "$longname": "showHeaderFilters_",
             "$kind": "property",
-            "id": 2524,
+            "id": 2523,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -191,7 +191,7 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 2525,
+            "id": 2524,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -206,7 +206,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100081227",
+                    "id": "astnode100081220",
                     "name": "Toolbar#afterSetShowHeaderFilters",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -245,7 +245,7 @@
             "scope": "instance",
             "$longname": "Toolbar#afterSetShowHeaderFilters",
             "$kind": "method",
-            "id": 2526,
+            "id": 2525,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -260,7 +260,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100081271",
+                    "id": "astnode100081264",
                     "name": "Toolbar#getLayoutConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -299,7 +299,7 @@
             "scope": "instance",
             "$longname": "Toolbar#getLayoutConfig",
             "$kind": "method",
-            "id": 2527,
+            "id": 2526,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -314,7 +314,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100081278",
+                    "id": "astnode100081271",
                     "name": "Toolbar#getVdomItemsRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -342,7 +342,7 @@
             "params": [],
             "$longname": "Toolbar#getVdomItemsRoot",
             "$kind": "method",
-            "id": 2528,
+            "id": 2527,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -357,7 +357,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100081292",
+                    "id": "astnode100081285",
                     "name": "Toolbar#getVdomRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -385,7 +385,7 @@
             "params": [],
             "$longname": "Toolbar#getVdomRoot",
             "$kind": "method",
-            "id": 2529,
+            "id": 2528,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -400,7 +400,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100081304",
+                    "id": "astnode100081297",
                     "name": "Toolbar#getVnodeRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -428,7 +428,7 @@
             "params": [],
             "$longname": "Toolbar#getVnodeRoot",
             "$kind": "method",
-            "id": 2530,
+            "id": 2529,
             "neoClassName": "Neo.table.header.Toolbar"
         },
         {
@@ -443,7 +443,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100081316",
+                    "id": "astnode100081309",
                     "name": "Toolbar#createItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -460,7 +460,7 @@
             "params": [],
             "$longname": "Toolbar#createItems",
             "$kind": "method",
-            "id": 2531,
+            "id": 2530,
             "neoClassName": "Neo.table.header.Toolbar"
         }
     ]

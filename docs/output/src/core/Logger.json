@@ -166,7 +166,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100035926",
+                    "id": "astnode100035908",
                     "name": "Logger",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -203,7 +203,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100035954",
+                    "id": "astnode100035936",
                     "name": "Logger#error",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -241,7 +241,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100035963",
+                    "id": "astnode100035945",
                     "name": "Logger#log",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -280,7 +280,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100035982",
+                    "id": "astnode100035964",
                     "name": "Logger#info",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -319,7 +319,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100036001",
+                    "id": "astnode100035983",
                     "name": "Logger#logError",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -358,7 +358,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100036020",
+                    "id": "astnode100036002",
                     "name": "Logger#warn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -397,7 +397,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100036039",
+                    "id": "astnode100036021",
                     "name": "Logger#write",
                     "type": "MethodDefinition",
                     "paramnames": [

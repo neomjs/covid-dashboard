@@ -559,7 +559,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100021877",
+                    "id": "astnode100021868",
                     "name": "DateSelector",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -601,7 +601,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100021944",
+                    "id": "astnode100021935",
                     "name": "DateSelector#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -633,7 +633,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100021970",
+                    "id": "astnode100021961",
                     "name": "DateSelector#afterSetCurrentDate",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -687,7 +687,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022126",
+                    "id": "astnode100022117",
                     "name": "DateSelector#afterSetDayNameFormat",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -741,7 +741,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022139",
+                    "id": "astnode100022130",
                     "name": "DateSelector#afterSetLocale",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -795,7 +795,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022202",
+                    "id": "astnode100022193",
                     "name": "DateSelector#afterSetShowCellBorders",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -849,7 +849,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022233",
+                    "id": "astnode100022224",
                     "name": "DateSelector#afterSetIsUpdating",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -903,7 +903,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022284",
+                    "id": "astnode100022275",
                     "name": "DateSelector#afterSetShowDisabledDays",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -957,7 +957,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022300",
+                    "id": "astnode100022291",
                     "name": "DateSelector#afterSetShowWeekends",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1011,7 +1011,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022392",
+                    "id": "astnode100022383",
                     "name": "DateSelector#afterSetSelectionModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1065,7 +1065,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022409",
+                    "id": "astnode100022400",
                     "name": "DateSelector#afterSetValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1119,7 +1119,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022450",
+                    "id": "astnode100022441",
                     "name": "DateSelector#afterSetWeekStartDay",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1173,7 +1173,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022468",
+                    "id": "astnode100022459",
                     "name": "DateSelector#beforeSetDayNameFormat",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1227,7 +1227,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022487",
+                    "id": "astnode100022478",
                     "name": "DateSelector#beforeSetSelectionModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1281,7 +1281,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022508",
+                    "id": "astnode100022499",
                     "name": "DateSelector#beforeSetWeekStartDay",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1335,7 +1335,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022527",
+                    "id": "astnode100022518",
                     "name": "DateSelector#cacheUpdate",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1382,7 +1382,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022542",
+                    "id": "astnode100022533",
                     "name": "DateSelector#changeMonth",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1434,7 +1434,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022845",
+                    "id": "astnode100022836",
                     "name": "DateSelector#changeMonthTransitionCallback",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1495,7 +1495,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022905",
+                    "id": "astnode100022896",
                     "name": "DateSelector#changeMonthWrapperCallback",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1540,7 +1540,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100022950",
+                    "id": "astnode100022941",
                     "name": "DateSelector#changeYear",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1583,7 +1583,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100023243",
+                    "id": "astnode100023234",
                     "name": "DateSelector#createDayNamesRow",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1615,7 +1615,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100023377",
+                    "id": "astnode100023368",
                     "name": "DateSelector#createDayViewContent",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1669,7 +1669,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100023760",
+                    "id": "astnode100023751",
                     "name": "DateSelector#focusCurrentItem",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1701,7 +1701,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100023776",
+                    "id": "astnode100023767",
                     "name": "DateSelector#getCellId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1775,7 +1775,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100023839",
+                    "id": "astnode100023830",
                     "name": "DateSelector#getCenterContentEl",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1816,7 +1816,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100023851",
+                    "id": "astnode100023842",
                     "name": "DateSelector#getHeaderMonthEl",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1857,7 +1857,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100023871",
+                    "id": "astnode100023862",
                     "name": "DateSelector#getHeaderYearEl",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1898,7 +1898,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100023891",
+                    "id": "astnode100023882",
                     "name": "DateSelector#onComponentClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1941,7 +1941,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100023979",
+                    "id": "astnode100023970",
                     "name": "DateSelector#onCellClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1984,7 +1984,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100024035",
+                    "id": "astnode100024026",
                     "name": "DateSelector#onComponentWheel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2027,7 +2027,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100024194",
+                    "id": "astnode100024185",
                     "name": "DateSelector#recreateContent",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2092,7 +2092,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100024244",
+                    "id": "astnode100024235",
                     "name": "DateSelector#recreateDayViewContent",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2150,7 +2150,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100024287",
+                    "id": "astnode100024278",
                     "name": "DateSelector#triggerVdomUpdate",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2197,7 +2197,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100024327",
+                    "id": "astnode100024318",
                     "name": "DateSelector#updateHeaderDays",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2260,7 +2260,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100024494",
+                    "id": "astnode100024485",
                     "name": "DateSelector#updateHeaderMonth",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2342,7 +2342,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100024751",
+                    "id": "astnode100024742",
                     "name": "DateSelector#updateHeaderMonthTransitionCallback",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2419,7 +2419,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100024833",
+                    "id": "astnode100024824",
                     "name": "DateSelector#updateHeaderMonthWrapperCallback",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2488,7 +2488,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100024905",
+                    "id": "astnode100024896",
                     "name": "DateSelector#updateHeaderYear",
                     "type": "MethodDefinition",
                     "paramnames": [

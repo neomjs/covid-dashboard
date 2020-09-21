@@ -1064,7 +1064,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100027553",
+                    "id": "astnode100027544",
                     "name": "Helix",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1106,7 +1106,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100027629",
+                    "id": "astnode100027620",
                     "name": "Helix#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1138,7 +1138,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100027668",
+                    "id": "astnode100027659",
                     "name": "Helix#afterSetFlipped",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1192,7 +1192,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100027683",
+                    "id": "astnode100027674",
                     "name": "Helix#afterSetMaxItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1246,7 +1246,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100027721",
+                    "id": "astnode100027712",
                     "name": "Helix#afterSetMounted",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1300,7 +1300,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100027742",
+                    "id": "astnode100027733",
                     "name": "Helix#afterSetPerspective",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1354,7 +1354,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100027791",
+                    "id": "astnode100027782",
                     "name": "Helix#afterSetSelectionModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1408,7 +1408,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100027808",
+                    "id": "astnode100027799",
                     "name": "Helix#afterSetUrl",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1462,7 +1462,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100027833",
+                    "id": "astnode100027824",
                     "name": "Helix#applyItemTransitions",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1509,7 +1509,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100027979",
+                    "id": "astnode100027970",
                     "name": "Helix#beforeGetItemTpl",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1550,7 +1550,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100027992",
+                    "id": "astnode100027983",
                     "name": "Helix#beforeSetSelectionModel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1604,7 +1604,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100028022",
+                    "id": "astnode100028013",
                     "name": "Helix#beforeSetStore",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1660,7 +1660,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100028080",
+                    "id": "astnode100028071",
                     "name": "Helix#calculateOpacity",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1713,7 +1713,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100028174",
+                    "id": "astnode100028165",
                     "name": "Helix#createItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1785,7 +1785,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100028243",
+                    "id": "astnode100028234",
                     "name": "Helix#createItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1831,7 +1831,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100028620",
+                    "id": "astnode100028611",
                     "name": "Helix#destroyClones",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1864,7 +1864,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100028770",
+                    "id": "astnode100028761",
                     "name": "Helix#destroyItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1918,7 +1918,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100028812",
+                    "id": "astnode100028803",
                     "name": "Helix#expandItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1962,7 +1962,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029033",
+                    "id": "astnode100029024",
                     "name": "Helix#getCloneTransform",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -2003,7 +2003,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029082",
+                    "id": "astnode100029073",
                     "name": "Helix#getItemId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2055,7 +2055,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029097",
+                    "id": "astnode100029088",
                     "name": "Helix#getItemsRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -2098,7 +2098,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029113",
+                    "id": "astnode100029104",
                     "name": "Helix#getItemVnodeId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2151,7 +2151,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029126",
+                    "id": "astnode100029117",
                     "name": "Helix#getOffsetValues",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2189,14 +2189,14 @@
             "meta": {
                 "range": [
                     24012,
-                    24385
+                    24348
                 ],
                 "filename": "Helix.mjs",
                 "lineno": 830,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029192",
+                    "id": "astnode100029183",
                     "name": "Helix#loadData",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -2220,15 +2220,15 @@
             "comment": "/**\n     *\n     * @param {String} itemId\n     */",
             "meta": {
                 "range": [
-                    24444,
-                    24583
+                    24407,
+                    24546
                 ],
                 "filename": "Helix.mjs",
                 "lineno": 848,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029262",
+                    "id": "astnode100029244",
                     "name": "Helix#moveToSelectedItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2263,15 +2263,15 @@
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    24640,
-                    24740
+                    24603,
+                    24703
                 ],
                 "filename": "Helix.mjs",
                 "lineno": 857,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029289",
+                    "id": "astnode100029271",
                     "name": "Helix#onClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2306,15 +2306,15 @@
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    24797,
-                    24940
+                    24760,
+                    24903
                 ],
                 "filename": "Helix.mjs",
                 "lineno": 865,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029310",
+                    "id": "astnode100029292",
                     "name": "Helix#onKeyDownEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2349,15 +2349,15 @@
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    24997,
-                    25126
+                    24960,
+                    25089
                 ],
                 "filename": "Helix.mjs",
                 "lineno": 877,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029334",
+                    "id": "astnode100029316",
                     "name": "Helix#onKeyDownSpace",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2392,15 +2392,15 @@
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    25183,
-                    25817
+                    25146,
+                    25780
                 ],
                 "filename": "Helix.mjs",
                 "lineno": 885,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029357",
+                    "id": "astnode100029339",
                     "name": "Helix#onMouseWheel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2435,15 +2435,15 @@
             "comment": "/**\n     *\n     * @param {String[]} value\n     * @param {String[]} oldValue\n     */",
             "meta": {
                 "range": [
-                    25911,
-                    26117
+                    25874,
+                    26080
                 ],
                 "filename": "Helix.mjs",
                 "lineno": 908,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029442",
+                    "id": "astnode100029424",
                     "name": "Helix#onSelectionChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2487,15 +2487,15 @@
             "comment": "/**\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    26157,
-                    26327
+                    26120,
+                    26290
                 ],
                 "filename": "Helix.mjs",
                 "lineno": 919,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029475",
+                    "id": "astnode100029457",
                     "name": "Helix#onSort",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -2520,15 +2520,15 @@
             "comment": "/**\n     *\n     * @param {Array} items\n     */",
             "meta": {
                 "range": [
-                    26384,
-                    26492
+                    26347,
+                    26455
                 ],
                 "filename": "Helix.mjs",
                 "lineno": 931,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029505",
+                    "id": "astnode100029487",
                     "name": "Helix#onStoreLoad",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2563,15 +2563,15 @@
             "comment": "/**\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    26532,
-                    29224
+                    26495,
+                    29187
                 ],
                 "filename": "Helix.mjs",
                 "lineno": 939,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029524",
+                    "id": "astnode100029506",
                     "name": "Helix#refresh",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -2596,15 +2596,15 @@
             "comment": "/**\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    29264,
-                    29356
+                    29227,
+                    29319
                 ],
                 "filename": "Helix.mjs",
                 "lineno": 1029,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029902",
+                    "id": "astnode100029884",
                     "name": "Helix#refreshIfMounted",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -2629,15 +2629,15 @@
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    29385,
-                    30075
+                    29348,
+                    30038
                 ],
                 "filename": "Helix.mjs",
                 "lineno": 1038,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100029916",
+                    "id": "astnode100029898",
                     "name": "Helix#sortItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -2661,15 +2661,15 @@
             "comment": "/**\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    30115,
-                    31726
+                    30078,
+                    31689
                 ],
                 "filename": "Helix.mjs",
                 "lineno": 1066,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100030022",
+                    "id": "astnode100030004",
                     "name": "Helix#updateCloneTranslate",
                     "type": "MethodDefinition",
                     "paramnames": []

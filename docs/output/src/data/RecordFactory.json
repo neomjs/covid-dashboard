@@ -140,7 +140,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100038170",
+                    "id": "astnode100038152",
                     "name": "RecordFactory#createRecord",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -201,7 +201,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100038206",
+                    "id": "astnode100038188",
                     "name": "RecordFactory#createRecordClass",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -253,7 +253,7 @@
                 "columnno": 20,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100038279",
+                    "id": "astnode100038261",
                     "name": "ns[undefined]",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -288,7 +288,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100038470",
+                    "id": "astnode100038452",
                     "name": "RecordFactory#hasChanged",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -351,7 +351,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100038517",
+                    "id": "astnode100038499",
                     "name": "RecordFactory#isModified",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -413,7 +413,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100038578",
+                    "id": "astnode100038560",
                     "name": "RecordFactory#isModifiedField",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -476,7 +476,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100038625",
+                    "id": "astnode100038607",
                     "name": "RecordFactory#isRecord",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -529,7 +529,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100038650",
+                    "id": "astnode100038632",
                     "name": "RecordFactory#onRecordChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -615,7 +615,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/data",
                 "code": {
-                    "id": "astnode100038676",
+                    "id": "astnode100038658",
                     "name": "RecordFactory#parseRecordValue",
                     "type": "MethodDefinition",
                     "paramnames": [

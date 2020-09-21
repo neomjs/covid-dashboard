@@ -26,7 +26,7 @@
             "scope": "static",
             "$longname": "Neo.main.addon.DragDrop",
             "$kind": "class",
-            "id": 1848,
+            "id": 1847,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -51,7 +51,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1849,
+            "id": 1848,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -76,7 +76,7 @@
             "scope": "global",
             "$longname": "scrollContainerRect",
             "$kind": "property",
-            "id": 1850,
+            "id": 1849,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -102,7 +102,7 @@
             "scope": "global",
             "$longname": "dragProxyElement",
             "$kind": "property",
-            "id": 1851,
+            "id": 1850,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -127,7 +127,7 @@
             "scope": "global",
             "$longname": "dragProxyRect",
             "$kind": "property",
-            "id": 1852,
+            "id": 1851,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -151,7 +151,7 @@
             "scope": "global",
             "$longname": "clientX",
             "$kind": "property",
-            "id": 1853,
+            "id": 1852,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -175,7 +175,7 @@
             "scope": "global",
             "$longname": "clientY",
             "$kind": "property",
-            "id": 1854,
+            "id": 1853,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -199,7 +199,7 @@
             "scope": "global",
             "$longname": "initialScrollLeft",
             "$kind": "property",
-            "id": 1855,
+            "id": 1854,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -223,7 +223,7 @@
             "scope": "global",
             "$longname": "initialScrollTop",
             "$kind": "property",
-            "id": 1856,
+            "id": 1855,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -247,7 +247,7 @@
             "scope": "global",
             "$longname": "offsetX",
             "$kind": "property",
-            "id": 1857,
+            "id": 1856,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -271,7 +271,7 @@
             "scope": "global",
             "$longname": "offsetY",
             "$kind": "property",
-            "id": 1858,
+            "id": 1857,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -296,7 +296,7 @@
             "scope": "global",
             "$longname": "remote",
             "$kind": "property",
-            "id": 1859,
+            "id": 1858,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -321,7 +321,7 @@
             "scope": "global",
             "$longname": "scrollContainerElement",
             "$kind": "property",
-            "id": 1860,
+            "id": 1859,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -346,7 +346,7 @@
             "scope": "global",
             "$longname": "scrollContainerRect",
             "$kind": "property",
-            "id": 1861,
+            "id": 1860,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -370,7 +370,7 @@
             "scope": "global",
             "$longname": "scrollFactorLeft",
             "$kind": "property",
-            "id": 1862,
+            "id": 1861,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -394,7 +394,7 @@
             "scope": "global",
             "$longname": "scrollFactorTop",
             "$kind": "property",
-            "id": 1863,
+            "id": 1862,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -419,7 +419,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 1864,
+            "id": 1863,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -434,7 +434,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100055751",
+                    "id": "astnode100055731",
                     "name": "DragDrop",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -461,7 +461,7 @@
             "scope": "global",
             "$longname": "DragDrop",
             "$kind": "constructor",
-            "id": 1865,
+            "id": 1864,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -476,7 +476,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100055813",
+                    "id": "astnode100055793",
                     "name": "DragDrop#addGlobalEventListeners",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -493,7 +493,7 @@
             "params": [],
             "$longname": "DragDrop#addGlobalEventListeners",
             "$kind": "method",
-            "id": 1866,
+            "id": 1865,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -508,7 +508,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100055863",
+                    "id": "astnode100055843",
                     "name": "DragDrop#getEventData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -545,7 +545,7 @@
             "scope": "instance",
             "$longname": "DragDrop#getEventData",
             "$kind": "method",
-            "id": 1867,
+            "id": 1866,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -560,7 +560,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100055964",
+                    "id": "astnode100055944",
                     "name": "DragDrop#onDragEnd",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -588,7 +588,7 @@
             "scope": "instance",
             "$longname": "DragDrop#onDragEnd",
             "$kind": "method",
-            "id": 1868,
+            "id": 1867,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -603,7 +603,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100056012",
+                    "id": "astnode100055992",
                     "name": "DragDrop#onDragMove",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -631,7 +631,7 @@
             "scope": "instance",
             "$longname": "DragDrop#onDragMove",
             "$kind": "method",
-            "id": 1869,
+            "id": 1868,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -646,7 +646,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100056223",
+                    "id": "astnode100056203",
                     "name": "DragDrop#onDragStart",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -674,7 +674,7 @@
             "scope": "instance",
             "$longname": "DragDrop#onDragStart",
             "$kind": "method",
-            "id": 1870,
+            "id": 1869,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -689,7 +689,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100056286",
+                    "id": "astnode100056266",
                     "name": "DragDrop#scrollContainer",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -742,7 +742,7 @@
             "scope": "instance",
             "$longname": "DragDrop#scrollContainer",
             "$kind": "method",
-            "id": 1871,
+            "id": 1870,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -757,7 +757,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100056446",
+                    "id": "astnode100056426",
                     "name": "DragDrop#setBoundaryContainer",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -793,7 +793,7 @@
             "scope": "instance",
             "$longname": "DragDrop#setBoundaryContainer",
             "$kind": "method",
-            "id": 1872,
+            "id": 1871,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -808,7 +808,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100056482",
+                    "id": "astnode100056462",
                     "name": "DragDrop#setDragProxyElement",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -844,7 +844,7 @@
             "scope": "instance",
             "$longname": "DragDrop#setDragProxyElement",
             "$kind": "method",
-            "id": 1873,
+            "id": 1872,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -859,7 +859,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100056499",
+                    "id": "astnode100056479",
                     "name": "DragDrop#setScrollContainer",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -895,7 +895,7 @@
             "scope": "instance",
             "$longname": "DragDrop#setScrollContainer",
             "$kind": "method",
-            "id": 1874,
+            "id": 1873,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -910,7 +910,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100056548",
+                    "id": "astnode100056528",
                     "name": "DragDrop#setScrollFactorLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -946,7 +946,7 @@
             "scope": "instance",
             "$longname": "DragDrop#setScrollFactorLeft",
             "$kind": "method",
-            "id": 1875,
+            "id": 1874,
             "neoClassName": "Neo.main.addon.DragDrop"
         },
         {
@@ -961,7 +961,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main/addon",
                 "code": {
-                    "id": "astnode100056561",
+                    "id": "astnode100056541",
                     "name": "DragDrop#setScrollFactorTop",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -997,7 +997,7 @@
             "scope": "instance",
             "$longname": "DragDrop#setScrollFactorTop",
             "$kind": "method",
-            "id": 1876,
+            "id": 1875,
             "neoClassName": "Neo.main.addon.DragDrop"
         }
     ]

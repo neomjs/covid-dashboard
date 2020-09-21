@@ -26,7 +26,7 @@
             "scope": "static",
             "$longname": "Neo.main.DomEvents",
             "$kind": "class",
-            "id": 1982,
+            "id": 1981,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -51,7 +51,7 @@
             "longname": "observable",
             "$longname": "observable",
             "$kind": "property",
-            "id": 1983,
+            "id": 1982,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -76,7 +76,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1984,
+            "id": 1983,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -101,7 +101,7 @@
             "scope": "global",
             "$longname": "mixins",
             "$kind": "property",
-            "id": 1985,
+            "id": 1984,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -126,7 +126,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 1986,
+            "id": 1985,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -152,7 +152,7 @@
             "scope": "global",
             "$longname": "remote",
             "$kind": "property",
-            "id": 1987,
+            "id": 1986,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -167,7 +167,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100060641",
+                    "id": "astnode100060634",
                     "name": "DomEvents",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -194,7 +194,7 @@
             "scope": "global",
             "$longname": "DomEvents",
             "$kind": "constructor",
-            "id": 1988,
+            "id": 1987,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -209,7 +209,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100060700",
+                    "id": "astnode100060693",
                     "name": "DomEvents#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -237,7 +237,7 @@
             "scope": "instance",
             "$longname": "DomEvents#addDomListener",
             "$kind": "method",
-            "id": 1989,
+            "id": 1988,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -252,7 +252,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100060828",
+                    "id": "astnode100060821",
                     "name": "DomEvents#addGlobalDomListeners",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -269,7 +269,7 @@
             "params": [],
             "$longname": "DomEvents#addGlobalDomListeners",
             "$kind": "method",
-            "id": 1990,
+            "id": 1989,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -284,7 +284,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100060879",
+                    "id": "astnode100060872",
                     "name": "DomEvents#getDistance",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -353,7 +353,7 @@
             "scope": "instance",
             "$longname": "DomEvents#getDistance",
             "$kind": "method",
-            "id": 1991,
+            "id": 1990,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -368,7 +368,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100060903",
+                    "id": "astnode100060896",
                     "name": "DomEvents#domEventListener",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -397,7 +397,7 @@
             "scope": "instance",
             "$longname": "DomEvents#domEventListener",
             "$kind": "method",
-            "id": 1992,
+            "id": 1991,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -412,7 +412,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061245",
+                    "id": "astnode100061238",
                     "name": "DomEvents#getPathFromElement",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -449,7 +449,7 @@
             "scope": "instance",
             "$longname": "DomEvents#getPathFromElement",
             "$kind": "method",
-            "id": 1993,
+            "id": 1992,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -464,7 +464,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061284",
+                    "id": "astnode100061277",
                     "name": "DomEvents#getTargetData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -501,7 +501,7 @@
             "scope": "instance",
             "$longname": "DomEvents#getTargetData",
             "$kind": "method",
-            "id": 1994,
+            "id": 1993,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -516,7 +516,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061475",
+                    "id": "astnode100061468",
                     "name": "DomEvents#getTouchCoords",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -554,7 +554,7 @@
             "scope": "instance",
             "$longname": "DomEvents#getTouchCoords",
             "$kind": "method",
-            "id": 1995,
+            "id": 1994,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -569,7 +569,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061500",
+                    "id": "astnode100061493",
                     "name": "DomEvents#onBeforeUnload",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -598,7 +598,7 @@
             "scope": "instance",
             "$longname": "DomEvents#onBeforeUnload",
             "$kind": "method",
-            "id": 1996,
+            "id": 1995,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -613,7 +613,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061525",
+                    "id": "astnode100061518",
                     "name": "DomEvents#onChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -641,7 +641,7 @@
             "scope": "instance",
             "$longname": "DomEvents#onChange",
             "$kind": "method",
-            "id": 1997,
+            "id": 1996,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -656,7 +656,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061555",
+                    "id": "astnode100061548",
                     "name": "DomEvents#onDoubleClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -684,7 +684,7 @@
             "scope": "instance",
             "$longname": "DomEvents#onDoubleClick",
             "$kind": "method",
-            "id": 1998,
+            "id": 1997,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -699,7 +699,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061587",
+                    "id": "astnode100061580",
                     "name": "DomEvents#onContextMenu",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -727,7 +727,7 @@
             "scope": "instance",
             "$longname": "DomEvents#onContextMenu",
             "$kind": "method",
-            "id": 1999,
+            "id": 1998,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -742,7 +742,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061619",
+                    "id": "astnode100061612",
                     "name": "DomEvents#onDomContentLoaded",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -759,7 +759,7 @@
             "params": [],
             "$longname": "DomEvents#onDomContentLoaded",
             "$kind": "method",
-            "id": 2000,
+            "id": 1999,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -774,7 +774,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061634",
+                    "id": "astnode100061627",
                     "name": "DomEvents#onClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -802,7 +802,7 @@
             "scope": "instance",
             "$longname": "DomEvents#onClick",
             "$kind": "method",
-            "id": 2001,
+            "id": 2000,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -817,7 +817,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061666",
+                    "id": "astnode100061659",
                     "name": "DomEvents#onDragOver",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -845,7 +845,7 @@
             "scope": "instance",
             "$longname": "DomEvents#onDragOver",
             "$kind": "method",
-            "id": 2002,
+            "id": 2001,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -860,7 +860,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061679",
+                    "id": "astnode100061672",
                     "name": "DomEvents#onFocusIn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -888,7 +888,7 @@
             "scope": "instance",
             "$longname": "DomEvents#onFocusIn",
             "$kind": "method",
-            "id": 2003,
+            "id": 2002,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -903,7 +903,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061694",
+                    "id": "astnode100061687",
                     "name": "DomEvents#onFocusOut",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -931,7 +931,7 @@
             "scope": "instance",
             "$longname": "DomEvents#onFocusOut",
             "$kind": "method",
-            "id": 2004,
+            "id": 2003,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -946,7 +946,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061709",
+                    "id": "astnode100061702",
                     "name": "DomEvents#onHashChange",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -963,7 +963,7 @@
             "params": [],
             "$longname": "DomEvents#onHashChange",
             "$kind": "method",
-            "id": 2005,
+            "id": 2004,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -978,7 +978,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061753",
+                    "id": "astnode100061746",
                     "name": "DomEvents#onKeyDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1006,7 +1006,7 @@
             "scope": "instance",
             "$longname": "DomEvents#onKeyDown",
             "$kind": "method",
-            "id": 2006,
+            "id": 2005,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -1021,7 +1021,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061786",
+                    "id": "astnode100061779",
                     "name": "DomEvents#onKeyUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1049,7 +1049,7 @@
             "scope": "instance",
             "$longname": "DomEvents#onKeyUp",
             "$kind": "method",
-            "id": 2007,
+            "id": 2006,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -1064,7 +1064,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061801",
+                    "id": "astnode100061794",
                     "name": "DomEvents#onMouseEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1092,7 +1092,7 @@
             "scope": "instance",
             "$longname": "DomEvents#onMouseEnter",
             "$kind": "method",
-            "id": 2008,
+            "id": 2007,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -1107,7 +1107,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061830",
+                    "id": "astnode100061823",
                     "name": "DomEvents#onMouseLeave",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1135,7 +1135,7 @@
             "scope": "instance",
             "$longname": "DomEvents#onMouseLeave",
             "$kind": "method",
-            "id": 2009,
+            "id": 2008,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -1150,7 +1150,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100061859",
+                    "id": "astnode100061852",
                     "name": "DomEvents#onWheel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1178,7 +1178,7 @@
             "scope": "instance",
             "$longname": "DomEvents#onWheel",
             "$kind": "method",
-            "id": 2010,
+            "id": 2009,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -1193,7 +1193,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100062005",
+                    "id": "astnode100061998",
                     "name": "DomEvents#parseHash",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1231,7 +1231,7 @@
             "scope": "instance",
             "$longname": "DomEvents#parseHash",
             "$kind": "method",
-            "id": 2011,
+            "id": 2010,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -1246,7 +1246,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100062149",
+                    "id": "astnode100062142",
                     "name": "DomEvents#parseValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1287,7 +1287,7 @@
             "scope": "instance",
             "$longname": "DomEvents#parseValue",
             "$kind": "method",
-            "id": 2012,
+            "id": 2011,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -1302,7 +1302,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100062187",
+                    "id": "astnode100062180",
                     "name": "DomEvents#registerPreventDefaultTargets",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1347,7 +1347,7 @@
             "scope": "instance",
             "$longname": "DomEvents#registerPreventDefaultTargets",
             "$kind": "method",
-            "id": 2013,
+            "id": 2012,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -1362,7 +1362,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100062256",
+                    "id": "astnode100062249",
                     "name": "DomEvents#sendMessageToApp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1392,7 +1392,7 @@
             "scope": "instance",
             "$longname": "DomEvents#sendMessageToApp",
             "$kind": "method",
-            "id": 2014,
+            "id": 2013,
             "neoClassName": "Neo.main.DomEvents"
         },
         {
@@ -1407,7 +1407,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/main",
                 "code": {
-                    "id": "astnode100062280",
+                    "id": "astnode100062273",
                     "name": "DomEvents#testPathInclusion",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1455,7 +1455,7 @@
             "scope": "instance",
             "$longname": "DomEvents#testPathInclusion",
             "$kind": "method",
-            "id": 2015,
+            "id": 2014,
             "neoClassName": "Neo.main.DomEvents"
         }
     ]

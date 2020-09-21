@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.plugin.Resizable",
             "$kind": "class",
-            "id": 2171,
+            "id": 2170,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -45,7 +45,7 @@
             "longname": "cursorPositions",
             "$longname": "cursorPositions",
             "$kind": "property",
-            "id": 2172,
+            "id": 2171,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -71,7 +71,7 @@
             "longname": "nameRegEx",
             "$longname": "nameRegEx",
             "$kind": "property",
-            "id": 2173,
+            "id": 2172,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -96,7 +96,7 @@
             "longname": "validDirections",
             "$longname": "validDirections",
             "$kind": "property",
-            "id": 2174,
+            "id": 2173,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -121,7 +121,7 @@
             "longname": "validDirections",
             "$longname": "validDirections",
             "$kind": "property",
-            "id": 2175,
+            "id": 2174,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -146,7 +146,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 2176,
+            "id": 2175,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -171,7 +171,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 2177,
+            "id": 2176,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -196,7 +196,7 @@
             "scope": "global",
             "$longname": "boundaryContainerId",
             "$kind": "property",
-            "id": 2178,
+            "id": 2177,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -222,7 +222,7 @@
             "scope": "global",
             "$longname": "boundaryContainerRect",
             "$kind": "property",
-            "id": 2179,
+            "id": 2178,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -247,7 +247,7 @@
             "scope": "global",
             "$longname": "currentNodeName",
             "$kind": "property",
-            "id": 2180,
+            "id": 2179,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -272,7 +272,7 @@
             "scope": "global",
             "$longname": "delegationCls",
             "$kind": "property",
-            "id": 2181,
+            "id": 2180,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -297,7 +297,7 @@
             "scope": "global",
             "$longname": "directions_",
             "$kind": "property",
-            "id": 2182,
+            "id": 2181,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -322,7 +322,7 @@
             "scope": "global",
             "$longname": "dragZone",
             "$kind": "property",
-            "id": 2183,
+            "id": 2182,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -347,7 +347,7 @@
             "scope": "global",
             "$longname": "gap",
             "$kind": "property",
-            "id": 2184,
+            "id": 2183,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -373,7 +373,7 @@
             "scope": "global",
             "$longname": "initialRect",
             "$kind": "property",
-            "id": 2185,
+            "id": 2184,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -397,7 +397,7 @@
             "scope": "global",
             "$longname": "isDragging",
             "$kind": "property",
-            "id": 2186,
+            "id": 2185,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -423,7 +423,7 @@
             "scope": "global",
             "$longname": "maxHeight",
             "$kind": "property",
-            "id": 2187,
+            "id": 2186,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -449,7 +449,7 @@
             "scope": "global",
             "$longname": "maxWidth",
             "$kind": "property",
-            "id": 2188,
+            "id": 2187,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -474,7 +474,7 @@
             "scope": "global",
             "$longname": "minHeight",
             "$kind": "property",
-            "id": 2189,
+            "id": 2188,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -499,7 +499,7 @@
             "scope": "global",
             "$longname": "minWidth",
             "$kind": "property",
-            "id": 2190,
+            "id": 2189,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -524,7 +524,7 @@
             "scope": "global",
             "$longname": "nodeBottom",
             "$kind": "property",
-            "id": 2191,
+            "id": 2190,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -549,7 +549,7 @@
             "scope": "global",
             "$longname": "nodeBottomLeft",
             "$kind": "property",
-            "id": 2192,
+            "id": 2191,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -574,7 +574,7 @@
             "scope": "global",
             "$longname": "nodeBottomRight",
             "$kind": "property",
-            "id": 2193,
+            "id": 2192,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -599,7 +599,7 @@
             "scope": "global",
             "$longname": "nodeLeft",
             "$kind": "property",
-            "id": 2194,
+            "id": 2193,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -624,7 +624,7 @@
             "scope": "global",
             "$longname": "nodeRight",
             "$kind": "property",
-            "id": 2195,
+            "id": 2194,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -649,7 +649,7 @@
             "scope": "global",
             "$longname": "nodeTop",
             "$kind": "property",
-            "id": 2196,
+            "id": 2195,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -674,7 +674,7 @@
             "scope": "global",
             "$longname": "nodeTopLeft",
             "$kind": "property",
-            "id": 2197,
+            "id": 2196,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -699,7 +699,7 @@
             "scope": "global",
             "$longname": "nodeTopRight",
             "$kind": "property",
-            "id": 2198,
+            "id": 2197,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -714,7 +714,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100069416",
+                    "id": "astnode100069409",
                     "name": "Resizable",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -741,7 +741,7 @@
             "scope": "global",
             "$longname": "Resizable",
             "$kind": "constructor",
-            "id": 2199,
+            "id": 2198,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -756,7 +756,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100069492",
+                    "id": "astnode100069485",
                     "name": "Resizable#addNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -794,7 +794,7 @@
             "scope": "instance",
             "$longname": "Resizable#addNode",
             "$kind": "method",
-            "id": 2200,
+            "id": 2199,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -809,7 +809,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100069559",
+                    "id": "astnode100069552",
                     "name": "Resizable#beforeSetDirections",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -857,7 +857,7 @@
             "scope": "instance",
             "$longname": "Resizable#beforeSetDirections",
             "$kind": "method",
-            "id": 2201,
+            "id": 2200,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -872,7 +872,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100069608",
+                    "id": "astnode100069601",
                     "name": "Resizable#onDragEnd",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -900,7 +900,7 @@
             "scope": "instance",
             "$longname": "Resizable#onDragEnd",
             "$kind": "method",
-            "id": 2202,
+            "id": 2201,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -915,7 +915,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100069692",
+                    "id": "astnode100069685",
                     "name": "Resizable#onDragMove",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -943,7 +943,7 @@
             "scope": "instance",
             "$longname": "Resizable#onDragMove",
             "$kind": "method",
-            "id": 2203,
+            "id": 2202,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -958,7 +958,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100070131",
+                    "id": "astnode100070124",
                     "name": "Resizable#onDragStart",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -986,7 +986,7 @@
             "scope": "instance",
             "$longname": "Resizable#onDragStart",
             "$kind": "method",
-            "id": 2204,
+            "id": 2203,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -1001,7 +1001,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100070364",
+                    "id": "astnode100070357",
                     "name": "Resizable#onMouseMove",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1029,7 +1029,7 @@
             "scope": "instance",
             "$longname": "Resizable#onMouseMove",
             "$kind": "method",
-            "id": 2205,
+            "id": 2204,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -1044,7 +1044,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100070900",
+                    "id": "astnode100070893",
                     "name": "Resizable#onMouseLeave",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1072,7 +1072,7 @@
             "scope": "instance",
             "$longname": "Resizable#onMouseLeave",
             "$kind": "method",
-            "id": 2206,
+            "id": 2205,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -1087,7 +1087,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100070935",
+                    "id": "astnode100070928",
                     "name": "Resizable#removeAllNodes",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1105,7 +1105,7 @@
             "params": [],
             "$longname": "Resizable#removeAllNodes",
             "$kind": "method",
-            "id": 2207,
+            "id": 2206,
             "neoClassName": "Neo.plugin.Resizable"
         },
         {
@@ -1120,7 +1120,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100070971",
+                    "id": "astnode100070964",
                     "name": "Resizable#removeNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1158,7 +1158,7 @@
             "scope": "instance",
             "$longname": "Resizable#removeNode",
             "$kind": "method",
-            "id": 2208,
+            "id": 2207,
             "neoClassName": "Neo.plugin.Resizable"
         }
     ]

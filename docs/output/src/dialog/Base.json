@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.dialog.Base",
             "$kind": "class",
-            "id": 1147,
+            "id": 1146,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1148,
+            "id": 1147,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1149,
+            "id": 1148,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "animateTargetId",
             "$kind": "property",
-            "id": 1150,
+            "id": 1149,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -118,7 +118,7 @@
             "scope": "global",
             "$longname": "autoMount",
             "$kind": "property",
-            "id": 1151,
+            "id": 1150,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -142,7 +142,7 @@
             "scope": "global",
             "$longname": "autoRender",
             "$kind": "property",
-            "id": 1152,
+            "id": 1151,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -168,7 +168,7 @@
             "scope": "global",
             "$longname": "boundaryContainerId",
             "$kind": "property",
-            "id": 1153,
+            "id": 1152,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -193,7 +193,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1154,
+            "id": 1153,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -217,7 +217,7 @@
             "scope": "global",
             "$longname": "draggable_",
             "$kind": "property",
-            "id": 1155,
+            "id": 1154,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -242,7 +242,7 @@
             "scope": "global",
             "$longname": "dragListenersAdded",
             "$kind": "property",
-            "id": 1156,
+            "id": 1155,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -267,7 +267,7 @@
             "scope": "global",
             "$longname": "dragZone",
             "$kind": "property",
-            "id": 1157,
+            "id": 1156,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -292,7 +292,7 @@
             "scope": "global",
             "$longname": "headerToolbar",
             "$kind": "property",
-            "id": 1158,
+            "id": 1157,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -316,7 +316,7 @@
             "scope": "global",
             "$longname": "isDragging",
             "$kind": "property",
-            "id": 1159,
+            "id": 1158,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -341,7 +341,7 @@
             "scope": "global",
             "$longname": "maximizeCls",
             "$kind": "property",
-            "id": 1160,
+            "id": 1159,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -365,7 +365,7 @@
             "scope": "global",
             "$longname": "maximized_",
             "$kind": "property",
-            "id": 1161,
+            "id": 1160,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -390,7 +390,7 @@
             "scope": "global",
             "$longname": "minimizeCls",
             "$kind": "property",
-            "id": 1162,
+            "id": 1161,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -414,7 +414,7 @@
             "scope": "global",
             "$longname": "plugins",
             "$kind": "property",
-            "id": 1163,
+            "id": 1162,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -437,7 +437,7 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1164,
+            "id": 1163,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -452,7 +452,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100039425",
+                    "id": "astnode100039405",
                     "name": "Base#getVdomRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -479,7 +479,7 @@
             "params": [],
             "$longname": "Base#getVdomRoot",
             "$kind": "method",
-            "id": 1165,
+            "id": 1164,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -494,7 +494,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100039437",
+                    "id": "astnode100039417",
                     "name": "Base#getVnodeRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -521,7 +521,7 @@
             "params": [],
             "$longname": "Base#getVnodeRoot",
             "$kind": "method",
-            "id": 1166,
+            "id": 1165,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -536,7 +536,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100039449",
+                    "id": "astnode100039429",
                     "name": "Base",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -563,7 +563,7 @@
             "scope": "global",
             "$longname": "Base",
             "$kind": "constructor",
-            "id": 1167,
+            "id": 1166,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -578,7 +578,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100039488",
+                    "id": "astnode100039468",
                     "name": "Base#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -595,7 +595,7 @@
             "params": [],
             "$longname": "Base#onConstructed",
             "$kind": "method",
-            "id": 1168,
+            "id": 1167,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -610,7 +610,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100039516",
+                    "id": "astnode100039496",
                     "name": "Base#afterSetDraggable",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -649,7 +649,7 @@
             "scope": "instance",
             "$longname": "Base#afterSetDraggable",
             "$kind": "method",
-            "id": 1169,
+            "id": 1168,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -664,7 +664,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100039611",
+                    "id": "astnode100039591",
                     "name": "Base#afterSetMaximized",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -703,7 +703,7 @@
             "scope": "instance",
             "$longname": "Base#afterSetMaximized",
             "$kind": "method",
-            "id": 1170,
+            "id": 1169,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -718,7 +718,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100039647",
+                    "id": "astnode100039627",
                     "name": "Base#afterSetMounted",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -757,7 +757,7 @@
             "scope": "instance",
             "$longname": "Base#afterSetMounted",
             "$kind": "method",
-            "id": 1171,
+            "id": 1170,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -772,7 +772,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100039697",
+                    "id": "astnode100039677",
                     "name": "Base#animateHide",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -789,7 +789,7 @@
             "params": [],
             "$longname": "Base#animateHide",
             "$kind": "method",
-            "id": 1172,
+            "id": 1171,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -804,7 +804,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100039894",
+                    "id": "astnode100039874",
                     "name": "Base#animateShow",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -821,7 +821,7 @@
             "params": [],
             "$longname": "Base#animateShow",
             "$kind": "method",
-            "id": 1173,
+            "id": 1172,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -836,7 +836,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100040067",
+                    "id": "astnode100040047",
                     "name": "Base#close",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -853,7 +853,7 @@
             "params": [],
             "$longname": "Base#close",
             "$kind": "method",
-            "id": 1174,
+            "id": 1173,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -868,7 +868,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100040098",
+                    "id": "astnode100040078",
                     "name": "Base#createHeader",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -885,7 +885,7 @@
             "params": [],
             "$longname": "Base#createHeader",
             "$kind": "method",
-            "id": 1175,
+            "id": 1174,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -900,7 +900,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100040180",
+                    "id": "astnode100040160",
                     "name": "Base#getAnimateTargetId",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -927,7 +927,7 @@
             "params": [],
             "$longname": "Base#getAnimateTargetId",
             "$kind": "method",
-            "id": 1176,
+            "id": 1175,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -942,7 +942,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100040190",
+                    "id": "astnode100040170",
                     "name": "Base#getHeaderToolbarId",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -969,7 +969,7 @@
             "params": [],
             "$longname": "Base#getHeaderToolbarId",
             "$kind": "method",
-            "id": 1177,
+            "id": 1176,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -984,7 +984,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100040200",
+                    "id": "astnode100040180",
                     "name": "Base#getWrapperId",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1011,7 +1011,7 @@
             "params": [],
             "$longname": "Base#getWrapperId",
             "$kind": "method",
-            "id": 1178,
+            "id": 1177,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -1026,7 +1026,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100040210",
+                    "id": "astnode100040190",
                     "name": "Base#maximize",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1054,7 +1054,7 @@
             "scope": "instance",
             "$longname": "Base#maximize",
             "$kind": "method",
-            "id": 1179,
+            "id": 1178,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -1069,7 +1069,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100040245",
+                    "id": "astnode100040225",
                     "name": "Base#onDragEnd",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1092,7 +1092,7 @@
             "scope": "instance",
             "$longname": "Base#onDragEnd",
             "$kind": "method",
-            "id": 1180,
+            "id": 1179,
             "neoClassName": "Neo.dialog.Base"
         },
         {
@@ -1107,7 +1107,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/dialog",
                 "code": {
-                    "id": "astnode100040359",
+                    "id": "astnode100040339",
                     "name": "Base#onDragStart",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1130,7 +1130,7 @@
             "scope": "instance",
             "$longname": "Base#onDragStart",
             "$kind": "method",
-            "id": 1181,
+            "id": 1180,
             "neoClassName": "Neo.dialog.Base"
         }
     ]

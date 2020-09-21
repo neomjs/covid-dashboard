@@ -21,7 +21,7 @@
             "scope": "static",
             "$longname": "Neo.form.field.Picker",
             "$kind": "class",
-            "id": 1352,
+            "id": 1351,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -46,7 +46,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1353,
+            "id": 1352,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -71,7 +71,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1354,
+            "id": 1353,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -97,7 +97,7 @@
             "scope": "global",
             "$longname": "clientRects",
             "$kind": "property",
-            "id": 1355,
+            "id": 1354,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -122,7 +122,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1356,
+            "id": 1355,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -146,7 +146,7 @@
             "scope": "global",
             "$longname": "keys",
             "$kind": "property",
-            "id": 1357,
+            "id": 1356,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -170,7 +170,7 @@
             "scope": "global",
             "$longname": "matchPickerWidth",
             "$kind": "property",
-            "id": 1358,
+            "id": 1357,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -196,7 +196,7 @@
             "scope": "global",
             "$longname": "picker",
             "$kind": "property",
-            "id": 1359,
+            "id": 1358,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -222,7 +222,7 @@
             "scope": "global",
             "$longname": "pickerConfig",
             "$kind": "property",
-            "id": 1360,
+            "id": 1359,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -248,7 +248,7 @@
             "scope": "global",
             "$longname": "pickerHeight",
             "$kind": "property",
-            "id": 1361,
+            "id": 1360,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -273,7 +273,7 @@
             "scope": "global",
             "$longname": "pickerIsMounted",
             "$kind": "property",
-            "id": 1362,
+            "id": 1361,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -299,7 +299,7 @@
             "scope": "global",
             "$longname": "pickerMaxHeight",
             "$kind": "property",
-            "id": 1363,
+            "id": 1362,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -325,7 +325,7 @@
             "scope": "global",
             "$longname": "pickerWidth",
             "$kind": "property",
-            "id": 1364,
+            "id": 1363,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -351,7 +351,7 @@
             "scope": "global",
             "$longname": "triggers",
             "$kind": "property",
-            "id": 1365,
+            "id": 1364,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -366,7 +366,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100043726",
+                    "id": "astnode100043706",
                     "name": "Picker#createPicker",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -392,7 +392,7 @@
             "params": [],
             "$longname": "Picker#createPicker",
             "$kind": "method",
-            "id": 1366,
+            "id": 1365,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -407,7 +407,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100043791",
+                    "id": "astnode100043771",
                     "name": "Picker#applyClientRects",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -435,7 +435,7 @@
             "scope": "instance",
             "$longname": "Picker#applyClientRects",
             "$kind": "method",
-            "id": 1367,
+            "id": 1366,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -450,7 +450,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100043899",
+                    "id": "astnode100043879",
                     "name": "Picker#createPickerComponent",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -476,7 +476,7 @@
             "params": [],
             "$longname": "Picker#createPickerComponent",
             "$kind": "method",
-            "id": 1368,
+            "id": 1367,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -491,7 +491,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100043905",
+                    "id": "astnode100043885",
                     "name": "Picker#getClientRectsThenShow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -530,7 +530,7 @@
             "scope": "instance",
             "$longname": "Picker#getClientRectsThenShow",
             "$kind": "method",
-            "id": 1369,
+            "id": 1368,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -545,7 +545,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100043955",
+                    "id": "astnode100043935",
                     "name": "Picker#getPicker",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -572,7 +572,7 @@
             "params": [],
             "$longname": "Picker#getPicker",
             "$kind": "method",
-            "id": 1370,
+            "id": 1369,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -587,7 +587,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100043982",
+                    "id": "astnode100043962",
                     "name": "Picker#getPickerId",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -613,7 +613,7 @@
             "params": [],
             "$longname": "Picker#getPickerId",
             "$kind": "method",
-            "id": 1371,
+            "id": 1370,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -628,7 +628,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100043992",
+                    "id": "astnode100043972",
                     "name": "Picker#hidePicker",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -658,7 +658,7 @@
             "scope": "instance",
             "$longname": "Picker#hidePicker",
             "$kind": "method",
-            "id": 1372,
+            "id": 1371,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -673,7 +673,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100044070",
+                    "id": "astnode100044050",
                     "name": "Picker#onFocusLeave",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -702,7 +702,7 @@
             "scope": "instance",
             "$longname": "Picker#onFocusLeave",
             "$kind": "method",
-            "id": 1373,
+            "id": 1372,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -717,7 +717,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100044116",
+                    "id": "astnode100044096",
                     "name": "Picker#onKeyDownEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -766,7 +766,7 @@
             "scope": "instance",
             "$longname": "Picker#onKeyDownEnter",
             "$kind": "method",
-            "id": 1374,
+            "id": 1373,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -781,7 +781,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100044136",
+                    "id": "astnode100044116",
                     "name": "Picker#onKeyDownEscape",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -810,7 +810,7 @@
             "scope": "instance",
             "$longname": "Picker#onKeyDownEscape",
             "$kind": "method",
-            "id": 1375,
+            "id": 1374,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -825,7 +825,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100044151",
+                    "id": "astnode100044131",
                     "name": "Picker#onPickerTriggerClick",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -844,7 +844,7 @@
             "params": [],
             "$longname": "Picker#onPickerTriggerClick",
             "$kind": "method",
-            "id": 1376,
+            "id": 1375,
             "neoClassName": "Neo.form.field.Picker"
         },
         {
@@ -859,7 +859,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/form/field",
                 "code": {
-                    "id": "astnode100044175",
+                    "id": "astnode100044155",
                     "name": "Picker#showPicker",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -898,7 +898,7 @@
             "scope": "instance",
             "$longname": "Picker#showPicker",
             "$kind": "method",
-            "id": 1377,
+            "id": 1376,
             "neoClassName": "Neo.form.field.Picker"
         }
     ]

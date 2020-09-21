@@ -74,7 +74,7 @@
             "neoClassName": "Neo.container.Panel"
         },
         {
-            "comment": "/**\n         * @member {String[]} cls=['neo-panel', 'neo-container']\n         */",
+            "comment": "/**\n         * @member {String[]} cls=['neo-panel','neo-container']\n         */",
             "meta": {
                 "filename": "Panel.mjs",
                 "lineno": 24,
@@ -89,8 +89,7 @@
                     "Array.<String>"
                 ]
             },
-            "defaultvalue": "['neo-panel', 'neo-container']",
-            "description": "'neo-container']",
+            "defaultvalue": "['neo-panel','neo-container']",
             "longname": "cls",
             "scope": "global",
             "$longname": "cls",
@@ -223,15 +222,15 @@
             "comment": "/**\n     *\n     * @param {Object} config\n     */",
             "meta": {
                 "range": [
-                    1324,
-                    1633
+                    1323,
+                    1632
                 ],
                 "filename": "Panel.mjs",
                 "lineno": 54,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100032933",
+                    "id": "astnode100032915",
                     "name": "Panel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -265,15 +264,15 @@
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    1662,
-                    4351
+                    1661,
+                    4350
                 ],
                 "filename": "Panel.mjs",
                 "lineno": 71,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100032974",
+                    "id": "astnode100032956",
                     "name": "Panel#createItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -297,15 +296,15 @@
             "comment": "/**\n     *\n     * @param {Object} header the header config\n     * @returns {Object}\n     */",
             "meta": {
                 "range": [
-                    4453,
-                    5264
+                    4452,
+                    5263
                 ],
                 "filename": "Panel.mjs",
                 "lineno": 149,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100033308",
+                    "id": "astnode100033290",
                     "name": "Panel.createHeaderConfig",
                     "type": "MethodDefinition",
                     "paramnames": [

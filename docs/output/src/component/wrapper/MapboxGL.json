@@ -336,7 +336,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100030784",
+                    "id": "astnode100030766",
                     "name": "MapboxGL#getVdomRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -368,7 +368,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100030800",
+                    "id": "astnode100030782",
                     "name": "MapboxGL#getVnodeRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -400,7 +400,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100030816",
+                    "id": "astnode100030798",
                     "name": "MapboxGL#afterSetCenter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -454,7 +454,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100030828",
+                    "id": "astnode100030810",
                     "name": "MapboxGL#afterSetData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -510,7 +510,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100030867",
+                    "id": "astnode100030849",
                     "name": "MapboxGL#afterSetLayers",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -566,7 +566,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100030898",
+                    "id": "astnode100030880",
                     "name": "MapboxGL#afterSetMapboxStyle",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -622,7 +622,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100030939",
+                    "id": "astnode100030921",
                     "name": "MapboxGL#afterSetMounted",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -676,7 +676,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100031081",
+                    "id": "astnode100031063",
                     "name": "MapboxGL#afterSetSources",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -732,7 +732,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100031112",
+                    "id": "astnode100031094",
                     "name": "MapboxGL#afterSetZoom",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -786,7 +786,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100031149",
+                    "id": "astnode100031131",
                     "name": "MapboxGL#autoResize",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -818,7 +818,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100031173",
+                    "id": "astnode100031155",
                     "name": "MapboxGL#beforeSetCenter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -872,7 +872,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100031201",
+                    "id": "astnode100031183",
                     "name": "MapboxGL#beforeSetData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -928,7 +928,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100031224",
+                    "id": "astnode100031206",
                     "name": "MapboxGL#centerMap",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -999,7 +999,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100031262",
+                    "id": "astnode100031244",
                     "name": "MapboxGL#convertToGeoJson",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1052,7 +1052,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100031339",
+                    "id": "astnode100031321",
                     "name": "MapboxGL#flyTo",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1111,7 +1111,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100031378",
+                    "id": "astnode100031360",
                     "name": "MapboxGL#onMapMounted",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1144,7 +1144,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100031382",
+                    "id": "astnode100031364",
                     "name": "MapboxGL#setFilter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1220,7 +1220,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100031419",
+                    "id": "astnode100031401",
                     "name": "MapboxGL#setLayoutProperty",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1304,7 +1304,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component/wrapper",
                 "code": {
-                    "id": "astnode100031460",
+                    "id": "astnode100031442",
                     "name": "MapboxGL#setPaintProperty",
                     "type": "MethodDefinition",
                     "paramnames": [

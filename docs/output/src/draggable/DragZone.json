@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.draggable.DragZone",
             "$kind": "class",
-            "id": 1191,
+            "id": 1190,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1192,
+            "id": 1191,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1193,
+            "id": 1192,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -95,7 +95,7 @@
             "scope": "global",
             "$longname": "appName",
             "$kind": "property",
-            "id": 1194,
+            "id": 1193,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -120,7 +120,7 @@
             "scope": "global",
             "$longname": "boundaryContainerId_",
             "$kind": "property",
-            "id": 1195,
+            "id": 1194,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -146,7 +146,7 @@
             "scope": "global",
             "$longname": "dragElement",
             "$kind": "property",
-            "id": 1196,
+            "id": 1195,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -172,7 +172,7 @@
             "scope": "global",
             "$longname": "dragProxy",
             "$kind": "property",
-            "id": 1197,
+            "id": 1196,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -197,7 +197,7 @@
             "scope": "global",
             "$longname": "dragProxyConfig",
             "$kind": "property",
-            "id": 1198,
+            "id": 1197,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -221,7 +221,7 @@
             "scope": "global",
             "$longname": "moveHorizontal",
             "$kind": "property",
-            "id": 1199,
+            "id": 1198,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -245,7 +245,7 @@
             "scope": "global",
             "$longname": "moveInMainThread",
             "$kind": "property",
-            "id": 1200,
+            "id": 1199,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -269,7 +269,7 @@
             "scope": "global",
             "$longname": "moveVertical",
             "$kind": "property",
-            "id": 1201,
+            "id": 1200,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -293,7 +293,7 @@
             "scope": "global",
             "$longname": "offsetX",
             "$kind": "property",
-            "id": 1202,
+            "id": 1201,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -317,7 +317,7 @@
             "scope": "global",
             "$longname": "offsetY",
             "$kind": "property",
-            "id": 1203,
+            "id": 1202,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -341,7 +341,7 @@
             "scope": "global",
             "$longname": "proxyParentId_",
             "$kind": "property",
-            "id": 1204,
+            "id": 1203,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -366,7 +366,7 @@
             "scope": "global",
             "$longname": "scrollContainerId_",
             "$kind": "property",
-            "id": 1205,
+            "id": 1204,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -390,7 +390,7 @@
             "scope": "global",
             "$longname": "scrollFactorLeft_",
             "$kind": "property",
-            "id": 1206,
+            "id": 1205,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -414,7 +414,7 @@
             "scope": "global",
             "$longname": "scrollFactorTop_",
             "$kind": "property",
-            "id": 1207,
+            "id": 1206,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -439,7 +439,7 @@
             "scope": "global",
             "$longname": "useProxyWrapper",
             "$kind": "property",
-            "id": 1208,
+            "id": 1207,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -454,7 +454,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/draggable",
                 "code": {
-                    "id": "astnode100040611",
+                    "id": "astnode100040591",
                     "name": "DragZone",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -481,7 +481,7 @@
             "scope": "global",
             "$longname": "DragZone",
             "$kind": "constructor",
-            "id": 1209,
+            "id": 1208,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -496,7 +496,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/draggable",
                 "code": {
-                    "id": "astnode100040634",
+                    "id": "astnode100040614",
                     "name": "DragZone#afterSetScrollContainerId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -535,7 +535,7 @@
             "scope": "instance",
             "$longname": "DragZone#afterSetScrollContainerId",
             "$kind": "method",
-            "id": 1210,
+            "id": 1209,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -550,7 +550,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/draggable",
                 "code": {
-                    "id": "astnode100040657",
+                    "id": "astnode100040637",
                     "name": "DragZone#afterSetBoundaryContainerId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -589,7 +589,7 @@
             "scope": "instance",
             "$longname": "DragZone#afterSetBoundaryContainerId",
             "$kind": "method",
-            "id": 1211,
+            "id": 1210,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -604,7 +604,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/draggable",
                 "code": {
-                    "id": "astnode100040680",
+                    "id": "astnode100040660",
                     "name": "DragZone#afterSetScrollFactorLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -643,7 +643,7 @@
             "scope": "instance",
             "$longname": "DragZone#afterSetScrollFactorLeft",
             "$kind": "method",
-            "id": 1212,
+            "id": 1211,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -658,7 +658,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/draggable",
                 "code": {
-                    "id": "astnode100040710",
+                    "id": "astnode100040690",
                     "name": "DragZone#afterSetScrollFactorTop",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -697,7 +697,7 @@
             "scope": "instance",
             "$longname": "DragZone#afterSetScrollFactorTop",
             "$kind": "method",
-            "id": 1213,
+            "id": 1212,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -712,7 +712,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/draggable",
                 "code": {
-                    "id": "astnode100040740",
+                    "id": "astnode100040720",
                     "name": "DragZone#createDragProxy",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -740,7 +740,7 @@
             "scope": "instance",
             "$longname": "DragZone#createDragProxy",
             "$kind": "method",
-            "id": 1214,
+            "id": 1213,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -755,7 +755,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/draggable",
                 "code": {
-                    "id": "astnode100040856",
+                    "id": "astnode100040836",
                     "name": "DragZone#destroyDragProxy",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -773,7 +773,7 @@
             "params": [],
             "$longname": "DragZone#destroyDragProxy",
             "$kind": "method",
-            "id": 1215,
+            "id": 1214,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -788,7 +788,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/draggable",
                 "code": {
-                    "id": "astnode100040907",
+                    "id": "astnode100040887",
                     "name": "DragZone#dragEnd",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -805,7 +805,7 @@
             "params": [],
             "$longname": "DragZone#dragEnd",
             "$kind": "method",
-            "id": 1216,
+            "id": 1215,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -820,7 +820,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/draggable",
                 "code": {
-                    "id": "astnode100040937",
+                    "id": "astnode100040917",
                     "name": "DragZone#dragMove",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -848,7 +848,7 @@
             "scope": "instance",
             "$longname": "DragZone#dragMove",
             "$kind": "method",
-            "id": 1217,
+            "id": 1216,
             "neoClassName": "Neo.draggable.DragZone"
         },
         {
@@ -863,7 +863,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/draggable",
                 "code": {
-                    "id": "astnode100041014",
+                    "id": "astnode100040994",
                     "name": "DragZone#dragStart",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -891,7 +891,7 @@
             "scope": "instance",
             "$longname": "DragZone#dragStart",
             "$kind": "method",
-            "id": 1218,
+            "id": 1217,
             "neoClassName": "Neo.draggable.DragZone"
         }
     ]

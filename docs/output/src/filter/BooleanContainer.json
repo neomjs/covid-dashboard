@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.filter.BooleanContainer",
             "$kind": "class",
-            "id": 1219,
+            "id": 1218,
             "neoClassName": "Neo.filter.BooleanContainer"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1220,
+            "id": 1219,
             "neoClassName": "Neo.filter.BooleanContainer"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1221,
+            "id": 1220,
             "neoClassName": "Neo.filter.BooleanContainer"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1222,
+            "id": 1221,
             "neoClassName": "Neo.filter.BooleanContainer"
         },
         {
@@ -118,7 +118,7 @@
             "scope": "global",
             "$longname": "layout",
             "$kind": "property",
-            "id": 1223,
+            "id": 1222,
             "neoClassName": "Neo.filter.BooleanContainer"
         },
         {
@@ -144,7 +144,7 @@
             "scope": "global",
             "$longname": "radioConfig",
             "$kind": "property",
-            "id": 1224,
+            "id": 1223,
             "neoClassName": "Neo.filter.BooleanContainer"
         },
         {
@@ -169,7 +169,7 @@
             "scope": "global",
             "$longname": "value_",
             "$kind": "property",
-            "id": 1225,
+            "id": 1224,
             "neoClassName": "Neo.filter.BooleanContainer"
         },
         {
@@ -184,7 +184,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/filter",
                 "code": {
-                    "id": "astnode100041122",
+                    "id": "astnode100041102",
                     "name": "BooleanContainer#afterSetValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -224,7 +224,7 @@
             "scope": "instance",
             "$longname": "BooleanContainer#afterSetValue",
             "$kind": "method",
-            "id": 1226,
+            "id": 1225,
             "neoClassName": "Neo.filter.BooleanContainer"
         },
         {
@@ -239,7 +239,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/filter",
                 "code": {
-                    "id": "astnode100041146",
+                    "id": "astnode100041126",
                     "name": "BooleanContainer#createItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -256,7 +256,7 @@
             "params": [],
             "$longname": "BooleanContainer#createItems",
             "$kind": "method",
-            "id": 1227,
+            "id": 1226,
             "neoClassName": "Neo.filter.BooleanContainer"
         },
         {
@@ -271,7 +271,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/filter",
                 "code": {
-                    "id": "astnode100041244",
+                    "id": "astnode100041224",
                     "name": "BooleanContainer#onRadioChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -299,7 +299,7 @@
             "scope": "instance",
             "$longname": "BooleanContainer#onRadioChange",
             "$kind": "method",
-            "id": 1228,
+            "id": 1227,
             "neoClassName": "Neo.filter.BooleanContainer"
         }
     ]

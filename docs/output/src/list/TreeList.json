@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.list.TreeList",
             "$kind": "class",
-            "id": 1772,
+            "id": 1771,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 1773,
+            "id": 1772,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 1774,
+            "id": 1773,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 1775,
+            "id": 1774,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -118,7 +118,7 @@
             "scope": "global",
             "$longname": "disableSelection",
             "$kind": "property",
-            "id": 1776,
+            "id": 1775,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -142,7 +142,7 @@
             "scope": "global",
             "$longname": "showCollapseExpandAllIcons",
             "$kind": "property",
-            "id": 1777,
+            "id": 1776,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -165,7 +165,7 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 1778,
+            "id": 1777,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -180,7 +180,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100052984",
+                    "id": "astnode100052964",
                     "name": "TreeList#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -197,7 +197,7 @@
             "params": [],
             "$longname": "TreeList#onConstructed",
             "$kind": "method",
-            "id": 1779,
+            "id": 1778,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -212,7 +212,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100053046",
+                    "id": "astnode100053026",
                     "name": "TreeList#beforeSetStore",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -261,7 +261,7 @@
             "scope": "instance",
             "$longname": "TreeList#beforeSetStore",
             "$kind": "method",
-            "id": 1780,
+            "id": 1779,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -276,7 +276,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100053068",
+                    "id": "astnode100053048",
                     "name": "TreeList#collapseAll",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -308,7 +308,7 @@
             "scope": "instance",
             "$longname": "TreeList#collapseAll",
             "$kind": "method",
-            "id": 1781,
+            "id": 1780,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -323,7 +323,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100053163",
+                    "id": "astnode100053143",
                     "name": "TreeList#createItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -385,7 +385,7 @@
             "scope": "instance",
             "$longname": "TreeList#createItems",
             "$kind": "method",
-            "id": 1782,
+            "id": 1781,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -400,7 +400,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100053383",
+                    "id": "astnode100053363",
                     "name": "TreeList#expandAll",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -432,7 +432,7 @@
             "scope": "instance",
             "$longname": "TreeList#expandAll",
             "$kind": "method",
-            "id": 1783,
+            "id": 1782,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -447,7 +447,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100053479",
+                    "id": "astnode100053459",
                     "name": "TreeList#filter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -520,7 +520,7 @@
             "scope": "instance",
             "$longname": "TreeList#filter",
             "$kind": "method",
-            "id": 1784,
+            "id": 1783,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -535,7 +535,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100053665",
+                    "id": "astnode100053645",
                     "name": "TreeList#getListItemsRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -561,7 +561,7 @@
             "params": [],
             "$longname": "TreeList#getListItemsRoot",
             "$kind": "method",
-            "id": 1785,
+            "id": 1784,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -576,7 +576,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100053682",
+                    "id": "astnode100053662",
                     "name": "TreeList#onClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -604,7 +604,7 @@
             "scope": "instance",
             "$longname": "TreeList#onClick",
             "$kind": "method",
-            "id": 1786,
+            "id": 1785,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -619,7 +619,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100053715",
+                    "id": "astnode100053695",
                     "name": "TreeList#onItemClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -647,7 +647,7 @@
             "scope": "instance",
             "$longname": "TreeList#onItemClick",
             "$kind": "method",
-            "id": 1787,
+            "id": 1786,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -676,7 +676,7 @@
             "scope": "global",
             "$longname": "event:leafItemClick",
             "$kind": "event",
-            "id": 1788,
+            "id": 1787,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -691,7 +691,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100053859",
+                    "id": "astnode100053839",
                     "name": "TreeList#onLeafItemClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -720,7 +720,7 @@
             "scope": "instance",
             "$longname": "TreeList#onLeafItemClick",
             "$kind": "method",
-            "id": 1789,
+            "id": 1788,
             "neoClassName": "Neo.list.TreeList"
         },
         {
@@ -735,7 +735,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/list",
                 "code": {
-                    "id": "astnode100053864",
+                    "id": "astnode100053844",
                     "name": "TreeList#onMenuItemClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -765,7 +765,7 @@
             "scope": "instance",
             "$longname": "TreeList#onMenuItemClick",
             "$kind": "method",
-            "id": 1790,
+            "id": 1789,
             "neoClassName": "Neo.list.TreeList"
         }
     ]

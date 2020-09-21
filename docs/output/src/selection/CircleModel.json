@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Neo.selection.CircleModel",
             "$kind": "class",
-            "id": 2209,
+            "id": 2208,
             "neoClassName": "Neo.selection.CircleModel"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 2210,
+            "id": 2209,
             "neoClassName": "Neo.selection.CircleModel"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 2211,
+            "id": 2210,
             "neoClassName": "Neo.selection.CircleModel"
         },
         {
@@ -84,7 +84,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100071069",
+                    "id": "astnode100071062",
                     "name": "CircleModel#onKeyDownLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -112,7 +112,7 @@
             "scope": "instance",
             "$longname": "CircleModel#onKeyDownLeft",
             "$kind": "method",
-            "id": 2212,
+            "id": 2211,
             "neoClassName": "Neo.selection.CircleModel"
         },
         {
@@ -127,7 +127,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100071082",
+                    "id": "astnode100071075",
                     "name": "CircleModel#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -155,7 +155,7 @@
             "scope": "instance",
             "$longname": "CircleModel#onKeyDownRight",
             "$kind": "method",
-            "id": 2213,
+            "id": 2212,
             "neoClassName": "Neo.selection.CircleModel"
         },
         {
@@ -170,7 +170,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100071094",
+                    "id": "astnode100071087",
                     "name": "CircleModel#onNavKey",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -207,7 +207,7 @@
             "scope": "instance",
             "$longname": "CircleModel#onNavKey",
             "$kind": "method",
-            "id": 2214,
+            "id": 2213,
             "neoClassName": "Neo.selection.CircleModel"
         },
         {
@@ -222,7 +222,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100071216",
+                    "id": "astnode100071209",
                     "name": "CircleModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -250,7 +250,7 @@
             "scope": "instance",
             "$longname": "CircleModel#register",
             "$kind": "method",
-            "id": 2215,
+            "id": 2214,
             "neoClassName": "Neo.selection.CircleModel"
         },
         {
@@ -265,7 +265,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100071283",
+                    "id": "astnode100071276",
                     "name": "CircleModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -282,7 +282,7 @@
             "params": [],
             "$longname": "CircleModel#unregister",
             "$kind": "method",
-            "id": 2216,
+            "id": 2215,
             "neoClassName": "Neo.selection.CircleModel"
         }
     ]

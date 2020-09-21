@@ -1669,7 +1669,7 @@
             "meta": {
                 "range": [
                     15067,
-                    15600
+                    15563
                 ],
                 "filename": "Circle.mjs",
                 "lineno": 599,
@@ -1700,15 +1700,15 @@
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    15657,
-                    15986
+                    15620,
+                    15949
                 ],
                 "filename": "Circle.mjs",
                 "lineno": 622,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100020927",
+                    "id": "astnode100020918",
                     "name": "Circle#onBacksideIconClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1743,15 +1743,15 @@
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    16043,
-                    16097
+                    16006,
+                    16060
                 ],
                 "filename": "Circle.mjs",
                 "lineno": 635,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100020991",
+                    "id": "astnode100020982",
                     "name": "Circle#onContextMenu",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1786,15 +1786,15 @@
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    16154,
-                    16525
+                    16117,
+                    16488
                 ],
                 "filename": "Circle.mjs",
                 "lineno": 643,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100021001",
+                    "id": "astnode100020992",
                     "name": "Circle#onMouseWheel",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1829,15 +1829,15 @@
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    16554,
-                    17397
+                    16517,
+                    17360
                 ],
                 "filename": "Circle.mjs",
                 "lineno": 664,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100021066",
+                    "id": "astnode100021057",
                     "name": "Circle#rotate",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1861,15 +1861,15 @@
             "comment": "/**\n     *\n     * @param {Boolean} [silent=false]\n     */",
             "meta": {
                 "range": [
-                    17465,
-                    17978
+                    17428,
+                    17941
                 ],
                 "filename": "Circle.mjs",
                 "lineno": 695,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100021185",
+                    "id": "astnode100021176",
                     "name": "Circle#updateInnerCircle",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1906,15 +1906,15 @@
             "comment": "/**\n     *\n     * @param {Boolean} [silent=false]\n     */",
             "meta": {
                 "range": [
-                    18046,
-                    18417
+                    18009,
+                    18380
                 ],
                 "filename": "Circle.mjs",
                 "lineno": 716,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100021255",
+                    "id": "astnode100021246",
                     "name": "Circle#updateItemAngle",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1951,15 +1951,15 @@
             "comment": "/**\n     *\n     * @param {Number} value\n     * @param {Boolean} [silent=false]\n     * @param {Number} [startIndex=0]\n     */",
             "meta": {
                 "range": [
-                    18552,
-                    18927
+                    18515,
+                    18890
                 ],
                 "filename": "Circle.mjs",
                 "lineno": 736,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100021322",
+                    "id": "astnode100021313",
                     "name": "Circle#updateItemOpacity",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2016,15 +2016,15 @@
             "comment": "/**\n     *\n     * @param {Boolean} [silent=false]\n     */",
             "meta": {
                 "range": [
-                    18995,
-                    19894
+                    18958,
+                    19857
                 ],
                 "filename": "Circle.mjs",
                 "lineno": 754,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100021388",
+                    "id": "astnode100021379",
                     "name": "Circle#updateItemPositions",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2061,15 +2061,15 @@
             "comment": "/**\n     *\n     * @param {Boolean} [silent=false]\n     */",
             "meta": {
                 "range": [
-                    19962,
-                    20943
+                    19925,
+                    20906
                 ],
                 "filename": "Circle.mjs",
                 "lineno": 784,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100021522",
+                    "id": "astnode100021513",
                     "name": "Circle#updateOuterCircle",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -2106,15 +2106,15 @@
             "comment": "/**\n     *\n     * @param {Boolean} [silent=false]\n     */",
             "meta": {
                 "range": [
-                    21015,
-                    21324
+                    20978,
+                    21287
                 ],
                 "filename": "Circle.mjs",
                 "lineno": 818,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/component",
                 "code": {
-                    "id": "astnode100021650",
+                    "id": "astnode100021641",
                     "name": "Circle#updateTitle",
                     "type": "MethodDefinition",
                     "paramnames": [

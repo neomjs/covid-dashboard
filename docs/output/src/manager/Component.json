@@ -26,7 +26,7 @@
             "scope": "static",
             "$longname": "Neo.manager.Component",
             "$kind": "class",
-            "id": 2084,
+            "id": 2083,
             "neoClassName": "Neo.manager.Component"
         },
         {
@@ -51,7 +51,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 2085,
+            "id": 2084,
             "neoClassName": "Neo.manager.Component"
         },
         {
@@ -76,7 +76,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 2086,
+            "id": 2085,
             "neoClassName": "Neo.manager.Component"
         },
         {
@@ -101,7 +101,7 @@
             "scope": "global",
             "$longname": "singleton",
             "$kind": "property",
-            "id": 2087,
+            "id": 2086,
             "neoClassName": "Neo.manager.Component"
         },
         {
@@ -116,7 +116,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100064872",
+                    "id": "astnode100064865",
                     "name": "Component",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -143,7 +143,7 @@
             "scope": "global",
             "$longname": "Component",
             "$kind": "constructor",
-            "id": 2088,
+            "id": 2087,
             "neoClassName": "Neo.manager.Component"
         },
         {
@@ -158,7 +158,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100064893",
+                    "id": "astnode100064886",
                     "name": "Component#down",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -207,7 +207,7 @@
             "scope": "instance",
             "$longname": "Component#down",
             "$kind": "method",
-            "id": 2089,
+            "id": 2088,
             "neoClassName": "Neo.manager.Component"
         },
         {
@@ -222,7 +222,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100065024",
+                    "id": "astnode100065017",
                     "name": "Component#findParentComponent",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -261,7 +261,7 @@
             "scope": "instance",
             "$longname": "Component#findParentComponent",
             "$kind": "method",
-            "id": 2090,
+            "id": 2089,
             "neoClassName": "Neo.manager.Component"
         },
         {
@@ -276,7 +276,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100065073",
+                    "id": "astnode100065066",
                     "name": "Component#getChildIds",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -314,7 +314,7 @@
             "scope": "instance",
             "$longname": "Component#getChildIds",
             "$kind": "method",
-            "id": 2091,
+            "id": 2090,
             "neoClassName": "Neo.manager.Component"
         },
         {
@@ -329,7 +329,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100065086",
+                    "id": "astnode100065079",
                     "name": "Component#getChildren",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -368,7 +368,7 @@
             "scope": "instance",
             "$longname": "Component#getChildren",
             "$kind": "method",
-            "id": 2092,
+            "id": 2091,
             "neoClassName": "Neo.manager.Component"
         },
         {
@@ -383,7 +383,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100065133",
+                    "id": "astnode100065126",
                     "name": "Component#getParentIds",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -422,7 +422,7 @@
             "scope": "instance",
             "$longname": "Component#getParentIds",
             "$kind": "method",
-            "id": 2093,
+            "id": 2092,
             "neoClassName": "Neo.manager.Component"
         },
         {
@@ -437,7 +437,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100065172",
+                    "id": "astnode100065165",
                     "name": "Component#getParentPath",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -474,7 +474,7 @@
             "scope": "instance",
             "$longname": "Component#getParentPath",
             "$kind": "method",
-            "id": 2094,
+            "id": 2093,
             "neoClassName": "Neo.manager.Component"
         },
         {
@@ -489,7 +489,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100065222",
+                    "id": "astnode100065215",
                     "name": "Component#getParents",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -528,7 +528,7 @@
             "scope": "instance",
             "$longname": "Component#getParents",
             "$kind": "method",
-            "id": 2095,
+            "id": 2094,
             "neoClassName": "Neo.manager.Component"
         },
         {
@@ -543,7 +543,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/manager",
                 "code": {
-                    "id": "astnode100065259",
+                    "id": "astnode100065252",
                     "name": "Component#up",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -592,7 +592,7 @@
             "scope": "instance",
             "$longname": "Component#up",
             "$kind": "method",
-            "id": 2096,
+            "id": 2095,
             "neoClassName": "Neo.manager.Component"
         }
     ]

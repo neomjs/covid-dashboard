@@ -165,7 +165,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100035794",
+                    "id": "astnode100035776",
                     "name": "IdGenerator",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -202,7 +202,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/core",
                 "code": {
-                    "id": "astnode100035829",
+                    "id": "astnode100035811",
                     "name": "IdGenerator#getId",
                     "type": "MethodDefinition",
                     "paramnames": [

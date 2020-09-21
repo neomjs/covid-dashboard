@@ -207,7 +207,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100033463",
+                    "id": "astnode100033445",
                     "name": "Toolbar#getLayoutConfig",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -250,7 +250,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100033521",
+                    "id": "astnode100033503",
                     "name": "Toolbar#afterSetDock",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -304,7 +304,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/container",
                 "code": {
-                    "id": "astnode100033580",
+                    "id": "astnode100033562",
                     "name": "Toolbar#beforeSetDock",
                     "type": "MethodDefinition",
                     "paramnames": [
