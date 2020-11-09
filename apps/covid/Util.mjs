@@ -102,6 +102,7 @@ class Util extends Base {
             'lao-people\'s-democratic-republic'    : 'laos',
             'libyan-arab-jamahiriya'               : 'libya',
             'macedonia'                            : 'republic-of-macedonia',
+            'marshall-islands'                     : 'marshall-island',
             'mayotte'                              : 'france', // ?
             'moldova,-republic-of'                 : 'moldova',
             'ms-zaandam'                           : 'netherlands', // cruise ship
@@ -125,7 +126,8 @@ class Util extends Base {
             'usa'                                  : 'united-states-of-america',
             'uzbekistan'                           : 'uzbekistn',
             'venezuela,-bolivarian-republic-of'    : 'venezuela',
-            'viet-nam'                             : 'vietnam'
+            'viet-nam'                             : 'vietnam',
+            'wallis-and-futuna'                    : 'france'
         };
 
         let imageName = name.toLowerCase().replace(Util.flagRegEx, '-');
