@@ -1,6 +1,6 @@
 {
     "name": "covid19-dashboard",
-    "version": "1.0.32",
+    "version": "1.0.33",
     "description": "Dashboard App displaying COVID-19 numbers by country",
     "scripts": {
         "server-start": "webpack-dev-server --open",
@@ -31,7 +31,7 @@
     },
     "homepage": "https://neomjs.github.io/pages/",
     "dependencies": {
-        "neo.mjs": "^1.4.41",
+        "neo.mjs": "^1.4.50",
         "sass": "^1.24.0"
     },
     "funding": {

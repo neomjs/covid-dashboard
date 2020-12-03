@@ -1,0 +1,26 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * @class Covid.model.Country\n * @extends Neo.data.Model\n */",
+            "meta": {
+                "filename": "Country.mjs",
+                "lineno": 3,
+                "columnno": 0,
+                "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/model",
+                "code": {}
+            },
+            "kind": "class",
+            "name": "Country",
+            "augments": [
+                "Neo.data.Model"
+            ],
+            "memberof": "Covid.model",
+            "longname": "Covid.model.Country",
+            "scope": "static",
+            "$longname": "Covid.model.Country",
+            "$kind": "class",
+            "id": 3091,
+            "neoClassName": "Covid.model.Country"
+        }
+    ]
+}

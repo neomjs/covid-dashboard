@@ -1,0 +1,195 @@
+{
+    "classData": [
+        {
+            "comment": "/**\n * @class Covid.view.FooterContainer\n * @extends Neo.container.Base\n */",
+            "meta": {
+                "filename": "FooterContainer.mjs",
+                "lineno": 3,
+                "columnno": 0,
+                "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
+                "code": {}
+            },
+            "kind": "class",
+            "name": "FooterContainer",
+            "augments": [
+                "Neo.container.Base"
+            ],
+            "memberof": "Covid.view",
+            "longname": "Covid.view.FooterContainer",
+            "scope": "static",
+            "$longname": "Covid.view.FooterContainer",
+            "$kind": "class",
+            "id": 3152,
+            "neoClassName": "Covid.view.FooterContainer"
+        },
+        {
+            "comment": "/**\n         * @member {String} className='Covid.view.FooterContainer'\n         * @protected\n         */",
+            "meta": {
+                "filename": "FooterContainer.mjs",
+                "lineno": 13,
+                "columnno": 8,
+                "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "className",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'Covid.view.FooterContainer'",
+            "access": "protected",
+            "longname": "className",
+            "scope": "global",
+            "$longname": "className",
+            "$kind": "property",
+            "id": 3153,
+            "neoClassName": "Covid.view.FooterContainer"
+        },
+        {
+            "comment": "/**\n         * @member {Number} height=20\n         */",
+            "meta": {
+                "filename": "FooterContainer.mjs",
+                "lineno": 17,
+                "columnno": 8,
+                "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "height",
+            "type": {
+                "names": [
+                    "Number"
+                ]
+            },
+            "defaultvalue": 20,
+            "longname": "height",
+            "scope": "global",
+            "$longname": "height",
+            "$kind": "property",
+            "id": 3154,
+            "neoClassName": "Covid.view.FooterContainer"
+        },
+        {
+            "comment": "/**\n         * @member {Object} layout={ntype: 'hbox'}\n         */",
+            "meta": {
+                "filename": "FooterContainer.mjs",
+                "lineno": 21,
+                "columnno": 8,
+                "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "layout",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": "{ntype: 'hbox'}",
+            "description": "'hbox'}",
+            "longname": "layout",
+            "scope": "global",
+            "$longname": "layout",
+            "$kind": "property",
+            "id": 3155,
+            "neoClassName": "Covid.view.FooterContainer"
+        },
+        {
+            "comment": "/**\n         * @member {String} reference='footer'\n         */",
+            "meta": {
+                "filename": "FooterContainer.mjs",
+                "lineno": 25,
+                "columnno": 8,
+                "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "reference",
+            "type": {
+                "names": [
+                    "String"
+                ]
+            },
+            "defaultvalue": "'footer'",
+            "longname": "reference",
+            "scope": "global",
+            "$longname": "reference",
+            "$kind": "property",
+            "id": 3156,
+            "neoClassName": "Covid.view.FooterContainer"
+        },
+        {
+            "comment": "/**\n         * @member {Object} style={overflow: 'visible'}\n         */",
+            "meta": {
+                "filename": "FooterContainer.mjs",
+                "lineno": 29,
+                "columnno": 8,
+                "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "style",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "defaultvalue": "{overflow: 'visible'}",
+            "description": "'visible'}",
+            "longname": "style",
+            "scope": "global",
+            "$longname": "style",
+            "$kind": "property",
+            "id": 3157,
+            "neoClassName": "Covid.view.FooterContainer"
+        },
+        {
+            "comment": "/**\n         * @member {Object} itemDefaults\n         */",
+            "meta": {
+                "filename": "FooterContainer.mjs",
+                "lineno": 33,
+                "columnno": 8,
+                "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "itemDefaults",
+            "type": {
+                "names": [
+                    "Object"
+                ]
+            },
+            "longname": "itemDefaults",
+            "scope": "global",
+            "$longname": "itemDefaults",
+            "$kind": "property",
+            "id": 3158,
+            "neoClassName": "Covid.view.FooterContainer"
+        },
+        {
+            "comment": "/**\n         * @member {Array} items\n         */",
+            "meta": {
+                "filename": "FooterContainer.mjs",
+                "lineno": 41,
+                "columnno": 8,
+                "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
+                "code": {}
+            },
+            "kind": "member",
+            "name": "items",
+            "type": {
+                "names": [
+                    "Array"
+                ]
+            },
+            "longname": "items",
+            "scope": "global",
+            "$longname": "items",
+            "$kind": "property",
+            "id": 3159,
+            "neoClassName": "Covid.view.FooterContainer"
+        }
+    ]
+}
