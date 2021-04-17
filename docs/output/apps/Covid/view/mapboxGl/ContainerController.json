@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.mapboxGl.ContainerController",
             "$kind": "class",
-            "id": 3261,
+            "id": 3366,
             "neoClassName": "Covid.view.mapboxGl.ContainerController"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3262,
+            "id": 3367,
             "neoClassName": "Covid.view.mapboxGl.ContainerController"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 3263,
+            "id": 3368,
             "neoClassName": "Covid.view.mapboxGl.ContainerController"
         },
         {
@@ -84,7 +84,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100108294",
+                    "id": "astnode100111213",
                     "name": "ContainerController#changeLayerVisibility",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -121,7 +121,7 @@
             "scope": "instance",
             "$longname": "ContainerController#changeLayerVisibility",
             "$kind": "method",
-            "id": 3264,
+            "id": 3369,
             "neoClassName": "Covid.view.mapboxGl.ContainerController"
         },
         {
@@ -136,7 +136,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100108316",
+                    "id": "astnode100111235",
                     "name": "ContainerController#onDetailCirclesChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -164,7 +164,7 @@
             "scope": "instance",
             "$longname": "ContainerController#onDetailCirclesChange",
             "$kind": "method",
-            "id": 3265,
+            "id": 3370,
             "neoClassName": "Covid.view.mapboxGl.ContainerController"
         },
         {
@@ -179,7 +179,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100108344",
+                    "id": "astnode100111263",
                     "name": "ContainerController#onHeatMapChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -207,7 +207,7 @@
             "scope": "instance",
             "$longname": "ContainerController#onHeatMapChange",
             "$kind": "method",
-            "id": 3266,
+            "id": 3371,
             "neoClassName": "Covid.view.mapboxGl.ContainerController"
         },
         {
@@ -222,7 +222,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100108361",
+                    "id": "astnode100111280",
                     "name": "ContainerController#onHideMapControlsButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -250,7 +250,7 @@
             "scope": "instance",
             "$longname": "ContainerController#onHideMapControlsButtonClick",
             "$kind": "method",
-            "id": 3267,
+            "id": 3372,
             "neoClassName": "Covid.view.mapboxGl.ContainerController"
         },
         {
@@ -265,7 +265,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100108373",
+                    "id": "astnode100111292",
                     "name": "ContainerController#onTerrainChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -293,7 +293,7 @@
             "scope": "instance",
             "$longname": "ContainerController#onTerrainChange",
             "$kind": "method",
-            "id": 3268,
+            "id": 3373,
             "neoClassName": "Covid.view.mapboxGl.ContainerController"
         }
     ]

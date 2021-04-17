@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.FooterContainer",
             "$kind": "class",
-            "id": 3152,
+            "id": 3257,
             "neoClassName": "Covid.view.FooterContainer"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3153,
+            "id": 3258,
             "neoClassName": "Covid.view.FooterContainer"
         },
         {
@@ -68,7 +68,7 @@
             "scope": "global",
             "$longname": "height",
             "$kind": "property",
-            "id": 3154,
+            "id": 3259,
             "neoClassName": "Covid.view.FooterContainer"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "layout",
             "$kind": "property",
-            "id": 3155,
+            "id": 3260,
             "neoClassName": "Covid.view.FooterContainer"
         },
         {
@@ -117,7 +117,7 @@
             "scope": "global",
             "$longname": "reference",
             "$kind": "property",
-            "id": 3156,
+            "id": 3261,
             "neoClassName": "Covid.view.FooterContainer"
         },
         {
@@ -142,7 +142,7 @@
             "scope": "global",
             "$longname": "style",
             "$kind": "property",
-            "id": 3157,
+            "id": 3262,
             "neoClassName": "Covid.view.FooterContainer"
         },
         {
@@ -165,7 +165,7 @@
             "scope": "global",
             "$longname": "itemDefaults",
             "$kind": "property",
-            "id": 3158,
+            "id": 3263,
             "neoClassName": "Covid.view.FooterContainer"
         },
         {
@@ -188,7 +188,7 @@
             "scope": "global",
             "$longname": "items",
             "$kind": "property",
-            "id": 3159,
+            "id": 3264,
             "neoClassName": "Covid.view.FooterContainer"
         }
     ]

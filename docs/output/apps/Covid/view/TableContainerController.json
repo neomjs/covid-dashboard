@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.TableContainerController",
             "$kind": "class",
-            "id": 3290,
+            "id": 3384,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3291,
+            "id": 3385,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
@@ -68,7 +68,7 @@
             "scope": "global",
             "$longname": "apiBaseUrl",
             "$kind": "property",
-            "id": 3292,
+            "id": 3386,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
@@ -92,7 +92,7 @@
             "scope": "global",
             "$longname": "apiHistoricalDataEndpoint",
             "$kind": "property",
-            "id": 3293,
+            "id": 3387,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
@@ -118,7 +118,7 @@
             "scope": "global",
             "$longname": "apiHistoricalDataTimeRange",
             "$kind": "property",
-            "id": 3294,
+            "id": 3388,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
@@ -143,7 +143,7 @@
             "scope": "global",
             "$longname": "removeEmptyRecords",
             "$kind": "property",
-            "id": 3295,
+            "id": 3389,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
@@ -167,7 +167,7 @@
             "scope": "global",
             "$longname": "selectedRecord",
             "$kind": "property",
-            "id": 3296,
+            "id": 3390,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
@@ -193,7 +193,7 @@
             "scope": "global",
             "$longname": "table_",
             "$kind": "property",
-            "id": 3297,
+            "id": 3391,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
@@ -201,14 +201,14 @@
             "meta": {
                 "range": [
                     1525,
-                    1665
+                    1670
                 ],
                 "filename": "TableContainerController.mjs",
                 "lineno": 47,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109041",
+                    "id": "astnode100111665",
                     "name": "TableContainerController#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -225,22 +225,22 @@
             "params": [],
             "$longname": "TableContainerController#onConstructed",
             "$kind": "method",
-            "id": 3298,
+            "id": 3392,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    1722,
-                    4468
+                    1727,
+                    4473
                 ],
                 "filename": "TableContainerController.mjs",
                 "lineno": 59,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109066",
+                    "id": "astnode100111690",
                     "name": "TableContainerController#addStoreItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -268,22 +268,22 @@
             "scope": "instance",
             "$longname": "TableContainerController#addStoreItems",
             "$kind": "method",
-            "id": 3299,
+            "id": 3393,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} record\n     * @protected\n     * @returns {Object}\n     */",
             "meta": {
                 "range": [
-                    4570,
-                    5110
+                    4575,
+                    5115
                 ],
                 "filename": "TableContainerController.mjs",
                 "lineno": 141,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109405",
+                    "id": "astnode100112029",
                     "name": "TableContainerController.assignFieldsOrNull",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -321,22 +321,22 @@
             "scope": "static",
             "$longname": "TableContainerController.assignFieldsOrNull",
             "$kind": "method",
-            "id": 3300,
+            "id": 3394,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
             "comment": "/**\n     * Triggered when accessing the table config\n     * @param {Neo.table.Container|null} value\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    5246,
-                    5392
+                    5251,
+                    5397
                 ],
                 "filename": "TableContainerController.mjs",
                 "lineno": 159,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109460",
+                    "id": "astnode100112084",
                     "name": "TableContainerController#beforeGetTable",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -367,22 +367,22 @@
             "scope": "instance",
             "$longname": "TableContainerController#beforeGetTable",
             "$kind": "method",
-            "id": 3301,
+            "id": 3395,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
             "comment": "/**\n     *\n     * @param {String} countryName\n     */",
             "meta": {
                 "range": [
-                    5456,
-                    5849
+                    5461,
+                    5854
                 ],
                 "filename": "TableContainerController.mjs",
                 "lineno": 171,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109483",
+                    "id": "astnode100112107",
                     "name": "TableContainerController#loadHistoricalData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -410,22 +410,22 @@
             "scope": "instance",
             "$longname": "TableContainerController#loadHistoricalData",
             "$kind": "method",
-            "id": 3302,
+            "id": 3396,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
             "comment": "/**\n     * {Object} data\n     */",
             "meta": {
                 "range": [
-                    5892,
-                    5981
+                    5897,
+                    5986
                 ],
                 "filename": "TableContainerController.mjs",
                 "lineno": 184,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109545",
+                    "id": "astnode100112169",
                     "name": "TableContainerController#on520pxButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -445,22 +445,22 @@
             "params": [],
             "$longname": "TableContainerController#on520pxButtonClick",
             "$kind": "method",
-            "id": 3303,
+            "id": 3397,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
             "comment": "/**\n     * {Object} data\n     */",
             "meta": {
                 "range": [
-                    6024,
-                    6113
+                    6029,
+                    6118
                 ],
                 "filename": "TableContainerController.mjs",
                 "lineno": 191,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109560",
+                    "id": "astnode100112184",
                     "name": "TableContainerController#on800pxButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -480,22 +480,22 @@
             "params": [],
             "$longname": "TableContainerController#on800pxButtonClick",
             "$kind": "method",
-            "id": 3304,
+            "id": 3398,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
             "comment": "/**\n     * {Object} data\n     */",
             "meta": {
                 "range": [
-                    6156,
-                    6411
+                    6161,
+                    6421
                 ],
                 "filename": "TableContainerController.mjs",
                 "lineno": 198,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109575",
+                    "id": "astnode100112199",
                     "name": "TableContainerController#onCollapseButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -515,22 +515,22 @@
             "params": [],
             "$longname": "TableContainerController#onCollapseButtonClick",
             "$kind": "method",
-            "id": 3305,
+            "id": 3399,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
             "comment": "/**\n     * {Object} data\n     */",
             "meta": {
                 "range": [
-                    6454,
-                    7494
+                    6464,
+                    7504
                 ],
                 "filename": "TableContainerController.mjs",
                 "lineno": 210,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109619",
+                    "id": "astnode100112243",
                     "name": "TableContainerController#onDailyValuesChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -550,22 +550,22 @@
             "params": [],
             "$longname": "TableContainerController#onDailyValuesChange",
             "$kind": "method",
-            "id": 3306,
+            "id": 3400,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
             "comment": "/**\n     * {Object} data\n     */",
             "meta": {
                 "range": [
-                    7537,
-                    7767
+                    7547,
+                    7777
                 ],
                 "filename": "TableContainerController.mjs",
                 "lineno": 243,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109720",
+                    "id": "astnode100112344",
                     "name": "TableContainerController#onLogarithmicScaleChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -585,22 +585,22 @@
             "params": [],
             "$longname": "TableContainerController#onLogarithmicScaleChange",
             "$kind": "method",
-            "id": 3307,
+            "id": 3401,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
             "comment": "/**\n     * {Object} data\n     * {Object} data.record\n     */",
             "meta": {
                 "range": [
-                    7838,
-                    8384
+                    7848,
+                    8394
                 ],
                 "filename": "TableContainerController.mjs",
                 "lineno": 255,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109751",
+                    "id": "astnode100112375",
                     "name": "TableContainerController#onTableSelect",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -620,22 +620,22 @@
             "params": [],
             "$longname": "TableContainerController#onTableSelect",
             "$kind": "method",
-            "id": 3308,
+            "id": 3402,
             "neoClassName": "Covid.view.TableContainerController"
         },
         {
             "comment": "/**\n     * Logarithmic Axis break for values of 0, so we need to change those to null\n     * Adding the current record, since the historical data starts \"yesterday\"\n     * @param {Object[]} dataArray\n     */",
             "meta": {
                 "range": [
-                    8602,
-                    9176
+                    8612,
+                    9186
                 ],
                 "filename": "TableContainerController.mjs",
                 "lineno": 276,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109823",
+                    "id": "astnode100112447",
                     "name": "TableContainerController#updateLineChart",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -664,7 +664,7 @@
             "scope": "instance",
             "$longname": "TableContainerController#updateLineChart",
             "$kind": "method",
-            "id": 3309,
+            "id": 3403,
             "neoClassName": "Covid.view.TableContainerController"
         }
     ]

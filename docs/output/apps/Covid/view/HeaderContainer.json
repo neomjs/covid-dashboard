@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.HeaderContainer",
             "$kind": "class",
-            "id": 3179,
+            "id": 3284,
             "neoClassName": "Covid.view.HeaderContainer"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3180,
+            "id": 3285,
             "neoClassName": "Covid.view.HeaderContainer"
         },
         {
@@ -68,7 +68,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 3181,
+            "id": 3286,
             "neoClassName": "Covid.view.HeaderContainer"
         },
         {
@@ -92,7 +92,7 @@
             "scope": "global",
             "$longname": "height",
             "$kind": "property",
-            "id": 3182,
+            "id": 3287,
             "neoClassName": "Covid.view.HeaderContainer"
         },
         {
@@ -117,7 +117,7 @@
             "scope": "global",
             "$longname": "layout",
             "$kind": "property",
-            "id": 3183,
+            "id": 3288,
             "neoClassName": "Covid.view.HeaderContainer"
         },
         {
@@ -140,7 +140,7 @@
             "scope": "global",
             "$longname": "items",
             "$kind": "property",
-            "id": 3184,
+            "id": 3289,
             "neoClassName": "Covid.view.HeaderContainer"
         }
     ]

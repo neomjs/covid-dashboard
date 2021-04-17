@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.MainContainerController",
             "$kind": "class",
-            "id": 3211,
+            "id": 3316,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3212,
+            "id": 3317,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 3213,
+            "id": 3318,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "activeMainTabIndex",
             "$kind": "property",
-            "id": 3214,
+            "id": 3319,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -117,7 +117,7 @@
             "scope": "global",
             "$longname": "apiSummaryUrl",
             "$kind": "property",
-            "id": 3215,
+            "id": 3320,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -141,7 +141,7 @@
             "scope": "global",
             "$longname": "apiUrl",
             "$kind": "property",
-            "id": 3216,
+            "id": 3321,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -166,7 +166,7 @@
             "scope": "global",
             "$longname": "countryRecord",
             "$kind": "property",
-            "id": 3217,
+            "id": 3322,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -191,7 +191,7 @@
             "scope": "global",
             "$longname": "data",
             "$kind": "property",
-            "id": 3218,
+            "id": 3323,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -217,7 +217,7 @@
             "scope": "global",
             "$longname": "mainTabs",
             "$kind": "property",
-            "id": 3219,
+            "id": 3324,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -243,7 +243,7 @@
             "scope": "global",
             "$longname": "mapboxglMapHasData",
             "$kind": "property",
-            "id": 3220,
+            "id": 3325,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -267,7 +267,7 @@
             "scope": "global",
             "$longname": "summaryData",
             "$kind": "property",
-            "id": 3221,
+            "id": 3326,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -293,7 +293,7 @@
             "scope": "global",
             "$longname": "worldMapHasData",
             "$kind": "property",
-            "id": 3222,
+            "id": 3327,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
@@ -301,14 +301,14 @@
             "meta": {
                 "range": [
                     2146,
-                    2338
+                    2343
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 67,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100106209",
+                    "id": "astnode100109128",
                     "name": "MainContainerController#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -325,22 +325,22 @@
             "params": [],
             "$longname": "MainContainerController#onConstructed",
             "$kind": "method",
-            "id": 3223,
+            "id": 3328,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     *\n     * @param {Object[]} data\n     */",
             "meta": {
                 "range": [
-                    2397,
-                    3791
+                    2402,
+                    3796
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 82,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100106244",
+                    "id": "astnode100109163",
                     "name": "MainContainerController#addStoreItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -368,22 +368,22 @@
             "scope": "instance",
             "$longname": "MainContainerController#addStoreItems",
             "$kind": "method",
-            "id": 3224,
+            "id": 3329,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {Number} data.active\n     * @param {Number} data.cases\n     * @param {Number} data.deaths\n     * @param {Number} data.recovered\n     * @param {Number} data.updated // timestamp\n     */",
             "meta": {
                 "range": [
-                    4039,
-                    4886
+                    4044,
+                    4891
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 134,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100106443",
+                    "id": "astnode100109362",
                     "name": "MainContainerController#applySummaryData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -452,22 +452,22 @@
             "scope": "instance",
             "$longname": "MainContainerController#applySummaryData",
             "$kind": "method",
-            "id": 3225,
+            "id": 3330,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} record\n     */",
             "meta": {
                 "range": [
-                    4945,
-                    5030
+                    4950,
+                    5035
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 164,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100106611",
+                    "id": "astnode100109530",
                     "name": "MainContainerController#clearCountryField",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -495,22 +495,22 @@
             "scope": "instance",
             "$longname": "MainContainerController#clearCountryField",
             "$kind": "method",
-            "id": 3226,
+            "id": 3331,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} hashObject\n     * @param {String} hashObject.mainview\n     * @returns {Number}\n     */",
             "meta": {
                 "range": [
-                    5161,
-                    5335
+                    5166,
+                    5340
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 174,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100106625",
+                    "id": "astnode100109544",
                     "name": "MainContainerController#getTabIndex",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -555,22 +555,22 @@
             "scope": "instance",
             "$longname": "MainContainerController#getTabIndex",
             "$kind": "method",
-            "id": 3227,
+            "id": 3332,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     *\n     * @param {Number} tabIndex\n     * @returns {Neo.component.Base}\n     */",
             "meta": {
                 "range": [
-                    5433,
-                    5517
+                    5438,
+                    5522
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 187,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100106651",
+                    "id": "astnode100109570",
                     "name": "MainContainerController#getView",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -607,22 +607,22 @@
             "scope": "instance",
             "$longname": "MainContainerController#getView",
             "$kind": "method",
-            "id": 3228,
+            "id": 3333,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    5546,
-                    5786
+                    5551,
+                    5791
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 194,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100106666",
+                    "id": "astnode100109585",
                     "name": "MainContainerController#loadData",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -639,22 +639,22 @@
             "params": [],
             "$longname": "MainContainerController#loadData",
             "$kind": "method",
-            "id": 3229,
+            "id": 3334,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    5815,
-                    6218
+                    5820,
+                    6223
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 206,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100106714",
+                    "id": "astnode100109633",
                     "name": "MainContainerController#loadSummaryData",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -671,22 +671,22 @@
             "params": [],
             "$longname": "MainContainerController#loadSummaryData",
             "$kind": "method",
-            "id": 3230,
+            "id": 3335,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    6247,
-                    6379
+                    6252,
+                    6384
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 224,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100106779",
+                    "id": "astnode100109698",
                     "name": "MainContainerController#onCountryFieldClear",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -703,22 +703,22 @@
             "params": [],
             "$longname": "MainContainerController#onCountryFieldClear",
             "$kind": "method",
-            "id": 3231,
+            "id": 3336,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    6436,
-                    6586
+                    6441,
+                    6591
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 236,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100106799",
+                    "id": "astnode100109718",
                     "name": "MainContainerController#onCountryFieldSelect",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -746,22 +746,22 @@
             "scope": "instance",
             "$longname": "MainContainerController#onCountryFieldSelect",
             "$kind": "method",
-            "id": 3232,
+            "id": 3337,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} value\n     * @param {Object} oldValue\n     */",
             "meta": {
                 "range": [
-                    6676,
-                    10351
+                    6681,
+                    10356
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 249,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100106824",
+                    "id": "astnode100109743",
                     "name": "MainContainerController#onHashChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -798,22 +798,22 @@
             "scope": "instance",
             "$longname": "MainContainerController#onHashChange",
             "$kind": "method",
-            "id": 3233,
+            "id": 3338,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    10380,
-                    11054
+                    10385,
+                    11059
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 340,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107192",
+                    "id": "astnode100110111",
                     "name": "MainContainerController#onLoadSummaryDataFail",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -830,22 +830,22 @@
             "params": [],
             "$longname": "MainContainerController#onLoadSummaryDataFail",
             "$kind": "method",
-            "id": 3234,
+            "id": 3339,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     *\n     */",
             "meta": {
                 "range": [
-                    11083,
-                    11707
+                    11088,
+                    11712
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 364,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107251",
+                    "id": "astnode100110170",
                     "name": "MainContainerController#onMainViewMounted",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -862,22 +862,22 @@
             "params": [],
             "$longname": "MainContainerController#onMainViewMounted",
             "$kind": "method",
-            "id": 3235,
+            "id": 3340,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    11757,
-                    11851
+                    11762,
+                    11856
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 387,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107337",
+                    "id": "astnode100110256",
                     "name": "MainContainerController#onReloadDataButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -905,22 +905,22 @@
             "scope": "instance",
             "$longname": "MainContainerController#onReloadDataButtonClick",
             "$kind": "method",
-            "id": 3236,
+            "id": 3341,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    11901,
-                    12236
+                    11906,
+                    12246
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 395,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107352",
+                    "id": "astnode100110271",
                     "name": "MainContainerController#onRemoveFooterButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -948,22 +948,22 @@
             "scope": "instance",
             "$longname": "MainContainerController#onRemoveFooterButtonClick",
             "$kind": "method",
-            "id": 3237,
+            "id": 3342,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    12286,
-                    14167
+                    12296,
+                    14204
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 409,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107400",
+                    "id": "astnode100110319",
                     "name": "MainContainerController#onSwitchThemeButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -991,22 +991,22 @@
             "scope": "instance",
             "$longname": "MainContainerController#onSwitchThemeButtonClick",
             "$kind": "method",
-            "id": 3238,
+            "id": 3343,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     * @param {Object} data\n     */",
             "meta": {
                 "range": [
-                    14217,
-                    14308
+                    14254,
+                    14345
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 468,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107621",
+                    "id": "astnode100110540",
                     "name": "MainContainerController#onTabMove",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1034,22 +1034,22 @@
             "scope": "instance",
             "$longname": "MainContainerController#onTabMove",
             "$kind": "method",
-            "id": 3239,
+            "id": 3344,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     *\n     * @param view\n     * @param record\n     */",
             "meta": {
                 "range": [
-                    14377,
-                    15240
+                    14414,
+                    15277
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 477,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107640",
+                    "id": "astnode100110559",
                     "name": "MainContainerController.selectMapboxGlCountry",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1076,22 +1076,22 @@
             "scope": "static",
             "$longname": "MainContainerController.selectMapboxGlCountry",
             "$kind": "method",
-            "id": 3240,
+            "id": 3345,
             "neoClassName": "Covid.view.MainContainerController"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {Object} data.record\n     */",
             "meta": {
                 "range": [
-                    15332,
-                    15446
+                    15369,
+                    15483
                 ],
                 "filename": "MainContainerController.mjs",
                 "lineno": 504,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107738",
+                    "id": "astnode100110657",
                     "name": "MainContainerController#updateCountryField",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1127,7 +1127,7 @@
             "scope": "instance",
             "$longname": "MainContainerController#updateCountryField",
             "$kind": "method",
-            "id": 3241,
+            "id": 3346,
             "neoClassName": "Covid.view.MainContainerController"
         }
     ]
