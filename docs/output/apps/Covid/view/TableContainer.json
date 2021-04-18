@@ -233,7 +233,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100111530",
+                    "id": "astnode100111532",
                     "name": "TableContainer",
                     "type": "MethodDefinition",
                     "paramnames": [

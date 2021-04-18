@@ -208,7 +208,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100111665",
+                    "id": "astnode100111667",
                     "name": "TableContainerController#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -240,7 +240,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100111690",
+                    "id": "astnode100111692",
                     "name": "TableContainerController#addStoreItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -283,7 +283,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100112029",
+                    "id": "astnode100112031",
                     "name": "TableContainerController.assignFieldsOrNull",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -336,7 +336,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100112084",
+                    "id": "astnode100112086",
                     "name": "TableContainerController#beforeGetTable",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -382,7 +382,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100112107",
+                    "id": "astnode100112109",
                     "name": "TableContainerController#loadHistoricalData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -425,7 +425,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100112169",
+                    "id": "astnode100112171",
                     "name": "TableContainerController#on520pxButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -460,7 +460,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100112184",
+                    "id": "astnode100112186",
                     "name": "TableContainerController#on800pxButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -495,7 +495,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100112199",
+                    "id": "astnode100112201",
                     "name": "TableContainerController#onCollapseButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -530,7 +530,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100112243",
+                    "id": "astnode100112245",
                     "name": "TableContainerController#onDailyValuesChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -565,7 +565,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100112344",
+                    "id": "astnode100112346",
                     "name": "TableContainerController#onLogarithmicScaleChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -600,7 +600,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100112375",
+                    "id": "astnode100112377",
                     "name": "TableContainerController#onTableSelect",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -635,7 +635,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100112447",
+                    "id": "astnode100112449",
                     "name": "TableContainerController#updateLineChart",
                     "type": "MethodDefinition",
                     "paramnames": [

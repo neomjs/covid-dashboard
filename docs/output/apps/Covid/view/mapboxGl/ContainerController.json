@@ -84,7 +84,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100111213",
+                    "id": "astnode100111215",
                     "name": "ContainerController#changeLayerVisibility",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -136,7 +136,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100111235",
+                    "id": "astnode100111237",
                     "name": "ContainerController#onDetailCirclesChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -179,7 +179,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100111263",
+                    "id": "astnode100111265",
                     "name": "ContainerController#onHeatMapChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -222,7 +222,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100111280",
+                    "id": "astnode100111282",
                     "name": "ContainerController#onHideMapControlsButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -265,7 +265,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100111292",
+                    "id": "astnode100111294",
                     "name": "ContainerController#onTerrainChange",
                     "type": "MethodDefinition",
                     "paramnames": [

@@ -306,7 +306,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
                 "code": {
-                    "id": "astnode100106098",
+                    "id": "astnode100106100",
                     "name": "CountryHelix#createItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -377,7 +377,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
                 "code": {
-                    "id": "astnode100106304",
+                    "id": "astnode100106306",
                     "name": "CountryHelix#getCloneTransform",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -418,7 +418,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
                 "code": {
-                    "id": "astnode100106353",
+                    "id": "astnode100106355",
                     "name": "CountryHelix#getItemId",
                     "type": "MethodDefinition",
                     "paramnames": [

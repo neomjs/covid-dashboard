@@ -108,7 +108,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100112922",
+                    "id": "astnode100112924",
                     "name": "WorldMapContainerController#onHeatRuleFieldChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -151,7 +151,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100112957",
+                    "id": "astnode100112959",
                     "name": "WorldMapContainerController#onSeriesButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [

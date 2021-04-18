@@ -209,7 +209,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100108575",
+                    "id": "astnode100108577",
                     "name": "HelixContainer",
                     "type": "MethodDefinition",
                     "paramnames": [

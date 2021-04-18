@@ -308,7 +308,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109128",
+                    "id": "astnode100109130",
                     "name": "MainContainerController#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -340,7 +340,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109163",
+                    "id": "astnode100109165",
                     "name": "MainContainerController#addStoreItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -383,7 +383,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109362",
+                    "id": "astnode100109364",
                     "name": "MainContainerController#applySummaryData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -467,7 +467,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109530",
+                    "id": "astnode100109532",
                     "name": "MainContainerController#clearCountryField",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -510,7 +510,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109544",
+                    "id": "astnode100109546",
                     "name": "MainContainerController#getTabIndex",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -570,7 +570,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109570",
+                    "id": "astnode100109572",
                     "name": "MainContainerController#getView",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -622,7 +622,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109585",
+                    "id": "astnode100109587",
                     "name": "MainContainerController#loadData",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -654,7 +654,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109633",
+                    "id": "astnode100109635",
                     "name": "MainContainerController#loadSummaryData",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -686,7 +686,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109698",
+                    "id": "astnode100109700",
                     "name": "MainContainerController#onCountryFieldClear",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -718,7 +718,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109718",
+                    "id": "astnode100109720",
                     "name": "MainContainerController#onCountryFieldSelect",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -761,7 +761,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100109743",
+                    "id": "astnode100109745",
                     "name": "MainContainerController#onHashChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -813,7 +813,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100110111",
+                    "id": "astnode100110113",
                     "name": "MainContainerController#onLoadSummaryDataFail",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -845,7 +845,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100110170",
+                    "id": "astnode100110172",
                     "name": "MainContainerController#onMainViewMounted",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -877,7 +877,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100110256",
+                    "id": "astnode100110258",
                     "name": "MainContainerController#onReloadDataButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -920,7 +920,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100110271",
+                    "id": "astnode100110273",
                     "name": "MainContainerController#onRemoveFooterButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -963,7 +963,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100110319",
+                    "id": "astnode100110321",
                     "name": "MainContainerController#onSwitchThemeButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1006,7 +1006,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100110540",
+                    "id": "astnode100110542",
                     "name": "MainContainerController#onTabMove",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1049,7 +1049,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100110559",
+                    "id": "astnode100110561",
                     "name": "MainContainerController.selectMapboxGlCountry",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1091,7 +1091,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100110657",
+                    "id": "astnode100110659",
                     "name": "MainContainerController#updateCountryField",
                     "type": "MethodDefinition",
                     "paramnames": [

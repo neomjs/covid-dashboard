@@ -112,7 +112,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid",
                 "code": {
-                    "id": "astnode100105003",
+                    "id": "astnode100105005",
                     "name": "Util.formatInfected",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -173,7 +173,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid",
                 "code": {
-                    "id": "astnode100105058",
+                    "id": "astnode100105060",
                     "name": "Util.formatNumber",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -244,7 +244,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid",
                 "code": {
-                    "id": "astnode100105105",
+                    "id": "astnode100105107",
                     "name": "Util.getCountryFlagUrl",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -297,7 +297,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid",
                 "code": {
-                    "id": "astnode100105272",
+                    "id": "astnode100105274",
                     "name": "Util.indexRenderer",
                     "type": "MethodDefinition",
                     "paramnames": [
