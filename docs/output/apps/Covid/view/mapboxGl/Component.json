@@ -132,7 +132,7 @@
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100110716",
+                    "id": "astnode100110711",
                     "name": "layers",
                     "type": "ArrayExpression",
                     "value": "[\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"id\\\":\\\"hillshading\\\",\\\"source\\\":\\\"dem\\\",\\\"type\\\":\\\"hillshade\\\"}\",\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"filter\\\":\\\"\\\",\\\"id\\\":\\\"covid19-heat\\\",\\\"source\\\":\\\"covid19\\\",\\\"type\\\":\\\"heatmap\\\",\\\"paint\\\":\\\"\\\"}\",\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"filter\\\":\\\"\\\",\\\"id\\\":\\\"covid19-circle\\\",\\\"source\\\":\\\"covid19\\\",\\\"type\\\":\\\"circle\\\",\\\"minzoom\\\":5,\\\"paint\\\":\\\"\\\"}\",\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"filter\\\":\\\"\\\",\\\"id\\\":\\\"covid19-circle-text\\\",\\\"source\\\":\\\"covid19\\\",\\\"type\\\":\\\"symbol\\\",\\\"minzoom\\\":5,\\\"layout\\\":\\\"\\\",\\\"paint\\\":\\\"\\\"}\"]"
@@ -242,7 +242,7 @@
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100110951",
+                    "id": "astnode100110946",
                     "name": "sources",
                     "type": "ArrayExpression",
                     "value": "[\"{\\\"id\\\":\\\"covid19\\\",\\\"type\\\":\\\"geojson\\\",\\\"data\\\":\\\"\\\"}\",\"{\\\"id\\\":\\\"dem\\\",\\\"type\\\":\\\"raster-dem\\\",\\\"url\\\":\\\"mapbox://mapbox.terrain-rgb\\\"}\"]"

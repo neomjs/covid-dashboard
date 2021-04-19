@@ -59,7 +59,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100092448",
+                    "id": "astnode100092450",
                     "name": "Style.compareStyles",
                     "type": "MethodDefinition",
                     "paramnames": [

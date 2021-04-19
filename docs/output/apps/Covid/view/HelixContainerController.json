@@ -85,7 +85,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100108654",
+                    "id": "astnode100108656",
                     "name": "HelixContainerController#beforeGetHelix",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -131,7 +131,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100108677",
+                    "id": "astnode100108679",
                     "name": "HelixContainerController#onCollapseButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -166,7 +166,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100108717",
+                    "id": "astnode100108719",
                     "name": "HelixContainerController#onFlipItemsButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -201,7 +201,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100108735",
+                    "id": "astnode100108737",
                     "name": "HelixContainerController#onFollowSelectionButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -236,7 +236,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100108782",
+                    "id": "astnode100108784",
                     "name": "HelixContainerController#onRangefieldChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -279,7 +279,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100108821",
+                    "id": "astnode100108823",
                     "name": "HelixContainerController#onRangefieldMounted",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -322,7 +322,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100108871",
+                    "id": "astnode100108873",
                     "name": "HelixContainerController#onSortButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [

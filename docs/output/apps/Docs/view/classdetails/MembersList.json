@@ -279,7 +279,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100100946",
+                    "id": "astnode100100948",
                     "name": "MembersList#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -311,7 +311,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100101013",
+                    "id": "astnode100101015",
                     "name": "MembersList#afterSetFilterMembersQuery",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -365,7 +365,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100101029",
+                    "id": "astnode100101031",
                     "name": "MembersList#afterSetShowProtectedMembers",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -419,7 +419,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100101045",
+                    "id": "astnode100101047",
                     "name": "MembersList#afterSetShowPrivateMembers",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -473,7 +473,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100101061",
+                    "id": "astnode100101063",
                     "name": "MembersList#afterSetShowStaticMembers",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -527,7 +527,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100101077",
+                    "id": "astnode100101079",
                     "name": "MembersList#applyConfigsHeader",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -589,7 +589,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100101118",
+                    "id": "astnode100101120",
                     "name": "MembersList#applyEventsHeader",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -669,7 +669,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100101175",
+                    "id": "astnode100101177",
                     "name": "MembersList#applyMethodsHeader",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -749,7 +749,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100101241",
+                    "id": "astnode100101243",
                     "name": "MembersList#createItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -781,7 +781,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100101914",
+                    "id": "astnode100101916",
                     "name": "MembersList.createParametersTable",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -834,7 +834,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100102272",
+                    "id": "astnode100102274",
                     "name": "MembersList.escapeHtml",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -887,7 +887,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100102289",
+                    "id": "astnode100102291",
                     "name": "MembersList#filterAndSortItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -919,7 +919,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100102705",
+                    "id": "astnode100102707",
                     "name": "MembersList#onStoreFilter",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -952,7 +952,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100102709",
+                    "id": "astnode100102711",
                     "name": "MembersList#onRefreshClassMembers",
                     "type": "MethodDefinition",
                     "paramnames": []

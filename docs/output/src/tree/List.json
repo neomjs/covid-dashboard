@@ -278,7 +278,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tree",
                 "code": {
-                    "id": "astnode100088548",
+                    "id": "astnode100088550",
                     "name": "Tree#afterSetDraggable",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -332,7 +332,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tree",
                 "code": {
-                    "id": "astnode100088615",
+                    "id": "astnode100088617",
                     "name": "Tree#afterSetSortable",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -386,7 +386,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tree",
                 "code": {
-                    "id": "astnode100088686",
+                    "id": "astnode100088688",
                     "name": "Tree#beforeSetStore",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -451,7 +451,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tree",
                 "code": {
-                    "id": "astnode100088714",
+                    "id": "astnode100088716",
                     "name": "Tree#collapseAll",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -498,7 +498,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tree",
                 "code": {
-                    "id": "astnode100088802",
+                    "id": "astnode100088804",
                     "name": "Tree#createItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -575,7 +575,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tree",
                 "code": {
-                    "id": "astnode100089022",
+                    "id": "astnode100089024",
                     "name": "Tree#expandAll",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -621,7 +621,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tree",
                 "code": {
-                    "id": "astnode100089111",
+                    "id": "astnode100089113",
                     "name": "Tree#filter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -709,7 +709,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tree",
                 "code": {
-                    "id": "astnode100089291",
+                    "id": "astnode100089293",
                     "name": "Tree#getListItemsRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -750,7 +750,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tree",
                 "code": {
-                    "id": "astnode100089308",
+                    "id": "astnode100089310",
                     "name": "Tree#onClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -793,7 +793,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tree",
                 "code": {
-                    "id": "astnode100089341",
+                    "id": "astnode100089343",
                     "name": "Tree#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -825,7 +825,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tree",
                 "code": {
-                    "id": "astnode100089403",
+                    "id": "astnode100089405",
                     "name": "Tree#onItemClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -897,7 +897,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tree",
                 "code": {
-                    "id": "astnode100089547",
+                    "id": "astnode100089549",
                     "name": "Tree#onLeafItemClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -941,7 +941,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tree",
                 "code": {
-                    "id": "astnode100089552",
+                    "id": "astnode100089554",
                     "name": "Tree#onMenuItemClick",
                     "type": "MethodDefinition",
                     "paramnames": [

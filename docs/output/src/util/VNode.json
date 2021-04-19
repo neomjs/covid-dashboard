@@ -59,7 +59,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100093672",
+                    "id": "astnode100093674",
                     "name": "VNode.findChildVnode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -146,7 +146,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100094022",
+                    "id": "astnode100094024",
                     "name": "VNode.findChildVnodeById",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -211,7 +211,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100094093",
+                    "id": "astnode100094095",
                     "name": "VNode.getChildIds",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -266,7 +266,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100094143",
+                    "id": "astnode100094145",
                     "name": "VNode.removeChildVnode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -329,7 +329,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100094221",
+                    "id": "astnode100094223",
                     "name": "VNode.replaceChildVnode",
                     "type": "MethodDefinition",
                     "paramnames": [

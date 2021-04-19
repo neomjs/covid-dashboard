@@ -109,7 +109,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100082248",
+                    "id": "astnode100082250",
                     "name": "RowModel#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -141,7 +141,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100082286",
+                    "id": "astnode100082288",
                     "name": "RowModel#getRowId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -197,7 +197,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100082329",
+                    "id": "astnode100082331",
                     "name": "RowModel.getRowNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -254,7 +254,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100082372",
+                    "id": "astnode100082374",
                     "name": "RowModel#onKeyDownDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -297,7 +297,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100082384",
+                    "id": "astnode100082386",
                     "name": "RowModel#onKeyDownUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -340,7 +340,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100082397",
+                    "id": "astnode100082399",
                     "name": "RowModel#onNavKeyRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -392,7 +392,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100082507",
+                    "id": "astnode100082509",
                     "name": "RowModel#onRowClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -435,7 +435,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100082577",
+                    "id": "astnode100082579",
                     "name": "RowModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -478,7 +478,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection/table",
                 "code": {
-                    "id": "astnode100082630",
+                    "id": "astnode100082632",
                     "name": "RowModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []

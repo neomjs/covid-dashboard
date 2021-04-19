@@ -206,7 +206,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086972",
+                    "id": "astnode100086974",
                     "name": "Toolbar#afterSetShowHeaderFilters",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -260,7 +260,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100087016",
+                    "id": "astnode100087018",
                     "name": "Toolbar#createItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -292,7 +292,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100087226",
+                    "id": "astnode100087228",
                     "name": "Toolbar#getLayoutConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -346,7 +346,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100087233",
+                    "id": "astnode100087235",
                     "name": "Toolbar#getVdomItemsRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -389,7 +389,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100087247",
+                    "id": "astnode100087249",
                     "name": "Toolbar#getVdomRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -432,7 +432,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100087259",
+                    "id": "astnode100087261",
                     "name": "Toolbar#getVnodeRoot",
                     "type": "MethodDefinition",
                     "paramnames": []

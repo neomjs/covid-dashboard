@@ -204,7 +204,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
                 "code": {
-                    "id": "astnode100103282",
+                    "id": "astnode100103284",
                     "name": "ContentTabContainer",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -246,7 +246,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
                 "code": {
-                    "id": "astnode100103312",
+                    "id": "astnode100103314",
                     "name": "ContentTabContainer#getTabButtonConfig",
                     "type": "MethodDefinition",
                     "paramnames": [

@@ -324,7 +324,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100097860",
+                    "id": "astnode100097862",
                     "name": "Manager",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -366,7 +366,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100097939",
+                    "id": "astnode100097941",
                     "name": "Manager#broadcast",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -405,7 +405,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100097965",
+                    "id": "astnode100097967",
                     "name": "Manager#createWorker",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -458,7 +458,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100098085",
+                    "id": "astnode100098087",
                     "name": "Manager#createWorkers",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -491,7 +491,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100098180",
+                    "id": "astnode100098182",
                     "name": "Manager#detectFeatures",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -523,7 +523,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100098231",
+                    "id": "astnode100098233",
                     "name": "Manager#getWorker",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -576,7 +576,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100098249",
+                    "id": "astnode100098251",
                     "name": "Manager#loadApplication",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -619,7 +619,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100098271",
+                    "id": "astnode100098273",
                     "name": "Manager#onWorkerConstructed",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -662,7 +662,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100098325",
+                    "id": "astnode100098327",
                     "name": "Manager#onWorkerError",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -706,7 +706,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100098346",
+                    "id": "astnode100098348",
                     "name": "Manager#onWorkerMessage",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -750,7 +750,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100098587",
+                    "id": "astnode100098589",
                     "name": "Manager#promiseMessage",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -824,7 +824,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100098632",
+                    "id": "astnode100098634",
                     "name": "Manager#resolveDomOperationPromise",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -867,7 +867,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100098666",
+                    "id": "astnode100098668",
                     "name": "Manager#sendMessage",
                     "type": "MethodDefinition",
                     "paramnames": [

@@ -110,7 +110,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100077404",
+                    "id": "astnode100077406",
                     "name": "GalleryModel#addDomListener",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -143,7 +143,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100077408",
+                    "id": "astnode100077410",
                     "name": "GalleryModel#onContainerClick",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -175,7 +175,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100077505",
+                    "id": "astnode100077507",
                     "name": "GalleryModel#onItemClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -218,7 +218,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100077584",
+                    "id": "astnode100077586",
                     "name": "GalleryModel#onKeyDownDown",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -261,7 +261,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100077602",
+                    "id": "astnode100077604",
                     "name": "GalleryModel#onKeyDownLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -304,7 +304,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100077621",
+                    "id": "astnode100077623",
                     "name": "GalleryModel#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -347,7 +347,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100077639",
+                    "id": "astnode100077641",
                     "name": "GalleryModel#onKeyDownUp",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -390,7 +390,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100077658",
+                    "id": "astnode100077660",
                     "name": "GalleryModel#onNavKeyColumn",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -434,7 +434,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100077761",
+                    "id": "astnode100077763",
                     "name": "GalleryModel#onNavKeyRow",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -478,7 +478,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100077922",
+                    "id": "astnode100077924",
                     "name": "GalleryModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -521,7 +521,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100078005",
+                    "id": "astnode100078007",
                     "name": "GalleryModel#select",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -564,7 +564,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100078168",
+                    "id": "astnode100078170",
                     "name": "GalleryModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []

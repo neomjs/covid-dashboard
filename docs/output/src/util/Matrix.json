@@ -86,7 +86,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100091354",
+                    "id": "astnode100091356",
                     "name": "Matrix#e",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -122,7 +122,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100091367",
+                    "id": "astnode100091369",
                     "name": "Matrix#getElement",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -174,7 +174,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100091414",
+                    "id": "astnode100091416",
                     "name": "Matrix#getTransformStyle",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -206,7 +206,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100091651",
+                    "id": "astnode100091653",
                     "name": "Matrix#multiply",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -254,7 +254,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100091787",
+                    "id": "astnode100091789",
                     "name": "Matrix.rotateX",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -301,7 +301,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100091830",
+                    "id": "astnode100091832",
                     "name": "Matrix.rotateY",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -348,7 +348,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100091873",
+                    "id": "astnode100091875",
                     "name": "Matrix.rotateZ",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -395,7 +395,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100091916",
+                    "id": "astnode100091918",
                     "name": "Matrix#x",
                     "type": "MethodDefinition",
                     "paramnames": [

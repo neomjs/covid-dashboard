@@ -132,7 +132,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tab/header",
                 "code": {
-                    "id": "astnode100084292",
+                    "id": "astnode100084294",
                     "name": "Toolbar#afterSetSortable",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -186,7 +186,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tab/header",
                 "code": {
-                    "id": "astnode100084348",
+                    "id": "astnode100084350",
                     "name": "Toolbar#afterSetUseActiveTabIndicator",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -240,7 +240,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tab/header",
                 "code": {
-                    "id": "astnode100084396",
+                    "id": "astnode100084398",
                     "name": "Toolbar#createItems",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -273,7 +273,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tab/header",
                 "code": {
-                    "id": "astnode100084430",
+                    "id": "astnode100084432",
                     "name": "Toolbar#getLayoutConfig",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -317,7 +317,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tab/header",
                 "code": {
-                    "id": "astnode100084488",
+                    "id": "astnode100084490",
                     "name": "Toolbar#moveTo",
                     "type": "MethodDefinition",
                     "paramnames": [

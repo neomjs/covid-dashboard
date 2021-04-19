@@ -182,7 +182,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100084572",
+                    "id": "astnode100084574",
                     "name": "Strip#afterSetUseActiveTabIndicator",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -236,7 +236,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100084628",
+                    "id": "astnode100084630",
                     "name": "Strip#getActiveTabRectThenMove",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -297,7 +297,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100084733",
+                    "id": "astnode100084735",
                     "name": "Strip#getTabContainer",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -329,7 +329,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100084745",
+                    "id": "astnode100084747",
                     "name": "Strip#moveActiveIndicator",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -437,7 +437,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tab",
                 "code": {
-                    "id": "astnode100084926",
+                    "id": "astnode100084928",
                     "name": "Strip#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []

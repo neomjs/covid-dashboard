@@ -179,7 +179,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100111153",
+                    "id": "astnode100111148",
                     "name": "Container#getVdomRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -211,7 +211,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100111169",
+                    "id": "astnode100111164",
                     "name": "Container#getVnodeRoot",
                     "type": "MethodDefinition",
                     "paramnames": []

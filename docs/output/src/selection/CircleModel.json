@@ -84,7 +84,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100076588",
+                    "id": "astnode100076590",
                     "name": "CircleModel#onKeyDownLeft",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -127,7 +127,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100076601",
+                    "id": "astnode100076603",
                     "name": "CircleModel#onKeyDownRight",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -170,7 +170,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100076613",
+                    "id": "astnode100076615",
                     "name": "CircleModel#onNavKey",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -222,7 +222,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100076735",
+                    "id": "astnode100076737",
                     "name": "CircleModel#register",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -265,7 +265,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/selection",
                 "code": {
-                    "id": "astnode100076802",
+                    "id": "astnode100076804",
                     "name": "CircleModel#unregister",
                     "type": "MethodDefinition",
                     "paramnames": []

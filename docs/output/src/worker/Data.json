@@ -142,7 +142,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/worker",
                 "code": {
-                    "id": "astnode100097723",
+                    "id": "astnode100097725",
                     "name": "Data#onLoad",
                     "type": "MethodDefinition",
                     "paramnames": []

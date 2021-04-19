@@ -236,7 +236,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100102779",
+                    "id": "astnode100102781",
                     "name": "SourceViewComponent",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -278,7 +278,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100102831",
+                    "id": "astnode100102833",
                     "name": "SourceViewComponent#afterSetIsHighlighted",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -332,7 +332,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100102880",
+                    "id": "astnode100102882",
                     "name": "SourceViewComponent#afterSetLine",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -386,7 +386,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100102911",
+                    "id": "astnode100102913",
                     "name": "SourceViewComponent#applySourceCode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -429,7 +429,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100102962",
+                    "id": "astnode100102964",
                     "name": "SourceViewComponent#syntaxHighlight",
                     "type": "MethodDefinition",
                     "paramnames": [

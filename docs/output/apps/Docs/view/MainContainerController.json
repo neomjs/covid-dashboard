@@ -84,7 +84,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
                 "code": {
-                    "id": "astnode100103936",
+                    "id": "astnode100103938",
                     "name": "MainContainerController#onApiListLeafClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -127,7 +127,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
                 "code": {
-                    "id": "astnode100103979",
+                    "id": "astnode100103981",
                     "name": "MainContainerController#onExamplesListLeafClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -170,7 +170,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
                 "code": {
-                    "id": "astnode100104161",
+                    "id": "astnode100104163",
                     "name": "MainContainerController#onHashChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -222,7 +222,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
                 "code": {
-                    "id": "astnode100104261",
+                    "id": "astnode100104263",
                     "name": "MainContainerController#onNavigationSearchFieldChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -265,7 +265,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
                 "code": {
-                    "id": "astnode100104311",
+                    "id": "astnode100104313",
                     "name": "MainContainerController#onSwitchSourceViewThemeButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -297,7 +297,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
                 "code": {
-                    "id": "astnode100104382",
+                    "id": "astnode100104384",
                     "name": "MainContainerController#onSwitchThemeButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -329,7 +329,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
                 "code": {
-                    "id": "astnode100104530",
+                    "id": "astnode100104532",
                     "name": "MainContainerController#onTutorialListLeafClick",
                     "type": "MethodDefinition",
                     "paramnames": [

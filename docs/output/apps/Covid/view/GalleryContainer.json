@@ -209,7 +209,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107485",
+                    "id": "astnode100107487",
                     "name": "GalleryContainer",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -251,7 +251,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107532",
+                    "id": "astnode100107534",
                     "name": "GalleryContainer#destroy",
                     "type": "MethodDefinition",
                     "paramnames": [

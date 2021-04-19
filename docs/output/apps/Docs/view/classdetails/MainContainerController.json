@@ -84,7 +84,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100100543",
+                    "id": "astnode100100545",
                     "name": "MainContainerController#onHeaderClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -127,7 +127,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100100611",
+                    "id": "astnode100100613",
                     "name": "MainContainerController#onMutateItems",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -170,7 +170,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100100774",
+                    "id": "astnode100100776",
                     "name": "MainContainerController#onScrollIntoView",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -213,7 +213,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100100822",
+                    "id": "astnode100100824",
                     "name": "MainContainerController#onSearchFieldChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -256,7 +256,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100100839",
+                    "id": "astnode100100841",
                     "name": "MainContainerController#onToggleMembers",
                     "type": "MethodDefinition",
                     "paramnames": [

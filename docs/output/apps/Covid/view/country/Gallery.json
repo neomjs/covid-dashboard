@@ -231,7 +231,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
                 "code": {
-                    "id": "astnode100105595",
+                    "id": "astnode100105597",
                     "name": "CountryGallery#createItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -303,7 +303,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
                 "code": {
-                    "id": "astnode100105843",
+                    "id": "astnode100105845",
                     "name": "CountryGallery#getItemId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -356,7 +356,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
                 "code": {
-                    "id": "astnode100105856",
+                    "id": "astnode100105858",
                     "name": "CountryGallery#onStoreLoad",
                     "type": "MethodDefinition",
                     "paramnames": [

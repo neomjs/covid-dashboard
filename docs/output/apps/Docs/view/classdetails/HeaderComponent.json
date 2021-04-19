@@ -179,7 +179,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100099850",
+                    "id": "astnode100099852",
                     "name": "HeaderComponent#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []

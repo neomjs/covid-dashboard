@@ -231,7 +231,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
                 "code": {
-                    "id": "astnode100103805",
+                    "id": "astnode100103807",
                     "name": "MainContainer",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -273,7 +273,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
                 "code": {
-                    "id": "astnode100103863",
+                    "id": "astnode100103865",
                     "name": "MainContainer#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []

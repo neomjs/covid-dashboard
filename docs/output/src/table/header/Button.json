@@ -455,7 +455,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086036",
+                    "id": "astnode100086038",
                     "name": "Button",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -497,7 +497,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086100",
+                    "id": "astnode100086102",
                     "name": "Button#afterSetDraggable",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -551,7 +551,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086144",
+                    "id": "astnode100086146",
                     "name": "Button#afterSetIsSorted",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -605,7 +605,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086260",
+                    "id": "astnode100086262",
                     "name": "Button#afterSetShowHeaderFilter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -659,7 +659,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086373",
+                    "id": "astnode100086375",
                     "name": "Button#beforeSetAlign",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -713,7 +713,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086388",
+                    "id": "astnode100086390",
                     "name": "Button#destroy",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -747,7 +747,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086413",
+                    "id": "astnode100086415",
                     "name": "Button#getVdomRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -790,7 +790,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086425",
+                    "id": "astnode100086427",
                     "name": "Button#getVnodeRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -833,7 +833,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086437",
+                    "id": "astnode100086439",
                     "name": "Button#onButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -866,7 +866,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086487",
+                    "id": "astnode100086489",
                     "name": "Button#onDragEnd",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -899,7 +899,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086511",
+                    "id": "astnode100086513",
                     "name": "Button#onDragEnter",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -932,7 +932,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086537",
+                    "id": "astnode100086539",
                     "name": "Button#onDragLeave",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -965,7 +965,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086563",
+                    "id": "astnode100086565",
                     "name": "Button#onDragOver",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1008,7 +1008,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086568",
+                    "id": "astnode100086570",
                     "name": "Button#onDragStart",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1041,7 +1041,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086593",
+                    "id": "astnode100086595",
                     "name": "Button#onDrop",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1084,7 +1084,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086663",
+                    "id": "astnode100086665",
                     "name": "Button#changeFilterOperator",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1127,7 +1127,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086751",
+                    "id": "astnode100086753",
                     "name": "Button#changeFilterValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1170,7 +1170,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086879",
+                    "id": "astnode100086881",
                     "name": "Button#removeSortingCss",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1203,7 +1203,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/table/header",
                 "code": {
-                    "id": "astnode100086911",
+                    "id": "astnode100086913",
                     "name": "Button#renderer",
                     "type": "MethodDefinition",
                     "paramnames": [

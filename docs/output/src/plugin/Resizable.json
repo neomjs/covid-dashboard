@@ -740,7 +740,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100074903",
+                    "id": "astnode100074905",
                     "name": "Resizable",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -782,7 +782,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100074979",
+                    "id": "astnode100074981",
                     "name": "Resizable#addNode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -835,7 +835,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100075046",
+                    "id": "astnode100075048",
                     "name": "Resizable#afterSetAppName",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -891,7 +891,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100075065",
+                    "id": "astnode100075067",
                     "name": "Resizable#beforeSetDirections",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -954,7 +954,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100075114",
+                    "id": "astnode100075116",
                     "name": "Resizable#onDragEnd",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -997,7 +997,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100075202",
+                    "id": "astnode100075204",
                     "name": "Resizable#onDragMove",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1040,7 +1040,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100075641",
+                    "id": "astnode100075643",
                     "name": "Resizable#onDragStart",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1083,7 +1083,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100075883",
+                    "id": "astnode100075885",
                     "name": "Resizable#onMouseMove",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1126,7 +1126,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100076419",
+                    "id": "astnode100076421",
                     "name": "Resizable#onMouseLeave",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1169,7 +1169,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100076454",
+                    "id": "astnode100076456",
                     "name": "Resizable#removeAllNodes",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1202,7 +1202,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/plugin",
                 "code": {
-                    "id": "astnode100076490",
+                    "id": "astnode100076492",
                     "name": "Resizable#removeNode",
                     "type": "MethodDefinition",
                     "paramnames": [

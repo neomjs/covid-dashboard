@@ -183,7 +183,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100103082",
+                    "id": "astnode100103084",
                     "name": "TutorialComponent",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -225,7 +225,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100103147",
+                    "id": "astnode100103149",
                     "name": "TutorialComponent#applySourceCode",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -268,7 +268,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view/classdetails",
                 "code": {
-                    "id": "astnode100103198",
+                    "id": "astnode100103200",
                     "name": "TutorialComponent.syntaxHighlight",
                     "type": "MethodDefinition",
                     "paramnames": []

@@ -395,7 +395,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100088034",
+                    "id": "astnode100088036",
                     "name": "Base#afterSetComponentId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -449,7 +449,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100088097",
+                    "id": "astnode100088099",
                     "name": "Base#afterSetStayOnHover",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -503,7 +503,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100088145",
+                    "id": "astnode100088147",
                     "name": "Base#afterSetText",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -557,7 +557,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100088202",
+                    "id": "astnode100088204",
                     "name": "Base#clearTimeout",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -603,7 +603,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100088257",
+                    "id": "astnode100088259",
                     "name": "Base#hide",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -648,7 +648,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100088285",
+                    "id": "astnode100088287",
                     "name": "Base#hideDelayed",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -693,7 +693,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100088324",
+                    "id": "astnode100088326",
                     "name": "Base#onMouseEnter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -737,7 +737,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100088357",
+                    "id": "astnode100088359",
                     "name": "Base#onMouseLeave",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -781,7 +781,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100088388",
+                    "id": "astnode100088390",
                     "name": "Base#show",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -825,7 +825,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/tooltip",
                 "code": {
-                    "id": "astnode100088443",
+                    "id": "astnode100088445",
                     "name": "Base#showDelayed",
                     "type": "MethodDefinition",
                     "paramnames": [

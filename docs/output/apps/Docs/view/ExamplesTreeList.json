@@ -135,7 +135,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/docs/app/view",
                 "code": {
-                    "id": "astnode100103448",
+                    "id": "astnode100103450",
                     "name": "ExamplesTreeList#onConstructed",
                     "type": "MethodDefinition",
                     "paramnames": []

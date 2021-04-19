@@ -573,7 +573,7 @@
             "meta": {
                 "range": [
                     3933,
-                    4636
+                    4645
                 ],
                 "filename": "Component.mjs",
                 "lineno": 152,
@@ -643,15 +643,15 @@
             "comment": "/**\n     * Registers a new binding in case a matching data property does exist.\n     * Otherwise it will use the closest model with a match.\n     * @param {String} componentId\n     * @param {String} formatter\n     * @param {String} value\n     */",
             "meta": {
                 "range": [
-                    4892,
-                    5723
+                    4901,
+                    5732
                 ],
                 "filename": "Component.mjs",
                 "lineno": 180,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100071683",
+                    "id": "astnode100071685",
                     "name": "Component#createBindingByFormatter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -705,15 +705,15 @@
             "comment": "/**\n     *\n     * @param {Neo.component.Base} component\n     */",
             "meta": {
                 "range": [
-                    5797,
-                    6041
+                    5806,
+                    6050
                 ],
                 "filename": "Component.mjs",
                 "lineno": 208,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100071781",
+                    "id": "astnode100071783",
                     "name": "Component#createBindings",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -748,15 +748,15 @@
             "comment": "/**\n     *\n     * @param {Object} config\n     * @param {String} path\n     */",
             "meta": {
                 "range": [
-                    6128,
-                    6921
+                    6137,
+                    6930
                 ],
                 "filename": "Component.mjs",
                 "lineno": 221,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100071818",
+                    "id": "astnode100071820",
                     "name": "Component#createDataProperties",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -800,15 +800,15 @@
             "comment": "/**\n     *\n     * @param {String} key\n     * @param {String} path\n     * @param {Object} [root=this.data]\n     */",
             "meta": {
                 "range": [
-                    7045,
-                    7942
+                    7054,
+                    7951
                 ],
                 "filename": "Component.mjs",
                 "lineno": 250,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100071931",
+                    "id": "astnode100071933",
                     "name": "Component#createDataProperty",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -863,15 +863,15 @@
             "comment": "/**\n     *\n     * @param {String} key\n     * @param {Neo.model.Component} [originModel=this] for internal usage only\n     * @returns {*} value\n     */",
             "meta": {
                 "range": [
-                    8103,
-                    8610
+                    8112,
+                    8628
                 ],
                 "filename": "Component.mjs",
                 "lineno": 289,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072039",
+                    "id": "astnode100072041",
                     "name": "Component#getData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -928,15 +928,15 @@
             "comment": "/**\n     * Helper method to get the scope for a nested data property via Neo.ns() if needed.\n     *\n     * Example: passing the value 'foo.bar.baz' will return the bar object as the scope\n     * and 'baz' as the key.\n     * @param key\n     * @returns {Object}\n     */",
             "meta": {
                 "range": [
-                    8888,
-                    9259
+                    8906,
+                    9271
                 ],
                 "filename": "Component.mjs",
                 "lineno": 317,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072109",
+                    "id": "astnode100072113",
                     "name": "Component#getDataScope",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -976,15 +976,15 @@
             "comment": "/**\n     * Extracts data variables from a given formatter string\n     * @param {String} value\n     */",
             "meta": {
                 "range": [
-                    9371,
-                    9823
+                    9383,
+                    9835
                 ],
                 "filename": "Component.mjs",
                 "lineno": 338,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072170",
+                    "id": "astnode100072172",
                     "name": "Component#getFormatterVariables",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1020,15 +1020,15 @@
             "comment": "/**\n     * Returns the merged data\n     * @param {Object} data=this.getPlainData()\n     * @returns {Object} data\n     */",
             "meta": {
                 "range": [
-                    9954,
-                    10259
+                    9966,
+                    10271
                 ],
                 "filename": "Component.mjs",
                 "lineno": 361,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072234",
+                    "id": "astnode100072236",
                     "name": "Component#getHierarchyData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1075,15 +1075,15 @@
             "comment": "/**\n     * Returns a plain version of this.data.\n     * This excludes the property getters & setters.\n     * @returns {Object}\n     */",
             "meta": {
                 "range": [
-                    10404,
-                    10480
+                    10416,
+                    10492
                 ],
                 "filename": "Component.mjs",
                 "lineno": 380,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072275",
+                    "id": "astnode100072277",
                     "name": "Component#getPlainData",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1117,15 +1117,15 @@
             "comment": "/**\n     * Get the closest model inside the components parent tree\n     * @returns {Neo.model.Component|null}\n     */",
             "meta": {
                 "range": [
-                    10608,
-                    10942
+                    10620,
+                    10954
                 ],
                 "filename": "Component.mjs",
                 "lineno": 388,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072291",
+                    "id": "astnode100072293",
                     "name": "Component#getParent",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -1160,15 +1160,15 @@
             "comment": "/**\n     * Internal method to avoid code redundancy.\n     * Use setData() or setDataAtSameLevel() instead.\n     *\n     * Passing an originModel param will try to set each key on the closest property match\n     * inside the parent model chain => setData()\n     * Not passing it will set all values on the model where the method gets called => setDataAtSameLevel()\n     * @param {Object|String} key\n     * @param {*} value\n     * @param {Neo.model.Component} [originModel]\n     * @protected\n     */",
             "meta": {
                 "range": [
-                    11449,
-                    12439
+                    11461,
+                    12451
                 ],
                 "filename": "Component.mjs",
                 "lineno": 414,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072339",
+                    "id": "astnode100072341",
                     "name": "Component#internalSetData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1225,15 +1225,15 @@
             "comment": "/**\n     * Internal convenience method to check if a binding value is supposed to match a store\n     * @param {String} value\n     * @returns {Boolean}\n     */",
             "meta": {
                 "range": [
-                    12608,
-                    12679
+                    12620,
+                    12691
                 ],
                 "filename": "Component.mjs",
                 "lineno": 450,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072459",
+                    "id": "astnode100072461",
                     "name": "Component#isStoreValue",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1278,15 +1278,15 @@
             "comment": "/**\n     *\n     * @param {String} key\n     * @param {*} value\n     * @param {*} oldValue\n     */",
             "meta": {
                 "range": [
-                    12786,
-                    14107
+                    12798,
+                    14119
                 ],
                 "filename": "Component.mjs",
                 "lineno": 460,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072470",
+                    "id": "astnode100072472",
                     "name": "Component#onDataPropertyChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1339,15 +1339,15 @@
             "comment": "/**\n     * This method will assign binding values at the earliest possible point inside the component lifecycle.\n     * It can not store bindings though, since child component ids most likely do not exist yet.\n     * @param {Neo.component.Base} [component=this.component]\n     */",
             "meta": {
                 "range": [
-                    14397,
-                    14857
+                    14409,
+                    14869
                 ],
                 "filename": "Component.mjs",
                 "lineno": 502,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072614",
+                    "id": "astnode100072616",
                     "name": "Component#parseConfig",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1385,15 +1385,15 @@
             "comment": "/**\n     * Removes all bindings for a given component id inside this model\n     * as well as inside all parent models.\n     * @param {String} componentId\n     */",
             "meta": {
                 "range": [
-                    15029,
-                    15358
+                    15041,
+                    15370
                 ],
                 "filename": "Component.mjs",
                 "lineno": 521,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072676",
+                    "id": "astnode100072678",
                     "name": "Component#removeBindings",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1429,15 +1429,15 @@
             "comment": "/**\n     *\n     * @param {Neo.component.Base} [component=this.component]\n     */",
             "meta": {
                 "range": [
-                    15449,
-                    15880
+                    15461,
+                    15892
                 ],
                 "filename": "Component.mjs",
                 "lineno": 538,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072719",
+                    "id": "astnode100072721",
                     "name": "Component#resolveBindings",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1474,15 +1474,15 @@
             "comment": "/**\n     *\n     * @param {String} formatter\n     * @param {Object} [data=null] optionally pass this.getHierarchyData() for performance reasons\n     */",
             "meta": {
                 "range": [
-                    16041,
-                    16544
+                    16053,
+                    16556
                 ],
                 "filename": "Component.mjs",
                 "lineno": 557,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072775",
+                    "id": "astnode100072777",
                     "name": "Component#resolveFormatter",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1529,15 +1529,15 @@
             "comment": "/**\n     *\n     * @param {Neo.component.Base} component\n     * @param {String} configName\n     * @param {String} storeName\n     * @param {Neo.model.Component} [originModel=this] for internal usage only\n     */",
             "meta": {
                 "range": [
-                    16764,
-                    17331
+                    16776,
+                    17343
                 ],
                 "filename": "Component.mjs",
                 "lineno": 585,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072847",
+                    "id": "astnode100072849",
                     "name": "Component#resolveStore",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1602,15 +1602,15 @@
             "comment": "/**\n     * The method will assign all values to the closest model where it finds an existing key.\n     * In case no match is found inside the parent chain, a new data property will get generated.\n     * @param {Object|String} key\n     * @param {*} value\n     */",
             "meta": {
                 "range": [
-                    17603,
-                    17678
+                    17615,
+                    17690
                 ],
                 "filename": "Component.mjs",
                 "lineno": 608,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072916",
+                    "id": "astnode100072918",
                     "name": "Component#setData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -1656,15 +1656,15 @@
             "comment": "/**\n     * Use this method instead of setData() in case you want to enforce\n     * setting all keys on this instance instead of looking for matches inside parent models.\n     * @param {Object|String} key\n     * @param {*} value\n     */",
             "meta": {
                 "range": [
-                    17924,
-                    18004
+                    17936,
+                    18016
                 ],
                 "filename": "Component.mjs",
                 "lineno": 618,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/model",
                 "code": {
-                    "id": "astnode100072930",
+                    "id": "astnode100072932",
                     "name": "Component#setDataAtSameLevel",
                     "type": "MethodDefinition",
                     "paramnames": [

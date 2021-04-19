@@ -137,7 +137,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100090315",
+                    "id": "astnode100090317",
                     "name": "DateUtil.clone",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -191,7 +191,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100090327",
+                    "id": "astnode100090329",
                     "name": "DateUtil.convertToyyyymmdd",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -245,7 +245,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100090355",
+                    "id": "astnode100090357",
                     "name": "DateUtil.getDaysInMonth",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -299,7 +299,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100090377",
+                    "id": "astnode100090379",
                     "name": "DateUtil.getFirstDayOffset",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -361,7 +361,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100090405",
+                    "id": "astnode100090407",
                     "name": "DateUtil.getFirstDayOfMonth",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -415,7 +415,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100090425",
+                    "id": "astnode100090427",
                     "name": "DateUtil.getWeekOfYear",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -468,7 +468,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100090522",
+                    "id": "astnode100090524",
                     "name": "DateUtil.getWeeksOfMonth",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -531,7 +531,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/node_modules/neo.mjs/src/util",
                 "code": {
-                    "id": "astnode100090555",
+                    "id": "astnode100090557",
                     "name": "DateUtil.matchDate",
                     "type": "MethodDefinition",
                     "paramnames": [
