@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.GalleryContainerController",
             "$kind": "class",
-            "id": 3275,
+            "id": 3272,
             "neoClassName": "Covid.view.GalleryContainerController"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3276,
+            "id": 3273,
             "neoClassName": "Covid.view.GalleryContainerController"
         },
         {
@@ -70,7 +70,7 @@
             "scope": "global",
             "$longname": "gallery_",
             "$kind": "property",
-            "id": 3277,
+            "id": 3274,
             "neoClassName": "Covid.view.GalleryContainerController"
         },
         {
@@ -85,7 +85,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107583",
+                    "id": "astnode100107430",
                     "name": "GalleryContainerController#beforeGetGallery",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -116,7 +116,7 @@
             "scope": "instance",
             "$longname": "GalleryContainerController#beforeGetGallery",
             "$kind": "method",
-            "id": 3278,
+            "id": 3275,
             "neoClassName": "Covid.view.GalleryContainerController"
         },
         {
@@ -131,7 +131,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107606",
+                    "id": "astnode100107453",
                     "name": "GalleryContainerController#onCollapseButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -151,7 +151,7 @@
             "params": [],
             "$longname": "GalleryContainerController#onCollapseButtonClick",
             "$kind": "method",
-            "id": 3279,
+            "id": 3276,
             "neoClassName": "Covid.view.GalleryContainerController"
         },
         {
@@ -166,7 +166,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107646",
+                    "id": "astnode100107493",
                     "name": "GalleryContainerController#onOrderButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -194,7 +194,7 @@
             "scope": "instance",
             "$longname": "GalleryContainerController#onOrderButtonClick",
             "$kind": "method",
-            "id": 3280,
+            "id": 3277,
             "neoClassName": "Covid.view.GalleryContainerController"
         },
         {
@@ -209,7 +209,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107682",
+                    "id": "astnode100107529",
                     "name": "GalleryContainerController#onRangefieldChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -237,7 +237,7 @@
             "scope": "instance",
             "$longname": "GalleryContainerController#onRangefieldChange",
             "$kind": "method",
-            "id": 3281,
+            "id": 3278,
             "neoClassName": "Covid.view.GalleryContainerController"
         },
         {
@@ -252,7 +252,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107701",
+                    "id": "astnode100107548",
                     "name": "GalleryContainerController#onRangefieldMounted",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -280,7 +280,7 @@
             "scope": "instance",
             "$longname": "GalleryContainerController#onRangefieldMounted",
             "$kind": "method",
-            "id": 3282,
+            "id": 3279,
             "neoClassName": "Covid.view.GalleryContainerController"
         },
         {
@@ -295,7 +295,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107757",
+                    "id": "astnode100107604",
                     "name": "GalleryContainerController#onSortButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -323,7 +323,7 @@
             "scope": "instance",
             "$longname": "GalleryContainerController#onSortButtonClick",
             "$kind": "method",
-            "id": 3283,
+            "id": 3280,
             "neoClassName": "Covid.view.GalleryContainerController"
         }
     ]

@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.MainContainer",
             "$kind": "class",
-            "id": 3309,
+            "id": 3306,
             "neoClassName": "Covid.view.MainContainer"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3310,
+            "id": 3307,
             "neoClassName": "Covid.view.MainContainer"
         },
         {
@@ -68,7 +68,7 @@
             "scope": "global",
             "$longname": "autoMount",
             "$kind": "property",
-            "id": 3311,
+            "id": 3308,
             "neoClassName": "Covid.view.MainContainer"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 3312,
+            "id": 3309,
             "neoClassName": "Covid.view.MainContainer"
         },
         {
@@ -117,7 +117,7 @@
             "scope": "global",
             "$longname": "controller",
             "$kind": "property",
-            "id": 3313,
+            "id": 3310,
             "neoClassName": "Covid.view.MainContainer"
         },
         {
@@ -140,7 +140,7 @@
             "scope": "global",
             "$longname": "items",
             "$kind": "property",
-            "id": 3314,
+            "id": 3311,
             "neoClassName": "Covid.view.MainContainer"
         },
         {
@@ -165,7 +165,7 @@
             "scope": "global",
             "$longname": "layout",
             "$kind": "property",
-            "id": 3315,
+            "id": 3312,
             "neoClassName": "Covid.view.MainContainer"
         }
     ]

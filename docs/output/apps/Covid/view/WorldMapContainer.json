@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.WorldMapContainer",
             "$kind": "class",
-            "id": 3414,
+            "id": 3411,
             "neoClassName": "Covid.view.WorldMapContainer"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3415,
+            "id": 3412,
             "neoClassName": "Covid.view.WorldMapContainer"
         },
         {
@@ -68,7 +68,7 @@
             "scope": "global",
             "$longname": "controller",
             "$kind": "property",
-            "id": 3416,
+            "id": 3413,
             "neoClassName": "Covid.view.WorldMapContainer"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "layout",
             "$kind": "property",
-            "id": 3417,
+            "id": 3414,
             "neoClassName": "Covid.view.WorldMapContainer"
         },
         {
@@ -116,7 +116,7 @@
             "scope": "global",
             "$longname": "items",
             "$kind": "property",
-            "id": 3418,
+            "id": 3415,
             "neoClassName": "Covid.view.WorldMapContainer"
         }
     ]

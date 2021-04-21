@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.TableContainer",
             "$kind": "class",
-            "id": 3374,
+            "id": 3371,
             "neoClassName": "Covid.view.TableContainer"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3375,
+            "id": 3372,
             "neoClassName": "Covid.view.TableContainer"
         },
         {
@@ -68,7 +68,7 @@
             "scope": "global",
             "$longname": "autoMount",
             "$kind": "property",
-            "id": 3376,
+            "id": 3373,
             "neoClassName": "Covid.view.TableContainer"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "controller",
             "$kind": "property",
-            "id": 3377,
+            "id": 3374,
             "neoClassName": "Covid.view.TableContainer"
         },
         {
@@ -118,7 +118,7 @@
             "scope": "global",
             "$longname": "historyPanelWidth",
             "$kind": "property",
-            "id": 3378,
+            "id": 3375,
             "neoClassName": "Covid.view.TableContainer"
         },
         {
@@ -143,7 +143,7 @@
             "scope": "global",
             "$longname": "table",
             "$kind": "property",
-            "id": 3379,
+            "id": 3376,
             "neoClassName": "Covid.view.TableContainer"
         },
         {
@@ -168,7 +168,7 @@
             "scope": "global",
             "$longname": "tableConfig",
             "$kind": "property",
-            "id": 3380,
+            "id": 3377,
             "neoClassName": "Covid.view.TableContainer"
         },
         {
@@ -194,7 +194,7 @@
             "scope": "global",
             "$longname": "layout",
             "$kind": "property",
-            "id": 3381,
+            "id": 3378,
             "neoClassName": "Covid.view.TableContainer"
         },
         {
@@ -218,7 +218,7 @@
             "scope": "global",
             "$longname": "items",
             "$kind": "property",
-            "id": 3382,
+            "id": 3379,
             "neoClassName": "Covid.view.TableContainer"
         },
         {
@@ -233,7 +233,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100111527",
+                    "id": "astnode100111374",
                     "name": "TableContainer",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -260,7 +260,7 @@
             "scope": "global",
             "$longname": "TableContainer",
             "$kind": "constructor",
-            "id": 3383,
+            "id": 3380,
             "neoClassName": "Covid.view.TableContainer"
         }
     ]
