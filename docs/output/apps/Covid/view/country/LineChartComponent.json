@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.country.LineChartComponent",
             "$kind": "class",
-            "id": 3242,
+            "id": 3244,
             "neoClassName": "Covid.view.country.LineChartComponent"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3243,
+            "id": 3245,
             "neoClassName": "Covid.view.country.LineChartComponent"
         },
         {
@@ -68,7 +68,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 3244,
+            "id": 3246,
             "neoClassName": "Covid.view.country.LineChartComponent"
         },
         {
@@ -91,7 +91,7 @@
             "scope": "global",
             "$longname": "chartConfig",
             "$kind": "property",
-            "id": 3245,
+            "id": 3247,
             "neoClassName": "Covid.view.country.LineChartComponent"
         },
         {
@@ -115,7 +115,7 @@
             "scope": "global",
             "$longname": "combineSeriesTooltip",
             "$kind": "property",
-            "id": 3246,
+            "id": 3248,
             "neoClassName": "Covid.view.country.LineChartComponent"
         },
         {
@@ -139,7 +139,7 @@
             "scope": "global",
             "$longname": "fitParentHeight",
             "$kind": "property",
-            "id": 3247,
+            "id": 3249,
             "neoClassName": "Covid.view.country.LineChartComponent"
         }
     ]

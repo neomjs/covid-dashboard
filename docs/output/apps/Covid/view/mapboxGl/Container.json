@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.mapboxGl.Container",
             "$kind": "class",
-            "id": 3354,
+            "id": 3357,
             "neoClassName": "Covid.view.mapboxGl.Container"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3355,
+            "id": 3358,
             "neoClassName": "Covid.view.mapboxGl.Container"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 3356,
+            "id": 3359,
             "neoClassName": "Covid.view.mapboxGl.Container"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "controller",
             "$kind": "property",
-            "id": 3357,
+            "id": 3360,
             "neoClassName": "Covid.view.mapboxGl.Container"
         },
         {
@@ -116,7 +116,7 @@
             "scope": "global",
             "$longname": "items",
             "$kind": "property",
-            "id": 3358,
+            "id": 3361,
             "neoClassName": "Covid.view.mapboxGl.Container"
         },
         {
@@ -141,7 +141,7 @@
             "scope": "global",
             "$longname": "layout",
             "$kind": "property",
-            "id": 3359,
+            "id": 3362,
             "neoClassName": "Covid.view.mapboxGl.Container"
         },
         {
@@ -164,7 +164,7 @@
             "scope": "global",
             "$longname": "_vdom",
             "$kind": "property",
-            "id": 3360,
+            "id": 3363,
             "neoClassName": "Covid.view.mapboxGl.Container"
         },
         {
@@ -179,7 +179,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100110995",
+                    "id": "astnode100111412",
                     "name": "Container#getVdomRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -196,7 +196,7 @@
             "params": [],
             "$longname": "Container#getVdomRoot",
             "$kind": "method",
-            "id": 3361,
+            "id": 3364,
             "neoClassName": "Covid.view.mapboxGl.Container"
         },
         {
@@ -211,7 +211,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100111011",
+                    "id": "astnode100111428",
                     "name": "Container#getVnodeRoot",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -228,7 +228,7 @@
             "params": [],
             "$longname": "Container#getVnodeRoot",
             "$kind": "method",
-            "id": 3362,
+            "id": 3365,
             "neoClassName": "Covid.view.mapboxGl.Container"
         }
     ]

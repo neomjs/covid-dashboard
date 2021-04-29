@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.country.Table",
             "$kind": "class",
-            "id": 3248,
+            "id": 3250,
             "neoClassName": "Covid.view.country.Table"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3249,
+            "id": 3251,
             "neoClassName": "Covid.view.country.Table"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 3250,
+            "id": 3252,
             "neoClassName": "Covid.view.country.Table"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "columnDefaults",
             "$kind": "property",
-            "id": 3251,
+            "id": 3253,
             "neoClassName": "Covid.view.country.Table"
         },
         {
@@ -116,7 +116,7 @@
             "scope": "global",
             "$longname": "columns",
             "$kind": "property",
-            "id": 3252,
+            "id": 3254,
             "neoClassName": "Covid.view.country.Table"
         },
         {
@@ -140,7 +140,7 @@
             "scope": "global",
             "$longname": "store",
             "$kind": "property",
-            "id": 3253,
+            "id": 3255,
             "neoClassName": "Covid.view.country.Table"
         }
     ]

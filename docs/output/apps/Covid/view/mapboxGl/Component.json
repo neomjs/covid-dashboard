@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.mapboxGl.Component",
             "$kind": "class",
-            "id": 3344,
+            "id": 3347,
             "neoClassName": "Covid.view.mapboxGl.Component"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3345,
+            "id": 3348,
             "neoClassName": "Covid.view.mapboxGl.Component"
         },
         {
@@ -68,7 +68,7 @@
             "scope": "global",
             "$longname": "accessToken",
             "$kind": "property",
-            "id": 3346,
+            "id": 3349,
             "neoClassName": "Covid.view.mapboxGl.Component"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "center",
             "$kind": "property",
-            "id": 3347,
+            "id": 3350,
             "neoClassName": "Covid.view.mapboxGl.Component"
         },
         {
@@ -117,7 +117,7 @@
             "scope": "global",
             "$longname": "dataSourceId",
             "$kind": "property",
-            "id": 3348,
+            "id": 3351,
             "neoClassName": "Covid.view.mapboxGl.Component"
         },
         {
@@ -132,7 +132,7 @@
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100110558",
+                    "id": "astnode100110975",
                     "name": "layers",
                     "type": "ArrayExpression",
                     "value": "[\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"id\\\":\\\"hillshading\\\",\\\"source\\\":\\\"dem\\\",\\\"type\\\":\\\"hillshade\\\"}\",\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"filter\\\":\\\"\\\",\\\"id\\\":\\\"covid19-heat\\\",\\\"source\\\":\\\"covid19\\\",\\\"type\\\":\\\"heatmap\\\",\\\"paint\\\":\\\"\\\"}\",\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"filter\\\":\\\"\\\",\\\"id\\\":\\\"covid19-circle\\\",\\\"source\\\":\\\"covid19\\\",\\\"type\\\":\\\"circle\\\",\\\"minzoom\\\":5,\\\"paint\\\":\\\"\\\"}\",\"{\\\"beforeId\\\":\\\"waterway-label\\\",\\\"filter\\\":\\\"\\\",\\\"id\\\":\\\"covid19-circle-text\\\",\\\"source\\\":\\\"covid19\\\",\\\"type\\\":\\\"symbol\\\",\\\"minzoom\\\":5,\\\"layout\\\":\\\"\\\",\\\"paint\\\":\\\"\\\"}\"]"
@@ -149,7 +149,7 @@
             "scope": "global",
             "$longname": "layers",
             "$kind": "property",
-            "id": 3349,
+            "id": 3352,
             "neoClassName": "Covid.view.mapboxGl.Component"
         },
         {
@@ -175,7 +175,7 @@
             "scope": "global",
             "$longname": "mapboxStyle",
             "$kind": "property",
-            "id": 3350,
+            "id": 3353,
             "neoClassName": "Covid.view.mapboxGl.Component"
         },
         {
@@ -201,7 +201,7 @@
             "scope": "global",
             "$longname": "mapboxStyle",
             "$kind": "property",
-            "id": 3351,
+            "id": 3354,
             "neoClassName": "Covid.view.mapboxGl.Component"
         },
         {
@@ -227,7 +227,7 @@
             "scope": "global",
             "$longname": "mapboxStyle",
             "$kind": "property",
-            "id": 3352,
+            "id": 3355,
             "neoClassName": "Covid.view.mapboxGl.Component"
         },
         {
@@ -242,7 +242,7 @@
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/mapboxGl",
                 "code": {
-                    "id": "astnode100110793",
+                    "id": "astnode100111210",
                     "name": "sources",
                     "type": "ArrayExpression",
                     "value": "[\"{\\\"id\\\":\\\"covid19\\\",\\\"type\\\":\\\"geojson\\\",\\\"data\\\":\\\"\\\"}\",\"{\\\"id\\\":\\\"dem\\\",\\\"type\\\":\\\"raster-dem\\\",\\\"url\\\":\\\"mapbox://mapbox.terrain-rgb\\\"}\"]"
@@ -259,7 +259,7 @@
             "scope": "global",
             "$longname": "sources",
             "$kind": "property",
-            "id": 3353,
+            "id": 3356,
             "neoClassName": "Covid.view.mapboxGl.Component"
         }
     ]

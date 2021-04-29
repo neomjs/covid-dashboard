@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.GalleryContainer",
             "$kind": "class",
-            "id": 3262,
+            "id": 3264,
             "neoClassName": "Covid.view.GalleryContainer"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3263,
+            "id": 3265,
             "neoClassName": "Covid.view.GalleryContainer"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 3264,
+            "id": 3266,
             "neoClassName": "Covid.view.GalleryContainer"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "controller",
             "$kind": "property",
-            "id": 3265,
+            "id": 3267,
             "neoClassName": "Covid.view.GalleryContainer"
         },
         {
@@ -119,7 +119,7 @@
             "scope": "global",
             "$longname": "gallery",
             "$kind": "property",
-            "id": 3266,
+            "id": 3268,
             "neoClassName": "Covid.view.GalleryContainer"
         },
         {
@@ -144,7 +144,7 @@
             "scope": "global",
             "$longname": "galleryConfig",
             "$kind": "property",
-            "id": 3267,
+            "id": 3269,
             "neoClassName": "Covid.view.GalleryContainer"
         },
         {
@@ -170,7 +170,7 @@
             "scope": "global",
             "$longname": "layout",
             "$kind": "property",
-            "id": 3268,
+            "id": 3270,
             "neoClassName": "Covid.view.GalleryContainer"
         },
         {
@@ -194,7 +194,7 @@
             "scope": "global",
             "$longname": "items",
             "$kind": "property",
-            "id": 3269,
+            "id": 3271,
             "neoClassName": "Covid.view.GalleryContainer"
         },
         {
@@ -209,7 +209,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107334",
+                    "id": "astnode100107682",
                     "name": "GalleryContainer",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -236,7 +236,7 @@
             "scope": "global",
             "$longname": "GalleryContainer",
             "$kind": "constructor",
-            "id": 3270,
+            "id": 3272,
             "neoClassName": "Covid.view.GalleryContainer"
         },
         {
@@ -251,7 +251,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100107381",
+                    "id": "astnode100107729",
                     "name": "GalleryContainer#destroy",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -270,7 +270,7 @@
             "params": [],
             "$longname": "GalleryContainer#destroy",
             "$kind": "method",
-            "id": 3271,
+            "id": 3273,
             "neoClassName": "Covid.view.GalleryContainer"
         }
     ]

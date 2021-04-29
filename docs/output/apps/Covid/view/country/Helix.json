@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.country.Helix",
             "$kind": "class",
-            "id": 3221,
+            "id": 3223,
             "neoClassName": "Covid.view.country.Helix"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3222,
+            "id": 3224,
             "neoClassName": "Covid.view.country.Helix"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 3223,
+            "id": 3225,
             "neoClassName": "Covid.view.country.Helix"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "deltaY",
             "$kind": "property",
-            "id": 3224,
+            "id": 3226,
             "neoClassName": "Covid.view.country.Helix"
         },
         {
@@ -117,7 +117,7 @@
             "scope": "global",
             "$longname": "itemTpl_",
             "$kind": "property",
-            "id": 3225,
+            "id": 3227,
             "neoClassName": "Covid.view.country.Helix"
         },
         {
@@ -142,7 +142,7 @@
             "scope": "global",
             "$longname": "keyProperty",
             "$kind": "property",
-            "id": 3226,
+            "id": 3228,
             "neoClassName": "Covid.view.country.Helix"
         },
         {
@@ -167,7 +167,7 @@
             "scope": "global",
             "$longname": "radius",
             "$kind": "property",
-            "id": 3227,
+            "id": 3229,
             "neoClassName": "Covid.view.country.Helix"
         },
         {
@@ -192,7 +192,7 @@
             "scope": "global",
             "$longname": "rotationAngle",
             "$kind": "property",
-            "id": 3228,
+            "id": 3230,
             "neoClassName": "Covid.view.country.Helix"
         },
         {
@@ -217,7 +217,7 @@
             "scope": "global",
             "$longname": "showCloneInfo",
             "$kind": "property",
-            "id": 3229,
+            "id": 3231,
             "neoClassName": "Covid.view.country.Helix"
         },
         {
@@ -241,7 +241,7 @@
             "scope": "global",
             "$longname": "store",
             "$kind": "property",
-            "id": 3230,
+            "id": 3232,
             "neoClassName": "Covid.view.country.Helix"
         },
         {
@@ -266,7 +266,7 @@
             "scope": "global",
             "$longname": "translateY",
             "$kind": "property",
-            "id": 3231,
+            "id": 3233,
             "neoClassName": "Covid.view.country.Helix"
         },
         {
@@ -291,7 +291,7 @@
             "scope": "global",
             "$longname": "translateZ_",
             "$kind": "property",
-            "id": 3232,
+            "id": 3234,
             "neoClassName": "Covid.view.country.Helix"
         },
         {
@@ -306,7 +306,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
                 "code": {
-                    "id": "astnode100105949",
+                    "id": "astnode100106297",
                     "name": "CountryHelix#createItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -362,7 +362,7 @@
             "scope": "instance",
             "$longname": "CountryHelix#createItem",
             "$kind": "method",
-            "id": 3233,
+            "id": 3235,
             "neoClassName": "Covid.view.country.Helix"
         },
         {
@@ -377,7 +377,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
                 "code": {
-                    "id": "astnode100106155",
+                    "id": "astnode100106503",
                     "name": "CountryHelix#getCloneTransform",
                     "type": "MethodDefinition",
                     "paramnames": []
@@ -403,7 +403,7 @@
             "params": [],
             "$longname": "CountryHelix#getCloneTransform",
             "$kind": "method",
-            "id": 3234,
+            "id": 3236,
             "neoClassName": "Covid.view.country.Helix"
         },
         {
@@ -418,7 +418,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
                 "code": {
-                    "id": "astnode100106204",
+                    "id": "astnode100106552",
                     "name": "CountryHelix#getItemId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -455,7 +455,7 @@
             "scope": "instance",
             "$longname": "CountryHelix#getItemId",
             "$kind": "method",
-            "id": 3235,
+            "id": 3237,
             "neoClassName": "Covid.view.country.Helix"
         }
     ]

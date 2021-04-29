@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.AttributionComponent",
             "$kind": "class",
-            "id": 3205,
+            "id": 3207,
             "neoClassName": "Covid.view.AttributionComponent"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3206,
+            "id": 3208,
             "neoClassName": "Covid.view.AttributionComponent"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 3207,
+            "id": 3209,
             "neoClassName": "Covid.view.AttributionComponent"
         },
         {
@@ -92,7 +92,7 @@
             "scope": "global",
             "$longname": "vdom",
             "$kind": "property",
-            "id": 3208,
+            "id": 3210,
             "neoClassName": "Covid.view.AttributionComponent"
         }
     ]

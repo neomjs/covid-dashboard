@@ -20,7 +20,7 @@
             "scope": "static",
             "$longname": "Covid.Util",
             "$kind": "class",
-            "id": 3197,
+            "id": 3199,
             "neoClassName": "Covid.Util"
         },
         {
@@ -46,7 +46,7 @@
             "longname": "flagRegEx",
             "$longname": "flagRegEx",
             "$kind": "property",
-            "id": 3198,
+            "id": 3200,
             "neoClassName": "Covid.Util"
         },
         {
@@ -72,7 +72,7 @@
             "longname": "locales",
             "$longname": "locales",
             "$kind": "property",
-            "id": 3199,
+            "id": 3201,
             "neoClassName": "Covid.Util"
         },
         {
@@ -97,7 +97,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3200,
+            "id": 3202,
             "neoClassName": "Covid.Util"
         },
         {
@@ -112,7 +112,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid",
                 "code": {
-                    "id": "astnode100104854",
+                    "id": "astnode100105200",
                     "name": "Util.formatInfected",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -158,7 +158,7 @@
             "scope": "static",
             "$longname": "Util.formatInfected",
             "$kind": "method",
-            "id": 3201,
+            "id": 3203,
             "neoClassName": "Covid.Util"
         },
         {
@@ -173,7 +173,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid",
                 "code": {
-                    "id": "astnode100104909",
+                    "id": "astnode100105255",
                     "name": "Util.formatNumber",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -229,7 +229,7 @@
             "scope": "static",
             "$longname": "Util.formatNumber",
             "$kind": "method",
-            "id": 3202,
+            "id": 3204,
             "neoClassName": "Covid.Util"
         },
         {
@@ -237,14 +237,14 @@
             "meta": {
                 "range": [
                     2032,
-                    6084
+                    6183
                 ],
                 "filename": "Util.mjs",
                 "lineno": 80,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid",
                 "code": {
-                    "id": "astnode100104956",
+                    "id": "astnode100105302",
                     "name": "Util.getCountryFlagUrl",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -282,22 +282,22 @@
             "scope": "static",
             "$longname": "Util.getCountryFlagUrl",
             "$kind": "method",
-            "id": 3203,
+            "id": 3205,
             "neoClassName": "Covid.Util"
         },
         {
             "comment": "/**\n     *\n     * @param {Object} data\n     * @param {Number} data.index\n     * @returns {Object}\n     */",
             "meta": {
                 "range": [
-                    6200,
-                    6353
+                    6299,
+                    6452
                 ],
                 "filename": "Util.mjs",
-                "lineno": 156,
+                "lineno": 157,
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid",
                 "code": {
-                    "id": "astnode100105123",
+                    "id": "astnode100105471",
                     "name": "Util.indexRenderer",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -342,7 +342,7 @@
             "scope": "static",
             "$longname": "Util.indexRenderer",
             "$kind": "method",
-            "id": 3204,
+            "id": 3206,
             "neoClassName": "Covid.Util"
         }
     ]

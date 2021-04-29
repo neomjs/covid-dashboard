@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.WorldMapContainerController",
             "$kind": "class",
-            "id": 3416,
+            "id": 3419,
             "neoClassName": "Covid.view.WorldMapContainerController"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3417,
+            "id": 3420,
             "neoClassName": "Covid.view.WorldMapContainerController"
         },
         {
@@ -68,7 +68,7 @@
             "scope": "global",
             "$longname": "heatRuleChangeDelay",
             "$kind": "property",
-            "id": 3418,
+            "id": 3421,
             "neoClassName": "Covid.view.WorldMapContainerController"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "heatRuleChangeTimeout",
             "$kind": "property",
-            "id": 3419,
+            "id": 3422,
             "neoClassName": "Covid.view.WorldMapContainerController"
         },
         {
@@ -108,7 +108,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100112766",
+                    "id": "astnode100113181",
                     "name": "WorldMapContainerController#onHeatRuleFieldChange",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -136,7 +136,7 @@
             "scope": "instance",
             "$longname": "WorldMapContainerController#onHeatRuleFieldChange",
             "$kind": "method",
-            "id": 3420,
+            "id": 3423,
             "neoClassName": "Covid.view.WorldMapContainerController"
         },
         {
@@ -151,7 +151,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100112801",
+                    "id": "astnode100113216",
                     "name": "WorldMapContainerController#onSeriesButtonClick",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -179,7 +179,7 @@
             "scope": "instance",
             "$longname": "WorldMapContainerController#onSeriesButtonClick",
             "$kind": "method",
-            "id": 3421,
+            "id": 3424,
             "neoClassName": "Covid.view.WorldMapContainerController"
         }
     ]

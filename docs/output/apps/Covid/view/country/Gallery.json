@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.country.Gallery",
             "$kind": "class",
-            "id": 3209,
+            "id": 3211,
             "neoClassName": "Covid.view.country.Gallery"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3210,
+            "id": 3212,
             "neoClassName": "Covid.view.country.Gallery"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 3211,
+            "id": 3213,
             "neoClassName": "Covid.view.country.Gallery"
         },
         {
@@ -94,7 +94,7 @@
             "scope": "global",
             "$longname": "imageHeight",
             "$kind": "property",
-            "id": 3212,
+            "id": 3214,
             "neoClassName": "Covid.view.country.Gallery"
         },
         {
@@ -119,7 +119,7 @@
             "scope": "global",
             "$longname": "imageWidth",
             "$kind": "property",
-            "id": 3213,
+            "id": 3215,
             "neoClassName": "Covid.view.country.Gallery"
         },
         {
@@ -142,7 +142,7 @@
             "scope": "global",
             "$longname": "itemTpl_",
             "$kind": "property",
-            "id": 3214,
+            "id": 3216,
             "neoClassName": "Covid.view.country.Gallery"
         },
         {
@@ -167,7 +167,7 @@
             "scope": "global",
             "$longname": "keyProperty",
             "$kind": "property",
-            "id": 3215,
+            "id": 3217,
             "neoClassName": "Covid.view.country.Gallery"
         },
         {
@@ -192,7 +192,7 @@
             "scope": "global",
             "$longname": "selectOnMount",
             "$kind": "property",
-            "id": 3216,
+            "id": 3218,
             "neoClassName": "Covid.view.country.Gallery"
         },
         {
@@ -216,7 +216,7 @@
             "scope": "global",
             "$longname": "store",
             "$kind": "property",
-            "id": 3217,
+            "id": 3219,
             "neoClassName": "Covid.view.country.Gallery"
         },
         {
@@ -231,7 +231,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
                 "code": {
-                    "id": "astnode100105444",
+                    "id": "astnode100105792",
                     "name": "CountryGallery#createItem",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -288,7 +288,7 @@
             "scope": "instance",
             "$longname": "CountryGallery#createItem",
             "$kind": "method",
-            "id": 3218,
+            "id": 3220,
             "neoClassName": "Covid.view.country.Gallery"
         },
         {
@@ -303,7 +303,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
                 "code": {
-                    "id": "astnode100105692",
+                    "id": "astnode100106040",
                     "name": "CountryGallery#getItemId",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -341,7 +341,7 @@
             "scope": "instance",
             "$longname": "CountryGallery#getItemId",
             "$kind": "method",
-            "id": 3219,
+            "id": 3221,
             "neoClassName": "Covid.view.country.Gallery"
         },
         {
@@ -356,7 +356,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view/country",
                 "code": {
-                    "id": "astnode100105705",
+                    "id": "astnode100106053",
                     "name": "CountryGallery#onStoreLoad",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -384,7 +384,7 @@
             "scope": "instance",
             "$longname": "CountryGallery#onStoreLoad",
             "$kind": "method",
-            "id": 3220,
+            "id": 3222,
             "neoClassName": "Covid.view.country.Gallery"
         }
     ]

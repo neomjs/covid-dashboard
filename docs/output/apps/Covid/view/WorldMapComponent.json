@@ -19,7 +19,7 @@
             "scope": "static",
             "$longname": "Covid.view.WorldMapComponent",
             "$kind": "class",
-            "id": 3401,
+            "id": 3404,
             "neoClassName": "Covid.view.WorldMapComponent"
         },
         {
@@ -44,7 +44,7 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3402,
+            "id": 3405,
             "neoClassName": "Covid.view.WorldMapComponent"
         },
         {
@@ -69,7 +69,7 @@
             "scope": "global",
             "$longname": "ntype",
             "$kind": "property",
-            "id": 3403,
+            "id": 3406,
             "neoClassName": "Covid.view.WorldMapComponent"
         },
         {
@@ -93,7 +93,7 @@
             "scope": "global",
             "$longname": "chartType",
             "$kind": "property",
-            "id": 3404,
+            "id": 3407,
             "neoClassName": "Covid.view.WorldMapComponent"
         },
         {
@@ -117,7 +117,7 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 3405,
+            "id": 3408,
             "neoClassName": "Covid.view.WorldMapComponent"
         },
         {
@@ -141,7 +141,7 @@
             "scope": "global",
             "$longname": "dataPath",
             "$kind": "property",
-            "id": 3406,
+            "id": 3409,
             "neoClassName": "Covid.view.WorldMapComponent"
         },
         {
@@ -165,7 +165,7 @@
             "scope": "global",
             "$longname": "heatRulesMaxValue",
             "$kind": "property",
-            "id": 3407,
+            "id": 3410,
             "neoClassName": "Covid.view.WorldMapComponent"
         },
         {
@@ -189,7 +189,7 @@
             "scope": "global",
             "$longname": "package",
             "$kind": "property",
-            "id": 3408,
+            "id": 3411,
             "neoClassName": "Covid.view.WorldMapComponent"
         },
         {
@@ -212,7 +212,7 @@
             "scope": "global",
             "$longname": "chartConfig",
             "$kind": "property",
-            "id": 3409,
+            "id": 3412,
             "neoClassName": "Covid.view.WorldMapComponent"
         },
         {
@@ -227,7 +227,7 @@
                 "columnno": 4,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {
-                    "id": "astnode100112455",
+                    "id": "astnode100112870",
                     "name": "WorldMapComponent#loadData",
                     "type": "MethodDefinition",
                     "paramnames": [
@@ -255,7 +255,7 @@
             "scope": "instance",
             "$longname": "WorldMapComponent#loadData",
             "$kind": "method",
-            "id": 3410,
+            "id": 3413,
             "neoClassName": "Covid.view.WorldMapComponent"
         }
     ]

@@ -4,7 +4,7 @@
             "comment": "/**\n * @class Covid.view.MainContainer\n * @extends Neo.container.Viewport\n */",
             "meta": {
                 "filename": "MainContainer.mjs",
-                "lineno": 13,
+                "lineno": 7,
                 "columnno": 0,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {}
@@ -19,14 +19,14 @@
             "scope": "static",
             "$longname": "Covid.view.MainContainer",
             "$kind": "class",
-            "id": 3306,
+            "id": 3308,
             "neoClassName": "Covid.view.MainContainer"
         },
         {
             "comment": "/**\n         * @member {String} className='Covid.view.MainContainer'\n         * @protected\n         */",
             "meta": {
                 "filename": "MainContainer.mjs",
-                "lineno": 23,
+                "lineno": 17,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {}
@@ -44,14 +44,14 @@
             "scope": "global",
             "$longname": "className",
             "$kind": "property",
-            "id": 3307,
+            "id": 3309,
             "neoClassName": "Covid.view.MainContainer"
         },
         {
             "comment": "/**\n         * @member {Boolean} autoMount=true\n         */",
             "meta": {
                 "filename": "MainContainer.mjs",
-                "lineno": 27,
+                "lineno": 21,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {}
@@ -68,14 +68,14 @@
             "scope": "global",
             "$longname": "autoMount",
             "$kind": "property",
-            "id": 3308,
+            "id": 3310,
             "neoClassName": "Covid.view.MainContainer"
         },
         {
             "comment": "/**\n         * @member {Array} cls=['covid-viewport', 'neo-viewport']\n         */",
             "meta": {
                 "filename": "MainContainer.mjs",
-                "lineno": 31,
+                "lineno": 25,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {}
@@ -93,14 +93,14 @@
             "scope": "global",
             "$longname": "cls",
             "$kind": "property",
-            "id": 3309,
+            "id": 3311,
             "neoClassName": "Covid.view.MainContainer"
         },
         {
             "comment": "/**\n         * @member {Neo.controller.Component} controller=MainContainerController\n         */",
             "meta": {
                 "filename": "MainContainer.mjs",
-                "lineno": 35,
+                "lineno": 29,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {}
@@ -117,14 +117,14 @@
             "scope": "global",
             "$longname": "controller",
             "$kind": "property",
-            "id": 3310,
+            "id": 3312,
             "neoClassName": "Covid.view.MainContainer"
         },
         {
             "comment": "/**\n         * @member {Array} items\n         */",
             "meta": {
                 "filename": "MainContainer.mjs",
-                "lineno": 39,
+                "lineno": 33,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {}
@@ -140,14 +140,14 @@
             "scope": "global",
             "$longname": "items",
             "$kind": "property",
-            "id": 3311,
+            "id": 3313,
             "neoClassName": "Covid.view.MainContainer"
         },
         {
             "comment": "/**\n         * @member {Object} layout={ntype: 'vbox', align: 'stretch'}\n         */",
             "meta": {
                 "filename": "MainContainer.mjs",
-                "lineno": 95,
+                "lineno": 90,
                 "columnno": 8,
                 "path": "/Users/Shared/github/neomjs/covid-dashboard/apps/covid/view",
                 "code": {}
@@ -165,7 +165,7 @@
             "scope": "global",
             "$longname": "layout",
             "$kind": "property",
-            "id": 3312,
+            "id": 3314,
             "neoClassName": "Covid.view.MainContainer"
         }
     ]

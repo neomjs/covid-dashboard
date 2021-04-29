@@ -17,9 +17,9 @@ class TableContainerController extends ComponentController {
          */
         apiBaseUrl: 'https://disease.sh/',
         /**
-         * @member {String} apiHistoricalDataEndpoint='historical'
+         * @member {String} apiHistoricalDataEndpoint='v3/covid-19/historical/'
          */
-        apiHistoricalDataEndpoint: 'v2/historical/',
+        apiHistoricalDataEndpoint: 'v3/covid-19/historical/',
         /**
          * Number of days you want the data to go back to. Default is 30. Use all for full data set. Ex: 15, all, 24
          * @member {Number|String} apiHistoricalDataTimeRange='all'
@@ -46,9 +46,7 @@ class TableContainerController extends ComponentController {
      */
     onConstructed() {
         super.onConstructed();
-
-        const me = this;
-
+        let me = this;
         me.component.on('countrySelect', me.onTableSelect, me);
     }
 
@@ -57,11 +55,10 @@ class TableContainerController extends ComponentController {
      * @param {Object} data
      */
     addStoreItems(data) {
-        const me        = this,
-              dataArray = [],
-              map       = {};
-
-        let timeline  = data && data.timeline,
+        let me        = this,
+            dataArray = [],
+            map       = {},
+            timeline  = data && data.timeline,
             nextItem;
 
         // https://github.com/NovelCOVID/API/issues/309 // different format for 'all'
@@ -70,11 +67,11 @@ class TableContainerController extends ComponentController {
         }
 
         if (timeline) {
-            Object.entries(timeline.cases).forEach(([key, value]) => {
+            Object.entries(timeline.cases || {}).forEach(([key, value]) => {
                 map[key] = {date: new Date(key).toISOString(), cases: value};
             });
 
-            Object.entries(timeline.deaths).forEach(([key, value]) => {
+            Object.entries(timeline.deaths || {}).forEach(([key, value]) => {
                 if (map.hasOwnProperty(key)) {
                     map[key].deaths = value;
                 } else {
@@ -82,15 +79,13 @@ class TableContainerController extends ComponentController {
                 }
             });
 
-            if (timeline.hasOwnProperty('recovered')) {
-                Object.entries(timeline.recovered).forEach(([key, value]) => {
-                    if (map.hasOwnProperty(key)) {
-                        map[key].recovered = value;
-                    } else {
-                        map[key] = {date: new Date(key).toISOString(), recovered: value};
-                    }
-                });
-            }
+            Object.entries(timeline.recovered || {}).forEach(([key, value]) => {
+                if (map.hasOwnProperty(key)) {
+                    map[key].recovered = value;
+                } else {
+                    map[key] = {date: new Date(key).toISOString(), recovered: value};
+                }
+            });
 
             Object.entries(map).forEach(([key, value]) => {
                 value.active = value.cases - value.deaths - value.recovered;
