@@ -82,7 +82,7 @@ class MainContainerController extends ComponentController {
         if (!Neo.config.hash) {
             me.onHashChange({
                 country   : 'all',
-                hash      : {mainView: 'table'},
+                hash      : {mainview: 'table'},
                 hashString: 'mainview=table'
             }, null);
         }
@@ -115,7 +115,9 @@ class MainContainerController extends ComponentController {
         }
 
         if (['gallery', 'helix', 'table'].includes(reference)) {
-            activeTab.store.data = data;
+            if (activeTab) {
+                activeTab.store.data = data;
+            }
         }
 
         else if (reference === 'mapboxglmap') {
@@ -203,8 +205,8 @@ class MainContainerController extends ComponentController {
 
         fetch(me.apiUrl)
             .then(response => response.json())
-            .then(data => me.addStoreItems(data))
-            .catch(err => console.log('Can’t access ' + me.apiUrl, err));
+            .catch(err => console.log('Can’t access ' + me.apiUrl, err))
+            .then(data => me.addStoreItems(data));
     }
 
     /**
@@ -215,8 +217,8 @@ class MainContainerController extends ComponentController {
 
         fetch(me.apiSummaryUrl)
             .then(response => response.json())
-            .then(data => me.applySummaryData(data))
-            .catch(err => console.log('Can’t access ' + me.apiSummaryUrl, err));
+            .catch(err => console.log('Can’t access ' + me.apiSummaryUrl, err))
+            .then(data => me.applySummaryData(data));
 
         setTimeout(() => {
             if (!me.summaryData) {
@@ -256,11 +258,12 @@ class MainContainerController extends ComponentController {
     onHashChange(value, oldValue) {
         let me             = this,
             activeIndex    = me.getTabIndex(value.hash),
+            activeView     = me.getView(activeIndex),
             country        = value.hash && value.hash.country,
             countryField   = me.getReference('country-field'),
             tabContainer   = me.getReference('tab-container'),
-            activeView     = me.getView(activeIndex),
             delaySelection = !me.data ? 1000 : tabContainer.activeIndex !== activeIndex ? 100 : 0,
+            listeners      = me.mainTabsListeners,
             id, ntype, selectionModel;
 
         tabContainer.activeIndex = activeIndex;
@@ -296,8 +299,6 @@ class MainContainerController extends ComponentController {
                 me.mapboxglMapHasData = true;
             }
 
-            // console.log(countryField.getRecord());
-
             if (me.countryRecord) {
                 MainContainerController.selectMapboxGlCountry(activeView, me.countryRecord);
             }
@@ -321,9 +322,9 @@ class MainContainerController extends ComponentController {
                     }
 
                     switch(ntype) {
-                        case 'gallery':
-                            if (!me.mainTabsListeners.includes('gallery')) {
-                                me.mainTabsListeners.push('gallery');
+                        case 'gallery': {
+                            if (!listeners.includes('gallery')) {
+                                listeners.push('gallery');
                                 me.getReference('gallery').on('select', me.updateCountryField, me);
                             }
 
@@ -331,9 +332,10 @@ class MainContainerController extends ComponentController {
                                 selectionModel.select(country, false);
                             }
                             break;
-                        case 'helix':
-                            if (!me.mainTabsListeners.includes('helix')) {
-                                me.mainTabsListeners.push('helix');
+                        }
+                        case 'helix': {
+                            if (!listeners.includes('helix')) {
+                                listeners.push('helix');
                                 me.getReference('helix').on('select', me.updateCountryField, me);
                             }
 
@@ -344,9 +346,10 @@ class MainContainerController extends ComponentController {
                                 activeView.onKeyDownSpace(null);
                             }
                             break;
-                        case 'table-container':
-                            if (!me.mainTabsListeners.includes('table')) {
-                                me.mainTabsListeners.push('table');
+                        }
+                        case 'table-container': {
+                            if (!listeners.includes('table')) {
+                                listeners.push('table');
 
                                 me.getReference('table').on({
                                     deselect: me.clearCountryField,
@@ -364,6 +367,7 @@ class MainContainerController extends ComponentController {
                                 Neo.main.DomAccess.scrollToTableRow({id: id});
                             }
                             break;
+                        }
                     }
                 }
             }, delaySelection);
@@ -516,7 +520,7 @@ class MainContainerController extends ComponentController {
             layerId: 'ne-10m-admin-0-countries-4s7rvf',
             value  : map[record.countryInfo.iso3] || map['default']
         });
-        
+
         view.flyTo({
             lat: record.countryInfo.lat,
             lng: record.countryInfo.long
