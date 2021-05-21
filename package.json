@@ -1,6 +1,6 @@
 {
     "name": "covid19-dashboard",
-    "version": "1.0.42",
+    "version": "1.0.43",
     "description": "Dashboard App displaying COVID-19 numbers by country",
     "repository": {
         "type": "git",
