@@ -1,9 +1,0 @@
-@use "sass:map";
-$neoMap: ();
-
-$useCssVars: true;
-
-@import "../../../../node_modules/neo.mjs/resources/scss/mixins/all";
-@import "../../../../node_modules/neo.mjs/resources/scss/theme-dark/all";
-
-@import "../../../../resources/scss/theme-dark/all";

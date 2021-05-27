@@ -1,5 +1,4 @@
 {
-    "bodyTag": "<body>",
     "mainInput": "./src/Main.mjs",
     "mainOutput": "main.js",
     "workers": {
@@ -16,19 +15,8 @@
             "output": "vdomworker.js"
         }
     },
-    "apps": {
-        "Docs": {
-            "input": "./docs/app.mjs",
-            "mainThreadAddons": "'DragDrop', 'HighlightJS', 'Stylesheet'",
-            "output": "/docs/",
-            "title": "Neo Docs"
-        },
-        "Covid": {
-            "input": "./apps/covid/app.mjs",
-            "mainThreadAddons": "'AmCharts', 'DragDrop', 'MapboxGL', 'Stylesheet'",
-            "output": "/apps/covid/",
-            "themes": "'neo-theme-dark', 'neo-theme-light'",
-            "title": "COVID-19 IN NUMBERS"
-        }
-    }
+    "apps": [
+        "Covid",
+        "Docs"
+    ]
 }
