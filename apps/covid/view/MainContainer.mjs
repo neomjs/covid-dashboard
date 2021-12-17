@@ -1,6 +1,7 @@
 import FooterContainer         from './FooterContainer.mjs';
 import HeaderContainer         from './HeaderContainer.mjs';
 import MainContainerController from './MainContainerController.mjs';
+import MainContainerModel      from './MainContainerModel.mjs';
 import TabContainer            from '../../../node_modules/neo.mjs/src/tab/Container.mjs';
 import Viewport                from '../../../node_modules/neo.mjs/src/container/Viewport.mjs';
 
@@ -87,7 +88,11 @@ class MainContainer extends Viewport {
         /**
          * @member {Object} layout={ntype: 'vbox', align: 'stretch'}
          */
-        layout: {ntype: 'vbox', align: 'stretch'}
+        layout: {ntype: 'vbox', align: 'stretch'},
+        /**
+         * @member {Neo.model.Component} model=MainContainerModel
+         */
+        model: MainContainerModel
     }}
 }
 

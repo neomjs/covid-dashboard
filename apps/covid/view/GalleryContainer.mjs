@@ -190,18 +190,19 @@ class GalleryContainer extends Container {
     }}
 
     /**
-     *
      * @param {Object} config
      */
-    constructor(config) {
-        super(config);
+    construct(config) {
+        super.construct(config);
 
         const me = this;
 
         me.gallery = Neo.create({
             module   : Gallery,
+            appName  : me.appName,
+            parentId : me.id,
             reference: 'gallery',
-            ...me.galleryConfig || {}
+            ...me.galleryConfig
         });
 
         me.items[0].items.push(me.gallery);

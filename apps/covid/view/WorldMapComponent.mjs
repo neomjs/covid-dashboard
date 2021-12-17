@@ -60,7 +60,7 @@ class WorldMapComponent extends AmChartComponent {
                     property: 'fill',
                     target  : 'mapPolygons.template'
                 }],
-                
+
                 mapPolygons: {
                     tooltipText: '{name}: [bold]{value}[/]',
                     //fill       : '#74B266',
@@ -78,7 +78,6 @@ class WorldMapComponent extends AmChartComponent {
     }}
 
     /**
-     *
      * @param {Object[]} data
      */
     loadData(data) {

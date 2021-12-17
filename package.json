@@ -1,6 +1,6 @@
 {
     "name": "covid19-dashboard",
-    "version": "1.0.44",
+    "version": "1.0.45",
     "description": "Dashboard App displaying COVID-19 numbers by country",
     "repository": {
         "type": "git",
@@ -36,7 +36,7 @@
     },
     "homepage": "https://neomjs.github.io/pages/",
     "dependencies": {
-        "neo.mjs": "^2.2.0"
+        "neo.mjs": "^3.0.0"
     },
     "funding": {
         "type": "GitHub Sponsors",

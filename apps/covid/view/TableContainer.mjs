@@ -3,6 +3,7 @@ import Container                from '../../../node_modules/neo.mjs/src/containe
 import HistoricalDataTable      from './country/HistoricalDataTable.mjs';
 import LineChartComponent       from './country/LineChartComponent.mjs'
 import Panel                    from '../../../node_modules/neo.mjs/src/container/Panel.mjs';
+import Splitter                 from '../../../node_modules/neo.mjs/src/component/Splitter.mjs';
 import TabContainer             from '../../../node_modules/neo.mjs/src/tab/Container.mjs';
 import Table                    from './country/Table.mjs';
 import TableContainerController from './TableContainerController.mjs';
@@ -19,13 +20,19 @@ class TableContainer extends Container {
          */
         className: 'Covid.view.TableContainer',
         /**
-         * @member {Boolean} autoMount=true
+         * @member {Object} bind
          */
-        autoMount: true,
+        bind: {
+            countryRecord: data => data.countryRecord
+        },
         /**
          * @member {Neo.controller.Component|null} controller=TableContainerController
          */
         controller: TableContainerController,
+        /**
+         * @member {Object} countryRecord_=null
+         */
+        countryRecord_: null,
         /**
          * @member {Number} historyPanelWidth=520
          * @protected
@@ -51,6 +58,8 @@ class TableContainer extends Container {
             flex  : 1,
             layout: 'fit',
             items : []
+        }, {
+            module: Splitter
         }, {
             module   : Panel,
             cls      : ['neo-configuration-panel', 'neo-panel', 'neo-container'],
@@ -128,16 +137,17 @@ class TableContainer extends Container {
     }}
 
     /**
-     *
      * @param {Object} config
      */
-    constructor(config) {
-        super(config);
+    construct(config) {
+        super.construct(config);
 
         let me = this;
 
         me.historicalDataTable = Neo.create({
             module   : HistoricalDataTable,
+            appName  : me.appName,
+            parentId : me.id,
             reference: 'historical-data-table',
 
             tabButtonConfig: {
@@ -145,18 +155,32 @@ class TableContainer extends Container {
                 text   : 'Table'
             },
 
-            ...me.historicalDataTableConfig || {}
+            ...me.historicalDataTableConfig
         });
 
-        me.items[1].items[0].items.push(me.historicalDataTable);
+        me.items[2].items[0].items.push(me.historicalDataTable);
 
         me.table = Neo.create({
             module   : Table,
+            appName  : me.appName,
+            parentId : me.id,
             reference: 'table',
-            ...me.tableConfig || {}
+            ...me.tableConfig,
         });
 
         me.items[0].items.push(me.table);
+    }
+
+    /**
+     * Triggered after the countryRecord config got changed
+     * @param {String|null} value
+     * @param {String|null} oldValue
+     * @protected
+     */
+    afterSetCountryRecord(value, oldValue) {
+        setTimeout(() => {
+            this.controller.onCountryChange(value);
+        }, this.isConstructed ? 0 : 50);
     }
 }
 
