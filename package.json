@@ -1,21 +1,22 @@
 {
     "name": "covid19-dashboard",
-    "version": "1.0.45",
+    "version": "1.0.46",
     "description": "Dashboard App displaying COVID-19 numbers by country",
+    "type": "module",
     "repository": {
         "type": "git",
         "url": "https://github.com/neomjs/covid-dashboard.git"
     },
     "scripts": {
-        "build-all": "node ./node_modules/neo.mjs/buildScripts/buildAll.js -n",
-        "build-all-questions": "node ./buildScripts/buildAll.js",
-        "build-my-apps": "node ./node_modules/neo.mjs/buildScripts/webpack/buildMyApps.js",
-        "build-themes": "node ./node_modules/neo.mjs/buildScripts/webpack/buildThemes.js",
-        "build-threads": "node ./node_modules/neo.mjs/buildScripts/webpack/buildThreads.js",
-        "copy-examples": "node ./buildScripts/copyExamples.js",
-        "create-app": "node ./node_modules/neo.mjs/buildScripts/createApp.js",
-        "generate-docs-json": "node ./node_modules/neo.mjs/buildScripts/docs/jsdocx.js",
-        "server-start": "webpack serve -c ./node_modules/neo.mjs/buildScripts/webpack/webpack.server.config.js --open",
+        "build-all": "node ./node_modules/neo.mjs/buildScripts/buildAll.mjs -n",
+        "build-all-questions": "node ./buildScripts/buildAll.mjs",
+        "build-my-apps": "node ./node_modules/neo.mjs/buildScripts/webpack/buildMyApps.mjs",
+        "build-themes": "node ./node_modules/neo.mjs/buildScripts/webpack/buildThemes.mjs",
+        "build-threads": "node ./node_modules/neo.mjs/buildScripts/webpack/buildThreads.mjs",
+        "copy-examples": "node ./buildScripts/copyExamples.mjs",
+        "create-app": "node ./node_modules/neo.mjs/buildScripts/createApp.mjs",
+        "generate-docs-json": "node ./node_modules/neo.mjs/buildScripts/docs/jsdocx.mjs",
+        "server-start": "webpack serve -c ./node_modules/neo.mjs/buildScripts/webpack/webpack.server.config.mjs --open",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "keywords": [
@@ -36,7 +37,7 @@
     },
     "homepage": "https://neomjs.github.io/pages/",
     "dependencies": {
-        "neo.mjs": "^3.0.0"
+        "neo.mjs": "^3.1.0"
     },
     "funding": {
         "type": "GitHub Sponsors",

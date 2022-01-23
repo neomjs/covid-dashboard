@@ -1,9 +1,9 @@
-'use strict';
+import fs   from 'fs-extra';
+import path from 'path';
 
 const cwd          = process.cwd(),
-      fs           = require('fs-extra'),
-      path         = require('path'),
       examplesPath = path.join(cwd, 'examples'),
+      requireJson  = path => JSON.parse(fs.readFileSync((path))),
       startDate    = new Date(),
       srcPath      = [
           '../node_modules/neo.mjs/src/',
@@ -24,9 +24,7 @@ const cwd          = process.cwd(),
 fs.mkdirpSync(examplesPath);
 fs.copySync(path.join(cwd, 'node_modules/neo.mjs/examples'), examplesPath);
 
-const isFile = fileName => {
-    return fs.lstatSync(fileName).isFile()
-};
+const isFile = fileName => fs.lstatSync(fileName).isFile();
 
 const parseFolder = (folderPath, index) => {
     let content, i, itemPath, prefix;
@@ -36,7 +34,7 @@ const parseFolder = (folderPath, index) => {
 
         if (isFile(itemPath)) {
             if (itemName === 'neo-config.json') {
-                content = require(itemPath);
+                content = requireJson(itemPath);
                 prefix  = '';
 
                 for (i=0; i < index; i++) {
